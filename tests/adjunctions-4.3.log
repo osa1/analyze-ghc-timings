@@ -1,0 +1,2028 @@
+cabal: Entering directory '/tmp/cabal-tmp-8268/adjunctions-4.3'
+Configuring adjunctions-4.3...
+creating dist/dist-sandbox-8e35af7f/build
+creating dist/dist-sandbox-8e35af7f
+creating dist
+creating dist/dist-sandbox-8e35af7f
+creating dist/dist-sandbox-8e35af7f/build
+Searching for ghc-stage2 in path.
+Found ghc-stage2 at /home/omer/haskell/ghc/inplace/bin/ghc-stage2
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--numeric-version"])
+/home/omer/haskell/ghc/inplace/bin/ghc-stage2 is version 8.1.20160328
+looking for tool ghc-pkg near compiler in /home/omer/haskell/ghc/inplace/bin
+found ghc-pkg in /home/omer/haskell/ghc/inplace/bin/ghc-pkg
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["--version"])
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg is version 8.1.20160328
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--supported-languages"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--info"])
+Reading installed packages...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--global","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--package-db=/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--print-libdir","-v3"])
+Dependency array ==0.5.1.0: using array-0.5.1.0
+Dependency base ==4.9.0.0: using base-4.9.0.0
+Dependency comonad ==5: using comonad-5
+Dependency containers ==0.5.7.1: using containers-0.5.7.1
+Dependency contravariant ==1.4: using contravariant-1.4
+Dependency distributive ==0.5.0.2: using distributive-0.5.0.2
+Dependency free ==4.12.4: using free-4.12.4
+Dependency mtl ==2.2.1: using mtl-2.2.1
+Dependency profunctors ==5.2: using profunctors-5.2
+Dependency semigroupoids ==5.0.1: using semigroupoids-5.0.1
+Dependency semigroups ==0.18.1: using semigroups-0.18.1
+Dependency tagged ==0.8.3: using tagged-0.8.3
+Dependency transformers ==0.5.2.0: using transformers-0.5.2.0
+Dependency transformers-compat ==0.5.1.4: using transformers-compat-0.5.1.4
+Dependency void ==0.7.1: using void-0.7.1
+Searching for alex in path.
+Found alex at /home/omer/.cabal/bin/alex
+("/home/omer/.cabal/bin/alex",["--version"])
+/home/omer/.cabal/bin/alex is version 3.1.5
+Searching for ar in path.
+Found ar at /usr/bin/ar
+Searching for c2hs in path.
+Cannot find c2hs on the path
+Searching for cpphs in path.
+Found cpphs at /home/omer/.cabal/bin/cpphs
+("/home/omer/.cabal/bin/cpphs",["--version"])
+/home/omer/.cabal/bin/cpphs is version 1.19.3
+Searching for gcc in path.
+Found gcc at /usr/bin/gcc
+("/usr/bin/gcc",["-dumpversion"])
+/usr/bin/gcc is version 4.8
+Searching for ghcjs in path.
+Cannot find ghcjs on the path
+Searching for ghcjs-pkg in path.
+Cannot find ghcjs-pkg on the path
+Searching for greencard in path.
+Cannot find greencard on the path
+looking for tool haddock near compiler in /home/omer/haskell/ghc/inplace/bin
+Searching for haddock in path.
+Cannot find haddock on the path
+Searching for happy in path.
+Found happy at /home/omer/.cabal/bin/happy
+("/home/omer/.cabal/bin/happy",["--version"])
+/home/omer/.cabal/bin/happy is version 1.19.5
+Searching for hmake in path.
+Cannot find hmake on the path
+Searching for hpc in path.
+Found hpc at /home/omer/haskell/ghc/inplace/bin/hpc
+("/home/omer/haskell/ghc/inplace/bin/hpc",["version"])
+/home/omer/haskell/ghc/inplace/bin/hpc is version 0.67
+looking for tool hsc2hs near compiler in /home/omer/haskell/ghc/inplace/bin
+found hsc2hs in /home/omer/haskell/ghc/inplace/bin/hsc2hs
+("/home/omer/haskell/ghc/inplace/bin/hsc2hs",["--version"])
+/home/omer/haskell/ghc/inplace/bin/hsc2hs is version 0.67
+Searching for HsColour in path.
+Cannot find HsColour on the path
+Searching for jhc in path.
+Cannot find jhc on the path
+Searching for ld in path.
+Found ld at /usr/bin/ld
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["-c","/tmp/1804289383846930886.c","-o","/tmp/16816927771714636915.o","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 2 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc12374_0
+*** C Compiler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc12374_0/ghc_1.s -Wimplicit -S -include /home/omer/haskell/ghc/includes/ghcversion.h -I/home/omer/haskell/ghc/libraries/base/include -I/home/omer/haskell/ghc/libraries/integer-gmp/include -I/home/omer/haskell/ghc/rts/dist/build -I/home/omer/haskell/ghc/includes -I/home/omer/haskell/ghc/includes/dist-derivedconstants/header
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc12374_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc12374_0/ghc_2.rsp /tmp/ghc12374_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc12374_0
+("/usr/bin/ld",["-x","-r","/tmp/16816927771714636915.o","-o","/tmp/1957747793424238335.o"])
+Searching for lhc in path.
+Cannot find lhc on the path
+Searching for lhc-pkg in path.
+Cannot find lhc-pkg on the path
+Searching for pkg-config in path.
+Found pkg-config at /usr/bin/pkg-config
+("/usr/bin/pkg-config",["--version"])
+/usr/bin/pkg-config is version 0.28
+Searching for strip in path.
+Found strip at /usr/bin/strip
+("/usr/bin/strip",["--version"])
+/usr/bin/strip is version 2.24
+Searching for tar in path.
+Found tar at /bin/tar
+("/bin/tar",["--help"])
+Searching for uhc in path.
+Cannot find uhc on the path
+Using Cabal-1.23.1.0 compiled by ghc-7.10
+Using compiler: ghc-8.1.20160328
+Using install prefix: /home/omer/haskell/lens/.cabal-sandbox
+Binaries installed in: /home/omer/haskell/lens/.cabal-sandbox/bin
+Libraries installed in:
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO
+Private binaries installed in: /home/omer/haskell/lens/.cabal-sandbox/libexec
+Data files installed in:
+/home/omer/haskell/lens/.cabal-sandbox/share/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3
+Documentation installed in:
+/home/omer/haskell/lens/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3
+Configuration files installed in: /home/omer/haskell/lens/.cabal-sandbox/etc
+Using alex version 3.1.5 found on system at: /home/omer/.cabal/bin/alex
+Using ar found on system at: /usr/bin/ar
+No c2hs found
+Using cpphs version 1.19.3 found on system at: /home/omer/.cabal/bin/cpphs
+Using gcc version 4.8 found on system at: /usr/bin/gcc
+Using ghc version 8.1.20160328 given by user at:
+/home/omer/haskell/ghc/inplace/bin/ghc-stage2
+Using ghc-pkg version 8.1.20160328 found on system at:
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+No haddock found
+Using happy version 1.19.5 found on system at: /home/omer/.cabal/bin/happy
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hpc
+Using hsc2hs version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hsc2hs
+No hscolour found
+No jhc found
+Using ld found on system at: /usr/bin/ld
+No lhc found
+No lhc-pkg found
+Using pkg-config version 0.28 found on system at: /usr/bin/pkg-config
+Using strip version 2.24 found on system at: /usr/bin/strip
+Using tar found on system at: /bin/tar
+No uhc found
+("/usr/bin/gcc",["-std=gnu99","-fno-stack-protector","/tmp/5965166491189641421.c","-o","/tmp/10252023621350490027","-D__GLASGOW_HASKELL__=801","-Dlinux_BUILD_OS=1","-Dx86_64_BUILD_ARCH=1","-Dlinux_HOST_OS=1","-Dx86_64_HOST_ARCH=1","-Idist/dist-sandbox-8e35af7f/build/autogen","-I.","-I/home/omer/haskell/ghc/libraries/directory/include","-I/home/omer/haskell/ghc/libraries/unix/include","-I/home/omer/haskell/ghc/libraries/time/lib/include","-I/home/omer/haskell/ghc/libraries/bytestring/include","-I/home/omer/haskell/ghc/libraries/containers/include","-I/home/omer/haskell/ghc/libraries/base/include","-I/home/omer/haskell/ghc/libraries/integer-gmp/include","-I/home/omer/haskell/ghc/rts/dist/build","-I/home/omer/haskell/ghc/includes","-I/home/omer/haskell/ghc/includes/dist-derivedconstants/header","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/free-4.12.4-KVDWJJ9Cl37JMKiHeoryvr","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/semigroupoids-5.0.1-IsTPe3wPVgu95emklT5YXw","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/profunctors-5.2-1kdkpP4RccLJz0ehUD8cUO","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/prelude-extras-0.4.0.3-FAyB4iuuM7cHXdrLMZtdXq","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/exceptions-0.8.2.1-KRhvi1lhaFUEiXnCWPbwYD","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/bifunctors-5.2.1-6QmG9OdJAVWATFcVvMN043","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/comonad-5-5gFuocOc39NDuYdJfFj4w5","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/distributive-0.5.0.2-602GriwDekjo0zhtN3nQ5","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/tagged-0.8.3-8b1z2z4BoWI61h7jlWM3yR","-L/home/omer/haskell/ghc/libraries/template-haskell/dist-install/build","-L/home/omer/haskell/ghc/libraries/pretty/dist-install/build","-L/home/omer/haskell/ghc/libraries/ghc-boot/dist-install/build","-L/home/omer/haskell/ghc/libraries/directory/dist-install/build","-L/home/omer/haskell/ghc/libraries/unix/dist-install/build","-L/home/omer/haskell/ghc/libraries/time/dist-install/build","-L/home/omer/haskell/ghc/libraries/filepath/dist-install/build","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/contravariant-1.4-p8fajuII3PIqtDOUwc1FN","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/void-0.7.1-JN2xFV06SqGCmtswzL4xwR","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/text-1.2.2.0-DNPL9j70xW29izEeMAP0sY","-L/home/omer/haskell/ghc/libraries/binary/dist-install/build","-L/home/omer/haskell/ghc/libraries/bytestring/dist-install/build","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/semigroups-0.18.1-2Ug5XAbvLWz4CGDwXtkoXz","-L/home/omer/haskell/ghc/libraries/containers/dist-install/build","-L/home/omer/haskell/ghc/libraries/deepseq/dist-install/build","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/base-orphans-0.5.0-GEC8AwQ6T273fOCyuCb0PX","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/StateVar-1.1.0.3-2I6FYiYsYEYBtM9QPtmh6u","-L/home/omer/haskell/ghc/libraries/transformers/dist-install/build","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio","-L/home/omer/haskell/ghc/libraries/array/dist-install/build","-L/home/omer/haskell/ghc/libraries/base/dist-install/build","-L/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build","-L/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build","-L/home/omer/haskell/ghc/rts/dist/build"])
+Component build order: library
+creating dist/dist-sandbox-8e35af7f/build
+creating dist/dist-sandbox-8e35af7f/build/autogen
+Building adjunctions-4.3...
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["init","dist/dist-sandbox-8e35af7f/package.conf.inplace","-v2"])
+GHC package manager version 8.1.20160328
+writing cache dist/dist-sandbox-8e35af7f/package.conf.inplace/package.cache
+Preprocessing library adjunctions-4.3...
+Building library...
+creating dist/dist-sandbox-8e35af7f/build
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--make","-v","-fbuilding-cabal-package","-O","-static","-dynamic-too","-dynosuf","dyn_o","-dynhisuf","dyn_hi","-outputdir","dist/dist-sandbox-8e35af7f/build","-odir","dist/dist-sandbox-8e35af7f/build","-hidir","dist/dist-sandbox-8e35af7f/build","-stubdir","dist/dist-sandbox-8e35af7f/build","-i","-idist/dist-sandbox-8e35af7f/build","-isrc","-idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build","-optP-include","-optPdist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h","-this-unit-id","adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-db","dist/dist-sandbox-8e35af7f/package.conf.inplace","-package-id","array-0.5.1.0","-package-id","base-4.9.0.0","-package-id","comonad-5-5gFuocOc39NDuYdJfFj4w5","-package-id","containers-0.5.7.1","-package-id","contravariant-1.4-p8fajuII3PIqtDOUwc1FN","-package-id","distributive-0.5.0.2-602GriwDekjo0zhtN3nQ5","-package-id","free-4.12.4-KVDWJJ9Cl37JMKiHeoryvr","-package-id","mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM","-package-id","profunctors-5.2-1kdkpP4RccLJz0ehUD8cUO","-package-id","semigroupoids-5.0.1-IsTPe3wPVgu95emklT5YXw","-package-id","semigroups-0.18.1-2Ug5XAbvLWz4CGDwXtkoXz","-package-id","tagged-0.8.3-8b1z2z4BoWI61h7jlWM3yR","-package-id","transformers-0.5.2.0","-package-id","transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N","-package-id","void-0.7.1-JN2xFV06SqGCmtswzL4xwR","-XHaskell98","Control.Comonad.Representable.Store","Control.Comonad.Trans.Adjoint","Control.Monad.Representable.Reader","Control.Monad.Representable.State","Control.Monad.Trans.Adjoint","Control.Monad.Trans.Contravariant.Adjoint","Control.Monad.Trans.Conts","Data.Functor.Adjunction","Data.Functor.Contravariant.Adjunction","Data.Functor.Contravariant.Rep","Data.Functor.Rep","-Wall","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 2 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-8e35af7f/package.conf.inplace/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-8e35af7f/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-8e35af7f/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Control.Comonad.Representable.Store,*Control.Comonad.Trans.Adjoint,*Control.Monad.Representable.Reader,*Control.Monad.Representable.State,*Control.Monad.Trans.Adjoint,*Control.Monad.Trans.Contravariant.Adjoint,*Control.Monad.Trans.Conts,*Data.Functor.Adjunction,*Data.Functor.Contravariant.Adjunction,*Data.Functor.Contravariant.Rep,*Data.Functor.Rep
+Created temporary directory: /tmp/ghc12398_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc12398_0/ghc_2.h -x assembler-with-cpp src/Control/Comonad/Representable/Store.hs -o /tmp/ghc12398_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc12398_0/ghc_4.h -x assembler-with-cpp src/Control/Comonad/Trans/Adjoint.hs -o /tmp/ghc12398_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc12398_0/ghc_6.h -x assembler-with-cpp src/Control/Monad/Representable/Reader.hs -o /tmp/ghc12398_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc12398_0/ghc_8.h -x assembler-with-cpp src/Control/Monad/Representable/State.hs -o /tmp/ghc12398_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc12398_0/ghc_10.h -x assembler-with-cpp src/Control/Monad/Trans/Adjoint.hs -o /tmp/ghc12398_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc12398_0/ghc_12.h -x assembler-with-cpp src/Control/Monad/Trans/Contravariant/Adjoint.hs -o /tmp/ghc12398_0/ghc_11.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc12398_0/ghc_14.h -x assembler-with-cpp src/Control/Monad/Trans/Conts.hs -o /tmp/ghc12398_0/ghc_13.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc12398_0/ghc_16.h -x assembler-with-cpp src/Data/Functor/Adjunction.hs -o /tmp/ghc12398_0/ghc_15.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc12398_0/ghc_18.h -x assembler-with-cpp src/Data/Functor/Contravariant/Adjunction.hs -o /tmp/ghc12398_0/ghc_17.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc12398_0/ghc_20.h -x assembler-with-cpp src/Data/Functor/Rep.hs -o /tmp/ghc12398_0/ghc_19.hscpp
+!!! Chasing dependencies: finished in 375.59 milliseconds, allocated 614.404 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:25:05.915432621 UTC
+         ms_mod = Data.Functor.Contravariant.Rep,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Proxy),
+                            (Nothing, Data.Profunctor), (Nothing, Data.Functor.Product),
+                            (Nothing, Data.Functor.Contravariant),
+                            (Nothing, Control.Monad.Reader)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:25:05.915432621 UTC
+         ms_mod = Data.Functor.Contravariant.Adjunction,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Profunctor),
+                            (Nothing, Data.Functor.Contravariant.Rep),
+                            (Nothing, Data.Functor.Contravariant)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:25:05.914432621 UTC
+         ms_mod = Control.Monad.Trans.Conts,
+         ms_textual_imps = [(Nothing, Data.Functor.Identity),
+                            (Nothing, Data.Functor.Apply), (Nothing, Control.Monad),
+                            (Nothing, Control.Monad.Trans.Class), (Nothing, Control.Comonad),
+                            (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:25:05.914432621 UTC
+         ms_mod = Control.Monad.Trans.Contravariant.Adjoint,
+         ms_textual_imps = [(Nothing,
+                             Data.Functor.Contravariant.Adjunction),
+                            (Nothing, Data.Functor.Contravariant),
+                            (Nothing, Data.Functor.Identity), (Nothing, Control.Monad),
+                            (Nothing, Control.Comonad), (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:25:05.914432621 UTC
+         ms_mod = Data.Functor.Rep,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Void),
+                            (Nothing, Data.Tagged), (Nothing, Data.Semigroup),
+                            (Nothing, Data.Sequence), (Nothing, Data.Sequence),
+                            (Nothing, Data.Proxy), (Nothing, Data.Profunctor),
+                            (Nothing, Data.Monoid), (Nothing, Data.Functor.Product),
+                            (Nothing, Data.Functor.Extend), (Nothing, Data.Functor.Compose),
+                            (Nothing, Data.Functor.Identity), (Nothing, Data.Functor.Bind),
+                            (Nothing, Data.Distributive), (Nothing, Data.Complex),
+                            (Nothing, Control.Monad.Reader),
+                            (Nothing, Control.Monad.Trans.Identity),
+                            (Nothing, Control.Comonad.Cofree),
+                            (Nothing, Control.Comonad.Trans.Traced),
+                            (Nothing, Control.Comonad.Trans.Class), (Nothing, Control.Comonad),
+                            (Nothing, Control.Arrow), (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:25:05.913432621 UTC
+         ms_mod = Control.Comonad.Representable.Store,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Semigroup),
+                            (Nothing, Data.Functor.Rep), (Nothing, Data.Functor.Extend),
+                            (Nothing, Data.Functor.Apply), (Nothing, Control.Monad.Identity),
+                            (Nothing, Control.Comonad.Trans.Class),
+                            (Nothing, Control.Comonad.Traced.Class),
+                            (Nothing, Control.Comonad.Store.Class),
+                            (Nothing, Control.Comonad.Hoist.Class),
+                            (Nothing, Control.Comonad.Env.Class),
+                            (Nothing, Control.Comonad.Cofree.Class),
+                            (Nothing, Control.Comonad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:25:05.913432621 UTC
+         ms_mod = Control.Monad.Representable.Reader,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Semigroup.Traversable),
+                            (Nothing, Data.Semigroup.Foldable), (Nothing, Data.Semigroup),
+                            (Nothing, Data.Traversable), (Nothing, Data.Foldable),
+                            (Nothing, Data.Functor.Rep), (Nothing, Data.Functor.Identity),
+                            (Nothing, Data.Functor.Extend), (Nothing, Data.Functor.Bind),
+                            (Nothing, Data.Distributive), (Nothing, Control.Monad.IO.Class),
+                            (Nothing, Control.Monad.Trans.Class),
+                            (Nothing, Control.Monad.Writer.Class),
+                            (Nothing, Control.Monad.Reader.Class), (Nothing, Control.Comonad),
+                            (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:25:05.914432621 UTC
+         ms_mod = Control.Monad.Representable.State,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Functor.Rep),
+                            (Nothing, Data.Functor.Identity),
+                            (Nothing, Control.Monad.Trans.Class),
+                            (Nothing, Control.Monad.Free.Class),
+                            (Nothing, Control.Monad.Writer.Class),
+                            (Nothing, Control.Monad.Reader.Class),
+                            (Nothing, Control.Monad.Cont.Class),
+                            (Nothing, Control.Monad.State.Class),
+                            (Nothing, Data.Functor.Bind.Trans), (Nothing, Data.Functor.Bind),
+                            (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:25:05.914432621 UTC
+         ms_mod = Data.Functor.Adjunction,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Void),
+                            (Nothing, Data.Profunctor), (Nothing, Data.Functor.Sum),
+                            (Nothing, Data.Functor.Rep), (Nothing, Data.Functor.Product),
+                            (Nothing, Data.Functor.Compose), (Nothing, Data.Functor.Identity),
+                            (Nothing, Control.Comonad.Trans.Traced),
+                            (Nothing, Control.Comonad.Trans.Env),
+                            (Nothing, Control.Comonad.Cofree), (Nothing, Control.Comonad),
+                            (Nothing, Control.Monad.Trans.Writer),
+                            (Nothing, Control.Monad.Trans.Reader),
+                            (Nothing, Control.Monad.Trans.Identity),
+                            (Nothing, Control.Monad.Free), (Nothing, Control.Arrow)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:25:05.913432621 UTC
+         ms_mod = Control.Comonad.Trans.Adjoint,
+         ms_textual_imps = [(Nothing, Data.Distributive),
+                            (Nothing, Data.Functor.Identity), (Nothing, Data.Functor.Extend),
+                            (Nothing, Data.Functor.Adjunction),
+                            (Nothing, Control.Comonad.Trans.Class), (Nothing, Control.Comonad),
+                            (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:25:05.914432621 UTC
+         ms_mod = Control.Monad.Trans.Adjoint,
+         ms_textual_imps = [(Nothing, Data.Functor.Identity),
+                            (Nothing, Data.Functor.Adjunction), (Nothing, Data.Traversable),
+                            (Nothing, Control.Monad.Trans.Class), (Nothing, Control.Monad),
+                            (Nothing, Prelude)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc12398_0/ghc_20.h /tmp/ghc12398_0/ghc_18.h /tmp/ghc12398_0/ghc_16.h /tmp/ghc12398_0/ghc_14.h /tmp/ghc12398_0/ghc_12.h /tmp/ghc12398_0/ghc_10.h /tmp/ghc12398_0/ghc_8.h /tmp/ghc12398_0/ghc_6.h /tmp/ghc12398_0/ghc_4.h /tmp/ghc12398_0/ghc_2.h
+compile: input file src/Data/Functor/Contravariant/Rep.hs
+*** Checking old interface for Data.Functor.Contravariant.Rep:
+[ 1 of 11] Compiling Data.Functor.Contravariant.Rep ( src/Data/Functor/Contravariant/Rep.hs, dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Rep.o )
+*** Parser [Data.Functor.Contravariant.Rep]:
+!!! Parser [Data.Functor.Contravariant.Rep]: finished in 7.04 milliseconds, allocated 12.200 megabytes
+*** Renamer/typechecker [Data.Functor.Contravariant.Rep]:
+!!! Renamer/typechecker [Data.Functor.Contravariant.Rep]: finished in 1187.69 milliseconds, allocated 2157.676 megabytes
+*** Desugar [Data.Functor.Contravariant.Rep]:
+Result size of Desugar (after optimization)
+  = {terms: 226, types: 760, coercions: 79}
+!!! Desugar [Data.Functor.Contravariant.Rep]: finished in 15.16 milliseconds, allocated 19.169 megabytes
+
+src/Data/Functor/Contravariant/Rep.hs:55:1: warning: [-Winline-rule-shadowing]
+    Rule "tabulate/index" may never fire
+      because rule "Class op index" for ‘index’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+*** Simplifier [Data.Functor.Contravariant.Rep]:
+Result size of Simplifier iteration=1
+  = {terms: 255, types: 842, coercions: 113}
+Result size of Simplifier
+  = {terms: 255, types: 842, coercions: 100}
+!!! Simplifier [Data.Functor.Contravariant.Rep]: finished in 14.36 milliseconds, allocated 18.012 megabytes
+*** Specialise [Data.Functor.Contravariant.Rep]:
+Result size of Specialise
+  = {terms: 255, types: 842, coercions: 100}
+!!! Specialise [Data.Functor.Contravariant.Rep]: finished in 1.54 milliseconds, allocated 2.601 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Functor.Contravariant.Rep]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 265, types: 910, coercions: 100}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Functor.Contravariant.Rep]: finished in 13.93 milliseconds, allocated 23.461 megabytes
+*** Simplifier [Data.Functor.Contravariant.Rep]:
+Result size of Simplifier iteration=1
+  = {terms: 262, types: 917, coercions: 249}
+Result size of Simplifier
+  = {terms: 262, types: 917, coercions: 229}
+!!! Simplifier [Data.Functor.Contravariant.Rep]: finished in 16.39 milliseconds, allocated 19.649 megabytes
+*** Simplifier [Data.Functor.Contravariant.Rep]:
+Result size of Simplifier
+  = {terms: 262, types: 917, coercions: 229}
+!!! Simplifier [Data.Functor.Contravariant.Rep]: finished in 6.88 milliseconds, allocated 8.745 megabytes
+*** Simplifier [Data.Functor.Contravariant.Rep]:
+Result size of Simplifier
+  = {terms: 262, types: 917, coercions: 229}
+!!! Simplifier [Data.Functor.Contravariant.Rep]: finished in 6.70 milliseconds, allocated 8.743 megabytes
+*** Float inwards [Data.Functor.Contravariant.Rep]:
+Result size of Float inwards
+  = {terms: 262, types: 917, coercions: 229}
+!!! Float inwards [Data.Functor.Contravariant.Rep]: finished in 0.54 milliseconds, allocated 1.244 megabytes
+*** Called arity analysis [Data.Functor.Contravariant.Rep]:
+Result size of Called arity analysis
+  = {terms: 262, types: 917, coercions: 229}
+!!! Called arity analysis [Data.Functor.Contravariant.Rep]: finished in 1.78 milliseconds, allocated 2.407 megabytes
+*** Simplifier [Data.Functor.Contravariant.Rep]:
+Result size of Simplifier
+  = {terms: 262, types: 917, coercions: 229}
+!!! Simplifier [Data.Functor.Contravariant.Rep]: finished in 6.76 milliseconds, allocated 8.744 megabytes
+*** Demand analysis [Data.Functor.Contravariant.Rep]:
+Result size of Demand analysis
+  = {terms: 262, types: 917, coercions: 229}
+!!! Demand analysis [Data.Functor.Contravariant.Rep]: finished in 4.59 milliseconds, allocated 6.453 megabytes
+*** Worker Wrapper binds [Data.Functor.Contravariant.Rep]:
+Result size of Worker Wrapper binds
+  = {terms: 337, types: 1,182, coercions: 229}
+!!! Worker Wrapper binds [Data.Functor.Contravariant.Rep]: finished in 1.74 milliseconds, allocated 1.955 megabytes
+*** Simplifier [Data.Functor.Contravariant.Rep]:
+Result size of Simplifier iteration=1
+  = {terms: 311, types: 1,115, coercions: 257}
+Result size of Simplifier iteration=2
+  = {terms: 262, types: 917, coercions: 229}
+Result size of Simplifier
+  = {terms: 262, types: 917, coercions: 229}
+!!! Simplifier [Data.Functor.Contravariant.Rep]: finished in 32.71 milliseconds, allocated 42.724 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Functor.Contravariant.Rep]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 262, types: 917, coercions: 229}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Functor.Contravariant.Rep]: finished in 13.93 milliseconds, allocated 22.544 megabytes
+*** Common sub-expression [Data.Functor.Contravariant.Rep]:
+Result size of Common sub-expression
+  = {terms: 262, types: 917, coercions: 229}
+!!! Common sub-expression [Data.Functor.Contravariant.Rep]: finished in 3.03 milliseconds, allocated 3.885 megabytes
+*** Float inwards [Data.Functor.Contravariant.Rep]:
+Result size of Float inwards
+  = {terms: 262, types: 917, coercions: 229}
+!!! Float inwards [Data.Functor.Contravariant.Rep]: finished in 0.55 milliseconds, allocated 1.247 megabytes
+*** Simplifier [Data.Functor.Contravariant.Rep]:
+Result size of Simplifier
+  = {terms: 262, types: 917, coercions: 229}
+!!! Simplifier [Data.Functor.Contravariant.Rep]: finished in 10.57 milliseconds, allocated 13.231 megabytes
+*** CoreTidy [Data.Functor.Contravariant.Rep]:
+Result size of Tidy Core
+  = {terms: 290, types: 1,118, coercions: 229}
+!!! CoreTidy [Data.Functor.Contravariant.Rep]: finished in 6.52 milliseconds, allocated 10.495 megabytes
+writeBinIface: 64 Names
+writeBinIface: 150 dict entries
+writeBinIface: 64 Names
+writeBinIface: 150 dict entries
+*** CorePrep [Data.Functor.Contravariant.Rep]:
+Result size of CorePrep
+  = {terms: 391, types: 1,429, coercions: 229}
+!!! CorePrep [Data.Functor.Contravariant.Rep]: finished in 4.38 milliseconds, allocated 6.791 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Functor.Contravariant.Rep]:
+!!! CodeGen [Data.Functor.Contravariant.Rep]: finished in 89.88 milliseconds, allocated 115.827 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Functor/Contravariant -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc12398_0/ghc_22.s -o dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Rep.o
+*** CorePrep [Data.Functor.Contravariant.Rep]:
+Result size of CorePrep
+  = {terms: 391, types: 1,429, coercions: 229}
+!!! CorePrep [Data.Functor.Contravariant.Rep]: finished in 5.05 milliseconds, allocated 5.401 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Functor.Contravariant.Rep]:
+!!! CodeGen [Data.Functor.Contravariant.Rep]: finished in 93.01 milliseconds, allocated 120.602 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Functor/Contravariant -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12398_0/ghc_24.s -o dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Rep.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12398_0/ghc_25.c /tmp/ghc12398_0/ghc_24.s /tmp/ghc12398_0/ghc_23.c /tmp/ghc12398_0/ghc_22.s /tmp/ghc12398_0/ghc_21.s
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_25.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_23.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_21.s
+compile: input file /tmp/ghc12398_0/ghc_17.hscpp
+*** Checking old interface for Data.Functor.Contravariant.Adjunction:
+[ 2 of 11] Compiling Data.Functor.Contravariant.Adjunction ( src/Data/Functor/Contravariant/Adjunction.hs, dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Adjunction.o )
+*** Parser [Data.Functor.Contravariant.Adjunction]:
+!!! Parser [Data.Functor.Contravariant.Adjunction]: finished in 6.94 milliseconds, allocated 13.483 megabytes
+*** Renamer/typechecker [Data.Functor.Contravariant.Adjunction]:
+!!! Renamer/typechecker [Data.Functor.Contravariant.Adjunction]: finished in 1052.25 milliseconds, allocated 2043.921 megabytes
+*** Desugar [Data.Functor.Contravariant.Adjunction]:
+Result size of Desugar (after optimization)
+  = {terms: 162, types: 542, coercions: 10}
+!!! Desugar [Data.Functor.Contravariant.Adjunction]: finished in 12.73 milliseconds, allocated 15.305 megabytes
+*** Simplifier [Data.Functor.Contravariant.Adjunction]:
+Result size of Simplifier iteration=1
+  = {terms: 191, types: 616, coercions: 23}
+Result size of Simplifier iteration=2
+  = {terms: 185, types: 610, coercions: 23}
+Result size of Simplifier = {terms: 185, types: 610, coercions: 23}
+!!! Simplifier [Data.Functor.Contravariant.Adjunction]: finished in 46.26 milliseconds, allocated 21.253 megabytes
+*** Specialise [Data.Functor.Contravariant.Adjunction]:
+Result size of Specialise = {terms: 185, types: 610, coercions: 23}
+!!! Specialise [Data.Functor.Contravariant.Adjunction]: finished in 1.10 milliseconds, allocated 1.917 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Functor.Contravariant.Adjunction]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 185, types: 610, coercions: 23}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Functor.Contravariant.Adjunction]: finished in 8.82 milliseconds, allocated 14.769 megabytes
+*** Simplifier [Data.Functor.Contravariant.Adjunction]:
+Result size of Simplifier iteration=1
+  = {terms: 183, types: 607, coercions: 153}
+Result size of Simplifier
+  = {terms: 183, types: 607, coercions: 153}
+!!! Simplifier [Data.Functor.Contravariant.Adjunction]: finished in 16.59 milliseconds, allocated 24.391 megabytes
+*** Simplifier [Data.Functor.Contravariant.Adjunction]:
+Result size of Simplifier
+  = {terms: 183, types: 607, coercions: 153}
+!!! Simplifier [Data.Functor.Contravariant.Adjunction]: finished in 4.43 milliseconds, allocated 6.151 megabytes
+*** Simplifier [Data.Functor.Contravariant.Adjunction]:
+Result size of Simplifier
+  = {terms: 183, types: 607, coercions: 153}
+!!! Simplifier [Data.Functor.Contravariant.Adjunction]: finished in 4.27 milliseconds, allocated 6.151 megabytes
+*** Float inwards [Data.Functor.Contravariant.Adjunction]:
+Result size of Float inwards
+  = {terms: 183, types: 607, coercions: 153}
+!!! Float inwards [Data.Functor.Contravariant.Adjunction]: finished in 0.48 milliseconds, allocated 0.969 megabytes
+*** Called arity analysis [Data.Functor.Contravariant.Adjunction]:
+Result size of Called arity analysis
+  = {terms: 183, types: 607, coercions: 153}
+!!! Called arity analysis [Data.Functor.Contravariant.Adjunction]: finished in 1.21 milliseconds, allocated 2.181 megabytes
+*** Simplifier [Data.Functor.Contravariant.Adjunction]:
+Result size of Simplifier
+  = {terms: 183, types: 607, coercions: 153}
+!!! Simplifier [Data.Functor.Contravariant.Adjunction]: finished in 4.27 milliseconds, allocated 6.151 megabytes
+*** Demand analysis [Data.Functor.Contravariant.Adjunction]:
+Result size of Demand analysis
+  = {terms: 183, types: 607, coercions: 153}
+!!! Demand analysis [Data.Functor.Contravariant.Adjunction]: finished in 2.92 milliseconds, allocated 4.619 megabytes
+*** Worker Wrapper binds [Data.Functor.Contravariant.Adjunction]:
+Result size of Worker Wrapper binds
+  = {terms: 183, types: 607, coercions: 153}
+!!! Worker Wrapper binds [Data.Functor.Contravariant.Adjunction]: finished in 0.48 milliseconds, allocated 0.782 megabytes
+*** Simplifier [Data.Functor.Contravariant.Adjunction]:
+Result size of Simplifier
+  = {terms: 183, types: 607, coercions: 153}
+!!! Simplifier [Data.Functor.Contravariant.Adjunction]: finished in 6.16 milliseconds, allocated 8.134 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Functor.Contravariant.Adjunction]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 183, types: 607, coercions: 153}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Functor.Contravariant.Adjunction]: finished in 9.14 milliseconds, allocated 14.737 megabytes
+*** Common sub-expression [Data.Functor.Contravariant.Adjunction]:
+Result size of Common sub-expression
+  = {terms: 170, types: 564, coercions: 99}
+!!! Common sub-expression [Data.Functor.Contravariant.Adjunction]: finished in 2.24 milliseconds, allocated 3.554 megabytes
+*** Float inwards [Data.Functor.Contravariant.Adjunction]:
+Result size of Float inwards
+  = {terms: 170, types: 564, coercions: 99}
+!!! Float inwards [Data.Functor.Contravariant.Adjunction]: finished in 0.44 milliseconds, allocated 0.892 megabytes
+*** Simplifier [Data.Functor.Contravariant.Adjunction]:
+Result size of Simplifier = {terms: 162, types: 524, coercions: 99}
+!!! Simplifier [Data.Functor.Contravariant.Adjunction]: finished in 4.87 milliseconds, allocated 7.057 megabytes
+*** CoreTidy [Data.Functor.Contravariant.Adjunction]:
+Result size of Tidy Core = {terms: 210, types: 926, coercions: 99}
+!!! CoreTidy [Data.Functor.Contravariant.Adjunction]: finished in 4.09 milliseconds, allocated 6.217 megabytes
+writeBinIface: 46 Names
+writeBinIface: 123 dict entries
+writeBinIface: 46 Names
+writeBinIface: 123 dict entries
+*** CorePrep [Data.Functor.Contravariant.Adjunction]:
+Result size of CorePrep = {terms: 272, types: 1,112, coercions: 99}
+!!! CorePrep [Data.Functor.Contravariant.Adjunction]: finished in 3.09 milliseconds, allocated 4.698 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Functor.Contravariant.Adjunction]:
+!!! CodeGen [Data.Functor.Contravariant.Adjunction]: finished in 51.43 milliseconds, allocated 64.857 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Functor/Contravariant -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc12398_0/ghc_27.s -o dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Adjunction.o
+*** CorePrep [Data.Functor.Contravariant.Adjunction]:
+Result size of CorePrep = {terms: 272, types: 1,112, coercions: 99}
+!!! CorePrep [Data.Functor.Contravariant.Adjunction]: finished in 3.29 milliseconds, allocated 3.651 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Functor.Contravariant.Adjunction]:
+!!! CodeGen [Data.Functor.Contravariant.Adjunction]: finished in 53.97 milliseconds, allocated 67.403 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Functor/Contravariant -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12398_0/ghc_29.s -o dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Adjunction.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12398_0/ghc_30.c /tmp/ghc12398_0/ghc_29.s /tmp/ghc12398_0/ghc_28.c /tmp/ghc12398_0/ghc_27.s /tmp/ghc12398_0/ghc_26.s
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_30.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_28.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_26.s
+compile: input file /tmp/ghc12398_0/ghc_13.hscpp
+*** Checking old interface for Control.Monad.Trans.Conts:
+[ 3 of 11] Compiling Control.Monad.Trans.Conts ( src/Control/Monad/Trans/Conts.hs, dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Conts.o )
+*** Parser [Control.Monad.Trans.Conts]:
+!!! Parser [Control.Monad.Trans.Conts]: finished in 8.20 milliseconds, allocated 14.778 megabytes
+*** Renamer/typechecker [Control.Monad.Trans.Conts]:
+!!! Renamer/typechecker [Control.Monad.Trans.Conts]: finished in 1124.81 milliseconds, allocated 2168.864 megabytes
+*** Desugar [Control.Monad.Trans.Conts]:
+Result size of Desugar (after optimization)
+  = {terms: 377, types: 1,546, coercions: 99}
+!!! Desugar [Control.Monad.Trans.Conts]: finished in 22.36 milliseconds, allocated 24.760 megabytes
+*** Simplifier [Control.Monad.Trans.Conts]:
+Result size of Simplifier iteration=1
+  = {terms: 356, types: 1,490, coercions: 196}
+Result size of Simplifier iteration=2
+  = {terms: 354, types: 1,488, coercions: 196}
+Result size of Simplifier
+  = {terms: 354, types: 1,488, coercions: 196}
+!!! Simplifier [Control.Monad.Trans.Conts]: finished in 65.95 milliseconds, allocated 35.466 megabytes
+*** Specialise [Control.Monad.Trans.Conts]:
+Result size of Specialise
+  = {terms: 354, types: 1,488, coercions: 196}
+!!! Specialise [Control.Monad.Trans.Conts]: finished in 3.36 milliseconds, allocated 4.659 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Trans.Conts]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 421, types: 1,841, coercions: 196}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Trans.Conts]: finished in 26.02 milliseconds, allocated 46.993 megabytes
+*** Simplifier [Control.Monad.Trans.Conts]:
+Result size of Simplifier iteration=1
+  = {terms: 449, types: 1,951, coercions: 456}
+Result size of Simplifier
+  = {terms: 386, types: 1,616, coercions: 445}
+!!! Simplifier [Control.Monad.Trans.Conts]: finished in 32.91 milliseconds, allocated 49.301 megabytes
+*** Simplifier [Control.Monad.Trans.Conts]:
+Result size of Simplifier
+  = {terms: 386, types: 1,616, coercions: 445}
+!!! Simplifier [Control.Monad.Trans.Conts]: finished in 12.40 milliseconds, allocated 17.953 megabytes
+*** Simplifier [Control.Monad.Trans.Conts]:
+Result size of Simplifier
+  = {terms: 386, types: 1,616, coercions: 445}
+!!! Simplifier [Control.Monad.Trans.Conts]: finished in 11.59 milliseconds, allocated 17.927 megabytes
+*** Float inwards [Control.Monad.Trans.Conts]:
+Result size of Float inwards
+  = {terms: 386, types: 1,616, coercions: 445}
+!!! Float inwards [Control.Monad.Trans.Conts]: finished in 0.97 milliseconds, allocated 2.013 megabytes
+*** Called arity analysis [Control.Monad.Trans.Conts]:
+Result size of Called arity analysis
+  = {terms: 386, types: 1,616, coercions: 445}
+!!! Called arity analysis [Control.Monad.Trans.Conts]: finished in 5.57 milliseconds, allocated 9.800 megabytes
+*** Simplifier [Control.Monad.Trans.Conts]:
+Result size of Simplifier
+  = {terms: 386, types: 1,616, coercions: 445}
+!!! Simplifier [Control.Monad.Trans.Conts]: finished in 11.61 milliseconds, allocated 17.953 megabytes
+*** Demand analysis [Control.Monad.Trans.Conts]:
+Result size of Demand analysis
+  = {terms: 386, types: 1,616, coercions: 445}
+!!! Demand analysis [Control.Monad.Trans.Conts]: finished in 9.27 milliseconds, allocated 14.084 megabytes
+*** Worker Wrapper binds [Control.Monad.Trans.Conts]:
+Result size of Worker Wrapper binds
+  = {terms: 386, types: 1,616, coercions: 445}
+!!! Worker Wrapper binds [Control.Monad.Trans.Conts]: finished in 1.07 milliseconds, allocated 1.621 megabytes
+*** Simplifier [Control.Monad.Trans.Conts]:
+Result size of Simplifier
+  = {terms: 386, types: 1,616, coercions: 445}
+!!! Simplifier [Control.Monad.Trans.Conts]: finished in 17.17 milliseconds, allocated 26.101 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Trans.Conts]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 396, types: 1,643, coercions: 445}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Trans.Conts]: finished in 23.64 milliseconds, allocated 41.683 megabytes
+*** Common sub-expression [Control.Monad.Trans.Conts]:
+Result size of Common sub-expression
+  = {terms: 378, types: 1,596, coercions: 418}
+!!! Common sub-expression [Control.Monad.Trans.Conts]: finished in 5.17 milliseconds, allocated 7.987 megabytes
+*** Float inwards [Control.Monad.Trans.Conts]:
+Result size of Float inwards
+  = {terms: 378, types: 1,596, coercions: 418}
+!!! Float inwards [Control.Monad.Trans.Conts]: finished in 0.93 milliseconds, allocated 1.977 megabytes
+*** Simplifier [Control.Monad.Trans.Conts]:
+Result size of Simplifier
+  = {terms: 368, types: 1,519, coercions: 418}
+!!! Simplifier [Control.Monad.Trans.Conts]: finished in 16.50 milliseconds, allocated 25.266 megabytes
+*** CoreTidy [Control.Monad.Trans.Conts]:
+Result size of Tidy Core
+  = {terms: 368, types: 1,519, coercions: 418}
+!!! CoreTidy [Control.Monad.Trans.Conts]: finished in 7.80 milliseconds, allocated 14.558 megabytes
+writeBinIface: 68 Names
+writeBinIface: 148 dict entries
+writeBinIface: 68 Names
+writeBinIface: 148 dict entries
+*** CorePrep [Control.Monad.Trans.Conts]:
+Result size of CorePrep
+  = {terms: 576, types: 2,195, coercions: 418}
+!!! CorePrep [Control.Monad.Trans.Conts]: finished in 6.60 milliseconds, allocated 10.120 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Trans.Conts]:
+!!! CodeGen [Control.Monad.Trans.Conts]: finished in 123.33 milliseconds, allocated 151.796 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad/Trans -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc12398_0/ghc_32.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Conts.o
+*** CorePrep [Control.Monad.Trans.Conts]:
+Result size of CorePrep
+  = {terms: 576, types: 2,195, coercions: 418}
+!!! CorePrep [Control.Monad.Trans.Conts]: finished in 6.85 milliseconds, allocated 8.242 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Trans.Conts]:
+!!! CodeGen [Control.Monad.Trans.Conts]: finished in 123.88 milliseconds, allocated 158.714 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad/Trans -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12398_0/ghc_34.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Conts.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12398_0/ghc_35.c /tmp/ghc12398_0/ghc_34.s /tmp/ghc12398_0/ghc_33.c /tmp/ghc12398_0/ghc_32.s /tmp/ghc12398_0/ghc_31.s
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_35.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_33.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_31.s
+compile: input file /tmp/ghc12398_0/ghc_11.hscpp
+*** Checking old interface for Control.Monad.Trans.Contravariant.Adjoint:
+[ 4 of 11] Compiling Control.Monad.Trans.Contravariant.Adjoint ( src/Control/Monad/Trans/Contravariant/Adjoint.hs, dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Contravariant/Adjoint.o )
+*** Parser [Control.Monad.Trans.Contravariant.Adjoint]:
+!!! Parser [Control.Monad.Trans.Contravariant.Adjoint]: finished in 6.06 milliseconds, allocated 11.299 megabytes
+*** Renamer/typechecker [Control.Monad.Trans.Contravariant.Adjoint]:
+!!! Renamer/typechecker [Control.Monad.Trans.Contravariant.Adjoint]: finished in 34.96 milliseconds, allocated 52.228 megabytes
+*** Desugar [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Desugar (after optimization)
+  = {terms: 274, types: 1,110, coercions: 43}
+!!! Desugar [Control.Monad.Trans.Contravariant.Adjoint]: finished in 11.69 milliseconds, allocated 15.108 megabytes
+*** Simplifier [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Simplifier iteration=1
+  = {terms: 265, types: 1,080, coercions: 90}
+Result size of Simplifier iteration=2
+  = {terms: 255, types: 1,070, coercions: 90}
+Result size of Simplifier
+  = {terms: 255, types: 1,070, coercions: 90}
+!!! Simplifier [Control.Monad.Trans.Contravariant.Adjoint]: finished in 18.50 milliseconds, allocated 27.306 megabytes
+*** Specialise [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Specialise
+  = {terms: 255, types: 1,070, coercions: 90}
+!!! Specialise [Control.Monad.Trans.Contravariant.Adjoint]: finished in 1.88 milliseconds, allocated 3.415 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 282, types: 1,239, coercions: 90}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Trans.Contravariant.Adjoint]: finished in 19.73 milliseconds, allocated 34.841 megabytes
+*** Simplifier [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Simplifier iteration=1
+  = {terms: 282, types: 1,279, coercions: 226}
+Result size of Simplifier
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! Simplifier [Control.Monad.Trans.Contravariant.Adjoint]: finished in 19.26 milliseconds, allocated 29.693 megabytes
+*** Simplifier [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Simplifier
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! Simplifier [Control.Monad.Trans.Contravariant.Adjoint]: finished in 7.83 milliseconds, allocated 11.213 megabytes
+*** Simplifier [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Simplifier
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! Simplifier [Control.Monad.Trans.Contravariant.Adjoint]: finished in 7.13 milliseconds, allocated 11.182 megabytes
+*** Float inwards [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Float inwards
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! Float inwards [Control.Monad.Trans.Contravariant.Adjoint]: finished in 0.59 milliseconds, allocated 1.329 megabytes
+*** Called arity analysis [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Called arity analysis
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! Called arity analysis [Control.Monad.Trans.Contravariant.Adjoint]: finished in 3.67 milliseconds, allocated 5.816 megabytes
+*** Simplifier [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Simplifier
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! Simplifier [Control.Monad.Trans.Contravariant.Adjoint]: finished in 7.23 milliseconds, allocated 11.216 megabytes
+*** Demand analysis [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Demand analysis
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! Demand analysis [Control.Monad.Trans.Contravariant.Adjoint]: finished in 8.84 milliseconds, allocated 13.264 megabytes
+*** Worker Wrapper binds [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Worker Wrapper binds
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! Worker Wrapper binds [Control.Monad.Trans.Contravariant.Adjoint]: finished in 0.87 milliseconds, allocated 1.322 megabytes
+*** Simplifier [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Simplifier
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! Simplifier [Control.Monad.Trans.Contravariant.Adjoint]: finished in 9.36 milliseconds, allocated 14.864 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Trans.Contravariant.Adjoint]: finished in 18.44 milliseconds, allocated 32.987 megabytes
+*** Common sub-expression [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Common sub-expression
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! Common sub-expression [Control.Monad.Trans.Contravariant.Adjoint]: finished in 2.56 milliseconds, allocated 4.402 megabytes
+*** Float inwards [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Float inwards
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! Float inwards [Control.Monad.Trans.Contravariant.Adjoint]: finished in 0.67 milliseconds, allocated 1.329 megabytes
+*** Simplifier [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Simplifier
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! Simplifier [Control.Monad.Trans.Contravariant.Adjoint]: finished in 10.38 milliseconds, allocated 15.965 megabytes
+*** CoreTidy [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of Tidy Core
+  = {terms: 268, types: 1,199, coercions: 226}
+!!! CoreTidy [Control.Monad.Trans.Contravariant.Adjoint]: finished in 6.09 milliseconds, allocated 9.655 megabytes
+writeBinIface: 53 Names
+writeBinIface: 124 dict entries
+writeBinIface: 53 Names
+writeBinIface: 124 dict entries
+*** CorePrep [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of CorePrep
+  = {terms: 397, types: 1,616, coercions: 226}
+!!! CorePrep [Control.Monad.Trans.Contravariant.Adjoint]: finished in 4.98 milliseconds, allocated 7.246 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Trans.Contravariant.Adjoint]:
+!!! CodeGen [Control.Monad.Trans.Contravariant.Adjoint]: finished in 75.56 milliseconds, allocated 96.415 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad/Trans/Contravariant -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc12398_0/ghc_37.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Contravariant/Adjoint.o
+*** CorePrep [Control.Monad.Trans.Contravariant.Adjoint]:
+Result size of CorePrep
+  = {terms: 397, types: 1,616, coercions: 226}
+!!! CorePrep [Control.Monad.Trans.Contravariant.Adjoint]: finished in 4.47 milliseconds, allocated 5.651 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Trans.Contravariant.Adjoint]:
+!!! CodeGen [Control.Monad.Trans.Contravariant.Adjoint]: finished in 80.17 milliseconds, allocated 100.850 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad/Trans/Contravariant -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12398_0/ghc_39.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Contravariant/Adjoint.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12398_0/ghc_40.c /tmp/ghc12398_0/ghc_39.s /tmp/ghc12398_0/ghc_38.c /tmp/ghc12398_0/ghc_37.s /tmp/ghc12398_0/ghc_36.s
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_40.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_38.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_36.s
+compile: input file /tmp/ghc12398_0/ghc_19.hscpp
+*** Checking old interface for Data.Functor.Rep:
+[ 5 of 11] Compiling Data.Functor.Rep ( src/Data/Functor/Rep.hs, dist/dist-sandbox-8e35af7f/build/Data/Functor/Rep.o )
+*** Parser [Data.Functor.Rep]:
+!!! Parser [Data.Functor.Rep]: finished in 27.80 milliseconds, allocated 48.118 megabytes
+*** Renamer/typechecker [Data.Functor.Rep]:
+!!! Renamer/typechecker [Data.Functor.Rep]: finished in 829.49 milliseconds, allocated 1420.191 megabytes
+*** Desugar [Data.Functor.Rep]:
+Result size of Desugar (after optimization)
+  = {terms: 1,290, types: 3,878, coercions: 324}
+!!! Desugar [Data.Functor.Rep]: finished in 105.23 milliseconds, allocated 149.336 megabytes
+
+src/Data/Functor/Rep.hs:111:1: warning: [-Winline-rule-shadowing]
+    Rule "tabulate/index" may never fire
+      because rule "Class op index" for ‘index’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+*** Simplifier [Data.Functor.Rep]:
+Result size of Simplifier iteration=1
+  = {terms: 1,280, types: 3,981, coercions: 501}
+Result size of Simplifier
+  = {terms: 1,274, types: 3,973, coercions: 501}
+!!! Simplifier [Data.Functor.Rep]: finished in 137.91 milliseconds, allocated 109.901 megabytes
+*** Specialise [Data.Functor.Rep]:
+Result size of Specialise
+  = {terms: 1,274, types: 3,973, coercions: 501}
+!!! Specialise [Data.Functor.Rep]: finished in 10.75 milliseconds, allocated 17.524 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Functor.Rep]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,315, types: 4,155, coercions: 501}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Functor.Rep]: finished in 72.31 milliseconds, allocated 122.203 megabytes
+*** Simplifier [Data.Functor.Rep]:
+Result size of Simplifier iteration=1
+  = {terms: 1,593, types: 4,811, coercions: 1,027}
+Result size of Simplifier iteration=2
+  = {terms: 1,551, types: 4,753, coercions: 1,005}
+Result size of Simplifier iteration=3
+  = {terms: 1,546, types: 4,741, coercions: 999}
+Result size of Simplifier
+  = {terms: 1,546, types: 4,741, coercions: 999}
+!!! Simplifier [Data.Functor.Rep]: finished in 169.09 milliseconds, allocated 213.178 megabytes
+*** Simplifier [Data.Functor.Rep]:
+Result size of Simplifier
+  = {terms: 1,546, types: 4,741, coercions: 999}
+!!! Simplifier [Data.Functor.Rep]: finished in 37.73 milliseconds, allocated 48.839 megabytes
+*** Simplifier [Data.Functor.Rep]:
+Result size of Simplifier
+  = {terms: 1,546, types: 4,741, coercions: 999}
+!!! Simplifier [Data.Functor.Rep]: finished in 40.09 milliseconds, allocated 48.841 megabytes
+*** Float inwards [Data.Functor.Rep]:
+Result size of Float inwards
+  = {terms: 1,546, types: 4,741, coercions: 999}
+!!! Float inwards [Data.Functor.Rep]: finished in 3.90 milliseconds, allocated 8.098 megabytes
+*** Called arity analysis [Data.Functor.Rep]:
+Result size of Called arity analysis
+  = {terms: 1,546, types: 4,741, coercions: 999}
+!!! Called arity analysis [Data.Functor.Rep]: finished in 22.34 milliseconds, allocated 42.829 megabytes
+*** Simplifier [Data.Functor.Rep]:
+Result size of Simplifier
+  = {terms: 1,546, types: 4,741, coercions: 999}
+!!! Simplifier [Data.Functor.Rep]: finished in 38.19 milliseconds, allocated 48.770 megabytes
+*** Demand analysis [Data.Functor.Rep]:
+Result size of Demand analysis
+  = {terms: 1,546, types: 4,741, coercions: 999}
+!!! Demand analysis [Data.Functor.Rep]: finished in 30.97 milliseconds, allocated 42.530 megabytes
+*** Worker Wrapper binds [Data.Functor.Rep]:
+Result size of Worker Wrapper binds
+  = {terms: 1,627, types: 4,991, coercions: 999}
+!!! Worker Wrapper binds [Data.Functor.Rep]: finished in 3.84 milliseconds, allocated 5.347 megabytes
+*** Simplifier [Data.Functor.Rep]:
+Result size of Simplifier iteration=1
+  = {terms: 1,615, types: 4,979, coercions: 1,052}
+Result size of Simplifier iteration=2
+  = {terms: 1,590, types: 4,887, coercions: 1,040}
+Result size of Simplifier
+  = {terms: 1,590, types: 4,887, coercions: 1,040}
+!!! Simplifier [Data.Functor.Rep]: finished in 158.58 milliseconds, allocated 205.301 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Functor.Rep]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,626, types: 5,036, coercions: 1,040}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Functor.Rep]: finished in 100.27 milliseconds, allocated 162.655 megabytes
+*** Common sub-expression [Data.Functor.Rep]:
+Result size of Common sub-expression
+  = {terms: 1,542, types: 4,855, coercions: 987}
+!!! Common sub-expression [Data.Functor.Rep]: finished in 19.99 milliseconds, allocated 27.685 megabytes
+*** Float inwards [Data.Functor.Rep]:
+Result size of Float inwards
+  = {terms: 1,542, types: 4,855, coercions: 987}
+!!! Float inwards [Data.Functor.Rep]: finished in 4.89 milliseconds, allocated 9.348 megabytes
+*** Simplifier [Data.Functor.Rep]:
+Result size of Simplifier iteration=1
+  = {terms: 1,524, types: 4,747, coercions: 987}
+Result size of Simplifier
+  = {terms: 1,520, types: 4,733, coercions: 983}
+!!! Simplifier [Data.Functor.Rep]: finished in 104.09 milliseconds, allocated 135.572 megabytes
+*** CoreTidy [Data.Functor.Rep]:
+Result size of Tidy Core
+  = {terms: 1,541, types: 4,839, coercions: 983}
+!!! CoreTidy [Data.Functor.Rep]: finished in 33.35 milliseconds, allocated 56.322 megabytes
+writeBinIface: 247 Names
+writeBinIface: 385 dict entries
+writeBinIface: 247 Names
+writeBinIface: 385 dict entries
+*** CorePrep [Data.Functor.Rep]:
+Result size of CorePrep
+  = {terms: 2,157, types: 6,505, coercions: 983}
+!!! CorePrep [Data.Functor.Rep]: finished in 24.52 milliseconds, allocated 35.285 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Functor.Rep]:
+!!! CodeGen [Data.Functor.Rep]: finished in 516.35 milliseconds, allocated 648.182 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Functor -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc12398_0/ghc_42.s -o dist/dist-sandbox-8e35af7f/build/Data/Functor/Rep.o
+*** CorePrep [Data.Functor.Rep]:
+Result size of CorePrep
+  = {terms: 2,157, types: 6,505, coercions: 983}
+!!! CorePrep [Data.Functor.Rep]: finished in 21.59 milliseconds, allocated 28.328 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Functor.Rep]:
+!!! CodeGen [Data.Functor.Rep]: finished in 530.35 milliseconds, allocated 677.626 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Functor -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12398_0/ghc_44.s -o dist/dist-sandbox-8e35af7f/build/Data/Functor/Rep.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12398_0/ghc_45.c /tmp/ghc12398_0/ghc_44.s /tmp/ghc12398_0/ghc_43.c /tmp/ghc12398_0/ghc_42.s /tmp/ghc12398_0/ghc_41.s
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_45.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_43.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_41.s
+compile: input file /tmp/ghc12398_0/ghc_1.hscpp
+*** Checking old interface for Control.Comonad.Representable.Store:
+[ 6 of 11] Compiling Control.Comonad.Representable.Store ( src/Control/Comonad/Representable/Store.hs, dist/dist-sandbox-8e35af7f/build/Control/Comonad/Representable/Store.o )
+*** Parser [Control.Comonad.Representable.Store]:
+!!! Parser [Control.Comonad.Representable.Store]: finished in 12.07 milliseconds, allocated 24.243 megabytes
+*** Renamer/typechecker [Control.Comonad.Representable.Store]:
+!!! Renamer/typechecker [Control.Comonad.Representable.Store]: finished in 230.08 milliseconds, allocated 362.064 megabytes
+*** Desugar [Control.Comonad.Representable.Store]:
+Result size of Desugar (after optimization)
+  = {terms: 903, types: 3,028, coercions: 34}
+!!! Desugar [Control.Comonad.Representable.Store]: finished in 46.15 milliseconds, allocated 61.027 megabytes
+*** Simplifier [Control.Comonad.Representable.Store]:
+Result size of Simplifier iteration=1
+  = {terms: 889, types: 2,981, coercions: 51}
+Result size of Simplifier iteration=2
+  = {terms: 873, types: 2,964, coercions: 51}
+Result size of Simplifier
+  = {terms: 873, types: 2,964, coercions: 51}
+!!! Simplifier [Control.Comonad.Representable.Store]: finished in 65.88 milliseconds, allocated 92.985 megabytes
+*** Specialise [Control.Comonad.Representable.Store]:
+Result size of Specialise
+  = {terms: 873, types: 2,964, coercions: 51}
+!!! Specialise [Control.Comonad.Representable.Store]: finished in 9.07 milliseconds, allocated 14.407 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Comonad.Representable.Store]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 877, types: 2,984, coercions: 51}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Comonad.Representable.Store]: finished in 63.27 milliseconds, allocated 111.883 megabytes
+*** Simplifier [Control.Comonad.Representable.Store]:
+Result size of Simplifier iteration=1
+  = {terms: 1,044, types: 3,348, coercions: 103}
+Result size of Simplifier
+  = {terms: 1,011, types: 3,304, coercions: 103}
+!!! Simplifier [Control.Comonad.Representable.Store]: finished in 53.32 milliseconds, allocated 72.820 megabytes
+*** Simplifier [Control.Comonad.Representable.Store]:
+Result size of Simplifier
+  = {terms: 1,011, types: 3,304, coercions: 103}
+!!! Simplifier [Control.Comonad.Representable.Store]: finished in 23.36 milliseconds, allocated 32.785 megabytes
+*** Simplifier [Control.Comonad.Representable.Store]:
+Result size of Simplifier
+  = {terms: 1,011, types: 3,304, coercions: 103}
+!!! Simplifier [Control.Comonad.Representable.Store]: finished in 23.58 milliseconds, allocated 32.785 megabytes
+*** Float inwards [Control.Comonad.Representable.Store]:
+Result size of Float inwards
+  = {terms: 1,011, types: 3,304, coercions: 103}
+!!! Float inwards [Control.Comonad.Representable.Store]: finished in 3.06 milliseconds, allocated 4.723 megabytes
+*** Called arity analysis [Control.Comonad.Representable.Store]:
+Result size of Called arity analysis
+  = {terms: 1,011, types: 3,304, coercions: 103}
+!!! Called arity analysis [Control.Comonad.Representable.Store]: finished in 7.46 milliseconds, allocated 12.891 megabytes
+*** Simplifier [Control.Comonad.Representable.Store]:
+Result size of Simplifier
+  = {terms: 1,011, types: 3,304, coercions: 103}
+!!! Simplifier [Control.Comonad.Representable.Store]: finished in 23.50 milliseconds, allocated 32.780 megabytes
+*** Demand analysis [Control.Comonad.Representable.Store]:
+Result size of Demand analysis
+  = {terms: 1,011, types: 3,304, coercions: 103}
+!!! Demand analysis [Control.Comonad.Representable.Store]: finished in 23.15 milliseconds, allocated 32.015 megabytes
+*** Worker Wrapper binds [Control.Comonad.Representable.Store]:
+Result size of Worker Wrapper binds
+  = {terms: 1,593, types: 5,072, coercions: 103}
+!!! Worker Wrapper binds [Control.Comonad.Representable.Store]: finished in 6.83 milliseconds, allocated 8.330 megabytes
+*** Simplifier [Control.Comonad.Representable.Store]:
+Result size of Simplifier iteration=1
+  = {terms: 1,361, types: 4,525, coercions: 103}
+Result size of Simplifier iteration=2
+  = {terms: 1,235, types: 4,047, coercions: 103}
+Result size of Simplifier iteration=3
+  = {terms: 1,233, types: 4,044, coercions: 103}
+Result size of Simplifier
+  = {terms: 1,233, types: 4,044, coercions: 103}
+!!! Simplifier [Control.Comonad.Representable.Store]: finished in 190.67 milliseconds, allocated 274.978 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Comonad.Representable.Store]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,251, types: 4,098, coercions: 103}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Comonad.Representable.Store]: finished in 85.18 milliseconds, allocated 148.877 megabytes
+*** Common sub-expression [Control.Comonad.Representable.Store]:
+Result size of Common sub-expression
+  = {terms: 1,246, types: 4,084, coercions: 103}
+!!! Common sub-expression [Control.Comonad.Representable.Store]: finished in 18.17 milliseconds, allocated 26.981 megabytes
+*** Float inwards [Control.Comonad.Representable.Store]:
+Result size of Float inwards
+  = {terms: 1,246, types: 4,084, coercions: 103}
+!!! Float inwards [Control.Comonad.Representable.Store]: finished in 3.30 milliseconds, allocated 5.976 megabytes
+*** Simplifier [Control.Comonad.Representable.Store]:
+Result size of Simplifier iteration=1
+  = {terms: 1,238, types: 4,069, coercions: 103}
+Result size of Simplifier iteration=2
+  = {terms: 1,234, types: 4,065, coercions: 103}
+Result size of Simplifier
+  = {terms: 1,234, types: 4,065, coercions: 103}
+!!! Simplifier [Control.Comonad.Representable.Store]: finished in 139.48 milliseconds, allocated 197.834 megabytes
+*** CoreTidy [Control.Comonad.Representable.Store]:
+Result size of Tidy Core
+  = {terms: 1,234, types: 4,065, coercions: 103}
+!!! CoreTidy [Control.Comonad.Representable.Store]: finished in 28.35 milliseconds, allocated 47.556 megabytes
+writeBinIface: 129 Names
+writeBinIface: 253 dict entries
+writeBinIface: 129 Names
+writeBinIface: 253 dict entries
+*** CorePrep [Control.Comonad.Representable.Store]:
+Result size of CorePrep
+  = {terms: 1,709, types: 5,204, coercions: 103}
+!!! CorePrep [Control.Comonad.Representable.Store]: finished in 20.12 milliseconds, allocated 31.554 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Comonad.Representable.Store]:
+!!! CodeGen [Control.Comonad.Representable.Store]: finished in 373.81 milliseconds, allocated 489.045 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Comonad/Representable -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc12398_0/ghc_47.s -o dist/dist-sandbox-8e35af7f/build/Control/Comonad/Representable/Store.o
+*** CorePrep [Control.Comonad.Representable.Store]:
+Result size of CorePrep
+  = {terms: 1,709, types: 5,204, coercions: 103}
+!!! CorePrep [Control.Comonad.Representable.Store]: finished in 16.73 milliseconds, allocated 23.821 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Comonad.Representable.Store]:
+!!! CodeGen [Control.Comonad.Representable.Store]: finished in 384.06 milliseconds, allocated 512.494 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Comonad/Representable -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12398_0/ghc_49.s -o dist/dist-sandbox-8e35af7f/build/Control/Comonad/Representable/Store.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12398_0/ghc_50.c /tmp/ghc12398_0/ghc_49.s /tmp/ghc12398_0/ghc_48.c /tmp/ghc12398_0/ghc_47.s /tmp/ghc12398_0/ghc_46.s
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_50.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_48.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_46.s
+compile: input file /tmp/ghc12398_0/ghc_5.hscpp
+*** Checking old interface for Control.Monad.Representable.Reader:
+[ 7 of 11] Compiling Control.Monad.Representable.Reader ( src/Control/Monad/Representable/Reader.hs, dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/Reader.o )
+*** Parser [Control.Monad.Representable.Reader]:
+!!! Parser [Control.Monad.Representable.Reader]: finished in 12.06 milliseconds, allocated 23.534 megabytes
+*** Renamer/typechecker [Control.Monad.Representable.Reader]:
+!!! Renamer/typechecker [Control.Monad.Representable.Reader]: finished in 775.27 milliseconds, allocated 1393.681 megabytes
+*** Desugar [Control.Monad.Representable.Reader]:
+Result size of Desugar (after optimization)
+  = {terms: 1,389, types: 4,809, coercions: 194}
+!!! Desugar [Control.Monad.Representable.Reader]: finished in 65.38 milliseconds, allocated 94.246 megabytes
+*** Simplifier [Control.Monad.Representable.Reader]:
+Result size of Simplifier iteration=1
+  = {terms: 1,313, types: 4,685, coercions: 339}
+Result size of Simplifier iteration=2
+  = {terms: 1,303, types: 4,673, coercions: 321}
+Result size of Simplifier
+  = {terms: 1,303, types: 4,673, coercions: 321}
+!!! Simplifier [Control.Monad.Representable.Reader]: finished in 100.03 milliseconds, allocated 148.424 megabytes
+*** Specialise [Control.Monad.Representable.Reader]:
+Result size of Specialise
+  = {terms: 1,303, types: 4,673, coercions: 321}
+!!! Specialise [Control.Monad.Representable.Reader]: finished in 13.77 milliseconds, allocated 22.926 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Representable.Reader]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,395, types: 5,178, coercions: 321}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Representable.Reader]: finished in 110.74 milliseconds, allocated 196.775 megabytes
+*** Simplifier [Control.Monad.Representable.Reader]:
+Result size of Simplifier iteration=1
+  = {terms: 1,603, types: 5,722, coercions: 721}
+Result size of Simplifier
+  = {terms: 1,522, types: 5,510, coercions: 677}
+!!! Simplifier [Control.Monad.Representable.Reader]: finished in 100.13 milliseconds, allocated 144.848 megabytes
+*** Simplifier [Control.Monad.Representable.Reader]:
+Result size of Simplifier
+  = {terms: 1,522, types: 5,510, coercions: 677}
+!!! Simplifier [Control.Monad.Representable.Reader]: finished in 39.25 milliseconds, allocated 55.754 megabytes
+*** Simplifier [Control.Monad.Representable.Reader]:
+Result size of Simplifier
+  = {terms: 1,522, types: 5,510, coercions: 677}
+!!! Simplifier [Control.Monad.Representable.Reader]: finished in 39.54 milliseconds, allocated 55.762 megabytes
+*** Float inwards [Control.Monad.Representable.Reader]:
+Result size of Float inwards
+  = {terms: 1,522, types: 5,510, coercions: 677}
+!!! Float inwards [Control.Monad.Representable.Reader]: finished in 7.42 milliseconds, allocated 14.923 megabytes
+*** Called arity analysis [Control.Monad.Representable.Reader]:
+Result size of Called arity analysis
+  = {terms: 1,522, types: 5,510, coercions: 677}
+!!! Called arity analysis [Control.Monad.Representable.Reader]: finished in 47.20 milliseconds, allocated 98.237 megabytes
+*** Simplifier [Control.Monad.Representable.Reader]:
+Result size of Simplifier
+  = {terms: 1,522, types: 5,510, coercions: 677}
+!!! Simplifier [Control.Monad.Representable.Reader]: finished in 39.13 milliseconds, allocated 55.605 megabytes
+*** Demand analysis [Control.Monad.Representable.Reader]:
+Result size of Demand analysis
+  = {terms: 1,522, types: 5,510, coercions: 677}
+!!! Demand analysis [Control.Monad.Representable.Reader]: finished in 38.10 milliseconds, allocated 56.159 megabytes
+*** Worker Wrapper binds [Control.Monad.Representable.Reader]:
+Result size of Worker Wrapper binds
+  = {terms: 1,522, types: 5,510, coercions: 677}
+!!! Worker Wrapper binds [Control.Monad.Representable.Reader]: finished in 4.55 milliseconds, allocated 4.785 megabytes
+*** Simplifier [Control.Monad.Representable.Reader]:
+Result size of Simplifier
+  = {terms: 1,522, types: 5,510, coercions: 677}
+!!! Simplifier [Control.Monad.Representable.Reader]: finished in 48.53 milliseconds, allocated 68.448 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Representable.Reader]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,569, types: 5,764, coercions: 677}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Representable.Reader]: finished in 129.99 milliseconds, allocated 233.271 megabytes
+*** Common sub-expression [Control.Monad.Representable.Reader]:
+Result size of Common sub-expression
+  = {terms: 1,541, types: 5,673, coercions: 677}
+!!! Common sub-expression [Control.Monad.Representable.Reader]: finished in 19.91 milliseconds, allocated 32.023 megabytes
+*** Float inwards [Control.Monad.Representable.Reader]:
+Result size of Float inwards
+  = {terms: 1,541, types: 5,673, coercions: 677}
+!!! Float inwards [Control.Monad.Representable.Reader]: finished in 10.28 milliseconds, allocated 18.036 megabytes
+*** Simplifier [Control.Monad.Representable.Reader]:
+Result size of Simplifier
+  = {terms: 1,527, types: 5,561, coercions: 677}
+!!! Simplifier [Control.Monad.Representable.Reader]: finished in 52.05 milliseconds, allocated 76.415 megabytes
+*** CoreTidy [Control.Monad.Representable.Reader]:
+Result size of Tidy Core
+  = {terms: 1,527, types: 5,561, coercions: 677}
+!!! CoreTidy [Control.Monad.Representable.Reader]: finished in 30.43 milliseconds, allocated 54.904 megabytes
+writeBinIface: 210 Names
+writeBinIface: 335 dict entries
+writeBinIface: 210 Names
+writeBinIface: 335 dict entries
+*** CorePrep [Control.Monad.Representable.Reader]:
+Result size of CorePrep
+  = {terms: 2,159, types: 7,533, coercions: 677}
+!!! CorePrep [Control.Monad.Representable.Reader]: finished in 25.61 milliseconds, allocated 40.499 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Representable.Reader]:
+!!! CodeGen [Control.Monad.Representable.Reader]: finished in 517.23 milliseconds, allocated 679.531 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad/Representable -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc12398_0/ghc_52.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/Reader.o
+*** CorePrep [Control.Monad.Representable.Reader]:
+Result size of CorePrep
+  = {terms: 2,159, types: 7,533, coercions: 677}
+!!! CorePrep [Control.Monad.Representable.Reader]: finished in 21.13 milliseconds, allocated 30.913 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Representable.Reader]:
+!!! CodeGen [Control.Monad.Representable.Reader]: finished in 550.63 milliseconds, allocated 715.395 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad/Representable -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12398_0/ghc_54.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/Reader.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12398_0/ghc_55.c /tmp/ghc12398_0/ghc_54.s /tmp/ghc12398_0/ghc_53.c /tmp/ghc12398_0/ghc_52.s /tmp/ghc12398_0/ghc_51.s
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_55.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_53.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_51.s
+compile: input file /tmp/ghc12398_0/ghc_7.hscpp
+*** Checking old interface for Control.Monad.Representable.State:
+[ 8 of 11] Compiling Control.Monad.Representable.State ( src/Control/Monad/Representable/State.hs, dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/State.o )
+*** Parser [Control.Monad.Representable.State]:
+!!! Parser [Control.Monad.Representable.State]: finished in 18.21 milliseconds, allocated 36.629 megabytes
+*** Renamer/typechecker [Control.Monad.Representable.State]:
+!!! Renamer/typechecker [Control.Monad.Representable.State]: finished in 331.13 milliseconds, allocated 532.894 megabytes
+*** Desugar [Control.Monad.Representable.State]:
+Result size of Desugar (after optimization)
+  = {terms: 1,090, types: 4,000, coercions: 128}
+!!! Desugar [Control.Monad.Representable.State]: finished in 64.95 milliseconds, allocated 85.662 megabytes
+*** Simplifier [Control.Monad.Representable.State]:
+Result size of Simplifier iteration=1
+  = {terms: 1,095, types: 4,039, coercions: 255}
+Result size of Simplifier iteration=2
+  = {terms: 1,071, types: 4,007, coercions: 255}
+Result size of Simplifier
+  = {terms: 1,071, types: 4,007, coercions: 255}
+!!! Simplifier [Control.Monad.Representable.State]: finished in 78.53 milliseconds, allocated 111.133 megabytes
+*** Specialise [Control.Monad.Representable.State]:
+Result size of Specialise
+  = {terms: 1,071, types: 4,007, coercions: 255}
+!!! Specialise [Control.Monad.Representable.State]: finished in 9.57 milliseconds, allocated 16.099 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Representable.State]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,127, types: 4,376, coercions: 255}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Representable.State]: finished in 85.77 milliseconds, allocated 151.029 megabytes
+*** Simplifier [Control.Monad.Representable.State]:
+Result size of Simplifier iteration=1
+  = {terms: 1,289, types: 4,824, coercions: 630}
+Result size of Simplifier iteration=2
+  = {terms: 1,192, types: 4,525, coercions: 649}
+Result size of Simplifier
+  = {terms: 1,192, types: 4,525, coercions: 649}
+!!! Simplifier [Control.Monad.Representable.State]: finished in 112.40 milliseconds, allocated 157.042 megabytes
+*** Simplifier [Control.Monad.Representable.State]:
+Result size of Simplifier
+  = {terms: 1,192, types: 4,525, coercions: 649}
+!!! Simplifier [Control.Monad.Representable.State]: finished in 30.65 milliseconds, allocated 41.456 megabytes
+*** Simplifier [Control.Monad.Representable.State]:
+Result size of Simplifier
+  = {terms: 1,192, types: 4,525, coercions: 649}
+!!! Simplifier [Control.Monad.Representable.State]: finished in 29.75 milliseconds, allocated 41.461 megabytes
+*** Float inwards [Control.Monad.Representable.State]:
+Result size of Float inwards
+  = {terms: 1,192, types: 4,525, coercions: 649}
+!!! Float inwards [Control.Monad.Representable.State]: finished in 10.45 milliseconds, allocated 17.834 megabytes
+*** Called arity analysis [Control.Monad.Representable.State]:
+Result size of Called arity analysis
+  = {terms: 1,192, types: 4,525, coercions: 649}
+!!! Called arity analysis [Control.Monad.Representable.State]: finished in 14.79 milliseconds, allocated 28.886 megabytes
+*** Simplifier [Control.Monad.Representable.State]:
+Result size of Simplifier
+  = {terms: 1,192, types: 4,525, coercions: 649}
+!!! Simplifier [Control.Monad.Representable.State]: finished in 29.75 milliseconds, allocated 41.346 megabytes
+*** Demand analysis [Control.Monad.Representable.State]:
+Result size of Demand analysis
+  = {terms: 1,192, types: 4,525, coercions: 649}
+!!! Demand analysis [Control.Monad.Representable.State]: finished in 27.35 milliseconds, allocated 38.567 megabytes
+*** Worker Wrapper binds [Control.Monad.Representable.State]:
+Result size of Worker Wrapper binds
+  = {terms: 1,235, types: 4,769, coercions: 649}
+!!! Worker Wrapper binds [Control.Monad.Representable.State]: finished in 3.50 milliseconds, allocated 4.777 megabytes
+*** Simplifier [Control.Monad.Representable.State]:
+Result size of Simplifier iteration=1
+  = {terms: 1,236, types: 4,725, coercions: 649}
+Result size of Simplifier iteration=2
+  = {terms: 1,220, types: 4,709, coercions: 649}
+Result size of Simplifier
+  = {terms: 1,220, types: 4,709, coercions: 649}
+!!! Simplifier [Control.Monad.Representable.State]: finished in 124.07 milliseconds, allocated 160.354 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Representable.State]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,234, types: 4,765, coercions: 649}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Representable.State]: finished in 97.62 milliseconds, allocated 165.169 megabytes
+*** Common sub-expression [Control.Monad.Representable.State]:
+Result size of Common sub-expression
+  = {terms: 1,222, types: 4,718, coercions: 649}
+!!! Common sub-expression [Control.Monad.Representable.State]: finished in 12.82 milliseconds, allocated 21.720 megabytes
+*** Float inwards [Control.Monad.Representable.State]:
+Result size of Float inwards
+  = {terms: 1,222, types: 4,718, coercions: 649}
+!!! Float inwards [Control.Monad.Representable.State]: finished in 11.43 milliseconds, allocated 19.242 megabytes
+*** Simplifier [Control.Monad.Representable.State]:
+Result size of Simplifier
+  = {terms: 1,216, types: 4,653, coercions: 649}
+!!! Simplifier [Control.Monad.Representable.State]: finished in 41.03 milliseconds, allocated 57.312 megabytes
+*** CoreTidy [Control.Monad.Representable.State]:
+Result size of Tidy Core
+  = {terms: 1,216, types: 4,653, coercions: 649}
+!!! CoreTidy [Control.Monad.Representable.State]: finished in 27.80 milliseconds, allocated 46.460 megabytes
+writeBinIface: 137 Names
+writeBinIface: 264 dict entries
+writeBinIface: 137 Names
+writeBinIface: 264 dict entries
+*** CorePrep [Control.Monad.Representable.State]:
+Result size of CorePrep
+  = {terms: 1,719, types: 6,197, coercions: 649}
+!!! CorePrep [Control.Monad.Representable.State]: finished in 20.48 milliseconds, allocated 29.944 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Representable.State]:
+!!! CodeGen [Control.Monad.Representable.State]: finished in 375.71 milliseconds, allocated 484.727 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad/Representable -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc12398_0/ghc_57.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/State.o
+*** CorePrep [Control.Monad.Representable.State]:
+Result size of CorePrep
+  = {terms: 1,719, types: 6,197, coercions: 649}
+!!! CorePrep [Control.Monad.Representable.State]: finished in 18.50 milliseconds, allocated 25.502 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Representable.State]:
+!!! CodeGen [Control.Monad.Representable.State]: finished in 404.20 milliseconds, allocated 511.161 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad/Representable -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12398_0/ghc_59.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/State.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12398_0/ghc_60.c /tmp/ghc12398_0/ghc_59.s /tmp/ghc12398_0/ghc_58.c /tmp/ghc12398_0/ghc_57.s /tmp/ghc12398_0/ghc_56.s
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_60.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_58.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_56.s
+compile: input file /tmp/ghc12398_0/ghc_15.hscpp
+*** Checking old interface for Data.Functor.Adjunction:
+[ 9 of 11] Compiling Data.Functor.Adjunction ( src/Data/Functor/Adjunction.hs, dist/dist-sandbox-8e35af7f/build/Data/Functor/Adjunction.o )
+*** Parser [Data.Functor.Adjunction]:
+!!! Parser [Data.Functor.Adjunction]: finished in 14.76 milliseconds, allocated 29.915 megabytes
+*** Renamer/typechecker [Data.Functor.Adjunction]:
+!!! Renamer/typechecker [Data.Functor.Adjunction]: finished in 668.64 milliseconds, allocated 1199.067 megabytes
+*** Desugar [Data.Functor.Adjunction]:
+Result size of Desugar (after optimization)
+  = {terms: 939, types: 4,125, coercions: 70}
+!!! Desugar [Data.Functor.Adjunction]: finished in 59.91 milliseconds, allocated 81.872 megabytes
+*** Simplifier [Data.Functor.Adjunction]:
+Result size of Simplifier iteration=1
+  = {terms: 1,077, types: 4,617, coercions: 118}
+Result size of Simplifier iteration=2
+  = {terms: 1,009, types: 4,427, coercions: 118}
+Result size of Simplifier iteration=3
+  = {terms: 1,008, types: 4,426, coercions: 118}
+Result size of Simplifier iteration=4
+  = {terms: 1,007, types: 4,425, coercions: 118}
+Result size of Simplifier
+  = {terms: 1,007, types: 4,425, coercions: 118}
+!!! Simplifier [Data.Functor.Adjunction]: finished in 95.80 milliseconds, allocated 127.956 megabytes
+*** Specialise [Data.Functor.Adjunction]:
+Result size of Specialise
+  = {terms: 1,007, types: 4,425, coercions: 118}
+!!! Specialise [Data.Functor.Adjunction]: finished in 8.61 milliseconds, allocated 13.917 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Functor.Adjunction]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,070, types: 4,830, coercions: 118}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Functor.Adjunction]: finished in 85.91 milliseconds, allocated 148.402 megabytes
+*** Simplifier [Data.Functor.Adjunction]:
+Result size of Simplifier iteration=1
+  = {terms: 1,113, types: 4,851, coercions: 134}
+Result size of Simplifier
+  = {terms: 1,113, types: 4,851, coercions: 134}
+!!! Simplifier [Data.Functor.Adjunction]: finished in 58.33 milliseconds, allocated 77.290 megabytes
+*** Simplifier [Data.Functor.Adjunction]:
+Result size of Simplifier
+  = {terms: 1,113, types: 4,851, coercions: 134}
+!!! Simplifier [Data.Functor.Adjunction]: finished in 25.38 milliseconds, allocated 32.443 megabytes
+*** Simplifier [Data.Functor.Adjunction]:
+Result size of Simplifier iteration=1
+  = {terms: 1,130, types: 4,891, coercions: 134}
+Result size of Simplifier
+  = {terms: 1,130, types: 4,891, coercions: 134}
+!!! Simplifier [Data.Functor.Adjunction]: finished in 50.28 milliseconds, allocated 66.229 megabytes
+*** Float inwards [Data.Functor.Adjunction]:
+Result size of Float inwards
+  = {terms: 1,130, types: 4,891, coercions: 134}
+!!! Float inwards [Data.Functor.Adjunction]: finished in 4.85 milliseconds, allocated 8.740 megabytes
+*** Called arity analysis [Data.Functor.Adjunction]:
+Result size of Called arity analysis
+  = {terms: 1,130, types: 4,891, coercions: 134}
+!!! Called arity analysis [Data.Functor.Adjunction]: finished in 10.84 milliseconds, allocated 18.749 megabytes
+*** Simplifier [Data.Functor.Adjunction]:
+Result size of Simplifier
+  = {terms: 1,130, types: 4,891, coercions: 134}
+!!! Simplifier [Data.Functor.Adjunction]: finished in 26.58 milliseconds, allocated 33.032 megabytes
+*** Demand analysis [Data.Functor.Adjunction]:
+Result size of Demand analysis
+  = {terms: 1,130, types: 4,891, coercions: 134}
+!!! Demand analysis [Data.Functor.Adjunction]: finished in 27.36 milliseconds, allocated 37.264 megabytes
+*** Worker Wrapper binds [Data.Functor.Adjunction]:
+Result size of Worker Wrapper binds
+  = {terms: 1,156, types: 5,001, coercions: 134}
+!!! Worker Wrapper binds [Data.Functor.Adjunction]: finished in 2.96 milliseconds, allocated 4.201 megabytes
+*** Simplifier [Data.Functor.Adjunction]:
+Result size of Simplifier iteration=1
+  = {terms: 1,146, types: 4,972, coercions: 134}
+Result size of Simplifier iteration=2
+  = {terms: 1,144, types: 4,966, coercions: 134}
+Result size of Simplifier
+  = {terms: 1,144, types: 4,966, coercions: 134}
+!!! Simplifier [Data.Functor.Adjunction]: finished in 102.40 milliseconds, allocated 134.382 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Functor.Adjunction]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,156, types: 5,036, coercions: 134}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Functor.Adjunction]: finished in 92.58 milliseconds, allocated 159.049 megabytes
+*** Common sub-expression [Data.Functor.Adjunction]:
+Result size of Common sub-expression
+  = {terms: 1,154, types: 5,033, coercions: 134}
+!!! Common sub-expression [Data.Functor.Adjunction]: finished in 12.43 milliseconds, allocated 19.093 megabytes
+*** Float inwards [Data.Functor.Adjunction]:
+Result size of Float inwards
+  = {terms: 1,154, types: 5,033, coercions: 134}
+!!! Float inwards [Data.Functor.Adjunction]: finished in 4.70 milliseconds, allocated 7.883 megabytes
+*** Simplifier [Data.Functor.Adjunction]:
+Result size of Simplifier
+  = {terms: 1,152, types: 5,029, coercions: 134}
+!!! Simplifier [Data.Functor.Adjunction]: finished in 34.95 milliseconds, allocated 49.650 megabytes
+*** CoreTidy [Data.Functor.Adjunction]:
+Result size of Tidy Core
+  = {terms: 1,200, types: 5,431, coercions: 134}
+!!! CoreTidy [Data.Functor.Adjunction]: finished in 24.85 milliseconds, allocated 42.419 megabytes
+writeBinIface: 171 Names
+writeBinIface: 301 dict entries
+writeBinIface: 171 Names
+writeBinIface: 301 dict entries
+*** CorePrep [Data.Functor.Adjunction]:
+Result size of CorePrep
+  = {terms: 1,684, types: 7,013, coercions: 134}
+!!! CorePrep [Data.Functor.Adjunction]: finished in 20.83 milliseconds, allocated 32.517 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Functor.Adjunction]:
+!!! CodeGen [Data.Functor.Adjunction]: finished in 377.86 milliseconds, allocated 496.184 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Functor -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc12398_0/ghc_62.s -o dist/dist-sandbox-8e35af7f/build/Data/Functor/Adjunction.o
+*** CorePrep [Data.Functor.Adjunction]:
+Result size of CorePrep
+  = {terms: 1,684, types: 7,013, coercions: 134}
+!!! CorePrep [Data.Functor.Adjunction]: finished in 18.16 milliseconds, allocated 26.547 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Functor.Adjunction]:
+!!! CodeGen [Data.Functor.Adjunction]: finished in 394.24 milliseconds, allocated 524.406 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Functor -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12398_0/ghc_64.s -o dist/dist-sandbox-8e35af7f/build/Data/Functor/Adjunction.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12398_0/ghc_65.c /tmp/ghc12398_0/ghc_64.s /tmp/ghc12398_0/ghc_63.c /tmp/ghc12398_0/ghc_62.s /tmp/ghc12398_0/ghc_61.s
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_65.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_63.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_61.s
+compile: input file /tmp/ghc12398_0/ghc_3.hscpp
+*** Checking old interface for Control.Comonad.Trans.Adjoint:
+[10 of 11] Compiling Control.Comonad.Trans.Adjoint ( src/Control/Comonad/Trans/Adjoint.hs, dist/dist-sandbox-8e35af7f/build/Control/Comonad/Trans/Adjoint.o )
+*** Parser [Control.Comonad.Trans.Adjoint]:
+!!! Parser [Control.Comonad.Trans.Adjoint]: finished in 5.55 milliseconds, allocated 11.812 megabytes
+*** Renamer/typechecker [Control.Comonad.Trans.Adjoint]:
+!!! Renamer/typechecker [Control.Comonad.Trans.Adjoint]: finished in 46.20 milliseconds, allocated 69.994 megabytes
+*** Desugar [Control.Comonad.Trans.Adjoint]:
+Result size of Desugar (after optimization)
+  = {terms: 298, types: 1,176, coercions: 76}
+!!! Desugar [Control.Comonad.Trans.Adjoint]: finished in 12.33 milliseconds, allocated 17.003 megabytes
+*** Simplifier [Control.Comonad.Trans.Adjoint]:
+Result size of Simplifier iteration=1
+  = {terms: 306, types: 1,187, coercions: 155}
+Result size of Simplifier iteration=2
+  = {terms: 284, types: 1,165, coercions: 155}
+Result size of Simplifier
+  = {terms: 284, types: 1,165, coercions: 155}
+!!! Simplifier [Control.Comonad.Trans.Adjoint]: finished in 21.74 milliseconds, allocated 29.872 megabytes
+*** Specialise [Control.Comonad.Trans.Adjoint]:
+Result size of Specialise
+  = {terms: 284, types: 1,165, coercions: 155}
+!!! Specialise [Control.Comonad.Trans.Adjoint]: finished in 2.04 milliseconds, allocated 3.647 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Comonad.Trans.Adjoint]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 329, types: 1,454, coercions: 155}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Comonad.Trans.Adjoint]: finished in 22.35 milliseconds, allocated 40.137 megabytes
+*** Simplifier [Control.Comonad.Trans.Adjoint]:
+Result size of Simplifier iteration=1
+  = {terms: 339, types: 1,607, coercions: 496}
+Result size of Simplifier iteration=2
+  = {terms: 311, types: 1,447, coercions: 534}
+Result size of Simplifier
+  = {terms: 311, types: 1,447, coercions: 534}
+!!! Simplifier [Control.Comonad.Trans.Adjoint]: finished in 42.48 milliseconds, allocated 69.361 megabytes
+*** Simplifier [Control.Comonad.Trans.Adjoint]:
+Result size of Simplifier
+  = {terms: 311, types: 1,447, coercions: 534}
+!!! Simplifier [Control.Comonad.Trans.Adjoint]: finished in 9.82 milliseconds, allocated 15.821 megabytes
+*** Simplifier [Control.Comonad.Trans.Adjoint]:
+Result size of Simplifier
+  = {terms: 311, types: 1,447, coercions: 534}
+!!! Simplifier [Control.Comonad.Trans.Adjoint]: finished in 10.23 milliseconds, allocated 15.824 megabytes
+*** Float inwards [Control.Comonad.Trans.Adjoint]:
+Result size of Float inwards
+  = {terms: 311, types: 1,447, coercions: 534}
+!!! Float inwards [Control.Comonad.Trans.Adjoint]: finished in 0.67 milliseconds, allocated 1.588 megabytes
+*** Called arity analysis [Control.Comonad.Trans.Adjoint]:
+Result size of Called arity analysis
+  = {terms: 311, types: 1,447, coercions: 534}
+!!! Called arity analysis [Control.Comonad.Trans.Adjoint]: finished in 2.15 milliseconds, allocated 3.788 megabytes
+*** Simplifier [Control.Comonad.Trans.Adjoint]:
+Result size of Simplifier
+  = {terms: 311, types: 1,447, coercions: 534}
+!!! Simplifier [Control.Comonad.Trans.Adjoint]: finished in 10.01 milliseconds, allocated 15.822 megabytes
+*** Demand analysis [Control.Comonad.Trans.Adjoint]:
+Result size of Demand analysis
+  = {terms: 311, types: 1,447, coercions: 534}
+!!! Demand analysis [Control.Comonad.Trans.Adjoint]: finished in 5.68 milliseconds, allocated 9.148 megabytes
+*** Worker Wrapper binds [Control.Comonad.Trans.Adjoint]:
+Result size of Worker Wrapper binds
+  = {terms: 311, types: 1,447, coercions: 534}
+!!! Worker Wrapper binds [Control.Comonad.Trans.Adjoint]: finished in 1.76 milliseconds, allocated 1.532 megabytes
+*** Simplifier [Control.Comonad.Trans.Adjoint]:
+Result size of Simplifier
+  = {terms: 311, types: 1,447, coercions: 534}
+!!! Simplifier [Control.Comonad.Trans.Adjoint]: finished in 14.17 milliseconds, allocated 23.631 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Comonad.Trans.Adjoint]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 323, types: 1,531, coercions: 534}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Comonad.Trans.Adjoint]: finished in 21.59 milliseconds, allocated 37.615 megabytes
+*** Common sub-expression [Control.Comonad.Trans.Adjoint]:
+Result size of Common sub-expression
+  = {terms: 313, types: 1,491, coercions: 534}
+!!! Common sub-expression [Control.Comonad.Trans.Adjoint]: finished in 3.74 milliseconds, allocated 6.479 megabytes
+*** Float inwards [Control.Comonad.Trans.Adjoint]:
+Result size of Float inwards
+  = {terms: 313, types: 1,491, coercions: 534}
+!!! Float inwards [Control.Comonad.Trans.Adjoint]: finished in 0.66 milliseconds, allocated 1.608 megabytes
+*** Simplifier [Control.Comonad.Trans.Adjoint]:
+Result size of Simplifier
+  = {terms: 309, types: 1,445, coercions: 534}
+!!! Simplifier [Control.Comonad.Trans.Adjoint]: finished in 14.60 milliseconds, allocated 23.715 megabytes
+*** CoreTidy [Control.Comonad.Trans.Adjoint]:
+Result size of Tidy Core
+  = {terms: 309, types: 1,445, coercions: 534}
+!!! CoreTidy [Control.Comonad.Trans.Adjoint]: finished in 7.73 milliseconds, allocated 13.816 megabytes
+writeBinIface: 65 Names
+writeBinIface: 157 dict entries
+writeBinIface: 65 Names
+writeBinIface: 157 dict entries
+*** CorePrep [Control.Comonad.Trans.Adjoint]:
+Result size of CorePrep
+  = {terms: 520, types: 2,017, coercions: 534}
+!!! CorePrep [Control.Comonad.Trans.Adjoint]: finished in 6.31 milliseconds, allocated 9.680 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Comonad.Trans.Adjoint]:
+!!! CodeGen [Control.Comonad.Trans.Adjoint]: finished in 86.33 milliseconds, allocated 113.785 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Comonad/Trans -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc12398_0/ghc_67.s -o dist/dist-sandbox-8e35af7f/build/Control/Comonad/Trans/Adjoint.o
+*** CorePrep [Control.Comonad.Trans.Adjoint]:
+Result size of CorePrep
+  = {terms: 520, types: 2,017, coercions: 534}
+!!! CorePrep [Control.Comonad.Trans.Adjoint]: finished in 7.82 milliseconds, allocated 8.311 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Comonad.Trans.Adjoint]:
+!!! CodeGen [Control.Comonad.Trans.Adjoint]: finished in 92.33 milliseconds, allocated 120.025 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Comonad/Trans -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12398_0/ghc_69.s -o dist/dist-sandbox-8e35af7f/build/Control/Comonad/Trans/Adjoint.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12398_0/ghc_70.c /tmp/ghc12398_0/ghc_69.s /tmp/ghc12398_0/ghc_68.c /tmp/ghc12398_0/ghc_67.s /tmp/ghc12398_0/ghc_66.s
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_70.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_68.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_66.s
+compile: input file /tmp/ghc12398_0/ghc_9.hscpp
+*** Checking old interface for Control.Monad.Trans.Adjoint:
+[11 of 11] Compiling Control.Monad.Trans.Adjoint ( src/Control/Monad/Trans/Adjoint.hs, dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Adjoint.o )
+*** Parser [Control.Monad.Trans.Adjoint]:
+!!! Parser [Control.Monad.Trans.Adjoint]: finished in 6.66 milliseconds, allocated 11.452 megabytes
+*** Renamer/typechecker [Control.Monad.Trans.Adjoint]:
+!!! Renamer/typechecker [Control.Monad.Trans.Adjoint]: finished in 44.59 milliseconds, allocated 64.684 megabytes
+*** Desugar [Control.Monad.Trans.Adjoint]:
+Result size of Desugar (after optimization)
+  = {terms: 323, types: 1,244, coercions: 65}
+!!! Desugar [Control.Monad.Trans.Adjoint]: finished in 15.64 milliseconds, allocated 21.309 megabytes
+*** Simplifier [Control.Monad.Trans.Adjoint]:
+Result size of Simplifier iteration=1
+  = {terms: 318, types: 1,212, coercions: 139}
+Result size of Simplifier iteration=2
+  = {terms: 290, types: 1,184, coercions: 139}
+Result size of Simplifier
+  = {terms: 290, types: 1,184, coercions: 139}
+!!! Simplifier [Control.Monad.Trans.Adjoint]: finished in 24.22 milliseconds, allocated 33.398 megabytes
+*** Specialise [Control.Monad.Trans.Adjoint]:
+Result size of Specialise
+  = {terms: 290, types: 1,184, coercions: 139}
+!!! Specialise [Control.Monad.Trans.Adjoint]: finished in 2.04 milliseconds, allocated 3.648 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Trans.Adjoint]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 329, types: 1,433, coercions: 139}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Trans.Adjoint]: finished in 23.87 milliseconds, allocated 41.956 megabytes
+*** Simplifier [Control.Monad.Trans.Adjoint]:
+Result size of Simplifier iteration=1
+  = {terms: 329, types: 1,490, coercions: 326}
+Result size of Simplifier
+  = {terms: 308, types: 1,370, coercions: 326}
+!!! Simplifier [Control.Monad.Trans.Adjoint]: finished in 23.84 milliseconds, allocated 37.329 megabytes
+*** Simplifier [Control.Monad.Trans.Adjoint]:
+Result size of Simplifier
+  = {terms: 308, types: 1,370, coercions: 326}
+!!! Simplifier [Control.Monad.Trans.Adjoint]: finished in 8.95 milliseconds, allocated 13.745 megabytes
+*** Simplifier [Control.Monad.Trans.Adjoint]:
+Result size of Simplifier
+  = {terms: 308, types: 1,370, coercions: 326}
+!!! Simplifier [Control.Monad.Trans.Adjoint]: finished in 9.19 milliseconds, allocated 13.712 megabytes
+*** Float inwards [Control.Monad.Trans.Adjoint]:
+Result size of Float inwards
+  = {terms: 308, types: 1,370, coercions: 326}
+!!! Float inwards [Control.Monad.Trans.Adjoint]: finished in 0.75 milliseconds, allocated 1.499 megabytes
+*** Called arity analysis [Control.Monad.Trans.Adjoint]:
+Result size of Called arity analysis
+  = {terms: 308, types: 1,370, coercions: 326}
+!!! Called arity analysis [Control.Monad.Trans.Adjoint]: finished in 3.33 milliseconds, allocated 6.367 megabytes
+*** Simplifier [Control.Monad.Trans.Adjoint]:
+Result size of Simplifier
+  = {terms: 308, types: 1,370, coercions: 326}
+!!! Simplifier [Control.Monad.Trans.Adjoint]: finished in 8.77 milliseconds, allocated 13.744 megabytes
+*** Demand analysis [Control.Monad.Trans.Adjoint]:
+Result size of Demand analysis
+  = {terms: 308, types: 1,370, coercions: 326}
+!!! Demand analysis [Control.Monad.Trans.Adjoint]: finished in 9.22 milliseconds, allocated 13.797 megabytes
+*** Worker Wrapper binds [Control.Monad.Trans.Adjoint]:
+Result size of Worker Wrapper binds
+  = {terms: 308, types: 1,370, coercions: 326}
+!!! Worker Wrapper binds [Control.Monad.Trans.Adjoint]: finished in 0.93 milliseconds, allocated 1.497 megabytes
+*** Simplifier [Control.Monad.Trans.Adjoint]:
+Result size of Simplifier
+  = {terms: 308, types: 1,370, coercions: 326}
+!!! Simplifier [Control.Monad.Trans.Adjoint]: finished in 11.12 milliseconds, allocated 18.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Trans.Adjoint]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 308, types: 1,370, coercions: 326}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Trans.Adjoint]: finished in 22.06 milliseconds, allocated 38.955 megabytes
+*** Common sub-expression [Control.Monad.Trans.Adjoint]:
+Result size of Common sub-expression
+  = {terms: 303, types: 1,352, coercions: 326}
+!!! Common sub-expression [Control.Monad.Trans.Adjoint]: finished in 2.89 milliseconds, allocated 5.042 megabytes
+*** Float inwards [Control.Monad.Trans.Adjoint]:
+Result size of Float inwards
+  = {terms: 303, types: 1,352, coercions: 326}
+!!! Float inwards [Control.Monad.Trans.Adjoint]: finished in 0.64 milliseconds, allocated 1.488 megabytes
+*** Simplifier [Control.Monad.Trans.Adjoint]:
+Result size of Simplifier
+  = {terms: 301, types: 1,330, coercions: 326}
+!!! Simplifier [Control.Monad.Trans.Adjoint]: finished in 11.55 milliseconds, allocated 18.783 megabytes
+*** CoreTidy [Control.Monad.Trans.Adjoint]:
+Result size of Tidy Core
+  = {terms: 301, types: 1,330, coercions: 326}
+!!! CoreTidy [Control.Monad.Trans.Adjoint]: finished in 6.62 milliseconds, allocated 11.292 megabytes
+writeBinIface: 56 Names
+writeBinIface: 147 dict entries
+writeBinIface: 56 Names
+writeBinIface: 147 dict entries
+*** CorePrep [Control.Monad.Trans.Adjoint]:
+Result size of CorePrep
+  = {terms: 492, types: 1,858, coercions: 326}
+!!! CorePrep [Control.Monad.Trans.Adjoint]: finished in 5.90 milliseconds, allocated 8.610 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Trans.Adjoint]:
+!!! CodeGen [Control.Monad.Trans.Adjoint]: finished in 89.85 milliseconds, allocated 114.326 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad/Trans -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc12398_0/ghc_72.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Adjoint.o
+*** CorePrep [Control.Monad.Trans.Adjoint]:
+Result size of CorePrep
+  = {terms: 492, types: 1,858, coercions: 326}
+!!! CorePrep [Control.Monad.Trans.Adjoint]: finished in 6.14 milliseconds, allocated 7.027 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Trans.Adjoint]:
+!!! CodeGen [Control.Monad.Trans.Adjoint]: finished in 91.37 milliseconds, allocated 120.516 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad/Trans -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12398_0/ghc_74.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Adjoint.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc12398_0/ghc_75.c /tmp/ghc12398_0/ghc_74.s /tmp/ghc12398_0/ghc_73.c /tmp/ghc12398_0/ghc_72.s /tmp/ghc12398_0/ghc_71.s
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_75.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_73.c
+Warning: deleting non-existent /tmp/ghc12398_0/ghc_71.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc12398_0/ghc_19.hscpp /tmp/ghc12398_0/ghc_17.hscpp /tmp/ghc12398_0/ghc_15.hscpp /tmp/ghc12398_0/ghc_13.hscpp /tmp/ghc12398_0/ghc_11.hscpp /tmp/ghc12398_0/ghc_9.hscpp /tmp/ghc12398_0/ghc_7.hscpp /tmp/ghc12398_0/ghc_5.hscpp /tmp/ghc12398_0/ghc_3.hscpp /tmp/ghc12398_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc12398_0
+Linking...
+[(SimpleUnitId (ComponentId "array-0.5.1.0"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "array"}, pkgVersion = Version {versionBranch =
+[0,5,1,0], versionTags = []}},ModuleRenaming True []),(SimpleUnitId
+(ComponentId "base-4.9.0.0"),PackageIdentifier {pkgName = PackageName
+{unPackageName = "base"}, pkgVersion = Version {versionBranch = [4,9,0,0],
+versionTags = []}},ModuleRenaming True []),(SimpleUnitId (ComponentId
+"comonad-5-5gFuocOc39NDuYdJfFj4w5"),PackageIdentifier {pkgName = PackageName
+{unPackageName = "comonad"}, pkgVersion = Version {versionBranch = [5],
+versionTags = []}},ModuleRenaming True []),(SimpleUnitId (ComponentId
+"containers-0.5.7.1"),PackageIdentifier {pkgName = PackageName {unPackageName
+= "containers"}, pkgVersion = Version {versionBranch = [0,5,7,1], versionTags
+= []}},ModuleRenaming True []),(SimpleUnitId (ComponentId
+"contravariant-1.4-p8fajuII3PIqtDOUwc1FN"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "contravariant"}, pkgVersion = Version
+{versionBranch = [1,4], versionTags = []}},ModuleRenaming True
+[]),(SimpleUnitId (ComponentId
+"distributive-0.5.0.2-602GriwDekjo0zhtN3nQ5"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "distributive"}, pkgVersion = Version
+{versionBranch = [0,5,0,2], versionTags = []}},ModuleRenaming True
+[]),(SimpleUnitId (ComponentId
+"free-4.12.4-KVDWJJ9Cl37JMKiHeoryvr"),PackageIdentifier {pkgName = PackageName
+{unPackageName = "free"}, pkgVersion = Version {versionBranch = [4,12,4],
+versionTags = []}},ModuleRenaming True []),(SimpleUnitId (ComponentId
+"mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM"),PackageIdentifier {pkgName = PackageName
+{unPackageName = "mtl"}, pkgVersion = Version {versionBranch = [2,2,1],
+versionTags = []}},ModuleRenaming True []),(SimpleUnitId (ComponentId
+"profunctors-5.2-1kdkpP4RccLJz0ehUD8cUO"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "profunctors"}, pkgVersion = Version
+{versionBranch = [5,2], versionTags = []}},ModuleRenaming True
+[]),(SimpleUnitId (ComponentId
+"semigroupoids-5.0.1-IsTPe3wPVgu95emklT5YXw"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "semigroupoids"}, pkgVersion = Version
+{versionBranch = [5,0,1], versionTags = []}},ModuleRenaming True
+[]),(SimpleUnitId (ComponentId
+"semigroups-0.18.1-2Ug5XAbvLWz4CGDwXtkoXz"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "semigroups"}, pkgVersion = Version
+{versionBranch = [0,18,1], versionTags = []}},ModuleRenaming True
+[]),(SimpleUnitId (ComponentId
+"tagged-0.8.3-8b1z2z4BoWI61h7jlWM3yR"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "tagged"}, pkgVersion = Version {versionBranch =
+[0,8,3], versionTags = []}},ModuleRenaming True []),(SimpleUnitId (ComponentId
+"transformers-0.5.2.0"),PackageIdentifier {pkgName = PackageName
+{unPackageName = "transformers"}, pkgVersion = Version {versionBranch =
+[0,5,2,0], versionTags = []}},ModuleRenaming True []),(SimpleUnitId
+(ComponentId
+"transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N"),PackageIdentifier
+{pkgName = PackageName {unPackageName = "transformers-compat"}, pkgVersion =
+Version {versionBranch = [0,5,1,4], versionTags = []}},ModuleRenaming True
+[]),(SimpleUnitId (ComponentId
+"void-0.7.1-JN2xFV06SqGCmtswzL4xwR"),PackageIdentifier {pkgName = PackageName
+{unPackageName = "void"}, pkgVersion = Version {versionBranch = [0,7,1],
+versionTags = []}},ModuleRenaming True [])]
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/ar",["-r","-v","dist/dist-sandbox-8e35af7f/build/objs-12393/libHSadjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO.a","dist/dist-sandbox-8e35af7f/build/Control/Comonad/Representable/Store.o","dist/dist-sandbox-8e35af7f/build/Control/Comonad/Trans/Adjoint.o","dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/Reader.o","dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/State.o","dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Adjoint.o","dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Contravariant/Adjoint.o","dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Conts.o","dist/dist-sandbox-8e35af7f/build/Data/Functor/Adjunction.o","dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Adjunction.o","dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Rep.o","dist/dist-sandbox-8e35af7f/build/Data/Functor/Rep.o"])
+/usr/bin/ar: creating dist/dist-sandbox-8e35af7f/build/objs-12393/libHSadjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO.a
+a - dist/dist-sandbox-8e35af7f/build/Control/Comonad/Representable/Store.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Comonad/Trans/Adjoint.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/Reader.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/State.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Adjoint.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Contravariant/Adjoint.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Conts.o
+a - dist/dist-sandbox-8e35af7f/build/Data/Functor/Adjunction.o
+a - dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Adjunction.o
+a - dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Rep.o
+a - dist/dist-sandbox-8e35af7f/build/Data/Functor/Rep.o
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["-shared","-dynamic","-dynload deploy","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/StateVar-1.1.0.3-2I6FYiYsYEYBtM9QPtmh6u","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/array/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/base/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/base-orphans-0.5.0-GEC8AwQ6T273fOCyuCb0PX","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/bifunctors-5.2.1-6QmG9OdJAVWATFcVvMN043","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/binary/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/bytestring/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/comonad-5-5gFuocOc39NDuYdJfFj4w5","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/containers/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/contravariant-1.4-p8fajuII3PIqtDOUwc1FN","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/deepseq/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/directory/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/distributive-0.5.0.2-602GriwDekjo0zhtN3nQ5","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/exceptions-0.8.2.1-KRhvi1lhaFUEiXnCWPbwYD","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/filepath/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/free-4.12.4-KVDWJJ9Cl37JMKiHeoryvr","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/ghc-boot/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/prelude-extras-0.4.0.3-FAyB4iuuM7cHXdrLMZtdXq","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/pretty/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/profunctors-5.2-1kdkpP4RccLJz0ehUD8cUO","-optl-Wl,-rpath,/home/omer/haskell/ghc/rts/dist/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/semigroupoids-5.0.1-IsTPe3wPVgu95emklT5YXw","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/semigroups-0.18.1-2Ug5XAbvLWz4CGDwXtkoXz","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/tagged-0.8.3-8b1z2z4BoWI61h7jlWM3yR","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/template-haskell/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/text-1.2.2.0-DNPL9j70xW29izEeMAP0sY","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/time/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/transformers/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/unix/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/void-0.7.1-JN2xFV06SqGCmtswzL4xwR","-no-auto-link-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-db","dist/dist-sandbox-8e35af7f/package.conf.inplace","-package-id","array-0.5.1.0","-package-id","base-4.9.0.0","-package-id","comonad-5-5gFuocOc39NDuYdJfFj4w5","-package-id","containers-0.5.7.1","-package-id","contravariant-1.4-p8fajuII3PIqtDOUwc1FN","-package-id","distributive-0.5.0.2-602GriwDekjo0zhtN3nQ5","-package-id","free-4.12.4-KVDWJJ9Cl37JMKiHeoryvr","-package-id","mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM","-package-id","profunctors-5.2-1kdkpP4RccLJz0ehUD8cUO","-package-id","semigroupoids-5.0.1-IsTPe3wPVgu95emklT5YXw","-package-id","semigroups-0.18.1-2Ug5XAbvLWz4CGDwXtkoXz","-package-id","tagged-0.8.3-8b1z2z4BoWI61h7jlWM3yR","-package-id","transformers-0.5.2.0","-package-id","transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N","-package-id","void-0.7.1-JN2xFV06SqGCmtswzL4xwR","dist/dist-sandbox-8e35af7f/build/Control/Comonad/Representable/Store.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Comonad/Trans/Adjoint.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/Reader.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/State.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Adjoint.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Contravariant/Adjoint.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Conts.dyn_o","dist/dist-sandbox-8e35af7f/build/Data/Functor/Adjunction.dyn_o","dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Adjunction.dyn_o","dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Rep.dyn_o","dist/dist-sandbox-8e35af7f/build/Data/Functor/Rep.dyn_o","-o","dist/dist-sandbox-8e35af7f/build/libHSadjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO-ghc8.1.20160328.so","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 2 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-8e35af7f/package.conf.inplace/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-8e35af7f/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/StateVar-1.1.0.3-2I6FYiYsYEYBtM9QPtmh6u -Wl,-rpath,/home/omer/haskell/ghc/libraries/array/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/base/dist-install/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/base-orphans-0.5.0-GEC8AwQ6T273fOCyuCb0PX -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/bifunctors-5.2.1-6QmG9OdJAVWATFcVvMN043 -Wl,-rpath,/home/omer/haskell/ghc/libraries/binary/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/bytestring/dist-install/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/comonad-5-5gFuocOc39NDuYdJfFj4w5 -Wl,-rpath,/home/omer/haskell/ghc/libraries/containers/dist-install/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/contravariant-1.4-p8fajuII3PIqtDOUwc1FN -Wl,-rpath,/home/omer/haskell/ghc/libraries/deepseq/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/directory/dist-install/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/distributive-0.5.0.2-602GriwDekjo0zhtN3nQ5 -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/exceptions-0.8.2.1-KRhvi1lhaFUEiXnCWPbwYD -Wl,-rpath,/home/omer/haskell/ghc/libraries/filepath/dist-install/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/free-4.12.4-KVDWJJ9Cl37JMKiHeoryvr -Wl,-rpath,/home/omer/haskell/ghc/libraries/ghc-boot/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ -Wl,-rpath,/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/prelude-extras-0.4.0.3-FAyB4iuuM7cHXdrLMZtdXq -Wl,-rpath,/home/omer/haskell/ghc/libraries/pretty/dist-install/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/profunctors-5.2-1kdkpP4RccLJz0ehUD8cUO -Wl,-rpath,/home/omer/haskell/ghc/rts/dist/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/semigroupoids-5.0.1-IsTPe3wPVgu95emklT5YXw -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/semigroups-0.18.1-2Ug5XAbvLWz4CGDwXtkoXz -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/tagged-0.8.3-8b1z2z4BoWI61h7jlWM3yR -Wl,-rpath,/home/omer/haskell/ghc/libraries/template-haskell/dist-install/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/text-1.2.2.0-DNPL9j70xW29izEeMAP0sY -Wl,-rpath,/home/omer/haskell/ghc/libraries/time/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/transformers/dist-install/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N -Wl,-rpath,/home/omer/haskell/ghc/libraries/unix/dist-install/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/void-0.7.1-JN2xFV06SqGCmtswzL4xwR -o dist/dist-sandbox-8e35af7f/build/libHSadjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO-ghc8.1.20160328.so -shared -Wl,-Bsymbolic -Wl,-h,libHSadjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO-ghc8.1.20160328.so dist/dist-sandbox-8e35af7f/build/Control/Comonad/Representable/Store.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Comonad/Trans/Adjoint.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/Reader.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/State.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Adjoint.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Contravariant/Adjoint.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Conts.dyn_o dist/dist-sandbox-8e35af7f/build/Data/Functor/Adjunction.dyn_o dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Adjunction.dyn_o dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Rep.dyn_o dist/dist-sandbox-8e35af7f/build/Data/Functor/Rep.dyn_o -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/free-4.12.4-KVDWJJ9Cl37JMKiHeoryvr -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/semigroupoids-5.0.1-IsTPe3wPVgu95emklT5YXw -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/profunctors-5.2-1kdkpP4RccLJz0ehUD8cUO -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/prelude-extras-0.4.0.3-FAyB4iuuM7cHXdrLMZtdXq -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/exceptions-0.8.2.1-KRhvi1lhaFUEiXnCWPbwYD -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/bifunctors-5.2.1-6QmG9OdJAVWATFcVvMN043 -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/comonad-5-5gFuocOc39NDuYdJfFj4w5 -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/distributive-0.5.0.2-602GriwDekjo0zhtN3nQ5 -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/tagged-0.8.3-8b1z2z4BoWI61h7jlWM3yR -L/home/omer/haskell/ghc/libraries/template-haskell/dist-install/build -L/home/omer/haskell/ghc/libraries/pretty/dist-install/build -L/home/omer/haskell/ghc/libraries/ghc-boot/dist-install/build -L/home/omer/haskell/ghc/libraries/directory/dist-install/build -L/home/omer/haskell/ghc/libraries/unix/dist-install/build -L/home/omer/haskell/ghc/libraries/time/dist-install/build -L/home/omer/haskell/ghc/libraries/filepath/dist-install/build -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/base-orphans-0.5.0-GEC8AwQ6T273fOCyuCb0PX -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/contravariant-1.4-p8fajuII3PIqtDOUwc1FN -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/void-0.7.1-JN2xFV06SqGCmtswzL4xwR -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/text-1.2.2.0-DNPL9j70xW29izEeMAP0sY -L/home/omer/haskell/ghc/libraries/binary/dist-install/build -L/home/omer/haskell/ghc/libraries/bytestring/dist-install/build -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/semigroups-0.18.1-2Ug5XAbvLWz4CGDwXtkoXz -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/StateVar-1.1.0.3-2I6FYiYsYEYBtM9QPtmh6u -L/home/omer/haskell/ghc/libraries/transformers/dist-install/build -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio -L/home/omer/haskell/ghc/libraries/containers/dist-install/build -L/home/omer/haskell/ghc/libraries/deepseq/dist-install/build -L/home/omer/haskell/ghc/libraries/array/dist-install/build -L/home/omer/haskell/ghc/libraries/base/dist-install/build -L/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build -L/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build -L/home/omer/haskell/ghc/rts/dist/build -lHSfree-4.12.4-KVDWJJ9Cl37JMKiHeoryvr-ghc8.1.20160328 -lHSsemigroupoids-5.0.1-IsTPe3wPVgu95emklT5YXw-ghc8.1.20160328 -lHSprofunctors-5.2-1kdkpP4RccLJz0ehUD8cUO-ghc8.1.20160328 -lHSprelude-extras-0.4.0.3-FAyB4iuuM7cHXdrLMZtdXq-ghc8.1.20160328 -lHSexceptions-0.8.2.1-KRhvi1lhaFUEiXnCWPbwYD-ghc8.1.20160328 -lHSmtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM-ghc8.1.20160328 -lHSbifunctors-5.2.1-6QmG9OdJAVWATFcVvMN043-ghc8.1.20160328 -lHScomonad-5-5gFuocOc39NDuYdJfFj4w5-ghc8.1.20160328 -lHSdistributive-0.5.0.2-602GriwDekjo0zhtN3nQ5-ghc8.1.20160328 -lHStagged-0.8.3-8b1z2z4BoWI61h7jlWM3yR-ghc8.1.20160328 -lHStemplate-haskell-2.11.0.0-ghc8.1.20160328 -lHSpretty-1.1.3.2-ghc8.1.20160328 -lHSghc-boot-8.1-ghc8.1.20160328 -lHSdirectory-1.2.5.1-ghc8.1.20160328 -lHSunix-2.7.2.0-ghc8.1.20160328 -lHStime-1.6-ghc8.1.20160328 -lHSfilepath-1.4.1.0-ghc8.1.20160328 -lHSbase-orphans-0.5.0-GEC8AwQ6T273fOCyuCb0PX-ghc8.1.20160328 -lHScontravariant-1.4-p8fajuII3PIqtDOUwc1FN-ghc8.1.20160328 -lHSvoid-0.7.1-JN2xFV06SqGCmtswzL4xwR-ghc8.1.20160328 -lHShashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ-ghc8.1.20160328 -lHStext-1.2.2.0-DNPL9j70xW29izEeMAP0sY-ghc8.1.20160328 -lHSbinary-0.8.2.0-ghc8.1.20160328 -lHSbytestring-0.10.7.0-ghc8.1.20160328 -lHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N-ghc8.1.20160328 -lHSsemigroups-0.18.1-2Ug5XAbvLWz4CGDwXtkoXz-ghc8.1.20160328 -lHSStateVar-1.1.0.3-2I6FYiYsYEYBtM9QPtmh6u-ghc8.1.20160328 -lHStransformers-0.5.2.0-ghc8.1.20160328 -lHSstm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio-ghc8.1.20160328 -lHScontainers-0.5.7.1-ghc8.1.20160328 -lHSdeepseq-1.4.2.0-ghc8.1.20160328 -lHSarray-0.5.1.0-ghc8.1.20160328 -lHSbase-4.9.0.0-ghc8.1.20160328 -lHSinteger-gmp-1.0.0.1-ghc8.1.20160328 -lHSghc-prim-0.5.0.0-ghc8.1.20160328 -lrt -lutil -ldl -lpthread -lgmp
+Created temporary directory: /tmp/ghc12469_0
+*** Deleting temp files:
+Deleting: /tmp/ghc12469_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc12469_0
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","--package-db=dist/dist-sandbox-8e35af7f/package.conf.inplace","-v2"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-8e35af7f/build","-odir","dist/dist-sandbox-8e35af7f/build","-hidir","dist/dist-sandbox-8e35af7f/build","-stubdir","dist/dist-sandbox-8e35af7f/build","-i","-idist/dist-sandbox-8e35af7f/build","-isrc","-idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build","-optP-include","-optPdist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h","-this-unit-id","adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","array-0.5.1.0","-package-id","base-4.9.0.0","-package-id","comonad-5-5gFuocOc39NDuYdJfFj4w5","-package-id","containers-0.5.7.1","-package-id","contravariant-1.4-p8fajuII3PIqtDOUwc1FN","-package-id","distributive-0.5.0.2-602GriwDekjo0zhtN3nQ5","-package-id","free-4.12.4-KVDWJJ9Cl37JMKiHeoryvr","-package-id","mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM","-package-id","profunctors-5.2-1kdkpP4RccLJz0ehUD8cUO","-package-id","semigroupoids-5.0.1-IsTPe3wPVgu95emklT5YXw","-package-id","semigroups-0.18.1-2Ug5XAbvLWz4CGDwXtkoXz","-package-id","tagged-0.8.3-8b1z2z4BoWI61h7jlWM3yR","-package-id","transformers-0.5.2.0","-package-id","transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N","-package-id","void-0.7.1-JN2xFV06SqGCmtswzL4xwR","-XHaskell98","Control.Comonad.Representable.Store","Control.Comonad.Trans.Adjoint","Control.Monad.Representable.Reader","Control.Monad.Representable.State","Control.Monad.Trans.Adjoint","Control.Monad.Trans.Contravariant.Adjoint","Control.Monad.Trans.Conts","Data.Functor.Adjunction","Data.Functor.Contravariant.Adjunction","Data.Functor.Contravariant.Rep","Data.Functor.Rep","-Wall","-v3"])
+Creating package registration file:
+/tmp/pkgConf-adjunctions-41687926652660260756.3
+directory dist/dist-sandbox-8e35af7f/doc/html/adjunctions does exist: False
+creating
+/home/omer/haskell/lens/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3
+Installing LICENSE to
+/home/omer/haskell/lens/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3/LICENSE
+Installing library in
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Comonad/Representable
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Comonad
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Comonad
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Comonad/Representable
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Comonad/Trans
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Representable
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Representable
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Trans
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Trans/Contravariant
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data/Functor
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data/Functor
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data/Functor/Contravariant
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Comonad/Representable/Store.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Comonad/Representable/Store.hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Comonad/Trans/Adjoint.hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Comonad/Trans/Adjoint.hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/Reader.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Representable/Reader.hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/State.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Representable/State.hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Adjoint.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Trans/Adjoint.hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Contravariant/Adjoint.hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Trans/Contravariant/Adjoint.hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Conts.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Trans/Conts.hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/Functor/Adjunction.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data/Functor/Adjunction.hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Adjunction.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data/Functor/Contravariant/Adjunction.hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Rep.hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data/Functor/Contravariant/Rep.hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/Functor/Rep.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data/Functor/Rep.hi
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Comonad/Representable
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Comonad/Trans
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Representable
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Trans
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Trans/Contravariant
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data/Functor
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data/Functor/Contravariant
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Comonad/Representable/Store.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Comonad/Representable/Store.dyn_hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Comonad/Trans/Adjoint.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Comonad/Trans/Adjoint.dyn_hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/Reader.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Representable/Reader.dyn_hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Monad/Representable/State.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Representable/State.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Adjoint.dyn_hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Trans/Adjoint.dyn_hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Contravariant/Adjoint.dyn_hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Trans/Contravariant/Adjoint.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Conts.dyn_hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Control/Monad/Trans/Conts.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/Functor/Adjunction.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data/Functor/Adjunction.dyn_hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Adjunction.dyn_hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data/Functor/Contravariant/Adjunction.dyn_hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Data/Functor/Contravariant/Rep.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data/Functor/Contravariant/Rep.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/Functor/Rep.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/Data/Functor/Rep.dyn_hi
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO
+Installing
+dist/dist-sandbox-8e35af7f/build/libHSadjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO.a
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/libHSadjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO.a
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/libHSadjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO.a","--strip-unneeded"])
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO
+Installing executable
+dist/dist-sandbox-8e35af7f/build/libHSadjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO-ghc8.1.20160328.so
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/libHSadjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO-ghc8.1.20160328.so
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO/libHSadjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO-ghc8.1.20160328.so","--strip-unneeded"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-8e35af7f/build","-odir","dist/dist-sandbox-8e35af7f/build","-hidir","dist/dist-sandbox-8e35af7f/build","-stubdir","dist/dist-sandbox-8e35af7f/build","-i","-idist/dist-sandbox-8e35af7f/build","-isrc","-idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build","-optP-include","-optPdist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h","-this-unit-id","adjunctions-4.3-KfnL7SRjoJlGUgS4vpKezO","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","array-0.5.1.0","-package-id","base-4.9.0.0","-package-id","comonad-5-5gFuocOc39NDuYdJfFj4w5","-package-id","containers-0.5.7.1","-package-id","contravariant-1.4-p8fajuII3PIqtDOUwc1FN","-package-id","distributive-0.5.0.2-602GriwDekjo0zhtN3nQ5","-package-id","free-4.12.4-KVDWJJ9Cl37JMKiHeoryvr","-package-id","mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM","-package-id","profunctors-5.2-1kdkpP4RccLJz0ehUD8cUO","-package-id","semigroupoids-5.0.1-IsTPe3wPVgu95emklT5YXw","-package-id","semigroups-0.18.1-2Ug5XAbvLWz4CGDwXtkoXz","-package-id","tagged-0.8.3-8b1z2z4BoWI61h7jlWM3yR","-package-id","transformers-0.5.2.0","-package-id","transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N","-package-id","void-0.7.1-JN2xFV06SqGCmtswzL4xwR","-XHaskell98","Control.Comonad.Representable.Store","Control.Comonad.Trans.Adjoint","Control.Monad.Representable.Reader","Control.Monad.Representable.State","Control.Monad.Trans.Adjoint","Control.Monad.Trans.Contravariant.Adjoint","Control.Monad.Trans.Conts","Data.Functor.Adjunction","Data.Functor.Contravariant.Adjunction","Data.Functor.Contravariant.Rep","Data.Functor.Rep","-Wall","-v3"])
+Registering adjunctions-4.3...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v2"])
+cabal: Leaving directory '/tmp/cabal-tmp-8268/adjunctions-4.3'

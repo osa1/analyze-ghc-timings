@@ -1,0 +1,1368 @@
+cabal: Entering directory '.'
+Configuring haskell-src-exts-1.17.1...
+creating dist/dist-sandbox-f7dee551/build
+Searching for ghc in path.
+Found ghc at /home/omer/haskell/ghc/inplace/bin/ghc
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--numeric-version"])
+/home/omer/haskell/ghc/inplace/bin/ghc is version 8.1.20160328
+looking for tool ghc-pkg near compiler in /home/omer/haskell/ghc/inplace/bin
+found ghc-pkg in /home/omer/haskell/ghc/inplace/bin/ghc-pkg
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["--version"])
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg is version 8.1.20160328
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--supported-languages"])
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--info"])
+Reading installed packages...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--global","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--package-db=/home/omer/haskell/haskell-src-exts/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--print-libdir","-v3","-O"])
+Dependency array ==0.5.1.0: using array-0.5.1.0
+Dependency base ==4.9.0.0: using base-4.9.0.0
+Dependency cpphs ==1.19.3: using cpphs-1.19.3
+Dependency ghc-prim ==0.5.0.0: using ghc-prim-0.5.0.0
+Dependency pretty ==1.1.3.2: using pretty-1.1.3.2
+Searching for alex in path.
+Found alex at /home/omer/.cabal/bin/alex
+("/home/omer/.cabal/bin/alex",["--version"])
+/home/omer/.cabal/bin/alex is version 3.1.5
+Searching for ar in path.
+Found ar at /usr/bin/ar
+Searching for c2hs in path.
+Cannot find c2hs on the path
+Searching for cpphs in path.
+Found cpphs at /home/omer/haskell/haskell-src-exts/.cabal-sandbox/bin/cpphs
+("/home/omer/haskell/haskell-src-exts/.cabal-sandbox/bin/cpphs",["--version"])
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/bin/cpphs is version 1.19.3
+Searching for gcc in path.
+Found gcc at /usr/bin/gcc
+("/usr/bin/gcc",["-dumpversion"])
+/usr/bin/gcc is version 4.8
+Searching for ghcjs in path.
+Cannot find ghcjs on the path
+Searching for ghcjs-pkg in path.
+Cannot find ghcjs-pkg on the path
+Searching for greencard in path.
+Cannot find greencard on the path
+looking for tool haddock near compiler in /home/omer/haskell/ghc/inplace/bin
+Searching for haddock in path.
+Cannot find haddock on the path
+Searching for happy in path.
+Found happy at /home/omer/.cabal/bin/happy
+("/home/omer/.cabal/bin/happy",["--version"])
+/home/omer/.cabal/bin/happy is version 1.19.5
+Searching for hmake in path.
+Cannot find hmake on the path
+Searching for hpc in path.
+Found hpc at /home/omer/haskell/ghc/inplace/bin/hpc
+("/home/omer/haskell/ghc/inplace/bin/hpc",["version"])
+/home/omer/haskell/ghc/inplace/bin/hpc is version 0.67
+looking for tool hsc2hs near compiler in /home/omer/haskell/ghc/inplace/bin
+found hsc2hs in /home/omer/haskell/ghc/inplace/bin/hsc2hs
+("/home/omer/haskell/ghc/inplace/bin/hsc2hs",["--version"])
+/home/omer/haskell/ghc/inplace/bin/hsc2hs is version 0.67
+Searching for HsColour in path.
+Cannot find HsColour on the path
+Searching for jhc in path.
+Cannot find jhc on the path
+Searching for ld in path.
+Found ld at /usr/bin/ld
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/15"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/140"),("KONSOLE_DBUS_WINDOW","/Windows/140"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/haskell-src-exts/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/haskell-src-exts"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","5db061c46f0140008d1ecd1489104fa7"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919904"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc",["-c","/tmp/1804289383846930886.c","-o","/tmp/16816927771714636915.o","-v3","-O"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 1 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc26330_0
+*** C Compiler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc26330_0/ghc_1.s -Wimplicit -S -O -include /home/omer/haskell/ghc/includes/ghcversion.h -I/home/omer/haskell/ghc/libraries/base/include -I/home/omer/haskell/ghc/libraries/integer-gmp/include -I/home/omer/haskell/ghc/rts/dist/build -I/home/omer/haskell/ghc/includes -I/home/omer/haskell/ghc/includes/dist-derivedconstants/header
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc26330_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc26330_0/ghc_2.rsp /tmp/ghc26330_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc26330_0
+("/usr/bin/ld",["-x","-r","/tmp/16816927771714636915.o","-o","/tmp/1957747793424238335.o"])
+Searching for lhc in path.
+Cannot find lhc on the path
+Searching for lhc-pkg in path.
+Cannot find lhc-pkg on the path
+Searching for pkg-config in path.
+Found pkg-config at /usr/bin/pkg-config
+("/usr/bin/pkg-config",["--version"])
+/usr/bin/pkg-config is version 0.28
+Searching for strip in path.
+Found strip at /usr/bin/strip
+("/usr/bin/strip",["--version"])
+/usr/bin/strip is version 2.24
+Searching for tar in path.
+Found tar at /bin/tar
+("/bin/tar",["--help"])
+Searching for uhc in path.
+Cannot find uhc on the path
+Using Cabal-1.23.1.0 compiled by ghc-7.10
+Using compiler: ghc-8.1.20160328
+Using install prefix: /home/omer/haskell/haskell-src-exts/.cabal-sandbox
+Binaries installed in: /home/omer/haskell/haskell-src-exts/.cabal-sandbox/bin
+Libraries installed in:
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7
+Private binaries installed in:
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/libexec
+Data files installed in:
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/share/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1
+Documentation installed in:
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1
+Configuration files installed in:
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/etc
+Using alex version 3.1.5 found on system at: /home/omer/.cabal/bin/alex
+Using ar found on system at: /usr/bin/ar
+No c2hs found
+Using cpphs version 1.19.3 found on system at:
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/bin/cpphs
+Using gcc version 4.8 found on system at: /usr/bin/gcc
+Using ghc version 8.1.20160328 found on system at:
+/home/omer/haskell/ghc/inplace/bin/ghc
+Using ghc-pkg version 8.1.20160328 found on system at:
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+No haddock found
+Using happy version 1.19.5 found on system at: /home/omer/.cabal/bin/happy
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hpc
+Using hsc2hs version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hsc2hs
+No hscolour found
+No jhc found
+Using ld found on system at: /usr/bin/ld
+No lhc found
+No lhc-pkg found
+Using pkg-config version 0.28 found on system at: /usr/bin/pkg-config
+Using strip version 2.24 found on system at: /usr/bin/strip
+Using tar found on system at: /bin/tar
+No uhc found
+("/usr/bin/gcc",["-std=gnu99","-fno-stack-protector","/tmp/5965166491189641421.c","-o","/tmp/10252023621350490027","-D__GLASGOW_HASKELL__=801","-Dlinux_BUILD_OS=1","-Dx86_64_BUILD_ARCH=1","-Dlinux_HOST_OS=1","-Dx86_64_HOST_ARCH=1","-Idist/dist-sandbox-f7dee551/build/autogen","-I.","-I/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/old-time-1.1.0.3-IcvdkJUsE9M8t3io8peAEp/include","-I/home/omer/haskell/ghc/libraries/directory/include","-I/home/omer/haskell/ghc/libraries/unix/include","-I/home/omer/haskell/ghc/libraries/time/lib/include","-I/home/omer/haskell/ghc/libraries/containers/include","-I/home/omer/haskell/ghc/libraries/bytestring/include","-I/home/omer/haskell/ghc/libraries/base/include","-I/home/omer/haskell/ghc/libraries/integer-gmp/include","-I/home/omer/haskell/ghc/rts/dist/build","-I/home/omer/haskell/ghc/includes","-I/home/omer/haskell/ghc/includes/dist-derivedconstants/header","-L/home/omer/haskell/ghc/libraries/pretty/dist-install/build","-L/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/cpphs-1.19.3-5dK0scGvwcNK0ufeAybLNa","-L/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/polyparse-1.11-4nsUgyPQJ1ULqkUIQvTi5C","-L/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/text-1.2.2.0-DNPL9j70xW29izEeMAP0sY","-L/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/old-time-1.1.0.3-IcvdkJUsE9M8t3io8peAEp","-L/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/old-locale-1.0.0.7-6glXNhHF891B41ZfuI8hU8","-L/home/omer/haskell/ghc/libraries/directory/dist-install/build","-L/home/omer/haskell/ghc/libraries/unix/dist-install/build","-L/home/omer/haskell/ghc/libraries/time/dist-install/build","-L/home/omer/haskell/ghc/libraries/filepath/dist-install/build","-L/home/omer/haskell/ghc/libraries/binary/dist-install/build","-L/home/omer/haskell/ghc/libraries/containers/dist-install/build","-L/home/omer/haskell/ghc/libraries/bytestring/dist-install/build","-L/home/omer/haskell/ghc/libraries/deepseq/dist-install/build","-L/home/omer/haskell/ghc/libraries/array/dist-install/build","-L/home/omer/haskell/ghc/libraries/base/dist-install/build","-L/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build","-L/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build","-L/home/omer/haskell/ghc/rts/dist/build"])
+Component build order: library
+creating dist/dist-sandbox-f7dee551/build
+creating dist/dist-sandbox-f7dee551/build/autogen
+Building haskell-src-exts-1.17.1...
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/15"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/140"),("KONSOLE_DBUS_WINDOW","/Windows/140"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/haskell-src-exts/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/haskell-src-exts"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","5db061c46f0140008d1ecd1489104fa7"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919904"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["init","dist/dist-sandbox-f7dee551/package.conf.inplace","-v2"])
+GHC package manager version 8.1.20160328
+writing cache dist/dist-sandbox-f7dee551/package.conf.inplace/package.cache
+Preprocessing library haskell-src-exts-1.17.1...
+Building library...
+creating dist/dist-sandbox-f7dee551/build
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/15"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/140"),("KONSOLE_DBUS_WINDOW","/Windows/140"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/haskell-src-exts/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/haskell-src-exts"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","5db061c46f0140008d1ecd1489104fa7"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919904"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--make","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-f7dee551/build","-odir","dist/dist-sandbox-f7dee551/build","-hidir","dist/dist-sandbox-f7dee551/build","-stubdir","dist/dist-sandbox-f7dee551/build","-i","-idist/dist-sandbox-f7dee551/build","-isrc","-idist/dist-sandbox-f7dee551/build/autogen","-Idist/dist-sandbox-f7dee551/build/autogen","-Idist/dist-sandbox-f7dee551/build","-optP-include","-optPdist/dist-sandbox-f7dee551/build/autogen/cabal_macros.h","-this-unit-id","haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/haskell-src-exts/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-db","dist/dist-sandbox-f7dee551/package.conf.inplace","-package-id","array-0.5.1.0","-package-id","base-4.9.0.0","-package-id","cpphs-1.19.3-5dK0scGvwcNK0ufeAybLNa","-package-id","ghc-prim-0.5.0.0","-package-id","pretty-1.1.3.2","-XHaskell98","Language.Haskell.Exts","Language.Haskell.Exts.Lexer","Language.Haskell.Exts.Parser","Language.Haskell.Exts.Pretty","Language.Haskell.Exts.Syntax","Language.Haskell.Exts.Extension","Language.Haskell.Exts.Build","Language.Haskell.Exts.Fixity","Language.Haskell.Exts.Comments","Language.Haskell.Exts.SrcLoc","Language.Haskell.Exts.Annotated","Language.Haskell.Exts.Annotated.Syntax","Language.Haskell.Exts.Annotated.Fixity","Language.Haskell.Exts.Annotated.Build","Language.Haskell.Exts.Annotated.ExactPrint","Language.Haskell.Exts.Annotated.Simplify","Language.Haskell.Exts.Annotated.Parser","Language.Haskell.Exts.Annotated.Comments","Language.Haskell.Exts.ExtScheme","Language.Haskell.Exts.ParseMonad","Language.Haskell.Exts.ParseSyntax","Language.Haskell.Exts.InternalLexer","Language.Haskell.Exts.ParseUtils","Language.Haskell.Exts.InternalParser","-Wall","-v3","-O"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 1 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/haskell-src-exts/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-f7dee551/package.conf.inplace/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/haskell-src-exts/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-f7dee551/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/haskell-src-exts/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-f7dee551/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Language.Haskell.Exts,*Language.Haskell.Exts.Lexer,*Language.Haskell.Exts.Parser,*Language.Haskell.Exts.Pretty,*Language.Haskell.Exts.Syntax,*Language.Haskell.Exts.Extension,*Language.Haskell.Exts.Build,*Language.Haskell.Exts.Fixity,*Language.Haskell.Exts.Comments,*Language.Haskell.Exts.SrcLoc,*Language.Haskell.Exts.Annotated,*Language.Haskell.Exts.Annotated.Syntax,*Language.Haskell.Exts.Annotated.Fixity,*Language.Haskell.Exts.Annotated.Build,*Language.Haskell.Exts.Annotated.ExactPrint,*Language.Haskell.Exts.Annotated.Simplify,*Language.Haskell.Exts.Annotated.Parser,*Language.Haskell.Exts.Annotated.Comments,*Language.Haskell.Exts.ExtScheme,*Language.Haskell.Exts.ParseMonad,*Language.Haskell.Exts.ParseSyntax,*Language.Haskell.Exts.InternalLexer,*Language.Haskell.Exts.ParseUtils,*Language.Haskell.Exts.InternalParser
+Created temporary directory: /tmp/ghc26350_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-f7dee551/build/autogen/cabal_macros.h -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build/autogen -I dist/dist-sandbox-f7dee551/build -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/old-time-1.1.0.3-IcvdkJUsE9M8t3io8peAEp/include -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH '-D__GLASGOW_HASKELL_TH__=0' -D__SSE__ -D__SSE2__ -include/tmp/ghc26350_0/ghc_2.h -x assembler-with-cpp src/Language/Haskell/Exts/Pretty.hs -o /tmp/ghc26350_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-f7dee551/build/autogen/cabal_macros.h -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build/autogen -I dist/dist-sandbox-f7dee551/build -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/old-time-1.1.0.3-IcvdkJUsE9M8t3io8peAEp/include -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH '-D__GLASGOW_HASKELL_TH__=0' -D__SSE__ -D__SSE2__ -include/tmp/ghc26350_0/ghc_4.h -x assembler-with-cpp src/Language/Haskell/Exts/Extension.hs -o /tmp/ghc26350_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-f7dee551/build/autogen/cabal_macros.h -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build/autogen -I dist/dist-sandbox-f7dee551/build -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/old-time-1.1.0.3-IcvdkJUsE9M8t3io8peAEp/include -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH '-D__GLASGOW_HASKELL_TH__=0' -D__SSE__ -D__SSE2__ -include/tmp/ghc26350_0/ghc_6.h -x assembler-with-cpp src/Language/Haskell/Exts/Annotated/Syntax.hs -o /tmp/ghc26350_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-f7dee551/build/autogen/cabal_macros.h -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build/autogen -I dist/dist-sandbox-f7dee551/build -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/old-time-1.1.0.3-IcvdkJUsE9M8t3io8peAEp/include -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH '-D__GLASGOW_HASKELL_TH__=0' -D__SSE__ -D__SSE2__ -include/tmp/ghc26350_0/ghc_8.h -x assembler-with-cpp src/Language/Haskell/Exts/Annotated/ExactPrint.hs -o /tmp/ghc26350_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-f7dee551/build/autogen/cabal_macros.h -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build/autogen -I dist/dist-sandbox-f7dee551/build -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/old-time-1.1.0.3-IcvdkJUsE9M8t3io8peAEp/include -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH '-D__GLASGOW_HASKELL_TH__=0' -D__SSE__ -D__SSE2__ -include/tmp/ghc26350_0/ghc_10.h -x assembler-with-cpp src/Language/Haskell/Exts/Annotated/Parser.hs -o /tmp/ghc26350_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-f7dee551/build/autogen/cabal_macros.h -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build/autogen -I dist/dist-sandbox-f7dee551/build -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/old-time-1.1.0.3-IcvdkJUsE9M8t3io8peAEp/include -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH '-D__GLASGOW_HASKELL_TH__=0' -D__SSE__ -D__SSE2__ -include/tmp/ghc26350_0/ghc_12.h -x assembler-with-cpp src/Language/Haskell/Exts/ParseUtils.hs -o /tmp/ghc26350_0/ghc_11.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-f7dee551/build/autogen/cabal_macros.h -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build -I dist/dist-sandbox-f7dee551/build/autogen -I dist/dist-sandbox-f7dee551/build -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/old-time-1.1.0.3-IcvdkJUsE9M8t3io8peAEp/include -I /home/omer/haskell/ghc/libraries/directory/include -I /home/omer/haskell/ghc/libraries/unix/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/time/lib/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH '-D__GLASGOW_HASKELL_TH__=0' -D__SSE__ -D__SSE2__ -include/tmp/ghc26350_0/ghc_14.h -x assembler-with-cpp dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/InternalParser.hs -o /tmp/ghc26350_0/ghc_13.hscpp
+!!! Chasing dependencies: finished in 35.00 milliseconds, allocated 71.385 megabytes
+Stable obj: [Language.Haskell.Exts.Lexer,
+             Language.Haskell.Exts.ParseUtils, Language.Haskell.Exts.Pretty,
+             Language.Haskell.Exts.Annotated.Fixity,
+             Language.Haskell.Exts.Annotated.Simplify,
+             Language.Haskell.Exts.InternalLexer,
+             Language.Haskell.Exts.ParseMonad, Language.Haskell.Exts.Fixity,
+             Language.Haskell.Exts.Build, Language.Haskell.Exts.Syntax,
+             Language.Haskell.Exts.ExtScheme, Language.Haskell.Exts.Extension,
+             Language.Haskell.Exts.Annotated.Comments,
+             Language.Haskell.Exts.Annotated.ExactPrint,
+             Language.Haskell.Exts.Comments, Language.Haskell.Exts.SrcLoc,
+             Language.Haskell.Exts.ParseSyntax,
+             Language.Haskell.Exts.Annotated.Build,
+             Language.Haskell.Exts.Annotated.Syntax]
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.515537247 UTC
+         ms_mod = Language.Haskell.Exts.Annotated.Syntax,
+         ms_textual_imps = [(Nothing, GHC.Generics), (Nothing, Data.Data),
+                            (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.514537247 UTC
+         ms_mod = Language.Haskell.Exts.Annotated.Build,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.531537247 UTC
+         ms_mod = Language.Haskell.Exts.ParseSyntax,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.538537247 UTC
+         ms_mod = Language.Haskell.Exts.SrcLoc,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Generics),
+                            (Nothing, Data.Data)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.515537247 UTC
+         ms_mod = Language.Haskell.Exts.Comments,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Data),
+                            (Nothing, Language.Haskell.Exts.SrcLoc)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.514537247 UTC
+         ms_mod = Language.Haskell.Exts.Annotated.ExactPrint,
+         ms_textual_imps = [(Nothing, Data.List), (Nothing, Prelude),
+                            (Nothing, Control.Arrow), (Nothing, Control.Monad),
+                            (Nothing, Language.Haskell.Exts.Comments),
+                            (Nothing, Language.Haskell.Exts.SrcLoc),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.514537247 UTC
+         ms_mod = Language.Haskell.Exts.Annotated.Comments,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Traversable),
+                            (Nothing, Data.Char), (Nothing, Language.Haskell.Exts.SrcLoc),
+                            (Nothing, Language.Haskell.Exts.Comments),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.515537247 UTC
+         ms_mod = Language.Haskell.Exts.Extension,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Data),
+                            (Nothing, Data.Maybe), (Nothing, Data.List), (Nothing, Data.Array),
+                            (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.515537247 UTC
+         ms_mod = Language.Haskell.Exts.ExtScheme,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Language.Haskell.Exts.Extension)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.538537247 UTC
+         ms_mod = Language.Haskell.Exts.Syntax,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax),
+                            (Nothing, Language.Haskell.Exts.SrcLoc), (Nothing, GHC.Generics),
+                            (Nothing, Data.Data)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.515537247 UTC
+         ms_mod = Language.Haskell.Exts.Build,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Language.Haskell.Exts.Syntax)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.515537247 UTC
+         ms_mod = Language.Haskell.Exts.Fixity,
+         ms_textual_imps = [(Nothing, Data.Maybe), (Nothing, Data.Data),
+                            (Nothing, Prelude), (Nothing, Data.Traversable),
+                            (Nothing, Control.Monad), (Nothing, Language.Haskell.Exts.Syntax)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.522537247 UTC
+         ms_mod = Language.Haskell.Exts.ParseMonad,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Monoid),
+                            (Nothing, Control.Monad), (Nothing, Control.Applicative),
+                            (Nothing, Data.List), (Nothing, Language.Haskell.Exts.Extension),
+                            (Nothing, Language.Haskell.Exts.Comments),
+                            (Nothing, Language.Haskell.Exts.Fixity),
+                            (Nothing, Language.Haskell.Exts.SrcLoc)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.515537247 UTC
+         ms_mod = Language.Haskell.Exts.InternalLexer,
+         ms_textual_imps = [(Nothing, Control.Monad), (Nothing, Data.List),
+                            (Nothing, Data.Ratio), (Nothing, Data.Char), (Nothing, Prelude),
+                            (Nothing, Language.Haskell.Exts.ExtScheme),
+                            (Nothing, Language.Haskell.Exts.Extension),
+                            (Nothing, Language.Haskell.Exts.Comments),
+                            (Nothing, Language.Haskell.Exts.SrcLoc),
+                            (Nothing, Language.Haskell.Exts.ParseMonad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.515537247 UTC
+         ms_mod = Language.Haskell.Exts.Annotated.Simplify,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Maybe),
+                            (Nothing, Language.Haskell.Exts.SrcLoc),
+                            (Nothing, Language.Haskell.Exts.Syntax),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.515537247 UTC
+         ms_mod = Language.Haskell.Exts.Annotated.Fixity,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Maybe),
+                            (Nothing, Data.Traversable), (Nothing, Control.Monad),
+                            (Nothing, Language.Haskell.Exts.Annotated.Simplify),
+                            (Nothing, Language.Haskell.Exts.Syntax),
+                            (Nothing, Language.Haskell.Exts.Fixity),
+                            (Nothing, Language.Haskell.Exts.SrcLoc),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.538537247 UTC
+         ms_mod = Language.Haskell.Exts.Pretty,
+         ms_textual_imps = [(Nothing, Control.Monad), (Nothing, Data.Maybe),
+                            (Nothing, Data.List), (Nothing, Text.PrettyPrint),
+                            (Nothing, Prelude), (Nothing, Language.Haskell.Exts.SrcLoc),
+                            (Nothing, Language.Haskell.Exts.ParseSyntax),
+                            (Nothing, Language.Haskell.Exts.Annotated.Simplify),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax),
+                            (Nothing, Language.Haskell.Exts.Syntax)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.538537247 UTC
+         ms_mod = Language.Haskell.Exts.ParseUtils,
+         ms_textual_imps = [(Nothing, Control.Monad), (Nothing, Data.Maybe),
+                            (Nothing, Data.List), (Nothing, Prelude),
+                            (Nothing, Language.Haskell.Exts.ExtScheme),
+                            (Nothing, Language.Haskell.Exts.Extension),
+                            (Nothing, Language.Haskell.Exts.SrcLoc),
+                            (Nothing, Language.Haskell.Exts.Pretty),
+                            (Nothing, Language.Haskell.Exts.ParseMonad),
+                            (Nothing, Language.Haskell.Exts.ParseSyntax),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.522537247 UTC
+         ms_mod = Language.Haskell.Exts.Lexer,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Language.Haskell.Exts.SrcLoc),
+                            (Nothing, Language.Haskell.Exts.ParseMonad),
+                            (Nothing, Language.Haskell.Exts.InternalLexer)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 00:43:15.712573364 UTC
+         ms_mod = Language.Haskell.Exts.InternalParser,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Control.Monad),
+                            (Nothing, Control.Applicative), (Nothing, GHC.Exts),
+                            (Nothing, Data.Array), (Nothing, Data.Maybe),
+                            (Nothing, Control.Applicative), (Nothing, Control.Monad),
+                            (Nothing, Language.Haskell.Exts.Extension),
+                            (Nothing, Language.Haskell.Exts.SrcLoc),
+                            (Nothing, Language.Haskell.Exts.Annotated.Fixity),
+                            (Nothing, Language.Haskell.Exts.ParseUtils),
+                            (Nothing, Language.Haskell.Exts.InternalLexer),
+                            (Nothing, Language.Haskell.Exts.ParseMonad),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.515537247 UTC
+         ms_mod = Language.Haskell.Exts.Annotated.Parser,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Language.Haskell.Exts.SrcLoc),
+                            (Nothing, Language.Haskell.Exts.ParseMonad),
+                            (Nothing, Language.Haskell.Exts.InternalParser),
+                            (Nothing, Language.Haskell.Exts.Comments),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax),
+                            (Nothing, Language.Haskell.Exts.Annotated.Fixity),
+                            (Nothing, Data.Data)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.538537247 UTC
+         ms_mod = Language.Haskell.Exts.Parser,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Language.Haskell.Exts.Syntax),
+                            (Nothing, Language.Haskell.Exts.SrcLoc),
+                            (Nothing, Language.Haskell.Exts.ParseMonad),
+                            (Nothing, Language.Haskell.Exts.Comments),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax),
+                            (Nothing, Language.Haskell.Exts.Annotated.Simplify),
+                            (Nothing, Language.Haskell.Exts.Annotated.Parser),
+                            (Nothing, Language.Haskell.Exts.Annotated.Parser),
+                            (Nothing, Language.Haskell.Exts.Annotated.Fixity),
+                            (Nothing, Data.Data)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.514537247 UTC
+         ms_mod = Language.Haskell.Exts,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, System.IO),
+                            (Nothing, Language.Preprocessor.Unlit), (Nothing, Data.Maybe),
+                            (Nothing, Data.List), (Nothing, Language.Haskell.Exts.Comments),
+                            (Nothing, Language.Haskell.Exts.Fixity),
+                            (Nothing, Language.Haskell.Exts.Extension),
+                            (Nothing, Language.Haskell.Exts.Pretty),
+                            (Nothing, Language.Haskell.Exts.Lexer),
+                            (Nothing, Language.Haskell.Exts.Parser),
+                            (Nothing, Language.Haskell.Exts.Syntax),
+                            (Nothing, Language.Haskell.Exts.Build)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-28 21:39:57.514537247 UTC
+         ms_mod = Language.Haskell.Exts.Annotated,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, System.IO),
+                            (Nothing, Language.Preprocessor.Unlit), (Nothing, Data.Maybe),
+                            (Nothing, Data.List), (Nothing, Language.Haskell.Exts.Comments),
+                            (Nothing, Language.Haskell.Exts.Extension),
+                            (Nothing, Language.Haskell.Exts.SrcLoc),
+                            (Nothing, Language.Haskell.Exts.Annotated.ExactPrint),
+                            (Nothing, Language.Haskell.Exts.Annotated.Fixity),
+                            (Nothing, Language.Haskell.Exts.Pretty),
+                            (Nothing, Language.Haskell.Exts.Lexer),
+                            (Nothing, Language.Haskell.Exts.Parser),
+                            (Nothing, Language.Haskell.Exts.Annotated.Syntax),
+                            (Nothing, Language.Haskell.Exts.Annotated.Parser),
+                            (Nothing, Language.Haskell.Exts.Annotated.Comments),
+                            (Nothing, Language.Haskell.Exts.Annotated.Build)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc26350_0/ghc_14.h /tmp/ghc26350_0/ghc_12.h /tmp/ghc26350_0/ghc_10.h /tmp/ghc26350_0/ghc_8.h /tmp/ghc26350_0/ghc_6.h /tmp/ghc26350_0/ghc_4.h /tmp/ghc26350_0/ghc_2.h
+compile: input file /tmp/ghc26350_0/ghc_5.hscpp
+*** Checking old interface for Language.Haskell.Exts.Annotated.Syntax:
+[ 1 of 24] Skipping  Language.Haskell.Exts.Annotated.Syntax ( src/Language/Haskell/Exts/Annotated/Syntax.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Syntax.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/Annotated/Build.hs
+*** Checking old interface for Language.Haskell.Exts.Annotated.Build:
+[ 2 of 24] Skipping  Language.Haskell.Exts.Annotated.Build ( src/Language/Haskell/Exts/Annotated/Build.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Build.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/ParseSyntax.hs
+*** Checking old interface for Language.Haskell.Exts.ParseSyntax:
+[ 3 of 24] Skipping  Language.Haskell.Exts.ParseSyntax ( src/Language/Haskell/Exts/ParseSyntax.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseSyntax.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/SrcLoc.hs
+*** Checking old interface for Language.Haskell.Exts.SrcLoc:
+[ 4 of 24] Skipping  Language.Haskell.Exts.SrcLoc ( src/Language/Haskell/Exts/SrcLoc.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/SrcLoc.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/Comments.hs
+*** Checking old interface for Language.Haskell.Exts.Comments:
+[ 5 of 24] Skipping  Language.Haskell.Exts.Comments ( src/Language/Haskell/Exts/Comments.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Comments.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file /tmp/ghc26350_0/ghc_7.hscpp
+*** Checking old interface for Language.Haskell.Exts.Annotated.ExactPrint:
+[ 6 of 24] Skipping  Language.Haskell.Exts.Annotated.ExactPrint ( src/Language/Haskell/Exts/Annotated/ExactPrint.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/ExactPrint.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/Annotated/Comments.hs
+*** Checking old interface for Language.Haskell.Exts.Annotated.Comments:
+[ 7 of 24] Skipping  Language.Haskell.Exts.Annotated.Comments ( src/Language/Haskell/Exts/Annotated/Comments.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Comments.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file /tmp/ghc26350_0/ghc_3.hscpp
+*** Checking old interface for Language.Haskell.Exts.Extension:
+[ 8 of 24] Skipping  Language.Haskell.Exts.Extension ( src/Language/Haskell/Exts/Extension.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Extension.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/ExtScheme.hs
+*** Checking old interface for Language.Haskell.Exts.ExtScheme:
+[ 9 of 24] Skipping  Language.Haskell.Exts.ExtScheme ( src/Language/Haskell/Exts/ExtScheme.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ExtScheme.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/Syntax.hs
+*** Checking old interface for Language.Haskell.Exts.Syntax:
+[10 of 24] Skipping  Language.Haskell.Exts.Syntax ( src/Language/Haskell/Exts/Syntax.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Syntax.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/Build.hs
+*** Checking old interface for Language.Haskell.Exts.Build:
+[11 of 24] Skipping  Language.Haskell.Exts.Build ( src/Language/Haskell/Exts/Build.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Build.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/Fixity.hs
+*** Checking old interface for Language.Haskell.Exts.Fixity:
+[12 of 24] Skipping  Language.Haskell.Exts.Fixity ( src/Language/Haskell/Exts/Fixity.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Fixity.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/ParseMonad.hs
+*** Checking old interface for Language.Haskell.Exts.ParseMonad:
+[13 of 24] Skipping  Language.Haskell.Exts.ParseMonad ( src/Language/Haskell/Exts/ParseMonad.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseMonad.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/InternalLexer.hs
+*** Checking old interface for Language.Haskell.Exts.InternalLexer:
+[14 of 24] Skipping  Language.Haskell.Exts.InternalLexer ( src/Language/Haskell/Exts/InternalLexer.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/InternalLexer.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/Annotated/Simplify.hs
+*** Checking old interface for Language.Haskell.Exts.Annotated.Simplify:
+[15 of 24] Skipping  Language.Haskell.Exts.Annotated.Simplify ( src/Language/Haskell/Exts/Annotated/Simplify.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Simplify.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/Annotated/Fixity.hs
+*** Checking old interface for Language.Haskell.Exts.Annotated.Fixity:
+[16 of 24] Skipping  Language.Haskell.Exts.Annotated.Fixity ( src/Language/Haskell/Exts/Annotated/Fixity.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Fixity.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file /tmp/ghc26350_0/ghc_1.hscpp
+*** Checking old interface for Language.Haskell.Exts.Pretty:
+[17 of 24] Skipping  Language.Haskell.Exts.Pretty ( src/Language/Haskell/Exts/Pretty.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Pretty.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file /tmp/ghc26350_0/ghc_11.hscpp
+*** Checking old interface for Language.Haskell.Exts.ParseUtils:
+[18 of 24] Skipping  Language.Haskell.Exts.ParseUtils ( src/Language/Haskell/Exts/ParseUtils.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseUtils.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Language/Haskell/Exts/Lexer.hs
+*** Checking old interface for Language.Haskell.Exts.Lexer:
+[19 of 24] Skipping  Language.Haskell.Exts.Lexer ( src/Language/Haskell/Exts/Lexer.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Lexer.o )
+*** Deleting temp files:
+Deleting: 
+compile: input file /tmp/ghc26350_0/ghc_13.hscpp
+*** Checking old interface for Language.Haskell.Exts.InternalParser:
+[20 of 24] Compiling Language.Haskell.Exts.InternalParser ( dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/InternalParser.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/InternalParser.o )
+*** Parser [Language.Haskell.Exts.InternalParser]:
+!!! Parser [Language.Haskell.Exts.InternalParser]: finished in 216.00 milliseconds, allocated 561.282 megabytes
+*** Renamer/typechecker [Language.Haskell.Exts.InternalParser]:
+!!! Renamer/typechecker [Language.Haskell.Exts.InternalParser]: finished in 584.00 milliseconds, allocated 591.285 megabytes
+*** Desugar [Language.Haskell.Exts.InternalParser]:
+Result size of Desugar (after optimization)
+  = {terms: 30,678, types: 45,566, coercions: 3,431}
+!!! Desugar [Language.Haskell.Exts.InternalParser]: finished in 263.00 milliseconds, allocated 197.994 megabytes
+*** Simplifier [Language.Haskell.Exts.InternalParser]:
+Result size of Simplifier iteration=1
+  = {terms: 30,433, types: 46,567, coercions: 5,200}
+Result size of Simplifier iteration=2
+  = {terms: 30,424, types: 46,573, coercions: 5,213}
+Result size of Simplifier
+  = {terms: 30,424, types: 46,573, coercions: 5,213}
+!!! Simplifier [Language.Haskell.Exts.InternalParser]: finished in 294.00 milliseconds, allocated 317.210 megabytes
+*** Specialise [Language.Haskell.Exts.InternalParser]:
+Result size of Specialise
+  = {terms: 30,628, types: 46,840, coercions: 5,213}
+!!! Specialise [Language.Haskell.Exts.InternalParser]: finished in 34.00 milliseconds, allocated 35.141 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Language.Haskell.Exts.InternalParser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 39,706, types: 75,322, coercions: 5,213}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Language.Haskell.Exts.InternalParser]: finished in 442.00 milliseconds, allocated 848.021 megabytes
+*** Simplifier [Language.Haskell.Exts.InternalParser]:
+Result size of Simplifier iteration=1
+  = {terms: 47,320, types: 85,957, coercions: 27,748}
+Result size of Simplifier iteration=2
+  = {terms: 40,879, types: 72,916, coercions: 18,439}
+Result size of Simplifier iteration=3
+  = {terms: 40,829, types: 72,880, coercions: 18,392}
+Result size of Simplifier iteration=4
+  = {terms: 40,819, types: 72,844, coercions: 18,392}
+Result size of Simplifier
+  = {terms: 40,819, types: 72,844, coercions: 18,392}
+!!! Simplifier [Language.Haskell.Exts.InternalParser]: finished in 992.00 milliseconds, allocated 839.279 megabytes
+*** Simplifier [Language.Haskell.Exts.InternalParser]:
+Result size of Simplifier iteration=1
+  = {terms: 40,809, types: 72,800, coercions: 18,392}
+Result size of Simplifier iteration=2
+  = {terms: 40,799, types: 72,757, coercions: 18,392}
+Result size of Simplifier iteration=3
+  = {terms: 40,789, types: 72,712, coercions: 18,392}
+Result size of Simplifier iteration=4
+  = {terms: 40,779, types: 72,673, coercions: 18,392}
+Result size of Simplifier
+  = {terms: 40,779, types: 72,673, coercions: 18,392}
+!!! Simplifier [Language.Haskell.Exts.InternalParser]: finished in 742.00 milliseconds, allocated 693.725 megabytes
+*** Simplifier [Language.Haskell.Exts.InternalParser]:
+Result size of Simplifier iteration=1
+  = {terms: 44,320, types: 77,461, coercions: 18,392}
+Result size of Simplifier
+  = {terms: 44,320, types: 77,461, coercions: 18,392}
+!!! Simplifier [Language.Haskell.Exts.InternalParser]: finished in 375.00 milliseconds, allocated 373.460 megabytes
+*** Float inwards [Language.Haskell.Exts.InternalParser]:
+Result size of Float inwards
+  = {terms: 44,320, types: 77,461, coercions: 18,392}
+!!! Float inwards [Language.Haskell.Exts.InternalParser]: finished in 41.00 milliseconds, allocated 62.696 megabytes
+*** Called arity analysis [Language.Haskell.Exts.InternalParser]:
+Result size of Called arity analysis
+  = {terms: 44,320, types: 77,461, coercions: 18,392}
+!!! Called arity analysis [Language.Haskell.Exts.InternalParser]: finished in 877.00 milliseconds, allocated 1318.998 megabytes
+*** Simplifier [Language.Haskell.Exts.InternalParser]:
+Result size of Simplifier iteration=1
+  = {terms: 44,356, types: 77,490, coercions: 18,422}
+Result size of Simplifier iteration=2
+  = {terms: 44,344, types: 77,479, coercions: 18,386}
+Result size of Simplifier
+  = {terms: 44,344, types: 77,479, coercions: 18,386}
+!!! Simplifier [Language.Haskell.Exts.InternalParser]: finished in 608.00 milliseconds, allocated 563.352 megabytes
+*** Demand analysis [Language.Haskell.Exts.InternalParser]:
+Result size of Demand analysis
+  = {terms: 44,344, types: 77,479, coercions: 18,386}
+!!! Demand analysis [Language.Haskell.Exts.InternalParser]: finished in 322.00 milliseconds, allocated 414.728 megabytes
+*** Worker Wrapper binds [Language.Haskell.Exts.InternalParser]:
+Result size of Worker Wrapper binds
+  = {terms: 53,977, types: 90,934, coercions: 18,386}
+!!! Worker Wrapper binds [Language.Haskell.Exts.InternalParser]: finished in 160.00 milliseconds, allocated 25.859 megabytes
+*** Simplifier [Language.Haskell.Exts.InternalParser]:
+Result size of Simplifier iteration=1
+  = {terms: 90,699, types: 103,750, coercions: 18,720}
+Result size of Simplifier iteration=2
+  = {terms: 84,750, types: 96,069, coercions: 18,262}
+Result size of Simplifier iteration=3
+  = {terms: 84,151, types: 95,350, coercions: 18,131}
+Result size of Simplifier
+  = {terms: 84,151, types: 95,350, coercions: 18,131}
+!!! Simplifier [Language.Haskell.Exts.InternalParser]: finished in 1459.00 milliseconds, allocated 1375.771 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Language.Haskell.Exts.InternalParser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 84,377, types: 95,795, coercions: 18,131}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Language.Haskell.Exts.InternalParser]: finished in 362.00 milliseconds, allocated 324.284 megabytes
+*** Common sub-expression [Language.Haskell.Exts.InternalParser]:
+Result size of Common sub-expression
+  = {terms: 84,114, types: 95,570, coercions: 17,942}
+!!! Common sub-expression [Language.Haskell.Exts.InternalParser]: finished in 164.00 milliseconds, allocated 133.385 megabytes
+*** Float inwards [Language.Haskell.Exts.InternalParser]:
+Result size of Float inwards
+  = {terms: 84,114, types: 95,570, coercions: 17,942}
+!!! Float inwards [Language.Haskell.Exts.InternalParser]: finished in 85.00 milliseconds, allocated 128.852 megabytes
+*** Simplifier [Language.Haskell.Exts.InternalParser]:
+Result size of Simplifier iteration=1
+  = {terms: 84,170, types: 95,591, coercions: 17,945}
+Result size of Simplifier iteration=2
+  = {terms: 85,145, types: 96,891, coercions: 17,945}
+Result size of Simplifier
+  = {terms: 85,145, types: 96,891, coercions: 17,945}
+!!! Simplifier [Language.Haskell.Exts.InternalParser]: finished in 1157.00 milliseconds, allocated 1012.211 megabytes
+*** CoreTidy [Language.Haskell.Exts.InternalParser]:
+Result size of Tidy Core
+  = {terms: 85,143, types: 96,886, coercions: 17,945}
+!!! CoreTidy [Language.Haskell.Exts.InternalParser]: finished in 138.00 milliseconds, allocated 109.745 megabytes
+*** CorePrep [Language.Haskell.Exts.InternalParser]:
+Result size of CorePrep
+  = {terms: 120,943, types: 117,004, coercions: 17,955}
+!!! CorePrep [Language.Haskell.Exts.InternalParser]: finished in 386.00 milliseconds, allocated 203.440 megabytes
+*** Stg2Stg:
+*** CodeGen [Language.Haskell.Exts.InternalParser]:
+!!! CodeGen [Language.Haskell.Exts.InternalParser]: finished in 2850.00 milliseconds, allocated 3998.446 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-f7dee551/build/Language/Haskell/Exts -Idist/dist-sandbox-f7dee551/build -Idist/dist-sandbox-f7dee551/build -Idist/dist-sandbox-f7dee551/build/autogen -Idist/dist-sandbox-f7dee551/build -x assembler -c /tmp/ghc26350_0/ghc_16.s -o dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/InternalParser.o
+*** Deleting temp files:
+Deleting: /tmp/ghc26350_0/ghc_17.c /tmp/ghc26350_0/ghc_16.s /tmp/ghc26350_0/ghc_15.s
+Warning: deleting non-existent /tmp/ghc26350_0/ghc_17.c
+Warning: deleting non-existent /tmp/ghc26350_0/ghc_15.s
+compile: input file /tmp/ghc26350_0/ghc_9.hscpp
+*** Checking old interface for Language.Haskell.Exts.Annotated.Parser:
+[21 of 24] Compiling Language.Haskell.Exts.Annotated.Parser ( src/Language/Haskell/Exts/Annotated/Parser.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Parser.o )
+*** Parser [Language.Haskell.Exts.Annotated.Parser]:
+!!! Parser [Language.Haskell.Exts.Annotated.Parser]: finished in 3.00 milliseconds, allocated 9.787 megabytes
+*** Renamer/typechecker [Language.Haskell.Exts.Annotated.Parser]:
+!!! Renamer/typechecker [Language.Haskell.Exts.Annotated.Parser]: finished in 84.00 milliseconds, allocated 107.780 megabytes
+*** Desugar [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Desugar (after optimization)
+  = {terms: 3,458, types: 7,284, coercions: 219}
+!!! Desugar [Language.Haskell.Exts.Annotated.Parser]: finished in 25.00 milliseconds, allocated 18.680 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 3,327, types: 7,013, coercions: 335}
+Result size of Simplifier iteration=2
+  = {terms: 3,321, types: 7,036, coercions: 347}
+Result size of Simplifier
+  = {terms: 3,321, types: 7,036, coercions: 347}
+!!! Simplifier [Language.Haskell.Exts.Annotated.Parser]: finished in 29.00 milliseconds, allocated 41.986 megabytes
+*** Specialise [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Specialise
+  = {terms: 3,710, types: 8,197, coercions: 422}
+!!! Specialise [Language.Haskell.Exts.Annotated.Parser]: finished in 5.00 milliseconds, allocated 6.170 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 3,930, types: 8,663, coercions: 422}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Language.Haskell.Exts.Annotated.Parser]: finished in 12.00 milliseconds, allocated 24.858 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 4,404, types: 8,787, coercions: 994}
+Result size of Simplifier iteration=2
+  = {terms: 4,946, types: 9,802, coercions: 1,201}
+Result size of Simplifier iteration=3
+  = {terms: 4,932, types: 9,790, coercions: 1,201}
+Result size of Simplifier
+  = {terms: 4,932, types: 9,790, coercions: 1,201}
+!!! Simplifier [Language.Haskell.Exts.Annotated.Parser]: finished in 68.00 milliseconds, allocated 86.840 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Simplifier
+  = {terms: 4,932, types: 9,790, coercions: 1,201}
+!!! Simplifier [Language.Haskell.Exts.Annotated.Parser]: finished in 15.00 milliseconds, allocated 20.610 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 5,265, types: 10,098, coercions: 1,283}
+Result size of Simplifier iteration=2
+  = {terms: 5,195, types: 9,958, coercions: 1,271}
+Result size of Simplifier
+  = {terms: 5,195, types: 9,958, coercions: 1,271}
+!!! Simplifier [Language.Haskell.Exts.Annotated.Parser]: finished in 51.00 milliseconds, allocated 66.165 megabytes
+*** Float inwards [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Float inwards
+  = {terms: 5,195, types: 9,958, coercions: 1,271}
+!!! Float inwards [Language.Haskell.Exts.Annotated.Parser]: finished in 4.00 milliseconds, allocated 8.587 megabytes
+*** Called arity analysis [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Called arity analysis
+  = {terms: 5,195, types: 9,958, coercions: 1,271}
+!!! Called arity analysis [Language.Haskell.Exts.Annotated.Parser]: finished in 6.00 milliseconds, allocated 9.407 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Simplifier
+  = {terms: 5,195, types: 9,958, coercions: 1,271}
+!!! Simplifier [Language.Haskell.Exts.Annotated.Parser]: finished in 22.00 milliseconds, allocated 21.702 megabytes
+*** Demand analysis [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Demand analysis
+  = {terms: 5,195, types: 9,958, coercions: 1,271}
+!!! Demand analysis [Language.Haskell.Exts.Annotated.Parser]: finished in 13.00 milliseconds, allocated 23.317 megabytes
+*** Worker Wrapper binds [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Worker Wrapper binds
+  = {terms: 5,654, types: 10,588, coercions: 1,271}
+!!! Worker Wrapper binds [Language.Haskell.Exts.Annotated.Parser]: finished in 2.00 milliseconds, allocated 2.250 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 5,442, types: 10,296, coercions: 1,271}
+Result size of Simplifier
+  = {terms: 5,422, types: 10,271, coercions: 1,271}
+!!! Simplifier [Language.Haskell.Exts.Annotated.Parser]: finished in 39.00 milliseconds, allocated 52.048 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 5,654, types: 10,767, coercions: 1,271}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Language.Haskell.Exts.Annotated.Parser]: finished in 26.00 milliseconds, allocated 33.486 megabytes
+*** Common sub-expression [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Common sub-expression
+  = {terms: 4,944, types: 9,637, coercions: 984}
+!!! Common sub-expression [Language.Haskell.Exts.Annotated.Parser]: finished in 7.00 milliseconds, allocated 7.985 megabytes
+*** Float inwards [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Float inwards
+  = {terms: 4,944, types: 9,637, coercions: 984}
+!!! Float inwards [Language.Haskell.Exts.Annotated.Parser]: finished in 3.00 milliseconds, allocated 7.166 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Simplifier
+  = {terms: 4,638, types: 9,307, coercions: 984}
+!!! Simplifier [Language.Haskell.Exts.Annotated.Parser]: finished in 17.00 milliseconds, allocated 22.434 megabytes
+*** CoreTidy [Language.Haskell.Exts.Annotated.Parser]:
+Result size of Tidy Core
+  = {terms: 4,542, types: 8,975, coercions: 949}
+!!! CoreTidy [Language.Haskell.Exts.Annotated.Parser]: finished in 8.00 milliseconds, allocated 11.162 megabytes
+writeBinIface: 523 Names
+writeBinIface: 692 dict entries
+*** CorePrep [Language.Haskell.Exts.Annotated.Parser]:
+Result size of CorePrep
+  = {terms: 5,770, types: 12,257, coercions: 949}
+!!! CorePrep [Language.Haskell.Exts.Annotated.Parser]: finished in 7.00 milliseconds, allocated 10.815 megabytes
+*** Stg2Stg:
+*** CodeGen [Language.Haskell.Exts.Annotated.Parser]:
+!!! CodeGen [Language.Haskell.Exts.Annotated.Parser]: finished in 225.00 milliseconds, allocated 344.245 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Language/Haskell/Exts/Annotated -Idist/dist-sandbox-f7dee551/build -Idist/dist-sandbox-f7dee551/build -Idist/dist-sandbox-f7dee551/build/autogen -Idist/dist-sandbox-f7dee551/build -x assembler -c /tmp/ghc26350_0/ghc_19.s -o dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Parser.o
+*** Deleting temp files:
+Deleting: /tmp/ghc26350_0/ghc_20.c /tmp/ghc26350_0/ghc_19.s /tmp/ghc26350_0/ghc_18.s
+Warning: deleting non-existent /tmp/ghc26350_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc26350_0/ghc_18.s
+compile: input file src/Language/Haskell/Exts/Parser.hs
+*** Checking old interface for Language.Haskell.Exts.Parser:
+[22 of 24] Compiling Language.Haskell.Exts.Parser ( src/Language/Haskell/Exts/Parser.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Parser.o )
+*** Parser [Language.Haskell.Exts.Parser]:
+!!! Parser [Language.Haskell.Exts.Parser]: finished in 3.00 milliseconds, allocated 7.826 megabytes
+*** Renamer/typechecker [Language.Haskell.Exts.Parser]:
+!!! Renamer/typechecker [Language.Haskell.Exts.Parser]: finished in 28.00 milliseconds, allocated 28.564 megabytes
+*** Desugar [Language.Haskell.Exts.Parser]:
+Result size of Desugar (after optimization)
+  = {terms: 1,958, types: 3,246, coercions: 121}
+!!! Desugar [Language.Haskell.Exts.Parser]: finished in 7.00 milliseconds, allocated 10.597 megabytes
+*** Simplifier [Language.Haskell.Exts.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 2,018, types: 3,290, coercions: 92}
+Result size of Simplifier iteration=2
+  = {terms: 2,024, types: 3,326, coercions: 104}
+Result size of Simplifier
+  = {terms: 2,024, types: 3,326, coercions: 104}
+!!! Simplifier [Language.Haskell.Exts.Parser]: finished in 16.00 milliseconds, allocated 26.285 megabytes
+*** Specialise [Language.Haskell.Exts.Parser]:
+Result size of Specialise
+  = {terms: 2,424, types: 4,380, coercions: 106}
+!!! Specialise [Language.Haskell.Exts.Parser]: finished in 3.00 milliseconds, allocated 4.234 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Language.Haskell.Exts.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 2,722, types: 4,754, coercions: 106}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Language.Haskell.Exts.Parser]: finished in 4.00 milliseconds, allocated 9.723 megabytes
+*** Simplifier [Language.Haskell.Exts.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 3,374, types: 5,237, coercions: 527}
+Result size of Simplifier iteration=2
+  = {terms: 3,498, types: 5,602, coercions: 419}
+Result size of Simplifier iteration=3
+  = {terms: 3,484, types: 5,586, coercions: 419}
+Result size of Simplifier
+  = {terms: 3,484, types: 5,586, coercions: 419}
+!!! Simplifier [Language.Haskell.Exts.Parser]: finished in 49.00 milliseconds, allocated 63.273 megabytes
+*** Simplifier [Language.Haskell.Exts.Parser]:
+Result size of Simplifier
+  = {terms: 3,484, types: 5,586, coercions: 419}
+!!! Simplifier [Language.Haskell.Exts.Parser]: finished in 10.00 milliseconds, allocated 14.586 megabytes
+*** Simplifier [Language.Haskell.Exts.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 3,651, types: 5,832, coercions: 433}
+Result size of Simplifier
+  = {terms: 3,651, types: 5,832, coercions: 433}
+!!! Simplifier [Language.Haskell.Exts.Parser]: finished in 21.00 milliseconds, allocated 31.001 megabytes
+*** Float inwards [Language.Haskell.Exts.Parser]:
+Result size of Float inwards
+  = {terms: 3,651, types: 5,832, coercions: 433}
+!!! Float inwards [Language.Haskell.Exts.Parser]: finished in 2.00 milliseconds, allocated 4.995 megabytes
+*** Called arity analysis [Language.Haskell.Exts.Parser]:
+Result size of Called arity analysis
+  = {terms: 3,651, types: 5,832, coercions: 433}
+!!! Called arity analysis [Language.Haskell.Exts.Parser]: finished in 7.00 milliseconds, allocated 6.394 megabytes
+*** Simplifier [Language.Haskell.Exts.Parser]:
+Result size of Simplifier
+  = {terms: 3,651, types: 5,832, coercions: 433}
+!!! Simplifier [Language.Haskell.Exts.Parser]: finished in 10.00 milliseconds, allocated 15.356 megabytes
+*** Demand analysis [Language.Haskell.Exts.Parser]:
+Result size of Demand analysis
+  = {terms: 3,651, types: 5,832, coercions: 433}
+!!! Demand analysis [Language.Haskell.Exts.Parser]: finished in 7.00 milliseconds, allocated 14.333 megabytes
+*** Worker Wrapper binds [Language.Haskell.Exts.Parser]:
+Result size of Worker Wrapper binds
+  = {terms: 4,648, types: 7,780, coercions: 433}
+!!! Worker Wrapper binds [Language.Haskell.Exts.Parser]: finished in 3.00 milliseconds, allocated 2.339 megabytes
+*** Simplifier [Language.Haskell.Exts.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 4,084, types: 7,006, coercions: 437}
+Result size of Simplifier
+  = {terms: 4,028, types: 6,826, coercions: 433}
+!!! Simplifier [Language.Haskell.Exts.Parser]: finished in 28.00 milliseconds, allocated 41.254 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Language.Haskell.Exts.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,210, types: 7,118, coercions: 433}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Language.Haskell.Exts.Parser]: finished in 16.00 milliseconds, allocated 18.404 megabytes
+*** Common sub-expression [Language.Haskell.Exts.Parser]:
+Result size of Common sub-expression
+  = {terms: 3,358, types: 5,992, coercions: 334}
+!!! Common sub-expression [Language.Haskell.Exts.Parser]: finished in 5.00 milliseconds, allocated 6.027 megabytes
+*** Float inwards [Language.Haskell.Exts.Parser]:
+Result size of Float inwards
+  = {terms: 3,358, types: 5,992, coercions: 334}
+!!! Float inwards [Language.Haskell.Exts.Parser]: finished in 1.00 milliseconds, allocated 3.113 megabytes
+*** Simplifier [Language.Haskell.Exts.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 2,944, types: 5,508, coercions: 524}
+Result size of Simplifier
+  = {terms: 2,926, types: 5,474, coercions: 502}
+!!! Simplifier [Language.Haskell.Exts.Parser]: finished in 20.00 milliseconds, allocated 30.269 megabytes
+*** CoreTidy [Language.Haskell.Exts.Parser]:
+Result size of Tidy Core
+  = {terms: 2,821, types: 5,227, coercions: 500}
+!!! CoreTidy [Language.Haskell.Exts.Parser]: finished in 5.00 milliseconds, allocated 7.816 megabytes
+writeBinIface: 518 Names
+writeBinIface: 603 dict entries
+*** CorePrep [Language.Haskell.Exts.Parser]:
+Result size of CorePrep
+  = {terms: 3,365, types: 6,034, coercions: 500}
+!!! CorePrep [Language.Haskell.Exts.Parser]: finished in 3.00 milliseconds, allocated 6.169 megabytes
+*** Stg2Stg:
+*** CodeGen [Language.Haskell.Exts.Parser]:
+!!! CodeGen [Language.Haskell.Exts.Parser]: finished in 124.00 milliseconds, allocated 184.037 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Language/Haskell/Exts -Idist/dist-sandbox-f7dee551/build -Idist/dist-sandbox-f7dee551/build -Idist/dist-sandbox-f7dee551/build/autogen -Idist/dist-sandbox-f7dee551/build -x assembler -c /tmp/ghc26350_0/ghc_22.s -o dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Parser.o
+*** Deleting temp files:
+Deleting: /tmp/ghc26350_0/ghc_23.c /tmp/ghc26350_0/ghc_22.s /tmp/ghc26350_0/ghc_21.s
+Warning: deleting non-existent /tmp/ghc26350_0/ghc_23.c
+Warning: deleting non-existent /tmp/ghc26350_0/ghc_21.s
+compile: input file src/Language/Haskell/Exts.hs
+*** Checking old interface for Language.Haskell.Exts:
+[23 of 24] Compiling Language.Haskell.Exts ( src/Language/Haskell/Exts.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts.o )
+*** Parser [Language.Haskell.Exts]:
+!!! Parser [Language.Haskell.Exts]: finished in 3.00 milliseconds, allocated 6.492 megabytes
+*** Renamer/typechecker [Language.Haskell.Exts]:
+!!! Renamer/typechecker [Language.Haskell.Exts]: finished in 14.00 milliseconds, allocated 21.553 megabytes
+*** Desugar [Language.Haskell.Exts]:
+Result size of Desugar (after optimization)
+  = {terms: 533, types: 703, coercions: 18}
+!!! Desugar [Language.Haskell.Exts]: finished in 3.00 milliseconds, allocated 4.508 megabytes
+*** Simplifier [Language.Haskell.Exts]:
+Result size of Simplifier iteration=1
+  = {terms: 489, types: 617, coercions: 11}
+Result size of Simplifier iteration=2
+  = {terms: 481, types: 604, coercions: 11}
+Result size of Simplifier = {terms: 481, types: 604, coercions: 11}
+!!! Simplifier [Language.Haskell.Exts]: finished in 4.00 milliseconds, allocated 5.220 megabytes
+*** Specialise [Language.Haskell.Exts]:
+Result size of Specialise = {terms: 481, types: 604, coercions: 11}
+!!! Specialise [Language.Haskell.Exts]: finished in 0.00 milliseconds, allocated 0.584 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Language.Haskell.Exts]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 561, types: 724, coercions: 11}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Language.Haskell.Exts]: finished in 2.00 milliseconds, allocated 2.535 megabytes
+*** Simplifier [Language.Haskell.Exts]:
+Result size of Simplifier iteration=1
+  = {terms: 651, types: 791, coercions: 20}
+Result size of Simplifier iteration=2
+  = {terms: 581, types: 706, coercions: 20}
+Result size of Simplifier = {terms: 581, types: 706, coercions: 20}
+!!! Simplifier [Language.Haskell.Exts]: finished in 4.00 milliseconds, allocated 6.692 megabytes
+*** Simplifier [Language.Haskell.Exts]:
+Result size of Simplifier = {terms: 581, types: 706, coercions: 20}
+!!! Simplifier [Language.Haskell.Exts]: finished in 2.00 milliseconds, allocated 2.051 megabytes
+*** Simplifier [Language.Haskell.Exts]:
+Result size of Simplifier = {terms: 581, types: 706, coercions: 20}
+!!! Simplifier [Language.Haskell.Exts]: finished in 1.00 milliseconds, allocated 2.052 megabytes
+*** Float inwards [Language.Haskell.Exts]:
+Result size of Float inwards
+  = {terms: 581, types: 706, coercions: 20}
+!!! Float inwards [Language.Haskell.Exts]: finished in 0.00 milliseconds, allocated 0.887 megabytes
+*** Called arity analysis [Language.Haskell.Exts]:
+Result size of Called arity analysis
+  = {terms: 581, types: 706, coercions: 20}
+!!! Called arity analysis [Language.Haskell.Exts]: finished in 1.00 milliseconds, allocated 0.636 megabytes
+*** Simplifier [Language.Haskell.Exts]:
+Result size of Simplifier = {terms: 581, types: 706, coercions: 20}
+!!! Simplifier [Language.Haskell.Exts]: finished in 1.00 milliseconds, allocated 2.042 megabytes
+*** Demand analysis [Language.Haskell.Exts]:
+Result size of Demand analysis
+  = {terms: 581, types: 706, coercions: 20}
+!!! Demand analysis [Language.Haskell.Exts]: finished in 1.00 milliseconds, allocated 2.165 megabytes
+*** Worker Wrapper binds [Language.Haskell.Exts]:
+Result size of Worker Wrapper binds
+  = {terms: 702, types: 842, coercions: 20}
+!!! Worker Wrapper binds [Language.Haskell.Exts]: finished in 1.00 milliseconds, allocated 0.337 megabytes
+*** Simplifier [Language.Haskell.Exts]:
+Result size of Simplifier iteration=1
+  = {terms: 657, types: 804, coercions: 20}
+Result size of Simplifier = {terms: 657, types: 804, coercions: 20}
+!!! Simplifier [Language.Haskell.Exts]: finished in 3.00 milliseconds, allocated 5.591 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Language.Haskell.Exts]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 713, types: 858, coercions: 20}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Language.Haskell.Exts]: finished in 2.00 milliseconds, allocated 3.143 megabytes
+*** Common sub-expression [Language.Haskell.Exts]:
+Result size of Common sub-expression
+  = {terms: 704, types: 857, coercions: 20}
+!!! Common sub-expression [Language.Haskell.Exts]: finished in 0.00 milliseconds, allocated 0.817 megabytes
+*** Float inwards [Language.Haskell.Exts]:
+Result size of Float inwards
+  = {terms: 704, types: 857, coercions: 20}
+!!! Float inwards [Language.Haskell.Exts]: finished in 1.00 milliseconds, allocated 0.956 megabytes
+*** Simplifier [Language.Haskell.Exts]:
+Result size of Simplifier iteration=1
+  = {terms: 684, types: 843, coercions: 20}
+Result size of Simplifier = {terms: 684, types: 843, coercions: 20}
+!!! Simplifier [Language.Haskell.Exts]: finished in 3.00 milliseconds, allocated 5.551 megabytes
+*** CoreTidy [Language.Haskell.Exts]:
+Result size of Tidy Core = {terms: 684, types: 843, coercions: 20}
+!!! CoreTidy [Language.Haskell.Exts]: finished in 1.00 milliseconds, allocated 1.456 megabytes
+writeBinIface: 965 Names
+writeBinIface: 1036 dict entries
+*** CorePrep [Language.Haskell.Exts]:
+Result size of CorePrep = {terms: 803, types: 986, coercions: 20}
+!!! CorePrep [Language.Haskell.Exts]: finished in 1.00 milliseconds, allocated 1.463 megabytes
+*** Stg2Stg:
+*** CodeGen [Language.Haskell.Exts]:
+!!! CodeGen [Language.Haskell.Exts]: finished in 29.00 milliseconds, allocated 45.785 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Language/Haskell -Idist/dist-sandbox-f7dee551/build -Idist/dist-sandbox-f7dee551/build -Idist/dist-sandbox-f7dee551/build/autogen -Idist/dist-sandbox-f7dee551/build -x assembler -c /tmp/ghc26350_0/ghc_25.s -o dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts.o
+*** Deleting temp files:
+Deleting: /tmp/ghc26350_0/ghc_26.c /tmp/ghc26350_0/ghc_25.s /tmp/ghc26350_0/ghc_24.s
+Warning: deleting non-existent /tmp/ghc26350_0/ghc_26.c
+Warning: deleting non-existent /tmp/ghc26350_0/ghc_24.s
+compile: input file src/Language/Haskell/Exts/Annotated.hs
+*** Checking old interface for Language.Haskell.Exts.Annotated:
+[24 of 24] Compiling Language.Haskell.Exts.Annotated ( src/Language/Haskell/Exts/Annotated.hs, dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated.o )
+*** Parser [Language.Haskell.Exts.Annotated]:
+!!! Parser [Language.Haskell.Exts.Annotated]: finished in 2.00 milliseconds, allocated 5.583 megabytes
+*** Renamer/typechecker [Language.Haskell.Exts.Annotated]:
+!!! Renamer/typechecker [Language.Haskell.Exts.Annotated]: finished in 10.00 milliseconds, allocated 16.198 megabytes
+*** Desugar [Language.Haskell.Exts.Annotated]:
+Result size of Desugar (after optimization)
+  = {terms: 438, types: 567, coercions: 18}
+!!! Desugar [Language.Haskell.Exts.Annotated]: finished in 3.00 milliseconds, allocated 3.887 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated]:
+Result size of Simplifier iteration=1
+  = {terms: 396, types: 488, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 392, types: 480, coercions: 4}
+Result size of Simplifier = {terms: 392, types: 480, coercions: 4}
+!!! Simplifier [Language.Haskell.Exts.Annotated]: finished in 3.00 milliseconds, allocated 4.191 megabytes
+*** Specialise [Language.Haskell.Exts.Annotated]:
+Result size of Specialise = {terms: 392, types: 480, coercions: 4}
+!!! Specialise [Language.Haskell.Exts.Annotated]: finished in 0.00 milliseconds, allocated 0.478 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Language.Haskell.Exts.Annotated]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 456, types: 581, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Language.Haskell.Exts.Annotated]: finished in 1.00 milliseconds, allocated 1.884 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated]:
+Result size of Simplifier iteration=1
+  = {terms: 546, types: 669, coercions: 23}
+Result size of Simplifier iteration=2
+  = {terms: 476, types: 584, coercions: 23}
+Result size of Simplifier = {terms: 476, types: 584, coercions: 23}
+!!! Simplifier [Language.Haskell.Exts.Annotated]: finished in 5.00 milliseconds, allocated 5.494 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated]:
+Result size of Simplifier = {terms: 476, types: 584, coercions: 23}
+!!! Simplifier [Language.Haskell.Exts.Annotated]: finished in 1.00 milliseconds, allocated 1.677 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated]:
+Result size of Simplifier = {terms: 476, types: 584, coercions: 23}
+!!! Simplifier [Language.Haskell.Exts.Annotated]: finished in 1.00 milliseconds, allocated 1.677 megabytes
+*** Float inwards [Language.Haskell.Exts.Annotated]:
+Result size of Float inwards
+  = {terms: 476, types: 584, coercions: 23}
+!!! Float inwards [Language.Haskell.Exts.Annotated]: finished in 1.00 milliseconds, allocated 0.741 megabytes
+*** Called arity analysis [Language.Haskell.Exts.Annotated]:
+Result size of Called arity analysis
+  = {terms: 476, types: 584, coercions: 23}
+!!! Called arity analysis [Language.Haskell.Exts.Annotated]: finished in 0.00 milliseconds, allocated 0.505 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated]:
+Result size of Simplifier = {terms: 476, types: 584, coercions: 23}
+!!! Simplifier [Language.Haskell.Exts.Annotated]: finished in 1.00 milliseconds, allocated 1.678 megabytes
+*** Demand analysis [Language.Haskell.Exts.Annotated]:
+Result size of Demand analysis
+  = {terms: 476, types: 584, coercions: 23}
+!!! Demand analysis [Language.Haskell.Exts.Annotated]: finished in 1.00 milliseconds, allocated 1.764 megabytes
+*** Worker Wrapper binds [Language.Haskell.Exts.Annotated]:
+Result size of Worker Wrapper binds
+  = {terms: 544, types: 665, coercions: 23}
+!!! Worker Wrapper binds [Language.Haskell.Exts.Annotated]: finished in 0.00 milliseconds, allocated 0.251 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated]:
+Result size of Simplifier iteration=1
+  = {terms: 519, types: 639, coercions: 23}
+Result size of Simplifier = {terms: 519, types: 639, coercions: 23}
+!!! Simplifier [Language.Haskell.Exts.Annotated]: finished in 3.00 milliseconds, allocated 4.289 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Language.Haskell.Exts.Annotated]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 575, types: 693, coercions: 23}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Language.Haskell.Exts.Annotated]: finished in 1.00 milliseconds, allocated 2.456 megabytes
+*** Common sub-expression [Language.Haskell.Exts.Annotated]:
+Result size of Common sub-expression
+  = {terms: 568, types: 692, coercions: 23}
+!!! Common sub-expression [Language.Haskell.Exts.Annotated]: finished in 0.00 milliseconds, allocated 0.642 megabytes
+*** Float inwards [Language.Haskell.Exts.Annotated]:
+Result size of Float inwards
+  = {terms: 568, types: 692, coercions: 23}
+!!! Float inwards [Language.Haskell.Exts.Annotated]: finished in 1.00 milliseconds, allocated 0.805 megabytes
+*** Simplifier [Language.Haskell.Exts.Annotated]:
+Result size of Simplifier iteration=1
+  = {terms: 552, types: 680, coercions: 23}
+Result size of Simplifier = {terms: 552, types: 680, coercions: 23}
+!!! Simplifier [Language.Haskell.Exts.Annotated]: finished in 2.00 milliseconds, allocated 4.397 megabytes
+*** CoreTidy [Language.Haskell.Exts.Annotated]:
+Result size of Tidy Core = {terms: 552, types: 680, coercions: 23}
+!!! CoreTidy [Language.Haskell.Exts.Annotated]: finished in 1.00 milliseconds, allocated 1.093 megabytes
+writeBinIface: 1012 Names
+writeBinIface: 1073 dict entries
+*** CorePrep [Language.Haskell.Exts.Annotated]:
+Result size of CorePrep = {terms: 633, types: 787, coercions: 23}
+!!! CorePrep [Language.Haskell.Exts.Annotated]: finished in 1.00 milliseconds, allocated 1.146 megabytes
+*** Stg2Stg:
+*** CodeGen [Language.Haskell.Exts.Annotated]:
+!!! CodeGen [Language.Haskell.Exts.Annotated]: finished in 21.00 milliseconds, allocated 34.988 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Language/Haskell/Exts -Idist/dist-sandbox-f7dee551/build -Idist/dist-sandbox-f7dee551/build -Idist/dist-sandbox-f7dee551/build/autogen -Idist/dist-sandbox-f7dee551/build -x assembler -c /tmp/ghc26350_0/ghc_28.s -o dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated.o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc26350_0/ghc_29.c /tmp/ghc26350_0/ghc_28.s /tmp/ghc26350_0/ghc_27.s
+Warning: deleting non-existent /tmp/ghc26350_0/ghc_29.c
+Warning: deleting non-existent /tmp/ghc26350_0/ghc_27.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc26350_0/ghc_13.hscpp /tmp/ghc26350_0/ghc_11.hscpp /tmp/ghc26350_0/ghc_9.hscpp /tmp/ghc26350_0/ghc_7.hscpp /tmp/ghc26350_0/ghc_5.hscpp /tmp/ghc26350_0/ghc_3.hscpp /tmp/ghc26350_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc26350_0
+Linking...
+[(SimpleUnitId (ComponentId "array-0.5.1.0"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "array"}, pkgVersion = Version {versionBranch =
+[0,5,1,0], versionTags = []}},ModuleRenaming True []),(SimpleUnitId
+(ComponentId "base-4.9.0.0"),PackageIdentifier {pkgName = PackageName
+{unPackageName = "base"}, pkgVersion = Version {versionBranch = [4,9,0,0],
+versionTags = []}},ModuleRenaming True []),(SimpleUnitId (ComponentId
+"cpphs-1.19.3-5dK0scGvwcNK0ufeAybLNa"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "cpphs"}, pkgVersion = Version {versionBranch =
+[1,19,3], versionTags = []}},ModuleRenaming True []),(SimpleUnitId
+(ComponentId "ghc-prim-0.5.0.0"),PackageIdentifier {pkgName = PackageName
+{unPackageName = "ghc-prim"}, pkgVersion = Version {versionBranch = [0,5,0,0],
+versionTags = []}},ModuleRenaming True []),(SimpleUnitId (ComponentId
+"pretty-1.1.3.2"),PackageIdentifier {pkgName = PackageName {unPackageName =
+"pretty"}, pkgVersion = Version {versionBranch = [1,1,3,2], versionTags =
+[]}},ModuleRenaming True [])]
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/15"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/140"),("KONSOLE_DBUS_WINDOW","/Windows/140"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/haskell-src-exts/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/haskell-src-exts"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","5db061c46f0140008d1ecd1489104fa7"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919904"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/ar",["-r","-v","dist/dist-sandbox-f7dee551/build/objs-26345/libHShaskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7.a","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Lexer.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Parser.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Pretty.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Syntax.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Extension.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Build.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Fixity.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Comments.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/SrcLoc.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Syntax.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Fixity.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Build.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/ExactPrint.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Simplify.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Parser.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Comments.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ExtScheme.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseMonad.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseSyntax.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/InternalLexer.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseUtils.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/InternalParser.o"])
+/usr/bin/ar: creating dist/dist-sandbox-f7dee551/build/objs-26345/libHShaskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7.a
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Lexer.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Parser.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Pretty.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Syntax.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Extension.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Build.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Fixity.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Comments.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/SrcLoc.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Syntax.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Fixity.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Build.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/ExactPrint.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Simplify.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Parser.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Comments.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ExtScheme.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseMonad.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseSyntax.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/InternalLexer.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseUtils.o
+a - dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/InternalParser.o
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/15"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/140"),("KONSOLE_DBUS_WINDOW","/Windows/140"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/haskell-src-exts/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/haskell-src-exts"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","5db061c46f0140008d1ecd1489104fa7"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919904"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/ld",["-x","-r","-o","dist/dist-sandbox-f7dee551/build/HShaskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Lexer.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Parser.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Pretty.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Syntax.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Extension.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Build.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Fixity.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Comments.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/SrcLoc.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Syntax.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Fixity.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Build.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/ExactPrint.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Simplify.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Parser.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Comments.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ExtScheme.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseMonad.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseSyntax.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/InternalLexer.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseUtils.o","dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/InternalParser.o"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/haskell-src-exts/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","--package-db=dist/dist-sandbox-f7dee551/package.conf.inplace","-v2"])
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-f7dee551/build","-odir","dist/dist-sandbox-f7dee551/build","-hidir","dist/dist-sandbox-f7dee551/build","-stubdir","dist/dist-sandbox-f7dee551/build","-i","-idist/dist-sandbox-f7dee551/build","-isrc","-idist/dist-sandbox-f7dee551/build/autogen","-Idist/dist-sandbox-f7dee551/build/autogen","-Idist/dist-sandbox-f7dee551/build","-optP-include","-optPdist/dist-sandbox-f7dee551/build/autogen/cabal_macros.h","-this-unit-id","haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/haskell-src-exts/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","array-0.5.1.0","-package-id","base-4.9.0.0","-package-id","cpphs-1.19.3-5dK0scGvwcNK0ufeAybLNa","-package-id","ghc-prim-0.5.0.0","-package-id","pretty-1.1.3.2","-XHaskell98","Language.Haskell.Exts","Language.Haskell.Exts.Lexer","Language.Haskell.Exts.Parser","Language.Haskell.Exts.Pretty","Language.Haskell.Exts.Syntax","Language.Haskell.Exts.Extension","Language.Haskell.Exts.Build","Language.Haskell.Exts.Fixity","Language.Haskell.Exts.Comments","Language.Haskell.Exts.SrcLoc","Language.Haskell.Exts.Annotated","Language.Haskell.Exts.Annotated.Syntax","Language.Haskell.Exts.Annotated.Fixity","Language.Haskell.Exts.Annotated.Build","Language.Haskell.Exts.Annotated.ExactPrint","Language.Haskell.Exts.Annotated.Simplify","Language.Haskell.Exts.Annotated.Parser","Language.Haskell.Exts.Annotated.Comments","-Wall","-v3","-O"])
+Creating package registration file:
+/tmp/pkgConf-haskell-src-exts-1.177198853861649760492.1
+directory dist/dist-sandbox-f7dee551/doc/html/haskell-src-exts does exist:
+False
+creating
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1
+Installing LICENSE to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1/LICENSE
+Installing library in
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7
+creating
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell
+creating
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language
+creating
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7
+creating
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language
+creating
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell
+creating
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts
+creating
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Annotated
+Installing dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts.hi
+Installing dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Lexer.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Lexer.hi
+Installing dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Parser.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Parser.hi
+Installing dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Pretty.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Pretty.hi
+Installing dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Syntax.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Syntax.hi
+Installing dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Extension.hi
+to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Extension.hi
+Installing dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Build.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Build.hi
+Installing dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Fixity.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Fixity.hi
+Installing dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Comments.hi
+to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Comments.hi
+Installing dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/SrcLoc.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/SrcLoc.hi
+Installing dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated.hi
+to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Annotated.hi
+Installing
+dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Syntax.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Annotated/Syntax.hi
+Installing
+dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Fixity.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Annotated/Fixity.hi
+Installing
+dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Build.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Annotated/Build.hi
+Installing
+dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/ExactPrint.hi
+to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Annotated/ExactPrint.hi
+Installing
+dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Simplify.hi
+to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Annotated/Simplify.hi
+Installing
+dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Parser.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Annotated/Parser.hi
+Installing
+dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/Annotated/Comments.hi
+to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/Annotated/Comments.hi
+Installing dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ExtScheme.hi
+to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/ExtScheme.hi
+Installing
+dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseMonad.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/ParseMonad.hi
+Installing
+dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseSyntax.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/ParseSyntax.hi
+Installing
+dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/InternalLexer.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/InternalLexer.hi
+Installing
+dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/ParseUtils.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/ParseUtils.hi
+Installing
+dist/dist-sandbox-f7dee551/build/Language/Haskell/Exts/InternalParser.hi to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/Language/Haskell/Exts/InternalParser.hi
+creating
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7
+Installing
+dist/dist-sandbox-f7dee551/build/libHShaskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7.a
+to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/libHShaskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7.a
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/15"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/140"),("KONSOLE_DBUS_WINDOW","/Windows/140"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/haskell-src-exts/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/haskell-src-exts"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","5db061c46f0140008d1ecd1489104fa7"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919904"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/libHShaskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7.a","--strip-unneeded"])
+creating
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7
+Installing
+dist/dist-sandbox-f7dee551/build/HShaskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7.o
+to
+/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/HShaskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7.o
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/15"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/140"),("KONSOLE_DBUS_WINDOW","/Windows/140"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/haskell-src-exts/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/haskell-src-exts"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","5db061c46f0140008d1ecd1489104fa7"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919904"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/haskell-src-exts/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7/HShaskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7.o","--strip-unneeded"])
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-f7dee551/build","-odir","dist/dist-sandbox-f7dee551/build","-hidir","dist/dist-sandbox-f7dee551/build","-stubdir","dist/dist-sandbox-f7dee551/build","-i","-idist/dist-sandbox-f7dee551/build","-isrc","-idist/dist-sandbox-f7dee551/build/autogen","-Idist/dist-sandbox-f7dee551/build/autogen","-Idist/dist-sandbox-f7dee551/build","-optP-include","-optPdist/dist-sandbox-f7dee551/build/autogen/cabal_macros.h","-this-unit-id","haskell-src-exts-1.17.1-Bn2mjafr3SHDo5uLES8JQ7","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/haskell-src-exts/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","array-0.5.1.0","-package-id","base-4.9.0.0","-package-id","cpphs-1.19.3-5dK0scGvwcNK0ufeAybLNa","-package-id","ghc-prim-0.5.0.0","-package-id","pretty-1.1.3.2","-XHaskell98","Language.Haskell.Exts","Language.Haskell.Exts.Lexer","Language.Haskell.Exts.Parser","Language.Haskell.Exts.Pretty","Language.Haskell.Exts.Syntax","Language.Haskell.Exts.Extension","Language.Haskell.Exts.Build","Language.Haskell.Exts.Fixity","Language.Haskell.Exts.Comments","Language.Haskell.Exts.SrcLoc","Language.Haskell.Exts.Annotated","Language.Haskell.Exts.Annotated.Syntax","Language.Haskell.Exts.Annotated.Fixity","Language.Haskell.Exts.Annotated.Build","Language.Haskell.Exts.Annotated.ExactPrint","Language.Haskell.Exts.Annotated.Simplify","Language.Haskell.Exts.Annotated.Parser","Language.Haskell.Exts.Annotated.Comments","-Wall","-v3","-O"])
+Registering haskell-src-exts-1.17.1...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/haskell-src-exts/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v2"])
+cabal: Leaving directory '.'

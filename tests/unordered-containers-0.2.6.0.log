@@ -1,0 +1,1493 @@
+cabal: Entering directory '/tmp/cabal-tmp-8268/unordered-containers-0.2.6.0'
+Configuring unordered-containers-0.2.6.0...
+creating dist/dist-sandbox-8e35af7f/build
+creating dist/dist-sandbox-8e35af7f
+creating dist
+creating dist/dist-sandbox-8e35af7f
+creating dist/dist-sandbox-8e35af7f/build
+Searching for ghc-stage2 in path.
+Found ghc-stage2 at /home/omer/haskell/ghc/inplace/bin/ghc-stage2
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--numeric-version"])
+/home/omer/haskell/ghc/inplace/bin/ghc-stage2 is version 8.1.20160328
+looking for tool ghc-pkg near compiler in /home/omer/haskell/ghc/inplace/bin
+found ghc-pkg in /home/omer/haskell/ghc/inplace/bin/ghc-pkg
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["--version"])
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg is version 8.1.20160328
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--supported-languages"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--info"])
+Reading installed packages...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--global","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--package-db=/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--print-libdir","-v3"])
+Flags chosen: debug=False
+Dependency base ==4.9.0.0: using base-4.9.0.0
+Dependency deepseq ==1.4.2.0: using deepseq-1.4.2.0
+Dependency hashable ==1.2.4.0: using hashable-1.2.4.0
+Searching for alex in path.
+Found alex at /home/omer/.cabal/bin/alex
+("/home/omer/.cabal/bin/alex",["--version"])
+/home/omer/.cabal/bin/alex is version 3.1.5
+Searching for ar in path.
+Found ar at /usr/bin/ar
+Searching for c2hs in path.
+Cannot find c2hs on the path
+Searching for cpphs in path.
+Found cpphs at /home/omer/.cabal/bin/cpphs
+("/home/omer/.cabal/bin/cpphs",["--version"])
+/home/omer/.cabal/bin/cpphs is version 1.19.3
+Searching for gcc in path.
+Found gcc at /usr/bin/gcc
+("/usr/bin/gcc",["-dumpversion"])
+/usr/bin/gcc is version 4.8
+Searching for ghcjs in path.
+Cannot find ghcjs on the path
+Searching for ghcjs-pkg in path.
+Cannot find ghcjs-pkg on the path
+Searching for greencard in path.
+Cannot find greencard on the path
+looking for tool haddock near compiler in /home/omer/haskell/ghc/inplace/bin
+Searching for haddock in path.
+Cannot find haddock on the path
+Searching for happy in path.
+Found happy at /home/omer/.cabal/bin/happy
+("/home/omer/.cabal/bin/happy",["--version"])
+/home/omer/.cabal/bin/happy is version 1.19.5
+Searching for hmake in path.
+Cannot find hmake on the path
+Searching for hpc in path.
+Found hpc at /home/omer/haskell/ghc/inplace/bin/hpc
+("/home/omer/haskell/ghc/inplace/bin/hpc",["version"])
+/home/omer/haskell/ghc/inplace/bin/hpc is version 0.67
+looking for tool hsc2hs near compiler in /home/omer/haskell/ghc/inplace/bin
+found hsc2hs in /home/omer/haskell/ghc/inplace/bin/hsc2hs
+("/home/omer/haskell/ghc/inplace/bin/hsc2hs",["--version"])
+/home/omer/haskell/ghc/inplace/bin/hsc2hs is version 0.67
+Searching for HsColour in path.
+Cannot find HsColour on the path
+Searching for jhc in path.
+Cannot find jhc on the path
+Searching for ld in path.
+Found ld at /usr/bin/ld
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["-c","/tmp/16816927771714636915.c","-o","/tmp/1957747793424238335.o","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 2 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc10857_0
+*** C Compiler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/16816927771714636915.c -o /tmp/ghc10857_0/ghc_1.s -Wimplicit -S -include /home/omer/haskell/ghc/includes/ghcversion.h -I/home/omer/haskell/ghc/libraries/base/include -I/home/omer/haskell/ghc/libraries/integer-gmp/include -I/home/omer/haskell/ghc/rts/dist/build -I/home/omer/haskell/ghc/includes -I/home/omer/haskell/ghc/includes/dist-derivedconstants/header
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc10857_0/ghc_1.s -o /tmp/1957747793424238335.o
+*** Deleting temp files:
+Deleting: /tmp/ghc10857_0/ghc_2.rsp /tmp/ghc10857_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc10857_0
+("/usr/bin/ld",["-x","-r","/tmp/1957747793424238335.o","-o","/tmp/7198853861649760492.o"])
+Searching for lhc in path.
+Cannot find lhc on the path
+Searching for lhc-pkg in path.
+Cannot find lhc-pkg on the path
+Searching for pkg-config in path.
+Found pkg-config at /usr/bin/pkg-config
+("/usr/bin/pkg-config",["--version"])
+/usr/bin/pkg-config is version 0.28
+Searching for strip in path.
+Found strip at /usr/bin/strip
+("/usr/bin/strip",["--version"])
+/usr/bin/strip is version 2.24
+Searching for tar in path.
+Found tar at /bin/tar
+("/bin/tar",["--help"])
+Searching for uhc in path.
+Cannot find uhc on the path
+Using Cabal-1.23.1.0 compiled by ghc-7.10
+Using compiler: ghc-8.1.20160328
+Using install prefix: /home/omer/haskell/lens/.cabal-sandbox
+Binaries installed in: /home/omer/haskell/lens/.cabal-sandbox/bin
+Libraries installed in:
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe
+Private binaries installed in: /home/omer/haskell/lens/.cabal-sandbox/libexec
+Data files installed in:
+/home/omer/haskell/lens/.cabal-sandbox/share/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0
+Documentation installed in:
+/home/omer/haskell/lens/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0
+Configuration files installed in: /home/omer/haskell/lens/.cabal-sandbox/etc
+Using alex version 3.1.5 found on system at: /home/omer/.cabal/bin/alex
+Using ar found on system at: /usr/bin/ar
+No c2hs found
+Using cpphs version 1.19.3 found on system at: /home/omer/.cabal/bin/cpphs
+Using gcc version 4.8 found on system at: /usr/bin/gcc
+Using ghc version 8.1.20160328 given by user at:
+/home/omer/haskell/ghc/inplace/bin/ghc-stage2
+Using ghc-pkg version 8.1.20160328 found on system at:
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+No haddock found
+Using happy version 1.19.5 found on system at: /home/omer/.cabal/bin/happy
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hpc
+Using hsc2hs version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hsc2hs
+No hscolour found
+No jhc found
+Using ld found on system at: /usr/bin/ld
+No lhc found
+No lhc-pkg found
+Using pkg-config version 0.28 found on system at: /usr/bin/pkg-config
+Using strip version 2.24 found on system at: /usr/bin/strip
+Using tar found on system at: /bin/tar
+No uhc found
+("/usr/bin/gcc",["-std=gnu99","-fno-stack-protector","/tmp/10252023621350490027.c","-o","/tmp/7833686901102520059","-D__GLASGOW_HASKELL__=801","-Dlinux_BUILD_OS=1","-Dx86_64_BUILD_ARCH=1","-Dlinux_HOST_OS=1","-Dx86_64_HOST_ARCH=1","-Idist/dist-sandbox-8e35af7f/build/autogen","-I.","-I/home/omer/haskell/ghc/libraries/containers/include","-I/home/omer/haskell/ghc/libraries/bytestring/include","-I/home/omer/haskell/ghc/libraries/base/include","-I/home/omer/haskell/ghc/libraries/integer-gmp/include","-I/home/omer/haskell/ghc/rts/dist/build","-I/home/omer/haskell/ghc/includes","-I/home/omer/haskell/ghc/includes/dist-derivedconstants/header","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ","-L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/text-1.2.2.0-DNPL9j70xW29izEeMAP0sY","-L/home/omer/haskell/ghc/libraries/binary/dist-install/build","-L/home/omer/haskell/ghc/libraries/containers/dist-install/build","-L/home/omer/haskell/ghc/libraries/bytestring/dist-install/build","-L/home/omer/haskell/ghc/libraries/deepseq/dist-install/build","-L/home/omer/haskell/ghc/libraries/array/dist-install/build","-L/home/omer/haskell/ghc/libraries/base/dist-install/build","-L/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build","-L/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build","-L/home/omer/haskell/ghc/rts/dist/build"])
+Component build order: library
+creating dist/dist-sandbox-8e35af7f/build
+creating dist/dist-sandbox-8e35af7f/build/autogen
+Building unordered-containers-0.2.6.0...
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["init","dist/dist-sandbox-8e35af7f/package.conf.inplace","-v2"])
+GHC package manager version 8.1.20160328
+writing cache dist/dist-sandbox-8e35af7f/package.conf.inplace/package.cache
+Preprocessing library unordered-containers-0.2.6.0...
+Building library...
+creating dist/dist-sandbox-8e35af7f/build
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--make","-v","-fbuilding-cabal-package","-O","-static","-dynamic-too","-dynosuf","dyn_o","-dynhisuf","dyn_hi","-outputdir","dist/dist-sandbox-8e35af7f/build","-odir","dist/dist-sandbox-8e35af7f/build","-hidir","dist/dist-sandbox-8e35af7f/build","-stubdir","dist/dist-sandbox-8e35af7f/build","-i","-idist/dist-sandbox-8e35af7f/build","-i.","-idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build","-optP-include","-optPdist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h","-this-unit-id","unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-db","dist/dist-sandbox-8e35af7f/package.conf.inplace","-package-id","base-4.9.0.0","-package-id","deepseq-1.4.2.0","-package-id","hashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ","-XHaskell98","Data.HashMap.Lazy","Data.HashMap.Strict","Data.HashSet","Data.HashMap.Array","Data.HashMap.Base","Data.HashMap.PopCount","Data.HashMap.Unsafe","Data.HashMap.UnsafeShift","-Wall","-O2","-fwarn-tabs","-fregs-graph","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 2 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-8e35af7f/package.conf.inplace/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-8e35af7f/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-8e35af7f/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.HashMap.Lazy,*Data.HashMap.Strict,*Data.HashSet,*Data.HashMap.Array,*Data.HashMap.Base,*Data.HashMap.PopCount,*Data.HashMap.Unsafe,*Data.HashMap.UnsafeShift
+Created temporary directory: /tmp/ghc10903_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc10903_0/ghc_2.h -x assembler-with-cpp ./Data/HashMap/Lazy.hs -o /tmp/ghc10903_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc10903_0/ghc_4.h -x assembler-with-cpp ./Data/HashMap/Strict.hs -o /tmp/ghc10903_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc10903_0/ghc_6.h -x assembler-with-cpp ./Data/HashSet.hs -o /tmp/ghc10903_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc10903_0/ghc_8.h -x assembler-with-cpp ./Data/HashMap/Array.hs -o /tmp/ghc10903_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc10903_0/ghc_10.h -x assembler-with-cpp ./Data/HashMap/Base.hs -o /tmp/ghc10903_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/containers/include -I /home/omer/haskell/ghc/libraries/bytestring/include -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc10903_0/ghc_12.h -x assembler-with-cpp ./Data/HashMap/PopCount.hs -o /tmp/ghc10903_0/ghc_11.hscpp
+!!! Chasing dependencies: finished in 182.69 milliseconds, allocated 263.093 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:21:56.360435369 UTC
+         ms_mod = Data.HashMap.Unsafe,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.ST),
+                            (Nothing, GHC.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:21:56.360435369 UTC
+         ms_mod = Data.HashMap.PopCount,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Bits)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:21:56.359435369 UTC
+         ms_mod = Data.HashMap.Array,
+         ms_textual_imps = [(Nothing, Data.HashMap.Unsafe),
+                            (Nothing, GHC.Exts), (Nothing, Prelude), (Nothing, GHC.ST),
+                            (Nothing, GHC.Exts), (Nothing, Control.DeepSeq),
+                            (Nothing, Data.Traversable)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:21:56.360435369 UTC
+         ms_mod = Data.HashMap.UnsafeShift,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Exts)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:21:56.360435369 UTC
+         ms_mod = Data.HashMap.Base,
+         ms_textual_imps = [(Nothing, GHC.Exts), (Nothing, GHC.Exts),
+                            (Nothing, Data.Typeable), (Nothing, Data.HashMap.UnsafeShift),
+                            (Nothing, Data.HashMap.Unsafe), (Nothing, Data.HashMap.PopCount),
+                            (Nothing, Data.Hashable), (Nothing, Data.Hashable),
+                            (Nothing, Data.HashMap.Array), (Nothing, Text.Read),
+                            (Nothing, Prelude), (Nothing, GHC.Exts), (Nothing, Data.List),
+                            (Nothing, Data.Foldable), (Nothing, Data.Data),
+                            (Nothing, Data.Bits), (Nothing, Control.Monad.ST),
+                            (Nothing, Control.DeepSeq), (Nothing, Data.Semigroup)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:21:56.360435369 UTC
+         ms_mod = Data.HashMap.Lazy,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.HashMap.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:21:56.360435369 UTC
+         ms_mod = Data.HashMap.Strict,
+         ms_textual_imps = [(Nothing, Data.HashMap.Unsafe),
+                            (Nothing, Data.HashMap.Base), (Nothing, Data.HashMap.Base),
+                            (Nothing, Data.HashMap.Array), (Nothing, Prelude),
+                            (Nothing, Data.Hashable), (Nothing, Data.List),
+                            (Nothing, Data.Bits)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:21:56.359435369 UTC
+         ms_mod = Data.HashSet,
+         ms_textual_imps = [(Nothing, GHC.Exts), (Nothing, Text.Read),
+                            (Nothing, Data.Typeable), (Nothing, Data.List),
+                            (Nothing, Data.HashMap.Lazy), (Nothing, Data.Foldable),
+                            (Nothing, Prelude), (Nothing, GHC.Exts), (Nothing, Data.Semigroup),
+                            (Nothing, Data.Hashable), (Nothing, Data.HashMap.Base),
+                            (Nothing, Data.Data), (Nothing, Control.DeepSeq)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc10903_0/ghc_12.h /tmp/ghc10903_0/ghc_10.h /tmp/ghc10903_0/ghc_8.h /tmp/ghc10903_0/ghc_6.h /tmp/ghc10903_0/ghc_4.h /tmp/ghc10903_0/ghc_2.h
+compile: input file ./Data/HashMap/Unsafe.hs
+*** Checking old interface for Data.HashMap.Unsafe:
+[1 of 8] Compiling Data.HashMap.Unsafe ( Data/HashMap/Unsafe.hs, dist/dist-sandbox-8e35af7f/build/Data/HashMap/Unsafe.o )
+*** Parser [Data.HashMap.Unsafe]:
+!!! Parser [Data.HashMap.Unsafe]: finished in 2.15 milliseconds, allocated 3.950 megabytes
+*** Renamer/typechecker [Data.HashMap.Unsafe]:
+!!! Renamer/typechecker [Data.HashMap.Unsafe]: finished in 285.03 milliseconds, allocated 486.557 megabytes
+*** Desugar [Data.HashMap.Unsafe]:
+Result size of Desugar (after optimization)
+  = {terms: 23, types: 51, coercions: 3}
+!!! Desugar [Data.HashMap.Unsafe]: finished in 1.65 milliseconds, allocated 1.623 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier iteration=1
+  = {terms: 20, types: 36, coercions: 12}
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 2.46 milliseconds, allocated 2.527 megabytes
+*** Specialise [Data.HashMap.Unsafe]:
+Result size of Specialise = {terms: 20, types: 36, coercions: 14}
+!!! Specialise [Data.HashMap.Unsafe]: finished in 0.35 milliseconds, allocated 0.482 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.Unsafe]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 20, types: 36, coercions: 14}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.Unsafe]: finished in 0.69 milliseconds, allocated 0.979 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 1.01 milliseconds, allocated 1.120 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 1.06 milliseconds, allocated 1.092 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 0.89 milliseconds, allocated 1.092 megabytes
+*** Float inwards [Data.HashMap.Unsafe]:
+Result size of Float inwards
+  = {terms: 20, types: 36, coercions: 14}
+!!! Float inwards [Data.HashMap.Unsafe]: finished in 0.27 milliseconds, allocated 0.412 megabytes
+*** Called arity analysis [Data.HashMap.Unsafe]:
+Result size of Called arity analysis
+  = {terms: 20, types: 36, coercions: 14}
+!!! Called arity analysis [Data.HashMap.Unsafe]: finished in 0.32 milliseconds, allocated 0.443 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 0.94 milliseconds, allocated 1.092 megabytes
+*** Demand analysis [Data.HashMap.Unsafe]:
+Result size of Demand analysis
+  = {terms: 20, types: 36, coercions: 14}
+!!! Demand analysis [Data.HashMap.Unsafe]: finished in 0.39 milliseconds, allocated 0.540 megabytes
+*** Worker Wrapper binds [Data.HashMap.Unsafe]:
+Result size of Worker Wrapper binds
+  = {terms: 20, types: 36, coercions: 14}
+!!! Worker Wrapper binds [Data.HashMap.Unsafe]: finished in 0.28 milliseconds, allocated 0.416 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 1.20 milliseconds, allocated 1.112 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.Unsafe]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 20, types: 36, coercions: 14}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.Unsafe]: finished in 0.75 milliseconds, allocated 0.979 megabytes
+*** Common sub-expression [Data.HashMap.Unsafe]:
+Result size of Common sub-expression
+  = {terms: 20, types: 36, coercions: 14}
+!!! Common sub-expression [Data.HashMap.Unsafe]: finished in 0.65 milliseconds, allocated 0.514 megabytes
+*** Float inwards [Data.HashMap.Unsafe]:
+Result size of Float inwards
+  = {terms: 20, types: 36, coercions: 14}
+!!! Float inwards [Data.HashMap.Unsafe]: finished in 0.30 milliseconds, allocated 0.412 megabytes
+*** Liberate case [Data.HashMap.Unsafe]:
+Result size of Liberate case
+  = {terms: 20, types: 36, coercions: 14}
+!!! Liberate case [Data.HashMap.Unsafe]: finished in 0.25 milliseconds, allocated 0.389 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 1.08 milliseconds, allocated 1.112 megabytes
+*** SpecConstr [Data.HashMap.Unsafe]:
+Result size of SpecConstr = {terms: 20, types: 36, coercions: 14}
+!!! SpecConstr [Data.HashMap.Unsafe]: finished in 0.34 milliseconds, allocated 0.458 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 0.95 milliseconds, allocated 1.123 megabytes
+*** CoreTidy [Data.HashMap.Unsafe]:
+Result size of Tidy Core = {terms: 20, types: 36, coercions: 14}
+!!! CoreTidy [Data.HashMap.Unsafe]: finished in 0.63 milliseconds, allocated 0.786 megabytes
+writeBinIface: 9 Names
+writeBinIface: 34 dict entries
+writeBinIface: 9 Names
+writeBinIface: 34 dict entries
+*** CorePrep [Data.HashMap.Unsafe]:
+Result size of CorePrep = {terms: 23, types: 44, coercions: 14}
+!!! CorePrep [Data.HashMap.Unsafe]: finished in 0.64 milliseconds, allocated 0.516 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Unsafe]:
+!!! CodeGen [Data.HashMap.Unsafe]: finished in 4.64 milliseconds, allocated 4.990 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc10903_0/ghc_14.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Unsafe.o
+*** CorePrep [Data.HashMap.Unsafe]:
+Result size of CorePrep = {terms: 23, types: 44, coercions: 14}
+!!! CorePrep [Data.HashMap.Unsafe]: finished in 0.46 milliseconds, allocated 0.486 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Unsafe]:
+!!! CodeGen [Data.HashMap.Unsafe]: finished in 4.67 milliseconds, allocated 4.892 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc10903_0/ghc_16.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Unsafe.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc10903_0/ghc_17.c /tmp/ghc10903_0/ghc_16.s /tmp/ghc10903_0/ghc_15.c /tmp/ghc10903_0/ghc_14.s /tmp/ghc10903_0/ghc_13.s
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_17.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_13.s
+compile: input file /tmp/ghc10903_0/ghc_11.hscpp
+*** Checking old interface for Data.HashMap.PopCount:
+[2 of 8] Compiling Data.HashMap.PopCount ( Data/HashMap/PopCount.hs, dist/dist-sandbox-8e35af7f/build/Data/HashMap/PopCount.o )
+*** Parser [Data.HashMap.PopCount]:
+!!! Parser [Data.HashMap.PopCount]: finished in 1.79 milliseconds, allocated 3.547 megabytes
+*** Renamer/typechecker [Data.HashMap.PopCount]:
+!!! Renamer/typechecker [Data.HashMap.PopCount]: finished in 18.53 milliseconds, allocated 32.574 megabytes
+*** Desugar [Data.HashMap.PopCount]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.HashMap.PopCount]: finished in 0.77 milliseconds, allocated 0.856 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.99 milliseconds, allocated 0.913 megabytes
+*** Specialise [Data.HashMap.PopCount]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.HashMap.PopCount]: finished in 0.29 milliseconds, allocated 0.369 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.PopCount]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.PopCount]: finished in 0.80 milliseconds, allocated 0.785 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.42 milliseconds, allocated 0.466 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.38 milliseconds, allocated 0.467 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.37 milliseconds, allocated 0.466 megabytes
+*** Float inwards [Data.HashMap.PopCount]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.HashMap.PopCount]: finished in 0.22 milliseconds, allocated 0.354 megabytes
+*** Called arity analysis [Data.HashMap.PopCount]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.HashMap.PopCount]: finished in 0.25 milliseconds, allocated 0.389 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.41 milliseconds, allocated 0.467 megabytes
+*** Demand analysis [Data.HashMap.PopCount]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.HashMap.PopCount]: finished in 0.31 milliseconds, allocated 0.420 megabytes
+*** Worker Wrapper binds [Data.HashMap.PopCount]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.HashMap.PopCount]: finished in 0.26 milliseconds, allocated 0.389 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.39 milliseconds, allocated 0.467 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.PopCount]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.PopCount]: finished in 0.71 milliseconds, allocated 0.781 megabytes
+*** Common sub-expression [Data.HashMap.PopCount]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.HashMap.PopCount]: finished in 0.27 milliseconds, allocated 0.396 megabytes
+*** Float inwards [Data.HashMap.PopCount]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.HashMap.PopCount]: finished in 0.21 milliseconds, allocated 0.354 megabytes
+*** Liberate case [Data.HashMap.PopCount]:
+Result size of Liberate case = {terms: 10, types: 3, coercions: 0}
+!!! Liberate case [Data.HashMap.PopCount]: finished in 0.22 milliseconds, allocated 0.342 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.42 milliseconds, allocated 0.471 megabytes
+*** SpecConstr [Data.HashMap.PopCount]:
+Result size of SpecConstr = {terms: 10, types: 3, coercions: 0}
+!!! SpecConstr [Data.HashMap.PopCount]: finished in 0.23 milliseconds, allocated 0.369 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.40 milliseconds, allocated 0.471 megabytes
+*** CoreTidy [Data.HashMap.PopCount]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.HashMap.PopCount]: finished in 0.60 milliseconds, allocated 0.540 megabytes
+writeBinIface: 6 Names
+writeBinIface: 24 dict entries
+writeBinIface: 6 Names
+writeBinIface: 24 dict entries
+*** CorePrep [Data.HashMap.PopCount]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.HashMap.PopCount]: finished in 0.32 milliseconds, allocated 0.393 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.PopCount]:
+!!! CodeGen [Data.HashMap.PopCount]: finished in 1.54 milliseconds, allocated 2.035 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc10903_0/ghc_19.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/PopCount.o
+*** CorePrep [Data.HashMap.PopCount]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.HashMap.PopCount]: finished in 0.68 milliseconds, allocated 0.389 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.PopCount]:
+!!! CodeGen [Data.HashMap.PopCount]: finished in 1.57 milliseconds, allocated 2.011 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc10903_0/ghc_21.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/PopCount.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc10903_0/ghc_22.c /tmp/ghc10903_0/ghc_21.s /tmp/ghc10903_0/ghc_20.c /tmp/ghc10903_0/ghc_19.s /tmp/ghc10903_0/ghc_18.s
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_22.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_18.s
+compile: input file /tmp/ghc10903_0/ghc_7.hscpp
+*** Checking old interface for Data.HashMap.Array:
+[3 of 8] Compiling Data.HashMap.Array ( Data/HashMap/Array.hs, dist/dist-sandbox-8e35af7f/build/Data/HashMap/Array.o )
+*** Parser [Data.HashMap.Array]:
+!!! Parser [Data.HashMap.Array]: finished in 35.26 milliseconds, allocated 61.866 megabytes
+*** Renamer/typechecker [Data.HashMap.Array]:
+!!! Renamer/typechecker [Data.HashMap.Array]: finished in 1568.56 milliseconds, allocated 2612.787 megabytes
+*** Desugar [Data.HashMap.Array]:
+Result size of Desugar (after optimization)
+  = {terms: 1,248, types: 2,012, coercions: 54}
+!!! Desugar [Data.HashMap.Array]: finished in 61.16 milliseconds, allocated 80.085 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,201, types: 1,932, coercions: 92}
+Result size of Simplifier iteration=2
+  = {terms: 1,199, types: 1,930, coercions: 92}
+Result size of Simplifier
+  = {terms: 1,199, types: 1,930, coercions: 92}
+!!! Simplifier [Data.HashMap.Array]: finished in 143.54 milliseconds, allocated 171.152 megabytes
+*** Specialise [Data.HashMap.Array]:
+Result size of Specialise
+  = {terms: 1,199, types: 1,930, coercions: 92}
+!!! Specialise [Data.HashMap.Array]: finished in 6.73 milliseconds, allocated 9.507 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,590, types: 2,568, coercions: 392}
+Result size of Simplifier iteration=2
+  = {terms: 1,548, types: 2,616, coercions: 424}
+Result size of Simplifier
+  = {terms: 1,548, types: 2,616, coercions: 424}
+!!! Simplifier [Data.HashMap.Array]: finished in 194.35 milliseconds, allocated 222.969 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier
+  = {terms: 1,548, types: 2,616, coercions: 424}
+!!! Simplifier [Data.HashMap.Array]: finished in 59.44 milliseconds, allocated 65.212 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,867, types: 3,140, coercions: 454}
+Result size of Simplifier iteration=2
+  = {terms: 1,867, types: 3,140, coercions: 454}
+Result size of Simplifier
+  = {terms: 1,867, types: 3,140, coercions: 454}
+!!! Simplifier [Data.HashMap.Array]: finished in 250.64 milliseconds, allocated 226.339 megabytes
+*** Float inwards [Data.HashMap.Array]:
+Result size of Float inwards
+  = {terms: 1,867, types: 3,140, coercions: 454}
+!!! Float inwards [Data.HashMap.Array]: finished in 11.78 milliseconds, allocated 16.934 megabytes
+*** Called arity analysis [Data.HashMap.Array]:
+Result size of Called arity analysis
+  = {terms: 1,867, types: 3,140, coercions: 454}
+!!! Called arity analysis [Data.HashMap.Array]: finished in 10.06 milliseconds, allocated 14.785 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,806, types: 3,067, coercions: 454}
+Result size of Simplifier iteration=2
+  = {terms: 1,785, types: 3,046, coercions: 454}
+Result size of Simplifier
+  = {terms: 1,785, types: 3,046, coercions: 454}
+!!! Simplifier [Data.HashMap.Array]: finished in 190.95 milliseconds, allocated 214.888 megabytes
+*** Demand analysis [Data.HashMap.Array]:
+Result size of Demand analysis
+  = {terms: 1,785, types: 3,046, coercions: 454}
+!!! Demand analysis [Data.HashMap.Array]: finished in 37.25 milliseconds, allocated 42.555 megabytes
+*** Worker Wrapper binds [Data.HashMap.Array]:
+Result size of Worker Wrapper binds
+  = {terms: 1,817, types: 3,072, coercions: 454}
+!!! Worker Wrapper binds [Data.HashMap.Array]: finished in 2.50 milliseconds, allocated 3.447 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,807, types: 3,066, coercions: 454}
+Result size of Simplifier iteration=2
+  = {terms: 1,785, types: 3,045, coercions: 454}
+Result size of Simplifier
+  = {terms: 1,785, types: 3,045, coercions: 454}
+!!! Simplifier [Data.HashMap.Array]: finished in 211.10 milliseconds, allocated 233.943 megabytes
+*** Common sub-expression [Data.HashMap.Array]:
+Result size of Common sub-expression
+  = {terms: 1,777, types: 3,043, coercions: 454}
+!!! Common sub-expression [Data.HashMap.Array]: finished in 14.91 milliseconds, allocated 18.272 megabytes
+*** Float inwards [Data.HashMap.Array]:
+Result size of Float inwards
+  = {terms: 1,777, types: 3,043, coercions: 454}
+!!! Float inwards [Data.HashMap.Array]: finished in 10.82 milliseconds, allocated 15.345 megabytes
+*** Liberate case [Data.HashMap.Array]:
+Result size of Liberate case
+  = {terms: 1,777, types: 3,043, coercions: 454}
+!!! Liberate case [Data.HashMap.Array]: finished in 3.96 milliseconds, allocated 5.576 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,777, types: 3,043, coercions: 454}
+Result size of Simplifier
+  = {terms: 1,777, types: 3,043, coercions: 454}
+!!! Simplifier [Data.HashMap.Array]: finished in 145.59 milliseconds, allocated 162.021 megabytes
+*** SpecConstr [Data.HashMap.Array]:
+Result size of SpecConstr
+  = {terms: 2,367, types: 3,764, coercions: 508}
+!!! SpecConstr [Data.HashMap.Array]: finished in 24.52 milliseconds, allocated 31.445 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 2,350, types: 3,739, coercions: 508}
+Result size of Simplifier iteration=2
+  = {terms: 2,092, types: 3,397, coercions: 490}
+Result size of Simplifier
+  = {terms: 2,092, types: 3,397, coercions: 490}
+!!! Simplifier [Data.HashMap.Array]: finished in 275.10 milliseconds, allocated 276.319 megabytes
+*** CoreTidy [Data.HashMap.Array]:
+Result size of Tidy Core
+  = {terms: 2,109, types: 3,432, coercions: 490}
+!!! CoreTidy [Data.HashMap.Array]: finished in 40.51 milliseconds, allocated 61.773 megabytes
+writeBinIface: 82 Names
+writeBinIface: 188 dict entries
+writeBinIface: 82 Names
+writeBinIface: 188 dict entries
+*** CorePrep [Data.HashMap.Array]:
+Result size of CorePrep
+  = {terms: 2,736, types: 4,390, coercions: 515}
+!!! CorePrep [Data.HashMap.Array]: finished in 35.96 milliseconds, allocated 44.030 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Array]:
+!!! CodeGen [Data.HashMap.Array]: finished in 752.39 milliseconds, allocated 866.057 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc10903_0/ghc_24.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Array.o
+*** CorePrep [Data.HashMap.Array]:
+Result size of CorePrep
+  = {terms: 2,736, types: 4,390, coercions: 515}
+!!! CorePrep [Data.HashMap.Array]: finished in 25.38 milliseconds, allocated 33.937 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Array]:
+!!! CodeGen [Data.HashMap.Array]: finished in 729.94 milliseconds, allocated 919.389 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc10903_0/ghc_26.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Array.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc10903_0/ghc_27.c /tmp/ghc10903_0/ghc_26.s /tmp/ghc10903_0/ghc_25.c /tmp/ghc10903_0/ghc_24.s /tmp/ghc10903_0/ghc_23.s
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_27.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_25.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_23.s
+compile: input file ./Data/HashMap/UnsafeShift.hs
+*** Checking old interface for Data.HashMap.UnsafeShift:
+[4 of 8] Compiling Data.HashMap.UnsafeShift ( Data/HashMap/UnsafeShift.hs, dist/dist-sandbox-8e35af7f/build/Data/HashMap/UnsafeShift.o )
+*** Parser [Data.HashMap.UnsafeShift]:
+!!! Parser [Data.HashMap.UnsafeShift]: finished in 1.76 milliseconds, allocated 3.244 megabytes
+*** Renamer/typechecker [Data.HashMap.UnsafeShift]:
+!!! Renamer/typechecker [Data.HashMap.UnsafeShift]: finished in 137.06 milliseconds, allocated 244.891 megabytes
+*** Desugar [Data.HashMap.UnsafeShift]:
+Result size of Desugar (after optimization)
+  = {terms: 32, types: 19, coercions: 0}
+!!! Desugar [Data.HashMap.UnsafeShift]: finished in 2.02 milliseconds, allocated 1.537 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier iteration=1
+  = {terms: 36, types: 21, coercions: 0}
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 2.42 milliseconds, allocated 2.811 megabytes
+*** Specialise [Data.HashMap.UnsafeShift]:
+Result size of Specialise = {terms: 36, types: 21, coercions: 0}
+!!! Specialise [Data.HashMap.UnsafeShift]: finished in 0.39 milliseconds, allocated 0.540 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.UnsafeShift]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 36, types: 21, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.UnsafeShift]: finished in 0.97 milliseconds, allocated 1.283 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 1.35 milliseconds, allocated 1.489 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 1.22 milliseconds, allocated 1.379 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 1.54 milliseconds, allocated 1.381 megabytes
+*** Float inwards [Data.HashMap.UnsafeShift]:
+Result size of Float inwards = {terms: 36, types: 21, coercions: 0}
+!!! Float inwards [Data.HashMap.UnsafeShift]: finished in 0.25 milliseconds, allocated 0.392 megabytes
+*** Called arity analysis [Data.HashMap.UnsafeShift]:
+Result size of Called arity analysis
+  = {terms: 36, types: 21, coercions: 0}
+!!! Called arity analysis [Data.HashMap.UnsafeShift]: finished in 0.34 milliseconds, allocated 0.455 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 1.26 milliseconds, allocated 1.380 megabytes
+*** Demand analysis [Data.HashMap.UnsafeShift]:
+Result size of Demand analysis
+  = {terms: 36, types: 21, coercions: 0}
+!!! Demand analysis [Data.HashMap.UnsafeShift]: finished in 0.64 milliseconds, allocated 0.839 megabytes
+*** Worker Wrapper binds [Data.HashMap.UnsafeShift]:
+Result size of Worker Wrapper binds
+  = {terms: 36, types: 21, coercions: 0}
+!!! Worker Wrapper binds [Data.HashMap.UnsafeShift]: finished in 0.30 milliseconds, allocated 0.416 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 1.26 milliseconds, allocated 1.392 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.UnsafeShift]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 36, types: 21, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.UnsafeShift]: finished in 0.94 milliseconds, allocated 1.283 megabytes
+*** Common sub-expression [Data.HashMap.UnsafeShift]:
+Result size of Common sub-expression
+  = {terms: 36, types: 21, coercions: 0}
+!!! Common sub-expression [Data.HashMap.UnsafeShift]: finished in 0.67 milliseconds, allocated 0.863 megabytes
+*** Float inwards [Data.HashMap.UnsafeShift]:
+Result size of Float inwards = {terms: 36, types: 21, coercions: 0}
+!!! Float inwards [Data.HashMap.UnsafeShift]: finished in 0.25 milliseconds, allocated 0.392 megabytes
+*** Liberate case [Data.HashMap.UnsafeShift]:
+Result size of Liberate case = {terms: 36, types: 21, coercions: 0}
+!!! Liberate case [Data.HashMap.UnsafeShift]: finished in 0.25 milliseconds, allocated 0.408 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 1.25 milliseconds, allocated 1.422 megabytes
+*** SpecConstr [Data.HashMap.UnsafeShift]:
+Result size of SpecConstr = {terms: 36, types: 21, coercions: 0}
+!!! SpecConstr [Data.HashMap.UnsafeShift]: finished in 0.40 milliseconds, allocated 0.560 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 1.29 milliseconds, allocated 1.489 megabytes
+*** CoreTidy [Data.HashMap.UnsafeShift]:
+Result size of Tidy Core = {terms: 36, types: 21, coercions: 0}
+!!! CoreTidy [Data.HashMap.UnsafeShift]: finished in 0.73 milliseconds, allocated 0.894 megabytes
+writeBinIface: 6 Names
+writeBinIface: 31 dict entries
+writeBinIface: 6 Names
+writeBinIface: 31 dict entries
+*** CorePrep [Data.HashMap.UnsafeShift]:
+Result size of CorePrep = {terms: 42, types: 23, coercions: 0}
+!!! CorePrep [Data.HashMap.UnsafeShift]: finished in 0.62 milliseconds, allocated 0.719 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.UnsafeShift]:
+!!! CodeGen [Data.HashMap.UnsafeShift]: finished in 10.44 milliseconds, allocated 12.861 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc10903_0/ghc_29.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/UnsafeShift.o
+*** CorePrep [Data.HashMap.UnsafeShift]:
+Result size of CorePrep = {terms: 42, types: 23, coercions: 0}
+!!! CorePrep [Data.HashMap.UnsafeShift]: finished in 0.59 milliseconds, allocated 0.634 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.UnsafeShift]:
+!!! CodeGen [Data.HashMap.UnsafeShift]: finished in 10.49 milliseconds, allocated 13.145 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc10903_0/ghc_31.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/UnsafeShift.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc10903_0/ghc_32.c /tmp/ghc10903_0/ghc_31.s /tmp/ghc10903_0/ghc_30.c /tmp/ghc10903_0/ghc_29.s /tmp/ghc10903_0/ghc_28.s
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_32.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_30.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_28.s
+compile: input file /tmp/ghc10903_0/ghc_9.hscpp
+*** Checking old interface for Data.HashMap.Base:
+[5 of 8] Compiling Data.HashMap.Base ( Data/HashMap/Base.hs, dist/dist-sandbox-8e35af7f/build/Data/HashMap/Base.o )
+*** Parser [Data.HashMap.Base]:
+!!! Parser [Data.HashMap.Base]: finished in 129.19 milliseconds, allocated 215.935 megabytes
+*** Renamer/typechecker [Data.HashMap.Base]:
+!!! Renamer/typechecker [Data.HashMap.Base]: finished in 1550.80 milliseconds, allocated 2190.530 megabytes
+*** Desugar [Data.HashMap.Base]:
+Result size of Desugar (after optimization)
+  = {terms: 5,823, types: 8,981, coercions: 136}
+!!! Desugar [Data.HashMap.Base]: finished in 393.01 milliseconds, allocated 519.325 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 5,542, types: 8,801, coercions: 153}
+Result size of Simplifier iteration=2
+  = {terms: 5,480, types: 8,721, coercions: 162}
+Result size of Simplifier
+  = {terms: 5,480, types: 8,721, coercions: 162}
+!!! Simplifier [Data.HashMap.Base]: finished in 1342.13 milliseconds, allocated 1630.007 megabytes
+*** Specialise [Data.HashMap.Base]:
+Result size of Specialise
+  = {terms: 5,485, types: 8,746, coercions: 179}
+!!! Specialise [Data.HashMap.Base]: finished in 35.72 milliseconds, allocated 48.834 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 16,433, types: 26,259, coercions: 2,277}
+Result size of Simplifier iteration=2
+  = {terms: 15,995, types: 25,459, coercions: 2,248}
+Result size of Simplifier
+  = {terms: 15,995, types: 25,459, coercions: 2,248}
+!!! Simplifier [Data.HashMap.Base]: finished in 2184.60 milliseconds, allocated 2538.596 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier
+  = {terms: 15,995, types: 25,459, coercions: 2,248}
+!!! Simplifier [Data.HashMap.Base]: finished in 727.69 milliseconds, allocated 782.426 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 16,146, types: 26,035, coercions: 2,086}
+Result size of Simplifier
+  = {terms: 16,146, types: 26,035, coercions: 2,086}
+!!! Simplifier [Data.HashMap.Base]: finished in 1324.89 milliseconds, allocated 1585.309 megabytes
+*** Float inwards [Data.HashMap.Base]:
+Result size of Float inwards
+  = {terms: 16,158, types: 26,039, coercions: 2,086}
+!!! Float inwards [Data.HashMap.Base]: finished in 225.54 milliseconds, allocated 251.136 megabytes
+*** Called arity analysis [Data.HashMap.Base]:
+Result size of Called arity analysis
+  = {terms: 16,158, types: 26,039, coercions: 2,086}
+!!! Called arity analysis [Data.HashMap.Base]: finished in 101.14 milliseconds, allocated 149.071 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 16,022, types: 25,841, coercions: 2,086}
+Result size of Simplifier iteration=2
+  = {terms: 15,970, types: 25,761, coercions: 2,086}
+Result size of Simplifier
+  = {terms: 15,970, types: 25,761, coercions: 2,086}
+!!! Simplifier [Data.HashMap.Base]: finished in 2033.17 milliseconds, allocated 2350.855 megabytes
+*** Demand analysis [Data.HashMap.Base]:
+Result size of Demand analysis
+  = {terms: 15,970, types: 25,761, coercions: 2,086}
+!!! Demand analysis [Data.HashMap.Base]: finished in 475.63 milliseconds, allocated 566.164 megabytes
+*** Worker Wrapper binds [Data.HashMap.Base]:
+Result size of Worker Wrapper binds
+  = {terms: 17,854, types: 28,391, coercions: 2,086}
+!!! Worker Wrapper binds [Data.HashMap.Base]: finished in 32.33 milliseconds, allocated 33.350 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 17,238, types: 27,634, coercions: 2,086}
+Result size of Simplifier iteration=2
+  = {terms: 16,183, types: 25,927, coercions: 2,086}
+Result size of Simplifier iteration=3
+  = {terms: 16,183, types: 25,927, coercions: 2,086}
+Result size of Simplifier
+  = {terms: 16,183, types: 25,927, coercions: 2,086}
+!!! Simplifier [Data.HashMap.Base]: finished in 2869.75 milliseconds, allocated 3418.007 megabytes
+*** Common sub-expression [Data.HashMap.Base]:
+Result size of Common sub-expression
+  = {terms: 16,155, types: 25,906, coercions: 2,086}
+!!! Common sub-expression [Data.HashMap.Base]: finished in 128.59 milliseconds, allocated 164.882 megabytes
+*** Float inwards [Data.HashMap.Base]:
+Result size of Float inwards
+  = {terms: 16,179, types: 25,914, coercions: 2,086}
+!!! Float inwards [Data.HashMap.Base]: finished in 248.27 milliseconds, allocated 253.734 megabytes
+*** Liberate case [Data.HashMap.Base]:
+Result size of Liberate case
+  = {terms: 16,451, types: 26,306, coercions: 2,094}
+!!! Liberate case [Data.HashMap.Base]: finished in 41.24 milliseconds, allocated 52.447 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 16,419, types: 26,269, coercions: 2,094}
+Result size of Simplifier
+  = {terms: 16,419, types: 26,269, coercions: 2,094}
+!!! Simplifier [Data.HashMap.Base]: finished in 1359.91 milliseconds, allocated 1697.800 megabytes
+*** SpecConstr [Data.HashMap.Base]:
+Result size of SpecConstr
+  = {terms: 25,458, types: 41,505, coercions: 3,458}
+!!! SpecConstr [Data.HashMap.Base]: finished in 300.45 milliseconds, allocated 406.079 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 25,342, types: 41,319, coercions: 3,458}
+Result size of Simplifier iteration=2
+  = {terms: 23,104, types: 37,697, coercions: 3,276}
+Result size of Simplifier iteration=3
+  = {terms: 23,074, types: 37,632, coercions: 3,276}
+Result size of Simplifier
+  = {terms: 23,074, types: 37,632, coercions: 3,276}
+!!! Simplifier [Data.HashMap.Base]: finished in 3525.26 milliseconds, allocated 4124.119 megabytes
+*** CoreTidy [Data.HashMap.Base]:
+Result size of Tidy Core
+  = {terms: 23,133, types: 37,756, coercions: 3,267}
+!!! CoreTidy [Data.HashMap.Base]: finished in 521.65 milliseconds, allocated 746.192 megabytes
+writeBinIface: 296 Names
+writeBinIface: 568 dict entries
+writeBinIface: 296 Names
+writeBinIface: 568 dict entries
+*** CorePrep [Data.HashMap.Base]:
+Result size of CorePrep
+  = {terms: 30,522, types: 50,309, coercions: 3,561}
+!!! CorePrep [Data.HashMap.Base]: finished in 423.80 milliseconds, allocated 558.473 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Base]:
+!!! CodeGen [Data.HashMap.Base]: finished in 8510.50 milliseconds, allocated 11283.503 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc10903_0/ghc_34.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Base.o
+*** CorePrep [Data.HashMap.Base]:
+Result size of CorePrep
+  = {terms: 30,522, types: 50,309, coercions: 3,561}
+!!! CorePrep [Data.HashMap.Base]: finished in 429.02 milliseconds, allocated 404.831 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Base]:
+!!! CodeGen [Data.HashMap.Base]: finished in 8907.71 milliseconds, allocated 11943.488 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc10903_0/ghc_36.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Base.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc10903_0/ghc_37.c /tmp/ghc10903_0/ghc_36.s /tmp/ghc10903_0/ghc_35.c /tmp/ghc10903_0/ghc_34.s /tmp/ghc10903_0/ghc_33.s
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_37.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_35.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_33.s
+compile: input file /tmp/ghc10903_0/ghc_1.hscpp
+*** Checking old interface for Data.HashMap.Lazy:
+[6 of 8] Compiling Data.HashMap.Lazy ( Data/HashMap/Lazy.hs, dist/dist-sandbox-8e35af7f/build/Data/HashMap/Lazy.o )
+*** Parser [Data.HashMap.Lazy]:
+!!! Parser [Data.HashMap.Lazy]: finished in 3.90 milliseconds, allocated 8.584 megabytes
+*** Renamer/typechecker [Data.HashMap.Lazy]:
+!!! Renamer/typechecker [Data.HashMap.Lazy]: finished in 206.41 milliseconds, allocated 384.358 megabytes
+*** Desugar [Data.HashMap.Lazy]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.HashMap.Lazy]: finished in 0.87 milliseconds, allocated 1.056 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 0.81 milliseconds, allocated 0.953 megabytes
+*** Specialise [Data.HashMap.Lazy]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.HashMap.Lazy]: finished in 0.26 milliseconds, allocated 0.369 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.Lazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.Lazy]: finished in 0.57 milliseconds, allocated 0.781 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 0.43 milliseconds, allocated 0.478 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 0.39 milliseconds, allocated 0.478 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 0.40 milliseconds, allocated 0.474 megabytes
+*** Float inwards [Data.HashMap.Lazy]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.HashMap.Lazy]: finished in 0.23 milliseconds, allocated 0.354 megabytes
+*** Called arity analysis [Data.HashMap.Lazy]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.HashMap.Lazy]: finished in 0.31 milliseconds, allocated 0.389 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 0.43 milliseconds, allocated 0.474 megabytes
+*** Demand analysis [Data.HashMap.Lazy]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.HashMap.Lazy]: finished in 0.33 milliseconds, allocated 0.420 megabytes
+*** Worker Wrapper binds [Data.HashMap.Lazy]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.HashMap.Lazy]: finished in 0.31 milliseconds, allocated 0.389 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 0.43 milliseconds, allocated 0.478 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.Lazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.Lazy]: finished in 0.58 milliseconds, allocated 0.782 megabytes
+*** Common sub-expression [Data.HashMap.Lazy]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.HashMap.Lazy]: finished in 0.29 milliseconds, allocated 0.396 megabytes
+*** Float inwards [Data.HashMap.Lazy]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.HashMap.Lazy]: finished in 0.22 milliseconds, allocated 0.350 megabytes
+*** Liberate case [Data.HashMap.Lazy]:
+Result size of Liberate case = {terms: 10, types: 3, coercions: 0}
+!!! Liberate case [Data.HashMap.Lazy]: finished in 0.22 milliseconds, allocated 0.342 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 0.47 milliseconds, allocated 0.478 megabytes
+*** SpecConstr [Data.HashMap.Lazy]:
+Result size of SpecConstr = {terms: 10, types: 3, coercions: 0}
+!!! SpecConstr [Data.HashMap.Lazy]: finished in 0.35 milliseconds, allocated 0.366 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 0.45 milliseconds, allocated 0.478 megabytes
+*** CoreTidy [Data.HashMap.Lazy]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.HashMap.Lazy]: finished in 0.47 milliseconds, allocated 0.548 megabytes
+writeBinIface: 42 Names
+writeBinIface: 89 dict entries
+writeBinIface: 42 Names
+writeBinIface: 89 dict entries
+*** CorePrep [Data.HashMap.Lazy]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.HashMap.Lazy]: finished in 0.36 milliseconds, allocated 0.397 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Lazy]:
+!!! CodeGen [Data.HashMap.Lazy]: finished in 1.66 milliseconds, allocated 1.999 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc10903_0/ghc_39.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Lazy.o
+*** CorePrep [Data.HashMap.Lazy]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.HashMap.Lazy]: finished in 0.39 milliseconds, allocated 0.397 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Lazy]:
+!!! CodeGen [Data.HashMap.Lazy]: finished in 1.67 milliseconds, allocated 1.984 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc10903_0/ghc_41.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Lazy.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc10903_0/ghc_42.c /tmp/ghc10903_0/ghc_41.s /tmp/ghc10903_0/ghc_40.c /tmp/ghc10903_0/ghc_39.s /tmp/ghc10903_0/ghc_38.s
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_42.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_40.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_38.s
+compile: input file /tmp/ghc10903_0/ghc_3.hscpp
+*** Checking old interface for Data.HashMap.Strict:
+[7 of 8] Compiling Data.HashMap.Strict ( Data/HashMap/Strict.hs, dist/dist-sandbox-8e35af7f/build/Data/HashMap/Strict.o )
+*** Parser [Data.HashMap.Strict]:
+!!! Parser [Data.HashMap.Strict]: finished in 45.94 milliseconds, allocated 81.600 megabytes
+*** Renamer/typechecker [Data.HashMap.Strict]:
+!!! Renamer/typechecker [Data.HashMap.Strict]: finished in 373.33 milliseconds, allocated 442.250 megabytes
+*** Desugar [Data.HashMap.Strict]:
+Result size of Desugar (after optimization)
+  = {terms: 1,822, types: 2,304, coercions: 46}
+!!! Desugar [Data.HashMap.Strict]: finished in 162.37 milliseconds, allocated 218.571 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 1,713, types: 2,149, coercions: 23}
+Result size of Simplifier iteration=2
+  = {terms: 1,681, types: 2,101, coercions: 23}
+Result size of Simplifier
+  = {terms: 1,681, types: 2,101, coercions: 23}
+!!! Simplifier [Data.HashMap.Strict]: finished in 538.09 milliseconds, allocated 673.255 megabytes
+*** Specialise [Data.HashMap.Strict]:
+Result size of Specialise
+  = {terms: 1,681, types: 2,101, coercions: 23}
+!!! Specialise [Data.HashMap.Strict]: finished in 9.21 milliseconds, allocated 12.025 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.Strict]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,912, types: 2,439, coercions: 23}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.Strict]: finished in 104.39 milliseconds, allocated 153.046 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 6,162, types: 9,719, coercions: 897}
+Result size of Simplifier iteration=2
+  = {terms: 5,930, types: 9,380, coercions: 886}
+Result size of Simplifier iteration=3
+  = {terms: 5,925, types: 9,376, coercions: 886}
+Result size of Simplifier
+  = {terms: 5,925, types: 9,376, coercions: 886}
+!!! Simplifier [Data.HashMap.Strict]: finished in 1276.02 milliseconds, allocated 1422.121 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier
+  = {terms: 5,925, types: 9,376, coercions: 886}
+!!! Simplifier [Data.HashMap.Strict]: finished in 270.02 milliseconds, allocated 326.541 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 5,991, types: 9,622, coercions: 805}
+Result size of Simplifier
+  = {terms: 5,991, types: 9,622, coercions: 805}
+!!! Simplifier [Data.HashMap.Strict]: finished in 552.18 milliseconds, allocated 662.106 megabytes
+*** Float inwards [Data.HashMap.Strict]:
+Result size of Float inwards
+  = {terms: 5,997, types: 9,624, coercions: 805}
+!!! Float inwards [Data.HashMap.Strict]: finished in 72.35 milliseconds, allocated 105.897 megabytes
+*** Called arity analysis [Data.HashMap.Strict]:
+Result size of Called arity analysis
+  = {terms: 5,997, types: 9,624, coercions: 805}
+!!! Called arity analysis [Data.HashMap.Strict]: finished in 26.65 milliseconds, allocated 35.814 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 5,983, types: 9,610, coercions: 805}
+Result size of Simplifier iteration=2
+  = {terms: 5,977, types: 9,604, coercions: 805}
+Result size of Simplifier
+  = {terms: 5,977, types: 9,604, coercions: 805}
+!!! Simplifier [Data.HashMap.Strict]: finished in 909.35 milliseconds, allocated 984.148 megabytes
+*** Demand analysis [Data.HashMap.Strict]:
+Result size of Demand analysis
+  = {terms: 5,977, types: 9,604, coercions: 805}
+!!! Demand analysis [Data.HashMap.Strict]: finished in 181.79 milliseconds, allocated 213.970 megabytes
+*** Worker Wrapper binds [Data.HashMap.Strict]:
+Result size of Worker Wrapper binds
+  = {terms: 6,669, types: 10,546, coercions: 805}
+!!! Worker Wrapper binds [Data.HashMap.Strict]: finished in 10.20 milliseconds, allocated 12.817 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 6,476, types: 10,295, coercions: 805}
+Result size of Simplifier iteration=2
+  = {terms: 6,055, types: 9,624, coercions: 805}
+Result size of Simplifier iteration=3
+  = {terms: 6,055, types: 9,624, coercions: 805}
+Result size of Simplifier
+  = {terms: 6,055, types: 9,624, coercions: 805}
+!!! Simplifier [Data.HashMap.Strict]: finished in 1183.46 milliseconds, allocated 1417.891 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.Strict]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 6,507, types: 10,454, coercions: 805}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.Strict]: finished in 319.52 milliseconds, allocated 453.148 megabytes
+*** Common sub-expression [Data.HashMap.Strict]:
+Result size of Common sub-expression
+  = {terms: 6,267, types: 10,104, coercions: 805}
+!!! Common sub-expression [Data.HashMap.Strict]: finished in 108.42 milliseconds, allocated 138.787 megabytes
+*** Float inwards [Data.HashMap.Strict]:
+Result size of Float inwards
+  = {terms: 6,273, types: 10,106, coercions: 805}
+!!! Float inwards [Data.HashMap.Strict]: finished in 80.16 milliseconds, allocated 108.635 megabytes
+*** Liberate case [Data.HashMap.Strict]:
+Result size of Liberate case
+  = {terms: 6,273, types: 10,106, coercions: 805}
+!!! Liberate case [Data.HashMap.Strict]: finished in 77.30 milliseconds, allocated 21.968 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 5,973, types: 9,659, coercions: 805}
+Result size of Simplifier iteration=2
+  = {terms: 6,007, types: 9,728, coercions: 805}
+Result size of Simplifier iteration=3
+  = {terms: 6,007, types: 9,728, coercions: 805}
+Result size of Simplifier
+  = {terms: 6,007, types: 9,728, coercions: 805}
+!!! Simplifier [Data.HashMap.Strict]: finished in 1123.31 milliseconds, allocated 1366.702 megabytes
+*** SpecConstr [Data.HashMap.Strict]:
+Result size of SpecConstr
+  = {terms: 9,057, types: 14,822, coercions: 1,178}
+!!! SpecConstr [Data.HashMap.Strict]: finished in 101.17 milliseconds, allocated 138.526 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 9,011, types: 14,702, coercions: 1,178}
+Result size of Simplifier iteration=2
+  = {terms: 7,713, types: 12,437, coercions: 1,089}
+Result size of Simplifier iteration=3
+  = {terms: 7,701, types: 12,411, coercions: 1,089}
+Result size of Simplifier
+  = {terms: 7,701, types: 12,411, coercions: 1,089}
+!!! Simplifier [Data.HashMap.Strict]: finished in 1473.30 milliseconds, allocated 1660.131 megabytes
+*** CoreTidy [Data.HashMap.Strict]:
+Result size of Tidy Core
+  = {terms: 7,701, types: 12,411, coercions: 1,089}
+!!! CoreTidy [Data.HashMap.Strict]: finished in 173.83 milliseconds, allocated 284.719 megabytes
+writeBinIface: 140 Names
+writeBinIface: 334 dict entries
+writeBinIface: 140 Names
+writeBinIface: 334 dict entries
+*** CorePrep [Data.HashMap.Strict]:
+Result size of CorePrep
+  = {terms: 9,729, types: 15,846, coercions: 1,257}
+!!! CorePrep [Data.HashMap.Strict]: finished in 137.16 milliseconds, allocated 179.096 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Strict]:
+!!! CodeGen [Data.HashMap.Strict]: finished in 2991.21 milliseconds, allocated 3692.054 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc10903_0/ghc_44.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Strict.o
+*** CorePrep [Data.HashMap.Strict]:
+Result size of CorePrep
+  = {terms: 9,729, types: 15,846, coercions: 1,257}
+!!! CorePrep [Data.HashMap.Strict]: finished in 107.05 milliseconds, allocated 130.184 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Strict]:
+!!! CodeGen [Data.HashMap.Strict]: finished in 3063.88 milliseconds, allocated 3910.059 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc10903_0/ghc_46.s -o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Strict.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc10903_0/ghc_47.c /tmp/ghc10903_0/ghc_46.s /tmp/ghc10903_0/ghc_45.c /tmp/ghc10903_0/ghc_44.s /tmp/ghc10903_0/ghc_43.s
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_47.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_45.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_43.s
+compile: input file /tmp/ghc10903_0/ghc_5.hscpp
+*** Checking old interface for Data.HashSet:
+[8 of 8] Compiling Data.HashSet     ( Data/HashSet.hs, dist/dist-sandbox-8e35af7f/build/Data/HashSet.o )
+*** Parser [Data.HashSet]:
+!!! Parser [Data.HashSet]: finished in 24.91 milliseconds, allocated 42.335 megabytes
+*** Renamer/typechecker [Data.HashSet]:
+!!! Renamer/typechecker [Data.HashSet]: finished in 133.16 milliseconds, allocated 165.233 megabytes
+*** Desugar [Data.HashSet]:
+Result size of Desugar (after optimization)
+  = {terms: 992, types: 2,082, coercions: 91}
+!!! Desugar [Data.HashSet]: finished in 55.14 milliseconds, allocated 65.041 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 958, types: 2,065, coercions: 182}
+Result size of Simplifier iteration=2
+  = {terms: 954, types: 2,059, coercions: 182}
+Result size of Simplifier
+  = {terms: 954, types: 2,059, coercions: 182}
+!!! Simplifier [Data.HashSet]: finished in 232.72 milliseconds, allocated 208.752 megabytes
+*** Specialise [Data.HashSet]:
+Result size of Specialise
+  = {terms: 959, types: 2,078, coercions: 195}
+!!! Specialise [Data.HashSet]: finished in 9.65 milliseconds, allocated 11.198 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashSet]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,042, types: 2,246, coercions: 195}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashSet]: finished in 54.96 milliseconds, allocated 82.691 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 4,098, types: 6,327, coercions: 670}
+Result size of Simplifier iteration=2
+  = {terms: 3,964, types: 6,067, coercions: 658}
+Result size of Simplifier
+  = {terms: 3,964, types: 6,067, coercions: 658}
+!!! Simplifier [Data.HashSet]: finished in 414.13 milliseconds, allocated 489.371 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier
+  = {terms: 3,964, types: 6,067, coercions: 658}
+!!! Simplifier [Data.HashSet]: finished in 114.82 milliseconds, allocated 136.441 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 3,994, types: 6,158, coercions: 628}
+Result size of Simplifier
+  = {terms: 3,994, types: 6,158, coercions: 628}
+!!! Simplifier [Data.HashSet]: finished in 246.60 milliseconds, allocated 275.967 megabytes
+*** Float inwards [Data.HashSet]:
+Result size of Float inwards
+  = {terms: 4,000, types: 6,160, coercions: 628}
+!!! Float inwards [Data.HashSet]: finished in 28.79 milliseconds, allocated 38.523 megabytes
+*** Called arity analysis [Data.HashSet]:
+Result size of Called arity analysis
+  = {terms: 4,000, types: 6,160, coercions: 628}
+!!! Called arity analysis [Data.HashSet]: finished in 32.32 milliseconds, allocated 47.068 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 3,993, types: 6,153, coercions: 628}
+Result size of Simplifier iteration=2
+  = {terms: 3,988, types: 6,149, coercions: 628}
+Result size of Simplifier
+  = {terms: 3,988, types: 6,149, coercions: 628}
+!!! Simplifier [Data.HashSet]: finished in 360.93 milliseconds, allocated 410.851 megabytes
+*** Demand analysis [Data.HashSet]:
+Result size of Demand analysis
+  = {terms: 3,988, types: 6,149, coercions: 628}
+!!! Demand analysis [Data.HashSet]: finished in 113.62 milliseconds, allocated 134.942 megabytes
+*** Worker Wrapper binds [Data.HashSet]:
+Result size of Worker Wrapper binds
+  = {terms: 4,393, types: 6,694, coercions: 633}
+!!! Worker Wrapper binds [Data.HashSet]: finished in 9.23 milliseconds, allocated 9.178 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 4,322, types: 6,594, coercions: 620}
+Result size of Simplifier iteration=2
+  = {terms: 4,068, types: 6,209, coercions: 620}
+Result size of Simplifier iteration=3
+  = {terms: 4,068, types: 6,209, coercions: 620}
+Result size of Simplifier
+  = {terms: 4,068, types: 6,209, coercions: 620}
+!!! Simplifier [Data.HashSet]: finished in 551.92 milliseconds, allocated 614.825 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashSet]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,461, types: 6,706, coercions: 620}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashSet]: finished in 255.14 milliseconds, allocated 265.327 megabytes
+*** Common sub-expression [Data.HashSet]:
+Result size of Common sub-expression
+  = {terms: 4,302, types: 6,564, coercions: 612}
+!!! Common sub-expression [Data.HashSet]: finished in 54.70 milliseconds, allocated 72.090 megabytes
+*** Float inwards [Data.HashSet]:
+Result size of Float inwards
+  = {terms: 4,302, types: 6,564, coercions: 612}
+!!! Float inwards [Data.HashSet]: finished in 28.93 milliseconds, allocated 40.321 megabytes
+*** Liberate case [Data.HashSet]:
+Result size of Liberate case
+  = {terms: 4,302, types: 6,564, coercions: 612}
+!!! Liberate case [Data.HashSet]: finished in 11.73 milliseconds, allocated 14.878 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 4,106, types: 6,331, coercions: 620}
+Result size of Simplifier iteration=2
+  = {terms: 4,087, types: 6,321, coercions: 609}
+Result size of Simplifier iteration=3
+  = {terms: 4,061, types: 6,309, coercions: 609}
+Result size of Simplifier
+  = {terms: 4,061, types: 6,309, coercions: 609}
+!!! Simplifier [Data.HashSet]: finished in 533.23 milliseconds, allocated 618.612 megabytes
+*** SpecConstr [Data.HashSet]:
+Result size of SpecConstr
+  = {terms: 5,098, types: 7,878, coercions: 758}
+!!! SpecConstr [Data.HashSet]: finished in 60.51 milliseconds, allocated 84.731 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 5,078, types: 7,820, coercions: 758}
+Result size of Simplifier iteration=2
+  = {terms: 4,614, types: 7,120, coercions: 712}
+Result size of Simplifier iteration=3
+  = {terms: 4,608, types: 7,107, coercions: 712}
+Result size of Simplifier
+  = {terms: 4,608, types: 7,107, coercions: 712}
+!!! Simplifier [Data.HashSet]: finished in 586.81 milliseconds, allocated 703.932 megabytes
+*** CoreTidy [Data.HashSet]:
+Result size of Tidy Core
+  = {terms: 4,604, types: 7,094, coercions: 705}
+!!! CoreTidy [Data.HashSet]: finished in 72.43 milliseconds, allocated 116.255 megabytes
+writeBinIface: 225 Names
+writeBinIface: 376 dict entries
+writeBinIface: 225 Names
+writeBinIface: 376 dict entries
+*** CorePrep [Data.HashSet]:
+Result size of CorePrep
+  = {terms: 5,778, types: 9,143, coercions: 789}
+!!! CorePrep [Data.HashSet]: finished in 72.64 milliseconds, allocated 99.647 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashSet]:
+!!! CodeGen [Data.HashSet]: finished in 1604.00 milliseconds, allocated 2185.031 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc10903_0/ghc_49.s -o dist/dist-sandbox-8e35af7f/build/Data/HashSet.o
+*** CorePrep [Data.HashSet]:
+Result size of CorePrep
+  = {terms: 5,778, types: 9,143, coercions: 789}
+!!! CorePrep [Data.HashSet]: finished in 58.43 milliseconds, allocated 73.324 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashSet]:
+!!! CodeGen [Data.HashSet]: finished in 1834.27 milliseconds, allocated 2330.687 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc10903_0/ghc_51.s -o dist/dist-sandbox-8e35af7f/build/Data/HashSet.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc10903_0/ghc_52.c /tmp/ghc10903_0/ghc_51.s /tmp/ghc10903_0/ghc_50.c /tmp/ghc10903_0/ghc_49.s /tmp/ghc10903_0/ghc_48.s
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_52.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_50.c
+Warning: deleting non-existent /tmp/ghc10903_0/ghc_48.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc10903_0/ghc_11.hscpp /tmp/ghc10903_0/ghc_9.hscpp /tmp/ghc10903_0/ghc_7.hscpp /tmp/ghc10903_0/ghc_5.hscpp /tmp/ghc10903_0/ghc_3.hscpp /tmp/ghc10903_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc10903_0
+Linking...
+[(SimpleUnitId (ComponentId "base-4.9.0.0"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "base"}, pkgVersion = Version {versionBranch =
+[4,9,0,0], versionTags = []}},ModuleRenaming True []),(SimpleUnitId
+(ComponentId "deepseq-1.4.2.0"),PackageIdentifier {pkgName = PackageName
+{unPackageName = "deepseq"}, pkgVersion = Version {versionBranch = [1,4,2,0],
+versionTags = []}},ModuleRenaming True []),(SimpleUnitId (ComponentId
+"hashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "hashable"}, pkgVersion = Version {versionBranch
+= [1,2,4,0], versionTags = []}},ModuleRenaming True [])]
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/ar",["-r","-v","dist/dist-sandbox-8e35af7f/build/objs-10894/libHSunordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe.a","dist/dist-sandbox-8e35af7f/build/Data/HashMap/Lazy.o","dist/dist-sandbox-8e35af7f/build/Data/HashMap/Strict.o","dist/dist-sandbox-8e35af7f/build/Data/HashSet.o","dist/dist-sandbox-8e35af7f/build/Data/HashMap/Array.o","dist/dist-sandbox-8e35af7f/build/Data/HashMap/Base.o","dist/dist-sandbox-8e35af7f/build/Data/HashMap/PopCount.o","dist/dist-sandbox-8e35af7f/build/Data/HashMap/Unsafe.o","dist/dist-sandbox-8e35af7f/build/Data/HashMap/UnsafeShift.o"])
+/usr/bin/ar: creating dist/dist-sandbox-8e35af7f/build/objs-10894/libHSunordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe.a
+a - dist/dist-sandbox-8e35af7f/build/Data/HashMap/Lazy.o
+a - dist/dist-sandbox-8e35af7f/build/Data/HashMap/Strict.o
+a - dist/dist-sandbox-8e35af7f/build/Data/HashSet.o
+a - dist/dist-sandbox-8e35af7f/build/Data/HashMap/Array.o
+a - dist/dist-sandbox-8e35af7f/build/Data/HashMap/Base.o
+a - dist/dist-sandbox-8e35af7f/build/Data/HashMap/PopCount.o
+a - dist/dist-sandbox-8e35af7f/build/Data/HashMap/Unsafe.o
+a - dist/dist-sandbox-8e35af7f/build/Data/HashMap/UnsafeShift.o
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["-shared","-dynamic","-dynload deploy","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/array/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/base/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/binary/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/bytestring/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/containers/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/deepseq/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/rts/dist/build","-optl-Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/text-1.2.2.0-DNPL9j70xW29izEeMAP0sY","-no-auto-link-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-db","dist/dist-sandbox-8e35af7f/package.conf.inplace","-package-id","base-4.9.0.0","-package-id","deepseq-1.4.2.0","-package-id","hashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ","dist/dist-sandbox-8e35af7f/build/Data/HashMap/Lazy.dyn_o","dist/dist-sandbox-8e35af7f/build/Data/HashMap/Strict.dyn_o","dist/dist-sandbox-8e35af7f/build/Data/HashSet.dyn_o","dist/dist-sandbox-8e35af7f/build/Data/HashMap/Array.dyn_o","dist/dist-sandbox-8e35af7f/build/Data/HashMap/Base.dyn_o","dist/dist-sandbox-8e35af7f/build/Data/HashMap/PopCount.dyn_o","dist/dist-sandbox-8e35af7f/build/Data/HashMap/Unsafe.dyn_o","dist/dist-sandbox-8e35af7f/build/Data/HashMap/UnsafeShift.dyn_o","-o","dist/dist-sandbox-8e35af7f/build/libHSunordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe-ghc8.1.20160328.so","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 2 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-8e35af7f/package.conf.inplace/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-8e35af7f/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/haskell/ghc/libraries/array/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/base/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/binary/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/bytestring/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/containers/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/deepseq/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ -Wl,-rpath,/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/rts/dist/build -Wl,-rpath,/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/text-1.2.2.0-DNPL9j70xW29izEeMAP0sY -o dist/dist-sandbox-8e35af7f/build/libHSunordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe-ghc8.1.20160328.so -shared -Wl,-Bsymbolic -Wl,-h,libHSunordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe-ghc8.1.20160328.so dist/dist-sandbox-8e35af7f/build/Data/HashMap/Lazy.dyn_o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Strict.dyn_o dist/dist-sandbox-8e35af7f/build/Data/HashSet.dyn_o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Array.dyn_o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Base.dyn_o dist/dist-sandbox-8e35af7f/build/Data/HashMap/PopCount.dyn_o dist/dist-sandbox-8e35af7f/build/Data/HashMap/Unsafe.dyn_o dist/dist-sandbox-8e35af7f/build/Data/HashMap/UnsafeShift.dyn_o -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ -L/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/text-1.2.2.0-DNPL9j70xW29izEeMAP0sY -L/home/omer/haskell/ghc/libraries/binary/dist-install/build -L/home/omer/haskell/ghc/libraries/containers/dist-install/build -L/home/omer/haskell/ghc/libraries/bytestring/dist-install/build -L/home/omer/haskell/ghc/libraries/deepseq/dist-install/build -L/home/omer/haskell/ghc/libraries/array/dist-install/build -L/home/omer/haskell/ghc/libraries/base/dist-install/build -L/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build -L/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build -L/home/omer/haskell/ghc/rts/dist/build -lHShashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ-ghc8.1.20160328 -lHStext-1.2.2.0-DNPL9j70xW29izEeMAP0sY-ghc8.1.20160328 -lHSbinary-0.8.2.0-ghc8.1.20160328 -lHScontainers-0.5.7.1-ghc8.1.20160328 -lHSbytestring-0.10.7.0-ghc8.1.20160328 -lHSdeepseq-1.4.2.0-ghc8.1.20160328 -lHSarray-0.5.1.0-ghc8.1.20160328 -lHSbase-4.9.0.0-ghc8.1.20160328 -lHSinteger-gmp-1.0.0.1-ghc8.1.20160328 -lHSghc-prim-0.5.0.0-ghc8.1.20160328 -lgmp
+Created temporary directory: /tmp/ghc11495_0
+*** Deleting temp files:
+Deleting: /tmp/ghc11495_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc11495_0
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","--package-db=dist/dist-sandbox-8e35af7f/package.conf.inplace","-v2"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-8e35af7f/build","-odir","dist/dist-sandbox-8e35af7f/build","-hidir","dist/dist-sandbox-8e35af7f/build","-stubdir","dist/dist-sandbox-8e35af7f/build","-i","-idist/dist-sandbox-8e35af7f/build","-i.","-idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build","-optP-include","-optPdist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h","-this-unit-id","unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","base-4.9.0.0","-package-id","deepseq-1.4.2.0","-package-id","hashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ","-XHaskell98","Data.HashMap.Lazy","Data.HashMap.Strict","Data.HashSet","-Wall","-O2","-fwarn-tabs","-fregs-graph","-v3"])
+Creating package registration file:
+/tmp/pkgConf-unordered-containers-0.2.620539999321264095060.0
+directory dist/dist-sandbox-8e35af7f/doc/html/unordered-containers does exist:
+False
+creating
+/home/omer/haskell/lens/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0
+Installing LICENSE to
+/home/omer/haskell/lens/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0/LICENSE
+Installing library in
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/Lazy.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/Lazy.hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/Strict.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/Strict.hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashSet.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashSet.hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/Array.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/Array.hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/Base.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/Base.hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/PopCount.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/PopCount.hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/Unsafe.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/Unsafe.hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/UnsafeShift.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/UnsafeShift.hi
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/Lazy.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/Lazy.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/Strict.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/Strict.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashSet.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashSet.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/Array.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/Array.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/Base.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/Base.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/PopCount.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/PopCount.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/Unsafe.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/Unsafe.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Data/HashMap/UnsafeShift.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/Data/HashMap/UnsafeShift.dyn_hi
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe
+Installing
+dist/dist-sandbox-8e35af7f/build/libHSunordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe.a
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/libHSunordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe.a
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/libHSunordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe.a","--strip-unneeded"])
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe
+Installing executable
+dist/dist-sandbox-8e35af7f/build/libHSunordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe-ghc8.1.20160328.so
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/libHSunordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe-ghc8.1.20160328.so
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe/libHSunordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe-ghc8.1.20160328.so","--strip-unneeded"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-8e35af7f/build","-odir","dist/dist-sandbox-8e35af7f/build","-hidir","dist/dist-sandbox-8e35af7f/build","-stubdir","dist/dist-sandbox-8e35af7f/build","-i","-idist/dist-sandbox-8e35af7f/build","-i.","-idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build","-optP-include","-optPdist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h","-this-unit-id","unordered-containers-0.2.6.0-8gkLj2c0fpvBGGl2xwrJOe","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","base-4.9.0.0","-package-id","deepseq-1.4.2.0","-package-id","hashable-1.2.4.0-20J6xWYEcMbHhTD8PmzenQ","-XHaskell98","Data.HashMap.Lazy","Data.HashMap.Strict","Data.HashSet","-Wall","-O2","-fwarn-tabs","-fregs-graph","-v3"])
+Registering unordered-containers-0.2.6.0...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v2"])
+cabal: Leaving directory '/tmp/cabal-tmp-8268/unordered-containers-0.2.6.0'

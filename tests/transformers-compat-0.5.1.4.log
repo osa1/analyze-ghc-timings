@@ -1,0 +1,577 @@
+cabal: Entering directory '/tmp/cabal-tmp-8278/transformers-compat-0.5.1.4'
+Configuring transformers-compat-0.5.1.4...
+creating dist/dist-sandbox-8e35af7f/build
+creating dist/dist-sandbox-8e35af7f
+creating dist
+creating dist/dist-sandbox-8e35af7f
+creating dist/dist-sandbox-8e35af7f/build
+Searching for ghc-stage2 in path.
+Found ghc-stage2 at /home/omer/haskell/ghc/inplace/bin/ghc-stage2
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--numeric-version"])
+/home/omer/haskell/ghc/inplace/bin/ghc-stage2 is version 8.1.20160328
+looking for tool ghc-pkg near compiler in /home/omer/haskell/ghc/inplace/bin
+found ghc-pkg in /home/omer/haskell/ghc/inplace/bin/ghc-pkg
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["--version"])
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg is version 8.1.20160328
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--supported-languages"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--info"])
+Reading installed packages...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--global","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--package-db=/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--print-libdir","-v3"])
+Flags chosen: mtl=True, three=False, two=False
+Dependency base ==4.9.0.0: using base-4.9.0.0
+Dependency ghc-prim ==0.5.0.0: using ghc-prim-0.5.0.0
+Dependency transformers ==0.5.2.0: using transformers-0.5.2.0
+Searching for alex in path.
+Found alex at /home/omer/.cabal/bin/alex
+("/home/omer/.cabal/bin/alex",["--version"])
+/home/omer/.cabal/bin/alex is version 3.1.5
+Searching for ar in path.
+Found ar at /usr/bin/ar
+Searching for c2hs in path.
+Cannot find c2hs on the path
+Searching for cpphs in path.
+Found cpphs at /home/omer/.cabal/bin/cpphs
+("/home/omer/.cabal/bin/cpphs",["--version"])
+/home/omer/.cabal/bin/cpphs is version 1.19.3
+Searching for gcc in path.
+Found gcc at /usr/bin/gcc
+("/usr/bin/gcc",["-dumpversion"])
+/usr/bin/gcc is version 4.8
+Searching for ghcjs in path.
+Cannot find ghcjs on the path
+Searching for ghcjs-pkg in path.
+Cannot find ghcjs-pkg on the path
+Searching for greencard in path.
+Cannot find greencard on the path
+looking for tool haddock near compiler in /home/omer/haskell/ghc/inplace/bin
+Searching for haddock in path.
+Cannot find haddock on the path
+Searching for happy in path.
+Found happy at /home/omer/.cabal/bin/happy
+("/home/omer/.cabal/bin/happy",["--version"])
+/home/omer/.cabal/bin/happy is version 1.19.5
+Searching for hmake in path.
+Cannot find hmake on the path
+Searching for hpc in path.
+Found hpc at /home/omer/haskell/ghc/inplace/bin/hpc
+("/home/omer/haskell/ghc/inplace/bin/hpc",["version"])
+/home/omer/haskell/ghc/inplace/bin/hpc is version 0.67
+looking for tool hsc2hs near compiler in /home/omer/haskell/ghc/inplace/bin
+found hsc2hs in /home/omer/haskell/ghc/inplace/bin/hsc2hs
+("/home/omer/haskell/ghc/inplace/bin/hsc2hs",["--version"])
+/home/omer/haskell/ghc/inplace/bin/hsc2hs is version 0.67
+Searching for HsColour in path.
+Cannot find HsColour on the path
+Searching for jhc in path.
+Cannot find jhc on the path
+Searching for ld in path.
+Found ld at /usr/bin/ld
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["-c","/tmp/1804289383846930886.c","-o","/tmp/16816927771714636915.o","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 2 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc9409_0
+*** C Compiler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc9409_0/ghc_1.s -Wimplicit -S -include /home/omer/haskell/ghc/includes/ghcversion.h -I/home/omer/haskell/ghc/libraries/base/include -I/home/omer/haskell/ghc/libraries/integer-gmp/include -I/home/omer/haskell/ghc/rts/dist/build -I/home/omer/haskell/ghc/includes -I/home/omer/haskell/ghc/includes/dist-derivedconstants/header
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc9409_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc9409_0/ghc_2.rsp /tmp/ghc9409_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9409_0
+("/usr/bin/ld",["-x","-r","/tmp/16816927771714636915.o","-o","/tmp/1957747793424238335.o"])
+Searching for lhc in path.
+Cannot find lhc on the path
+Searching for lhc-pkg in path.
+Cannot find lhc-pkg on the path
+Searching for pkg-config in path.
+Found pkg-config at /usr/bin/pkg-config
+("/usr/bin/pkg-config",["--version"])
+/usr/bin/pkg-config is version 0.28
+Searching for strip in path.
+Found strip at /usr/bin/strip
+("/usr/bin/strip",["--version"])
+/usr/bin/strip is version 2.24
+Searching for tar in path.
+Found tar at /bin/tar
+("/bin/tar",["--help"])
+Searching for uhc in path.
+Cannot find uhc on the path
+Using Cabal-1.23.1.0 compiled by ghc-7.10
+Using compiler: ghc-8.1.20160328
+Using install prefix: /home/omer/haskell/lens/.cabal-sandbox
+Binaries installed in: /home/omer/haskell/lens/.cabal-sandbox/bin
+Libraries installed in:
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N
+Private binaries installed in: /home/omer/haskell/lens/.cabal-sandbox/libexec
+Data files installed in:
+/home/omer/haskell/lens/.cabal-sandbox/share/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4
+Documentation installed in:
+/home/omer/haskell/lens/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4
+Configuration files installed in: /home/omer/haskell/lens/.cabal-sandbox/etc
+Using alex version 3.1.5 found on system at: /home/omer/.cabal/bin/alex
+Using ar found on system at: /usr/bin/ar
+No c2hs found
+Using cpphs version 1.19.3 found on system at: /home/omer/.cabal/bin/cpphs
+Using gcc version 4.8 found on system at: /usr/bin/gcc
+Using ghc version 8.1.20160328 given by user at:
+/home/omer/haskell/ghc/inplace/bin/ghc-stage2
+Using ghc-pkg version 8.1.20160328 found on system at:
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+No haddock found
+Using happy version 1.19.5 found on system at: /home/omer/.cabal/bin/happy
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hpc
+Using hsc2hs version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hsc2hs
+No hscolour found
+No jhc found
+Using ld found on system at: /usr/bin/ld
+No lhc found
+No lhc-pkg found
+Using pkg-config version 0.28 found on system at: /usr/bin/pkg-config
+Using strip version 2.24 found on system at: /usr/bin/strip
+Using tar found on system at: /bin/tar
+No uhc found
+("/usr/bin/gcc",["-std=gnu99","-fno-stack-protector","/tmp/5965166491189641421.c","-o","/tmp/10252023621350490027","-D__GLASGOW_HASKELL__=801","-Dlinux_BUILD_OS=1","-Dx86_64_BUILD_ARCH=1","-Dlinux_HOST_OS=1","-Dx86_64_HOST_ARCH=1","-Idist/dist-sandbox-8e35af7f/build/autogen","-I.","-I/home/omer/haskell/ghc/libraries/base/include","-I/home/omer/haskell/ghc/libraries/integer-gmp/include","-I/home/omer/haskell/ghc/rts/dist/build","-I/home/omer/haskell/ghc/includes","-I/home/omer/haskell/ghc/includes/dist-derivedconstants/header","-L/home/omer/haskell/ghc/libraries/transformers/dist-install/build","-L/home/omer/haskell/ghc/libraries/base/dist-install/build","-L/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build","-L/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build","-L/home/omer/haskell/ghc/rts/dist/build"])
+Component build order: library
+creating dist/dist-sandbox-8e35af7f/build
+creating dist/dist-sandbox-8e35af7f/build/autogen
+Building transformers-compat-0.5.1.4...
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["init","dist/dist-sandbox-8e35af7f/package.conf.inplace","-v2"])
+GHC package manager version 8.1.20160328
+writing cache dist/dist-sandbox-8e35af7f/package.conf.inplace/package.cache
+Preprocessing library transformers-compat-0.5.1.4...
+Building library...
+creating dist/dist-sandbox-8e35af7f/build
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--make","-v","-fbuilding-cabal-package","-O","-static","-dynamic-too","-dynosuf","dyn_o","-dynhisuf","dyn_hi","-outputdir","dist/dist-sandbox-8e35af7f/build","-odir","dist/dist-sandbox-8e35af7f/build","-hidir","dist/dist-sandbox-8e35af7f/build","-stubdir","dist/dist-sandbox-8e35af7f/build","-i","-idist/dist-sandbox-8e35af7f/build","-isrc","-idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build","-optP-include","-optPdist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h","-this-unit-id","transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-db","dist/dist-sandbox-8e35af7f/package.conf.inplace","-package-id","base-4.9.0.0","-package-id","ghc-prim-0.5.0.0","-package-id","transformers-0.5.2.0","-XHaskell98","Control.Monad.Trans.Instances","Paths_transformers_compat","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 2 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-8e35af7f/package.conf.inplace/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-8e35af7f/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-8e35af7f/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Control.Monad.Trans.Instances,*Paths_transformers_compat
+Created temporary directory: /tmp/ghc9459_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc9459_0/ghc_2.h -x assembler-with-cpp src/Control/Monad/Trans/Instances.hs -o /tmp/ghc9459_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc9459_0/ghc_4.h -x assembler-with-cpp dist/dist-sandbox-8e35af7f/build/autogen/Paths_transformers_compat.hs -o /tmp/ghc9459_0/ghc_3.hscpp
+!!! Chasing dependencies: finished in 192.93 milliseconds, allocated 140.360 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:15:49.953440679 UTC
+         ms_mod = Control.Monad.Trans.Instances,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Generics),
+                            (Nothing, Data.Typeable), (Nothing, Data.Data),
+                            (Nothing, Data.Bifunctor), (Nothing, Control.Monad.Zip),
+                            (Nothing, Data.Traversable), (Nothing, Data.Monoid),
+                            (Nothing, Data.Maybe), (Nothing, Data.Foldable),
+                            (Nothing, Control.Monad.Fix), (Nothing, Control.Monad),
+                            (Nothing, Control.Applicative), (Nothing, Data.Functor.Sum),
+                            (Nothing, Data.Functor.Reverse), (Nothing, Data.Functor.Product),
+                            (Nothing, Data.Functor.Identity), (Nothing, Data.Functor.Constant),
+                            (Nothing, Data.Functor.Compose), (Nothing, Data.Functor.Classes),
+                            (Nothing, Control.Monad.Trans.Writer.Strict),
+                            (Nothing, Control.Monad.Trans.Writer.Lazy),
+                            (Nothing, Control.Monad.Trans.State.Strict),
+                            (Nothing, Control.Monad.Trans.State.Lazy),
+                            (Nothing, Control.Monad.Trans.Reader),
+                            (Nothing, Control.Monad.Trans.RWS.Strict),
+                            (Nothing, Control.Monad.Trans.RWS.Lazy),
+                            (Nothing, Control.Monad.Trans.Maybe),
+                            (Nothing, Control.Monad.Trans.List),
+                            (Nothing, Control.Monad.Trans.Identity),
+                            (Nothing, Control.Monad.Trans.Except),
+                            (Nothing, Control.Monad.Trans.Error),
+                            (Nothing, Control.Monad.Trans.Cont),
+                            (Nothing, Control.Monad.Trans.Class),
+                            (Nothing, Control.Monad.IO.Class),
+                            (Nothing, Control.Applicative.Lift),
+                            (Nothing, Control.Applicative.Backwards)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:16:03.163440488 UTC
+         ms_mod = Paths_transformers_compat,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Environment), (Nothing, Data.Version),
+                            (Nothing, Control.Exception)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc9459_0/ghc_4.h /tmp/ghc9459_0/ghc_2.h
+compile: input file /tmp/ghc9459_0/ghc_1.hscpp
+*** Checking old interface for Control.Monad.Trans.Instances:
+[1 of 2] Compiling Control.Monad.Trans.Instances ( src/Control/Monad/Trans/Instances.hs, dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Instances.o )
+*** Parser [Control.Monad.Trans.Instances]:
+!!! Parser [Control.Monad.Trans.Instances]: finished in 40.03 milliseconds, allocated 19.209 megabytes
+*** Renamer/typechecker [Control.Monad.Trans.Instances]:
+!!! Renamer/typechecker [Control.Monad.Trans.Instances]: finished in 3346.59 milliseconds, allocated 2506.833 megabytes
+*** Desugar [Control.Monad.Trans.Instances]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Control.Monad.Trans.Instances]: finished in 1.87 milliseconds, allocated 1.055 megabytes
+*** Simplifier [Control.Monad.Trans.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Monad.Trans.Instances]: finished in 1.78 milliseconds, allocated 0.918 megabytes
+*** Specialise [Control.Monad.Trans.Instances]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Control.Monad.Trans.Instances]: finished in 2.10 milliseconds, allocated 0.368 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Trans.Instances]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Trans.Instances]: finished in 1.35 milliseconds, allocated 0.785 megabytes
+*** Simplifier [Control.Monad.Trans.Instances]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Monad.Trans.Instances]: finished in 0.87 milliseconds, allocated 0.467 megabytes
+*** Simplifier [Control.Monad.Trans.Instances]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Monad.Trans.Instances]: finished in 0.87 milliseconds, allocated 0.467 megabytes
+*** Simplifier [Control.Monad.Trans.Instances]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Monad.Trans.Instances]: finished in 0.87 milliseconds, allocated 0.467 megabytes
+*** Float inwards [Control.Monad.Trans.Instances]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Control.Monad.Trans.Instances]: finished in 0.54 milliseconds, allocated 0.350 megabytes
+*** Called arity analysis [Control.Monad.Trans.Instances]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Control.Monad.Trans.Instances]: finished in 0.63 milliseconds, allocated 0.389 megabytes
+*** Simplifier [Control.Monad.Trans.Instances]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Monad.Trans.Instances]: finished in 0.87 milliseconds, allocated 0.467 megabytes
+*** Demand analysis [Control.Monad.Trans.Instances]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Control.Monad.Trans.Instances]: finished in 0.69 milliseconds, allocated 0.420 megabytes
+*** Worker Wrapper binds [Control.Monad.Trans.Instances]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Control.Monad.Trans.Instances]: finished in 0.68 milliseconds, allocated 0.389 megabytes
+*** Simplifier [Control.Monad.Trans.Instances]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Monad.Trans.Instances]: finished in 0.87 milliseconds, allocated 0.467 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Trans.Instances]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Trans.Instances]: finished in 1.31 milliseconds, allocated 0.781 megabytes
+*** Common sub-expression [Control.Monad.Trans.Instances]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Control.Monad.Trans.Instances]: finished in 0.62 milliseconds, allocated 0.400 megabytes
+*** Float inwards [Control.Monad.Trans.Instances]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Control.Monad.Trans.Instances]: finished in 0.48 milliseconds, allocated 0.350 megabytes
+*** Simplifier [Control.Monad.Trans.Instances]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Monad.Trans.Instances]: finished in 0.91 milliseconds, allocated 0.470 megabytes
+*** CoreTidy [Control.Monad.Trans.Instances]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Control.Monad.Trans.Instances]: finished in 128.48 milliseconds, allocated 100.511 megabytes
+writeBinIface: 4 Names
+writeBinIface: 60 dict entries
+writeBinIface: 4 Names
+writeBinIface: 60 dict entries
+*** CorePrep [Control.Monad.Trans.Instances]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Control.Monad.Trans.Instances]: finished in 0.65 milliseconds, allocated 0.389 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Trans.Instances]:
+!!! CodeGen [Control.Monad.Trans.Instances]: finished in 4.03 milliseconds, allocated 2.308 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad/Trans -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc9459_0/ghc_6.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Instances.o
+*** CorePrep [Control.Monad.Trans.Instances]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Control.Monad.Trans.Instances]: finished in 0.55 milliseconds, allocated 0.389 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Trans.Instances]:
+!!! CodeGen [Control.Monad.Trans.Instances]: finished in 2.89 milliseconds, allocated 2.112 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad/Trans -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9459_0/ghc_8.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Instances.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9459_0/ghc_9.c /tmp/ghc9459_0/ghc_8.s /tmp/ghc9459_0/ghc_7.c /tmp/ghc9459_0/ghc_6.s /tmp/ghc9459_0/ghc_5.s
+Warning: deleting non-existent /tmp/ghc9459_0/ghc_9.c
+Warning: deleting non-existent /tmp/ghc9459_0/ghc_7.c
+Warning: deleting non-existent /tmp/ghc9459_0/ghc_5.s
+compile: input file /tmp/ghc9459_0/ghc_3.hscpp
+*** Checking old interface for Paths_transformers_compat:
+[2 of 2] Compiling Paths_transformers_compat ( dist/dist-sandbox-8e35af7f/build/autogen/Paths_transformers_compat.hs, dist/dist-sandbox-8e35af7f/build/Paths_transformers_compat.o )
+*** Parser [Paths_transformers_compat]:
+!!! Parser [Paths_transformers_compat]: finished in 11.48 milliseconds, allocated 10.285 megabytes
+*** Renamer/typechecker [Paths_transformers_compat]:
+!!! Renamer/typechecker [Paths_transformers_compat]: finished in 441.25 milliseconds, allocated 341.296 megabytes
+*** Desugar [Paths_transformers_compat]:
+Result size of Desugar (after optimization)
+  = {terms: 104, types: 71, coercions: 0}
+!!! Desugar [Paths_transformers_compat]: finished in 14.29 milliseconds, allocated 9.148 megabytes
+*** Simplifier [Paths_transformers_compat]:
+Result size of Simplifier iteration=1
+  = {terms: 110, types: 75, coercions: 0}
+Result size of Simplifier = {terms: 110, types: 75, coercions: 0}
+!!! Simplifier [Paths_transformers_compat]: finished in 7.53 milliseconds, allocated 3.885 megabytes
+*** Specialise [Paths_transformers_compat]:
+Result size of Specialise = {terms: 110, types: 75, coercions: 0}
+!!! Specialise [Paths_transformers_compat]: finished in 1.24 milliseconds, allocated 0.819 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Paths_transformers_compat]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 164, types: 135, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Paths_transformers_compat]: finished in 5.90 milliseconds, allocated 3.586 megabytes
+*** Simplifier [Paths_transformers_compat]:
+Result size of Simplifier iteration=1
+  = {terms: 122, types: 88, coercions: 0}
+Result size of Simplifier = {terms: 122, types: 88, coercions: 0}
+!!! Simplifier [Paths_transformers_compat]: finished in 10.02 milliseconds, allocated 5.793 megabytes
+*** Simplifier [Paths_transformers_compat]:
+Result size of Simplifier = {terms: 122, types: 88, coercions: 0}
+!!! Simplifier [Paths_transformers_compat]: finished in 4.14 milliseconds, allocated 2.387 megabytes
+*** Simplifier [Paths_transformers_compat]:
+Result size of Simplifier = {terms: 122, types: 88, coercions: 0}
+!!! Simplifier [Paths_transformers_compat]: finished in 4.54 milliseconds, allocated 2.384 megabytes
+*** Float inwards [Paths_transformers_compat]:
+Result size of Float inwards
+  = {terms: 122, types: 88, coercions: 0}
+!!! Float inwards [Paths_transformers_compat]: finished in 0.89 milliseconds, allocated 0.655 megabytes
+*** Called arity analysis [Paths_transformers_compat]:
+Result size of Called arity analysis
+  = {terms: 122, types: 88, coercions: 0}
+!!! Called arity analysis [Paths_transformers_compat]: finished in 2.11 milliseconds, allocated 1.439 megabytes
+*** Simplifier [Paths_transformers_compat]:
+Result size of Simplifier = {terms: 122, types: 88, coercions: 0}
+!!! Simplifier [Paths_transformers_compat]: finished in 4.46 milliseconds, allocated 2.384 megabytes
+*** Demand analysis [Paths_transformers_compat]:
+Result size of Demand analysis
+  = {terms: 122, types: 88, coercions: 0}
+!!! Demand analysis [Paths_transformers_compat]: finished in 2.66 milliseconds, allocated 1.855 megabytes
+*** Worker Wrapper binds [Paths_transformers_compat]:
+Result size of Worker Wrapper binds
+  = {terms: 122, types: 88, coercions: 0}
+!!! Worker Wrapper binds [Paths_transformers_compat]: finished in 1.07 milliseconds, allocated 0.583 megabytes
+*** Simplifier [Paths_transformers_compat]:
+Result size of Simplifier = {terms: 122, types: 88, coercions: 0}
+!!! Simplifier [Paths_transformers_compat]: finished in 4.63 milliseconds, allocated 2.390 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Paths_transformers_compat]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 164, types: 140, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Paths_transformers_compat]: finished in 5.56 milliseconds, allocated 3.842 megabytes
+*** Common sub-expression [Paths_transformers_compat]:
+Result size of Common sub-expression
+  = {terms: 164, types: 140, coercions: 0}
+!!! Common sub-expression [Paths_transformers_compat]: finished in 2.21 milliseconds, allocated 1.531 megabytes
+*** Float inwards [Paths_transformers_compat]:
+Result size of Float inwards
+  = {terms: 164, types: 140, coercions: 0}
+!!! Float inwards [Paths_transformers_compat]: finished in 0.92 milliseconds, allocated 0.695 megabytes
+*** Simplifier [Paths_transformers_compat]:
+Result size of Simplifier = {terms: 164, types: 140, coercions: 0}
+!!! Simplifier [Paths_transformers_compat]: finished in 6.88 milliseconds, allocated 3.892 megabytes
+*** CoreTidy [Paths_transformers_compat]:
+Result size of Tidy Core = {terms: 164, types: 140, coercions: 0}
+!!! CoreTidy [Paths_transformers_compat]: finished in 9.39 milliseconds, allocated 6.631 megabytes
+writeBinIface: 53 Names
+writeBinIface: 82 dict entries
+writeBinIface: 53 Names
+writeBinIface: 82 dict entries
+*** CorePrep [Paths_transformers_compat]:
+Result size of CorePrep = {terms: 174, types: 148, coercions: 0}
+!!! CorePrep [Paths_transformers_compat]: finished in 2.78 milliseconds, allocated 1.636 megabytes
+*** Stg2Stg:
+*** CodeGen [Paths_transformers_compat]:
+!!! CodeGen [Paths_transformers_compat]: finished in 191.94 milliseconds, allocated 106.204 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc9459_0/ghc_11.s -o dist/dist-sandbox-8e35af7f/build/Paths_transformers_compat.o
+*** CorePrep [Paths_transformers_compat]:
+Result size of CorePrep = {terms: 174, types: 148, coercions: 0}
+!!! CorePrep [Paths_transformers_compat]: finished in 2.67 milliseconds, allocated 1.636 megabytes
+*** Stg2Stg:
+*** CodeGen [Paths_transformers_compat]:
+!!! CodeGen [Paths_transformers_compat]: finished in 204.02 milliseconds, allocated 110.915 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9459_0/ghc_13.s -o dist/dist-sandbox-8e35af7f/build/Paths_transformers_compat.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc9459_0/ghc_14.c /tmp/ghc9459_0/ghc_13.s /tmp/ghc9459_0/ghc_12.c /tmp/ghc9459_0/ghc_11.s /tmp/ghc9459_0/ghc_10.s
+Warning: deleting non-existent /tmp/ghc9459_0/ghc_14.c
+Warning: deleting non-existent /tmp/ghc9459_0/ghc_12.c
+Warning: deleting non-existent /tmp/ghc9459_0/ghc_10.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc9459_0/ghc_3.hscpp /tmp/ghc9459_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9459_0
+Linking...
+[(SimpleUnitId (ComponentId "base-4.9.0.0"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "base"}, pkgVersion = Version {versionBranch =
+[4,9,0,0], versionTags = []}},ModuleRenaming True []),(SimpleUnitId
+(ComponentId "ghc-prim-0.5.0.0"),PackageIdentifier {pkgName = PackageName
+{unPackageName = "ghc-prim"}, pkgVersion = Version {versionBranch = [0,5,0,0],
+versionTags = []}},ModuleRenaming True []),(SimpleUnitId (ComponentId
+"transformers-0.5.2.0"),PackageIdentifier {pkgName = PackageName
+{unPackageName = "transformers"}, pkgVersion = Version {versionBranch =
+[0,5,2,0], versionTags = []}},ModuleRenaming True [])]
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/ar",["-r","-v","dist/dist-sandbox-8e35af7f/build/objs-9450/libHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N.a","dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Instances.o","dist/dist-sandbox-8e35af7f/build/Paths_transformers_compat.o"])
+/usr/bin/ar: creating dist/dist-sandbox-8e35af7f/build/objs-9450/libHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N.a
+a - dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Instances.o
+a - dist/dist-sandbox-8e35af7f/build/Paths_transformers_compat.o
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["-shared","-dynamic","-dynload deploy","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/base/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/rts/dist/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/transformers/dist-install/build","-no-auto-link-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-db","dist/dist-sandbox-8e35af7f/package.conf.inplace","-package-id","base-4.9.0.0","-package-id","ghc-prim-0.5.0.0","-package-id","transformers-0.5.2.0","dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Instances.dyn_o","dist/dist-sandbox-8e35af7f/build/Paths_transformers_compat.dyn_o","-o","dist/dist-sandbox-8e35af7f/build/libHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N-ghc8.1.20160328.so","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 2 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-8e35af7f/package.conf.inplace/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-8e35af7f/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/haskell/ghc/libraries/base/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/rts/dist/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/transformers/dist-install/build -o dist/dist-sandbox-8e35af7f/build/libHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N-ghc8.1.20160328.so -shared -Wl,-Bsymbolic -Wl,-h,libHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N-ghc8.1.20160328.so dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Instances.dyn_o dist/dist-sandbox-8e35af7f/build/Paths_transformers_compat.dyn_o -L/home/omer/haskell/ghc/libraries/transformers/dist-install/build -L/home/omer/haskell/ghc/libraries/base/dist-install/build -L/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build -L/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build -L/home/omer/haskell/ghc/rts/dist/build -lHStransformers-0.5.2.0-ghc8.1.20160328 -lHSbase-4.9.0.0-ghc8.1.20160328 -lHSinteger-gmp-1.0.0.1-ghc8.1.20160328 -lHSghc-prim-0.5.0.0-ghc8.1.20160328 -lgmp
+Created temporary directory: /tmp/ghc9607_0
+*** Deleting temp files:
+Deleting: /tmp/ghc9607_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9607_0
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","--package-db=dist/dist-sandbox-8e35af7f/package.conf.inplace","-v2"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-8e35af7f/build","-odir","dist/dist-sandbox-8e35af7f/build","-hidir","dist/dist-sandbox-8e35af7f/build","-stubdir","dist/dist-sandbox-8e35af7f/build","-i","-idist/dist-sandbox-8e35af7f/build","-isrc","-idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build","-optP-include","-optPdist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h","-this-unit-id","transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","base-4.9.0.0","-package-id","ghc-prim-0.5.0.0","-package-id","transformers-0.5.2.0","-XHaskell98","Control.Monad.Trans.Instances","-v3"])
+Creating package registration file:
+/tmp/pkgConf-transformers-compat-0.5.16281750111656478042.4
+directory dist/dist-sandbox-8e35af7f/doc/html/transformers-compat does exist:
+False
+creating
+/home/omer/haskell/lens/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4
+Installing LICENSE to
+/home/omer/haskell/lens/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4/LICENSE
+Installing library in
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/Control/Monad/Trans
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/Control/Monad
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/Control
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/Control
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/Control/Monad
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/Control/Monad/Trans
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N
+Installing dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Instances.hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/Control/Monad/Trans/Instances.hi
+Installing dist/dist-sandbox-8e35af7f/build/Paths_transformers_compat.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/Paths_transformers_compat.hi
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/Control/Monad/Trans
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Monad/Trans/Instances.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/Control/Monad/Trans/Instances.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Paths_transformers_compat.dyn_hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/Paths_transformers_compat.dyn_hi
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N
+Installing
+dist/dist-sandbox-8e35af7f/build/libHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N.a
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/libHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N.a
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/libHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N.a","--strip-unneeded"])
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N
+Installing executable
+dist/dist-sandbox-8e35af7f/build/libHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N-ghc8.1.20160328.so
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/libHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N-ghc8.1.20160328.so
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N/libHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N-ghc8.1.20160328.so","--strip-unneeded"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-8e35af7f/build","-odir","dist/dist-sandbox-8e35af7f/build","-hidir","dist/dist-sandbox-8e35af7f/build","-stubdir","dist/dist-sandbox-8e35af7f/build","-i","-idist/dist-sandbox-8e35af7f/build","-isrc","-idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build","-optP-include","-optPdist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h","-this-unit-id","transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","base-4.9.0.0","-package-id","ghc-prim-0.5.0.0","-package-id","transformers-0.5.2.0","-XHaskell98","Control.Monad.Trans.Instances","-v3"])
+Registering transformers-compat-0.5.1.4...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v2"])
+cabal: Leaving directory '/tmp/cabal-tmp-8278/transformers-compat-0.5.1.4'

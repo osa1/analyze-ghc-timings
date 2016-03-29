@@ -1,0 +1,1611 @@
+cabal: Entering directory '/tmp/cabal-tmp-8275/stm-2.4.4.1'
+Configuring stm-2.4.4.1...
+creating dist/dist-sandbox-8e35af7f/build
+creating dist/dist-sandbox-8e35af7f
+creating dist
+creating dist/dist-sandbox-8e35af7f
+creating dist/dist-sandbox-8e35af7f/build
+Searching for ghc-stage2 in path.
+Found ghc-stage2 at /home/omer/haskell/ghc/inplace/bin/ghc-stage2
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--numeric-version"])
+/home/omer/haskell/ghc/inplace/bin/ghc-stage2 is version 8.1.20160328
+looking for tool ghc-pkg near compiler in /home/omer/haskell/ghc/inplace/bin
+found ghc-pkg in /home/omer/haskell/ghc/inplace/bin/ghc-pkg
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["--version"])
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg is version 8.1.20160328
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--supported-languages"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--info"])
+Reading installed packages...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--global","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--package-db=/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--print-libdir","-v3"])
+Dependency array ==0.5.1.0: using array-0.5.1.0
+Dependency base ==4.9.0.0: using base-4.9.0.0
+Searching for alex in path.
+Found alex at /home/omer/.cabal/bin/alex
+("/home/omer/.cabal/bin/alex",["--version"])
+/home/omer/.cabal/bin/alex is version 3.1.5
+Searching for ar in path.
+Found ar at /usr/bin/ar
+Searching for c2hs in path.
+Cannot find c2hs on the path
+Searching for cpphs in path.
+Found cpphs at /home/omer/.cabal/bin/cpphs
+("/home/omer/.cabal/bin/cpphs",["--version"])
+/home/omer/.cabal/bin/cpphs is version 1.19.3
+Searching for gcc in path.
+Found gcc at /usr/bin/gcc
+("/usr/bin/gcc",["-dumpversion"])
+/usr/bin/gcc is version 4.8
+Searching for ghcjs in path.
+Cannot find ghcjs on the path
+Searching for ghcjs-pkg in path.
+Cannot find ghcjs-pkg on the path
+Searching for greencard in path.
+Cannot find greencard on the path
+looking for tool haddock near compiler in /home/omer/haskell/ghc/inplace/bin
+Searching for haddock in path.
+Cannot find haddock on the path
+Searching for happy in path.
+Found happy at /home/omer/.cabal/bin/happy
+("/home/omer/.cabal/bin/happy",["--version"])
+/home/omer/.cabal/bin/happy is version 1.19.5
+Searching for hmake in path.
+Cannot find hmake on the path
+Searching for hpc in path.
+Found hpc at /home/omer/haskell/ghc/inplace/bin/hpc
+("/home/omer/haskell/ghc/inplace/bin/hpc",["version"])
+/home/omer/haskell/ghc/inplace/bin/hpc is version 0.67
+looking for tool hsc2hs near compiler in /home/omer/haskell/ghc/inplace/bin
+found hsc2hs in /home/omer/haskell/ghc/inplace/bin/hsc2hs
+("/home/omer/haskell/ghc/inplace/bin/hsc2hs",["--version"])
+/home/omer/haskell/ghc/inplace/bin/hsc2hs is version 0.67
+Searching for HsColour in path.
+Cannot find HsColour on the path
+Searching for jhc in path.
+Cannot find jhc on the path
+Searching for ld in path.
+Found ld at /usr/bin/ld
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["-c","/tmp/7833686901102520059.c","-o","/tmp/20448977631967513926.o","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 2 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc8643_0
+*** C Compiler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/7833686901102520059.c -o /tmp/ghc8643_0/ghc_1.s -Wimplicit -S -include /home/omer/haskell/ghc/includes/ghcversion.h -I/home/omer/haskell/ghc/libraries/base/include -I/home/omer/haskell/ghc/libraries/integer-gmp/include -I/home/omer/haskell/ghc/rts/dist/build -I/home/omer/haskell/ghc/includes -I/home/omer/haskell/ghc/includes/dist-derivedconstants/header
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc8643_0/ghc_1.s -o /tmp/20448977631967513926.o
+*** Deleting temp files:
+Deleting: /tmp/ghc8643_0/ghc_2.rsp /tmp/ghc8643_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8643_0
+("/usr/bin/ld",["-x","-r","/tmp/20448977631967513926.o","-o","/tmp/3040891721303455736.o"])
+Searching for lhc in path.
+Cannot find lhc on the path
+Searching for lhc-pkg in path.
+Cannot find lhc-pkg on the path
+Searching for pkg-config in path.
+Found pkg-config at /usr/bin/pkg-config
+("/usr/bin/pkg-config",["--version"])
+/usr/bin/pkg-config is version 0.28
+Searching for strip in path.
+Found strip at /usr/bin/strip
+("/usr/bin/strip",["--version"])
+/usr/bin/strip is version 2.24
+Searching for tar in path.
+Found tar at /bin/tar
+("/bin/tar",["--help"])
+Searching for uhc in path.
+Cannot find uhc on the path
+Using Cabal-1.23.1.0 compiled by ghc-7.10
+Using compiler: ghc-8.1.20160328
+Using install prefix: /home/omer/haskell/lens/.cabal-sandbox
+Binaries installed in: /home/omer/haskell/lens/.cabal-sandbox/bin
+Libraries installed in:
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio
+Private binaries installed in: /home/omer/haskell/lens/.cabal-sandbox/libexec
+Data files installed in:
+/home/omer/haskell/lens/.cabal-sandbox/share/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1
+Documentation installed in:
+/home/omer/haskell/lens/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1
+Configuration files installed in: /home/omer/haskell/lens/.cabal-sandbox/etc
+Using alex version 3.1.5 found on system at: /home/omer/.cabal/bin/alex
+Using ar found on system at: /usr/bin/ar
+No c2hs found
+Using cpphs version 1.19.3 found on system at: /home/omer/.cabal/bin/cpphs
+Using gcc version 4.8 found on system at: /usr/bin/gcc
+Using ghc version 8.1.20160328 given by user at:
+/home/omer/haskell/ghc/inplace/bin/ghc-stage2
+Using ghc-pkg version 8.1.20160328 found on system at:
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+No haddock found
+Using happy version 1.19.5 found on system at: /home/omer/.cabal/bin/happy
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hpc
+Using hsc2hs version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hsc2hs
+No hscolour found
+No jhc found
+Using ld found on system at: /usr/bin/ld
+No lhc found
+No lhc-pkg found
+Using pkg-config version 0.28 found on system at: /usr/bin/pkg-config
+Using strip version 2.24 found on system at: /usr/bin/strip
+Using tar found on system at: /bin/tar
+No uhc found
+("/usr/bin/gcc",["-std=gnu99","-fno-stack-protector","/tmp/2947025671726956429.c","-o","/tmp/336465782861021530","-D__GLASGOW_HASKELL__=801","-Dlinux_BUILD_OS=1","-Dx86_64_BUILD_ARCH=1","-Dlinux_HOST_OS=1","-Dx86_64_HOST_ARCH=1","-Idist/dist-sandbox-8e35af7f/build/autogen","-I.","-I/home/omer/haskell/ghc/libraries/base/include","-I/home/omer/haskell/ghc/libraries/integer-gmp/include","-I/home/omer/haskell/ghc/rts/dist/build","-I/home/omer/haskell/ghc/includes","-I/home/omer/haskell/ghc/includes/dist-derivedconstants/header","-L/home/omer/haskell/ghc/libraries/array/dist-install/build","-L/home/omer/haskell/ghc/libraries/base/dist-install/build","-L/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build","-L/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build","-L/home/omer/haskell/ghc/rts/dist/build"])
+Component build order: library
+creating dist/dist-sandbox-8e35af7f/build
+creating dist/dist-sandbox-8e35af7f/build/autogen
+Building stm-2.4.4.1...
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["init","dist/dist-sandbox-8e35af7f/package.conf.inplace","-v2"])
+GHC package manager version 8.1.20160328
+writing cache dist/dist-sandbox-8e35af7f/package.conf.inplace/package.cache
+Preprocessing library stm-2.4.4.1...
+Building library...
+creating dist/dist-sandbox-8e35af7f/build
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--make","-v","-fbuilding-cabal-package","-O","-static","-dynamic-too","-dynosuf","dyn_o","-dynhisuf","dyn_hi","-outputdir","dist/dist-sandbox-8e35af7f/build","-odir","dist/dist-sandbox-8e35af7f/build","-hidir","dist/dist-sandbox-8e35af7f/build","-stubdir","dist/dist-sandbox-8e35af7f/build","-i","-idist/dist-sandbox-8e35af7f/build","-i.","-idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build","-optP-include","-optPdist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h","-this-unit-id","stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-db","dist/dist-sandbox-8e35af7f/package.conf.inplace","-package-id","array-0.5.1.0","-package-id","base-4.9.0.0","-XHaskell2010","Control.Concurrent.STM","Control.Concurrent.STM.TArray","Control.Concurrent.STM.TVar","Control.Concurrent.STM.TChan","Control.Concurrent.STM.TMVar","Control.Concurrent.STM.TQueue","Control.Concurrent.STM.TBQueue","Control.Concurrent.STM.TSem","Control.Monad.STM","Control.Sequential.STM","-Wall","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 2 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-8e35af7f/package.conf.inplace/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-8e35af7f/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-8e35af7f/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Control.Concurrent.STM,*Control.Concurrent.STM.TArray,*Control.Concurrent.STM.TVar,*Control.Concurrent.STM.TChan,*Control.Concurrent.STM.TMVar,*Control.Concurrent.STM.TQueue,*Control.Concurrent.STM.TBQueue,*Control.Concurrent.STM.TSem,*Control.Monad.STM,*Control.Sequential.STM
+Created temporary directory: /tmp/ghc8833_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc8833_0/ghc_2.h -x assembler-with-cpp ./Control/Concurrent/STM.hs -o /tmp/ghc8833_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc8833_0/ghc_4.h -x assembler-with-cpp ./Control/Concurrent/STM/TArray.hs -o /tmp/ghc8833_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc8833_0/ghc_6.h -x assembler-with-cpp ./Control/Concurrent/STM/TVar.hs -o /tmp/ghc8833_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc8833_0/ghc_8.h -x assembler-with-cpp ./Control/Concurrent/STM/TChan.hs -o /tmp/ghc8833_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc8833_0/ghc_10.h -x assembler-with-cpp ./Control/Concurrent/STM/TMVar.hs -o /tmp/ghc8833_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc8833_0/ghc_12.h -x assembler-with-cpp ./Control/Concurrent/STM/TQueue.hs -o /tmp/ghc8833_0/ghc_11.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc8833_0/ghc_14.h -x assembler-with-cpp ./Control/Concurrent/STM/TBQueue.hs -o /tmp/ghc8833_0/ghc_13.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc8833_0/ghc_16.h -x assembler-with-cpp ./Control/Monad/STM.hs -o /tmp/ghc8833_0/ghc_15.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build -I dist/dist-sandbox-8e35af7f/build/autogen -I dist/dist-sandbox-8e35af7f/build -I /home/omer/haskell/ghc/libraries/base/include -I /home/omer/haskell/ghc/libraries/integer-gmp/include -I /home/omer/haskell/ghc/rts/dist/build -I /home/omer/haskell/ghc/includes -I /home/omer/haskell/ghc/includes/dist-derivedconstants/header -include /home/omer/haskell/ghc/includes/ghcversion.h -Dlinux_BUILD_OS -Dx86_64_BUILD_ARCH -Dlinux_HOST_OS -Dx86_64_HOST_ARCH -D__GLASGOW_HASKELL_TH__ -D__SSE__ -D__SSE2__ -include/tmp/ghc8833_0/ghc_18.h -x assembler-with-cpp ./Control/Sequential/STM.hs -o /tmp/ghc8833_0/ghc_17.hscpp
+!!! Chasing dependencies: finished in 467.08 milliseconds, allocated 329.984 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:15:46.517440729 UTC
+         ms_mod = Control.Monad.STM,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Monad.Fix), (Nothing, GHC.Exts),
+                            (Nothing, GHC.Conc)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:15:46.517440729 UTC
+         ms_mod = Control.Concurrent.STM.TBQueue,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Conc),
+                            (Nothing, Data.Typeable)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:15:46.518440729 UTC
+         ms_mod = Control.Concurrent.STM.TQueue,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Typeable),
+                            (Nothing, GHC.Conc)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:15:46.518440729 UTC
+         ms_mod = Control.Concurrent.STM.TMVar,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Typeable),
+                            (Nothing, GHC.Weak), (Nothing, GHC.Conc), (Nothing, GHC.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:15:46.517440729 UTC
+         ms_mod = Control.Concurrent.STM.TChan,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Typeable),
+                            (Nothing, GHC.Conc)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:15:46.517440729 UTC
+         ms_mod = Control.Concurrent.STM.TVar,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Weak),
+                            (Nothing, GHC.Conc), (Nothing, GHC.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:15:46.517440729 UTC
+         ms_mod = Control.Concurrent.STM.TArray,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Conc),
+                            (Nothing, Control.Concurrent.STM.TVar), (Nothing, Data.Typeable),
+                            (Nothing, Data.Ix), (Nothing, Data.Array.Base),
+                            (Nothing, Data.Array)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:15:46.517440729 UTC
+         ms_mod = Control.Concurrent.STM,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Concurrent.STM.TBQueue),
+                            (Nothing, Control.Concurrent.STM.TQueue),
+                            (Nothing, Control.Concurrent.STM.TArray),
+                            (Nothing, Control.Concurrent.STM.TChan),
+                            (Nothing, Control.Concurrent.STM.TMVar),
+                            (Nothing, Control.Concurrent.STM.TVar),
+                            (Nothing, Control.Monad.STM)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:15:46.517440729 UTC
+         ms_mod = Control.Concurrent.STM.TSem,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Typeable),
+                            (Nothing, Control.Monad), (Nothing, Control.Concurrent.STM)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 03:15:46.517440729 UTC
+         ms_mod = Control.Sequential.STM,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.IORef),
+                            (Nothing, Control.Exception)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc8833_0/ghc_18.h /tmp/ghc8833_0/ghc_16.h /tmp/ghc8833_0/ghc_14.h /tmp/ghc8833_0/ghc_12.h /tmp/ghc8833_0/ghc_10.h /tmp/ghc8833_0/ghc_8.h /tmp/ghc8833_0/ghc_6.h /tmp/ghc8833_0/ghc_4.h /tmp/ghc8833_0/ghc_2.h
+compile: input file /tmp/ghc8833_0/ghc_15.hscpp
+*** Checking old interface for Control.Monad.STM:
+[ 1 of 10] Compiling Control.Monad.STM ( Control/Monad/STM.hs, dist/dist-sandbox-8e35af7f/build/Control/Monad/STM.o )
+*** Parser [Control.Monad.STM]:
+!!! Parser [Control.Monad.STM]: finished in 10.89 milliseconds, allocated 9.523 megabytes
+*** Renamer/typechecker [Control.Monad.STM]:
+!!! Renamer/typechecker [Control.Monad.STM]: finished in 2170.33 milliseconds, allocated 1562.124 megabytes
+*** Desugar [Control.Monad.STM]:
+Result size of Desugar (after optimization)
+  = {terms: 69, types: 95, coercions: 5}
+!!! Desugar [Control.Monad.STM]: finished in 6.66 milliseconds, allocated 3.568 megabytes
+*** Simplifier [Control.Monad.STM]:
+Result size of Simplifier iteration=1
+  = {terms: 67, types: 78, coercions: 14}
+Result size of Simplifier = {terms: 67, types: 78, coercions: 14}
+!!! Simplifier [Control.Monad.STM]: finished in 6.39 milliseconds, allocated 3.208 megabytes
+*** Specialise [Control.Monad.STM]:
+Result size of Specialise = {terms: 67, types: 78, coercions: 14}
+!!! Specialise [Control.Monad.STM]: finished in 1.88 milliseconds, allocated 0.733 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.STM]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 72, types: 101, coercions: 14}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.STM]: finished in 3.59 milliseconds, allocated 2.246 megabytes
+*** Simplifier [Control.Monad.STM]:
+Result size of Simplifier iteration=1
+  = {terms: 72, types: 102, coercions: 22}
+Result size of Simplifier = {terms: 68, types: 74, coercions: 22}
+!!! Simplifier [Control.Monad.STM]: finished in 7.48 milliseconds, allocated 4.164 megabytes
+*** Simplifier [Control.Monad.STM]:
+Result size of Simplifier = {terms: 68, types: 74, coercions: 22}
+!!! Simplifier [Control.Monad.STM]: finished in 3.33 milliseconds, allocated 1.796 megabytes
+*** Simplifier [Control.Monad.STM]:
+Result size of Simplifier = {terms: 68, types: 74, coercions: 22}
+!!! Simplifier [Control.Monad.STM]: finished in 3.36 milliseconds, allocated 1.800 megabytes
+*** Float inwards [Control.Monad.STM]:
+Result size of Float inwards
+  = {terms: 68, types: 74, coercions: 22}
+!!! Float inwards [Control.Monad.STM]: finished in 0.92 milliseconds, allocated 0.641 megabytes
+*** Called arity analysis [Control.Monad.STM]:
+Result size of Called arity analysis
+  = {terms: 68, types: 74, coercions: 22}
+!!! Called arity analysis [Control.Monad.STM]: finished in 1.21 milliseconds, allocated 0.727 megabytes
+*** Simplifier [Control.Monad.STM]:
+Result size of Simplifier = {terms: 68, types: 74, coercions: 22}
+!!! Simplifier [Control.Monad.STM]: finished in 3.92 milliseconds, allocated 1.800 megabytes
+*** Demand analysis [Control.Monad.STM]:
+Result size of Demand analysis
+  = {terms: 68, types: 74, coercions: 22}
+!!! Demand analysis [Control.Monad.STM]: finished in 2.29 milliseconds, allocated 1.285 megabytes
+*** Worker Wrapper binds [Control.Monad.STM]:
+Result size of Worker Wrapper binds
+  = {terms: 68, types: 74, coercions: 22}
+!!! Worker Wrapper binds [Control.Monad.STM]: finished in 0.82 milliseconds, allocated 0.490 megabytes
+*** Simplifier [Control.Monad.STM]:
+Result size of Simplifier = {terms: 68, types: 74, coercions: 22}
+!!! Simplifier [Control.Monad.STM]: finished in 4.71 milliseconds, allocated 2.539 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.STM]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 68, types: 74, coercions: 22}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.STM]: finished in 3.84 milliseconds, allocated 2.084 megabytes
+*** Common sub-expression [Control.Monad.STM]:
+Result size of Common sub-expression
+  = {terms: 68, types: 74, coercions: 22}
+!!! Common sub-expression [Control.Monad.STM]: finished in 1.96 milliseconds, allocated 1.077 megabytes
+*** Float inwards [Control.Monad.STM]:
+Result size of Float inwards
+  = {terms: 68, types: 74, coercions: 22}
+!!! Float inwards [Control.Monad.STM]: finished in 0.98 milliseconds, allocated 0.641 megabytes
+*** Simplifier [Control.Monad.STM]:
+Result size of Simplifier = {terms: 68, types: 74, coercions: 22}
+!!! Simplifier [Control.Monad.STM]: finished in 4.76 milliseconds, allocated 2.586 megabytes
+*** CoreTidy [Control.Monad.STM]:
+Result size of Tidy Core = {terms: 68, types: 74, coercions: 22}
+!!! CoreTidy [Control.Monad.STM]: finished in 3.65 milliseconds, allocated 1.871 megabytes
+writeBinIface: 26 Names
+writeBinIface: 60 dict entries
+writeBinIface: 26 Names
+writeBinIface: 60 dict entries
+*** CorePrep [Control.Monad.STM]:
+Result size of CorePrep = {terms: 82, types: 96, coercions: 22}
+!!! CorePrep [Control.Monad.STM]: finished in 2.04 milliseconds, allocated 1.062 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.STM]:
+!!! CodeGen [Control.Monad.STM]: finished in 42.34 milliseconds, allocated 22.796 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Monad -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc8833_0/ghc_20.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/STM.o
+*** CorePrep [Control.Monad.STM]:
+Result size of CorePrep = {terms: 82, types: 96, coercions: 22}
+!!! CorePrep [Control.Monad.STM]: finished in 1.68 milliseconds, allocated 0.910 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.STM]:
+!!! CodeGen [Control.Monad.STM]: finished in 38.00 milliseconds, allocated 23.548 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Monad -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8833_0/ghc_22.s -o dist/dist-sandbox-8e35af7f/build/Control/Monad/STM.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8833_0/ghc_23.c /tmp/ghc8833_0/ghc_22.s /tmp/ghc8833_0/ghc_21.c /tmp/ghc8833_0/ghc_20.s /tmp/ghc8833_0/ghc_19.s
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_23.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_21.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_19.s
+compile: input file /tmp/ghc8833_0/ghc_13.hscpp
+*** Checking old interface for Control.Concurrent.STM.TBQueue:
+[ 2 of 10] Compiling Control.Concurrent.STM.TBQueue ( Control/Concurrent/STM/TBQueue.hs, dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TBQueue.o )
+*** Parser [Control.Concurrent.STM.TBQueue]:
+!!! Parser [Control.Concurrent.STM.TBQueue]: finished in 27.29 milliseconds, allocated 25.038 megabytes
+*** Renamer/typechecker [Control.Concurrent.STM.TBQueue]:
+!!! Renamer/typechecker [Control.Concurrent.STM.TBQueue]: finished in 1117.80 milliseconds, allocated 788.668 megabytes
+*** Desugar [Control.Concurrent.STM.TBQueue]:
+Result size of Desugar (after optimization)
+  = {terms: 476, types: 648, coercions: 0}
+!!! Desugar [Control.Concurrent.STM.TBQueue]: finished in 28.97 milliseconds, allocated 16.573 megabytes
+*** Simplifier [Control.Concurrent.STM.TBQueue]:
+Result size of Simplifier iteration=1
+  = {terms: 478, types: 655, coercions: 0}
+Result size of Simplifier = {terms: 478, types: 655, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM.TBQueue]: finished in 33.44 milliseconds, allocated 16.730 megabytes
+*** Specialise [Control.Concurrent.STM.TBQueue]:
+Result size of Specialise = {terms: 478, types: 655, coercions: 0}
+!!! Specialise [Control.Concurrent.STM.TBQueue]: finished in 4.76 milliseconds, allocated 3.371 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TBQueue]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 574, types: 788, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TBQueue]: finished in 39.05 milliseconds, allocated 25.350 megabytes
+*** Simplifier [Control.Concurrent.STM.TBQueue]:
+Result size of Simplifier iteration=1
+  = {terms: 590, types: 829, coercions: 0}
+Result size of Simplifier = {terms: 590, types: 829, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM.TBQueue]: finished in 50.93 milliseconds, allocated 27.103 megabytes
+*** Simplifier [Control.Concurrent.STM.TBQueue]:
+Result size of Simplifier = {terms: 590, types: 829, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM.TBQueue]: finished in 24.01 milliseconds, allocated 13.053 megabytes
+*** Simplifier [Control.Concurrent.STM.TBQueue]:
+Result size of Simplifier = {terms: 590, types: 829, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM.TBQueue]: finished in 26.03 milliseconds, allocated 13.053 megabytes
+*** Float inwards [Control.Concurrent.STM.TBQueue]:
+Result size of Float inwards
+  = {terms: 590, types: 829, coercions: 0}
+!!! Float inwards [Control.Concurrent.STM.TBQueue]: finished in 7.14 milliseconds, allocated 5.369 megabytes
+*** Called arity analysis [Control.Concurrent.STM.TBQueue]:
+Result size of Called arity analysis
+  = {terms: 590, types: 829, coercions: 0}
+!!! Called arity analysis [Control.Concurrent.STM.TBQueue]: finished in 7.27 milliseconds, allocated 4.316 megabytes
+*** Simplifier [Control.Concurrent.STM.TBQueue]:
+Result size of Simplifier = {terms: 590, types: 829, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM.TBQueue]: finished in 23.61 milliseconds, allocated 12.911 megabytes
+*** Demand analysis [Control.Concurrent.STM.TBQueue]:
+Result size of Demand analysis
+  = {terms: 590, types: 829, coercions: 0}
+!!! Demand analysis [Control.Concurrent.STM.TBQueue]: finished in 19.47 milliseconds, allocated 11.673 megabytes
+*** Worker Wrapper binds [Control.Concurrent.STM.TBQueue]:
+Result size of Worker Wrapper binds
+  = {terms: 713, types: 1,130, coercions: 0}
+!!! Worker Wrapper binds [Control.Concurrent.STM.TBQueue]: finished in 3.67 milliseconds, allocated 2.057 megabytes
+*** Simplifier [Control.Concurrent.STM.TBQueue]:
+Result size of Simplifier iteration=1
+  = {terms: 673, types: 1,072, coercions: 0}
+Result size of Simplifier
+  = {terms: 673, types: 1,072, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM.TBQueue]: finished in 72.29 milliseconds, allocated 41.781 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TBQueue]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 677, types: 1,074, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TBQueue]: finished in 50.63 milliseconds, allocated 35.843 megabytes
+*** Common sub-expression [Control.Concurrent.STM.TBQueue]:
+Result size of Common sub-expression
+  = {terms: 650, types: 1,050, coercions: 0}
+!!! Common sub-expression [Control.Concurrent.STM.TBQueue]: finished in 12.89 milliseconds, allocated 8.878 megabytes
+*** Float inwards [Control.Concurrent.STM.TBQueue]:
+Result size of Float inwards
+  = {terms: 650, types: 1,050, coercions: 0}
+!!! Float inwards [Control.Concurrent.STM.TBQueue]: finished in 7.21 milliseconds, allocated 4.936 megabytes
+*** Simplifier [Control.Concurrent.STM.TBQueue]:
+Result size of Simplifier iteration=1
+  = {terms: 612, types: 1,013, coercions: 0}
+Result size of Simplifier
+  = {terms: 612, types: 1,013, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM.TBQueue]: finished in 63.36 milliseconds, allocated 37.422 megabytes
+*** CoreTidy [Control.Concurrent.STM.TBQueue]:
+Result size of Tidy Core = {terms: 635, types: 1,064, coercions: 0}
+!!! CoreTidy [Control.Concurrent.STM.TBQueue]: finished in 23.92 milliseconds, allocated 16.617 megabytes
+writeBinIface: 59 Names
+writeBinIface: 117 dict entries
+writeBinIface: 59 Names
+writeBinIface: 117 dict entries
+*** CorePrep [Control.Concurrent.STM.TBQueue]:
+Result size of CorePrep = {terms: 780, types: 1,286, coercions: 0}
+!!! CorePrep [Control.Concurrent.STM.TBQueue]: finished in 17.71 milliseconds, allocated 10.425 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TBQueue]:
+!!! CodeGen [Control.Concurrent.STM.TBQueue]: finished in 577.64 milliseconds, allocated 306.305 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc8833_0/ghc_25.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TBQueue.o
+*** CorePrep [Control.Concurrent.STM.TBQueue]:
+Result size of CorePrep = {terms: 780, types: 1,286, coercions: 0}
+!!! CorePrep [Control.Concurrent.STM.TBQueue]: finished in 13.60 milliseconds, allocated 9.058 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TBQueue]:
+!!! CodeGen [Control.Concurrent.STM.TBQueue]: finished in 535.09 milliseconds, allocated 324.921 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8833_0/ghc_27.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TBQueue.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8833_0/ghc_28.c /tmp/ghc8833_0/ghc_27.s /tmp/ghc8833_0/ghc_26.c /tmp/ghc8833_0/ghc_25.s /tmp/ghc8833_0/ghc_24.s
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_28.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_26.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_24.s
+compile: input file /tmp/ghc8833_0/ghc_11.hscpp
+*** Checking old interface for Control.Concurrent.STM.TQueue:
+[ 3 of 10] Compiling Control.Concurrent.STM.TQueue ( Control/Concurrent/STM/TQueue.hs, dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TQueue.o )
+*** Parser [Control.Concurrent.STM.TQueue]:
+!!! Parser [Control.Concurrent.STM.TQueue]: finished in 17.71 milliseconds, allocated 18.280 megabytes
+*** Renamer/typechecker [Control.Concurrent.STM.TQueue]:
+!!! Renamer/typechecker [Control.Concurrent.STM.TQueue]: finished in 74.96 milliseconds, allocated 44.076 megabytes
+*** Desugar [Control.Concurrent.STM.TQueue]:
+Result size of Desugar (after optimization)
+  = {terms: 293, types: 437, coercions: 11}
+!!! Desugar [Control.Concurrent.STM.TQueue]: finished in 27.34 milliseconds, allocated 15.216 megabytes
+*** Simplifier [Control.Concurrent.STM.TQueue]:
+Result size of Simplifier iteration=1
+  = {terms: 297, types: 445, coercions: 4}
+Result size of Simplifier = {terms: 297, types: 445, coercions: 4}
+!!! Simplifier [Control.Concurrent.STM.TQueue]: finished in 21.00 milliseconds, allocated 11.495 megabytes
+*** Specialise [Control.Concurrent.STM.TQueue]:
+Result size of Specialise = {terms: 297, types: 445, coercions: 4}
+!!! Specialise [Control.Concurrent.STM.TQueue]: finished in 3.00 milliseconds, allocated 2.207 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TQueue]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 361, types: 566, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TQueue]: finished in 22.85 milliseconds, allocated 15.875 megabytes
+*** Simplifier [Control.Concurrent.STM.TQueue]:
+Result size of Simplifier iteration=1
+  = {terms: 335, types: 531, coercions: 4}
+Result size of Simplifier = {terms: 335, types: 531, coercions: 4}
+!!! Simplifier [Control.Concurrent.STM.TQueue]: finished in 26.25 milliseconds, allocated 15.053 megabytes
+*** Simplifier [Control.Concurrent.STM.TQueue]:
+Result size of Simplifier = {terms: 335, types: 531, coercions: 4}
+!!! Simplifier [Control.Concurrent.STM.TQueue]: finished in 8.56 milliseconds, allocated 6.863 megabytes
+*** Simplifier [Control.Concurrent.STM.TQueue]:
+Result size of Simplifier = {terms: 335, types: 531, coercions: 4}
+!!! Simplifier [Control.Concurrent.STM.TQueue]: finished in 8.42 milliseconds, allocated 6.862 megabytes
+*** Float inwards [Control.Concurrent.STM.TQueue]:
+Result size of Float inwards
+  = {terms: 335, types: 531, coercions: 4}
+!!! Float inwards [Control.Concurrent.STM.TQueue]: finished in 1.74 milliseconds, allocated 2.119 megabytes
+*** Called arity analysis [Control.Concurrent.STM.TQueue]:
+Result size of Called arity analysis
+  = {terms: 335, types: 531, coercions: 4}
+!!! Called arity analysis [Control.Concurrent.STM.TQueue]: finished in 3.27 milliseconds, allocated 2.697 megabytes
+*** Simplifier [Control.Concurrent.STM.TQueue]:
+Result size of Simplifier = {terms: 335, types: 531, coercions: 4}
+!!! Simplifier [Control.Concurrent.STM.TQueue]: finished in 12.80 milliseconds, allocated 6.865 megabytes
+*** Demand analysis [Control.Concurrent.STM.TQueue]:
+Result size of Demand analysis
+  = {terms: 335, types: 531, coercions: 4}
+!!! Demand analysis [Control.Concurrent.STM.TQueue]: finished in 11.95 milliseconds, allocated 6.120 megabytes
+*** Worker Wrapper binds [Control.Concurrent.STM.TQueue]:
+Result size of Worker Wrapper binds
+  = {terms: 411, types: 701, coercions: 4}
+!!! Worker Wrapper binds [Control.Concurrent.STM.TQueue]: finished in 2.51 milliseconds, allocated 1.337 megabytes
+*** Simplifier [Control.Concurrent.STM.TQueue]:
+Result size of Simplifier iteration=1
+  = {terms: 383, types: 667, coercions: 4}
+Result size of Simplifier = {terms: 383, types: 667, coercions: 4}
+!!! Simplifier [Control.Concurrent.STM.TQueue]: finished in 40.27 milliseconds, allocated 22.433 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TQueue]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 419, types: 727, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TQueue]: finished in 27.57 milliseconds, allocated 19.925 megabytes
+*** Common sub-expression [Control.Concurrent.STM.TQueue]:
+Result size of Common sub-expression
+  = {terms: 409, types: 709, coercions: 4}
+!!! Common sub-expression [Control.Concurrent.STM.TQueue]: finished in 7.64 milliseconds, allocated 5.552 megabytes
+*** Float inwards [Control.Concurrent.STM.TQueue]:
+Result size of Float inwards
+  = {terms: 409, types: 709, coercions: 4}
+!!! Float inwards [Control.Concurrent.STM.TQueue]: finished in 2.72 milliseconds, allocated 2.098 megabytes
+*** Simplifier [Control.Concurrent.STM.TQueue]:
+Result size of Simplifier iteration=1
+  = {terms: 399, types: 689, coercions: 4}
+Result size of Simplifier = {terms: 399, types: 689, coercions: 4}
+!!! Simplifier [Control.Concurrent.STM.TQueue]: finished in 39.68 milliseconds, allocated 23.733 megabytes
+*** CoreTidy [Control.Concurrent.STM.TQueue]:
+Result size of Tidy Core = {terms: 412, types: 722, coercions: 4}
+!!! CoreTidy [Control.Concurrent.STM.TQueue]: finished in 16.28 milliseconds, allocated 11.698 megabytes
+writeBinIface: 66 Names
+writeBinIface: 118 dict entries
+writeBinIface: 66 Names
+writeBinIface: 118 dict entries
+*** CorePrep [Control.Concurrent.STM.TQueue]:
+Result size of CorePrep = {terms: 491, types: 852, coercions: 4}
+!!! CorePrep [Control.Concurrent.STM.TQueue]: finished in 8.43 milliseconds, allocated 5.469 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TQueue]:
+!!! CodeGen [Control.Concurrent.STM.TQueue]: finished in 326.84 milliseconds, allocated 194.147 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc8833_0/ghc_30.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TQueue.o
+*** CorePrep [Control.Concurrent.STM.TQueue]:
+Result size of CorePrep = {terms: 491, types: 852, coercions: 4}
+!!! CorePrep [Control.Concurrent.STM.TQueue]: finished in 8.51 milliseconds, allocated 4.995 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TQueue]:
+!!! CodeGen [Control.Concurrent.STM.TQueue]: finished in 356.37 milliseconds, allocated 204.906 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8833_0/ghc_32.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TQueue.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8833_0/ghc_33.c /tmp/ghc8833_0/ghc_32.s /tmp/ghc8833_0/ghc_31.c /tmp/ghc8833_0/ghc_30.s /tmp/ghc8833_0/ghc_29.s
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_33.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_31.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_29.s
+compile: input file /tmp/ghc8833_0/ghc_9.hscpp
+*** Checking old interface for Control.Concurrent.STM.TMVar:
+[ 4 of 10] Compiling Control.Concurrent.STM.TMVar ( Control/Concurrent/STM/TMVar.hs, dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TMVar.o )
+*** Parser [Control.Concurrent.STM.TMVar]:
+!!! Parser [Control.Concurrent.STM.TMVar]: finished in 23.93 milliseconds, allocated 19.841 megabytes
+*** Renamer/typechecker [Control.Concurrent.STM.TMVar]:
+!!! Renamer/typechecker [Control.Concurrent.STM.TMVar]: finished in 131.12 milliseconds, allocated 85.156 megabytes
+*** Desugar [Control.Concurrent.STM.TMVar]:
+Result size of Desugar (after optimization)
+  = {terms: 257, types: 449, coercions: 65}
+!!! Desugar [Control.Concurrent.STM.TMVar]: finished in 20.36 milliseconds, allocated 10.764 megabytes
+*** Simplifier [Control.Concurrent.STM.TMVar]:
+Result size of Simplifier iteration=1
+  = {terms: 266, types: 463, coercions: 85}
+Result size of Simplifier = {terms: 266, types: 463, coercions: 85}
+!!! Simplifier [Control.Concurrent.STM.TMVar]: finished in 19.40 milliseconds, allocated 9.746 megabytes
+*** Specialise [Control.Concurrent.STM.TMVar]:
+Result size of Specialise = {terms: 266, types: 463, coercions: 85}
+!!! Specialise [Control.Concurrent.STM.TMVar]: finished in 2.76 milliseconds, allocated 1.939 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TMVar]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 316, types: 596, coercions: 85}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TMVar]: finished in 20.32 milliseconds, allocated 12.664 megabytes
+*** Simplifier [Control.Concurrent.STM.TMVar]:
+Result size of Simplifier iteration=1
+  = {terms: 304, types: 542, coercions: 102}
+Result size of Simplifier iteration=2
+  = {terms: 300, types: 522, coercions: 101}
+Result size of Simplifier
+  = {terms: 300, types: 522, coercions: 101}
+!!! Simplifier [Control.Concurrent.STM.TMVar]: finished in 39.24 milliseconds, allocated 20.067 megabytes
+*** Simplifier [Control.Concurrent.STM.TMVar]:
+Result size of Simplifier
+  = {terms: 300, types: 522, coercions: 101}
+!!! Simplifier [Control.Concurrent.STM.TMVar]: finished in 12.06 milliseconds, allocated 6.352 megabytes
+*** Simplifier [Control.Concurrent.STM.TMVar]:
+Result size of Simplifier
+  = {terms: 300, types: 522, coercions: 101}
+!!! Simplifier [Control.Concurrent.STM.TMVar]: finished in 12.41 milliseconds, allocated 6.348 megabytes
+*** Float inwards [Control.Concurrent.STM.TMVar]:
+Result size of Float inwards
+  = {terms: 300, types: 522, coercions: 101}
+!!! Float inwards [Control.Concurrent.STM.TMVar]: finished in 2.16 milliseconds, allocated 1.667 megabytes
+*** Called arity analysis [Control.Concurrent.STM.TMVar]:
+Result size of Called arity analysis
+  = {terms: 300, types: 522, coercions: 101}
+!!! Called arity analysis [Control.Concurrent.STM.TMVar]: finished in 4.33 milliseconds, allocated 2.646 megabytes
+*** Simplifier [Control.Concurrent.STM.TMVar]:
+Result size of Simplifier
+  = {terms: 300, types: 522, coercions: 101}
+!!! Simplifier [Control.Concurrent.STM.TMVar]: finished in 12.52 milliseconds, allocated 6.348 megabytes
+*** Demand analysis [Control.Concurrent.STM.TMVar]:
+Result size of Demand analysis
+  = {terms: 300, types: 522, coercions: 101}
+!!! Demand analysis [Control.Concurrent.STM.TMVar]: finished in 9.38 milliseconds, allocated 5.556 megabytes
+*** Worker Wrapper binds [Control.Concurrent.STM.TMVar]:
+Result size of Worker Wrapper binds
+  = {terms: 300, types: 522, coercions: 101}
+!!! Worker Wrapper binds [Control.Concurrent.STM.TMVar]: finished in 1.77 milliseconds, allocated 1.057 megabytes
+*** Simplifier [Control.Concurrent.STM.TMVar]:
+Result size of Simplifier
+  = {terms: 300, types: 522, coercions: 101}
+!!! Simplifier [Control.Concurrent.STM.TMVar]: finished in 15.98 milliseconds, allocated 8.007 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TMVar]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 312, types: 562, coercions: 101}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TMVar]: finished in 21.08 milliseconds, allocated 12.360 megabytes
+*** Common sub-expression [Control.Concurrent.STM.TMVar]:
+Result size of Common sub-expression
+  = {terms: 299, types: 541, coercions: 95}
+!!! Common sub-expression [Control.Concurrent.STM.TMVar]: finished in 5.87 milliseconds, allocated 3.503 megabytes
+*** Float inwards [Control.Concurrent.STM.TMVar]:
+Result size of Float inwards
+  = {terms: 299, types: 541, coercions: 95}
+!!! Float inwards [Control.Concurrent.STM.TMVar]: finished in 2.10 milliseconds, allocated 1.652 megabytes
+*** Simplifier [Control.Concurrent.STM.TMVar]:
+Result size of Simplifier iteration=1
+  = {terms: 291, types: 521, coercions: 95}
+Result size of Simplifier = {terms: 291, types: 521, coercions: 95}
+!!! Simplifier [Control.Concurrent.STM.TMVar]: finished in 32.80 milliseconds, allocated 16.318 megabytes
+*** CoreTidy [Control.Concurrent.STM.TMVar]:
+Result size of Tidy Core = {terms: 291, types: 521, coercions: 95}
+!!! CoreTidy [Control.Concurrent.STM.TMVar]: finished in 13.08 milliseconds, allocated 7.676 megabytes
+writeBinIface: 54 Names
+writeBinIface: 92 dict entries
+writeBinIface: 54 Names
+writeBinIface: 92 dict entries
+*** CorePrep [Control.Concurrent.STM.TMVar]:
+Result size of CorePrep = {terms: 348, types: 604, coercions: 95}
+!!! CorePrep [Control.Concurrent.STM.TMVar]: finished in 6.02 milliseconds, allocated 3.997 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TMVar]:
+!!! CodeGen [Control.Concurrent.STM.TMVar]: finished in 222.31 milliseconds, allocated 132.888 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc8833_0/ghc_35.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TMVar.o
+*** CorePrep [Control.Concurrent.STM.TMVar]:
+Result size of CorePrep = {terms: 348, types: 604, coercions: 95}
+!!! CorePrep [Control.Concurrent.STM.TMVar]: finished in 5.64 milliseconds, allocated 3.595 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TMVar]:
+!!! CodeGen [Control.Concurrent.STM.TMVar]: finished in 222.40 milliseconds, allocated 141.465 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8833_0/ghc_37.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TMVar.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8833_0/ghc_38.c /tmp/ghc8833_0/ghc_37.s /tmp/ghc8833_0/ghc_36.c /tmp/ghc8833_0/ghc_35.s /tmp/ghc8833_0/ghc_34.s
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_38.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_36.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_34.s
+compile: input file /tmp/ghc8833_0/ghc_7.hscpp
+*** Checking old interface for Control.Concurrent.STM.TChan:
+[ 5 of 10] Compiling Control.Concurrent.STM.TChan ( Control/Concurrent/STM/TChan.hs, dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TChan.o )
+*** Parser [Control.Concurrent.STM.TChan]:
+!!! Parser [Control.Concurrent.STM.TChan]: finished in 27.49 milliseconds, allocated 24.300 megabytes
+*** Renamer/typechecker [Control.Concurrent.STM.TChan]:
+!!! Renamer/typechecker [Control.Concurrent.STM.TChan]: finished in 104.68 milliseconds, allocated 58.907 megabytes
+*** Desugar [Control.Concurrent.STM.TChan]:
+Result size of Desugar (after optimization)
+  = {terms: 467, types: 780, coercions: 22}
+!!! Desugar [Control.Concurrent.STM.TChan]: finished in 29.28 milliseconds, allocated 15.604 megabytes
+*** Simplifier [Control.Concurrent.STM.TChan]:
+Result size of Simplifier iteration=1
+  = {terms: 480, types: 785, coercions: 8}
+Result size of Simplifier = {terms: 480, types: 785, coercions: 8}
+!!! Simplifier [Control.Concurrent.STM.TChan]: finished in 31.34 milliseconds, allocated 16.172 megabytes
+*** Specialise [Control.Concurrent.STM.TChan]:
+Result size of Specialise = {terms: 480, types: 785, coercions: 8}
+!!! Specialise [Control.Concurrent.STM.TChan]: finished in 4.69 milliseconds, allocated 3.261 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TChan]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 609, types: 1,066, coercions: 8}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TChan]: finished in 39.79 milliseconds, allocated 25.290 megabytes
+*** Simplifier [Control.Concurrent.STM.TChan]:
+Result size of Simplifier iteration=1
+  = {terms: 567, types: 1,014, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 562, types: 1,006, coercions: 8}
+Result size of Simplifier
+  = {terms: 562, types: 1,006, coercions: 8}
+!!! Simplifier [Control.Concurrent.STM.TChan]: finished in 64.28 milliseconds, allocated 34.715 megabytes
+*** Simplifier [Control.Concurrent.STM.TChan]:
+Result size of Simplifier
+  = {terms: 562, types: 1,006, coercions: 8}
+!!! Simplifier [Control.Concurrent.STM.TChan]: finished in 19.65 milliseconds, allocated 10.629 megabytes
+*** Simplifier [Control.Concurrent.STM.TChan]:
+Result size of Simplifier
+  = {terms: 562, types: 1,006, coercions: 8}
+!!! Simplifier [Control.Concurrent.STM.TChan]: finished in 19.83 milliseconds, allocated 10.630 megabytes
+*** Float inwards [Control.Concurrent.STM.TChan]:
+Result size of Float inwards
+  = {terms: 562, types: 1,006, coercions: 8}
+!!! Float inwards [Control.Concurrent.STM.TChan]: finished in 5.20 milliseconds, allocated 3.958 megabytes
+*** Called arity analysis [Control.Concurrent.STM.TChan]:
+Result size of Called arity analysis
+  = {terms: 562, types: 1,006, coercions: 8}
+!!! Called arity analysis [Control.Concurrent.STM.TChan]: finished in 5.31 milliseconds, allocated 3.705 megabytes
+*** Simplifier [Control.Concurrent.STM.TChan]:
+Result size of Simplifier
+  = {terms: 562, types: 1,006, coercions: 8}
+!!! Simplifier [Control.Concurrent.STM.TChan]: finished in 18.96 milliseconds, allocated 10.584 megabytes
+*** Demand analysis [Control.Concurrent.STM.TChan]:
+Result size of Demand analysis
+  = {terms: 562, types: 1,006, coercions: 8}
+!!! Demand analysis [Control.Concurrent.STM.TChan]: finished in 15.44 milliseconds, allocated 9.280 megabytes
+*** Worker Wrapper binds [Control.Concurrent.STM.TChan]:
+Result size of Worker Wrapper binds
+  = {terms: 702, types: 1,332, coercions: 8}
+!!! Worker Wrapper binds [Control.Concurrent.STM.TChan]: finished in 3.76 milliseconds, allocated 2.151 megabytes
+*** Simplifier [Control.Concurrent.STM.TChan]:
+Result size of Simplifier iteration=1
+  = {terms: 619, types: 1,189, coercions: 8}
+Result size of Simplifier
+  = {terms: 619, types: 1,189, coercions: 8}
+!!! Simplifier [Control.Concurrent.STM.TChan]: finished in 64.80 milliseconds, allocated 37.751 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TChan]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 697, types: 1,323, coercions: 8}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TChan]: finished in 46.37 milliseconds, allocated 30.630 megabytes
+*** Common sub-expression [Control.Concurrent.STM.TChan]:
+Result size of Common sub-expression
+  = {terms: 679, types: 1,296, coercions: 8}
+!!! Common sub-expression [Control.Concurrent.STM.TChan]: finished in 14.72 milliseconds, allocated 9.070 megabytes
+*** Float inwards [Control.Concurrent.STM.TChan]:
+Result size of Float inwards
+  = {terms: 679, types: 1,296, coercions: 8}
+!!! Float inwards [Control.Concurrent.STM.TChan]: finished in 4.93 milliseconds, allocated 4.119 megabytes
+*** Simplifier [Control.Concurrent.STM.TChan]:
+Result size of Simplifier
+  = {terms: 657, types: 1,262, coercions: 8}
+!!! Simplifier [Control.Concurrent.STM.TChan]: finished in 34.83 milliseconds, allocated 21.205 megabytes
+*** CoreTidy [Control.Concurrent.STM.TChan]:
+Result size of Tidy Core = {terms: 680, types: 1,314, coercions: 8}
+!!! CoreTidy [Control.Concurrent.STM.TChan]: finished in 28.61 milliseconds, allocated 21.017 megabytes
+writeBinIface: 97 Names
+writeBinIface: 149 dict entries
+writeBinIface: 97 Names
+writeBinIface: 149 dict entries
+*** CorePrep [Control.Concurrent.STM.TChan]:
+Result size of CorePrep = {terms: 820, types: 1,565, coercions: 8}
+!!! CorePrep [Control.Concurrent.STM.TChan]: finished in 16.97 milliseconds, allocated 9.440 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TChan]:
+!!! CodeGen [Control.Concurrent.STM.TChan]: finished in 572.92 milliseconds, allocated 327.756 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc8833_0/ghc_40.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TChan.o
+*** CorePrep [Control.Concurrent.STM.TChan]:
+Result size of CorePrep = {terms: 820, types: 1,565, coercions: 8}
+!!! CorePrep [Control.Concurrent.STM.TChan]: finished in 14.19 milliseconds, allocated 8.377 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TChan]:
+!!! CodeGen [Control.Concurrent.STM.TChan]: finished in 561.22 milliseconds, allocated 347.072 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8833_0/ghc_42.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TChan.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8833_0/ghc_43.c /tmp/ghc8833_0/ghc_42.s /tmp/ghc8833_0/ghc_41.c /tmp/ghc8833_0/ghc_40.s /tmp/ghc8833_0/ghc_39.s
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_43.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_41.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_39.s
+compile: input file /tmp/ghc8833_0/ghc_5.hscpp
+*** Checking old interface for Control.Concurrent.STM.TVar:
+[ 6 of 10] Compiling Control.Concurrent.STM.TVar ( Control/Concurrent/STM/TVar.hs, dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TVar.o )
+*** Parser [Control.Concurrent.STM.TVar]:
+!!! Parser [Control.Concurrent.STM.TVar]: finished in 12.65 milliseconds, allocated 11.052 megabytes
+*** Renamer/typechecker [Control.Concurrent.STM.TVar]:
+!!! Renamer/typechecker [Control.Concurrent.STM.TVar]: finished in 60.37 milliseconds, allocated 45.871 megabytes
+*** Desugar [Control.Concurrent.STM.TVar]:
+Result size of Desugar (after optimization)
+  = {terms: 75, types: 152, coercions: 7}
+!!! Desugar [Control.Concurrent.STM.TVar]: finished in 7.67 milliseconds, allocated 4.339 megabytes
+*** Simplifier [Control.Concurrent.STM.TVar]:
+Result size of Simplifier iteration=1
+  = {terms: 76, types: 146, coercions: 18}
+Result size of Simplifier = {terms: 76, types: 146, coercions: 18}
+!!! Simplifier [Control.Concurrent.STM.TVar]: finished in 8.16 milliseconds, allocated 4.418 megabytes
+*** Specialise [Control.Concurrent.STM.TVar]:
+Result size of Specialise = {terms: 76, types: 146, coercions: 18}
+!!! Specialise [Control.Concurrent.STM.TVar]: finished in 1.25 milliseconds, allocated 0.793 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TVar]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 83, types: 176, coercions: 18}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TVar]: finished in 6.60 milliseconds, allocated 4.039 megabytes
+*** Simplifier [Control.Concurrent.STM.TVar]:
+Result size of Simplifier iteration=1
+  = {terms: 83, types: 162, coercions: 17}
+Result size of Simplifier iteration=2
+  = {terms: 79, types: 142, coercions: 16}
+Result size of Simplifier = {terms: 79, types: 142, coercions: 16}
+!!! Simplifier [Control.Concurrent.STM.TVar]: finished in 13.86 milliseconds, allocated 7.671 megabytes
+*** Simplifier [Control.Concurrent.STM.TVar]:
+Result size of Simplifier = {terms: 79, types: 142, coercions: 16}
+!!! Simplifier [Control.Concurrent.STM.TVar]: finished in 4.38 milliseconds, allocated 2.302 megabytes
+*** Simplifier [Control.Concurrent.STM.TVar]:
+Result size of Simplifier = {terms: 79, types: 142, coercions: 16}
+!!! Simplifier [Control.Concurrent.STM.TVar]: finished in 4.60 milliseconds, allocated 2.305 megabytes
+*** Float inwards [Control.Concurrent.STM.TVar]:
+Result size of Float inwards
+  = {terms: 79, types: 142, coercions: 16}
+!!! Float inwards [Control.Concurrent.STM.TVar]: finished in 1.15 milliseconds, allocated 0.781 megabytes
+*** Called arity analysis [Control.Concurrent.STM.TVar]:
+Result size of Called arity analysis
+  = {terms: 79, types: 142, coercions: 16}
+!!! Called arity analysis [Control.Concurrent.STM.TVar]: finished in 1.18 milliseconds, allocated 0.742 megabytes
+*** Simplifier [Control.Concurrent.STM.TVar]:
+Result size of Simplifier = {terms: 79, types: 142, coercions: 16}
+!!! Simplifier [Control.Concurrent.STM.TVar]: finished in 4.39 milliseconds, allocated 2.301 megabytes
+*** Demand analysis [Control.Concurrent.STM.TVar]:
+Result size of Demand analysis
+  = {terms: 79, types: 142, coercions: 16}
+!!! Demand analysis [Control.Concurrent.STM.TVar]: finished in 3.33 milliseconds, allocated 1.705 megabytes
+*** Worker Wrapper binds [Control.Concurrent.STM.TVar]:
+Result size of Worker Wrapper binds
+  = {terms: 79, types: 142, coercions: 16}
+!!! Worker Wrapper binds [Control.Concurrent.STM.TVar]: finished in 0.74 milliseconds, allocated 0.505 megabytes
+*** Simplifier [Control.Concurrent.STM.TVar]:
+Result size of Simplifier = {terms: 79, types: 142, coercions: 16}
+!!! Simplifier [Control.Concurrent.STM.TVar]: finished in 5.47 milliseconds, allocated 2.825 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TVar]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 79, types: 142, coercions: 16}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TVar]: finished in 5.97 milliseconds, allocated 3.560 megabytes
+*** Common sub-expression [Control.Concurrent.STM.TVar]:
+Result size of Common sub-expression
+  = {terms: 79, types: 142, coercions: 16}
+!!! Common sub-expression [Control.Concurrent.STM.TVar]: finished in 2.04 milliseconds, allocated 1.237 megabytes
+*** Float inwards [Control.Concurrent.STM.TVar]:
+Result size of Float inwards
+  = {terms: 79, types: 142, coercions: 16}
+!!! Float inwards [Control.Concurrent.STM.TVar]: finished in 1.62 milliseconds, allocated 0.777 megabytes
+*** Simplifier [Control.Concurrent.STM.TVar]:
+Result size of Simplifier iteration=1
+  = {terms: 79, types: 142, coercions: 16}
+Result size of Simplifier = {terms: 79, types: 142, coercions: 16}
+!!! Simplifier [Control.Concurrent.STM.TVar]: finished in 10.45 milliseconds, allocated 5.772 megabytes
+*** CoreTidy [Control.Concurrent.STM.TVar]:
+Result size of Tidy Core = {terms: 79, types: 142, coercions: 16}
+!!! CoreTidy [Control.Concurrent.STM.TVar]: finished in 2.90 milliseconds, allocated 1.467 megabytes
+writeBinIface: 23 Names
+writeBinIface: 57 dict entries
+writeBinIface: 23 Names
+writeBinIface: 57 dict entries
+*** CorePrep [Control.Concurrent.STM.TVar]:
+Result size of CorePrep = {terms: 106, types: 173, coercions: 16}
+!!! CorePrep [Control.Concurrent.STM.TVar]: finished in 2.81 milliseconds, allocated 1.735 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TVar]:
+!!! CodeGen [Control.Concurrent.STM.TVar]: finished in 54.77 milliseconds, allocated 32.766 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc8833_0/ghc_45.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TVar.o
+*** CorePrep [Control.Concurrent.STM.TVar]:
+Result size of CorePrep = {terms: 106, types: 173, coercions: 16}
+!!! CorePrep [Control.Concurrent.STM.TVar]: finished in 2.46 milliseconds, allocated 1.486 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TVar]:
+!!! CodeGen [Control.Concurrent.STM.TVar]: finished in 57.98 milliseconds, allocated 34.158 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8833_0/ghc_47.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TVar.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8833_0/ghc_48.c /tmp/ghc8833_0/ghc_47.s /tmp/ghc8833_0/ghc_46.c /tmp/ghc8833_0/ghc_45.s /tmp/ghc8833_0/ghc_44.s
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_48.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_46.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_44.s
+compile: input file /tmp/ghc8833_0/ghc_3.hscpp
+*** Checking old interface for Control.Concurrent.STM.TArray:
+[ 7 of 10] Compiling Control.Concurrent.STM.TArray ( Control/Concurrent/STM/TArray.hs, dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TArray.o )
+*** Parser [Control.Concurrent.STM.TArray]:
+!!! Parser [Control.Concurrent.STM.TArray]: finished in 12.54 milliseconds, allocated 11.045 megabytes
+*** Renamer/typechecker [Control.Concurrent.STM.TArray]:
+!!! Renamer/typechecker [Control.Concurrent.STM.TArray]: finished in 550.84 milliseconds, allocated 409.317 megabytes
+*** Desugar [Control.Concurrent.STM.TArray]:
+Result size of Desugar (after optimization)
+  = {terms: 200, types: 412, coercions: 42}
+!!! Desugar [Control.Concurrent.STM.TArray]: finished in 23.37 milliseconds, allocated 14.040 megabytes
+*** Simplifier [Control.Concurrent.STM.TArray]:
+Result size of Simplifier iteration=1
+  = {terms: 204, types: 435, coercions: 60}
+Result size of Simplifier = {terms: 204, types: 435, coercions: 60}
+!!! Simplifier [Control.Concurrent.STM.TArray]: finished in 15.77 milliseconds, allocated 9.448 megabytes
+*** Specialise [Control.Concurrent.STM.TArray]:
+Result size of Specialise = {terms: 204, types: 435, coercions: 60}
+!!! Specialise [Control.Concurrent.STM.TArray]: finished in 2.56 milliseconds, allocated 1.839 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TArray]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 225, types: 482, coercions: 60}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TArray]: finished in 18.48 milliseconds, allocated 14.244 megabytes
+*** Simplifier [Control.Concurrent.STM.TArray]:
+Result size of Simplifier iteration=1
+  = {terms: 218, types: 459, coercions: 82}
+Result size of Simplifier = {terms: 218, types: 459, coercions: 82}
+!!! Simplifier [Control.Concurrent.STM.TArray]: finished in 19.42 milliseconds, allocated 11.434 megabytes
+*** Simplifier [Control.Concurrent.STM.TArray]:
+Result size of Simplifier = {terms: 218, types: 459, coercions: 82}
+!!! Simplifier [Control.Concurrent.STM.TArray]: finished in 9.64 milliseconds, allocated 5.350 megabytes
+*** Simplifier [Control.Concurrent.STM.TArray]:
+Result size of Simplifier = {terms: 218, types: 459, coercions: 82}
+!!! Simplifier [Control.Concurrent.STM.TArray]: finished in 8.85 milliseconds, allocated 5.350 megabytes
+*** Float inwards [Control.Concurrent.STM.TArray]:
+Result size of Float inwards
+  = {terms: 218, types: 459, coercions: 82}
+!!! Float inwards [Control.Concurrent.STM.TArray]: finished in 1.75 milliseconds, allocated 1.368 megabytes
+*** Called arity analysis [Control.Concurrent.STM.TArray]:
+Result size of Called arity analysis
+  = {terms: 218, types: 459, coercions: 82}
+!!! Called arity analysis [Control.Concurrent.STM.TArray]: finished in 3.12 milliseconds, allocated 2.391 megabytes
+*** Simplifier [Control.Concurrent.STM.TArray]:
+Result size of Simplifier = {terms: 218, types: 459, coercions: 82}
+!!! Simplifier [Control.Concurrent.STM.TArray]: finished in 9.78 milliseconds, allocated 5.350 megabytes
+*** Demand analysis [Control.Concurrent.STM.TArray]:
+Result size of Demand analysis
+  = {terms: 218, types: 459, coercions: 82}
+!!! Demand analysis [Control.Concurrent.STM.TArray]: finished in 7.02 milliseconds, allocated 5.069 megabytes
+*** Worker Wrapper binds [Control.Concurrent.STM.TArray]:
+Result size of Worker Wrapper binds
+  = {terms: 218, types: 459, coercions: 82}
+!!! Worker Wrapper binds [Control.Concurrent.STM.TArray]: finished in 1.42 milliseconds, allocated 0.835 megabytes
+*** Simplifier [Control.Concurrent.STM.TArray]:
+Result size of Simplifier = {terms: 218, types: 459, coercions: 82}
+!!! Simplifier [Control.Concurrent.STM.TArray]: finished in 11.50 milliseconds, allocated 6.731 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TArray]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 222, types: 461, coercions: 82}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TArray]: finished in 20.38 milliseconds, allocated 14.737 megabytes
+*** Common sub-expression [Control.Concurrent.STM.TArray]:
+Result size of Common sub-expression
+  = {terms: 219, types: 453, coercions: 82}
+!!! Common sub-expression [Control.Concurrent.STM.TArray]: finished in 3.61 milliseconds, allocated 2.429 megabytes
+*** Float inwards [Control.Concurrent.STM.TArray]:
+Result size of Float inwards
+  = {terms: 219, types: 453, coercions: 82}
+!!! Float inwards [Control.Concurrent.STM.TArray]: finished in 1.39 milliseconds, allocated 1.151 megabytes
+*** Simplifier [Control.Concurrent.STM.TArray]:
+Result size of Simplifier = {terms: 217, types: 442, coercions: 82}
+!!! Simplifier [Control.Concurrent.STM.TArray]: finished in 11.78 milliseconds, allocated 7.049 megabytes
+*** CoreTidy [Control.Concurrent.STM.TArray]:
+Result size of Tidy Core = {terms: 217, types: 442, coercions: 82}
+!!! CoreTidy [Control.Concurrent.STM.TArray]: finished in 8.57 milliseconds, allocated 6.385 megabytes
+writeBinIface: 50 Names
+writeBinIface: 100 dict entries
+writeBinIface: 50 Names
+writeBinIface: 100 dict entries
+*** CorePrep [Control.Concurrent.STM.TArray]:
+Result size of CorePrep = {terms: 267, types: 529, coercions: 82}
+!!! CorePrep [Control.Concurrent.STM.TArray]: finished in 4.64 milliseconds, allocated 2.983 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TArray]:
+!!! CodeGen [Control.Concurrent.STM.TArray]: finished in 142.74 milliseconds, allocated 82.614 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc8833_0/ghc_50.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TArray.o
+*** CorePrep [Control.Concurrent.STM.TArray]:
+Result size of CorePrep = {terms: 267, types: 529, coercions: 82}
+!!! CorePrep [Control.Concurrent.STM.TArray]: finished in 4.50 milliseconds, allocated 2.601 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TArray]:
+!!! CodeGen [Control.Concurrent.STM.TArray]: finished in 150.51 milliseconds, allocated 87.192 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8833_0/ghc_52.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TArray.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8833_0/ghc_53.c /tmp/ghc8833_0/ghc_52.s /tmp/ghc8833_0/ghc_51.c /tmp/ghc8833_0/ghc_50.s /tmp/ghc8833_0/ghc_49.s
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_53.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_51.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_49.s
+compile: input file /tmp/ghc8833_0/ghc_1.hscpp
+*** Checking old interface for Control.Concurrent.STM:
+[ 8 of 10] Compiling Control.Concurrent.STM ( Control/Concurrent/STM.hs, dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM.o )
+*** Parser [Control.Concurrent.STM]:
+!!! Parser [Control.Concurrent.STM]: finished in 7.41 milliseconds, allocated 7.558 megabytes
+*** Renamer/typechecker [Control.Concurrent.STM]:
+!!! Renamer/typechecker [Control.Concurrent.STM]: finished in 15.27 milliseconds, allocated 12.229 megabytes
+*** Desugar [Control.Concurrent.STM]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Control.Concurrent.STM]: finished in 2.07 milliseconds, allocated 1.460 megabytes
+*** Simplifier [Control.Concurrent.STM]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM]: finished in 1.64 milliseconds, allocated 0.960 megabytes
+*** Specialise [Control.Concurrent.STM]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Control.Concurrent.STM]: finished in 0.59 milliseconds, allocated 0.366 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM]: finished in 1.31 milliseconds, allocated 0.785 megabytes
+*** Simplifier [Control.Concurrent.STM]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM]: finished in 0.88 milliseconds, allocated 0.467 megabytes
+*** Simplifier [Control.Concurrent.STM]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM]: finished in 1.44 milliseconds, allocated 0.469 megabytes
+*** Simplifier [Control.Concurrent.STM]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM]: finished in 0.89 milliseconds, allocated 0.467 megabytes
+*** Float inwards [Control.Concurrent.STM]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Control.Concurrent.STM]: finished in 0.51 milliseconds, allocated 0.350 megabytes
+*** Called arity analysis [Control.Concurrent.STM]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Control.Concurrent.STM]: finished in 0.57 milliseconds, allocated 0.389 megabytes
+*** Simplifier [Control.Concurrent.STM]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM]: finished in 0.83 milliseconds, allocated 0.467 megabytes
+*** Demand analysis [Control.Concurrent.STM]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Control.Concurrent.STM]: finished in 0.76 milliseconds, allocated 0.420 megabytes
+*** Worker Wrapper binds [Control.Concurrent.STM]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Control.Concurrent.STM]: finished in 0.62 milliseconds, allocated 0.389 megabytes
+*** Simplifier [Control.Concurrent.STM]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM]: finished in 0.81 milliseconds, allocated 0.467 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM]: finished in 1.26 milliseconds, allocated 0.781 megabytes
+*** Common sub-expression [Control.Concurrent.STM]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Control.Concurrent.STM]: finished in 0.56 milliseconds, allocated 0.396 megabytes
+*** Float inwards [Control.Concurrent.STM]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Control.Concurrent.STM]: finished in 0.50 milliseconds, allocated 0.350 megabytes
+*** Simplifier [Control.Concurrent.STM]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.Concurrent.STM]: finished in 0.82 milliseconds, allocated 0.467 megabytes
+*** CoreTidy [Control.Concurrent.STM]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Control.Concurrent.STM]: finished in 0.94 milliseconds, allocated 0.545 megabytes
+writeBinIface: 74 Names
+writeBinIface: 103 dict entries
+writeBinIface: 74 Names
+writeBinIface: 103 dict entries
+*** CorePrep [Control.Concurrent.STM]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Control.Concurrent.STM]: finished in 0.65 milliseconds, allocated 0.397 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM]:
+!!! CodeGen [Control.Concurrent.STM]: finished in 3.03 milliseconds, allocated 1.925 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc8833_0/ghc_55.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM.o
+*** CorePrep [Control.Concurrent.STM]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Control.Concurrent.STM]: finished in 0.62 milliseconds, allocated 0.397 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM]:
+!!! CodeGen [Control.Concurrent.STM]: finished in 3.07 milliseconds, allocated 1.903 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8833_0/ghc_57.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8833_0/ghc_58.c /tmp/ghc8833_0/ghc_57.s /tmp/ghc8833_0/ghc_56.c /tmp/ghc8833_0/ghc_55.s /tmp/ghc8833_0/ghc_54.s
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_58.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_56.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_54.s
+compile: input file ./Control/Concurrent/STM/TSem.hs
+*** Checking old interface for Control.Concurrent.STM.TSem:
+[ 9 of 10] Compiling Control.Concurrent.STM.TSem ( Control/Concurrent/STM/TSem.hs, dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TSem.o )
+*** Parser [Control.Concurrent.STM.TSem]:
+!!! Parser [Control.Concurrent.STM.TSem]: finished in 6.37 milliseconds, allocated 5.476 megabytes
+*** Renamer/typechecker [Control.Concurrent.STM.TSem]:
+!!! Renamer/typechecker [Control.Concurrent.STM.TSem]: finished in 80.66 milliseconds, allocated 54.365 megabytes
+*** Desugar [Control.Concurrent.STM.TSem]:
+Result size of Desugar (after optimization)
+  = {terms: 77, types: 61, coercions: 18}
+!!! Desugar [Control.Concurrent.STM.TSem]: finished in 5.05 milliseconds, allocated 3.025 megabytes
+*** Simplifier [Control.Concurrent.STM.TSem]:
+Result size of Simplifier iteration=1
+  = {terms: 90, types: 77, coercions: 23}
+Result size of Simplifier = {terms: 90, types: 77, coercions: 23}
+!!! Simplifier [Control.Concurrent.STM.TSem]: finished in 6.78 milliseconds, allocated 3.325 megabytes
+*** Specialise [Control.Concurrent.STM.TSem]:
+Result size of Specialise = {terms: 90, types: 77, coercions: 23}
+!!! Specialise [Control.Concurrent.STM.TSem]: finished in 1.09 milliseconds, allocated 0.746 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TSem]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 102, types: 90, coercions: 23}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.STM.TSem]: finished in 4.63 milliseconds, allocated 2.757 megabytes
+*** Simplifier [Control.Concurrent.STM.TSem]:
+Result size of Simplifier iteration=1
+  = {terms: 102, types: 90, coercions: 37}
+Result size of Simplifier = {terms: 102, types: 90, coercions: 37}
+!!! Simplifier [Control.Concurrent.STM.TSem]: finished in 8.40 milliseconds, allocated 4.380 megabytes
+*** Simplifier [Control.Concurrent.STM.TSem]:
+Result size of Simplifier = {terms: 102, types: 90, coercions: 37}
+!!! Simplifier [Control.Concurrent.STM.TSem]: finished in 4.47 milliseconds, allocated 2.177 megabytes
+*** Simplifier [Control.Concurrent.STM.TSem]:
+Result size of Simplifier = {terms: 102, types: 90, coercions: 37}
+!!! Simplifier [Control.Concurrent.STM.TSem]: finished in 3.69 milliseconds, allocated 2.176 megabytes
+*** Float inwards [Control.Concurrent.STM.TSem]:
+Result size of Float inwards
+  = {terms: 102, types: 90, coercions: 37}
+!!! Float inwards [Control.Concurrent.STM.TSem]: finished in 1.12 milliseconds, allocated 0.746 megabytes
+*** Called arity analysis [Control.Concurrent.STM.TSem]:
+Result size of Called arity analysis
+  = {terms: 102, types: 90, coercions: 37}
+!!! Called arity analysis [Control.Concurrent.STM.TSem]: finished in 1.54 milliseconds, allocated 0.980 megabytes
+*** Simplifier [Control.Concurrent.STM.TSem]:
+Result size of Simplifier = {terms: 102, types: 90, coercions: 37}
+!!! Simplifier [Control.Concurrent.STM.TSem]: finished in 3.77 milliseconds, allocated 2.176 megabytes
+*** Demand analysis [Control.Concurrent.STM.TSem]:
+Result size of Demand analysis
+  = {terms: 102, types: 90, coercions: 37}
+!!! Demand analysis [Control.Concurrent.STM.TSem]: finished in 3.23 milliseconds, allocated 1.826 megabytes
+*** Worker Wrapper binds [Control.Concurrent.STM.TSem]:
+Result size of Worker Wrapper binds
+  = {terms: 102, types: 90, coercions: 37}
+!!! Worker Wrapper binds [Control.Concurrent.STM.TSem]: finished in 1.03 milliseconds, allocated 0.591 megabytes
+*** Simplifier [Control.Concurrent.STM.TSem]:
+Result size of Simplifier = {terms: 102, types: 90, coercions: 37}
+!!! Simplifier [Control.Concurrent.STM.TSem]: finished in 4.86 milliseconds, allocated 2.332 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TSem]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 102, types: 90, coercions: 37}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.STM.TSem]: finished in 5.62 milliseconds, allocated 3.530 megabytes
+*** Common sub-expression [Control.Concurrent.STM.TSem]:
+Result size of Common sub-expression
+  = {terms: 101, types: 90, coercions: 37}
+!!! Common sub-expression [Control.Concurrent.STM.TSem]: finished in 1.58 milliseconds, allocated 0.976 megabytes
+*** Float inwards [Control.Concurrent.STM.TSem]:
+Result size of Float inwards
+  = {terms: 101, types: 90, coercions: 37}
+!!! Float inwards [Control.Concurrent.STM.TSem]: finished in 1.07 milliseconds, allocated 0.746 megabytes
+*** Simplifier [Control.Concurrent.STM.TSem]:
+Result size of Simplifier = {terms: 99, types: 89, coercions: 37}
+!!! Simplifier [Control.Concurrent.STM.TSem]: finished in 4.58 milliseconds, allocated 2.273 megabytes
+*** CoreTidy [Control.Concurrent.STM.TSem]:
+Result size of Tidy Core = {terms: 99, types: 89, coercions: 37}
+!!! CoreTidy [Control.Concurrent.STM.TSem]: finished in 3.64 milliseconds, allocated 2.447 megabytes
+writeBinIface: 38 Names
+writeBinIface: 78 dict entries
+writeBinIface: 38 Names
+writeBinIface: 78 dict entries
+*** CorePrep [Control.Concurrent.STM.TSem]:
+Result size of CorePrep = {terms: 119, types: 109, coercions: 37}
+!!! CorePrep [Control.Concurrent.STM.TSem]: finished in 3.00 milliseconds, allocated 1.371 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TSem]:
+!!! CodeGen [Control.Concurrent.STM.TSem]: finished in 139.53 milliseconds, allocated 40.522 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc8833_0/ghc_60.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TSem.o
+*** CorePrep [Control.Concurrent.STM.TSem]:
+Result size of CorePrep = {terms: 119, types: 109, coercions: 37}
+!!! CorePrep [Control.Concurrent.STM.TSem]: finished in 2.20 milliseconds, allocated 1.337 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.STM.TSem]:
+!!! CodeGen [Control.Concurrent.STM.TSem]: finished in 73.15 milliseconds, allocated 43.141 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/STM -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8833_0/ghc_62.s -o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TSem.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8833_0/ghc_63.c /tmp/ghc8833_0/ghc_62.s /tmp/ghc8833_0/ghc_61.c /tmp/ghc8833_0/ghc_60.s /tmp/ghc8833_0/ghc_59.s
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_63.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_61.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_59.s
+compile: input file /tmp/ghc8833_0/ghc_17.hscpp
+*** Checking old interface for Control.Sequential.STM:
+[10 of 10] Compiling Control.Sequential.STM ( Control/Sequential/STM.hs, dist/dist-sandbox-8e35af7f/build/Control/Sequential/STM.o )
+*** Parser [Control.Sequential.STM]:
+!!! Parser [Control.Sequential.STM]: finished in 17.07 milliseconds, allocated 13.265 megabytes
+*** Renamer/typechecker [Control.Sequential.STM]:
+!!! Renamer/typechecker [Control.Sequential.STM]: finished in 305.60 milliseconds, allocated 235.684 megabytes
+*** Desugar [Control.Sequential.STM]:
+Result size of Desugar (after optimization)
+  = {terms: 284, types: 541, coercions: 74}
+!!! Desugar [Control.Sequential.STM]: finished in 26.47 milliseconds, allocated 15.010 megabytes
+*** Simplifier [Control.Sequential.STM]:
+Result size of Simplifier iteration=1
+  = {terms: 306, types: 594, coercions: 145}
+Result size of Simplifier
+  = {terms: 306, types: 594, coercions: 145}
+!!! Simplifier [Control.Sequential.STM]: finished in 23.67 milliseconds, allocated 14.068 megabytes
+*** Specialise [Control.Sequential.STM]:
+Result size of Specialise
+  = {terms: 306, types: 594, coercions: 145}
+!!! Specialise [Control.Sequential.STM]: finished in 4.13 milliseconds, allocated 2.608 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Sequential.STM]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 352, types: 735, coercions: 145}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Sequential.STM]: finished in 34.74 milliseconds, allocated 25.064 megabytes
+*** Simplifier [Control.Sequential.STM]:
+Result size of Simplifier iteration=1
+  = {terms: 337, types: 706, coercions: 232}
+Result size of Simplifier
+  = {terms: 316, types: 615, coercions: 224}
+!!! Simplifier [Control.Sequential.STM]: finished in 33.20 milliseconds, allocated 20.318 megabytes
+*** Simplifier [Control.Sequential.STM]:
+Result size of Simplifier
+  = {terms: 316, types: 615, coercions: 224}
+!!! Simplifier [Control.Sequential.STM]: finished in 13.06 milliseconds, allocated 8.627 megabytes
+*** Simplifier [Control.Sequential.STM]:
+Result size of Simplifier
+  = {terms: 316, types: 615, coercions: 224}
+!!! Simplifier [Control.Sequential.STM]: finished in 15.45 milliseconds, allocated 8.625 megabytes
+*** Float inwards [Control.Sequential.STM]:
+Result size of Float inwards
+  = {terms: 316, types: 615, coercions: 224}
+!!! Float inwards [Control.Sequential.STM]: finished in 3.00 milliseconds, allocated 2.269 megabytes
+*** Called arity analysis [Control.Sequential.STM]:
+Result size of Called arity analysis
+  = {terms: 316, types: 615, coercions: 224}
+!!! Called arity analysis [Control.Sequential.STM]: finished in 5.50 milliseconds, allocated 4.012 megabytes
+*** Simplifier [Control.Sequential.STM]:
+Result size of Simplifier
+  = {terms: 316, types: 615, coercions: 224}
+!!! Simplifier [Control.Sequential.STM]: finished in 16.19 milliseconds, allocated 8.639 megabytes
+*** Demand analysis [Control.Sequential.STM]:
+Result size of Demand analysis
+  = {terms: 316, types: 615, coercions: 224}
+!!! Demand analysis [Control.Sequential.STM]: finished in 12.15 milliseconds, allocated 7.381 megabytes
+*** Worker Wrapper binds [Control.Sequential.STM]:
+Result size of Worker Wrapper binds
+  = {terms: 316, types: 615, coercions: 224}
+!!! Worker Wrapper binds [Control.Sequential.STM]: finished in 1.81 milliseconds, allocated 1.065 megabytes
+*** Simplifier [Control.Sequential.STM]:
+Result size of Simplifier
+  = {terms: 316, types: 615, coercions: 224}
+!!! Simplifier [Control.Sequential.STM]: finished in 18.29 milliseconds, allocated 10.655 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Sequential.STM]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 327, types: 651, coercions: 224}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Sequential.STM]: finished in 26.21 milliseconds, allocated 17.731 megabytes
+*** Common sub-expression [Control.Sequential.STM]:
+Result size of Common sub-expression
+  = {terms: 322, types: 640, coercions: 224}
+!!! Common sub-expression [Control.Sequential.STM]: finished in 6.04 milliseconds, allocated 3.935 megabytes
+*** Float inwards [Control.Sequential.STM]:
+Result size of Float inwards
+  = {terms: 322, types: 640, coercions: 224}
+!!! Float inwards [Control.Sequential.STM]: finished in 3.02 milliseconds, allocated 2.208 megabytes
+*** Simplifier [Control.Sequential.STM]:
+Result size of Simplifier
+  = {terms: 318, types: 626, coercions: 224}
+!!! Simplifier [Control.Sequential.STM]: finished in 20.69 milliseconds, allocated 11.377 megabytes
+*** CoreTidy [Control.Sequential.STM]:
+Result size of Tidy Core = {terms: 318, types: 626, coercions: 224}
+!!! CoreTidy [Control.Sequential.STM]: finished in 15.45 milliseconds, allocated 9.887 megabytes
+writeBinIface: 70 Names
+writeBinIface: 123 dict entries
+writeBinIface: 70 Names
+writeBinIface: 123 dict entries
+*** CorePrep [Control.Sequential.STM]:
+Result size of CorePrep = {terms: 414, types: 775, coercions: 224}
+!!! CorePrep [Control.Sequential.STM]: finished in 9.47 milliseconds, allocated 5.417 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Sequential.STM]:
+!!! CodeGen [Control.Sequential.STM]: finished in 244.80 milliseconds, allocated 143.654 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Sequential -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -x assembler -c /tmp/ghc8833_0/ghc_65.s -o dist/dist-sandbox-8e35af7f/build/Control/Sequential/STM.o
+*** CorePrep [Control.Sequential.STM]:
+Result size of CorePrep = {terms: 414, types: 775, coercions: 224}
+!!! CorePrep [Control.Sequential.STM]: finished in 6.92 milliseconds, allocated 4.737 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Sequential.STM]:
+!!! CodeGen [Control.Sequential.STM]: finished in 256.16 milliseconds, allocated 150.892 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Sequential -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build -Idist/dist-sandbox-8e35af7f/build/autogen -Idist/dist-sandbox-8e35af7f/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8833_0/ghc_67.s -o dist/dist-sandbox-8e35af7f/build/Control/Sequential/STM.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc8833_0/ghc_68.c /tmp/ghc8833_0/ghc_67.s /tmp/ghc8833_0/ghc_66.c /tmp/ghc8833_0/ghc_65.s /tmp/ghc8833_0/ghc_64.s
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_68.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_66.c
+Warning: deleting non-existent /tmp/ghc8833_0/ghc_64.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc8833_0/ghc_17.hscpp /tmp/ghc8833_0/ghc_15.hscpp /tmp/ghc8833_0/ghc_13.hscpp /tmp/ghc8833_0/ghc_11.hscpp /tmp/ghc8833_0/ghc_9.hscpp /tmp/ghc8833_0/ghc_7.hscpp /tmp/ghc8833_0/ghc_5.hscpp /tmp/ghc8833_0/ghc_3.hscpp /tmp/ghc8833_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8833_0
+Linking...
+[(SimpleUnitId (ComponentId "array-0.5.1.0"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "array"}, pkgVersion = Version {versionBranch =
+[0,5,1,0], versionTags = []}},ModuleRenaming True []),(SimpleUnitId
+(ComponentId "base-4.9.0.0"),PackageIdentifier {pkgName = PackageName
+{unPackageName = "base"}, pkgVersion = Version {versionBranch = [4,9,0,0],
+versionTags = []}},ModuleRenaming True [])]
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/ar",["-r","-v","dist/dist-sandbox-8e35af7f/build/objs-8822/libHSstm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio.a","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM.o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TArray.o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TVar.o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TChan.o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TMVar.o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TQueue.o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TBQueue.o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TSem.o","dist/dist-sandbox-8e35af7f/build/Control/Monad/STM.o","dist/dist-sandbox-8e35af7f/build/Control/Sequential/STM.o"])
+/usr/bin/ar: creating dist/dist-sandbox-8e35af7f/build/objs-8822/libHSstm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio.a
+a - dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TArray.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TVar.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TChan.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TMVar.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TQueue.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TBQueue.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TSem.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Monad/STM.o
+a - dist/dist-sandbox-8e35af7f/build/Control/Sequential/STM.o
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["-shared","-dynamic","-dynload deploy","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/array/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/base/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build","-optl-Wl,-rpath,/home/omer/haskell/ghc/rts/dist/build","-no-auto-link-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-db","dist/dist-sandbox-8e35af7f/package.conf.inplace","-package-id","array-0.5.1.0","-package-id","base-4.9.0.0","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TArray.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TVar.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TChan.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TMVar.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TQueue.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TBQueue.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TSem.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Monad/STM.dyn_o","dist/dist-sandbox-8e35af7f/build/Control/Sequential/STM.dyn_o","-o","dist/dist-sandbox-8e35af7f/build/libHSstm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio-ghc8.1.20160328.so","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 2 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-8e35af7f/package.conf.inplace/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-8e35af7f/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/haskell/ghc/libraries/array/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/base/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build -Wl,-rpath,/home/omer/haskell/ghc/rts/dist/build -o dist/dist-sandbox-8e35af7f/build/libHSstm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio-ghc8.1.20160328.so -shared -Wl,-Bsymbolic -Wl,-h,libHSstm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio-ghc8.1.20160328.so dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TArray.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TVar.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TChan.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TMVar.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TQueue.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TBQueue.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TSem.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Monad/STM.dyn_o dist/dist-sandbox-8e35af7f/build/Control/Sequential/STM.dyn_o -L/home/omer/haskell/ghc/libraries/array/dist-install/build -L/home/omer/haskell/ghc/libraries/base/dist-install/build -L/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build -L/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build -L/home/omer/haskell/ghc/rts/dist/build -lHSarray-0.5.1.0-ghc8.1.20160328 -lHSbase-4.9.0.0-ghc8.1.20160328 -lHSinteger-gmp-1.0.0.1-ghc8.1.20160328 -lHSghc-prim-0.5.0.0-ghc8.1.20160328 -lgmp
+Created temporary directory: /tmp/ghc9400_0
+*** Deleting temp files:
+Deleting: /tmp/ghc9400_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9400_0
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","--package-db=dist/dist-sandbox-8e35af7f/package.conf.inplace","-v2"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-8e35af7f/build","-odir","dist/dist-sandbox-8e35af7f/build","-hidir","dist/dist-sandbox-8e35af7f/build","-stubdir","dist/dist-sandbox-8e35af7f/build","-i","-idist/dist-sandbox-8e35af7f/build","-i.","-idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build","-optP-include","-optPdist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h","-this-unit-id","stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","array-0.5.1.0","-package-id","base-4.9.0.0","-XHaskell2010","Control.Concurrent.STM","Control.Concurrent.STM.TArray","Control.Concurrent.STM.TVar","Control.Concurrent.STM.TChan","Control.Concurrent.STM.TMVar","Control.Concurrent.STM.TQueue","Control.Concurrent.STM.TBQueue","Control.Concurrent.STM.TSem","Control.Monad.STM","-Wall","-v3"])
+Creating package registration file:
+/tmp/pkgConf-stm-2.4.413691330691125898167.1
+directory dist/dist-sandbox-8e35af7f/doc/html/stm does exist: False
+creating
+/home/omer/haskell/lens/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1
+Installing LICENSE to
+/home/omer/haskell/lens/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1/LICENSE
+Installing library in
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Monad
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Sequential
+Installing dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM.hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TArray.hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TArray.hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TVar.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TVar.hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TChan.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TChan.hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TMVar.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TMVar.hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TQueue.hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TQueue.hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TBQueue.hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TBQueue.hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TSem.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TSem.hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Monad/STM.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Monad/STM.hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Sequential/STM.hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Sequential/STM.hi
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Monad
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Sequential
+Installing dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM.dyn_hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TArray.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TArray.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TVar.dyn_hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TVar.dyn_hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TChan.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TChan.dyn_hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TMVar.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TMVar.dyn_hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TQueue.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TQueue.dyn_hi
+Installing
+dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TBQueue.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TBQueue.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Concurrent/STM/TSem.dyn_hi
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Concurrent/STM/TSem.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Monad/STM.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Monad/STM.dyn_hi
+Installing dist/dist-sandbox-8e35af7f/build/Control/Sequential/STM.dyn_hi to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/Control/Sequential/STM.dyn_hi
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio
+Installing
+dist/dist-sandbox-8e35af7f/build/libHSstm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio.a to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/libHSstm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio.a
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/libHSstm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio.a","--strip-unneeded"])
+creating
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio
+Installing executable
+dist/dist-sandbox-8e35af7f/build/libHSstm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio-ghc8.1.20160328.so
+to
+/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/libHSstm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio-ghc8.1.20160328.so
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/lens/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/lens"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/lens/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio/libHSstm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio-ghc8.1.20160328.so","--strip-unneeded"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-stage2",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-8e35af7f/build","-odir","dist/dist-sandbox-8e35af7f/build","-hidir","dist/dist-sandbox-8e35af7f/build","-stubdir","dist/dist-sandbox-8e35af7f/build","-i","-idist/dist-sandbox-8e35af7f/build","-i.","-idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build/autogen","-Idist/dist-sandbox-8e35af7f/build","-optP-include","-optPdist/dist-sandbox-8e35af7f/build/autogen/cabal_macros.h","-this-unit-id","stm-2.4.4.1-J0CYkiAk6CWEWFlKwm3sio","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","array-0.5.1.0","-package-id","base-4.9.0.0","-XHaskell2010","Control.Concurrent.STM","Control.Concurrent.STM.TArray","Control.Concurrent.STM.TVar","Control.Concurrent.STM.TChan","Control.Concurrent.STM.TMVar","Control.Concurrent.STM.TQueue","Control.Concurrent.STM.TBQueue","Control.Concurrent.STM.TSem","Control.Monad.STM","-Wall","-v3"])
+Registering stm-2.4.4.1...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/lens/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v2"])
+cabal: Leaving directory '/tmp/cabal-tmp-8275/stm-2.4.4.1'

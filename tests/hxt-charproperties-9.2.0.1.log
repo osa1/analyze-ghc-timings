@@ -1,0 +1,743 @@
+cabal: Entering directory '/tmp/cabal-tmp-30682/hxt-charproperties-9.2.0.1'
+Configuring hxt-charproperties-9.2.0.1...
+creating dist/dist-sandbox-6f7dfc62/build
+creating dist/dist-sandbox-6f7dfc62
+creating dist
+creating dist/dist-sandbox-6f7dfc62
+creating dist/dist-sandbox-6f7dfc62/build
+Searching for ghc in path.
+Found ghc at /home/omer/haskell/ghc/inplace/bin/ghc
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--numeric-version"])
+/home/omer/haskell/ghc/inplace/bin/ghc is version 8.1.20160328
+looking for tool ghc-pkg near compiler in /home/omer/haskell/ghc/inplace/bin
+found ghc-pkg in /home/omer/haskell/ghc/inplace/bin/ghc-pkg
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["--version"])
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg is version 8.1.20160328
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--supported-languages"])
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--info"])
+Reading installed packages...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--global","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--package-db=/home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--print-libdir","-v3"])
+Dependency base ==4.9.0.0: using base-4.9.0.0
+Searching for alex in path.
+Found alex at /home/omer/.cabal/bin/alex
+("/home/omer/.cabal/bin/alex",["--version"])
+/home/omer/.cabal/bin/alex is version 3.1.5
+Searching for ar in path.
+Found ar at /usr/bin/ar
+Searching for c2hs in path.
+Cannot find c2hs on the path
+Searching for cpphs in path.
+Found cpphs at /home/omer/.cabal/bin/cpphs
+("/home/omer/.cabal/bin/cpphs",["--version"])
+/home/omer/.cabal/bin/cpphs is version 1.19.3
+Searching for gcc in path.
+Found gcc at /usr/bin/gcc
+("/usr/bin/gcc",["-dumpversion"])
+/usr/bin/gcc is version 4.8
+Searching for ghcjs in path.
+Cannot find ghcjs on the path
+Searching for ghcjs-pkg in path.
+Cannot find ghcjs-pkg on the path
+Searching for greencard in path.
+Cannot find greencard on the path
+looking for tool haddock near compiler in /home/omer/haskell/ghc/inplace/bin
+Searching for haddock in path.
+Cannot find haddock on the path
+Searching for happy in path.
+Found happy at /home/omer/.cabal/bin/happy
+("/home/omer/.cabal/bin/happy",["--version"])
+/home/omer/.cabal/bin/happy is version 1.19.5
+Searching for hmake in path.
+Cannot find hmake on the path
+Searching for hpc in path.
+Found hpc at /home/omer/haskell/ghc/inplace/bin/hpc
+("/home/omer/haskell/ghc/inplace/bin/hpc",["version"])
+/home/omer/haskell/ghc/inplace/bin/hpc is version 0.67
+looking for tool hsc2hs near compiler in /home/omer/haskell/ghc/inplace/bin
+found hsc2hs in /home/omer/haskell/ghc/inplace/bin/hsc2hs
+("/home/omer/haskell/ghc/inplace/bin/hsc2hs",["--version"])
+/home/omer/haskell/ghc/inplace/bin/hsc2hs is version 0.67
+Searching for HsColour in path.
+Cannot find HsColour on the path
+Searching for jhc in path.
+Cannot find jhc on the path
+Searching for ld in path.
+Found ld at /usr/bin/ld
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc",["-c","/tmp/16816927771714636915.c","-o","/tmp/1957747793424238335.o","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 1 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc30787_0
+*** C Compiler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/16816927771714636915.c -o /tmp/ghc30787_0/ghc_1.s -Wimplicit -S -include /home/omer/haskell/ghc/includes/ghcversion.h -I/home/omer/haskell/ghc/libraries/base/include -I/home/omer/haskell/ghc/libraries/integer-gmp/include -I/home/omer/haskell/ghc/rts/dist/build -I/home/omer/haskell/ghc/includes -I/home/omer/haskell/ghc/includes/dist-derivedconstants/header
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc30787_0/ghc_1.s -o /tmp/1957747793424238335.o
+*** Deleting temp files:
+Deleting: /tmp/ghc30787_0/ghc_2.rsp /tmp/ghc30787_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc30787_0
+("/usr/bin/ld",["-x","-r","/tmp/1957747793424238335.o","-o","/tmp/10252023621350490027.o"])
+Searching for lhc in path.
+Cannot find lhc on the path
+Searching for lhc-pkg in path.
+Cannot find lhc-pkg on the path
+Searching for pkg-config in path.
+Found pkg-config at /usr/bin/pkg-config
+("/usr/bin/pkg-config",["--version"])
+/usr/bin/pkg-config is version 0.28
+Searching for strip in path.
+Found strip at /usr/bin/strip
+("/usr/bin/strip",["--version"])
+/usr/bin/strip is version 2.24
+Searching for tar in path.
+Found tar at /bin/tar
+("/bin/tar",["--help"])
+Searching for uhc in path.
+Cannot find uhc on the path
+Using Cabal-1.23.1.0 compiled by ghc-7.10
+Using compiler: ghc-8.1.20160328
+Using install prefix: /home/omer/haskell/hxt/hxt/.cabal-sandbox
+Binaries installed in: /home/omer/haskell/hxt/hxt/.cabal-sandbox/bin
+Libraries installed in:
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX
+Private binaries installed in:
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/libexec
+Data files installed in:
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/share/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1
+Documentation installed in:
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1
+Configuration files installed in:
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/etc
+Using alex version 3.1.5 found on system at: /home/omer/.cabal/bin/alex
+Using ar found on system at: /usr/bin/ar
+No c2hs found
+Using cpphs version 1.19.3 found on system at: /home/omer/.cabal/bin/cpphs
+Using gcc version 4.8 found on system at: /usr/bin/gcc
+Using ghc version 8.1.20160328 found on system at:
+/home/omer/haskell/ghc/inplace/bin/ghc
+Using ghc-pkg version 8.1.20160328 found on system at:
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+No haddock found
+Using happy version 1.19.5 found on system at: /home/omer/.cabal/bin/happy
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hpc
+Using hsc2hs version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hsc2hs
+No hscolour found
+No jhc found
+Using ld found on system at: /usr/bin/ld
+No lhc found
+No lhc-pkg found
+Using pkg-config version 0.28 found on system at: /usr/bin/pkg-config
+Using strip version 2.24 found on system at: /usr/bin/strip
+Using tar found on system at: /bin/tar
+No uhc found
+("/usr/bin/gcc",["-std=gnu99","-fno-stack-protector","/tmp/20448977631967513926.c","-o","/tmp/13651805401540383426","-D__GLASGOW_HASKELL__=801","-Dlinux_BUILD_OS=1","-Dx86_64_BUILD_ARCH=1","-Dlinux_HOST_OS=1","-Dx86_64_HOST_ARCH=1","-Idist/dist-sandbox-6f7dfc62/build/autogen","-I.","-I/home/omer/haskell/ghc/libraries/base/include","-I/home/omer/haskell/ghc/libraries/integer-gmp/include","-I/home/omer/haskell/ghc/rts/dist/build","-I/home/omer/haskell/ghc/includes","-I/home/omer/haskell/ghc/includes/dist-derivedconstants/header","-L/home/omer/haskell/ghc/libraries/base/dist-install/build","-L/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build","-L/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build","-L/home/omer/haskell/ghc/rts/dist/build"])
+Component build order: library
+creating dist/dist-sandbox-6f7dfc62/build
+creating dist/dist-sandbox-6f7dfc62/build/autogen
+Building hxt-charproperties-9.2.0.1...
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["init","dist/dist-sandbox-6f7dfc62/package.conf.inplace","-v2"])
+GHC package manager version 8.1.20160328
+writing cache dist/dist-sandbox-6f7dfc62/package.conf.inplace/package.cache
+Preprocessing library hxt-charproperties-9.2.0.1...
+Building library...
+creating dist/dist-sandbox-6f7dfc62/build
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--make","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-6f7dfc62/build","-odir","dist/dist-sandbox-6f7dfc62/build","-hidir","dist/dist-sandbox-6f7dfc62/build","-stubdir","dist/dist-sandbox-6f7dfc62/build","-i","-idist/dist-sandbox-6f7dfc62/build","-isrc","-idist/dist-sandbox-6f7dfc62/build/autogen","-Idist/dist-sandbox-6f7dfc62/build/autogen","-Idist/dist-sandbox-6f7dfc62/build","-optP-include","-optPdist/dist-sandbox-6f7dfc62/build/autogen/cabal_macros.h","-this-unit-id","hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-db","dist/dist-sandbox-6f7dfc62/package.conf.inplace","-package-id","base-4.9.0.0","-XHaskell98","Data.Char.Properties.UnicodeBlocks","Data.Char.Properties.UnicodeCharProps","Data.Char.Properties.XMLCharProps","Data.Set.CharSet","-Wall","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 1 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6f7dfc62/package.conf.inplace/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-6f7dfc62/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-6f7dfc62/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.Char.Properties.UnicodeBlocks,*Data.Char.Properties.UnicodeCharProps,*Data.Char.Properties.XMLCharProps,*Data.Set.CharSet
+!!! Chasing dependencies: finished in 12.00 milliseconds, allocated 10.509 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 02:47:31.608465296 UTC
+         ms_mod = Data.Char.Properties.UnicodeBlocks,
+         ms_textual_imps = [(Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 02:47:31.607465296 UTC
+         ms_mod = Data.Set.CharSet,
+         ms_textual_imps = [(Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 02:47:31.609465296 UTC
+         ms_mod = Data.Char.Properties.UnicodeCharProps,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Set.CharSet)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 02:47:31.609465296 UTC
+         ms_mod = Data.Char.Properties.XMLCharProps,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Set.CharSet)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Data/Char/Properties/UnicodeBlocks.hs
+*** Checking old interface for Data.Char.Properties.UnicodeBlocks:
+[1 of 4] Compiling Data.Char.Properties.UnicodeBlocks ( src/Data/Char/Properties/UnicodeBlocks.hs, dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/UnicodeBlocks.o )
+*** Parser [Data.Char.Properties.UnicodeBlocks]:
+!!! Parser [Data.Char.Properties.UnicodeBlocks]: finished in 29.00 milliseconds, allocated 46.188 megabytes
+*** Renamer/typechecker [Data.Char.Properties.UnicodeBlocks]:
+!!! Renamer/typechecker [Data.Char.Properties.UnicodeBlocks]: finished in 102.00 milliseconds, allocated 85.285 megabytes
+*** Desugar [Data.Char.Properties.UnicodeBlocks]:
+Result size of Desugar (after optimization)
+  = {terms: 5,581, types: 4,329, coercions: 0}
+!!! Desugar [Data.Char.Properties.UnicodeBlocks]: finished in 14.00 milliseconds, allocated 19.228 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeBlocks]:
+Result size of Simplifier iteration=1
+  = {terms: 8,607, types: 9,113, coercions: 0}
+Result size of Simplifier
+  = {terms: 8,607, types: 9,113, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeBlocks]: finished in 54.00 milliseconds, allocated 49.331 megabytes
+*** Specialise [Data.Char.Properties.UnicodeBlocks]:
+Result size of Specialise
+  = {terms: 8,607, types: 9,113, coercions: 0}
+!!! Specialise [Data.Char.Properties.UnicodeBlocks]: finished in 6.00 milliseconds, allocated 8.933 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Char.Properties.UnicodeBlocks]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 9,615, types: 9,617, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Char.Properties.UnicodeBlocks]: finished in 40.00 milliseconds, allocated 26.434 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeBlocks]:
+Result size of Simplifier iteration=1
+  = {terms: 9,614, types: 9,611, coercions: 0}
+Result size of Simplifier
+  = {terms: 9,614, types: 9,611, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeBlocks]: finished in 64.00 milliseconds, allocated 64.774 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeBlocks]:
+Result size of Simplifier
+  = {terms: 9,614, types: 9,611, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeBlocks]: finished in 31.00 milliseconds, allocated 32.353 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeBlocks]:
+Result size of Simplifier
+  = {terms: 9,614, types: 9,611, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeBlocks]: finished in 44.00 milliseconds, allocated 32.352 megabytes
+*** Float inwards [Data.Char.Properties.UnicodeBlocks]:
+Result size of Float inwards
+  = {terms: 9,614, types: 9,611, coercions: 0}
+!!! Float inwards [Data.Char.Properties.UnicodeBlocks]: finished in 6.00 milliseconds, allocated 9.014 megabytes
+*** Called arity analysis [Data.Char.Properties.UnicodeBlocks]:
+Result size of Called arity analysis
+  = {terms: 9,614, types: 9,611, coercions: 0}
+!!! Called arity analysis [Data.Char.Properties.UnicodeBlocks]: finished in 7.00 milliseconds, allocated 8.269 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeBlocks]:
+Result size of Simplifier
+  = {terms: 9,614, types: 9,611, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeBlocks]: finished in 23.00 milliseconds, allocated 32.353 megabytes
+*** Demand analysis [Data.Char.Properties.UnicodeBlocks]:
+Result size of Demand analysis
+  = {terms: 9,614, types: 9,611, coercions: 0}
+!!! Demand analysis [Data.Char.Properties.UnicodeBlocks]: finished in 40.00 milliseconds, allocated 28.853 megabytes
+*** Worker Wrapper binds [Data.Char.Properties.UnicodeBlocks]:
+Result size of Worker Wrapper binds
+  = {terms: 9,614, types: 9,611, coercions: 0}
+!!! Worker Wrapper binds [Data.Char.Properties.UnicodeBlocks]: finished in 8.00 milliseconds, allocated 3.937 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeBlocks]:
+Result size of Simplifier
+  = {terms: 9,614, types: 9,611, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeBlocks]: finished in 27.00 milliseconds, allocated 32.465 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Char.Properties.UnicodeBlocks]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 9,614, types: 9,611, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Char.Properties.UnicodeBlocks]: finished in 28.00 milliseconds, allocated 29.616 megabytes
+*** Common sub-expression [Data.Char.Properties.UnicodeBlocks]:
+Result size of Common sub-expression
+  = {terms: 9,110, types: 9,611, coercions: 0}
+!!! Common sub-expression [Data.Char.Properties.UnicodeBlocks]: finished in 31.00 milliseconds, allocated 8.776 megabytes
+*** Float inwards [Data.Char.Properties.UnicodeBlocks]:
+Result size of Float inwards
+  = {terms: 9,110, types: 9,611, coercions: 0}
+!!! Float inwards [Data.Char.Properties.UnicodeBlocks]: finished in 7.00 milliseconds, allocated 8.310 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeBlocks]:
+Result size of Simplifier
+  = {terms: 8,102, types: 9,107, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeBlocks]: finished in 23.00 milliseconds, allocated 28.370 megabytes
+*** CoreTidy [Data.Char.Properties.UnicodeBlocks]:
+Result size of Tidy Core
+  = {terms: 8,102, types: 9,107, coercions: 0}
+!!! CoreTidy [Data.Char.Properties.UnicodeBlocks]: finished in 23.00 milliseconds, allocated 26.261 megabytes
+writeBinIface: 1779 Names
+writeBinIface: 1806 dict entries
+Created temporary directory: /tmp/ghc30864_0
+*** CorePrep [Data.Char.Properties.UnicodeBlocks]:
+Result size of CorePrep
+  = {terms: 9,118, types: 9,621, coercions: 0}
+!!! CorePrep [Data.Char.Properties.UnicodeBlocks]: finished in 33.00 milliseconds, allocated 13.876 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Char.Properties.UnicodeBlocks]:
+!!! CodeGen [Data.Char.Properties.UnicodeBlocks]: finished in 327.00 milliseconds, allocated 383.794 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Char/Properties -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build/autogen -Idist/dist-sandbox-6f7dfc62/build -x assembler -c /tmp/ghc30864_0/ghc_2.s -o dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/UnicodeBlocks.o
+*** Deleting temp files:
+Deleting: /tmp/ghc30864_0/ghc_3.c /tmp/ghc30864_0/ghc_2.s /tmp/ghc30864_0/ghc_1.s
+Warning: deleting non-existent /tmp/ghc30864_0/ghc_3.c
+Warning: deleting non-existent /tmp/ghc30864_0/ghc_1.s
+compile: input file src/Data/Set/CharSet.hs
+*** Checking old interface for Data.Set.CharSet:
+[2 of 4] Compiling Data.Set.CharSet ( src/Data/Set/CharSet.hs, dist/dist-sandbox-6f7dfc62/build/Data/Set/CharSet.o )
+*** Parser [Data.Set.CharSet]:
+!!! Parser [Data.Set.CharSet]: finished in 2.00 milliseconds, allocated 5.268 megabytes
+*** Renamer/typechecker [Data.Set.CharSet]:
+!!! Renamer/typechecker [Data.Set.CharSet]: finished in 21.00 milliseconds, allocated 17.133 megabytes
+*** Desugar [Data.Set.CharSet]:
+Result size of Desugar (after optimization)
+  = {terms: 614, types: 598, coercions: 0}
+!!! Desugar [Data.Set.CharSet]: finished in 3.00 milliseconds, allocated 2.713 megabytes
+*** Simplifier [Data.Set.CharSet]:
+Result size of Simplifier iteration=1
+  = {terms: 526, types: 568, coercions: 0}
+Result size of Simplifier = {terms: 510, types: 548, coercions: 0}
+!!! Simplifier [Data.Set.CharSet]: finished in 7.00 milliseconds, allocated 4.059 megabytes
+*** Specialise [Data.Set.CharSet]:
+Result size of Specialise = {terms: 510, types: 548, coercions: 0}
+!!! Specialise [Data.Set.CharSet]: finished in 1.00 milliseconds, allocated 0.570 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Set.CharSet]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 544, types: 595, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Set.CharSet]: finished in 3.00 milliseconds, allocated 2.845 megabytes
+*** Simplifier [Data.Set.CharSet]:
+Result size of Simplifier iteration=1
+  = {terms: 541, types: 570, coercions: 0}
+Result size of Simplifier = {terms: 534, types: 565, coercions: 0}
+!!! Simplifier [Data.Set.CharSet]: finished in 2.00 milliseconds, allocated 4.143 megabytes
+*** Simplifier [Data.Set.CharSet]:
+Result size of Simplifier = {terms: 534, types: 565, coercions: 0}
+!!! Simplifier [Data.Set.CharSet]: finished in 2.00 milliseconds, allocated 2.020 megabytes
+*** Simplifier [Data.Set.CharSet]:
+Result size of Simplifier = {terms: 534, types: 565, coercions: 0}
+!!! Simplifier [Data.Set.CharSet]: finished in 1.00 milliseconds, allocated 2.020 megabytes
+*** Float inwards [Data.Set.CharSet]:
+Result size of Float inwards
+  = {terms: 534, types: 565, coercions: 0}
+!!! Float inwards [Data.Set.CharSet]: finished in 0.00 milliseconds, allocated 1.057 megabytes
+*** Called arity analysis [Data.Set.CharSet]:
+Result size of Called arity analysis
+  = {terms: 534, types: 565, coercions: 0}
+!!! Called arity analysis [Data.Set.CharSet]: finished in 0.00 milliseconds, allocated 0.504 megabytes
+*** Simplifier [Data.Set.CharSet]:
+Result size of Simplifier = {terms: 534, types: 565, coercions: 0}
+!!! Simplifier [Data.Set.CharSet]: finished in 2.00 milliseconds, allocated 2.009 megabytes
+*** Demand analysis [Data.Set.CharSet]:
+Result size of Demand analysis
+  = {terms: 534, types: 565, coercions: 0}
+!!! Demand analysis [Data.Set.CharSet]: finished in 1.00 milliseconds, allocated 2.062 megabytes
+*** Worker Wrapper binds [Data.Set.CharSet]:
+Result size of Worker Wrapper binds
+  = {terms: 534, types: 565, coercions: 0}
+!!! Worker Wrapper binds [Data.Set.CharSet]: finished in 1.00 milliseconds, allocated 0.201 megabytes
+*** Simplifier [Data.Set.CharSet]:
+Result size of Simplifier = {terms: 534, types: 565, coercions: 0}
+!!! Simplifier [Data.Set.CharSet]: finished in 2.00 milliseconds, allocated 2.051 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Set.CharSet]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 540, types: 582, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Set.CharSet]: finished in 2.00 milliseconds, allocated 2.752 megabytes
+*** Common sub-expression [Data.Set.CharSet]:
+Result size of Common sub-expression
+  = {terms: 536, types: 578, coercions: 0}
+!!! Common sub-expression [Data.Set.CharSet]: finished in 0.00 milliseconds, allocated 0.651 megabytes
+*** Float inwards [Data.Set.CharSet]:
+Result size of Float inwards
+  = {terms: 536, types: 578, coercions: 0}
+!!! Float inwards [Data.Set.CharSet]: finished in 1.00 milliseconds, allocated 0.730 megabytes
+*** Simplifier [Data.Set.CharSet]:
+Result size of Simplifier iteration=1
+  = {terms: 532, types: 576, coercions: 0}
+Result size of Simplifier = {terms: 532, types: 576, coercions: 0}
+!!! Simplifier [Data.Set.CharSet]: finished in 3.00 milliseconds, allocated 4.030 megabytes
+*** CoreTidy [Data.Set.CharSet]:
+Result size of Tidy Core = {terms: 532, types: 576, coercions: 0}
+!!! CoreTidy [Data.Set.CharSet]: finished in 1.00 milliseconds, allocated 0.640 megabytes
+writeBinIface: 37 Names
+writeBinIface: 76 dict entries
+*** CorePrep [Data.Set.CharSet]:
+Result size of CorePrep = {terms: 616, types: 720, coercions: 0}
+!!! CorePrep [Data.Set.CharSet]: finished in 1.00 milliseconds, allocated 1.107 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Set.CharSet]:
+!!! CodeGen [Data.Set.CharSet]: finished in 25.00 milliseconds, allocated 33.477 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Set -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build/autogen -Idist/dist-sandbox-6f7dfc62/build -x assembler -c /tmp/ghc30864_0/ghc_5.s -o dist/dist-sandbox-6f7dfc62/build/Data/Set/CharSet.o
+*** Deleting temp files:
+Deleting: /tmp/ghc30864_0/ghc_6.c /tmp/ghc30864_0/ghc_5.s /tmp/ghc30864_0/ghc_4.s
+Warning: deleting non-existent /tmp/ghc30864_0/ghc_6.c
+Warning: deleting non-existent /tmp/ghc30864_0/ghc_4.s
+compile: input file src/Data/Char/Properties/UnicodeCharProps.hs
+*** Checking old interface for Data.Char.Properties.UnicodeCharProps:
+[3 of 4] Compiling Data.Char.Properties.UnicodeCharProps ( src/Data/Char/Properties/UnicodeCharProps.hs, dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/UnicodeCharProps.o )
+*** Parser [Data.Char.Properties.UnicodeCharProps]:
+!!! Parser [Data.Char.Properties.UnicodeCharProps]: finished in 84.00 milliseconds, allocated 141.109 megabytes
+*** Renamer/typechecker [Data.Char.Properties.UnicodeCharProps]:
+!!! Renamer/typechecker [Data.Char.Properties.UnicodeCharProps]: finished in 41.00 milliseconds, allocated 47.700 megabytes
+*** Desugar [Data.Char.Properties.UnicodeCharProps]:
+Result size of Desugar (after optimization)
+  = {terms: 25,464, types: 20,772, coercions: 0}
+!!! Desugar [Data.Char.Properties.UnicodeCharProps]: finished in 31.00 milliseconds, allocated 49.521 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeCharProps]:
+Result size of Simplifier iteration=1
+  = {terms: 57,424, types: 56,693, coercions: 0}
+Result size of Simplifier
+  = {terms: 57,424, types: 56,693, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeCharProps]: finished in 380.00 milliseconds, allocated 339.632 megabytes
+*** Specialise [Data.Char.Properties.UnicodeCharProps]:
+Result size of Specialise
+  = {terms: 57,424, types: 56,693, coercions: 0}
+!!! Specialise [Data.Char.Properties.UnicodeCharProps]: finished in 48.00 milliseconds, allocated 63.770 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Char.Properties.UnicodeCharProps]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 58,600, types: 57,805, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Char.Properties.UnicodeCharProps]: finished in 186.00 milliseconds, allocated 151.584 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeCharProps]:
+Result size of Simplifier iteration=1
+  = {terms: 59,176, types: 58,219, coercions: 0}
+Result size of Simplifier
+  = {terms: 59,176, types: 58,219, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeCharProps]: finished in 488.00 milliseconds, allocated 431.221 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeCharProps]:
+Result size of Simplifier
+  = {terms: 59,176, types: 58,219, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeCharProps]: finished in 232.00 milliseconds, allocated 215.484 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeCharProps]:
+Result size of Simplifier
+  = {terms: 59,176, types: 58,219, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeCharProps]: finished in 235.00 milliseconds, allocated 215.484 megabytes
+*** Float inwards [Data.Char.Properties.UnicodeCharProps]:
+Result size of Float inwards
+  = {terms: 59,176, types: 58,219, coercions: 0}
+!!! Float inwards [Data.Char.Properties.UnicodeCharProps]: finished in 38.00 milliseconds, allocated 53.476 megabytes
+*** Called arity analysis [Data.Char.Properties.UnicodeCharProps]:
+Result size of Called arity analysis
+  = {terms: 59,176, types: 58,219, coercions: 0}
+!!! Called arity analysis [Data.Char.Properties.UnicodeCharProps]: finished in 74.00 milliseconds, allocated 62.467 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeCharProps]:
+Result size of Simplifier
+  = {terms: 59,176, types: 58,219, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeCharProps]: finished in 214.00 milliseconds, allocated 215.484 megabytes
+*** Demand analysis [Data.Char.Properties.UnicodeCharProps]:
+Result size of Demand analysis
+  = {terms: 59,176, types: 58,219, coercions: 0}
+!!! Demand analysis [Data.Char.Properties.UnicodeCharProps]: finished in 169.00 milliseconds, allocated 169.357 megabytes
+*** Worker Wrapper binds [Data.Char.Properties.UnicodeCharProps]:
+Result size of Worker Wrapper binds
+  = {terms: 59,176, types: 58,219, coercions: 0}
+!!! Worker Wrapper binds [Data.Char.Properties.UnicodeCharProps]: finished in 35.00 milliseconds, allocated 18.092 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeCharProps]:
+Result size of Simplifier
+  = {terms: 59,176, types: 58,219, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeCharProps]: finished in 276.00 milliseconds, allocated 216.491 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Char.Properties.UnicodeCharProps]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 59,212, types: 58,381, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Char.Properties.UnicodeCharProps]: finished in 214.00 milliseconds, allocated 161.683 megabytes
+*** Common sub-expression [Data.Char.Properties.UnicodeCharProps]:
+Result size of Common sub-expression
+  = {terms: 52,578, types: 55,894, coercions: 0}
+!!! Common sub-expression [Data.Char.Properties.UnicodeCharProps]: finished in 92.00 milliseconds, allocated 62.579 megabytes
+*** Float inwards [Data.Char.Properties.UnicodeCharProps]:
+Result size of Float inwards
+  = {terms: 52,578, types: 55,894, coercions: 0}
+!!! Float inwards [Data.Char.Properties.UnicodeCharProps]: finished in 36.00 milliseconds, allocated 42.613 megabytes
+*** Simplifier [Data.Char.Properties.UnicodeCharProps]:
+Result size of Simplifier
+  = {terms: 41,672, types: 47,969, coercions: 0}
+!!! Simplifier [Data.Char.Properties.UnicodeCharProps]: finished in 181.00 milliseconds, allocated 160.445 megabytes
+*** CoreTidy [Data.Char.Properties.UnicodeCharProps]:
+Result size of Tidy Core
+  = {terms: 41,672, types: 47,969, coercions: 0}
+!!! CoreTidy [Data.Char.Properties.UnicodeCharProps]: finished in 180.00 milliseconds, allocated 184.197 megabytes
+writeBinIface: 11190 Names
+writeBinIface: 11219 dict entries
+*** CorePrep [Data.Char.Properties.UnicodeCharProps]:
+Result size of CorePrep
+  = {terms: 42,304, types: 48,429, coercions: 0}
+!!! CorePrep [Data.Char.Properties.UnicodeCharProps]: finished in 54.00 milliseconds, allocated 65.267 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Char.Properties.UnicodeCharProps]:
+!!! CodeGen [Data.Char.Properties.UnicodeCharProps]: finished in 373.00 milliseconds, allocated 586.291 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Char/Properties -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build/autogen -Idist/dist-sandbox-6f7dfc62/build -x assembler -c /tmp/ghc30864_0/ghc_8.s -o dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/UnicodeCharProps.o
+*** Deleting temp files:
+Deleting: /tmp/ghc30864_0/ghc_9.c /tmp/ghc30864_0/ghc_8.s /tmp/ghc30864_0/ghc_7.s
+Warning: deleting non-existent /tmp/ghc30864_0/ghc_9.c
+Warning: deleting non-existent /tmp/ghc30864_0/ghc_7.s
+compile: input file src/Data/Char/Properties/XMLCharProps.hs
+*** Checking old interface for Data.Char.Properties.XMLCharProps:
+[4 of 4] Compiling Data.Char.Properties.XMLCharProps ( src/Data/Char/Properties/XMLCharProps.hs, dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/XMLCharProps.o )
+*** Parser [Data.Char.Properties.XMLCharProps]:
+!!! Parser [Data.Char.Properties.XMLCharProps]: finished in 6.00 milliseconds, allocated 20.451 megabytes
+*** Renamer/typechecker [Data.Char.Properties.XMLCharProps]:
+!!! Renamer/typechecker [Data.Char.Properties.XMLCharProps]: finished in 9.00 milliseconds, allocated 10.799 megabytes
+*** Desugar [Data.Char.Properties.XMLCharProps]:
+Result size of Desugar (after optimization)
+  = {terms: 2,805, types: 1,902, coercions: 0}
+!!! Desugar [Data.Char.Properties.XMLCharProps]: finished in 3.00 milliseconds, allocated 6.805 megabytes
+*** Simplifier [Data.Char.Properties.XMLCharProps]:
+Result size of Simplifier iteration=1
+  = {terms: 5,157, types: 4,552, coercions: 0}
+Result size of Simplifier
+  = {terms: 5,157, types: 4,552, coercions: 0}
+!!! Simplifier [Data.Char.Properties.XMLCharProps]: finished in 16.00 milliseconds, allocated 32.255 megabytes
+*** Specialise [Data.Char.Properties.XMLCharProps]:
+Result size of Specialise
+  = {terms: 5,157, types: 4,552, coercions: 0}
+!!! Specialise [Data.Char.Properties.XMLCharProps]: finished in 3.00 milliseconds, allocated 5.477 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Char.Properties.XMLCharProps]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 5,789, types: 5,120, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Char.Properties.XMLCharProps]: finished in 10.00 milliseconds, allocated 15.553 megabytes
+*** Simplifier [Data.Char.Properties.XMLCharProps]:
+Result size of Simplifier iteration=1
+  = {terms: 6,087, types: 5,396, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 6,087, types: 5,396, coercions: 0}
+Result size of Simplifier
+  = {terms: 6,087, types: 5,396, coercions: 0}
+!!! Simplifier [Data.Char.Properties.XMLCharProps]: finished in 45.00 milliseconds, allocated 68.380 megabytes
+*** Simplifier [Data.Char.Properties.XMLCharProps]:
+Result size of Simplifier
+  = {terms: 6,087, types: 5,396, coercions: 0}
+!!! Simplifier [Data.Char.Properties.XMLCharProps]: finished in 15.00 milliseconds, allocated 22.798 megabytes
+*** Simplifier [Data.Char.Properties.XMLCharProps]:
+Result size of Simplifier
+  = {terms: 6,087, types: 5,396, coercions: 0}
+!!! Simplifier [Data.Char.Properties.XMLCharProps]: finished in 16.00 milliseconds, allocated 22.798 megabytes
+*** Float inwards [Data.Char.Properties.XMLCharProps]:
+Result size of Float inwards
+  = {terms: 6,087, types: 5,396, coercions: 0}
+!!! Float inwards [Data.Char.Properties.XMLCharProps]: finished in 7.00 milliseconds, allocated 5.755 megabytes
+*** Called arity analysis [Data.Char.Properties.XMLCharProps]:
+Result size of Called arity analysis
+  = {terms: 6,087, types: 5,396, coercions: 0}
+!!! Called arity analysis [Data.Char.Properties.XMLCharProps]: finished in 5.00 milliseconds, allocated 6.190 megabytes
+*** Simplifier [Data.Char.Properties.XMLCharProps]:
+Result size of Simplifier
+  = {terms: 6,087, types: 5,396, coercions: 0}
+!!! Simplifier [Data.Char.Properties.XMLCharProps]: finished in 16.00 milliseconds, allocated 22.797 megabytes
+*** Demand analysis [Data.Char.Properties.XMLCharProps]:
+Result size of Demand analysis
+  = {terms: 6,087, types: 5,396, coercions: 0}
+!!! Demand analysis [Data.Char.Properties.XMLCharProps]: finished in 13.00 milliseconds, allocated 18.067 megabytes
+*** Worker Wrapper binds [Data.Char.Properties.XMLCharProps]:
+Result size of Worker Wrapper binds
+  = {terms: 6,087, types: 5,396, coercions: 0}
+!!! Worker Wrapper binds [Data.Char.Properties.XMLCharProps]: finished in 2.00 milliseconds, allocated 1.872 megabytes
+*** Simplifier [Data.Char.Properties.XMLCharProps]:
+Result size of Simplifier
+  = {terms: 6,087, types: 5,396, coercions: 0}
+!!! Simplifier [Data.Char.Properties.XMLCharProps]: finished in 16.00 milliseconds, allocated 22.948 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Char.Properties.XMLCharProps]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 6,231, types: 5,744, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Char.Properties.XMLCharProps]: finished in 14.00 milliseconds, allocated 20.320 megabytes
+*** Common sub-expression [Data.Char.Properties.XMLCharProps]:
+Result size of Common sub-expression
+  = {terms: 5,993, types: 5,662, coercions: 0}
+!!! Common sub-expression [Data.Char.Properties.XMLCharProps]: finished in 9.00 milliseconds, allocated 7.003 megabytes
+*** Float inwards [Data.Char.Properties.XMLCharProps]:
+Result size of Float inwards
+  = {terms: 5,993, types: 5,662, coercions: 0}
+!!! Float inwards [Data.Char.Properties.XMLCharProps]: finished in 2.00 milliseconds, allocated 5.417 megabytes
+*** Simplifier [Data.Char.Properties.XMLCharProps]:
+Result size of Simplifier
+  = {terms: 5,579, types: 5,381, coercions: 0}
+!!! Simplifier [Data.Char.Properties.XMLCharProps]: finished in 15.00 milliseconds, allocated 21.660 megabytes
+*** CoreTidy [Data.Char.Properties.XMLCharProps]:
+Result size of Tidy Core
+  = {terms: 5,579, types: 5,381, coercions: 0}
+!!! CoreTidy [Data.Char.Properties.XMLCharProps]: finished in 16.00 milliseconds, allocated 23.922 megabytes
+writeBinIface: 1365 Names
+writeBinIface: 1400 dict entries
+*** CorePrep [Data.Char.Properties.XMLCharProps]:
+Result size of CorePrep
+  = {terms: 5,975, types: 5,639, coercions: 0}
+!!! CorePrep [Data.Char.Properties.XMLCharProps]: finished in 6.00 milliseconds, allocated 9.135 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Char.Properties.XMLCharProps]:
+!!! CodeGen [Data.Char.Properties.XMLCharProps]: finished in 112.00 milliseconds, allocated 161.764 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Char/Properties -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build/autogen -Idist/dist-sandbox-6f7dfc62/build -x assembler -c /tmp/ghc30864_0/ghc_11.s -o dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/XMLCharProps.o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc30864_0/ghc_12.c /tmp/ghc30864_0/ghc_11.s /tmp/ghc30864_0/ghc_10.s
+Warning: deleting non-existent /tmp/ghc30864_0/ghc_12.c
+Warning: deleting non-existent /tmp/ghc30864_0/ghc_10.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: 
+*** Deleting temp dirs:
+Deleting: /tmp/ghc30864_0
+Linking...
+[(SimpleUnitId (ComponentId "base-4.9.0.0"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "base"}, pkgVersion = Version {versionBranch =
+[4,9,0,0], versionTags = []}},ModuleRenaming True [])]
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/ar",["-r","-v","dist/dist-sandbox-6f7dfc62/build/objs-30850/libHShxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX.a","dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/UnicodeBlocks.o","dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/UnicodeCharProps.o","dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/XMLCharProps.o","dist/dist-sandbox-6f7dfc62/build/Data/Set/CharSet.o"])
+/usr/bin/ar: creating dist/dist-sandbox-6f7dfc62/build/objs-30850/libHShxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX.a
+a - dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/UnicodeBlocks.o
+a - dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/UnicodeCharProps.o
+a - dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/XMLCharProps.o
+a - dist/dist-sandbox-6f7dfc62/build/Data/Set/CharSet.o
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/ld",["-x","-r","-o","dist/dist-sandbox-6f7dfc62/build/HShxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX.o","dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/UnicodeBlocks.o","dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/UnicodeCharProps.o","dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/XMLCharProps.o","dist/dist-sandbox-6f7dfc62/build/Data/Set/CharSet.o"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","--package-db=dist/dist-sandbox-6f7dfc62/package.conf.inplace","-v2"])
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-6f7dfc62/build","-odir","dist/dist-sandbox-6f7dfc62/build","-hidir","dist/dist-sandbox-6f7dfc62/build","-stubdir","dist/dist-sandbox-6f7dfc62/build","-i","-idist/dist-sandbox-6f7dfc62/build","-isrc","-idist/dist-sandbox-6f7dfc62/build/autogen","-Idist/dist-sandbox-6f7dfc62/build/autogen","-Idist/dist-sandbox-6f7dfc62/build","-optP-include","-optPdist/dist-sandbox-6f7dfc62/build/autogen/cabal_macros.h","-this-unit-id","hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","base-4.9.0.0","-XHaskell98","Data.Char.Properties.UnicodeBlocks","Data.Char.Properties.UnicodeCharProps","Data.Char.Properties.XMLCharProps","Data.Set.CharSet","-Wall","-v3"])
+Creating package registration file:
+/tmp/pkgConf-hxt-charproperties-9.2.03040891721303455736.1
+directory dist/dist-sandbox-6f7dfc62/doc/html/hxt-charproperties does exist:
+False
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1
+Installing LICENSE to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1/LICENSE
+Installing library in
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/Data/Char/Properties
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/Data/Char
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/Data
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/Data
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/Data/Char
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/Data/Char/Properties
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/Data/Set
+Installing
+dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/UnicodeBlocks.hi to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/Data/Char/Properties/UnicodeBlocks.hi
+Installing
+dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/UnicodeCharProps.hi to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/Data/Char/Properties/UnicodeCharProps.hi
+Installing
+dist/dist-sandbox-6f7dfc62/build/Data/Char/Properties/XMLCharProps.hi to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/Data/Char/Properties/XMLCharProps.hi
+Installing dist/dist-sandbox-6f7dfc62/build/Data/Set/CharSet.hi to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/Data/Set/CharSet.hi
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX
+Installing
+dist/dist-sandbox-6f7dfc62/build/libHShxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX.a
+to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/libHShxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX.a
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/libHShxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX.a","--strip-unneeded"])
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX
+Installing
+dist/dist-sandbox-6f7dfc62/build/HShxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX.o
+to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/HShxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX.o
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX/HShxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX.o","--strip-unneeded"])
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-6f7dfc62/build","-odir","dist/dist-sandbox-6f7dfc62/build","-hidir","dist/dist-sandbox-6f7dfc62/build","-stubdir","dist/dist-sandbox-6f7dfc62/build","-i","-idist/dist-sandbox-6f7dfc62/build","-isrc","-idist/dist-sandbox-6f7dfc62/build/autogen","-Idist/dist-sandbox-6f7dfc62/build/autogen","-Idist/dist-sandbox-6f7dfc62/build","-optP-include","-optPdist/dist-sandbox-6f7dfc62/build/autogen/cabal_macros.h","-this-unit-id","hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","base-4.9.0.0","-XHaskell98","Data.Char.Properties.UnicodeBlocks","Data.Char.Properties.UnicodeCharProps","Data.Char.Properties.XMLCharProps","Data.Set.CharSet","-Wall","-v3"])
+Registering hxt-charproperties-9.2.0.1...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v2"])
+cabal: Leaving directory '/tmp/cabal-tmp-30682/hxt-charproperties-9.2.0.1'

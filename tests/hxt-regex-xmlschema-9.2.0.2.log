@@ -1,0 +1,1434 @@
+cabal: Entering directory '/tmp/cabal-tmp-30681/hxt-regex-xmlschema-9.2.0.2'
+Configuring hxt-regex-xmlschema-9.2.0.2...
+creating dist/dist-sandbox-6f7dfc62/build
+creating dist/dist-sandbox-6f7dfc62
+creating dist
+creating dist/dist-sandbox-6f7dfc62
+creating dist/dist-sandbox-6f7dfc62/build
+Searching for ghc in path.
+Found ghc at /home/omer/haskell/ghc/inplace/bin/ghc
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--numeric-version"])
+/home/omer/haskell/ghc/inplace/bin/ghc is version 8.1.20160328
+looking for tool ghc-pkg near compiler in /home/omer/haskell/ghc/inplace/bin
+found ghc-pkg in /home/omer/haskell/ghc/inplace/bin/ghc-pkg
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["--version"])
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg is version 8.1.20160328
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--supported-languages"])
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--info"])
+Reading installed packages...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--global","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["dump","--package-db=/home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v0"])
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--print-libdir","-v3"])
+Warning: 'ghc-options: -rtsopts' has no effect for libraries. It should only
+be used for executables.
+Dependency base ==4.9.0.0: using base-4.9.0.0
+Dependency bytestring ==0.10.7.0: using bytestring-0.10.7.0
+Dependency hxt-charproperties ==9.2.0.1: using hxt-charproperties-9.2.0.1
+Dependency parsec ==3.1.9: using parsec-3.1.9
+Dependency text ==1.2.2.0: using text-1.2.2.0
+Searching for alex in path.
+Found alex at /home/omer/.cabal/bin/alex
+("/home/omer/.cabal/bin/alex",["--version"])
+/home/omer/.cabal/bin/alex is version 3.1.5
+Searching for ar in path.
+Found ar at /usr/bin/ar
+Searching for c2hs in path.
+Cannot find c2hs on the path
+Searching for cpphs in path.
+Found cpphs at /home/omer/.cabal/bin/cpphs
+("/home/omer/.cabal/bin/cpphs",["--version"])
+/home/omer/.cabal/bin/cpphs is version 1.19.3
+Searching for gcc in path.
+Found gcc at /usr/bin/gcc
+("/usr/bin/gcc",["-dumpversion"])
+/usr/bin/gcc is version 4.8
+Searching for ghcjs in path.
+Cannot find ghcjs on the path
+Searching for ghcjs-pkg in path.
+Cannot find ghcjs-pkg on the path
+Searching for greencard in path.
+Cannot find greencard on the path
+looking for tool haddock near compiler in /home/omer/haskell/ghc/inplace/bin
+Searching for haddock in path.
+Cannot find haddock on the path
+Searching for happy in path.
+Found happy at /home/omer/.cabal/bin/happy
+("/home/omer/.cabal/bin/happy",["--version"])
+/home/omer/.cabal/bin/happy is version 1.19.5
+Searching for hmake in path.
+Cannot find hmake on the path
+Searching for hpc in path.
+Found hpc at /home/omer/haskell/ghc/inplace/bin/hpc
+("/home/omer/haskell/ghc/inplace/bin/hpc",["version"])
+/home/omer/haskell/ghc/inplace/bin/hpc is version 0.67
+looking for tool hsc2hs near compiler in /home/omer/haskell/ghc/inplace/bin
+found hsc2hs in /home/omer/haskell/ghc/inplace/bin/hsc2hs
+("/home/omer/haskell/ghc/inplace/bin/hsc2hs",["--version"])
+/home/omer/haskell/ghc/inplace/bin/hsc2hs is version 0.67
+Searching for HsColour in path.
+Cannot find HsColour on the path
+Searching for jhc in path.
+Cannot find jhc on the path
+Searching for ld in path.
+Found ld at /usr/bin/ld
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc",["-c","/tmp/16816927771714636915.c","-o","/tmp/1957747793424238335.o","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 1 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc31450_0
+*** C Compiler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/16816927771714636915.c -o /tmp/ghc31450_0/ghc_1.s -Wimplicit -S -include /home/omer/haskell/ghc/includes/ghcversion.h -I/home/omer/haskell/ghc/libraries/base/include -I/home/omer/haskell/ghc/libraries/integer-gmp/include -I/home/omer/haskell/ghc/rts/dist/build -I/home/omer/haskell/ghc/includes -I/home/omer/haskell/ghc/includes/dist-derivedconstants/header
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc31450_0/ghc_1.s -o /tmp/1957747793424238335.o
+*** Deleting temp files:
+Deleting: /tmp/ghc31450_0/ghc_2.rsp /tmp/ghc31450_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc31450_0
+("/usr/bin/ld",["-x","-r","/tmp/1957747793424238335.o","-o","/tmp/7198853861649760492.o"])
+Searching for lhc in path.
+Cannot find lhc on the path
+Searching for lhc-pkg in path.
+Cannot find lhc-pkg on the path
+Searching for pkg-config in path.
+Found pkg-config at /usr/bin/pkg-config
+("/usr/bin/pkg-config",["--version"])
+/usr/bin/pkg-config is version 0.28
+Searching for strip in path.
+Found strip at /usr/bin/strip
+("/usr/bin/strip",["--version"])
+/usr/bin/strip is version 2.24
+Searching for tar in path.
+Found tar at /bin/tar
+("/bin/tar",["--help"])
+Searching for uhc in path.
+Cannot find uhc on the path
+Using Cabal-1.23.1.0 compiled by ghc-7.10
+Using compiler: ghc-8.1.20160328
+Using install prefix: /home/omer/haskell/hxt/hxt/.cabal-sandbox
+Binaries installed in: /home/omer/haskell/hxt/hxt/.cabal-sandbox/bin
+Libraries installed in:
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt
+Private binaries installed in:
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/libexec
+Data files installed in:
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/share/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2
+Documentation installed in:
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2
+Configuration files installed in:
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/etc
+Using alex version 3.1.5 found on system at: /home/omer/.cabal/bin/alex
+Using ar found on system at: /usr/bin/ar
+No c2hs found
+Using cpphs version 1.19.3 found on system at: /home/omer/.cabal/bin/cpphs
+Using gcc version 4.8 found on system at: /usr/bin/gcc
+Using ghc version 8.1.20160328 found on system at:
+/home/omer/haskell/ghc/inplace/bin/ghc
+Using ghc-pkg version 8.1.20160328 found on system at:
+/home/omer/haskell/ghc/inplace/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+No haddock found
+Using happy version 1.19.5 found on system at: /home/omer/.cabal/bin/happy
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hpc
+Using hsc2hs version 0.67 found on system at:
+/home/omer/haskell/ghc/inplace/bin/hsc2hs
+No hscolour found
+No jhc found
+Using ld found on system at: /usr/bin/ld
+No lhc found
+No lhc-pkg found
+Using pkg-config version 0.28 found on system at: /usr/bin/pkg-config
+Using strip version 2.24 found on system at: /usr/bin/strip
+Using tar found on system at: /bin/tar
+No uhc found
+("/usr/bin/gcc",["-std=gnu99","-fno-stack-protector","/tmp/10252023621350490027.c","-o","/tmp/7833686901102520059","-D__GLASGOW_HASKELL__=801","-Dlinux_BUILD_OS=1","-Dx86_64_BUILD_ARCH=1","-Dlinux_HOST_OS=1","-Dx86_64_HOST_ARCH=1","-Idist/dist-sandbox-6f7dfc62/build/autogen","-I.","-I/home/omer/haskell/ghc/libraries/containers/include","-I/home/omer/haskell/ghc/libraries/bytestring/include","-I/home/omer/haskell/ghc/libraries/base/include","-I/home/omer/haskell/ghc/libraries/integer-gmp/include","-I/home/omer/haskell/ghc/rts/dist/build","-I/home/omer/haskell/ghc/includes","-I/home/omer/haskell/ghc/includes/dist-derivedconstants/header","-L/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/parsec-3.1.9-1PXGcqJoNID6lsecrnxIso","-L/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/text-1.2.2.0-DNPL9j70xW29izEeMAP0sY","-L/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM","-L/home/omer/haskell/ghc/libraries/transformers/dist-install/build","-L/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX","-L/home/omer/haskell/ghc/libraries/binary/dist-install/build","-L/home/omer/haskell/ghc/libraries/containers/dist-install/build","-L/home/omer/haskell/ghc/libraries/bytestring/dist-install/build","-L/home/omer/haskell/ghc/libraries/deepseq/dist-install/build","-L/home/omer/haskell/ghc/libraries/array/dist-install/build","-L/home/omer/haskell/ghc/libraries/base/dist-install/build","-L/home/omer/haskell/ghc/libraries/integer-gmp/dist-install/build","-L/home/omer/haskell/ghc/libraries/ghc-prim/dist-install/build","-L/home/omer/haskell/ghc/rts/dist/build"])
+Component build order: library
+creating dist/dist-sandbox-6f7dfc62/build
+creating dist/dist-sandbox-6f7dfc62/build/autogen
+Building hxt-regex-xmlschema-9.2.0.2...
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["init","dist/dist-sandbox-6f7dfc62/package.conf.inplace","-v2"])
+GHC package manager version 8.1.20160328
+writing cache dist/dist-sandbox-6f7dfc62/package.conf.inplace/package.cache
+Preprocessing library hxt-regex-xmlschema-9.2.0.2...
+Building library...
+creating dist/dist-sandbox-6f7dfc62/build
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--make","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-6f7dfc62/build","-odir","dist/dist-sandbox-6f7dfc62/build","-hidir","dist/dist-sandbox-6f7dfc62/build","-stubdir","dist/dist-sandbox-6f7dfc62/build","-i","-idist/dist-sandbox-6f7dfc62/build","-isrc","-idist/dist-sandbox-6f7dfc62/build/autogen","-Idist/dist-sandbox-6f7dfc62/build/autogen","-Idist/dist-sandbox-6f7dfc62/build","-optP-include","-optPdist/dist-sandbox-6f7dfc62/build/autogen/cabal_macros.h","-this-unit-id","hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-db","dist/dist-sandbox-6f7dfc62/package.conf.inplace","-package-id","base-4.9.0.0","-package-id","bytestring-0.10.7.0","-package-id","hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX","-package-id","parsec-3.1.9-1PXGcqJoNID6lsecrnxIso","-package-id","text-1.2.2.0-DNPL9j70xW29izEeMAP0sY","-XHaskell2010","Text.Regex.Glob.String","Text.Regex.Glob.Generic","Text.Regex.Glob.Generic.RegexParser","Text.Regex.XMLSchema.String","Text.Regex.XMLSchema.Generic","Text.Regex.XMLSchema.Generic.Matching","Text.Regex.XMLSchema.Generic.RegexParser","Text.Regex.XMLSchema.Generic.Regex","Text.Regex.XMLSchema.Generic.StringLike","-rtsopts","-Wall","-fwarn-tabs","-funbox-strict-fields","-v3"])
+Glasgow Haskell Compiler, Version 8.1.20160328, stage 1 booted by GHC version 7.10.3
+Using binary package database: /home/omer/haskell/ghc/inplace/lib/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6f7dfc62/package.conf.inplace/package.cache
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-6f7dfc62/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/haskell/ghc/inplace/lib/package.conf.d
+loading package database /home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d
+loading package database dist/dist-sandbox-6f7dfc62/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Text.Regex.Glob.String,*Text.Regex.Glob.Generic,*Text.Regex.Glob.Generic.RegexParser,*Text.Regex.XMLSchema.String,*Text.Regex.XMLSchema.Generic,*Text.Regex.XMLSchema.Generic.Matching,*Text.Regex.XMLSchema.Generic.RegexParser,*Text.Regex.XMLSchema.Generic.Regex,*Text.Regex.XMLSchema.Generic.StringLike
+!!! Chasing dependencies: finished in 6.00 milliseconds, allocated 16.405 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 02:48:13.41346469 UTC
+         ms_mod = Text.Regex.XMLSchema.Generic.StringLike,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.ByteString.Lazy.Char8),
+                            (Nothing, Data.ByteString.Char8), (Nothing, Data.Text.Lazy),
+                            (Nothing, Data.Text), (Nothing, Data.String),
+                            (Nothing, Data.Maybe)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 02:48:13.41346469 UTC
+         ms_mod = Text.Regex.XMLSchema.Generic.Regex,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.Regex.XMLSchema.Generic.StringLike),
+                            (Nothing, Data.String), (Nothing, Data.Set.CharSet),
+                            (Nothing, Data.Monoid), (Nothing, Data.List)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 02:48:13.41246469 UTC
+         ms_mod = Text.Regex.Glob.Generic.RegexParser,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.Regex.XMLSchema.Generic.StringLike),
+                            (Nothing, Text.Regex.XMLSchema.Generic.Regex),
+                            (Nothing, Text.ParserCombinators.Parsec), (Nothing, Data.Char)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 02:48:13.41346469 UTC
+         ms_mod = Text.Regex.XMLSchema.Generic.RegexParser,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.Regex.XMLSchema.Generic.StringLike),
+                            (Nothing, Text.Regex.XMLSchema.Generic.Regex),
+                            (Nothing, Text.ParserCombinators.Parsec),
+                            (Nothing, Data.Set.CharSet), (Nothing, Data.Maybe),
+                            (Nothing, Data.List), (Nothing, Data.Char.Properties.XMLCharProps),
+                            (Nothing, Data.Char.Properties.UnicodeCharProps),
+                            (Nothing, Data.Char.Properties.UnicodeBlocks)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 02:48:13.41246469 UTC
+         ms_mod = Text.Regex.XMLSchema.Generic.Matching,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.Regex.XMLSchema.Generic.StringLike),
+                            (Nothing, Text.Regex.XMLSchema.Generic.RegexParser),
+                            (Nothing, Text.Regex.XMLSchema.Generic.Regex),
+                            (Nothing, Data.Maybe), (Nothing, Control.Arrow)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 02:48:13.41246469 UTC
+         ms_mod = Text.Regex.XMLSchema.Generic,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.ByteString.Lazy.Char8),
+                            (Nothing, Data.ByteString.Char8), (Nothing, Data.Text.Lazy),
+                            (Nothing, Data.Text),
+                            (Nothing, Text.Regex.XMLSchema.Generic.RegexParser),
+                            (Nothing, Text.Regex.XMLSchema.Generic.Regex),
+                            (Nothing, Text.Regex.XMLSchema.Generic.Matching)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 02:48:13.41246469 UTC
+         ms_mod = Text.Regex.Glob.Generic,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.Regex.XMLSchema.Generic),
+                            (Nothing, Text.Regex.XMLSchema.Generic.StringLike),
+                            (Nothing, Text.Regex.XMLSchema.Generic.Regex),
+                            (Nothing, Text.Regex.Glob.Generic.RegexParser)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 02:48:13.41246469 UTC
+         ms_mod = Text.Regex.Glob.String,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.Regex.Glob.Generic),
+                            (Nothing, Text.Regex.Glob.Generic)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-29 02:48:13.41246469 UTC
+         ms_mod = Text.Regex.XMLSchema.String,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.Regex.XMLSchema.Generic.RegexParser),
+                            (Nothing, Text.Regex.XMLSchema.Generic.Regex),
+                            (Nothing, Text.Regex.XMLSchema.Generic),
+                            (Nothing, Text.Regex.XMLSchema.Generic)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: 
+compile: input file src/Text/Regex/XMLSchema/Generic/StringLike.hs
+*** Checking old interface for Text.Regex.XMLSchema.Generic.StringLike:
+[1 of 9] Compiling Text.Regex.XMLSchema.Generic.StringLike ( src/Text/Regex/XMLSchema/Generic/StringLike.hs, dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/StringLike.o )
+*** Parser [Text.Regex.XMLSchema.Generic.StringLike]:
+!!! Parser [Text.Regex.XMLSchema.Generic.StringLike]: finished in 9.00 milliseconds, allocated 6.934 megabytes
+*** Renamer/typechecker [Text.Regex.XMLSchema.Generic.StringLike]:
+!!! Renamer/typechecker [Text.Regex.XMLSchema.Generic.StringLike]: finished in 93.00 milliseconds, allocated 81.835 megabytes
+*** Desugar [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Desugar (after optimization)
+  = {terms: 264, types: 267, coercions: 12}
+!!! Desugar [Text.Regex.XMLSchema.Generic.StringLike]: finished in 3.00 milliseconds, allocated 2.808 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Simplifier iteration=1
+  = {terms: 270, types: 275, coercions: 5}
+Result size of Simplifier = {terms: 270, types: 275, coercions: 5}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.StringLike]: finished in 29.00 milliseconds, allocated 9.466 megabytes
+*** Specialise [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Specialise = {terms: 270, types: 275, coercions: 5}
+!!! Specialise [Text.Regex.XMLSchema.Generic.StringLike]: finished in 0.00 milliseconds, allocated 0.327 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 302, types: 303, coercions: 5}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.XMLSchema.Generic.StringLike]: finished in 0.00 milliseconds, allocated 1.384 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Simplifier iteration=1
+  = {terms: 270, types: 280, coercions: 11}
+Result size of Simplifier = {terms: 204, types: 187, coercions: 11}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.StringLike]: finished in 1.00 milliseconds, allocated 2.513 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Simplifier = {terms: 204, types: 187, coercions: 11}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.StringLike]: finished in 3.00 milliseconds, allocated 1.049 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Simplifier iteration=1
+  = {terms: 204, types: 187, coercions: 11}
+Result size of Simplifier = {terms: 204, types: 187, coercions: 11}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.StringLike]: finished in 1.00 milliseconds, allocated 2.098 megabytes
+*** Float inwards [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Float inwards
+  = {terms: 204, types: 187, coercions: 11}
+!!! Float inwards [Text.Regex.XMLSchema.Generic.StringLike]: finished in 0.00 milliseconds, allocated 0.277 megabytes
+*** Called arity analysis [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Called arity analysis
+  = {terms: 204, types: 187, coercions: 11}
+!!! Called arity analysis [Text.Regex.XMLSchema.Generic.StringLike]: finished in 1.00 milliseconds, allocated 0.290 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Simplifier = {terms: 204, types: 187, coercions: 11}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.StringLike]: finished in 0.00 milliseconds, allocated 1.048 megabytes
+*** Demand analysis [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Demand analysis
+  = {terms: 204, types: 187, coercions: 11}
+!!! Demand analysis [Text.Regex.XMLSchema.Generic.StringLike]: finished in 1.00 milliseconds, allocated 0.703 megabytes
+*** Worker Wrapper binds [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Worker Wrapper binds
+  = {terms: 204, types: 187, coercions: 11}
+!!! Worker Wrapper binds [Text.Regex.XMLSchema.Generic.StringLike]: finished in 0.00 milliseconds, allocated 0.108 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Simplifier = {terms: 204, types: 187, coercions: 11}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.StringLike]: finished in 1.00 milliseconds, allocated 1.120 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 236, types: 215, coercions: 11}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.XMLSchema.Generic.StringLike]: finished in 0.00 milliseconds, allocated 0.732 megabytes
+*** Common sub-expression [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Common sub-expression
+  = {terms: 232, types: 212, coercions: 11}
+!!! Common sub-expression [Text.Regex.XMLSchema.Generic.StringLike]: finished in 0.00 milliseconds, allocated 0.311 megabytes
+*** Float inwards [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Float inwards
+  = {terms: 232, types: 212, coercions: 11}
+!!! Float inwards [Text.Regex.XMLSchema.Generic.StringLike]: finished in 0.00 milliseconds, allocated 0.279 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Simplifier = {terms: 224, types: 205, coercions: 11}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.StringLike]: finished in 0.00 milliseconds, allocated 1.141 megabytes
+*** CoreTidy [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of Tidy Core = {terms: 308, types: 715, coercions: 11}
+!!! CoreTidy [Text.Regex.XMLSchema.Generic.StringLike]: finished in 1.00 milliseconds, allocated 0.566 megabytes
+writeBinIface: 110 Names
+writeBinIface: 145 dict entries
+Created temporary directory: /tmp/ghc31491_0
+*** CorePrep [Text.Regex.XMLSchema.Generic.StringLike]:
+Result size of CorePrep = {terms: 343, types: 795, coercions: 11}
+!!! CorePrep [Text.Regex.XMLSchema.Generic.StringLike]: finished in 1.00 milliseconds, allocated 0.757 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Regex.XMLSchema.Generic.StringLike]:
+!!! CodeGen [Text.Regex.XMLSchema.Generic.StringLike]: finished in 14.00 milliseconds, allocated 18.012 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/Regex/XMLSchema/Generic -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build/autogen -Idist/dist-sandbox-6f7dfc62/build -x assembler -c /tmp/ghc31491_0/ghc_2.s -o dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/StringLike.o
+*** Deleting temp files:
+Deleting: /tmp/ghc31491_0/ghc_3.c /tmp/ghc31491_0/ghc_2.s /tmp/ghc31491_0/ghc_1.s
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_3.c
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_1.s
+compile: input file src/Text/Regex/XMLSchema/Generic/Regex.hs
+*** Checking old interface for Text.Regex.XMLSchema.Generic.Regex:
+[2 of 9] Compiling Text.Regex.XMLSchema.Generic.Regex ( src/Text/Regex/XMLSchema/Generic/Regex.hs, dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/Regex.o )
+*** Parser [Text.Regex.XMLSchema.Generic.Regex]:
+!!! Parser [Text.Regex.XMLSchema.Generic.Regex]: finished in 11.00 milliseconds, allocated 27.455 megabytes
+*** Renamer/typechecker [Text.Regex.XMLSchema.Generic.Regex]:
+!!! Renamer/typechecker [Text.Regex.XMLSchema.Generic.Regex]: finished in 58.00 milliseconds, allocated 61.101 megabytes
+*** Desugar [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Desugar (after optimization)
+  = {terms: 3,554, types: 3,422, coercions: 0}
+!!! Desugar [Text.Regex.XMLSchema.Generic.Regex]: finished in 46.00 milliseconds, allocated 76.296 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Simplifier iteration=1
+  = {terms: 3,391, types: 3,201, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 3,362, types: 3,163, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 3,352, types: 3,153, coercions: 0}
+Result size of Simplifier
+  = {terms: 3,352, types: 3,153, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Regex]: finished in 41.00 milliseconds, allocated 45.370 megabytes
+*** Specialise [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Specialise
+  = {terms: 3,352, types: 3,153, coercions: 0}
+!!! Specialise [Text.Regex.XMLSchema.Generic.Regex]: finished in 3.00 milliseconds, allocated 3.649 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 3,610, types: 3,499, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.XMLSchema.Generic.Regex]: finished in 44.00 milliseconds, allocated 23.012 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Simplifier iteration=1
+  = {terms: 3,990, types: 4,002, coercions: 46}
+Result size of Simplifier iteration=2
+  = {terms: 3,868, types: 3,807, coercions: 46}
+Result size of Simplifier
+  = {terms: 3,868, types: 3,807, coercions: 46}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Regex]: finished in 36.00 milliseconds, allocated 41.202 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Simplifier
+  = {terms: 3,868, types: 3,807, coercions: 46}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Regex]: finished in 11.00 milliseconds, allocated 13.171 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Simplifier
+  = {terms: 3,868, types: 3,807, coercions: 46}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Regex]: finished in 12.00 milliseconds, allocated 13.172 megabytes
+*** Float inwards [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Float inwards
+  = {terms: 3,874, types: 3,813, coercions: 46}
+!!! Float inwards [Text.Regex.XMLSchema.Generic.Regex]: finished in 3.00 milliseconds, allocated 6.661 megabytes
+*** Called arity analysis [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Called arity analysis
+  = {terms: 3,874, types: 3,813, coercions: 46}
+!!! Called arity analysis [Text.Regex.XMLSchema.Generic.Regex]: finished in 5.00 milliseconds, allocated 4.217 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Simplifier iteration=1
+  = {terms: 3,870, types: 3,809, coercions: 46}
+Result size of Simplifier
+  = {terms: 3,870, types: 3,809, coercions: 46}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Regex]: finished in 21.00 milliseconds, allocated 26.372 megabytes
+*** Demand analysis [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Demand analysis
+  = {terms: 3,870, types: 3,809, coercions: 46}
+!!! Demand analysis [Text.Regex.XMLSchema.Generic.Regex]: finished in 13.00 milliseconds, allocated 16.520 megabytes
+*** Worker Wrapper binds [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Worker Wrapper binds
+  = {terms: 3,995, types: 4,007, coercions: 46}
+!!! Worker Wrapper binds [Text.Regex.XMLSchema.Generic.Regex]: finished in 2.00 milliseconds, allocated 1.334 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Simplifier iteration=1
+  = {terms: 4,082, types: 4,221, coercions: 46}
+Result size of Simplifier iteration=2
+  = {terms: 3,935, types: 3,887, coercions: 46}
+Result size of Simplifier iteration=3
+  = {terms: 3,935, types: 3,887, coercions: 46}
+Result size of Simplifier
+  = {terms: 3,935, types: 3,887, coercions: 46}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Regex]: finished in 55.00 milliseconds, allocated 57.787 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,047, types: 4,127, coercions: 46}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.XMLSchema.Generic.Regex]: finished in 15.00 milliseconds, allocated 25.311 megabytes
+*** Common sub-expression [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Common sub-expression
+  = {terms: 3,949, types: 4,076, coercions: 44}
+!!! Common sub-expression [Text.Regex.XMLSchema.Generic.Regex]: finished in 3.00 milliseconds, allocated 4.169 megabytes
+*** Float inwards [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Float inwards
+  = {terms: 3,949, types: 4,076, coercions: 44}
+!!! Float inwards [Text.Regex.XMLSchema.Generic.Regex]: finished in 5.00 milliseconds, allocated 7.074 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Simplifier iteration=1
+  = {terms: 3,767, types: 3,785, coercions: 44}
+Result size of Simplifier iteration=2
+  = {terms: 3,767, types: 3,785, coercions: 44}
+Result size of Simplifier iteration=3
+  = {terms: 3,767, types: 3,785, coercions: 44}
+Result size of Simplifier
+  = {terms: 3,767, types: 3,785, coercions: 44}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Regex]: finished in 45.00 milliseconds, allocated 53.901 megabytes
+*** CoreTidy [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of Tidy Core
+  = {terms: 3,781, types: 3,806, coercions: 44}
+!!! CoreTidy [Text.Regex.XMLSchema.Generic.Regex]: finished in 5.00 milliseconds, allocated 4.102 megabytes
+writeBinIface: 126 Names
+writeBinIface: 246 dict entries
+*** CorePrep [Text.Regex.XMLSchema.Generic.Regex]:
+Result size of CorePrep
+  = {terms: 4,660, types: 4,853, coercions: 44}
+!!! CorePrep [Text.Regex.XMLSchema.Generic.Regex]: finished in 8.00 milliseconds, allocated 7.943 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Regex.XMLSchema.Generic.Regex]:
+!!! CodeGen [Text.Regex.XMLSchema.Generic.Regex]: finished in 177.00 milliseconds, allocated 264.216 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/Regex/XMLSchema/Generic -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build/autogen -Idist/dist-sandbox-6f7dfc62/build -x assembler -c /tmp/ghc31491_0/ghc_5.s -o dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/Regex.o
+*** Deleting temp files:
+Deleting: /tmp/ghc31491_0/ghc_6.c /tmp/ghc31491_0/ghc_5.s /tmp/ghc31491_0/ghc_4.s
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_6.c
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_4.s
+compile: input file src/Text/Regex/Glob/Generic/RegexParser.hs
+*** Checking old interface for Text.Regex.Glob.Generic.RegexParser:
+[3 of 9] Compiling Text.Regex.Glob.Generic.RegexParser ( src/Text/Regex/Glob/Generic/RegexParser.hs, dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/Generic/RegexParser.o )
+*** Parser [Text.Regex.Glob.Generic.RegexParser]:
+!!! Parser [Text.Regex.Glob.Generic.RegexParser]: finished in 2.00 milliseconds, allocated 2.882 megabytes
+*** Renamer/typechecker [Text.Regex.Glob.Generic.RegexParser]:
+!!! Renamer/typechecker [Text.Regex.Glob.Generic.RegexParser]: finished in 27.00 milliseconds, allocated 29.895 megabytes
+*** Desugar [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Desugar (after optimization)
+  = {terms: 323, types: 754, coercions: 0}
+!!! Desugar [Text.Regex.Glob.Generic.RegexParser]: finished in 3.00 milliseconds, allocated 3.346 megabytes
+*** Simplifier [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Simplifier iteration=1
+  = {terms: 282, types: 597, coercions: 13}
+Result size of Simplifier iteration=2
+  = {terms: 282, types: 620, coercions: 20}
+Result size of Simplifier = {terms: 282, types: 620, coercions: 20}
+!!! Simplifier [Text.Regex.Glob.Generic.RegexParser]: finished in 2.00 milliseconds, allocated 3.881 megabytes
+*** Specialise [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Specialise = {terms: 340, types: 820, coercions: 26}
+!!! Specialise [Text.Regex.Glob.Generic.RegexParser]: finished in 1.00 milliseconds, allocated 1.045 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 440, types: 1,051, coercions: 26}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.Glob.Generic.RegexParser]: finished in 2.00 milliseconds, allocated 3.544 megabytes
+*** Simplifier [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Simplifier iteration=1
+  = {terms: 1,430, types: 2,978, coercions: 602}
+Result size of Simplifier iteration=2
+  = {terms: 1,105, types: 2,022, coercions: 323}
+Result size of Simplifier iteration=3
+  = {terms: 1,087, types: 1,910, coercions: 323}
+Result size of Simplifier iteration=4
+  = {terms: 1,085, types: 1,902, coercions: 323}
+Result size of Simplifier
+  = {terms: 1,085, types: 1,902, coercions: 323}
+!!! Simplifier [Text.Regex.Glob.Generic.RegexParser]: finished in 23.00 milliseconds, allocated 27.318 megabytes
+*** Simplifier [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Simplifier
+  = {terms: 1,085, types: 1,902, coercions: 323}
+!!! Simplifier [Text.Regex.Glob.Generic.RegexParser]: finished in 3.00 milliseconds, allocated 4.224 megabytes
+*** Simplifier [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Simplifier iteration=1
+  = {terms: 1,654, types: 2,623, coercions: 328}
+Result size of Simplifier
+  = {terms: 1,654, types: 2,623, coercions: 328}
+!!! Simplifier [Text.Regex.Glob.Generic.RegexParser]: finished in 40.00 milliseconds, allocated 13.959 megabytes
+*** Float inwards [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Float inwards
+  = {terms: 1,654, types: 2,623, coercions: 328}
+!!! Float inwards [Text.Regex.Glob.Generic.RegexParser]: finished in 1.00 milliseconds, allocated 4.052 megabytes
+*** Called arity analysis [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Called arity analysis
+  = {terms: 1,654, types: 2,623, coercions: 328}
+!!! Called arity analysis [Text.Regex.Glob.Generic.RegexParser]: finished in 1.00 milliseconds, allocated 1.597 megabytes
+*** Simplifier [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Simplifier iteration=1
+  = {terms: 1,665, types: 2,651, coercions: 342}
+Result size of Simplifier iteration=2
+  = {terms: 1,684, types: 2,698, coercions: 309}
+Result size of Simplifier
+  = {terms: 1,661, types: 2,622, coercions: 309}
+!!! Simplifier [Text.Regex.Glob.Generic.RegexParser]: finished in 15.00 milliseconds, allocated 20.032 megabytes
+*** Demand analysis [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Demand analysis
+  = {terms: 1,661, types: 2,622, coercions: 309}
+!!! Demand analysis [Text.Regex.Glob.Generic.RegexParser]: finished in 5.00 milliseconds, allocated 8.164 megabytes
+*** Worker Wrapper binds [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Worker Wrapper binds
+  = {terms: 1,721, types: 2,811, coercions: 309}
+!!! Worker Wrapper binds [Text.Regex.Glob.Generic.RegexParser]: finished in 0.00 milliseconds, allocated 0.587 megabytes
+*** Simplifier [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Simplifier iteration=1
+  = {terms: 1,668, types: 2,731, coercions: 309}
+Result size of Simplifier
+  = {terms: 1,639, types: 2,606, coercions: 309}
+!!! Simplifier [Text.Regex.Glob.Generic.RegexParser]: finished in 11.00 milliseconds, allocated 14.633 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,702, types: 2,835, coercions: 309}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.Glob.Generic.RegexParser]: finished in 9.00 milliseconds, allocated 11.037 megabytes
+*** Common sub-expression [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Common sub-expression
+  = {terms: 1,660, types: 2,768, coercions: 303}
+!!! Common sub-expression [Text.Regex.Glob.Generic.RegexParser]: finished in 1.00 milliseconds, allocated 2.275 megabytes
+*** Float inwards [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Float inwards
+  = {terms: 1,660, types: 2,768, coercions: 303}
+!!! Float inwards [Text.Regex.Glob.Generic.RegexParser]: finished in 2.00 milliseconds, allocated 3.957 megabytes
+*** Simplifier [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Simplifier
+  = {terms: 1,636, types: 2,710, coercions: 303}
+!!! Simplifier [Text.Regex.Glob.Generic.RegexParser]: finished in 5.00 milliseconds, allocated 6.857 megabytes
+*** CoreTidy [Text.Regex.Glob.Generic.RegexParser]:
+Result size of Tidy Core
+  = {terms: 1,622, types: 2,652, coercions: 303}
+!!! CoreTidy [Text.Regex.Glob.Generic.RegexParser]: finished in 2.00 milliseconds, allocated 2.419 megabytes
+writeBinIface: 17 Names
+writeBinIface: 83 dict entries
+*** CorePrep [Text.Regex.Glob.Generic.RegexParser]:
+Result size of CorePrep
+  = {terms: 1,922, types: 3,271, coercions: 303}
+!!! CorePrep [Text.Regex.Glob.Generic.RegexParser]: finished in 2.00 milliseconds, allocated 4.406 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Regex.Glob.Generic.RegexParser]:
+!!! CodeGen [Text.Regex.Glob.Generic.RegexParser]: finished in 74.00 milliseconds, allocated 103.956 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/Regex/Glob/Generic -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build/autogen -Idist/dist-sandbox-6f7dfc62/build -x assembler -c /tmp/ghc31491_0/ghc_8.s -o dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/Generic/RegexParser.o
+*** Deleting temp files:
+Deleting: /tmp/ghc31491_0/ghc_9.c /tmp/ghc31491_0/ghc_8.s /tmp/ghc31491_0/ghc_7.s
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_9.c
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_7.s
+compile: input file src/Text/Regex/XMLSchema/Generic/RegexParser.hs
+*** Checking old interface for Text.Regex.XMLSchema.Generic.RegexParser:
+[4 of 9] Compiling Text.Regex.XMLSchema.Generic.RegexParser ( src/Text/Regex/XMLSchema/Generic/RegexParser.hs, dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/RegexParser.o )
+*** Parser [Text.Regex.XMLSchema.Generic.RegexParser]:
+!!! Parser [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 6.00 milliseconds, allocated 14.369 megabytes
+*** Renamer/typechecker [Text.Regex.XMLSchema.Generic.RegexParser]:
+!!! Renamer/typechecker [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 186.00 milliseconds, allocated 176.382 megabytes
+*** Desugar [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Desugar (after optimization)
+  = {terms: 1,585, types: 3,330, coercions: 0}
+!!! Desugar [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 12.00 milliseconds, allocated 12.613 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Simplifier iteration=1
+  = {terms: 1,881, types: 3,775, coercions: 217}
+Result size of Simplifier iteration=2
+  = {terms: 1,874, types: 3,783, coercions: 254}
+Result size of Simplifier
+  = {terms: 1,874, types: 3,783, coercions: 240}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 20.00 milliseconds, allocated 23.382 megabytes
+*** Specialise [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Specialise
+  = {terms: 1,898, types: 3,868, coercions: 240}
+!!! Specialise [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 0.00 milliseconds, allocated 3.370 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 2,327, types: 4,731, coercions: 240}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 9.00 milliseconds, allocated 13.957 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Simplifier iteration=1
+  = {terms: 6,917, types: 14,493, coercions: 1,740}
+Result size of Simplifier iteration=2
+  = {terms: 5,436, types: 9,052, coercions: 915}
+Result size of Simplifier iteration=3
+  = {terms: 5,334, types: 8,796, coercions: 869}
+Result size of Simplifier
+  = {terms: 5,334, types: 8,796, coercions: 869}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 106.00 milliseconds, allocated 119.931 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Simplifier
+  = {terms: 5,334, types: 8,796, coercions: 869}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 67.00 milliseconds, allocated 19.806 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Simplifier iteration=1
+  = {terms: 7,280, types: 11,142, coercions: 835}
+Result size of Simplifier iteration=2
+  = {terms: 7,266, types: 10,962, coercions: 777}
+Result size of Simplifier iteration=3
+  = {terms: 7,239, types: 10,927, coercions: 777}
+Result size of Simplifier
+  = {terms: 7,239, types: 10,927, coercions: 777}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 88.00 milliseconds, allocated 112.210 megabytes
+*** Float inwards [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Float inwards
+  = {terms: 7,239, types: 10,927, coercions: 777}
+!!! Float inwards [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 13.00 milliseconds, allocated 16.161 megabytes
+*** Called arity analysis [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Called arity analysis
+  = {terms: 7,239, types: 10,927, coercions: 777}
+!!! Called arity analysis [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 7.00 milliseconds, allocated 7.474 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Simplifier iteration=1
+  = {terms: 7,343, types: 11,197, coercions: 919}
+Result size of Simplifier iteration=2
+  = {terms: 7,329, types: 11,274, coercions: 597}
+Result size of Simplifier iteration=3
+  = {terms: 7,254, types: 11,032, coercions: 579}
+Result size of Simplifier
+  = {terms: 7,254, types: 11,032, coercions: 579}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 99.00 milliseconds, allocated 112.286 megabytes
+*** Demand analysis [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Demand analysis
+  = {terms: 7,254, types: 11,032, coercions: 579}
+!!! Demand analysis [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 37.00 milliseconds, allocated 38.640 megabytes
+*** Worker Wrapper binds [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Worker Wrapper binds
+  = {terms: 8,130, types: 13,622, coercions: 579}
+!!! Worker Wrapper binds [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 3.00 milliseconds, allocated 2.792 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Simplifier iteration=1
+  = {terms: 7,400, types: 12,410, coercions: 579}
+Result size of Simplifier iteration=2
+  = {terms: 7,044, types: 10,754, coercions: 579}
+Result size of Simplifier iteration=3
+  = {terms: 7,042, types: 10,751, coercions: 579}
+Result size of Simplifier
+  = {terms: 7,042, types: 10,751, coercions: 579}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 110.00 milliseconds, allocated 116.694 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 7,189, types: 11,110, coercions: 579}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 29.00 milliseconds, allocated 43.876 megabytes
+*** Common sub-expression [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Common sub-expression
+  = {terms: 7,123, types: 11,035, coercions: 559}
+!!! Common sub-expression [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 11.00 milliseconds, allocated 9.126 megabytes
+*** Float inwards [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Float inwards
+  = {terms: 7,123, types: 11,035, coercions: 559}
+!!! Float inwards [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 8.00 milliseconds, allocated 15.397 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Simplifier iteration=1
+  = {terms: 7,108, types: 10,783, coercions: 443}
+Result size of Simplifier
+  = {terms: 7,080, types: 10,732, coercions: 443}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 51.00 milliseconds, allocated 55.386 megabytes
+*** CoreTidy [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of Tidy Core
+  = {terms: 7,066, types: 10,674, coercions: 443}
+!!! CoreTidy [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 8.00 milliseconds, allocated 10.424 megabytes
+writeBinIface: 22 Names
+writeBinIface: 110 dict entries
+*** CorePrep [Text.Regex.XMLSchema.Generic.RegexParser]:
+Result size of CorePrep
+  = {terms: 8,259, types: 13,116, coercions: 443}
+!!! CorePrep [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 12.00 milliseconds, allocated 18.001 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Regex.XMLSchema.Generic.RegexParser]:
+!!! CodeGen [Text.Regex.XMLSchema.Generic.RegexParser]: finished in 323.00 milliseconds, allocated 446.288 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/Regex/XMLSchema/Generic -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build/autogen -Idist/dist-sandbox-6f7dfc62/build -x assembler -c /tmp/ghc31491_0/ghc_11.s -o dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/RegexParser.o
+*** Deleting temp files:
+Deleting: /tmp/ghc31491_0/ghc_12.c /tmp/ghc31491_0/ghc_11.s /tmp/ghc31491_0/ghc_10.s
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_12.c
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_10.s
+compile: input file src/Text/Regex/XMLSchema/Generic/Matching.hs
+*** Checking old interface for Text.Regex.XMLSchema.Generic.Matching:
+[5 of 9] Compiling Text.Regex.XMLSchema.Generic.Matching ( src/Text/Regex/XMLSchema/Generic/Matching.hs, dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/Matching.o )
+*** Parser [Text.Regex.XMLSchema.Generic.Matching]:
+!!! Parser [Text.Regex.XMLSchema.Generic.Matching]: finished in 4.00 milliseconds, allocated 10.757 megabytes
+*** Renamer/typechecker [Text.Regex.XMLSchema.Generic.Matching]:
+!!! Renamer/typechecker [Text.Regex.XMLSchema.Generic.Matching]: finished in 34.00 milliseconds, allocated 43.446 megabytes
+*** Desugar [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Desugar (after optimization)
+  = {terms: 585, types: 1,314, coercions: 0}
+!!! Desugar [Text.Regex.XMLSchema.Generic.Matching]: finished in 4.00 milliseconds, allocated 5.179 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Simplifier iteration=1
+  = {terms: 571, types: 1,324, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 571, types: 1,314, coercions: 0}
+Result size of Simplifier
+  = {terms: 571, types: 1,314, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Matching]: finished in 4.00 milliseconds, allocated 5.879 megabytes
+*** Specialise [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Specialise
+  = {terms: 571, types: 1,314, coercions: 0}
+!!! Specialise [Text.Regex.XMLSchema.Generic.Matching]: finished in 1.00 milliseconds, allocated 0.804 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 656, types: 1,560, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.XMLSchema.Generic.Matching]: finished in 2.00 milliseconds, allocated 4.921 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Simplifier iteration=1
+  = {terms: 621, types: 1,373, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 625, types: 1,345, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 617, types: 1,329, coercions: 0}
+Result size of Simplifier
+  = {terms: 617, types: 1,329, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Matching]: finished in 8.00 milliseconds, allocated 8.808 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Simplifier
+  = {terms: 617, types: 1,329, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Matching]: finished in 1.00 milliseconds, allocated 2.126 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Simplifier
+  = {terms: 617, types: 1,329, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Matching]: finished in 2.00 milliseconds, allocated 2.126 megabytes
+*** Float inwards [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Float inwards
+  = {terms: 617, types: 1,329, coercions: 0}
+!!! Float inwards [Text.Regex.XMLSchema.Generic.Matching]: finished in 1.00 milliseconds, allocated 1.405 megabytes
+*** Called arity analysis [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Called arity analysis
+  = {terms: 617, types: 1,329, coercions: 0}
+!!! Called arity analysis [Text.Regex.XMLSchema.Generic.Matching]: finished in 0.00 milliseconds, allocated 0.860 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Simplifier iteration=1
+  = {terms: 617, types: 1,329, coercions: 0}
+Result size of Simplifier
+  = {terms: 617, types: 1,329, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Matching]: finished in 3.00 milliseconds, allocated 4.251 megabytes
+*** Demand analysis [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Demand analysis
+  = {terms: 617, types: 1,329, coercions: 0}
+!!! Demand analysis [Text.Regex.XMLSchema.Generic.Matching]: finished in 3.00 milliseconds, allocated 3.795 megabytes
+*** Worker Wrapper binds [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Worker Wrapper binds
+  = {terms: 650, types: 1,365, coercions: 0}
+!!! Worker Wrapper binds [Text.Regex.XMLSchema.Generic.Matching]: finished in 0.00 milliseconds, allocated 0.344 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Simplifier iteration=1
+  = {terms: 631, types: 1,340, coercions: 0}
+Result size of Simplifier
+  = {terms: 605, types: 1,312, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Matching]: finished in 5.00 milliseconds, allocated 5.617 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 629, types: 1,395, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.XMLSchema.Generic.Matching]: finished in 2.00 milliseconds, allocated 4.792 megabytes
+*** Common sub-expression [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Common sub-expression
+  = {terms: 602, types: 1,302, coercions: 0}
+!!! Common sub-expression [Text.Regex.XMLSchema.Generic.Matching]: finished in 1.00 milliseconds, allocated 0.824 megabytes
+*** Float inwards [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Float inwards
+  = {terms: 602, types: 1,302, coercions: 0}
+!!! Float inwards [Text.Regex.XMLSchema.Generic.Matching]: finished in 0.00 milliseconds, allocated 1.285 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Simplifier
+  = {terms: 572, types: 1,230, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic.Matching]: finished in 2.00 milliseconds, allocated 2.357 megabytes
+*** CoreTidy [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of Tidy Core = {terms: 572, types: 1,230, coercions: 0}
+!!! CoreTidy [Text.Regex.XMLSchema.Generic.Matching]: finished in 1.00 milliseconds, allocated 1.029 megabytes
+writeBinIface: 74 Names
+writeBinIface: 156 dict entries
+*** CorePrep [Text.Regex.XMLSchema.Generic.Matching]:
+Result size of CorePrep = {terms: 805, types: 1,662, coercions: 0}
+!!! CorePrep [Text.Regex.XMLSchema.Generic.Matching]: finished in 1.00 milliseconds, allocated 1.575 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Regex.XMLSchema.Generic.Matching]:
+!!! CodeGen [Text.Regex.XMLSchema.Generic.Matching]: finished in 35.00 milliseconds, allocated 48.304 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/Regex/XMLSchema/Generic -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build/autogen -Idist/dist-sandbox-6f7dfc62/build -x assembler -c /tmp/ghc31491_0/ghc_14.s -o dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/Matching.o
+*** Deleting temp files:
+Deleting: /tmp/ghc31491_0/ghc_15.c /tmp/ghc31491_0/ghc_14.s /tmp/ghc31491_0/ghc_13.s
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_13.s
+compile: input file src/Text/Regex/XMLSchema/Generic.hs
+*** Checking old interface for Text.Regex.XMLSchema.Generic:
+[6 of 9] Compiling Text.Regex.XMLSchema.Generic ( src/Text/Regex/XMLSchema/Generic.hs, dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic.o )
+*** Parser [Text.Regex.XMLSchema.Generic]:
+!!! Parser [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 1.560 megabytes
+*** Renamer/typechecker [Text.Regex.XMLSchema.Generic]:
+!!! Renamer/typechecker [Text.Regex.XMLSchema.Generic]: finished in 2.00 milliseconds, allocated 2.203 megabytes
+*** Desugar [Text.Regex.XMLSchema.Generic]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.111 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.135 megabytes
+*** Specialise [Text.Regex.XMLSchema.Generic]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Text.Regex.XMLSchema.Generic]: finished in 1.00 milliseconds, allocated 0.054 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.XMLSchema.Generic]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.094 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.073 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Float inwards [Text.Regex.XMLSchema.Generic]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Called arity analysis [Text.Regex.XMLSchema.Generic]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.051 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Demand analysis [Text.Regex.XMLSchema.Generic]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Worker Wrapper binds [Text.Regex.XMLSchema.Generic]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.073 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.XMLSchema.Generic]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.093 megabytes
+*** Common sub-expression [Text.Regex.XMLSchema.Generic]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Float inwards [Text.Regex.XMLSchema.Generic]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Text.Regex.XMLSchema.Generic]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.073 megabytes
+*** CoreTidy [Text.Regex.XMLSchema.Generic]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.066 megabytes
+writeBinIface: 67 Names
+writeBinIface: 121 dict entries
+*** CorePrep [Text.Regex.XMLSchema.Generic]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Text.Regex.XMLSchema.Generic]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Regex.XMLSchema.Generic]:
+!!! CodeGen [Text.Regex.XMLSchema.Generic]: finished in 1.00 milliseconds, allocated 0.320 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/Regex/XMLSchema -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build/autogen -Idist/dist-sandbox-6f7dfc62/build -x assembler -c /tmp/ghc31491_0/ghc_17.s -o dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic.o
+*** Deleting temp files:
+Deleting: /tmp/ghc31491_0/ghc_18.c /tmp/ghc31491_0/ghc_17.s /tmp/ghc31491_0/ghc_16.s
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_18.c
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_16.s
+compile: input file src/Text/Regex/Glob/Generic.hs
+*** Checking old interface for Text.Regex.Glob.Generic:
+[7 of 9] Compiling Text.Regex.Glob.Generic ( src/Text/Regex/Glob/Generic.hs, dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/Generic.o )
+*** Parser [Text.Regex.Glob.Generic]:
+!!! Parser [Text.Regex.Glob.Generic]: finished in 1.00 milliseconds, allocated 0.937 megabytes
+*** Renamer/typechecker [Text.Regex.Glob.Generic]:
+!!! Renamer/typechecker [Text.Regex.Glob.Generic]: finished in 1.00 milliseconds, allocated 1.841 megabytes
+*** Desugar [Text.Regex.Glob.Generic]:
+Result size of Desugar (after optimization)
+  = {terms: 22, types: 37, coercions: 0}
+!!! Desugar [Text.Regex.Glob.Generic]: finished in 1.00 milliseconds, allocated 0.233 megabytes
+*** Simplifier [Text.Regex.Glob.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 26, types: 39, coercions: 0}
+Result size of Simplifier = {terms: 26, types: 39, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.235 megabytes
+*** Specialise [Text.Regex.Glob.Generic]:
+Result size of Specialise = {terms: 26, types: 39, coercions: 0}
+!!! Specialise [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.077 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.Glob.Generic]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 26, types: 39, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.206 megabytes
+*** Simplifier [Text.Regex.Glob.Generic]:
+Result size of Simplifier = {terms: 26, types: 39, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.119 megabytes
+*** Simplifier [Text.Regex.Glob.Generic]:
+Result size of Simplifier = {terms: 26, types: 39, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.Generic]: finished in 1.00 milliseconds, allocated 0.120 megabytes
+*** Simplifier [Text.Regex.Glob.Generic]:
+Result size of Simplifier = {terms: 26, types: 39, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.122 megabytes
+*** Float inwards [Text.Regex.Glob.Generic]:
+Result size of Float inwards = {terms: 26, types: 39, coercions: 0}
+!!! Float inwards [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Called arity analysis [Text.Regex.Glob.Generic]:
+Result size of Called arity analysis
+  = {terms: 26, types: 39, coercions: 0}
+!!! Called arity analysis [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Text.Regex.Glob.Generic]:
+Result size of Simplifier = {terms: 26, types: 39, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.120 megabytes
+*** Demand analysis [Text.Regex.Glob.Generic]:
+Result size of Demand analysis
+  = {terms: 26, types: 39, coercions: 0}
+!!! Demand analysis [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.126 megabytes
+*** Worker Wrapper binds [Text.Regex.Glob.Generic]:
+Result size of Worker Wrapper binds
+  = {terms: 26, types: 39, coercions: 0}
+!!! Worker Wrapper binds [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.057 megabytes
+*** Simplifier [Text.Regex.Glob.Generic]:
+Result size of Simplifier = {terms: 26, types: 39, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.185 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.Glob.Generic]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 26, types: 39, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.209 megabytes
+*** Common sub-expression [Text.Regex.Glob.Generic]:
+Result size of Common sub-expression
+  = {terms: 26, types: 39, coercions: 0}
+!!! Common sub-expression [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.079 megabytes
+*** Float inwards [Text.Regex.Glob.Generic]:
+Result size of Float inwards = {terms: 26, types: 39, coercions: 0}
+!!! Float inwards [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Text.Regex.Glob.Generic]:
+Result size of Simplifier = {terms: 26, types: 39, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.156 megabytes
+*** CoreTidy [Text.Regex.Glob.Generic]:
+Result size of Tidy Core = {terms: 26, types: 39, coercions: 0}
+!!! CoreTidy [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+writeBinIface: 17 Names
+writeBinIface: 71 dict entries
+*** CorePrep [Text.Regex.Glob.Generic]:
+Result size of CorePrep = {terms: 42, types: 59, coercions: 0}
+!!! CorePrep [Text.Regex.Glob.Generic]: finished in 0.00 milliseconds, allocated 0.109 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Regex.Glob.Generic]:
+!!! CodeGen [Text.Regex.Glob.Generic]: finished in 2.00 milliseconds, allocated 1.826 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/Regex/Glob -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build/autogen -Idist/dist-sandbox-6f7dfc62/build -x assembler -c /tmp/ghc31491_0/ghc_20.s -o dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/Generic.o
+*** Deleting temp files:
+Deleting: /tmp/ghc31491_0/ghc_21.c /tmp/ghc31491_0/ghc_20.s /tmp/ghc31491_0/ghc_19.s
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_21.c
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_19.s
+compile: input file src/Text/Regex/Glob/String.hs
+*** Checking old interface for Text.Regex.Glob.String:
+[8 of 9] Compiling Text.Regex.Glob.String ( src/Text/Regex/Glob/String.hs, dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/String.o )
+*** Parser [Text.Regex.Glob.String]:
+!!! Parser [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.768 megabytes
+*** Renamer/typechecker [Text.Regex.Glob.String]:
+!!! Renamer/typechecker [Text.Regex.Glob.String]: finished in 1.00 milliseconds, allocated 1.171 megabytes
+*** Desugar [Text.Regex.Glob.String]:
+Result size of Desugar (after optimization)
+  = {terms: 18, types: 15, coercions: 0}
+!!! Desugar [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.151 megabytes
+*** Simplifier [Text.Regex.Glob.String]:
+Result size of Simplifier iteration=1
+  = {terms: 22, types: 17, coercions: 0}
+Result size of Simplifier = {terms: 22, types: 17, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.String]: finished in 1.00 milliseconds, allocated 0.220 megabytes
+*** Specialise [Text.Regex.Glob.String]:
+Result size of Specialise = {terms: 55, types: 75, coercions: 0}
+!!! Specialise [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.222 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.Glob.String]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 65, types: 93, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.262 megabytes
+*** Simplifier [Text.Regex.Glob.String]:
+Result size of Simplifier iteration=1
+  = {terms: 107, types: 165, coercions: 0}
+Result size of Simplifier = {terms: 107, types: 165, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.String]: finished in 1.00 milliseconds, allocated 1.277 megabytes
+*** Simplifier [Text.Regex.Glob.String]:
+Result size of Simplifier = {terms: 107, types: 165, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.510 megabytes
+*** Simplifier [Text.Regex.Glob.String]:
+Result size of Simplifier iteration=1
+  = {terms: 142, types: 235, coercions: 0}
+Result size of Simplifier = {terms: 142, types: 235, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.String]: finished in 1.00 milliseconds, allocated 1.319 megabytes
+*** Float inwards [Text.Regex.Glob.String]:
+Result size of Float inwards
+  = {terms: 142, types: 235, coercions: 0}
+!!! Float inwards [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.258 megabytes
+*** Called arity analysis [Text.Regex.Glob.String]:
+Result size of Called arity analysis
+  = {terms: 142, types: 235, coercions: 0}
+!!! Called arity analysis [Text.Regex.Glob.String]: finished in 1.00 milliseconds, allocated 0.189 megabytes
+*** Simplifier [Text.Regex.Glob.String]:
+Result size of Simplifier = {terms: 142, types: 235, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.656 megabytes
+*** Demand analysis [Text.Regex.Glob.String]:
+Result size of Demand analysis
+  = {terms: 142, types: 235, coercions: 0}
+!!! Demand analysis [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.577 megabytes
+*** Worker Wrapper binds [Text.Regex.Glob.String]:
+Result size of Worker Wrapper binds
+  = {terms: 142, types: 235, coercions: 0}
+!!! Worker Wrapper binds [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.115 megabytes
+*** Simplifier [Text.Regex.Glob.String]:
+Result size of Simplifier = {terms: 142, types: 235, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.694 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.Glob.String]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 178, types: 308, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.766 megabytes
+*** Common sub-expression [Text.Regex.Glob.String]:
+Result size of Common sub-expression
+  = {terms: 90, types: 151, coercions: 0}
+!!! Common sub-expression [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.297 megabytes
+*** Float inwards [Text.Regex.Glob.String]:
+Result size of Float inwards
+  = {terms: 90, types: 151, coercions: 0}
+!!! Float inwards [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.116 megabytes
+*** Simplifier [Text.Regex.Glob.String]:
+Result size of Simplifier = {terms: 64, types: 97, coercions: 0}
+!!! Simplifier [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.380 megabytes
+*** CoreTidy [Text.Regex.Glob.String]:
+Result size of Tidy Core = {terms: 56, types: 83, coercions: 0}
+!!! CoreTidy [Text.Regex.Glob.String]: finished in 0.00 milliseconds, allocated 0.208 megabytes
+writeBinIface: 26 Names
+writeBinIface: 86 dict entries
+*** CorePrep [Text.Regex.Glob.String]:
+Result size of CorePrep = {terms: 62, types: 87, coercions: 0}
+!!! CorePrep [Text.Regex.Glob.String]: finished in 1.00 milliseconds, allocated 0.144 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Regex.Glob.String]:
+!!! CodeGen [Text.Regex.Glob.String]: finished in 3.00 milliseconds, allocated 3.795 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/Regex/Glob -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build/autogen -Idist/dist-sandbox-6f7dfc62/build -x assembler -c /tmp/ghc31491_0/ghc_23.s -o dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/String.o
+*** Deleting temp files:
+Deleting: /tmp/ghc31491_0/ghc_24.c /tmp/ghc31491_0/ghc_23.s /tmp/ghc31491_0/ghc_22.s
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_24.c
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_22.s
+compile: input file src/Text/Regex/XMLSchema/String.hs
+*** Checking old interface for Text.Regex.XMLSchema.String:
+[9 of 9] Compiling Text.Regex.XMLSchema.String ( src/Text/Regex/XMLSchema/String.hs, dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/String.o )
+*** Parser [Text.Regex.XMLSchema.String]:
+!!! Parser [Text.Regex.XMLSchema.String]: finished in 2.00 milliseconds, allocated 7.110 megabytes
+*** Renamer/typechecker [Text.Regex.XMLSchema.String]:
+!!! Renamer/typechecker [Text.Regex.XMLSchema.String]: finished in 4.00 milliseconds, allocated 5.497 megabytes
+*** Desugar [Text.Regex.XMLSchema.String]:
+Result size of Desugar (after optimization)
+  = {terms: 81, types: 159, coercions: 0}
+!!! Desugar [Text.Regex.XMLSchema.String]: finished in 0.00 milliseconds, allocated 0.688 megabytes
+*** Simplifier [Text.Regex.XMLSchema.String]:
+Result size of Simplifier iteration=1
+  = {terms: 85, types: 161, coercions: 0}
+Result size of Simplifier = {terms: 85, types: 161, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.String]: finished in 1.00 milliseconds, allocated 0.653 megabytes
+*** Specialise [Text.Regex.XMLSchema.String]:
+Result size of Specialise = {terms: 248, types: 488, coercions: 0}
+!!! Specialise [Text.Regex.XMLSchema.String]: finished in 0.00 milliseconds, allocated 1.176 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.XMLSchema.String]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 304, types: 594, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Regex.XMLSchema.String]: finished in 0.00 milliseconds, allocated 0.966 megabytes
+*** Simplifier [Text.Regex.XMLSchema.String]:
+Result size of Simplifier iteration=1
+  = {terms: 545, types: 1,062, coercions: 0}
+Result size of Simplifier
+  = {terms: 545, types: 1,062, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.String]: finished in 3.00 milliseconds, allocated 6.821 megabytes
+*** Simplifier [Text.Regex.XMLSchema.String]:
+Result size of Simplifier
+  = {terms: 545, types: 1,062, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.String]: finished in 2.00 milliseconds, allocated 2.513 megabytes
+*** Simplifier [Text.Regex.XMLSchema.String]:
+Result size of Simplifier iteration=1
+  = {terms: 636, types: 1,244, coercions: 0}
+Result size of Simplifier
+  = {terms: 636, types: 1,244, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.String]: finished in 3.00 milliseconds, allocated 5.829 megabytes
+*** Float inwards [Text.Regex.XMLSchema.String]:
+Result size of Float inwards
+  = {terms: 636, types: 1,244, coercions: 0}
+!!! Float inwards [Text.Regex.XMLSchema.String]: finished in 0.00 milliseconds, allocated 1.105 megabytes
+*** Called arity analysis [Text.Regex.XMLSchema.String]:
+Result size of Called arity analysis
+  = {terms: 636, types: 1,244, coercions: 0}
+!!! Called arity analysis [Text.Regex.XMLSchema.String]: finished in 1.00 milliseconds, allocated 0.800 megabytes
+*** Simplifier [Text.Regex.XMLSchema.String]:
+Result size of Simplifier
+  = {terms: 636, types: 1,244, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.String]: finished in 2.00 milliseconds, allocated 2.899 megabytes
+*** Demand analysis [Text.Regex.XMLSchema.String]:
+Result size of Demand analysis
+  = {terms: 636, types: 1,244, coercions: 0}
+!!! Demand analysis [Text.Regex.XMLSchema.String]: finished in 1.00 milliseconds, allocated 2.552 megabytes
+*** Worker Wrapper binds [Text.Regex.XMLSchema.String]:
+Result size of Worker Wrapper binds
+  = {terms: 636, types: 1,244, coercions: 0}
+!!! Worker Wrapper binds [Text.Regex.XMLSchema.String]: finished in 1.00 milliseconds, allocated 0.422 megabytes
+*** Simplifier [Text.Regex.XMLSchema.String]:
+Result size of Simplifier
+  = {terms: 636, types: 1,244, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.String]: finished in 1.00 milliseconds, allocated 3.083 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.XMLSchema.String]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 838, types: 1,632, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Regex.XMLSchema.String]: finished in 2.00 milliseconds, allocated 3.442 megabytes
+*** Common sub-expression [Text.Regex.XMLSchema.String]:
+Result size of Common sub-expression
+  = {terms: 455, types: 931, coercions: 0}
+!!! Common sub-expression [Text.Regex.XMLSchema.String]: finished in 1.00 milliseconds, allocated 1.170 megabytes
+*** Float inwards [Text.Regex.XMLSchema.String]:
+Result size of Float inwards
+  = {terms: 455, types: 931, coercions: 0}
+!!! Float inwards [Text.Regex.XMLSchema.String]: finished in 0.00 milliseconds, allocated 0.409 megabytes
+*** Simplifier [Text.Regex.XMLSchema.String]:
+Result size of Simplifier = {terms: 251, types: 541, coercions: 0}
+!!! Simplifier [Text.Regex.XMLSchema.String]: finished in 1.00 milliseconds, allocated 1.553 megabytes
+*** CoreTidy [Text.Regex.XMLSchema.String]:
+Result size of Tidy Core = {terms: 193, types: 411, coercions: 0}
+!!! CoreTidy [Text.Regex.XMLSchema.String]: finished in 1.00 milliseconds, allocated 0.631 megabytes
+writeBinIface: 91 Names
+writeBinIface: 147 dict entries
+*** CorePrep [Text.Regex.XMLSchema.String]:
+Result size of CorePrep = {terms: 247, types: 499, coercions: 0}
+!!! CorePrep [Text.Regex.XMLSchema.String]: finished in 0.00 milliseconds, allocated 0.514 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Regex.XMLSchema.String]:
+!!! CodeGen [Text.Regex.XMLSchema.String]: finished in 13.00 milliseconds, allocated 15.954 megabytes
+*** Assembler:
+/usr/bin/gcc '-std=gnu99' -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/Regex/XMLSchema -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build -Idist/dist-sandbox-6f7dfc62/build/autogen -Idist/dist-sandbox-6f7dfc62/build -x assembler -c /tmp/ghc31491_0/ghc_26.s -o dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/String.o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc31491_0/ghc_27.c /tmp/ghc31491_0/ghc_26.s /tmp/ghc31491_0/ghc_25.s
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_27.c
+Warning: deleting non-existent /tmp/ghc31491_0/ghc_25.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: 
+*** Deleting temp dirs:
+Deleting: /tmp/ghc31491_0
+Linking...
+[(SimpleUnitId (ComponentId "base-4.9.0.0"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "base"}, pkgVersion = Version {versionBranch =
+[4,9,0,0], versionTags = []}},ModuleRenaming True []),(SimpleUnitId
+(ComponentId "bytestring-0.10.7.0"),PackageIdentifier {pkgName = PackageName
+{unPackageName = "bytestring"}, pkgVersion = Version {versionBranch =
+[0,10,7,0], versionTags = []}},ModuleRenaming True []),(SimpleUnitId
+(ComponentId
+"hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX"),PackageIdentifier
+{pkgName = PackageName {unPackageName = "hxt-charproperties"}, pkgVersion =
+Version {versionBranch = [9,2,0,1], versionTags = []}},ModuleRenaming True
+[]),(SimpleUnitId (ComponentId
+"parsec-3.1.9-1PXGcqJoNID6lsecrnxIso"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "parsec"}, pkgVersion = Version {versionBranch =
+[3,1,9], versionTags = []}},ModuleRenaming True []),(SimpleUnitId (ComponentId
+"text-1.2.2.0-DNPL9j70xW29izEeMAP0sY"),PackageIdentifier {pkgName =
+PackageName {unPackageName = "text"}, pkgVersion = Version {versionBranch =
+[1,2,2,0], versionTags = []}},ModuleRenaming True [])]
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/ar",["-r","-v","dist/dist-sandbox-6f7dfc62/build/objs-31480/libHShxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt.a","dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/String.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/Generic.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/Generic/RegexParser.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/String.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/Matching.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/RegexParser.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/Regex.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/StringLike.o"])
+/usr/bin/ar: creating dist/dist-sandbox-6f7dfc62/build/objs-31480/libHShxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt.a
+a - dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/String.o
+a - dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/Generic.o
+a - dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/Generic/RegexParser.o
+a - dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/String.o
+a - dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic.o
+a - dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/Matching.o
+a - dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/RegexParser.o
+a - dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/Regex.o
+a - dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/StringLike.o
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/ld",["-x","-r","-o","dist/dist-sandbox-6f7dfc62/build/HShxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/String.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/Generic.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/Generic/RegexParser.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/String.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/Matching.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/RegexParser.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/Regex.o","dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/StringLike.o"])
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","--package-db=dist/dist-sandbox-6f7dfc62/package.conf.inplace","-v2"])
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-6f7dfc62/build","-odir","dist/dist-sandbox-6f7dfc62/build","-hidir","dist/dist-sandbox-6f7dfc62/build","-stubdir","dist/dist-sandbox-6f7dfc62/build","-i","-idist/dist-sandbox-6f7dfc62/build","-isrc","-idist/dist-sandbox-6f7dfc62/build/autogen","-Idist/dist-sandbox-6f7dfc62/build/autogen","-Idist/dist-sandbox-6f7dfc62/build","-optP-include","-optPdist/dist-sandbox-6f7dfc62/build/autogen/cabal_macros.h","-this-unit-id","hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","base-4.9.0.0","-package-id","bytestring-0.10.7.0","-package-id","hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX","-package-id","parsec-3.1.9-1PXGcqJoNID6lsecrnxIso","-package-id","text-1.2.2.0-DNPL9j70xW29izEeMAP0sY","-XHaskell2010","Text.Regex.Glob.String","Text.Regex.Glob.Generic","Text.Regex.Glob.Generic.RegexParser","Text.Regex.XMLSchema.String","Text.Regex.XMLSchema.Generic","Text.Regex.XMLSchema.Generic.Matching","Text.Regex.XMLSchema.Generic.RegexParser","Text.Regex.XMLSchema.Generic.Regex","Text.Regex.XMLSchema.Generic.StringLike","-rtsopts","-Wall","-fwarn-tabs","-funbox-strict-fields","-v3"])
+Creating package registration file:
+/tmp/pkgConf-hxt-regex-xmlschema-9.2.010599613932089018456.2
+directory dist/dist-sandbox-6f7dfc62/doc/html/hxt-regex-xmlschema does exist:
+False
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2
+Installing LICENSE to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/share/doc/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2/LICENSE
+Installing library in
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/Glob
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/Glob
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/Glob/Generic
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/XMLSchema
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/XMLSchema/Generic
+Installing dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/String.hi to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/Glob/String.hi
+Installing dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/Generic.hi to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/Glob/Generic.hi
+Installing
+dist/dist-sandbox-6f7dfc62/build/Text/Regex/Glob/Generic/RegexParser.hi to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/Glob/Generic/RegexParser.hi
+Installing dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/String.hi to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/XMLSchema/String.hi
+Installing dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic.hi to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/XMLSchema/Generic.hi
+Installing
+dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/Matching.hi to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/XMLSchema/Generic/Matching.hi
+Installing
+dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/RegexParser.hi
+to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/XMLSchema/Generic/RegexParser.hi
+Installing
+dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/Regex.hi to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/XMLSchema/Generic/Regex.hi
+Installing
+dist/dist-sandbox-6f7dfc62/build/Text/Regex/XMLSchema/Generic/StringLike.hi to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/Text/Regex/XMLSchema/Generic/StringLike.hi
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt
+Installing
+dist/dist-sandbox-6f7dfc62/build/libHShxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt.a
+to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/libHShxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt.a
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/libHShxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt.a","--strip-unneeded"])
+creating
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt
+Installing
+dist/dist-sandbox-6f7dfc62/build/HShxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt.o
+to
+/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/HShxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt.o
+Environment: [("ALSA_CONFIG_PATH","/etc/alsa-pulse.conf"),("AUDIODRIVER","pulseaudio"),("COLORFGBG","15;0"),("COLORTERM","1"),("CONFIG_SITE","/usr/share/site/x86_64-unknown-linux-gnu"),("CPLUS_INCLUDE_PATH","/home/omer/include:"),("CPU","x86_64"),("CSHEDIT","emacs"),("CVS_RSH","ssh"),("C_INCLUDE_PATH","/home/omer/include:"),("DBUS_SESSION_BUS_ADDRESS","unix:abstract=/tmp/dbus-LHNS2LicvN,guid=5e1ab84c8ce9c8936e3bbbc656eaa6e6"),("DESKTOP_SESSION","kde-plasma"),("DISPLAY",":0"),("DM_CONTROL","/var/run/xdmctl"),("EDITOR","vim"),("FROM_HEADER",""),("GPG_AGENT_INFO","/tmp/gpg-HOiCZy/S.gpg-agent:3502:1"),("GPG_TTY","/dev/pts/16"),("GS_LIB","/home/omer/.fonts"),("GTK2_RC_FILES","/etc/gtk-2.0/gtkrc:/home/omer/.gtkrc-2.0"),("GTK_IM_MODULE","cedilla"),("GTK_MODULES","canberra-gtk-module"),("G_BROKEN_FILENAMES","1"),("G_FILENAME_ENCODING","@locale,UTF-8,ISO-8859-15,CP1252"),("HISTSIZE","10000"),("HOME","/home/omer"),("HOST","omer.site"),("HOSTNAME","omer.site"),("HOSTTYPE","x86_64"),("INPUTRC","/home/omer/.inputrc"),("JAVA_BINDIR","/usr/lib64/jvm/java/bin"),("JAVA_HOME","/home/omer/jdk1.8.0_25/"),("JAVA_ROOT","/home/omer/jdk1.8.0_25/"),("JDK_HOME","/usr/lib64/jvm/java"),("JRE_HOME","/usr/lib64/jvm/java/jre"),("KDE_FULL_SESSION","true"),("KDE_SESSION_UID","1000"),("KDE_SESSION_VERSION","4"),("KONSOLE_DBUS_SERVICE",":1.103"),("KONSOLE_DBUS_SESSION","/Sessions/143"),("KONSOLE_DBUS_WINDOW","/Windows/143"),("KONSOLE_PROFILE_NAME","Shell"),("LANG","en_US.UTF-8"),("LANGUAGE",""),("LC_CTYPE","en_US.UTF-8"),("LD_LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:/usr/local/lib64:/usr/lib64/mpi/gcc/openmpi/lib64"),("LESS","-R"),("LESSCLOSE","lessclose.sh %s %s"),("LESSKEY","/etc/lesskey.bin"),("LESSOPEN","lessopen.sh %s"),("LESS_ADVANCED_PREPROCESSOR","no"),("LIBRARY_PATH","/home/omer/lib:/home/omer/lib64:"),("LOGNAME","omer"),("LSCOLORS","Gxfxcxdxbxegedabagacad"),("LS_COLORS","no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.xz=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:"),("LS_OPTIONS","-N --color=tty -T 0"),("MACHTYPE","x86_64"),("MAIL","/var/spool/mail/omer"),("MANPATH","/usr/lib64/mpi/gcc/openmpi/share/man:/home/omer/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"),("MINICOM","-c on"),("MORE","-sl"),("NNTPSERVER","news"),("OLDPWD","/home/omer/haskell/hxt"),("ORIG_PATH","/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin"),("OSTYPE","linux-gnu"),("PAGER","less"),("PATH","/home/omer/haskell/hxt/hxt/.cabal-sandbox/bin:/home/omer/haskell/ghc/inplace/bin:/home/omer/perl5/bin:/home/omer/bin:/home/omer/.local/bin:/home/omer/jdk1.8.0_25/bin:/home/omer/.cabal/bin:/home/omer/arc/arcanist/bin:/home/omer/racket/bin:/usr/lib64/mpi/gcc/openmpi/bin:/home/omer/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/lib/qt3/bin:/home/omer/.cabal/bin:/home/omer/.cabal/bin"),("PERL5LIB","/home/omer/perl5/lib/perl5"),("PERL_LOCAL_LIB_ROOT","/home/omer/perl5"),("PERL_MB_OPT","--install_base \"/home/omer/perl5\""),("PERL_MM_OPT","INSTALL_BASE=/home/omer/perl5"),("PKG_CONFIG_PATH","/home/omer/lib/pkgconfig:/home/omer/lib64/pkgconfig:"),("PROFILEHOME",""),("PROFILEREAD","true"),("PWD","/home/omer/haskell/hxt/hxt"),("PYTHONSTARTUP","/etc/pythonstart"),("QEMU_AUDIO_DRV","pa"),("QTDIR","/usr/lib/qt3"),("QT_IM_MODULE","xim"),("QT_IM_SWITCHER","imsw-multi"),("QT_PLUGIN_PATH","/home/omer/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/"),("QT_QPA_PLATFORMTHEME","qt5ct"),("QT_SYSTEM_DIR","/usr/share/desktop-data"),("SDK_HOME","/usr/lib64/jvm/java"),("SDL_AUDIODRIVER","pulse"),("SESSION_MANAGER","local/omer.site:@/tmp/.ICE-unix/3572,unix/omer.site:/tmp/.ICE-unix/3572"),("SHELL","/usr/bin/zsh"),("SHELL_SESSION_ID","640306d6a68040008a853c8f5b788efe"),("SHLVL","3"),("SSH_AGENT_PID","3501"),("SSH_AUTH_SOCK","/tmp/ssh-uQHwVdmtTI59/agent.3426"),("TERM","xterm-256color"),("USER","omer"),("USE_FAM",""),("VDPAU_DRIVER","va_gl"),("WINDOWID","62919986"),("WINDOWMANAGER","/usr/bin/startkde"),("WINDOWPATH","7"),("XAUTHLOCALHOSTNAME","omer.site"),("XCURSOR_SIZE","0"),("XCURSOR_THEME","DMZ"),("XDG_CONFIG_DIRS","/usr/local/etc/xdg:/etc/xdg"),("XDG_CURRENT_DESKTOP","KDE"),("XDG_DATA_DIRS","/usr/share:/usr/local/share:/usr/share"),("XDG_RUNTIME_DIR","/run/user/1000"),("XDG_SEAT","seat0"),("XDG_SESSION_ID","19886"),("XDG_VTNR","7"),("XDM_MANAGED","method=classic"),("XKEYSYMDB","/usr/X11R6/lib/X11/XKeysymDB"),("XMODIFIERS","@im=local"),("XNLSPATH","/usr/share/X11/nls"),("XSESSION_IS_UP","yes"),("ZSH","/home/omer/.oh-my-zsh"),("_","/home/omer/.cabal/bin/cabal")]
+("/usr/bin/strip",["/home/omer/haskell/hxt/hxt/.cabal-sandbox/lib/x86_64-linux-ghc-8.1.20160328/hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt/HShxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt.o","--strip-unneeded"])
+("/home/omer/haskell/ghc/inplace/bin/ghc",["--abi-hash","-v","-fbuilding-cabal-package","-O","-outputdir","dist/dist-sandbox-6f7dfc62/build","-odir","dist/dist-sandbox-6f7dfc62/build","-hidir","dist/dist-sandbox-6f7dfc62/build","-stubdir","dist/dist-sandbox-6f7dfc62/build","-i","-idist/dist-sandbox-6f7dfc62/build","-isrc","-idist/dist-sandbox-6f7dfc62/build/autogen","-Idist/dist-sandbox-6f7dfc62/build/autogen","-Idist/dist-sandbox-6f7dfc62/build","-optP-include","-optPdist/dist-sandbox-6f7dfc62/build/autogen/cabal_macros.h","-this-unit-id","hxt-regex-xmlschema-9.2.0.2-D8AHIbXvLj3F1ufaGmQ3Gt","-hide-all-packages","-no-user-package-db","-package-db","/home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-package-id","base-4.9.0.0","-package-id","bytestring-0.10.7.0","-package-id","hxt-charproperties-9.2.0.1-L1rhanzXQ304SfBOSkeXkX","-package-id","parsec-3.1.9-1PXGcqJoNID6lsecrnxIso","-package-id","text-1.2.2.0-DNPL9j70xW29izEeMAP0sY","-XHaskell2010","Text.Regex.Glob.String","Text.Regex.Glob.Generic","Text.Regex.Glob.Generic.RegexParser","Text.Regex.XMLSchema.String","Text.Regex.XMLSchema.Generic","Text.Regex.XMLSchema.Generic.Matching","Text.Regex.XMLSchema.Generic.RegexParser","Text.Regex.XMLSchema.Generic.Regex","Text.Regex.XMLSchema.Generic.StringLike","-rtsopts","-Wall","-fwarn-tabs","-funbox-strict-fields","-v3"])
+Registering hxt-regex-xmlschema-9.2.0.2...
+("/home/omer/haskell/ghc/inplace/bin/ghc-pkg",["update","-","--global","--no-user-package-db","--package-db=/home/omer/haskell/hxt/hxt/.cabal-sandbox/x86_64-linux-ghc-8.1.20160328-packages.conf.d","-v2"])
+cabal: Leaving directory '/tmp/cabal-tmp-30681/hxt-regex-xmlschema-9.2.0.2'
