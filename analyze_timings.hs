@@ -28,9 +28,14 @@ type Module   = String
 type StepName = String
 
 data ModuleTiming = ModuleTiming
-  { mtName  :: !Module
-  , mtSteps :: !(M.Map StepName Step)
+  { mtName       :: !Module
+  , mtSteps      :: !(M.Map StepName Step)
+  , mtTotalTime  :: Double -- ^ 0 before the post-processing step
+  , mtTotalAlloc :: Double -- ^ 0 before the post-processing step
   } deriving (Show)
+
+initModuleTiming :: Module -> M.Map StepName Step -> ModuleTiming
+initModuleTiming mod steps = ModuleTiming mod steps 0 0
 
 data Step = Step
   { stepModName :: !Module
@@ -40,14 +45,14 @@ data Step = Step
   , stepSteps   :: !(M.Map StepName Step) -- ^ sub-steps
   , stepOfTotal :: !Double
       -- ^ how much of the total time is spent on this step? 0 before the
-      -- post-preocessing step.
+      -- post-processing step.
   } deriving (Show)
 
 data StepBeginning = StepBeginning !Module !StepName
   deriving (Show)
 
 flattenSteps :: ModuleTiming -> [Step]
-flattenSteps (ModuleTiming _ steps) = concatMap flattenSteps' (M.elems steps)
+flattenSteps (ModuleTiming _ steps _ _) = concatMap flattenSteps' (M.elems steps)
 
 flattenSteps' :: Step -> [Step]
 flattenSteps' s@(Step _ _ _ _ steps _) = s : concatMap flattenSteps' (M.elems steps)
@@ -118,7 +123,7 @@ addStep ts stk@(s : ss) step@(Step mn sn _ _ _ _)
       moduleSteps :: M.Map StepName Step
       moduleSteps = fromMaybe M.empty (fmap mtSteps (M.lookup mn ts))
     in
-      ( M.insert mn (ModuleTiming mn (addStep' moduleSteps ss step)) ts
+      ( M.insert mn (initModuleTiming mn (addStep' moduleSteps ss step)) ts
       , ss )
   | otherwise
   = error ("Unexpected step in the stack: " ++ show stk ++ " " ++ show step)
@@ -146,21 +151,23 @@ addStep' steps (s : ss) newStep =
     in
       M.insert s subStep{ stepSteps = subStepSubSteps } steps
 
-totalTime :: ModuleTiming -> Double
-totalTime (ModuleTiming _ steps) = M.foldl (\total (Step _ _ t _ _ _) -> total + t) 0.0 steps
-
-totalAlloc :: ModuleTiming -> Double
-totalAlloc (ModuleTiming _ steps) = M.foldl (\total (Step _ _ _ a _ _) -> total + a) 0.0 steps
-
-totalPercentage :: ModuleTiming -> Double
-totalPercentage (ModuleTiming _ steps) = M.foldl (\total (Step _ _ _ _ _ p) -> total + p) 0.0 steps
 
 postProcessSteps :: ModuleTiming -> ModuleTiming
-postProcessSteps mod@(ModuleTiming modName steps) = postProcessSteps' (totalTime mod) mod
+postProcessSteps mod@(ModuleTiming modName steps _ _) =
+    (postProcessSteps' total_time mod) { mtTotalTime = total_time, mtTotalAlloc = total_alloc }
+  where
+    total_time  = totalTime mod
+    total_alloc = totalAlloc mod
+
+    totalTime :: ModuleTiming -> Double
+    totalTime (ModuleTiming _ steps _ _) = M.foldl (\total (Step _ _ t _ _ _) -> total + t) 0.0 steps
+
+    totalAlloc :: ModuleTiming -> Double
+    totalAlloc (ModuleTiming _ steps _ _) = M.foldl (\total (Step _ _ _ a _ _) -> total + a) 0.0 steps
 
 postProcessSteps' :: Double -> ModuleTiming -> ModuleTiming
-postProcessSteps' total (ModuleTiming modName steps) =
-    ModuleTiming modName (M.map (postProcessSteps'' total) steps)
+postProcessSteps' total (ModuleTiming modName steps _ _) =
+    ModuleTiming modName (M.map (postProcessSteps'' total) steps) 0 0
 
 postProcessSteps'' :: Double -> Step -> Step
 postProcessSteps'' total s =
@@ -179,7 +186,7 @@ stepSortTimes = sortOn stepTime
 stepSortAlloc = sortOn stepAlloc
 
 renderModuleTiming :: StepSorter -> ModuleTiming -> PP.Doc
-renderModuleTiming sorter mt@(ModuleTiming modName steps) =
+renderModuleTiming sorter mt@(ModuleTiming modName steps totalTime totalAlloc) =
     let
       sortedSteps = reverse (sorter (M.elems steps))
     in
@@ -187,7 +194,7 @@ renderModuleTiming sorter mt@(ModuleTiming modName steps) =
       PP.text (centerFill modName '=' 85) PP.<$>
         PP.vcat (concatMap (renderStep sorter 0) sortedSteps) PP.<$>
       PP.text (replicate 85 '-') PP.<$>
-      renderLine 0 "Total" (totalTime mt) (totalAlloc mt) (totalPercentage mt)
+      renderLine 0 "Total" totalTime totalAlloc 100.0
 
 renderStep :: StepSorter -> Int -> Step -> [PP.Doc]
 renderStep sorter nesting (Step _ step time alloc subSteps p) =
@@ -229,11 +236,15 @@ render doc = PP.displayS (PP.renderPretty 1.0 100 doc) ""
 main :: IO ()
 main = do
     ls <- lines <$> getContents
-    let modTimings = M.elems (parseLines ls M.empty [])
+    let modTimings =
+          reverse $
+            sortOn mtTotalTime $
+              map postProcessSteps $
+                M.elems (parseLines ls M.empty [])
 
     -- Render module tables
     forM_ modTimings $ \modTiming ->
-      putStrLn (render (renderModuleTiming stepSortTimes (postProcessSteps modTiming)))
+      putStrLn (render (renderModuleTiming stepSortTimes modTiming))
 
     -- Render final stats
     let
