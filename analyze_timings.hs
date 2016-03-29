@@ -8,7 +8,8 @@
 module Main where
 
 import           Control.Monad
-import           Data.List               (sortOn)
+import           Data.Bifunctor          (second)
+import           Data.List               (foldl', sortOn)
 import           Data.Maybe              (fromMaybe)
 import           Text.Printf             (printf)
 
@@ -44,6 +45,14 @@ data Step = Step
 
 data StepBeginning = StepBeginning !Module !StepName
   deriving (Show)
+
+flattenSteps :: ModuleTiming -> [Step]
+flattenSteps (ModuleTiming _ steps) = concatMap flattenSteps' (M.elems steps)
+
+flattenSteps' :: Step -> [Step]
+flattenSteps' s@(Step _ _ _ _ steps _) = s : concatMap flattenSteps' (M.elems steps)
+
+--------------------------------------------------------------------------------
 
 parseStepBeginning :: String -> Either ParseError StepBeginning
 parseStepBeginning = runParser parser () "<stdin>"
@@ -214,10 +223,47 @@ rightAlignFill msg filler len =
 
 --------------------------------------------------------------------------------
 
+render :: PP.Doc -> String
+render doc = PP.displayS (PP.renderPretty 1.0 100 doc) ""
+
 main :: IO ()
 main = do
     ls <- lines <$> getContents
-    forM_ (M.elems (parseLines ls M.empty [])) $ \modTiming ->
-      putStrLn $
-        flip PP.displayS "" $
-          PP.renderPretty 1.0 100 (renderModuleTiming stepSortTimes (postProcessSteps modTiming))
+    let modTimings = M.elems (parseLines ls M.empty [])
+
+    -- Render module tables
+    forM_ modTimings $ \modTiming ->
+      putStrLn (render (renderModuleTiming stepSortTimes (postProcessSteps modTiming)))
+
+    -- Render final stats
+    let
+      all_steps :: [Step]
+      all_steps   = concatMap flattenSteps modTimings
+
+      step_groups :: M.Map StepName Double
+      step_groups =
+        let
+          -- or just use Monoid (Sum a)
+          alterMap t1 Nothing   = Just t1
+          alterMap t1 (Just t2) = Just (t1 + t2)
+        in
+          foldl' (\m step -> M.alter (alterMap (stepTime step)) (stepName step) m)
+                 M.empty all_steps
+
+      total_time  = sum (M.elems step_groups)
+
+      step_percentages =
+        M.map (\stepTotal -> if total_time == 0.0
+                               then 0.0
+                               else 100.0 * stepTotal / total_time) step_groups
+
+      sorted = reverse (sortOn snd (M.toList step_percentages))
+
+    putStrLn ""
+
+    putStrLn $ render $ PP.vcat $
+      PP.text (centerFill "Total" '=' 49) :
+        (flip map sorted $ \(stepName, per) ->
+           PP.fill 38 (PP.text stepName) PP.<>
+             PP.text (rightAlignFill (showDouble 2 per) ' ' 10) PP.<>
+               PP.char '%')
