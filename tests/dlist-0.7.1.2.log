@@ -1,0 +1,274 @@
+cabal: Entering directory '/tmp/cabal-tmp-1030/dlist-0.7.1.2'
+Configuring dlist-0.7.1.2...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc1402_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/7833686901102520059.c -o /tmp/ghc1402_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc1402_0/ghc_1.s -o /tmp/20448977631967513926.o
+*** Deleting temp files:
+Deleting: /tmp/ghc1402_0/ghc_2.rsp /tmp/ghc1402_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1402_0
+Building dlist-0.7.1.2...
+Preprocessing library dlist-0.7.1.2...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.DList
+Created temporary directory: /tmp/ghc1628_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc1628_0/ghc_2.h -x assembler-with-cpp ./Data/DList.hs -o /tmp/ghc1628_0/ghc_1.hscpp
+!!! Chasing dependencies: finished in 7.00 milliseconds, allocated 6.465 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-23 07:23:03 UTC
+         ms_mod = Data.DList,
+         ms_textual_imps = [(Nothing, Control.Applicative),
+                            (Nothing, Control.Applicative), (Nothing, GHC.Exts),
+                            (Nothing, GHC.Exts), (Nothing, Text.Read),
+                            (Nothing, Data.Foldable), (Nothing, Data.String),
+                            (Nothing, Data.Function), (Nothing, Control.Monad),
+                            (Nothing, Control.DeepSeq), (Nothing, Data.List),
+                            (Nothing, Prelude)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc1628_0/ghc_2.h
+compile: input file /tmp/ghc1628_0/ghc_1.hscpp
+*** Checking old interface for Data.DList:
+[1 of 1] Compiling Data.DList       ( Data/DList.hs, dist/dist-sandbox-6afc8227/build/Data/DList.o )
+*** Parser [Data.DList]:
+!!! Parser [Data.DList]: finished in 6.00 milliseconds, allocated 8.377 megabytes
+*** Renamer/typechecker [Data.DList]:
+!!! Renamer/typechecker [Data.DList]: finished in 637.00 milliseconds, allocated 279.050 megabytes
+*** Desugar [Data.DList]:
+Result size of Desugar (after optimization)
+  = {terms: 770, types: 1,459, coercions: 69}
+!!! Desugar [Data.DList]: finished in 12.00 milliseconds, allocated 6.734 megabytes
+*** Simplifier [Data.DList]:
+Result size of Simplifier iteration=1
+  = {terms: 760, types: 1,480, coercions: 116}
+Result size of Simplifier iteration=2
+  = {terms: 757, types: 1,476, coercions: 116}
+Result size of Simplifier
+  = {terms: 757, types: 1,476, coercions: 116}
+!!! Simplifier [Data.DList]: finished in 50.00 milliseconds, allocated 18.394 megabytes
+*** Specialise [Data.DList]:
+Result size of Specialise
+  = {terms: 955, types: 1,834, coercions: 126}
+!!! Specialise [Data.DList]: finished in 4.00 milliseconds, allocated 2.535 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.DList]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,097, types: 2,105, coercions: 126}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.DList]: finished in 14.00 milliseconds, allocated 6.481 megabytes
+*** Simplifier [Data.DList]:
+Result size of Simplifier iteration=1
+  = {terms: 1,650, types: 2,675, coercions: 882}
+Result size of Simplifier iteration=2
+  = {terms: 1,457, types: 2,277, coercions: 863}
+Result size of Simplifier iteration=3
+  = {terms: 1,442, types: 2,254, coercions: 863}
+Result size of Simplifier
+  = {terms: 1,442, types: 2,254, coercions: 863}
+!!! Simplifier [Data.DList]: finished in 92.00 milliseconds, allocated 51.883 megabytes
+*** Simplifier [Data.DList]:
+Result size of Simplifier iteration=1
+  = {terms: 1,396, types: 2,169, coercions: 865}
+Result size of Simplifier iteration=2
+  = {terms: 1,388, types: 2,165, coercions: 865}
+Result size of Simplifier
+  = {terms: 1,388, types: 2,165, coercions: 865}
+!!! Simplifier [Data.DList]: finished in 52.00 milliseconds, allocated 33.203 megabytes
+*** Simplifier [Data.DList]:
+Result size of Simplifier iteration=1
+  = {terms: 1,881, types: 2,819, coercions: 1,044}
+Result size of Simplifier iteration=2
+  = {terms: 1,697, types: 2,515, coercions: 846}
+Result size of Simplifier iteration=3
+  = {terms: 1,671, types: 2,445, coercions: 753}
+Result size of Simplifier
+  = {terms: 1,671, types: 2,445, coercions: 753}
+!!! Simplifier [Data.DList]: finished in 74.00 milliseconds, allocated 41.300 megabytes
+*** Float inwards [Data.DList]:
+Result size of Float inwards
+  = {terms: 1,671, types: 2,445, coercions: 753}
+!!! Float inwards [Data.DList]: finished in 3.00 milliseconds, allocated 2.751 megabytes
+*** Called arity analysis [Data.DList]:
+Result size of Called arity analysis
+  = {terms: 1,671, types: 2,445, coercions: 753}
+!!! Called arity analysis [Data.DList]: finished in 4.00 milliseconds, allocated 2.670 megabytes
+*** Simplifier [Data.DList]:
+Result size of Simplifier
+  = {terms: 1,671, types: 2,445, coercions: 753}
+!!! Simplifier [Data.DList]: finished in 22.00 milliseconds, allocated 9.524 megabytes
+*** Demand analysis [Data.DList]:
+Result size of Demand analysis
+  = {terms: 1,671, types: 2,445, coercions: 753}
+!!! Demand analysis [Data.DList]: finished in 9.00 milliseconds, allocated 7.941 megabytes
+*** Worker Wrapper binds [Data.DList]:
+Result size of Worker Wrapper binds
+  = {terms: 1,788, types: 2,555, coercions: 753}
+!!! Worker Wrapper binds [Data.DList]: finished in 2.00 milliseconds, allocated 0.756 megabytes
+*** Simplifier [Data.DList]:
+Result size of Simplifier iteration=1
+  = {terms: 1,728, types: 2,512, coercions: 753}
+Result size of Simplifier iteration=2
+  = {terms: 1,689, types: 2,484, coercions: 753}
+Result size of Simplifier
+  = {terms: 1,689, types: 2,484, coercions: 753}
+!!! Simplifier [Data.DList]: finished in 62.00 milliseconds, allocated 32.538 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.DList]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,780, types: 2,660, coercions: 753}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.DList]: finished in 18.00 milliseconds, allocated 10.955 megabytes
+*** Common sub-expression [Data.DList]:
+Result size of Common sub-expression
+  = {terms: 1,647, types: 2,528, coercions: 682}
+!!! Common sub-expression [Data.DList]: finished in 6.00 milliseconds, allocated 3.256 megabytes
+*** Float inwards [Data.DList]:
+Result size of Float inwards
+  = {terms: 1,647, types: 2,528, coercions: 682}
+!!! Float inwards [Data.DList]: finished in 3.00 milliseconds, allocated 2.532 megabytes
+*** Liberate case [Data.DList]:
+Result size of Liberate case
+  = {terms: 1,647, types: 2,528, coercions: 682}
+!!! Liberate case [Data.DList]: finished in 2.00 milliseconds, allocated 0.822 megabytes
+*** Simplifier [Data.DList]:
+Result size of Simplifier iteration=1
+  = {terms: 1,621, types: 2,493, coercions: 716}
+Result size of Simplifier
+  = {terms: 1,611, types: 2,472, coercions: 714}
+!!! Simplifier [Data.DList]: finished in 43.00 milliseconds, allocated 20.446 megabytes
+*** SpecConstr [Data.DList]:
+Result size of SpecConstr
+  = {terms: 1,623, types: 2,484, coercions: 714}
+!!! SpecConstr [Data.DList]: finished in 4.00 milliseconds, allocated 2.751 megabytes
+*** Simplifier [Data.DList]:
+Result size of Simplifier iteration=1
+  = {terms: 1,625, types: 2,484, coercions: 714}
+Result size of Simplifier iteration=2
+  = {terms: 1,621, types: 2,479, coercions: 714}
+Result size of Simplifier
+  = {terms: 1,621, types: 2,479, coercions: 714}
+!!! Simplifier [Data.DList]: finished in 55.00 milliseconds, allocated 31.316 megabytes
+*** CoreTidy [Data.DList]:
+Result size of Tidy Core
+  = {terms: 1,352, types: 1,994, coercions: 613}
+!!! CoreTidy [Data.DList]: finished in 6.00 milliseconds, allocated 3.222 megabytes
+writeBinIface: 166 Names
+writeBinIface: 270 dict entries
+writeBinIface: 166 Names
+writeBinIface: 270 dict entries
+*** CorePrep [Data.DList]:
+Result size of CorePrep
+  = {terms: 1,820, types: 2,540, coercions: 613}
+!!! CorePrep [Data.DList]: finished in 5.00 milliseconds, allocated 3.271 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.DList]:
+!!! CodeGen [Data.DList]: finished in 140.00 milliseconds, allocated 89.429 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1628_0/ghc_4.s -o dist/dist-sandbox-6afc8227/build/Data/DList.o
+*** CorePrep [Data.DList]:
+Result size of CorePrep
+  = {terms: 1,820, types: 2,540, coercions: 613}
+!!! CorePrep [Data.DList]: finished in 5.00 milliseconds, allocated 3.176 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.DList]:
+!!! CodeGen [Data.DList]: finished in 159.00 milliseconds, allocated 94.022 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1628_0/ghc_6.s -o dist/dist-sandbox-6afc8227/build/Data/DList.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc1628_0/ghc_7.c /tmp/ghc1628_0/ghc_6.s /tmp/ghc1628_0/ghc_5.c /tmp/ghc1628_0/ghc_4.s /tmp/ghc1628_0/ghc_3.s
+Warning: deleting non-existent /tmp/ghc1628_0/ghc_7.c
+Warning: deleting non-existent /tmp/ghc1628_0/ghc_5.c
+Warning: deleting non-existent /tmp/ghc1628_0/ghc_3.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc1628_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1628_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -o dist/dist-sandbox-6afc8227/build/libHSdlist-0.7.1.2-LXvO1Bw0RvFzUhQMljfgc-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSdlist-0.7.1.2-LXvO1Bw0RvFzUhQMljfgc-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Data/DList.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc2009_0
+*** Deleting temp files:
+Deleting: /tmp/ghc2009_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc2009_0
+Creating package registration file:
+/tmp/pkgConf-dlist-0.7.18057508461632621729.2
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/dlist-0.7.1.2-LXvO1Bw0RvFzUhQMljfgc
+Registering dlist-0.7.1.2...
+cabal: Leaving directory '/tmp/cabal-tmp-1030/dlist-0.7.1.2'

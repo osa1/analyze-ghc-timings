@@ -1,0 +1,1114 @@
+cabal: Entering directory '/tmp/cabal-tmp-1027/scientific-0.3.4.6'
+Configuring scientific-0.3.4.6...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc11345_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/16816927771714636915.c -o /tmp/ghc11345_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc11345_0/ghc_1.s -o /tmp/1957747793424238335.o
+*** Deleting temp files:
+Deleting: /tmp/ghc11345_0/ghc_2.rsp /tmp/ghc11345_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc11345_0
+Building scientific-0.3.4.6...
+Preprocessing library scientific-0.3.4.6...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.Scientific,*Data.Text.Lazy.Builder.Scientific,*Data.ByteString.Builder.Scientific,*Math.NumberTheory.Logarithms,*GHC.Integer.Logarithms.Compat,*GHC.Integer.Compat,*Utils
+Created temporary directory: /tmp/ghc11395_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc11395_0/ghc_2.h -x assembler-with-cpp src/Data/Scientific.hs -o /tmp/ghc11395_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc11395_0/ghc_4.h -x assembler-with-cpp src/Data/Text/Lazy/Builder/Scientific.hs -o /tmp/ghc11395_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc11395_0/ghc_6.h -x assembler-with-cpp src/Data/ByteString/Builder/Scientific.hs -o /tmp/ghc11395_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc11395_0/ghc_8.h -x assembler-with-cpp src/Math/NumberTheory/Logarithms.hs -o /tmp/ghc11395_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc11395_0/ghc_10.h -x assembler-with-cpp src/GHC/Integer/Logarithms/Compat.hs -o /tmp/ghc11395_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc11395_0/ghc_12.h -x assembler-with-cpp src/GHC/Integer/Compat.hs -o /tmp/ghc11395_0/ghc_11.hscpp
+!!! Chasing dependencies: finished in 49.00 milliseconds, allocated 25.813 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-10 12:09:06 UTC
+         ms_mod = GHC.Integer.Compat,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Integer)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-10 12:09:06 UTC
+         ms_mod = GHC.Integer.Logarithms.Compat,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, GHC.Integer.Logarithms)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-10 12:09:06 UTC
+         ms_mod = Math.NumberTheory.Logarithms,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, GHC.Integer.Logarithms.Compat), (Nothing, GHC.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-10 12:09:06 UTC
+         ms_mod = Utils,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-10 12:09:06 UTC
+         ms_mod = Data.Scientific,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Utils),
+                            (Nothing, GHC.Integer.Compat), (Nothing, GHC.Integer),
+                            (Nothing, Data.Bits), (Nothing, Data.Text.Lazy.Builder.RealFloat),
+                            (Nothing, Text.ParserCombinators.ReadP),
+                            (Nothing, Text.ParserCombinators.ReadP),
+                            (Nothing, Text.ParserCombinators.ReadPrec), (Nothing, Text.Read),
+                            (Nothing, Text.Read), (Nothing, Numeric),
+                            (Nothing, Math.NumberTheory.Logarithms),
+                            (Nothing, Data.Vector.Mutable), (Nothing, Data.Vector),
+                            (Nothing, Data.Typeable), (Nothing, Data.Ratio),
+                            (Nothing, Data.Map), (Nothing, Data.Hashable),
+                            (Nothing, Data.Function), (Nothing, Data.Data),
+                            (Nothing, Data.Char), (Nothing, Data.Binary),
+                            (Nothing, Control.DeepSeq), (Nothing, Control.Monad.ST),
+                            (Nothing, Control.Monad), (Nothing, Control.Exception)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-10 12:09:06 UTC
+         ms_mod = Data.Text.Lazy.Builder.Scientific,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Monoid),
+                            (Nothing, Utils), (Nothing, Data.Text),
+                            (Nothing, Data.Text.Lazy.Builder.Int),
+                            (Nothing, Data.Text.Lazy.Builder),
+                            (Nothing, Data.Text.Lazy.Builder.RealFloat),
+                            (Nothing, Data.Scientific), (Nothing, Data.Scientific)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-10 12:09:06 UTC
+         ms_mod = Data.ByteString.Builder.Scientific,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Monoid),
+                            (Nothing, Utils), (Nothing, Data.ByteString.Builder.Extra),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Data.ByteString.Char8),
+                            (Nothing, Data.Text.Lazy.Builder.RealFloat),
+                            (Nothing, Data.Scientific), (Nothing, Data.Scientific)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc11395_0/ghc_12.h /tmp/ghc11395_0/ghc_10.h /tmp/ghc11395_0/ghc_8.h /tmp/ghc11395_0/ghc_6.h /tmp/ghc11395_0/ghc_4.h /tmp/ghc11395_0/ghc_2.h
+compile: input file /tmp/ghc11395_0/ghc_11.hscpp
+*** Checking old interface for GHC.Integer.Compat:
+[1 of 7] Compiling GHC.Integer.Compat ( src/GHC/Integer/Compat.hs, dist/dist-sandbox-6afc8227/build/GHC/Integer/Compat.o )
+*** Parser [GHC.Integer.Compat]:
+!!! Parser [GHC.Integer.Compat]: finished in 1.00 milliseconds, allocated 0.784 megabytes
+*** Renamer/typechecker [GHC.Integer.Compat]:
+!!! Renamer/typechecker [GHC.Integer.Compat]: finished in 67.00 milliseconds, allocated 18.426 megabytes
+*** Desugar [GHC.Integer.Compat]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [GHC.Integer.Compat]: finished in 1.00 milliseconds, allocated 0.130 megabytes
+*** Simplifier [GHC.Integer.Compat]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.130 megabytes
+*** Specialise [GHC.Integer.Compat]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [GHC.Integer.Compat]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [GHC.Integer.Compat]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [GHC.Integer.Compat]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [GHC.Integer.Compat]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [GHC.Integer.Compat]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [GHC.Integer.Compat]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [GHC.Integer.Compat]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Demand analysis [GHC.Integer.Compat]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [GHC.Integer.Compat]: finished in 1.00 milliseconds, allocated 0.064 megabytes
+*** Worker Wrapper binds [GHC.Integer.Compat]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [GHC.Integer.Compat]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [GHC.Integer.Compat]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [GHC.Integer.Compat]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [GHC.Integer.Compat]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [GHC.Integer.Compat]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [GHC.Integer.Compat]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [GHC.Integer.Compat]: finished in 6.00 milliseconds, allocated 3.732 megabytes
+writeBinIface: 4 Names
+writeBinIface: 23 dict entries
+writeBinIface: 4 Names
+writeBinIface: 23 dict entries
+*** CorePrep [GHC.Integer.Compat]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [GHC.Integer.Compat]:
+!!! CodeGen [GHC.Integer.Compat]: finished in 1.00 milliseconds, allocated 0.322 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/GHC/Integer -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc11395_0/ghc_14.s -o dist/dist-sandbox-6afc8227/build/GHC/Integer/Compat.o
+*** CorePrep [GHC.Integer.Compat]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [GHC.Integer.Compat]:
+!!! CodeGen [GHC.Integer.Compat]: finished in 0.00 milliseconds, allocated 0.292 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/GHC/Integer -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11395_0/ghc_16.s -o dist/dist-sandbox-6afc8227/build/GHC/Integer/Compat.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11395_0/ghc_17.c /tmp/ghc11395_0/ghc_16.s /tmp/ghc11395_0/ghc_15.c /tmp/ghc11395_0/ghc_14.s /tmp/ghc11395_0/ghc_13.s
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_17.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_13.s
+compile: input file /tmp/ghc11395_0/ghc_9.hscpp
+*** Checking old interface for GHC.Integer.Logarithms.Compat:
+[2 of 7] Compiling GHC.Integer.Logarithms.Compat ( src/GHC/Integer/Logarithms/Compat.hs, dist/dist-sandbox-6afc8227/build/GHC/Integer/Logarithms/Compat.o )
+*** Parser [GHC.Integer.Logarithms.Compat]:
+!!! Parser [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.817 megabytes
+*** Renamer/typechecker [GHC.Integer.Logarithms.Compat]:
+!!! Renamer/typechecker [GHC.Integer.Logarithms.Compat]: finished in 1.00 milliseconds, allocated 0.555 megabytes
+*** Desugar [GHC.Integer.Logarithms.Compat]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [GHC.Integer.Logarithms.Compat]: finished in 1.00 milliseconds, allocated 0.132 megabytes
+*** Simplifier [GHC.Integer.Logarithms.Compat]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.128 megabytes
+*** Specialise [GHC.Integer.Logarithms.Compat]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [GHC.Integer.Logarithms.Compat]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [GHC.Integer.Logarithms.Compat]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Logarithms.Compat]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [GHC.Integer.Logarithms.Compat]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Simplifier [GHC.Integer.Logarithms.Compat]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [GHC.Integer.Logarithms.Compat]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Called arity analysis [GHC.Integer.Logarithms.Compat]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Simplifier [GHC.Integer.Logarithms.Compat]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [GHC.Integer.Logarithms.Compat]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [GHC.Integer.Logarithms.Compat]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [GHC.Integer.Logarithms.Compat]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [GHC.Integer.Logarithms.Compat]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [GHC.Integer.Logarithms.Compat]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [GHC.Integer.Logarithms.Compat]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Simplifier [GHC.Integer.Logarithms.Compat]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [GHC.Integer.Logarithms.Compat]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 6 Names
+writeBinIface: 25 dict entries
+writeBinIface: 6 Names
+writeBinIface: 25 dict entries
+*** CorePrep [GHC.Integer.Logarithms.Compat]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [GHC.Integer.Logarithms.Compat]:
+!!! CodeGen [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.316 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/GHC/Integer/Logarithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc11395_0/ghc_19.s -o dist/dist-sandbox-6afc8227/build/GHC/Integer/Logarithms/Compat.o
+*** CorePrep [GHC.Integer.Logarithms.Compat]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Stg2Stg:
+*** CodeGen [GHC.Integer.Logarithms.Compat]:
+!!! CodeGen [GHC.Integer.Logarithms.Compat]: finished in 0.00 milliseconds, allocated 0.311 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/GHC/Integer/Logarithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11395_0/ghc_21.s -o dist/dist-sandbox-6afc8227/build/GHC/Integer/Logarithms/Compat.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11395_0/ghc_22.c /tmp/ghc11395_0/ghc_21.s /tmp/ghc11395_0/ghc_20.c /tmp/ghc11395_0/ghc_19.s /tmp/ghc11395_0/ghc_18.s
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_22.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_18.s
+compile: input file /tmp/ghc11395_0/ghc_7.hscpp
+*** Checking old interface for Math.NumberTheory.Logarithms:
+[3 of 7] Compiling Math.NumberTheory.Logarithms ( src/Math/NumberTheory/Logarithms.hs, dist/dist-sandbox-6afc8227/build/Math/NumberTheory/Logarithms.o )
+*** Parser [Math.NumberTheory.Logarithms]:
+!!! Parser [Math.NumberTheory.Logarithms]: finished in 2.00 milliseconds, allocated 2.414 megabytes
+*** Renamer/typechecker [Math.NumberTheory.Logarithms]:
+!!! Renamer/typechecker [Math.NumberTheory.Logarithms]: finished in 81.00 milliseconds, allocated 48.700 megabytes
+*** Desugar [Math.NumberTheory.Logarithms]:
+Result size of Desugar (after optimization)
+  = {terms: 180, types: 66, coercions: 0}
+!!! Desugar [Math.NumberTheory.Logarithms]: finished in 2.00 milliseconds, allocated 0.881 megabytes
+*** Simplifier [Math.NumberTheory.Logarithms]:
+Result size of Simplifier iteration=1
+  = {terms: 151, types: 34, coercions: 0}
+Result size of Simplifier = {terms: 151, types: 34, coercions: 0}
+!!! Simplifier [Math.NumberTheory.Logarithms]: finished in 6.00 milliseconds, allocated 1.657 megabytes
+*** Specialise [Math.NumberTheory.Logarithms]:
+Result size of Specialise = {terms: 158, types: 39, coercions: 0}
+!!! Specialise [Math.NumberTheory.Logarithms]: finished in 0.00 milliseconds, allocated 0.208 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Math.NumberTheory.Logarithms]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 176, types: 48, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Math.NumberTheory.Logarithms]: finished in 0.00 milliseconds, allocated 0.580 megabytes
+*** Simplifier [Math.NumberTheory.Logarithms]:
+Result size of Simplifier iteration=1
+  = {terms: 203, types: 69, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 177, types: 52, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 178, types: 53, coercions: 0}
+Result size of Simplifier iteration=4
+  = {terms: 174, types: 51, coercions: 0}
+Result size of Simplifier = {terms: 174, types: 51, coercions: 0}
+!!! Simplifier [Math.NumberTheory.Logarithms]: finished in 3.00 milliseconds, allocated 2.754 megabytes
+*** Simplifier [Math.NumberTheory.Logarithms]:
+Result size of Simplifier iteration=1
+  = {terms: 171, types: 49, coercions: 0}
+Result size of Simplifier = {terms: 171, types: 49, coercions: 0}
+!!! Simplifier [Math.NumberTheory.Logarithms]: finished in 2.00 milliseconds, allocated 1.159 megabytes
+*** Simplifier [Math.NumberTheory.Logarithms]:
+Result size of Simplifier = {terms: 171, types: 49, coercions: 0}
+!!! Simplifier [Math.NumberTheory.Logarithms]: finished in 2.00 milliseconds, allocated 0.560 megabytes
+*** Float inwards [Math.NumberTheory.Logarithms]:
+Result size of Float inwards
+  = {terms: 171, types: 49, coercions: 0}
+!!! Float inwards [Math.NumberTheory.Logarithms]: finished in 0.00 milliseconds, allocated 0.252 megabytes
+*** Called arity analysis [Math.NumberTheory.Logarithms]:
+Result size of Called arity analysis
+  = {terms: 171, types: 49, coercions: 0}
+!!! Called arity analysis [Math.NumberTheory.Logarithms]: finished in 0.00 milliseconds, allocated 0.171 megabytes
+*** Simplifier [Math.NumberTheory.Logarithms]:
+Result size of Simplifier iteration=1
+  = {terms: 169, types: 48, coercions: 0}
+Result size of Simplifier = {terms: 169, types: 48, coercions: 0}
+!!! Simplifier [Math.NumberTheory.Logarithms]: finished in 1.00 milliseconds, allocated 1.098 megabytes
+*** Demand analysis [Math.NumberTheory.Logarithms]:
+Result size of Demand analysis
+  = {terms: 169, types: 48, coercions: 0}
+!!! Demand analysis [Math.NumberTheory.Logarithms]: finished in 0.00 milliseconds, allocated 0.630 megabytes
+*** Worker Wrapper binds [Math.NumberTheory.Logarithms]:
+Result size of Worker Wrapper binds
+  = {terms: 182, types: 55, coercions: 0}
+!!! Worker Wrapper binds [Math.NumberTheory.Logarithms]: finished in 0.00 milliseconds, allocated 0.091 megabytes
+*** Simplifier [Math.NumberTheory.Logarithms]:
+Result size of Simplifier iteration=1
+  = {terms: 179, types: 54, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 171, types: 51, coercions: 0}
+Result size of Simplifier = {terms: 171, types: 51, coercions: 0}
+!!! Simplifier [Math.NumberTheory.Logarithms]: finished in 2.00 milliseconds, allocated 1.754 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Math.NumberTheory.Logarithms]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 173, types: 52, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Math.NumberTheory.Logarithms]: finished in 0.00 milliseconds, allocated 0.546 megabytes
+*** Common sub-expression [Math.NumberTheory.Logarithms]:
+Result size of Common sub-expression
+  = {terms: 173, types: 52, coercions: 0}
+!!! Common sub-expression [Math.NumberTheory.Logarithms]: finished in 0.00 milliseconds, allocated 0.188 megabytes
+*** Float inwards [Math.NumberTheory.Logarithms]:
+Result size of Float inwards
+  = {terms: 173, types: 52, coercions: 0}
+!!! Float inwards [Math.NumberTheory.Logarithms]: finished in 0.00 milliseconds, allocated 0.236 megabytes
+*** Simplifier [Math.NumberTheory.Logarithms]:
+Result size of Simplifier iteration=1
+  = {terms: 169, types: 50, coercions: 0}
+Result size of Simplifier = {terms: 169, types: 50, coercions: 0}
+!!! Simplifier [Math.NumberTheory.Logarithms]: finished in 2.00 milliseconds, allocated 1.110 megabytes
+*** CoreTidy [Math.NumberTheory.Logarithms]:
+Result size of Tidy Core = {terms: 162, types: 45, coercions: 0}
+!!! CoreTidy [Math.NumberTheory.Logarithms]: finished in 0.00 milliseconds, allocated 0.188 megabytes
+writeBinIface: 6 Names
+writeBinIface: 32 dict entries
+writeBinIface: 6 Names
+writeBinIface: 32 dict entries
+*** CorePrep [Math.NumberTheory.Logarithms]:
+Result size of CorePrep = {terms: 213, types: 60, coercions: 0}
+!!! CorePrep [Math.NumberTheory.Logarithms]: finished in 1.00 milliseconds, allocated 0.328 megabytes
+*** Stg2Stg:
+*** CodeGen [Math.NumberTheory.Logarithms]:
+!!! CodeGen [Math.NumberTheory.Logarithms]: finished in 9.00 milliseconds, allocated 7.354 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Math/NumberTheory -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc11395_0/ghc_24.s -o dist/dist-sandbox-6afc8227/build/Math/NumberTheory/Logarithms.o
+*** CorePrep [Math.NumberTheory.Logarithms]:
+Result size of CorePrep = {terms: 213, types: 60, coercions: 0}
+!!! CorePrep [Math.NumberTheory.Logarithms]: finished in 2.00 milliseconds, allocated 0.318 megabytes
+*** Stg2Stg:
+*** CodeGen [Math.NumberTheory.Logarithms]:
+!!! CodeGen [Math.NumberTheory.Logarithms]: finished in 8.00 milliseconds, allocated 7.635 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Math/NumberTheory -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11395_0/ghc_26.s -o dist/dist-sandbox-6afc8227/build/Math/NumberTheory/Logarithms.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11395_0/ghc_27.c /tmp/ghc11395_0/ghc_26.s /tmp/ghc11395_0/ghc_25.c /tmp/ghc11395_0/ghc_24.s /tmp/ghc11395_0/ghc_23.s
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_27.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_25.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_23.s
+compile: input file src/Utils.hs
+*** Checking old interface for Utils:
+[4 of 7] Compiling Utils            ( src/Utils.hs, dist/dist-sandbox-6afc8227/build/Utils.o )
+*** Parser [Utils]:
+!!! Parser [Utils]: finished in 1.00 milliseconds, allocated 1.296 megabytes
+*** Renamer/typechecker [Utils]:
+!!! Renamer/typechecker [Utils]: finished in 164.00 milliseconds, allocated 63.099 megabytes
+*** Desugar [Utils]:
+Result size of Desugar (after optimization)
+  = {terms: 220, types: 164, coercions: 11}
+!!! Desugar [Utils]: finished in 3.00 milliseconds, allocated 1.415 megabytes
+*** Simplifier [Utils]:
+Result size of Simplifier iteration=1
+  = {terms: 198, types: 147, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 189, types: 138, coercions: 4}
+Result size of Simplifier iteration=3
+  = {terms: 189, types: 138, coercions: 4}
+Result size of Simplifier = {terms: 189, types: 138, coercions: 4}
+!!! Simplifier [Utils]: finished in 6.00 milliseconds, allocated 3.152 megabytes
+*** Specialise [Utils]:
+Result size of Specialise = {terms: 210, types: 153, coercions: 4}
+!!! Specialise [Utils]: finished in 0.00 milliseconds, allocated 0.316 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Utils]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 284, types: 237, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Utils]: finished in 2.00 milliseconds, allocated 1.007 megabytes
+*** Simplifier [Utils]:
+Result size of Simplifier iteration=1
+  = {terms: 322, types: 222, coercions: 12}
+Result size of Simplifier iteration=2
+  = {terms: 273, types: 186, coercions: 14}
+Result size of Simplifier = {terms: 273, types: 186, coercions: 14}
+!!! Simplifier [Utils]: finished in 7.00 milliseconds, allocated 3.845 megabytes
+*** Simplifier [Utils]:
+Result size of Simplifier iteration=1
+  = {terms: 296, types: 214, coercions: 14}
+Result size of Simplifier iteration=2
+  = {terms: 261, types: 162, coercions: 14}
+Result size of Simplifier iteration=3
+  = {terms: 257, types: 157, coercions: 14}
+Result size of Simplifier iteration=4
+  = {terms: 255, types: 156, coercions: 14}
+Result size of Simplifier = {terms: 255, types: 156, coercions: 14}
+!!! Simplifier [Utils]: finished in 14.00 milliseconds, allocated 4.569 megabytes
+*** Simplifier [Utils]:
+Result size of Simplifier iteration=1
+  = {terms: 295, types: 186, coercions: 9}
+Result size of Simplifier iteration=2
+  = {terms: 247, types: 155, coercions: 9}
+Result size of Simplifier = {terms: 247, types: 155, coercions: 9}
+!!! Simplifier [Utils]: finished in 4.00 milliseconds, allocated 2.805 megabytes
+*** Float inwards [Utils]:
+Result size of Float inwards
+  = {terms: 247, types: 155, coercions: 9}
+!!! Float inwards [Utils]: finished in 0.00 milliseconds, allocated 0.293 megabytes
+*** Called arity analysis [Utils]:
+Result size of Called arity analysis
+  = {terms: 247, types: 155, coercions: 9}
+!!! Called arity analysis [Utils]: finished in 1.00 milliseconds, allocated 0.252 megabytes
+*** Simplifier [Utils]:
+Result size of Simplifier = {terms: 247, types: 155, coercions: 9}
+!!! Simplifier [Utils]: finished in 1.00 milliseconds, allocated 0.833 megabytes
+*** Demand analysis [Utils]:
+Result size of Demand analysis
+  = {terms: 247, types: 155, coercions: 9}
+!!! Demand analysis [Utils]: finished in 2.00 milliseconds, allocated 0.844 megabytes
+*** Worker Wrapper binds [Utils]:
+Result size of Worker Wrapper binds
+  = {terms: 303, types: 244, coercions: 9}
+!!! Worker Wrapper binds [Utils]: finished in 0.00 milliseconds, allocated 0.169 megabytes
+*** Simplifier [Utils]:
+Result size of Simplifier iteration=1
+  = {terms: 312, types: 268, coercions: 9}
+Result size of Simplifier iteration=2
+  = {terms: 243, types: 172, coercions: 9}
+Result size of Simplifier = {terms: 243, types: 172, coercions: 9}
+!!! Simplifier [Utils]: finished in 5.00 milliseconds, allocated 3.466 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Utils]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 267, types: 190, coercions: 9}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Utils]: finished in 1.00 milliseconds, allocated 0.823 megabytes
+*** Common sub-expression [Utils]:
+Result size of Common sub-expression
+  = {terms: 258, types: 190, coercions: 9}
+!!! Common sub-expression [Utils]: finished in 1.00 milliseconds, allocated 0.332 megabytes
+*** Float inwards [Utils]:
+Result size of Float inwards
+  = {terms: 258, types: 190, coercions: 9}
+!!! Float inwards [Utils]: finished in 0.00 milliseconds, allocated 0.282 megabytes
+*** Simplifier [Utils]:
+Result size of Simplifier iteration=1
+  = {terms: 240, types: 181, coercions: 9}
+Result size of Simplifier = {terms: 240, types: 181, coercions: 9}
+!!! Simplifier [Utils]: finished in 4.00 milliseconds, allocated 1.914 megabytes
+*** CoreTidy [Utils]:
+Result size of Tidy Core = {terms: 240, types: 181, coercions: 9}
+!!! CoreTidy [Utils]: finished in 1.00 milliseconds, allocated 0.349 megabytes
+writeBinIface: 11 Names
+writeBinIface: 49 dict entries
+writeBinIface: 11 Names
+writeBinIface: 49 dict entries
+*** CorePrep [Utils]:
+Result size of CorePrep = {terms: 276, types: 201, coercions: 9}
+!!! CorePrep [Utils]: finished in 1.00 milliseconds, allocated 0.488 megabytes
+*** Stg2Stg:
+*** CodeGen [Utils]:
+!!! CodeGen [Utils]: finished in 18.00 milliseconds, allocated 12.268 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc11395_0/ghc_29.s -o dist/dist-sandbox-6afc8227/build/Utils.o
+*** CorePrep [Utils]:
+Result size of CorePrep = {terms: 276, types: 201, coercions: 9}
+!!! CorePrep [Utils]: finished in 1.00 milliseconds, allocated 0.470 megabytes
+*** Stg2Stg:
+*** CodeGen [Utils]:
+!!! CodeGen [Utils]: finished in 23.00 milliseconds, allocated 12.853 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11395_0/ghc_31.s -o dist/dist-sandbox-6afc8227/build/Utils.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11395_0/ghc_32.c /tmp/ghc11395_0/ghc_31.s /tmp/ghc11395_0/ghc_30.c /tmp/ghc11395_0/ghc_29.s /tmp/ghc11395_0/ghc_28.s
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_32.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_30.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_28.s
+compile: input file /tmp/ghc11395_0/ghc_1.hscpp
+*** Checking old interface for Data.Scientific:
+[5 of 7] Compiling Data.Scientific  ( src/Data/Scientific.hs, dist/dist-sandbox-6afc8227/build/Data/Scientific.o )
+*** Parser [Data.Scientific]:
+!!! Parser [Data.Scientific]: finished in 26.00 milliseconds, allocated 27.466 megabytes
+*** Renamer/typechecker [Data.Scientific]:
+!!! Renamer/typechecker [Data.Scientific]: finished in 1019.00 milliseconds, allocated 405.862 megabytes
+*** Desugar [Data.Scientific]:
+Result size of Desugar (after optimization)
+  = {terms: 3,450, types: 3,041, coercions: 127}
+!!! Desugar [Data.Scientific]: finished in 66.00 milliseconds, allocated 34.582 megabytes
+*** Simplifier [Data.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 3,068, types: 2,707, coercions: 82}
+Result size of Simplifier iteration=2
+  = {terms: 2,968, types: 2,593, coercions: 95}
+Result size of Simplifier iteration=3
+  = {terms: 2,961, types: 2,586, coercions: 95}
+Result size of Simplifier
+  = {terms: 2,961, types: 2,586, coercions: 95}
+!!! Simplifier [Data.Scientific]: finished in 167.00 milliseconds, allocated 85.289 megabytes
+*** Specialise [Data.Scientific]:
+Result size of Specialise
+  = {terms: 3,650, types: 3,623, coercions: 245}
+!!! Specialise [Data.Scientific]: finished in 13.00 milliseconds, allocated 6.722 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Scientific]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 4,405, types: 4,485, coercions: 245}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Scientific]: finished in 19.00 milliseconds, allocated 20.966 megabytes
+*** Simplifier [Data.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 8,923, types: 7,899, coercions: 752}
+Result size of Simplifier iteration=2
+  = {terms: 6,870, types: 5,398, coercions: 350}
+Result size of Simplifier iteration=3
+  = {terms: 6,756, types: 5,279, coercions: 344}
+Result size of Simplifier
+  = {terms: 6,756, types: 5,279, coercions: 344}
+!!! Simplifier [Data.Scientific]: finished in 344.00 milliseconds, allocated 192.196 megabytes
+*** Simplifier [Data.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 8,803, types: 6,453, coercions: 424}
+Result size of Simplifier iteration=2
+  = {terms: 8,171, types: 5,936, coercions: 392}
+Result size of Simplifier iteration=3
+  = {terms: 8,093, types: 5,870, coercions: 392}
+Result size of Simplifier
+  = {terms: 8,093, types: 5,870, coercions: 392}
+!!! Simplifier [Data.Scientific]: finished in 231.00 milliseconds, allocated 154.394 megabytes
+*** Simplifier [Data.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 14,717, types: 10,104, coercions: 415}
+Result size of Simplifier iteration=2
+  = {terms: 13,820, types: 9,633, coercions: 415}
+Result size of Simplifier iteration=3
+  = {terms: 13,761, types: 9,586, coercions: 415}
+Result size of Simplifier
+  = {terms: 13,761, types: 9,586, coercions: 415}
+!!! Simplifier [Data.Scientific]: finished in 443.00 milliseconds, allocated 233.675 megabytes
+*** Float inwards [Data.Scientific]:
+Result size of Float inwards
+  = {terms: 13,761, types: 9,586, coercions: 415}
+!!! Float inwards [Data.Scientific]: finished in 41.00 milliseconds, allocated 24.354 megabytes
+*** Called arity analysis [Data.Scientific]:
+Result size of Called arity analysis
+  = {terms: 13,761, types: 9,586, coercions: 415}
+!!! Called arity analysis [Data.Scientific]: finished in 17.00 milliseconds, allocated 11.917 megabytes
+*** Simplifier [Data.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 13,734, types: 9,567, coercions: 415}
+Result size of Simplifier
+  = {terms: 13,731, types: 9,566, coercions: 415}
+!!! Simplifier [Data.Scientific]: finished in 218.00 milliseconds, allocated 102.711 megabytes
+*** Demand analysis [Data.Scientific]:
+Result size of Demand analysis
+  = {terms: 13,731, types: 9,566, coercions: 415}
+!!! Demand analysis [Data.Scientific]: finished in 93.00 milliseconds, allocated 58.454 megabytes
+*** Worker Wrapper binds [Data.Scientific]:
+Result size of Worker Wrapper binds
+  = {terms: 15,387, types: 11,687, coercions: 420}
+!!! Worker Wrapper binds [Data.Scientific]: finished in 8.00 milliseconds, allocated 5.066 megabytes
+*** Simplifier [Data.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 15,136, types: 11,410, coercions: 415}
+Result size of Simplifier iteration=2
+  = {terms: 14,288, types: 10,496, coercions: 415}
+Result size of Simplifier
+  = {terms: 14,263, types: 10,480, coercions: 415}
+!!! Simplifier [Data.Scientific]: finished in 278.00 milliseconds, allocated 177.584 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Scientific]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 14,921, types: 11,028, coercions: 415}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Scientific]: finished in 66.00 milliseconds, allocated 57.008 megabytes
+*** Common sub-expression [Data.Scientific]:
+Result size of Common sub-expression
+  = {terms: 14,584, types: 10,713, coercions: 401}
+!!! Common sub-expression [Data.Scientific]: finished in 32.00 milliseconds, allocated 19.057 megabytes
+*** Float inwards [Data.Scientific]:
+Result size of Float inwards
+  = {terms: 14,584, types: 10,713, coercions: 401}
+!!! Float inwards [Data.Scientific]: finished in 181.00 milliseconds, allocated 24.199 megabytes
+*** Simplifier [Data.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 13,845, types: 10,261, coercions: 401}
+Result size of Simplifier
+  = {terms: 13,825, types: 10,241, coercions: 401}
+!!! Simplifier [Data.Scientific]: finished in 134.00 milliseconds, allocated 108.467 megabytes
+*** CoreTidy [Data.Scientific]:
+Result size of Tidy Core
+  = {terms: 12,548, types: 9,038, coercions: 356}
+!!! CoreTidy [Data.Scientific]: finished in 17.00 milliseconds, allocated 15.371 megabytes
+writeBinIface: 270 Names
+writeBinIface: 486 dict entries
+writeBinIface: 270 Names
+writeBinIface: 486 dict entries
+*** CorePrep [Data.Scientific]:
+Result size of CorePrep
+  = {terms: 16,884, types: 10,850, coercions: 356}
+!!! CorePrep [Data.Scientific]: finished in 19.00 milliseconds, allocated 27.036 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Scientific]:
+!!! CodeGen [Data.Scientific]: finished in 449.00 milliseconds, allocated 531.852 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc11395_0/ghc_34.s -o dist/dist-sandbox-6afc8227/build/Data/Scientific.o
+*** CorePrep [Data.Scientific]:
+Result size of CorePrep
+  = {terms: 16,884, types: 10,850, coercions: 356}
+!!! CorePrep [Data.Scientific]: finished in 21.00 milliseconds, allocated 25.719 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Scientific]:
+!!! CodeGen [Data.Scientific]: finished in 423.00 milliseconds, allocated 562.804 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11395_0/ghc_36.s -o dist/dist-sandbox-6afc8227/build/Data/Scientific.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11395_0/ghc_37.c /tmp/ghc11395_0/ghc_36.s /tmp/ghc11395_0/ghc_35.c /tmp/ghc11395_0/ghc_34.s /tmp/ghc11395_0/ghc_33.s
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_37.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_35.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_33.s
+compile: input file /tmp/ghc11395_0/ghc_3.hscpp
+*** Checking old interface for Data.Text.Lazy.Builder.Scientific:
+[6 of 7] Compiling Data.Text.Lazy.Builder.Scientific ( src/Data/Text/Lazy/Builder/Scientific.hs, dist/dist-sandbox-6afc8227/build/Data/Text/Lazy/Builder/Scientific.o )
+*** Parser [Data.Text.Lazy.Builder.Scientific]:
+!!! Parser [Data.Text.Lazy.Builder.Scientific]: finished in 2.00 milliseconds, allocated 3.599 megabytes
+*** Renamer/typechecker [Data.Text.Lazy.Builder.Scientific]:
+!!! Renamer/typechecker [Data.Text.Lazy.Builder.Scientific]: finished in 34.00 milliseconds, allocated 16.479 megabytes
+*** Desugar [Data.Text.Lazy.Builder.Scientific]:
+Result size of Desugar (after optimization)
+  = {terms: 634, types: 518, coercions: 11}
+!!! Desugar [Data.Text.Lazy.Builder.Scientific]: finished in 22.00 milliseconds, allocated 9.617 megabytes
+*** Simplifier [Data.Text.Lazy.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 611, types: 489, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 570, types: 443, coercions: 4}
+Result size of Simplifier = {terms: 570, types: 443, coercions: 4}
+!!! Simplifier [Data.Text.Lazy.Builder.Scientific]: finished in 12.00 milliseconds, allocated 7.245 megabytes
+*** Specialise [Data.Text.Lazy.Builder.Scientific]:
+Result size of Specialise = {terms: 574, types: 447, coercions: 8}
+!!! Specialise [Data.Text.Lazy.Builder.Scientific]: finished in 1.00 milliseconds, allocated 0.739 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Text.Lazy.Builder.Scientific]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 746, types: 635, coercions: 8}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Text.Lazy.Builder.Scientific]: finished in 4.00 milliseconds, allocated 2.849 megabytes
+*** Simplifier [Data.Text.Lazy.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 5,512, types: 4,242, coercions: 1,203}
+Result size of Simplifier iteration=2
+  = {terms: 4,524, types: 3,176, coercions: 519}
+Result size of Simplifier iteration=3
+  = {terms: 4,477, types: 3,101, coercions: 495}
+Result size of Simplifier
+  = {terms: 4,477, types: 3,101, coercions: 495}
+!!! Simplifier [Data.Text.Lazy.Builder.Scientific]: finished in 208.00 milliseconds, allocated 113.906 megabytes
+*** Simplifier [Data.Text.Lazy.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 5,298, types: 3,504, coercions: 793}
+Result size of Simplifier iteration=2
+  = {terms: 5,223, types: 3,448, coercions: 756}
+Result size of Simplifier iteration=3
+  = {terms: 5,209, types: 3,418, coercions: 735}
+Result size of Simplifier
+  = {terms: 5,209, types: 3,418, coercions: 735}
+!!! Simplifier [Data.Text.Lazy.Builder.Scientific]: finished in 124.00 milliseconds, allocated 78.565 megabytes
+*** Simplifier [Data.Text.Lazy.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 8,909, types: 6,807, coercions: 1,252}
+Result size of Simplifier iteration=2
+  = {terms: 7,551, types: 5,294, coercions: 636}
+Result size of Simplifier iteration=3
+  = {terms: 7,442, types: 4,980, coercions: 540}
+Result size of Simplifier iteration=4
+  = {terms: 7,430, types: 4,928, coercions: 540}
+Result size of Simplifier
+  = {terms: 7,430, types: 4,928, coercions: 540}
+!!! Simplifier [Data.Text.Lazy.Builder.Scientific]: finished in 235.00 milliseconds, allocated 140.688 megabytes
+*** Float inwards [Data.Text.Lazy.Builder.Scientific]:
+Result size of Float inwards
+  = {terms: 7,434, types: 4,932, coercions: 540}
+!!! Float inwards [Data.Text.Lazy.Builder.Scientific]: finished in 15.00 milliseconds, allocated 15.087 megabytes
+*** Called arity analysis [Data.Text.Lazy.Builder.Scientific]:
+Result size of Called arity analysis
+  = {terms: 7,434, types: 4,932, coercions: 540}
+!!! Called arity analysis [Data.Text.Lazy.Builder.Scientific]: finished in 7.00 milliseconds, allocated 6.211 megabytes
+*** Simplifier [Data.Text.Lazy.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 7,396, types: 4,904, coercions: 540}
+Result size of Simplifier iteration=2
+  = {terms: 7,387, types: 4,901, coercions: 540}
+Result size of Simplifier
+  = {terms: 7,387, types: 4,901, coercions: 540}
+!!! Simplifier [Data.Text.Lazy.Builder.Scientific]: finished in 101.00 milliseconds, allocated 72.674 megabytes
+*** Demand analysis [Data.Text.Lazy.Builder.Scientific]:
+Result size of Demand analysis
+  = {terms: 7,387, types: 4,901, coercions: 540}
+!!! Demand analysis [Data.Text.Lazy.Builder.Scientific]: finished in 86.00 milliseconds, allocated 71.027 megabytes
+*** Worker Wrapper binds [Data.Text.Lazy.Builder.Scientific]:
+Result size of Worker Wrapper binds
+  = {terms: 8,923, types: 6,614, coercions: 540}
+!!! Worker Wrapper binds [Data.Text.Lazy.Builder.Scientific]: finished in 24.00 milliseconds, allocated 2.757 megabytes
+*** Simplifier [Data.Text.Lazy.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 7,788, types: 5,858, coercions: 540}
+Result size of Simplifier iteration=2
+  = {terms: 7,075, types: 4,912, coercions: 540}
+Result size of Simplifier iteration=3
+  = {terms: 6,996, types: 4,797, coercions: 540}
+Result size of Simplifier
+  = {terms: 6,996, types: 4,797, coercions: 540}
+!!! Simplifier [Data.Text.Lazy.Builder.Scientific]: finished in 142.00 milliseconds, allocated 105.550 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Text.Lazy.Builder.Scientific]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 7,180, types: 4,933, coercions: 540}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Text.Lazy.Builder.Scientific]: finished in 37.00 milliseconds, allocated 22.868 megabytes
+*** Common sub-expression [Data.Text.Lazy.Builder.Scientific]:
+Result size of Common sub-expression
+  = {terms: 6,806, types: 4,674, coercions: 456}
+!!! Common sub-expression [Data.Text.Lazy.Builder.Scientific]: finished in 8.00 milliseconds, allocated 6.863 megabytes
+*** Float inwards [Data.Text.Lazy.Builder.Scientific]:
+Result size of Float inwards
+  = {terms: 6,806, types: 4,674, coercions: 456}
+!!! Float inwards [Data.Text.Lazy.Builder.Scientific]: finished in 9.00 milliseconds, allocated 13.158 megabytes
+*** Simplifier [Data.Text.Lazy.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 6,982, types: 4,610, coercions: 456}
+Result size of Simplifier
+  = {terms: 6,943, types: 4,547, coercions: 456}
+!!! Simplifier [Data.Text.Lazy.Builder.Scientific]: finished in 96.00 milliseconds, allocated 46.267 megabytes
+*** CoreTidy [Data.Text.Lazy.Builder.Scientific]:
+Result size of Tidy Core
+  = {terms: 6,939, types: 4,543, coercions: 456}
+!!! CoreTidy [Data.Text.Lazy.Builder.Scientific]: finished in 10.00 milliseconds, allocated 5.828 megabytes
+writeBinIface: 15 Names
+writeBinIface: 86 dict entries
+writeBinIface: 15 Names
+writeBinIface: 86 dict entries
+*** CorePrep [Data.Text.Lazy.Builder.Scientific]:
+Result size of CorePrep
+  = {terms: 9,801, types: 5,860, coercions: 456}
+!!! CorePrep [Data.Text.Lazy.Builder.Scientific]: finished in 15.00 milliseconds, allocated 15.367 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Text.Lazy.Builder.Scientific]:
+!!! CodeGen [Data.Text.Lazy.Builder.Scientific]: finished in 312.00 milliseconds, allocated 208.676 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Text/Lazy/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc11395_0/ghc_39.s -o dist/dist-sandbox-6afc8227/build/Data/Text/Lazy/Builder/Scientific.o
+*** CorePrep [Data.Text.Lazy.Builder.Scientific]:
+Result size of CorePrep
+  = {terms: 9,801, types: 5,860, coercions: 456}
+!!! CorePrep [Data.Text.Lazy.Builder.Scientific]: finished in 17.00 milliseconds, allocated 14.629 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Text.Lazy.Builder.Scientific]:
+!!! CodeGen [Data.Text.Lazy.Builder.Scientific]: finished in 298.00 milliseconds, allocated 216.536 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Text/Lazy/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11395_0/ghc_41.s -o dist/dist-sandbox-6afc8227/build/Data/Text/Lazy/Builder/Scientific.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11395_0/ghc_42.c /tmp/ghc11395_0/ghc_41.s /tmp/ghc11395_0/ghc_40.c /tmp/ghc11395_0/ghc_39.s /tmp/ghc11395_0/ghc_38.s
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_42.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_40.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_38.s
+compile: input file /tmp/ghc11395_0/ghc_5.hscpp
+*** Checking old interface for Data.ByteString.Builder.Scientific:
+[7 of 7] Compiling Data.ByteString.Builder.Scientific ( src/Data/ByteString/Builder/Scientific.hs, dist/dist-sandbox-6afc8227/build/Data/ByteString/Builder/Scientific.o )
+*** Parser [Data.ByteString.Builder.Scientific]:
+!!! Parser [Data.ByteString.Builder.Scientific]: finished in 3.00 milliseconds, allocated 3.672 megabytes
+*** Renamer/typechecker [Data.ByteString.Builder.Scientific]:
+!!! Renamer/typechecker [Data.ByteString.Builder.Scientific]: finished in 29.00 milliseconds, allocated 13.647 megabytes
+*** Desugar [Data.ByteString.Builder.Scientific]:
+Result size of Desugar (after optimization)
+  = {terms: 630, types: 511, coercions: 11}
+!!! Desugar [Data.ByteString.Builder.Scientific]: finished in 8.00 milliseconds, allocated 3.903 megabytes
+*** Simplifier [Data.ByteString.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 610, types: 480, coercions: 18}
+Result size of Simplifier iteration=2
+  = {terms: 570, types: 446, coercions: 57}
+Result size of Simplifier = {terms: 570, types: 446, coercions: 57}
+!!! Simplifier [Data.ByteString.Builder.Scientific]: finished in 12.00 milliseconds, allocated 7.235 megabytes
+*** Specialise [Data.ByteString.Builder.Scientific]:
+Result size of Specialise = {terms: 572, types: 448, coercions: 59}
+!!! Specialise [Data.ByteString.Builder.Scientific]: finished in 1.00 milliseconds, allocated 0.710 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.ByteString.Builder.Scientific]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 738, types: 612, coercions: 59}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.ByteString.Builder.Scientific]: finished in 4.00 milliseconds, allocated 2.807 megabytes
+*** Simplifier [Data.ByteString.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 2,204, types: 2,241, coercions: 400}
+Result size of Simplifier iteration=2
+  = {terms: 2,089, types: 1,964, coercions: 302}
+Result size of Simplifier iteration=3
+  = {terms: 1,633, types: 1,394, coercions: 266}
+Result size of Simplifier
+  = {terms: 1,633, types: 1,394, coercions: 266}
+!!! Simplifier [Data.ByteString.Builder.Scientific]: finished in 74.00 milliseconds, allocated 42.160 megabytes
+*** Simplifier [Data.ByteString.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 3,429, types: 3,205, coercions: 712}
+Result size of Simplifier iteration=2
+  = {terms: 2,661, types: 2,181, coercions: 412}
+Result size of Simplifier iteration=3
+  = {terms: 2,517, types: 1,952, coercions: 412}
+Result size of Simplifier
+  = {terms: 2,517, types: 1,952, coercions: 412}
+!!! Simplifier [Data.ByteString.Builder.Scientific]: finished in 102.00 milliseconds, allocated 62.491 megabytes
+*** Simplifier [Data.ByteString.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 2,795, types: 2,255, coercions: 412}
+Result size of Simplifier iteration=2
+  = {terms: 2,817, types: 2,289, coercions: 412}
+Result size of Simplifier
+  = {terms: 2,782, types: 2,254, coercions: 412}
+!!! Simplifier [Data.ByteString.Builder.Scientific]: finished in 47.00 milliseconds, allocated 30.418 megabytes
+*** Float inwards [Data.ByteString.Builder.Scientific]:
+Result size of Float inwards
+  = {terms: 2,782, types: 2,254, coercions: 412}
+!!! Float inwards [Data.ByteString.Builder.Scientific]: finished in 7.00 milliseconds, allocated 5.591 megabytes
+*** Called arity analysis [Data.ByteString.Builder.Scientific]:
+Result size of Called arity analysis
+  = {terms: 2,782, types: 2,254, coercions: 412}
+!!! Called arity analysis [Data.ByteString.Builder.Scientific]: finished in 4.00 milliseconds, allocated 2.658 megabytes
+*** Simplifier [Data.ByteString.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 2,770, types: 2,246, coercions: 412}
+Result size of Simplifier
+  = {terms: 2,770, types: 2,246, coercions: 412}
+!!! Simplifier [Data.ByteString.Builder.Scientific]: finished in 27.00 milliseconds, allocated 19.547 megabytes
+*** Demand analysis [Data.ByteString.Builder.Scientific]:
+Result size of Demand analysis
+  = {terms: 2,770, types: 2,246, coercions: 412}
+!!! Demand analysis [Data.ByteString.Builder.Scientific]: finished in 24.00 milliseconds, allocated 18.178 megabytes
+*** Worker Wrapper binds [Data.ByteString.Builder.Scientific]:
+Result size of Worker Wrapper binds
+  = {terms: 3,355, types: 3,072, coercions: 412}
+!!! Worker Wrapper binds [Data.ByteString.Builder.Scientific]: finished in 2.00 milliseconds, allocated 1.120 megabytes
+*** Simplifier [Data.ByteString.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 3,070, types: 2,813, coercions: 412}
+Result size of Simplifier iteration=2
+  = {terms: 2,882, types: 2,381, coercions: 412}
+Result size of Simplifier iteration=3
+  = {terms: 2,803, types: 2,266, coercions: 412}
+Result size of Simplifier
+  = {terms: 2,803, types: 2,266, coercions: 412}
+!!! Simplifier [Data.ByteString.Builder.Scientific]: finished in 63.00 milliseconds, allocated 44.393 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.ByteString.Builder.Scientific]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,872, types: 2,388, coercions: 412}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.ByteString.Builder.Scientific]: finished in 9.00 milliseconds, allocated 10.219 megabytes
+*** Common sub-expression [Data.ByteString.Builder.Scientific]:
+Result size of Common sub-expression
+  = {terms: 2,857, types: 2,375, coercions: 412}
+!!! Common sub-expression [Data.ByteString.Builder.Scientific]: finished in 4.00 milliseconds, allocated 3.009 megabytes
+*** Float inwards [Data.ByteString.Builder.Scientific]:
+Result size of Float inwards
+  = {terms: 2,857, types: 2,375, coercions: 412}
+!!! Float inwards [Data.ByteString.Builder.Scientific]: finished in 4.00 milliseconds, allocated 5.264 megabytes
+*** Simplifier [Data.ByteString.Builder.Scientific]:
+Result size of Simplifier iteration=1
+  = {terms: 3,178, types: 2,556, coercions: 492}
+Result size of Simplifier iteration=2
+  = {terms: 2,961, types: 2,381, coercions: 412}
+Result size of Simplifier iteration=3
+  = {terms: 2,957, types: 2,369, coercions: 412}
+Result size of Simplifier
+  = {terms: 2,957, types: 2,369, coercions: 412}
+!!! Simplifier [Data.ByteString.Builder.Scientific]: finished in 60.00 milliseconds, allocated 42.310 megabytes
+*** CoreTidy [Data.ByteString.Builder.Scientific]:
+Result size of Tidy Core
+  = {terms: 2,955, types: 2,367, coercions: 412}
+!!! CoreTidy [Data.ByteString.Builder.Scientific]: finished in 5.00 milliseconds, allocated 3.029 megabytes
+writeBinIface: 15 Names
+writeBinIface: 87 dict entries
+writeBinIface: 15 Names
+writeBinIface: 87 dict entries
+*** CorePrep [Data.ByteString.Builder.Scientific]:
+Result size of CorePrep
+  = {terms: 3,836, types: 2,901, coercions: 419}
+!!! CorePrep [Data.ByteString.Builder.Scientific]: finished in 7.00 milliseconds, allocated 6.750 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.ByteString.Builder.Scientific]:
+!!! CodeGen [Data.ByteString.Builder.Scientific]: finished in 129.00 milliseconds, allocated 116.594 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/ByteString/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc11395_0/ghc_44.s -o dist/dist-sandbox-6afc8227/build/Data/ByteString/Builder/Scientific.o
+*** CorePrep [Data.ByteString.Builder.Scientific]:
+Result size of CorePrep
+  = {terms: 3,836, types: 2,901, coercions: 419}
+!!! CorePrep [Data.ByteString.Builder.Scientific]: finished in 5.00 milliseconds, allocated 6.375 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.ByteString.Builder.Scientific]:
+!!! CodeGen [Data.ByteString.Builder.Scientific]: finished in 123.00 milliseconds, allocated 122.132 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/ByteString/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11395_0/ghc_46.s -o dist/dist-sandbox-6afc8227/build/Data/ByteString/Builder/Scientific.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc11395_0/ghc_47.c /tmp/ghc11395_0/ghc_46.s /tmp/ghc11395_0/ghc_45.c /tmp/ghc11395_0/ghc_44.s /tmp/ghc11395_0/ghc_43.s
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_47.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_45.c
+Warning: deleting non-existent /tmp/ghc11395_0/ghc_43.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc11395_0/ghc_11.hscpp /tmp/ghc11395_0/ghc_9.hscpp /tmp/ghc11395_0/ghc_7.hscpp /tmp/ghc11395_0/ghc_5.hscpp /tmp/ghc11395_0/ghc_3.hscpp /tmp/ghc11395_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc11395_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3 -o dist/dist-sandbox-6afc8227/build/libHSscientific-0.3.4.6-9fCa1BWCWrnKAuoCGjgPJx-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSscientific-0.3.4.6-9fCa1BWCWrnKAuoCGjgPJx-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Data/Scientific.dyn_o dist/dist-sandbox-6afc8227/build/Data/Text/Lazy/Builder/Scientific.dyn_o dist/dist-sandbox-6afc8227/build/Data/ByteString/Builder/Scientific.dyn_o dist/dist-sandbox-6afc8227/build/Math/NumberTheory/Logarithms.dyn_o dist/dist-sandbox-6afc8227/build/GHC/Integer/Logarithms/Compat.dyn_o dist/dist-sandbox-6afc8227/build/GHC/Integer/Compat.dyn_o dist/dist-sandbox-6afc8227/build/Utils.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSvector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3-ghc8.0.1 -lHSprimitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa-ghc8.0.1 -lHStransformers-0.5.2.0-ghc8.0.1 -lHShashable-1.2.4.0-Ctl752zbguF6QanxurLOm2-ghc8.0.1 -lHStext-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs-ghc8.0.1 -lHSbinary-0.8.3.0-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc11820_0
+*** Deleting temp files:
+Deleting: /tmp/ghc11820_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc11820_0
+Creating package registration file:
+/tmp/pkgConf-scientific-0.3.41544617505243268139.6
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/scientific-0.3.4.6-9fCa1BWCWrnKAuoCGjgPJx
+Registering scientific-0.3.4.6...
+cabal: Leaving directory '/tmp/cabal-tmp-1027/scientific-0.3.4.6'

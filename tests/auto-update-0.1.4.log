@@ -1,0 +1,630 @@
+cabal: Entering directory '/tmp/cabal-tmp-1026/auto-update-0.1.4'
+Configuring auto-update-0.1.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc1332_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc1332_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc1332_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc1332_0/ghc_2.rsp /tmp/ghc1332_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1332_0
+Building auto-update-0.1.4...
+Preprocessing library auto-update-0.1.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Control.AutoUpdate,*Control.Debounce,*Control.Reaper,*Control.AutoUpdate.Util
+Created temporary directory: /tmp/ghc1616_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc1616_0/ghc_2.h -x assembler-with-cpp ./Control/AutoUpdate.hs -o /tmp/ghc1616_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc1616_0/ghc_4.h -x assembler-with-cpp ./Control/AutoUpdate/Util.hs -o /tmp/ghc1616_0/ghc_3.hscpp
+!!! Chasing dependencies: finished in 16.00 milliseconds, allocated 12.931 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-09 05:43:44 UTC
+         ms_mod = Control.Debounce,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Control.Monad),
+                            (Nothing, Control.Exception), (Nothing, Control.Concurrent.MVar),
+                            (Nothing, Control.Concurrent)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-09 05:43:44 UTC
+         ms_mod = Control.AutoUpdate,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.IORef),
+                            (Nothing, Control.Monad), (Nothing, Control.Exception),
+                            (Nothing, Control.Concurrent.MVar), (Nothing, Control.Concurrent)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-09 05:43:44 UTC
+         ms_mod = Control.AutoUpdate.Util,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.IORef)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-09 05:43:44 UTC
+         ms_mod = Control.Reaper,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.IORef),
+                            (Nothing, Control.Exception), (Nothing, Control.Concurrent),
+                            (Nothing, Control.AutoUpdate.Util)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc1616_0/ghc_4.h /tmp/ghc1616_0/ghc_2.h
+compile: input file ./Control/Debounce.hs
+*** Checking old interface for Control.Debounce:
+[1 of 4] Compiling Control.Debounce ( Control/Debounce.hs, dist/dist-sandbox-6afc8227/build/Control/Debounce.o )
+*** Parser [Control.Debounce]:
+!!! Parser [Control.Debounce]: finished in 1.00 milliseconds, allocated 1.654 megabytes
+*** Renamer/typechecker [Control.Debounce]:
+!!! Renamer/typechecker [Control.Debounce]: finished in 100.00 milliseconds, allocated 37.302 megabytes
+*** Desugar [Control.Debounce]:
+Result size of Desugar (after optimization)
+  = {terms: 87, types: 109, coercions: 0}
+!!! Desugar [Control.Debounce]: finished in 4.00 milliseconds, allocated 0.674 megabytes
+*** Simplifier [Control.Debounce]:
+Result size of Simplifier iteration=1
+  = {terms: 96, types: 113, coercions: 12}
+Result size of Simplifier iteration=2
+  = {terms: 98, types: 123, coercions: 16}
+Result size of Simplifier = {terms: 98, types: 123, coercions: 16}
+!!! Simplifier [Control.Debounce]: finished in 11.00 milliseconds, allocated 7.529 megabytes
+*** Specialise [Control.Debounce]:
+Result size of Specialise = {terms: 115, types: 155, coercions: 16}
+!!! Specialise [Control.Debounce]: finished in 0.00 milliseconds, allocated 0.265 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Debounce]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 125, types: 183, coercions: 16}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Debounce]: finished in 2.00 milliseconds, allocated 0.563 megabytes
+*** Simplifier [Control.Debounce]:
+Result size of Simplifier iteration=1
+  = {terms: 279, types: 519, coercions: 80}
+Result size of Simplifier iteration=2
+  = {terms: 194, types: 337, coercions: 45}
+Result size of Simplifier = {terms: 194, types: 337, coercions: 45}
+!!! Simplifier [Control.Debounce]: finished in 11.00 milliseconds, allocated 7.269 megabytes
+*** Simplifier [Control.Debounce]:
+Result size of Simplifier = {terms: 194, types: 337, coercions: 45}
+!!! Simplifier [Control.Debounce]: finished in 1.00 milliseconds, allocated 0.908 megabytes
+*** Simplifier [Control.Debounce]:
+Result size of Simplifier iteration=1
+  = {terms: 197, types: 339, coercions: 45}
+Result size of Simplifier = {terms: 197, types: 339, coercions: 45}
+!!! Simplifier [Control.Debounce]: finished in 137.00 milliseconds, allocated 66.104 megabytes
+*** Float inwards [Control.Debounce]:
+Result size of Float inwards
+  = {terms: 197, types: 339, coercions: 45}
+!!! Float inwards [Control.Debounce]: finished in 1.00 milliseconds, allocated 0.293 megabytes
+*** Called arity analysis [Control.Debounce]:
+Result size of Called arity analysis
+  = {terms: 197, types: 339, coercions: 45}
+!!! Called arity analysis [Control.Debounce]: finished in 0.00 milliseconds, allocated 0.238 megabytes
+*** Simplifier [Control.Debounce]:
+Result size of Simplifier = {terms: 197, types: 339, coercions: 45}
+!!! Simplifier [Control.Debounce]: finished in 1.00 milliseconds, allocated 0.918 megabytes
+*** Demand analysis [Control.Debounce]:
+Result size of Demand analysis
+  = {terms: 197, types: 339, coercions: 45}
+!!! Demand analysis [Control.Debounce]: finished in 2.00 milliseconds, allocated 0.904 megabytes
+*** Worker Wrapper binds [Control.Debounce]:
+Result size of Worker Wrapper binds
+  = {terms: 216, types: 364, coercions: 45}
+!!! Worker Wrapper binds [Control.Debounce]: finished in 1.00 milliseconds, allocated 0.131 megabytes
+*** Simplifier [Control.Debounce]:
+Result size of Simplifier iteration=1
+  = {terms: 205, types: 356, coercions: 45}
+Result size of Simplifier = {terms: 205, types: 356, coercions: 45}
+!!! Simplifier [Control.Debounce]: finished in 2.00 milliseconds, allocated 2.260 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Debounce]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 207, types: 365, coercions: 45}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Debounce]: finished in 2.00 milliseconds, allocated 0.640 megabytes
+*** Common sub-expression [Control.Debounce]:
+Result size of Common sub-expression
+  = {terms: 207, types: 365, coercions: 45}
+!!! Common sub-expression [Control.Debounce]: finished in 1.00 milliseconds, allocated 0.384 megabytes
+*** Float inwards [Control.Debounce]:
+Result size of Float inwards
+  = {terms: 207, types: 365, coercions: 45}
+!!! Float inwards [Control.Debounce]: finished in 0.00 milliseconds, allocated 0.296 megabytes
+*** Simplifier [Control.Debounce]:
+Result size of Simplifier = {terms: 207, types: 365, coercions: 45}
+!!! Simplifier [Control.Debounce]: finished in 2.00 milliseconds, allocated 1.093 megabytes
+*** CoreTidy [Control.Debounce]:
+Result size of Tidy Core = {terms: 177, types: 278, coercions: 20}
+!!! CoreTidy [Control.Debounce]: finished in 6.00 milliseconds, allocated 4.275 megabytes
+writeBinIface: 24 Names
+writeBinIface: 89 dict entries
+writeBinIface: 24 Names
+writeBinIface: 89 dict entries
+*** CorePrep [Control.Debounce]:
+Result size of CorePrep = {terms: 194, types: 300, coercions: 20}
+!!! CorePrep [Control.Debounce]: finished in 1.00 milliseconds, allocated 0.417 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Debounce]:
+!!! CodeGen [Control.Debounce]: finished in 15.00 milliseconds, allocated 7.600 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1616_0/ghc_6.s -o dist/dist-sandbox-6afc8227/build/Control/Debounce.o
+*** CorePrep [Control.Debounce]:
+Result size of CorePrep = {terms: 194, types: 300, coercions: 20}
+!!! CorePrep [Control.Debounce]: finished in 0.00 milliseconds, allocated 0.409 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Debounce]:
+!!! CodeGen [Control.Debounce]: finished in 15.00 milliseconds, allocated 7.835 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1616_0/ghc_8.s -o dist/dist-sandbox-6afc8227/build/Control/Debounce.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1616_0/ghc_9.c /tmp/ghc1616_0/ghc_8.s /tmp/ghc1616_0/ghc_7.c /tmp/ghc1616_0/ghc_6.s /tmp/ghc1616_0/ghc_5.s
+Warning: deleting non-existent /tmp/ghc1616_0/ghc_9.c
+Warning: deleting non-existent /tmp/ghc1616_0/ghc_7.c
+Warning: deleting non-existent /tmp/ghc1616_0/ghc_5.s
+compile: input file /tmp/ghc1616_0/ghc_1.hscpp
+*** Checking old interface for Control.AutoUpdate:
+[2 of 4] Compiling Control.AutoUpdate ( Control/AutoUpdate.hs, dist/dist-sandbox-6afc8227/build/Control/AutoUpdate.o )
+*** Parser [Control.AutoUpdate]:
+!!! Parser [Control.AutoUpdate]: finished in 4.00 milliseconds, allocated 4.872 megabytes
+*** Renamer/typechecker [Control.AutoUpdate]:
+!!! Renamer/typechecker [Control.AutoUpdate]: finished in 118.00 milliseconds, allocated 43.148 megabytes
+*** Desugar [Control.AutoUpdate]:
+Result size of Desugar (after optimization)
+  = {terms: 268, types: 422, coercions: 22}
+!!! Desugar [Control.AutoUpdate]: finished in 4.00 milliseconds, allocated 1.735 megabytes
+*** Simplifier [Control.AutoUpdate]:
+Result size of Simplifier iteration=1
+  = {terms: 303, types: 467, coercions: 46}
+Result size of Simplifier iteration=2
+  = {terms: 304, types: 510, coercions: 84}
+Result size of Simplifier iteration=3
+  = {terms: 302, types: 504, coercions: 81}
+Result size of Simplifier = {terms: 302, types: 504, coercions: 81}
+!!! Simplifier [Control.AutoUpdate]: finished in 19.00 milliseconds, allocated 5.291 megabytes
+*** Specialise [Control.AutoUpdate]:
+Result size of Specialise = {terms: 309, types: 517, coercions: 81}
+!!! Specialise [Control.AutoUpdate]: finished in 0.00 milliseconds, allocated 0.475 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.AutoUpdate]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 404, types: 701, coercions: 81}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.AutoUpdate]: finished in 4.00 milliseconds, allocated 2.224 megabytes
+*** Simplifier [Control.AutoUpdate]:
+Result size of Simplifier iteration=1
+  = {terms: 704, types: 1,258, coercions: 130}
+Result size of Simplifier iteration=2
+  = {terms: 474, types: 802, coercions: 66}
+Result size of Simplifier = {terms: 474, types: 802, coercions: 66}
+!!! Simplifier [Control.AutoUpdate]: finished in 37.00 milliseconds, allocated 18.030 megabytes
+*** Simplifier [Control.AutoUpdate]:
+Result size of Simplifier iteration=1
+  = {terms: 452, types: 764, coercions: 66}
+Result size of Simplifier iteration=2
+  = {terms: 444, types: 747, coercions: 66}
+Result size of Simplifier = {terms: 444, types: 747, coercions: 66}
+!!! Simplifier [Control.AutoUpdate]: finished in 10.00 milliseconds, allocated 5.656 megabytes
+*** Simplifier [Control.AutoUpdate]:
+Result size of Simplifier iteration=1
+  = {terms: 447, types: 749, coercions: 66}
+Result size of Simplifier = {terms: 447, types: 749, coercions: 66}
+!!! Simplifier [Control.AutoUpdate]: finished in 6.00 milliseconds, allocated 3.487 megabytes
+*** Float inwards [Control.AutoUpdate]:
+Result size of Float inwards
+  = {terms: 447, types: 749, coercions: 66}
+!!! Float inwards [Control.AutoUpdate]: finished in 0.00 milliseconds, allocated 0.912 megabytes
+*** Called arity analysis [Control.AutoUpdate]:
+Result size of Called arity analysis
+  = {terms: 447, types: 749, coercions: 66}
+!!! Called arity analysis [Control.AutoUpdate]: finished in 2.00 milliseconds, allocated 0.468 megabytes
+*** Simplifier [Control.AutoUpdate]:
+Result size of Simplifier = {terms: 447, types: 749, coercions: 66}
+!!! Simplifier [Control.AutoUpdate]: finished in 3.00 milliseconds, allocated 1.747 megabytes
+*** Demand analysis [Control.AutoUpdate]:
+Result size of Demand analysis
+  = {terms: 447, types: 749, coercions: 66}
+!!! Demand analysis [Control.AutoUpdate]: finished in 3.00 milliseconds, allocated 2.072 megabytes
+*** Worker Wrapper binds [Control.AutoUpdate]:
+Result size of Worker Wrapper binds
+  = {terms: 467, types: 783, coercions: 66}
+!!! Worker Wrapper binds [Control.AutoUpdate]: finished in 0.00 milliseconds, allocated 0.201 megabytes
+*** Simplifier [Control.AutoUpdate]:
+Result size of Simplifier iteration=1
+  = {terms: 455, types: 769, coercions: 66}
+Result size of Simplifier iteration=2
+  = {terms: 438, types: 740, coercions: 66}
+Result size of Simplifier = {terms: 438, types: 740, coercions: 66}
+!!! Simplifier [Control.AutoUpdate]: finished in 12.00 milliseconds, allocated 5.844 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.AutoUpdate]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 475, types: 800, coercions: 66}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.AutoUpdate]: finished in 3.00 milliseconds, allocated 1.840 megabytes
+*** Common sub-expression [Control.AutoUpdate]:
+Result size of Common sub-expression
+  = {terms: 471, types: 800, coercions: 66}
+!!! Common sub-expression [Control.AutoUpdate]: finished in 2.00 milliseconds, allocated 0.690 megabytes
+*** Float inwards [Control.AutoUpdate]:
+Result size of Float inwards
+  = {terms: 471, types: 800, coercions: 66}
+!!! Float inwards [Control.AutoUpdate]: finished in 3.00 milliseconds, allocated 0.822 megabytes
+*** Simplifier [Control.AutoUpdate]:
+Result size of Simplifier iteration=1
+  = {terms: 460, types: 788, coercions: 66}
+Result size of Simplifier = {terms: 458, types: 784, coercions: 66}
+!!! Simplifier [Control.AutoUpdate]: finished in 7.00 milliseconds, allocated 3.948 megabytes
+*** CoreTidy [Control.AutoUpdate]:
+Result size of Tidy Core = {terms: 445, types: 746, coercions: 55}
+!!! CoreTidy [Control.AutoUpdate]: finished in 1.00 milliseconds, allocated 0.827 megabytes
+writeBinIface: 24 Names
+writeBinIface: 67 dict entries
+writeBinIface: 24 Names
+writeBinIface: 67 dict entries
+*** CorePrep [Control.AutoUpdate]:
+Result size of CorePrep = {terms: 513, types: 853, coercions: 55}
+!!! CorePrep [Control.AutoUpdate]: finished in 2.00 milliseconds, allocated 1.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.AutoUpdate]:
+!!! CodeGen [Control.AutoUpdate]: finished in 37.00 milliseconds, allocated 21.162 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1616_0/ghc_11.s -o dist/dist-sandbox-6afc8227/build/Control/AutoUpdate.o
+*** CorePrep [Control.AutoUpdate]:
+Result size of CorePrep = {terms: 513, types: 853, coercions: 55}
+!!! CorePrep [Control.AutoUpdate]: finished in 1.00 milliseconds, allocated 0.999 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.AutoUpdate]:
+!!! CodeGen [Control.AutoUpdate]: finished in 35.00 milliseconds, allocated 22.138 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1616_0/ghc_13.s -o dist/dist-sandbox-6afc8227/build/Control/AutoUpdate.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1616_0/ghc_14.c /tmp/ghc1616_0/ghc_13.s /tmp/ghc1616_0/ghc_12.c /tmp/ghc1616_0/ghc_11.s /tmp/ghc1616_0/ghc_10.s
+Warning: deleting non-existent /tmp/ghc1616_0/ghc_14.c
+Warning: deleting non-existent /tmp/ghc1616_0/ghc_12.c
+Warning: deleting non-existent /tmp/ghc1616_0/ghc_10.s
+compile: input file /tmp/ghc1616_0/ghc_3.hscpp
+*** Checking old interface for Control.AutoUpdate.Util:
+[3 of 4] Compiling Control.AutoUpdate.Util ( Control/AutoUpdate/Util.hs, dist/dist-sandbox-6afc8227/build/Control/AutoUpdate/Util.o )
+*** Parser [Control.AutoUpdate.Util]:
+!!! Parser [Control.AutoUpdate.Util]: finished in 1.00 milliseconds, allocated 0.690 megabytes
+*** Renamer/typechecker [Control.AutoUpdate.Util]:
+!!! Renamer/typechecker [Control.AutoUpdate.Util]: finished in 1.00 milliseconds, allocated 0.384 megabytes
+*** Desugar [Control.AutoUpdate.Util]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.130 megabytes
+*** Simplifier [Control.AutoUpdate.Util]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.AutoUpdate.Util]: finished in 1.00 milliseconds, allocated 0.128 megabytes
+*** Specialise [Control.AutoUpdate.Util]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.AutoUpdate.Util]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Control.AutoUpdate.Util]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Control.AutoUpdate.Util]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Control.AutoUpdate.Util]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Control.AutoUpdate.Util]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Control.AutoUpdate.Util]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Control.AutoUpdate.Util]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Control.AutoUpdate.Util]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Control.AutoUpdate.Util]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Control.AutoUpdate.Util]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.AutoUpdate.Util]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [Control.AutoUpdate.Util]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Control.AutoUpdate.Util]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Control.AutoUpdate.Util]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Control.AutoUpdate.Util]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 5 Names
+writeBinIface: 24 dict entries
+writeBinIface: 5 Names
+writeBinIface: 24 dict entries
+*** CorePrep [Control.AutoUpdate.Util]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.AutoUpdate.Util]:
+!!! CodeGen [Control.AutoUpdate.Util]: finished in 1.00 milliseconds, allocated 0.306 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/AutoUpdate -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1616_0/ghc_16.s -o dist/dist-sandbox-6afc8227/build/Control/AutoUpdate/Util.o
+*** CorePrep [Control.AutoUpdate.Util]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.AutoUpdate.Util]:
+!!! CodeGen [Control.AutoUpdate.Util]: finished in 0.00 milliseconds, allocated 0.302 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/AutoUpdate -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1616_0/ghc_18.s -o dist/dist-sandbox-6afc8227/build/Control/AutoUpdate/Util.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1616_0/ghc_19.c /tmp/ghc1616_0/ghc_18.s /tmp/ghc1616_0/ghc_17.c /tmp/ghc1616_0/ghc_16.s /tmp/ghc1616_0/ghc_15.s
+Warning: deleting non-existent /tmp/ghc1616_0/ghc_19.c
+Warning: deleting non-existent /tmp/ghc1616_0/ghc_17.c
+Warning: deleting non-existent /tmp/ghc1616_0/ghc_15.s
+compile: input file ./Control/Reaper.hs
+*** Checking old interface for Control.Reaper:
+[4 of 4] Compiling Control.Reaper   ( Control/Reaper.hs, dist/dist-sandbox-6afc8227/build/Control/Reaper.o )
+*** Parser [Control.Reaper]:
+!!! Parser [Control.Reaper]: finished in 4.00 milliseconds, allocated 6.170 megabytes
+*** Renamer/typechecker [Control.Reaper]:
+!!! Renamer/typechecker [Control.Reaper]: finished in 147.00 milliseconds, allocated 55.977 megabytes
+*** Desugar [Control.Reaper]:
+Result size of Desugar (after optimization)
+  = {terms: 467, types: 807, coercions: 22}
+!!! Desugar [Control.Reaper]: finished in 0.00 milliseconds, allocated 2.330 megabytes
+*** Simplifier [Control.Reaper]:
+Result size of Simplifier iteration=1
+  = {terms: 466, types: 746, coercions: 97}
+Result size of Simplifier iteration=2
+  = {terms: 462, types: 797, coercions: 178}
+Result size of Simplifier iteration=3
+  = {terms: 458, types: 784, coercions: 157}
+Result size of Simplifier
+  = {terms: 458, types: 784, coercions: 157}
+!!! Simplifier [Control.Reaper]: finished in 0.00 milliseconds, allocated 9.197 megabytes
+*** Specialise [Control.Reaper]:
+Result size of Specialise
+  = {terms: 458, types: 784, coercions: 157}
+!!! Specialise [Control.Reaper]: finished in 0.00 milliseconds, allocated 0.598 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Reaper]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 560, types: 981, coercions: 157}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Reaper]: finished in 0.00 milliseconds, allocated 2.827 megabytes
+*** Simplifier [Control.Reaper]:
+Result size of Simplifier iteration=1
+  = {terms: 688, types: 1,338, coercions: 150}
+Result size of Simplifier iteration=2
+  = {terms: 561, types: 1,064, coercions: 105}
+Result size of Simplifier
+  = {terms: 561, types: 1,064, coercions: 105}
+!!! Simplifier [Control.Reaper]: finished in 16.00 milliseconds, allocated 16.904 megabytes
+*** Simplifier [Control.Reaper]:
+Result size of Simplifier iteration=1
+  = {terms: 541, types: 1,024, coercions: 105}
+Result size of Simplifier
+  = {terms: 541, types: 1,024, coercions: 105}
+!!! Simplifier [Control.Reaper]: finished in 11.00 milliseconds, allocated 4.353 megabytes
+*** Simplifier [Control.Reaper]:
+Result size of Simplifier iteration=1
+  = {terms: 540, types: 1,024, coercions: 105}
+Result size of Simplifier
+  = {terms: 540, types: 1,024, coercions: 105}
+!!! Simplifier [Control.Reaper]: finished in 6.00 milliseconds, allocated 3.971 megabytes
+*** Float inwards [Control.Reaper]:
+Result size of Float inwards
+  = {terms: 540, types: 1,024, coercions: 105}
+!!! Float inwards [Control.Reaper]: finished in 3.00 milliseconds, allocated 1.231 megabytes
+*** Called arity analysis [Control.Reaper]:
+Result size of Called arity analysis
+  = {terms: 540, types: 1,024, coercions: 105}
+!!! Called arity analysis [Control.Reaper]: finished in 1.00 milliseconds, allocated 0.550 megabytes
+*** Simplifier [Control.Reaper]:
+Result size of Simplifier iteration=1
+  = {terms: 540, types: 1,024, coercions: 109}
+Result size of Simplifier
+  = {terms: 540, types: 1,024, coercions: 109}
+!!! Simplifier [Control.Reaper]: finished in 6.00 milliseconds, allocated 4.001 megabytes
+*** Demand analysis [Control.Reaper]:
+Result size of Demand analysis
+  = {terms: 540, types: 1,024, coercions: 109}
+!!! Demand analysis [Control.Reaper]: finished in 4.00 milliseconds, allocated 2.477 megabytes
+*** Worker Wrapper binds [Control.Reaper]:
+Result size of Worker Wrapper binds
+  = {terms: 624, types: 1,205, coercions: 109}
+!!! Worker Wrapper binds [Control.Reaper]: finished in 1.00 milliseconds, allocated 0.310 megabytes
+*** Simplifier [Control.Reaper]:
+Result size of Simplifier iteration=1
+  = {terms: 600, types: 1,131, coercions: 109}
+Result size of Simplifier
+  = {terms: 560, types: 1,050, coercions: 109}
+!!! Simplifier [Control.Reaper]: finished in 10.00 milliseconds, allocated 5.395 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Reaper]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 606, types: 1,087, coercions: 109}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Reaper]: finished in 5.00 milliseconds, allocated 2.530 megabytes
+*** Common sub-expression [Control.Reaper]:
+Result size of Common sub-expression
+  = {terms: 598, types: 1,082, coercions: 109}
+!!! Common sub-expression [Control.Reaper]: finished in 1.00 milliseconds, allocated 0.881 megabytes
+*** Float inwards [Control.Reaper]:
+Result size of Float inwards
+  = {terms: 598, types: 1,082, coercions: 109}
+!!! Float inwards [Control.Reaper]: finished in 2.00 milliseconds, allocated 1.088 megabytes
+*** Simplifier [Control.Reaper]:
+Result size of Simplifier iteration=1
+  = {terms: 588, types: 1,074, coercions: 109}
+Result size of Simplifier
+  = {terms: 588, types: 1,074, coercions: 109}
+!!! Simplifier [Control.Reaper]: finished in 9.00 milliseconds, allocated 5.173 megabytes
+*** CoreTidy [Control.Reaper]:
+Result size of Tidy Core
+  = {terms: 605, types: 1,111, coercions: 109}
+!!! CoreTidy [Control.Reaper]: finished in 2.00 milliseconds, allocated 1.231 megabytes
+writeBinIface: 53 Names
+writeBinIface: 135 dict entries
+writeBinIface: 53 Names
+writeBinIface: 135 dict entries
+*** CorePrep [Control.Reaper]:
+Result size of CorePrep
+  = {terms: 696, types: 1,289, coercions: 109}
+!!! CorePrep [Control.Reaper]: finished in 1.00 milliseconds, allocated 1.343 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Reaper]:
+!!! CodeGen [Control.Reaper]: finished in 51.00 milliseconds, allocated 30.359 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1616_0/ghc_21.s -o dist/dist-sandbox-6afc8227/build/Control/Reaper.o
+*** CorePrep [Control.Reaper]:
+Result size of CorePrep
+  = {terms: 696, types: 1,289, coercions: 109}
+!!! CorePrep [Control.Reaper]: finished in 2.00 milliseconds, allocated 1.296 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Reaper]:
+!!! CodeGen [Control.Reaper]: finished in 55.00 milliseconds, allocated 31.508 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1616_0/ghc_23.s -o dist/dist-sandbox-6afc8227/build/Control/Reaper.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc1616_0/ghc_24.c /tmp/ghc1616_0/ghc_23.s /tmp/ghc1616_0/ghc_22.c /tmp/ghc1616_0/ghc_21.s /tmp/ghc1616_0/ghc_20.s
+Warning: deleting non-existent /tmp/ghc1616_0/ghc_24.c
+Warning: deleting non-existent /tmp/ghc1616_0/ghc_22.c
+Warning: deleting non-existent /tmp/ghc1616_0/ghc_20.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc1616_0/ghc_3.hscpp /tmp/ghc1616_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1616_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -o dist/dist-sandbox-6afc8227/build/libHSauto-update-0.1.4-GAesfFmqoZzBz6e09kRyzb-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSauto-update-0.1.4-GAesfFmqoZzBz6e09kRyzb-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Control/AutoUpdate.dyn_o dist/dist-sandbox-6afc8227/build/Control/Debounce.dyn_o dist/dist-sandbox-6afc8227/build/Control/Reaper.dyn_o dist/dist-sandbox-6afc8227/build/Control/AutoUpdate/Util.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc1953_0
+*** Deleting temp files:
+Deleting: /tmp/ghc1953_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1953_0
+Creating package registration file:
+/tmp/pkgConf-auto-update-0.15726603361159126505.4
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/auto-update-0.1.4-GAesfFmqoZzBz6e09kRyzb
+Registering auto-update-0.1.4...
+cabal: Leaving directory '/tmp/cabal-tmp-1026/auto-update-0.1.4'

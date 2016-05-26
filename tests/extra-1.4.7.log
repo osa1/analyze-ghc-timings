@@ -1,0 +1,2257 @@
+cabal: Entering directory '/tmp/cabal-tmp-1031/extra-1.4.7'
+Configuring extra-1.4.7...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc1403_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/20448977631967513926.c -o /tmp/ghc1403_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc1403_0/ghc_1.s -o /tmp/13651805401540383426.o
+*** Deleting temp files:
+Deleting: /tmp/ghc1403_0/ghc_2.rsp /tmp/ghc1403_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1403_0
+Building extra-1.4.7...
+Preprocessing library extra-1.4.7...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Extra,*Control.Concurrent.Extra,*Control.Exception.Extra,*Control.Monad.Extra,*Data.Either.Extra,*Data.IORef.Extra,*Data.List.Extra,*Data.Tuple.Extra,*Data.Version.Extra,*Numeric.Extra,*System.Directory.Extra,*System.Environment.Extra,*System.Info.Extra,*System.IO.Extra,*System.Process.Extra,*System.Time.Extra
+Created temporary directory: /tmp/ghc1630_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/process-1.4.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/directory-1.2.6.2/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc1630_0/ghc_2.h -x assembler-with-cpp src/Control/Concurrent/Extra.hs -o /tmp/ghc1630_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/process-1.4.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/directory-1.2.6.2/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc1630_0/ghc_4.h -x assembler-with-cpp src/Data/Either/Extra.hs -o /tmp/ghc1630_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/process-1.4.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/directory-1.2.6.2/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc1630_0/ghc_6.h -x assembler-with-cpp src/Data/IORef/Extra.hs -o /tmp/ghc1630_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/process-1.4.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/directory-1.2.6.2/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc1630_0/ghc_8.h -x assembler-with-cpp src/Data/List/Extra.hs -o /tmp/ghc1630_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/process-1.4.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/directory-1.2.6.2/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc1630_0/ghc_10.h -x assembler-with-cpp src/Data/Version/Extra.hs -o /tmp/ghc1630_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/process-1.4.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/directory-1.2.6.2/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc1630_0/ghc_12.h -x assembler-with-cpp src/System/Directory/Extra.hs -o /tmp/ghc1630_0/ghc_11.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/process-1.4.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/directory-1.2.6.2/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc1630_0/ghc_14.h -x assembler-with-cpp src/System/Environment/Extra.hs -o /tmp/ghc1630_0/ghc_13.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/process-1.4.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/directory-1.2.6.2/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc1630_0/ghc_16.h -x assembler-with-cpp src/System/Info/Extra.hs -o /tmp/ghc1630_0/ghc_15.hscpp
+!!! Chasing dependencies: finished in 62.00 milliseconds, allocated 47.620 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = System.Info.Extra,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, System.Info)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = System.Environment.Extra,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Environment)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = Numeric.Extra,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Control.Arrow),
+                            (Nothing, Numeric)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = Data.Tuple.Extra,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Control.Arrow),
+                            (Nothing, Data.Tuple)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = Data.List.Extra,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Monoid),
+                            (Nothing, Data.Tuple.Extra), (Nothing, Data.Char),
+                            (Nothing, Data.Function), (Nothing, Data.Maybe),
+                            (Nothing, Data.List), (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = Data.Version.Extra,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.ParserCombinators.ReadP),
+                            (Nothing, Data.List.Extra), (Nothing, Data.Version)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = Data.IORef.Extra,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Exception), (Nothing, Data.IORef)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = Data.Either.Extra,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Either)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = Control.Monad.Extra,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Monoid),
+                            (Nothing, Data.Maybe), (Nothing, Control.Applicative),
+                            (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = System.Directory.Extra,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, System.Posix),
+                            (Nothing, Data.List), (Nothing, System.FilePath),
+                            (Nothing, Control.Monad.Extra), (Nothing, System.Directory)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = Control.Exception.Extra,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.List.Extra),
+                            (Nothing, Control.Monad), (Nothing, Control.Exception)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = Control.Concurrent.Extra,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Maybe),
+                            (Nothing, Control.Monad.Extra), (Nothing, Control.Exception.Extra),
+                            (Nothing, Control.Concurrent)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = System.IO.Extra,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Functor),
+                            (Nothing, Foreign.C.Types), (Nothing, Foreign.Marshal.Alloc),
+                            (Nothing, Foreign.Ptr), (Nothing, Data.IORef),
+                            (Nothing, Data.Tuple.Extra), (Nothing, Data.Time.Clock),
+                            (Nothing, Data.Char), (Nothing, System.FilePath),
+                            (Nothing, System.IO.Unsafe), (Nothing, System.IO.Error),
+                            (Nothing, System.Directory.Extra), (Nothing, GHC.IO.Handle),
+                            (Nothing, Control.Exception.Extra), (Nothing, Control.Monad.Extra),
+                            (Nothing, Control.Concurrent.Extra), (Nothing, System.IO)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = System.Process.Extra,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, System.Exit),
+                            (Nothing, System.Process), (Nothing, System.IO.Extra),
+                            (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = System.Time.Extra,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Unique),
+                            (Nothing, Data.Typeable), (Nothing, Control.Exception.Extra),
+                            (Nothing, Control.Monad.Extra), (Nothing, Data.IORef),
+                            (Nothing, Numeric.Extra), (Nothing, Data.Time.Clock),
+                            (Nothing, Control.Concurrent)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:10:19 UTC
+         ms_mod = Extra,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Time.Extra), (Nothing, System.Process.Extra),
+                            (Nothing, System.IO.Extra), (Nothing, System.Info.Extra),
+                            (Nothing, System.Environment.Extra),
+                            (Nothing, System.Directory.Extra), (Nothing, Numeric.Extra),
+                            (Nothing, Data.Version.Extra), (Nothing, Data.Tuple.Extra),
+                            (Nothing, Data.List.Extra), (Nothing, Data.IORef.Extra),
+                            (Nothing, Data.Either.Extra), (Nothing, Control.Monad.Extra),
+                            (Nothing, Control.Exception.Extra),
+                            (Nothing, Control.Concurrent.Extra)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_16.h /tmp/ghc1630_0/ghc_14.h /tmp/ghc1630_0/ghc_12.h /tmp/ghc1630_0/ghc_10.h /tmp/ghc1630_0/ghc_8.h /tmp/ghc1630_0/ghc_6.h /tmp/ghc1630_0/ghc_4.h /tmp/ghc1630_0/ghc_2.h
+compile: input file /tmp/ghc1630_0/ghc_15.hscpp
+*** Checking old interface for System.Info.Extra:
+[ 1 of 16] Compiling System.Info.Extra ( src/System/Info/Extra.hs, dist/dist-sandbox-6afc8227/build/System/Info/Extra.o )
+*** Parser [System.Info.Extra]:
+!!! Parser [System.Info.Extra]: finished in 1.00 milliseconds, allocated 1.033 megabytes
+*** Renamer/typechecker [System.Info.Extra]:
+!!! Renamer/typechecker [System.Info.Extra]: finished in 58.00 milliseconds, allocated 18.693 megabytes
+*** Desugar [System.Info.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 10, types: 3, coercions: 0}
+!!! Desugar [System.Info.Extra]: finished in 1.00 milliseconds, allocated 0.163 megabytes
+*** Simplifier [System.Info.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 14, types: 5, coercions: 0}
+Result size of Simplifier = {terms: 14, types: 5, coercions: 0}
+!!! Simplifier [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.153 megabytes
+*** Specialise [System.Info.Extra]:
+Result size of Specialise = {terms: 14, types: 5, coercions: 0}
+!!! Specialise [System.Info.Extra]: finished in 1.00 milliseconds, allocated 0.056 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Info.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 14, types: 5, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.096 megabytes
+*** Simplifier [System.Info.Extra]:
+Result size of Simplifier = {terms: 14, types: 5, coercions: 0}
+!!! Simplifier [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.082 megabytes
+*** Simplifier [System.Info.Extra]:
+Result size of Simplifier = {terms: 14, types: 5, coercions: 0}
+!!! Simplifier [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.081 megabytes
+*** Simplifier [System.Info.Extra]:
+Result size of Simplifier = {terms: 14, types: 5, coercions: 0}
+!!! Simplifier [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.081 megabytes
+*** Float inwards [System.Info.Extra]:
+Result size of Float inwards = {terms: 14, types: 5, coercions: 0}
+!!! Float inwards [System.Info.Extra]: finished in 2.00 milliseconds, allocated 0.044 megabytes
+*** Called arity analysis [System.Info.Extra]:
+Result size of Called arity analysis
+  = {terms: 14, types: 5, coercions: 0}
+!!! Called arity analysis [System.Info.Extra]: finished in 1.00 milliseconds, allocated 0.051 megabytes
+*** Simplifier [System.Info.Extra]:
+Result size of Simplifier = {terms: 14, types: 5, coercions: 0}
+!!! Simplifier [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.082 megabytes
+*** Demand analysis [System.Info.Extra]:
+Result size of Demand analysis
+  = {terms: 14, types: 5, coercions: 0}
+!!! Demand analysis [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.068 megabytes
+*** Worker Wrapper binds [System.Info.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 14, types: 5, coercions: 0}
+!!! Worker Wrapper binds [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Simplifier [System.Info.Extra]:
+Result size of Simplifier = {terms: 14, types: 5, coercions: 0}
+!!! Simplifier [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.084 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Info.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 14, types: 5, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.095 megabytes
+*** Common sub-expression [System.Info.Extra]:
+Result size of Common sub-expression
+  = {terms: 14, types: 5, coercions: 0}
+!!! Common sub-expression [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.051 megabytes
+*** Float inwards [System.Info.Extra]:
+Result size of Float inwards = {terms: 14, types: 5, coercions: 0}
+!!! Float inwards [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Simplifier [System.Info.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 14, types: 5, coercions: 0}
+Result size of Simplifier = {terms: 14, types: 5, coercions: 0}
+!!! Simplifier [System.Info.Extra]: finished in 1.00 milliseconds, allocated 0.166 megabytes
+*** CoreTidy [System.Info.Extra]:
+Result size of Tidy Core = {terms: 14, types: 5, coercions: 0}
+!!! CoreTidy [System.Info.Extra]: finished in 6.00 milliseconds, allocated 3.848 megabytes
+writeBinIface: 10 Names
+writeBinIface: 30 dict entries
+writeBinIface: 10 Names
+writeBinIface: 30 dict entries
+*** CorePrep [System.Info.Extra]:
+Result size of CorePrep = {terms: 14, types: 5, coercions: 0}
+!!! CorePrep [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.053 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Info.Extra]:
+!!! CodeGen [System.Info.Extra]: finished in 1.00 milliseconds, allocated 0.367 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Info -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_18.s -o dist/dist-sandbox-6afc8227/build/System/Info/Extra.o
+*** CorePrep [System.Info.Extra]:
+Result size of CorePrep = {terms: 14, types: 5, coercions: 0}
+!!! CorePrep [System.Info.Extra]: finished in 0.00 milliseconds, allocated 0.056 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Info.Extra]:
+!!! CodeGen [System.Info.Extra]: finished in 1.00 milliseconds, allocated 0.334 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Info -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_20.s -o dist/dist-sandbox-6afc8227/build/System/Info/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_21.c /tmp/ghc1630_0/ghc_20.s /tmp/ghc1630_0/ghc_19.c /tmp/ghc1630_0/ghc_18.s /tmp/ghc1630_0/ghc_17.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_21.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_19.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_17.s
+compile: input file /tmp/ghc1630_0/ghc_13.hscpp
+*** Checking old interface for System.Environment.Extra:
+[ 2 of 16] Compiling System.Environment.Extra ( src/System/Environment/Extra.hs, dist/dist-sandbox-6afc8227/build/System/Environment/Extra.o )
+*** Parser [System.Environment.Extra]:
+!!! Parser [System.Environment.Extra]: finished in 1.00 milliseconds, allocated 0.925 megabytes
+*** Renamer/typechecker [System.Environment.Extra]:
+!!! Renamer/typechecker [System.Environment.Extra]: finished in 2.00 milliseconds, allocated 1.240 megabytes
+*** Desugar [System.Environment.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.141 megabytes
+*** Simplifier [System.Environment.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Environment.Extra]: finished in 2.00 milliseconds, allocated 0.129 megabytes
+*** Specialise [System.Environment.Extra]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.053 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Environment.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [System.Environment.Extra]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [System.Environment.Extra]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Environment.Extra]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [System.Environment.Extra]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [System.Environment.Extra]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [System.Environment.Extra]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [System.Environment.Extra]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [System.Environment.Extra]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [System.Environment.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [System.Environment.Extra]: finished in 1.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [System.Environment.Extra]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Environment.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [System.Environment.Extra]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [System.Environment.Extra]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.Environment.Extra]: finished in 1.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [System.Environment.Extra]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** CoreTidy [System.Environment.Extra]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+writeBinIface: 14 Names
+writeBinIface: 34 dict entries
+writeBinIface: 14 Names
+writeBinIface: 34 dict entries
+*** CorePrep [System.Environment.Extra]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Environment.Extra]:
+!!! CodeGen [System.Environment.Extra]: finished in 1.00 milliseconds, allocated 0.301 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Environment -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_23.s -o dist/dist-sandbox-6afc8227/build/System/Environment/Extra.o
+*** CorePrep [System.Environment.Extra]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Environment.Extra]:
+!!! CodeGen [System.Environment.Extra]: finished in 0.00 milliseconds, allocated 0.297 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Environment -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_25.s -o dist/dist-sandbox-6afc8227/build/System/Environment/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_26.c /tmp/ghc1630_0/ghc_25.s /tmp/ghc1630_0/ghc_24.c /tmp/ghc1630_0/ghc_23.s /tmp/ghc1630_0/ghc_22.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_26.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_24.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_22.s
+compile: input file src/Numeric/Extra.hs
+*** Checking old interface for Numeric.Extra:
+[ 3 of 16] Compiling Numeric.Extra    ( src/Numeric/Extra.hs, dist/dist-sandbox-6afc8227/build/Numeric/Extra.o )
+*** Parser [Numeric.Extra]:
+!!! Parser [Numeric.Extra]: finished in 0.00 milliseconds, allocated 0.873 megabytes
+*** Renamer/typechecker [Numeric.Extra]:
+!!! Renamer/typechecker [Numeric.Extra]: finished in 236.00 milliseconds, allocated 105.542 megabytes
+*** Desugar [Numeric.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 97, types: 130, coercions: 0}
+!!! Desugar [Numeric.Extra]: finished in 3.00 milliseconds, allocated 1.474 megabytes
+*** Simplifier [Numeric.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 104, types: 130, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 98, types: 119, coercions: 0}
+Result size of Simplifier = {terms: 98, types: 119, coercions: 0}
+!!! Simplifier [Numeric.Extra]: finished in 16.00 milliseconds, allocated 8.219 megabytes
+*** Specialise [Numeric.Extra]:
+Result size of Specialise = {terms: 98, types: 119, coercions: 0}
+!!! Specialise [Numeric.Extra]: finished in 0.00 milliseconds, allocated 0.157 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Numeric.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 118, types: 155, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Numeric.Extra]: finished in 1.00 milliseconds, allocated 0.574 megabytes
+*** Simplifier [Numeric.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 182, types: 190, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 166, types: 149, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 160, types: 138, coercions: 0}
+Result size of Simplifier = {terms: 160, types: 138, coercions: 0}
+!!! Simplifier [Numeric.Extra]: finished in 7.00 milliseconds, allocated 4.605 megabytes
+*** Simplifier [Numeric.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 144, types: 117, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 137, types: 114, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 135, types: 113, coercions: 0}
+Result size of Simplifier = {terms: 135, types: 113, coercions: 0}
+!!! Simplifier [Numeric.Extra]: finished in 8.00 milliseconds, allocated 2.611 megabytes
+*** Simplifier [Numeric.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 155, types: 128, coercions: 0}
+Result size of Simplifier = {terms: 152, types: 127, coercions: 0}
+!!! Simplifier [Numeric.Extra]: finished in 2.00 milliseconds, allocated 1.123 megabytes
+*** Float inwards [Numeric.Extra]:
+Result size of Float inwards
+  = {terms: 152, types: 127, coercions: 0}
+!!! Float inwards [Numeric.Extra]: finished in 0.00 milliseconds, allocated 0.277 megabytes
+*** Called arity analysis [Numeric.Extra]:
+Result size of Called arity analysis
+  = {terms: 152, types: 127, coercions: 0}
+!!! Called arity analysis [Numeric.Extra]: finished in 1.00 milliseconds, allocated 0.165 megabytes
+*** Simplifier [Numeric.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 143, types: 107, coercions: 0}
+Result size of Simplifier = {terms: 139, types: 98, coercions: 0}
+!!! Simplifier [Numeric.Extra]: finished in 1.00 milliseconds, allocated 0.995 megabytes
+*** Demand analysis [Numeric.Extra]:
+Result size of Demand analysis
+  = {terms: 139, types: 98, coercions: 0}
+!!! Demand analysis [Numeric.Extra]: finished in 0.00 milliseconds, allocated 0.536 megabytes
+*** Worker Wrapper binds [Numeric.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 169, types: 128, coercions: 0}
+!!! Worker Wrapper binds [Numeric.Extra]: finished in 1.00 milliseconds, allocated 0.130 megabytes
+*** Simplifier [Numeric.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 147, types: 115, coercions: 0}
+Result size of Simplifier = {terms: 127, types: 93, coercions: 0}
+!!! Simplifier [Numeric.Extra]: finished in 2.00 milliseconds, allocated 1.179 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Numeric.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 129, types: 95, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Numeric.Extra]: finished in 1.00 milliseconds, allocated 0.522 megabytes
+*** Common sub-expression [Numeric.Extra]:
+Result size of Common sub-expression
+  = {terms: 129, types: 95, coercions: 0}
+!!! Common sub-expression [Numeric.Extra]: finished in 0.00 milliseconds, allocated 0.164 megabytes
+*** Float inwards [Numeric.Extra]:
+Result size of Float inwards
+  = {terms: 129, types: 95, coercions: 0}
+!!! Float inwards [Numeric.Extra]: finished in 0.00 milliseconds, allocated 0.177 megabytes
+*** Simplifier [Numeric.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 129, types: 95, coercions: 0}
+Result size of Simplifier = {terms: 129, types: 95, coercions: 0}
+!!! Simplifier [Numeric.Extra]: finished in 1.00 milliseconds, allocated 0.925 megabytes
+*** CoreTidy [Numeric.Extra]:
+Result size of Tidy Core = {terms: 129, types: 95, coercions: 0}
+!!! CoreTidy [Numeric.Extra]: finished in 0.00 milliseconds, allocated 0.232 megabytes
+writeBinIface: 64 Names
+writeBinIface: 106 dict entries
+writeBinIface: 64 Names
+writeBinIface: 106 dict entries
+*** CorePrep [Numeric.Extra]:
+Result size of CorePrep = {terms: 162, types: 113, coercions: 0}
+!!! CorePrep [Numeric.Extra]: finished in 1.00 milliseconds, allocated 0.272 megabytes
+*** Stg2Stg:
+*** CodeGen [Numeric.Extra]:
+!!! CodeGen [Numeric.Extra]: finished in 11.00 milliseconds, allocated 6.488 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Numeric -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_28.s -o dist/dist-sandbox-6afc8227/build/Numeric/Extra.o
+*** CorePrep [Numeric.Extra]:
+Result size of CorePrep = {terms: 162, types: 113, coercions: 0}
+!!! CorePrep [Numeric.Extra]: finished in 0.00 milliseconds, allocated 0.266 megabytes
+*** Stg2Stg:
+*** CodeGen [Numeric.Extra]:
+!!! CodeGen [Numeric.Extra]: finished in 11.00 milliseconds, allocated 6.729 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Numeric -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_30.s -o dist/dist-sandbox-6afc8227/build/Numeric/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_31.c /tmp/ghc1630_0/ghc_30.s /tmp/ghc1630_0/ghc_29.c /tmp/ghc1630_0/ghc_28.s /tmp/ghc1630_0/ghc_27.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_31.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_29.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_27.s
+compile: input file src/Data/Tuple/Extra.hs
+*** Checking old interface for Data.Tuple.Extra:
+[ 4 of 16] Compiling Data.Tuple.Extra ( src/Data/Tuple/Extra.hs, dist/dist-sandbox-6afc8227/build/Data/Tuple/Extra.o )
+*** Parser [Data.Tuple.Extra]:
+!!! Parser [Data.Tuple.Extra]: finished in 1.00 milliseconds, allocated 1.492 megabytes
+*** Renamer/typechecker [Data.Tuple.Extra]:
+!!! Renamer/typechecker [Data.Tuple.Extra]: finished in 4.00 milliseconds, allocated 3.417 megabytes
+*** Desugar [Data.Tuple.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 77, types: 227, coercions: 0}
+!!! Desugar [Data.Tuple.Extra]: finished in 1.00 milliseconds, allocated 0.418 megabytes
+*** Simplifier [Data.Tuple.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 64, types: 186, coercions: 0}
+Result size of Simplifier = {terms: 64, types: 186, coercions: 0}
+!!! Simplifier [Data.Tuple.Extra]: finished in 1.00 milliseconds, allocated 0.730 megabytes
+*** Specialise [Data.Tuple.Extra]:
+Result size of Specialise = {terms: 64, types: 186, coercions: 0}
+!!! Specialise [Data.Tuple.Extra]: finished in 0.00 milliseconds, allocated 0.119 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Tuple.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 64, types: 186, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Tuple.Extra]: finished in 0.00 milliseconds, allocated 0.344 megabytes
+*** Simplifier [Data.Tuple.Extra]:
+Result size of Simplifier = {terms: 64, types: 186, coercions: 0}
+!!! Simplifier [Data.Tuple.Extra]: finished in 0.00 milliseconds, allocated 0.237 megabytes
+*** Simplifier [Data.Tuple.Extra]:
+Result size of Simplifier = {terms: 64, types: 186, coercions: 0}
+!!! Simplifier [Data.Tuple.Extra]: finished in 1.00 milliseconds, allocated 0.236 megabytes
+*** Simplifier [Data.Tuple.Extra]:
+Result size of Simplifier = {terms: 64, types: 186, coercions: 0}
+!!! Simplifier [Data.Tuple.Extra]: finished in 1.00 milliseconds, allocated 0.237 megabytes
+*** Float inwards [Data.Tuple.Extra]:
+Result size of Float inwards
+  = {terms: 64, types: 186, coercions: 0}
+!!! Float inwards [Data.Tuple.Extra]: finished in 0.00 milliseconds, allocated 0.085 megabytes
+*** Called arity analysis [Data.Tuple.Extra]:
+Result size of Called arity analysis
+  = {terms: 64, types: 186, coercions: 0}
+!!! Called arity analysis [Data.Tuple.Extra]: finished in 0.00 milliseconds, allocated 0.100 megabytes
+*** Simplifier [Data.Tuple.Extra]:
+Result size of Simplifier = {terms: 64, types: 186, coercions: 0}
+!!! Simplifier [Data.Tuple.Extra]: finished in 0.00 milliseconds, allocated 0.236 megabytes
+*** Demand analysis [Data.Tuple.Extra]:
+Result size of Demand analysis
+  = {terms: 64, types: 186, coercions: 0}
+!!! Demand analysis [Data.Tuple.Extra]: finished in 1.00 milliseconds, allocated 0.192 megabytes
+*** Worker Wrapper binds [Data.Tuple.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 64, types: 186, coercions: 0}
+!!! Worker Wrapper binds [Data.Tuple.Extra]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Data.Tuple.Extra]:
+Result size of Simplifier = {terms: 64, types: 186, coercions: 0}
+!!! Simplifier [Data.Tuple.Extra]: finished in 0.00 milliseconds, allocated 0.374 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Tuple.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 64, types: 186, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Tuple.Extra]: finished in 1.00 milliseconds, allocated 0.345 megabytes
+*** Common sub-expression [Data.Tuple.Extra]:
+Result size of Common sub-expression
+  = {terms: 64, types: 186, coercions: 0}
+!!! Common sub-expression [Data.Tuple.Extra]: finished in 0.00 milliseconds, allocated 0.170 megabytes
+*** Float inwards [Data.Tuple.Extra]:
+Result size of Float inwards
+  = {terms: 64, types: 186, coercions: 0}
+!!! Float inwards [Data.Tuple.Extra]: finished in 0.00 milliseconds, allocated 0.084 megabytes
+*** Simplifier [Data.Tuple.Extra]:
+Result size of Simplifier = {terms: 64, types: 186, coercions: 0}
+!!! Simplifier [Data.Tuple.Extra]: finished in 1.00 milliseconds, allocated 0.368 megabytes
+*** CoreTidy [Data.Tuple.Extra]:
+Result size of Tidy Core = {terms: 64, types: 186, coercions: 0}
+!!! CoreTidy [Data.Tuple.Extra]: finished in 0.00 milliseconds, allocated 0.174 megabytes
+writeBinIface: 20 Names
+writeBinIface: 53 dict entries
+writeBinIface: 20 Names
+writeBinIface: 53 dict entries
+*** CorePrep [Data.Tuple.Extra]:
+Result size of CorePrep = {terms: 101, types: 249, coercions: 0}
+!!! CorePrep [Data.Tuple.Extra]: finished in 1.00 milliseconds, allocated 0.185 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Tuple.Extra]:
+!!! CodeGen [Data.Tuple.Extra]: finished in 4.00 milliseconds, allocated 3.307 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Tuple -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_33.s -o dist/dist-sandbox-6afc8227/build/Data/Tuple/Extra.o
+*** CorePrep [Data.Tuple.Extra]:
+Result size of CorePrep = {terms: 101, types: 249, coercions: 0}
+!!! CorePrep [Data.Tuple.Extra]: finished in 0.00 milliseconds, allocated 0.176 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Tuple.Extra]:
+!!! CodeGen [Data.Tuple.Extra]: finished in 4.00 milliseconds, allocated 3.399 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Tuple -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_35.s -o dist/dist-sandbox-6afc8227/build/Data/Tuple/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_36.c /tmp/ghc1630_0/ghc_35.s /tmp/ghc1630_0/ghc_34.c /tmp/ghc1630_0/ghc_33.s /tmp/ghc1630_0/ghc_32.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_36.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_34.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_32.s
+compile: input file /tmp/ghc1630_0/ghc_7.hscpp
+*** Checking old interface for Data.List.Extra:
+[ 5 of 16] Compiling Data.List.Extra  ( src/Data/List/Extra.hs, dist/dist-sandbox-6afc8227/build/Data/List/Extra.o )
+*** Parser [Data.List.Extra]:
+!!! Parser [Data.List.Extra]: finished in 13.00 milliseconds, allocated 15.588 megabytes
+*** Renamer/typechecker [Data.List.Extra]:
+!!! Renamer/typechecker [Data.List.Extra]: finished in 84.00 milliseconds, allocated 42.026 megabytes
+*** Desugar [Data.List.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 1,584, types: 2,639, coercions: 33}
+!!! Desugar [Data.List.Extra]: finished in 21.00 milliseconds, allocated 9.079 megabytes
+*** Simplifier [Data.List.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 1,575, types: 2,591, coercions: 12}
+Result size of Simplifier iteration=2
+  = {terms: 1,520, types: 2,500, coercions: 12}
+Result size of Simplifier
+  = {terms: 1,520, types: 2,500, coercions: 12}
+!!! Simplifier [Data.List.Extra]: finished in 37.00 milliseconds, allocated 18.314 megabytes
+*** Specialise [Data.List.Extra]:
+Result size of Specialise
+  = {terms: 1,552, types: 2,553, coercions: 12}
+!!! Specialise [Data.List.Extra]: finished in 5.00 milliseconds, allocated 2.061 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.List.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,779, types: 3,116, coercions: 12}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.List.Extra]: finished in 15.00 milliseconds, allocated 11.444 megabytes
+*** Simplifier [Data.List.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 2,352, types: 3,634, coercions: 24}
+Result size of Simplifier iteration=2
+  = {terms: 2,107, types: 3,150, coercions: 22}
+Result size of Simplifier iteration=3
+  = {terms: 2,099, types: 3,144, coercions: 22}
+Result size of Simplifier
+  = {terms: 2,099, types: 3,144, coercions: 22}
+!!! Simplifier [Data.List.Extra]: finished in 79.00 milliseconds, allocated 43.877 megabytes
+*** Simplifier [Data.List.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 1,849, types: 2,762, coercions: 22}
+Result size of Simplifier iteration=2
+  = {terms: 1,833, types: 2,742, coercions: 22}
+Result size of Simplifier
+  = {terms: 1,833, types: 2,742, coercions: 22}
+!!! Simplifier [Data.List.Extra]: finished in 60.00 milliseconds, allocated 25.887 megabytes
+*** Simplifier [Data.List.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 2,056, types: 3,048, coercions: 17}
+Result size of Simplifier iteration=2
+  = {terms: 2,030, types: 3,029, coercions: 17}
+Result size of Simplifier
+  = {terms: 2,030, types: 3,029, coercions: 17}
+!!! Simplifier [Data.List.Extra]: finished in 106.00 milliseconds, allocated 22.250 megabytes
+*** Float inwards [Data.List.Extra]:
+Result size of Float inwards
+  = {terms: 2,030, types: 3,029, coercions: 17}
+!!! Float inwards [Data.List.Extra]: finished in 3.00 milliseconds, allocated 3.374 megabytes
+*** Called arity analysis [Data.List.Extra]:
+Result size of Called arity analysis
+  = {terms: 2,030, types: 3,029, coercions: 17}
+!!! Called arity analysis [Data.List.Extra]: finished in 2.00 milliseconds, allocated 2.024 megabytes
+*** Simplifier [Data.List.Extra]:
+Result size of Simplifier
+  = {terms: 2,030, types: 3,029, coercions: 17}
+!!! Simplifier [Data.List.Extra]: finished in 13.00 milliseconds, allocated 7.241 megabytes
+*** Demand analysis [Data.List.Extra]:
+Result size of Demand analysis
+  = {terms: 2,030, types: 3,029, coercions: 17}
+!!! Demand analysis [Data.List.Extra]: finished in 8.00 milliseconds, allocated 8.990 megabytes
+*** Worker Wrapper binds [Data.List.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 2,304, types: 3,805, coercions: 17}
+!!! Worker Wrapper binds [Data.List.Extra]: finished in 3.00 milliseconds, allocated 1.227 megabytes
+*** Simplifier [Data.List.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 2,304, types: 3,892, coercions: 17}
+Result size of Simplifier iteration=2
+  = {terms: 2,164, types: 3,541, coercions: 17}
+Result size of Simplifier
+  = {terms: 2,164, types: 3,541, coercions: 17}
+!!! Simplifier [Data.List.Extra]: finished in 58.00 milliseconds, allocated 30.717 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.List.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,229, types: 3,660, coercions: 17}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.List.Extra]: finished in 21.00 milliseconds, allocated 14.034 megabytes
+*** Common sub-expression [Data.List.Extra]:
+Result size of Common sub-expression
+  = {terms: 2,192, types: 3,650, coercions: 17}
+!!! Common sub-expression [Data.List.Extra]: finished in 5.00 milliseconds, allocated 2.944 megabytes
+*** Float inwards [Data.List.Extra]:
+Result size of Float inwards
+  = {terms: 2,192, types: 3,650, coercions: 17}
+!!! Float inwards [Data.List.Extra]: finished in 4.00 milliseconds, allocated 3.313 megabytes
+*** Simplifier [Data.List.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 2,186, types: 3,752, coercions: 17}
+Result size of Simplifier
+  = {terms: 2,133, types: 3,510, coercions: 17}
+!!! Simplifier [Data.List.Extra]: finished in 41.00 milliseconds, allocated 19.732 megabytes
+*** CoreTidy [Data.List.Extra]:
+Result size of Tidy Core
+  = {terms: 2,110, types: 3,460, coercions: 17}
+!!! CoreTidy [Data.List.Extra]: finished in 7.00 milliseconds, allocated 3.658 megabytes
+writeBinIface: 237 Names
+writeBinIface: 344 dict entries
+writeBinIface: 237 Names
+writeBinIface: 344 dict entries
+*** CorePrep [Data.List.Extra]:
+Result size of CorePrep
+  = {terms: 2,545, types: 3,935, coercions: 17}
+!!! CorePrep [Data.List.Extra]: finished in 6.00 milliseconds, allocated 4.588 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.List.Extra]:
+!!! CodeGen [Data.List.Extra]: finished in 191.00 milliseconds, allocated 126.015 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/List -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_38.s -o dist/dist-sandbox-6afc8227/build/Data/List/Extra.o
+*** CorePrep [Data.List.Extra]:
+Result size of CorePrep
+  = {terms: 2,545, types: 3,935, coercions: 17}
+!!! CorePrep [Data.List.Extra]: finished in 6.00 milliseconds, allocated 4.424 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.List.Extra]:
+!!! CodeGen [Data.List.Extra]: finished in 196.00 milliseconds, allocated 133.066 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/List -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_40.s -o dist/dist-sandbox-6afc8227/build/Data/List/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_41.c /tmp/ghc1630_0/ghc_40.s /tmp/ghc1630_0/ghc_39.c /tmp/ghc1630_0/ghc_38.s /tmp/ghc1630_0/ghc_37.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_41.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_39.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_37.s
+compile: input file /tmp/ghc1630_0/ghc_9.hscpp
+*** Checking old interface for Data.Version.Extra:
+[ 6 of 16] Compiling Data.Version.Extra ( src/Data/Version/Extra.hs, dist/dist-sandbox-6afc8227/build/Data/Version/Extra.o )
+*** Parser [Data.Version.Extra]:
+!!! Parser [Data.Version.Extra]: finished in 1.00 milliseconds, allocated 1.263 megabytes
+*** Renamer/typechecker [Data.Version.Extra]:
+!!! Renamer/typechecker [Data.Version.Extra]: finished in 33.00 milliseconds, allocated 20.681 megabytes
+*** Desugar [Data.Version.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 94, types: 55, coercions: 22}
+!!! Desugar [Data.Version.Extra]: finished in 1.00 milliseconds, allocated 0.455 megabytes
+*** Simplifier [Data.Version.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 118, types: 103, coercions: 8}
+Result size of Simplifier = {terms: 118, types: 103, coercions: 8}
+!!! Simplifier [Data.Version.Extra]: finished in 1.00 milliseconds, allocated 1.033 megabytes
+*** Specialise [Data.Version.Extra]:
+Result size of Specialise = {terms: 118, types: 103, coercions: 8}
+!!! Specialise [Data.Version.Extra]: finished in 1.00 milliseconds, allocated 0.172 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Version.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 188, types: 215, coercions: 8}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Version.Extra]: finished in 0.00 milliseconds, allocated 0.681 megabytes
+*** Simplifier [Data.Version.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 170, types: 137, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 139, types: 114, coercions: 8}
+Result size of Simplifier = {terms: 139, types: 114, coercions: 8}
+!!! Simplifier [Data.Version.Extra]: finished in 3.00 milliseconds, allocated 1.956 megabytes
+*** Simplifier [Data.Version.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 115, types: 71, coercions: 8}
+Result size of Simplifier = {terms: 115, types: 71, coercions: 8}
+!!! Simplifier [Data.Version.Extra]: finished in 2.00 milliseconds, allocated 1.234 megabytes
+*** Simplifier [Data.Version.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 203, types: 142, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 192, types: 131, coercions: 8}
+Result size of Simplifier = {terms: 192, types: 131, coercions: 8}
+!!! Simplifier [Data.Version.Extra]: finished in 17.00 milliseconds, allocated 12.140 megabytes
+*** Float inwards [Data.Version.Extra]:
+Result size of Float inwards
+  = {terms: 192, types: 131, coercions: 8}
+!!! Float inwards [Data.Version.Extra]: finished in 1.00 milliseconds, allocated 0.311 megabytes
+*** Called arity analysis [Data.Version.Extra]:
+Result size of Called arity analysis
+  = {terms: 192, types: 131, coercions: 8}
+!!! Called arity analysis [Data.Version.Extra]: finished in 0.00 milliseconds, allocated 0.172 megabytes
+*** Simplifier [Data.Version.Extra]:
+Result size of Simplifier = {terms: 192, types: 131, coercions: 8}
+!!! Simplifier [Data.Version.Extra]: finished in 1.00 milliseconds, allocated 0.652 megabytes
+*** Demand analysis [Data.Version.Extra]:
+Result size of Demand analysis
+  = {terms: 192, types: 131, coercions: 8}
+!!! Demand analysis [Data.Version.Extra]: finished in 1.00 milliseconds, allocated 0.854 megabytes
+*** Worker Wrapper binds [Data.Version.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 192, types: 131, coercions: 8}
+!!! Worker Wrapper binds [Data.Version.Extra]: finished in 0.00 milliseconds, allocated 0.106 megabytes
+*** Simplifier [Data.Version.Extra]:
+Result size of Simplifier = {terms: 192, types: 131, coercions: 8}
+!!! Simplifier [Data.Version.Extra]: finished in 1.00 milliseconds, allocated 0.659 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Version.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 236, types: 163, coercions: 8}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Version.Extra]: finished in 1.00 milliseconds, allocated 0.804 megabytes
+*** Common sub-expression [Data.Version.Extra]:
+Result size of Common sub-expression
+  = {terms: 229, types: 163, coercions: 8}
+!!! Common sub-expression [Data.Version.Extra]: finished in 0.00 milliseconds, allocated 0.273 megabytes
+*** Float inwards [Data.Version.Extra]:
+Result size of Float inwards
+  = {terms: 229, types: 163, coercions: 8}
+!!! Float inwards [Data.Version.Extra]: finished in 1.00 milliseconds, allocated 0.285 megabytes
+*** Simplifier [Data.Version.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 215, types: 152, coercions: 8}
+Result size of Simplifier = {terms: 215, types: 152, coercions: 8}
+!!! Simplifier [Data.Version.Extra]: finished in 2.00 milliseconds, allocated 1.549 megabytes
+*** CoreTidy [Data.Version.Extra]:
+Result size of Tidy Core = {terms: 215, types: 152, coercions: 8}
+!!! CoreTidy [Data.Version.Extra]: finished in 1.00 milliseconds, allocated 0.331 megabytes
+writeBinIface: 23 Names
+writeBinIface: 55 dict entries
+writeBinIface: 23 Names
+writeBinIface: 55 dict entries
+*** CorePrep [Data.Version.Extra]:
+Result size of CorePrep = {terms: 242, types: 168, coercions: 8}
+!!! CorePrep [Data.Version.Extra]: finished in 0.00 milliseconds, allocated 0.415 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Version.Extra]:
+!!! CodeGen [Data.Version.Extra]: finished in 0.00 milliseconds, allocated 12.133 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Version -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_43.s -o dist/dist-sandbox-6afc8227/build/Data/Version/Extra.o
+*** CorePrep [Data.Version.Extra]:
+Result size of CorePrep = {terms: 242, types: 168, coercions: 8}
+!!! CorePrep [Data.Version.Extra]: finished in 0.00 milliseconds, allocated 0.399 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Version.Extra]:
+!!! CodeGen [Data.Version.Extra]: finished in 0.00 milliseconds, allocated 12.646 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Version -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_45.s -o dist/dist-sandbox-6afc8227/build/Data/Version/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_46.c /tmp/ghc1630_0/ghc_45.s /tmp/ghc1630_0/ghc_44.c /tmp/ghc1630_0/ghc_43.s /tmp/ghc1630_0/ghc_42.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_46.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_44.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_42.s
+compile: input file /tmp/ghc1630_0/ghc_5.hscpp
+*** Checking old interface for Data.IORef.Extra:
+[ 7 of 16] Compiling Data.IORef.Extra ( src/Data/IORef/Extra.hs, dist/dist-sandbox-6afc8227/build/Data/IORef/Extra.o )
+*** Parser [Data.IORef.Extra]:
+!!! Parser [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 1.153 megabytes
+*** Renamer/typechecker [Data.IORef.Extra]:
+!!! Renamer/typechecker [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 4.022 megabytes
+*** Desugar [Data.IORef.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 28, types: 35, coercions: 0}
+!!! Desugar [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.646 megabytes
+*** Simplifier [Data.IORef.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 34, types: 39, coercions: 10}
+Result size of Simplifier iteration=2
+  = {terms: 38, types: 65, coercions: 26}
+Result size of Simplifier = {terms: 38, types: 65, coercions: 26}
+!!! Simplifier [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.623 megabytes
+*** Specialise [Data.IORef.Extra]:
+Result size of Specialise = {terms: 38, types: 65, coercions: 26}
+!!! Specialise [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.084 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IORef.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 38, types: 65, coercions: 26}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.226 megabytes
+*** Simplifier [Data.IORef.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 42, types: 82, coercions: 24}
+Result size of Simplifier = {terms: 42, types: 82, coercions: 24}
+!!! Simplifier [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.772 megabytes
+*** Simplifier [Data.IORef.Extra]:
+Result size of Simplifier = {terms: 42, types: 82, coercions: 24}
+!!! Simplifier [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.208 megabytes
+*** Simplifier [Data.IORef.Extra]:
+Result size of Simplifier = {terms: 42, types: 82, coercions: 24}
+!!! Simplifier [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.208 megabytes
+*** Float inwards [Data.IORef.Extra]:
+Result size of Float inwards
+  = {terms: 42, types: 82, coercions: 24}
+!!! Float inwards [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.080 megabytes
+*** Called arity analysis [Data.IORef.Extra]:
+Result size of Called arity analysis
+  = {terms: 42, types: 82, coercions: 24}
+!!! Called arity analysis [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.087 megabytes
+*** Simplifier [Data.IORef.Extra]:
+Result size of Simplifier = {terms: 42, types: 82, coercions: 24}
+!!! Simplifier [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.209 megabytes
+*** Demand analysis [Data.IORef.Extra]:
+Result size of Demand analysis
+  = {terms: 42, types: 82, coercions: 24}
+!!! Demand analysis [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.170 megabytes
+*** Worker Wrapper binds [Data.IORef.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 42, types: 82, coercions: 24}
+!!! Worker Wrapper binds [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.056 megabytes
+*** Simplifier [Data.IORef.Extra]:
+Result size of Simplifier = {terms: 42, types: 82, coercions: 24}
+!!! Simplifier [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.310 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IORef.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 42, types: 82, coercions: 24}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.193 megabytes
+*** Common sub-expression [Data.IORef.Extra]:
+Result size of Common sub-expression
+  = {terms: 42, types: 82, coercions: 24}
+!!! Common sub-expression [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.115 megabytes
+*** Float inwards [Data.IORef.Extra]:
+Result size of Float inwards
+  = {terms: 42, types: 82, coercions: 24}
+!!! Float inwards [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.080 megabytes
+*** Simplifier [Data.IORef.Extra]:
+Result size of Simplifier = {terms: 42, types: 82, coercions: 24}
+!!! Simplifier [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.304 megabytes
+*** CoreTidy [Data.IORef.Extra]:
+Result size of Tidy Core = {terms: 42, types: 82, coercions: 24}
+!!! CoreTidy [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.140 megabytes
+writeBinIface: 22 Names
+writeBinIface: 52 dict entries
+writeBinIface: 22 Names
+writeBinIface: 52 dict entries
+*** CorePrep [Data.IORef.Extra]:
+Result size of CorePrep = {terms: 56, types: 98, coercions: 24}
+!!! CorePrep [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.122 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IORef.Extra]:
+!!! CodeGen [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 1.463 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/IORef -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_48.s -o dist/dist-sandbox-6afc8227/build/Data/IORef/Extra.o
+*** CorePrep [Data.IORef.Extra]:
+Result size of CorePrep = {terms: 56, types: 98, coercions: 24}
+!!! CorePrep [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 0.120 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IORef.Extra]:
+!!! CodeGen [Data.IORef.Extra]: finished in 0.00 milliseconds, allocated 1.479 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/IORef -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_50.s -o dist/dist-sandbox-6afc8227/build/Data/IORef/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_51.c /tmp/ghc1630_0/ghc_50.s /tmp/ghc1630_0/ghc_49.c /tmp/ghc1630_0/ghc_48.s /tmp/ghc1630_0/ghc_47.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_51.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_49.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_47.s
+compile: input file /tmp/ghc1630_0/ghc_3.hscpp
+*** Checking old interface for Data.Either.Extra:
+[ 8 of 16] Compiling Data.Either.Extra ( src/Data/Either/Extra.hs, dist/dist-sandbox-6afc8227/build/Data/Either/Extra.o )
+*** Parser [Data.Either.Extra]:
+!!! Parser [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 1.375 megabytes
+*** Renamer/typechecker [Data.Either.Extra]:
+!!! Renamer/typechecker [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.838 megabytes
+*** Desugar [Data.Either.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 37, types: 58, coercions: 0}
+!!! Desugar [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.288 megabytes
+*** Simplifier [Data.Either.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 37, types: 60, coercions: 0}
+Result size of Simplifier = {terms: 37, types: 60, coercions: 0}
+!!! Simplifier [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.293 megabytes
+*** Specialise [Data.Either.Extra]:
+Result size of Specialise = {terms: 37, types: 60, coercions: 0}
+!!! Specialise [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.084 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Either.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 43, types: 72, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.215 megabytes
+*** Simplifier [Data.Either.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 47, types: 75, coercions: 0}
+Result size of Simplifier = {terms: 47, types: 75, coercions: 0}
+!!! Simplifier [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.381 megabytes
+*** Simplifier [Data.Either.Extra]:
+Result size of Simplifier = {terms: 47, types: 75, coercions: 0}
+!!! Simplifier [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.178 megabytes
+*** Simplifier [Data.Either.Extra]:
+Result size of Simplifier = {terms: 47, types: 75, coercions: 0}
+!!! Simplifier [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.178 megabytes
+*** Float inwards [Data.Either.Extra]:
+Result size of Float inwards = {terms: 47, types: 75, coercions: 0}
+!!! Float inwards [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Called arity analysis [Data.Either.Extra]:
+Result size of Called arity analysis
+  = {terms: 47, types: 75, coercions: 0}
+!!! Called arity analysis [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** Simplifier [Data.Either.Extra]:
+Result size of Simplifier = {terms: 47, types: 75, coercions: 0}
+!!! Simplifier [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.178 megabytes
+*** Demand analysis [Data.Either.Extra]:
+Result size of Demand analysis
+  = {terms: 47, types: 75, coercions: 0}
+!!! Demand analysis [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.145 megabytes
+*** Worker Wrapper binds [Data.Either.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 47, types: 75, coercions: 0}
+!!! Worker Wrapper binds [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.058 megabytes
+*** Simplifier [Data.Either.Extra]:
+Result size of Simplifier = {terms: 47, types: 75, coercions: 0}
+!!! Simplifier [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.256 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Either.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 47, types: 75, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.236 megabytes
+*** Common sub-expression [Data.Either.Extra]:
+Result size of Common sub-expression
+  = {terms: 47, types: 75, coercions: 0}
+!!! Common sub-expression [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.151 megabytes
+*** Float inwards [Data.Either.Extra]:
+Result size of Float inwards = {terms: 47, types: 75, coercions: 0}
+!!! Float inwards [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.Either.Extra]:
+Result size of Simplifier = {terms: 47, types: 75, coercions: 0}
+!!! Simplifier [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.255 megabytes
+*** CoreTidy [Data.Either.Extra]:
+Result size of Tidy Core = {terms: 47, types: 75, coercions: 0}
+!!! CoreTidy [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.138 megabytes
+writeBinIface: 15 Names
+writeBinIface: 42 dict entries
+writeBinIface: 15 Names
+writeBinIface: 42 dict entries
+*** CorePrep [Data.Either.Extra]:
+Result size of CorePrep = {terms: 47, types: 75, coercions: 0}
+!!! CorePrep [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.108 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Either.Extra]:
+!!! CodeGen [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 2.966 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Either -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_53.s -o dist/dist-sandbox-6afc8227/build/Data/Either/Extra.o
+*** CorePrep [Data.Either.Extra]:
+Result size of CorePrep = {terms: 47, types: 75, coercions: 0}
+!!! CorePrep [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 0.103 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Either.Extra]:
+!!! CodeGen [Data.Either.Extra]: finished in 0.00 milliseconds, allocated 3.050 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Either -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_55.s -o dist/dist-sandbox-6afc8227/build/Data/Either/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_56.c /tmp/ghc1630_0/ghc_55.s /tmp/ghc1630_0/ghc_54.c /tmp/ghc1630_0/ghc_53.s /tmp/ghc1630_0/ghc_52.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_56.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_54.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_52.s
+compile: input file src/Control/Monad/Extra.hs
+*** Checking old interface for Control.Monad.Extra:
+[ 9 of 16] Compiling Control.Monad.Extra ( src/Control/Monad/Extra.hs, dist/dist-sandbox-6afc8227/build/Control/Monad/Extra.o )
+*** Parser [Control.Monad.Extra]:
+!!! Parser [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 5.721 megabytes
+*** Renamer/typechecker [Control.Monad.Extra]:
+!!! Renamer/typechecker [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 21.345 megabytes
+*** Desugar [Control.Monad.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 443, types: 1,023, coercions: 0}
+!!! Desugar [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 3.918 megabytes
+*** Simplifier [Control.Monad.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 451, types: 1,033, coercions: 0}
+Result size of Simplifier
+  = {terms: 451, types: 1,033, coercions: 0}
+!!! Simplifier [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 4.801 megabytes
+*** Specialise [Control.Monad.Extra]:
+Result size of Specialise
+  = {terms: 451, types: 1,033, coercions: 0}
+!!! Specialise [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 0.618 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 468, types: 1,082, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 3.998 megabytes
+*** Simplifier [Control.Monad.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 589, types: 1,176, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 571, types: 1,150, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 571, types: 1,150, coercions: 0}
+Result size of Simplifier
+  = {terms: 571, types: 1,150, coercions: 0}
+!!! Simplifier [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 11.231 megabytes
+*** Simplifier [Control.Monad.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 575, types: 1,144, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 543, types: 1,101, coercions: 0}
+Result size of Simplifier
+  = {terms: 543, types: 1,101, coercions: 0}
+!!! Simplifier [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 7.868 megabytes
+*** Simplifier [Control.Monad.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 574, types: 1,135, coercions: 0}
+Result size of Simplifier
+  = {terms: 574, types: 1,135, coercions: 0}
+!!! Simplifier [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 4.750 megabytes
+*** Float inwards [Control.Monad.Extra]:
+Result size of Float inwards
+  = {terms: 574, types: 1,135, coercions: 0}
+!!! Float inwards [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 1.300 megabytes
+*** Called arity analysis [Control.Monad.Extra]:
+Result size of Called arity analysis
+  = {terms: 574, types: 1,135, coercions: 0}
+!!! Called arity analysis [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 0.569 megabytes
+*** Simplifier [Control.Monad.Extra]:
+Result size of Simplifier
+  = {terms: 574, types: 1,135, coercions: 0}
+!!! Simplifier [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 2.390 megabytes
+*** Demand analysis [Control.Monad.Extra]:
+Result size of Demand analysis
+  = {terms: 574, types: 1,135, coercions: 0}
+!!! Demand analysis [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 3.189 megabytes
+*** Worker Wrapper binds [Control.Monad.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 574, types: 1,135, coercions: 0}
+!!! Worker Wrapper binds [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 0.374 megabytes
+*** Simplifier [Control.Monad.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 574, types: 1,135, coercions: 0}
+Result size of Simplifier
+  = {terms: 574, types: 1,135, coercions: 0}
+!!! Simplifier [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 5.259 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 576, types: 1,139, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 4.334 megabytes
+*** Common sub-expression [Control.Monad.Extra]:
+Result size of Common sub-expression
+  = {terms: 575, types: 1,138, coercions: 0}
+!!! Common sub-expression [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 0.759 megabytes
+*** Float inwards [Control.Monad.Extra]:
+Result size of Float inwards
+  = {terms: 575, types: 1,138, coercions: 0}
+!!! Float inwards [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 1.320 megabytes
+*** Simplifier [Control.Monad.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 575, types: 1,138, coercions: 0}
+Result size of Simplifier
+  = {terms: 575, types: 1,138, coercions: 0}
+!!! Simplifier [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 5.162 megabytes
+*** CoreTidy [Control.Monad.Extra]:
+Result size of Tidy Core = {terms: 575, types: 1,138, coercions: 0}
+!!! CoreTidy [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 0.862 megabytes
+writeBinIface: 67 Names
+writeBinIface: 128 dict entries
+writeBinIface: 67 Names
+writeBinIface: 128 dict entries
+*** CorePrep [Control.Monad.Extra]:
+Result size of CorePrep = {terms: 663, types: 1,295, coercions: 0}
+!!! CorePrep [Control.Monad.Extra]: finished in 0.00 milliseconds, allocated 1.331 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Extra]:
+!!! CodeGen [Control.Monad.Extra]: finished in 37.00 milliseconds, allocated 38.897 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_58.s -o dist/dist-sandbox-6afc8227/build/Control/Monad/Extra.o
+*** CorePrep [Control.Monad.Extra]:
+Result size of CorePrep = {terms: 663, types: 1,295, coercions: 0}
+!!! CorePrep [Control.Monad.Extra]: finished in 2.00 milliseconds, allocated 1.290 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Extra]:
+!!! CodeGen [Control.Monad.Extra]: finished in 63.00 milliseconds, allocated 41.384 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_60.s -o dist/dist-sandbox-6afc8227/build/Control/Monad/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_61.c /tmp/ghc1630_0/ghc_60.s /tmp/ghc1630_0/ghc_59.c /tmp/ghc1630_0/ghc_58.s /tmp/ghc1630_0/ghc_57.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_61.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_59.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_57.s
+compile: input file /tmp/ghc1630_0/ghc_11.hscpp
+*** Checking old interface for System.Directory.Extra:
+[10 of 16] Compiling System.Directory.Extra ( src/System/Directory/Extra.hs, dist/dist-sandbox-6afc8227/build/System/Directory/Extra.o )
+*** Parser [System.Directory.Extra]:
+!!! Parser [System.Directory.Extra]: finished in 1.00 milliseconds, allocated 2.392 megabytes
+*** Renamer/typechecker [System.Directory.Extra]:
+!!! Renamer/typechecker [System.Directory.Extra]: finished in 56.00 milliseconds, allocated 39.013 megabytes
+*** Desugar [System.Directory.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 118, types: 165, coercions: 0}
+!!! Desugar [System.Directory.Extra]: finished in 2.00 milliseconds, allocated 1.172 megabytes
+*** Simplifier [System.Directory.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 124, types: 175, coercions: 12}
+Result size of Simplifier iteration=2
+  = {terms: 128, types: 194, coercions: 16}
+Result size of Simplifier = {terms: 128, types: 194, coercions: 16}
+!!! Simplifier [System.Directory.Extra]: finished in 26.00 milliseconds, allocated 12.870 megabytes
+*** Specialise [System.Directory.Extra]:
+Result size of Specialise = {terms: 222, types: 359, coercions: 16}
+!!! Specialise [System.Directory.Extra]: finished in 1.00 milliseconds, allocated 0.574 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Directory.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 251, types: 421, coercions: 16}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Directory.Extra]: finished in 2.00 milliseconds, allocated 1.414 megabytes
+*** Simplifier [System.Directory.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 462, types: 885, coercions: 244}
+Result size of Simplifier iteration=2
+  = {terms: 349, types: 687, coercions: 193}
+Result size of Simplifier iteration=3
+  = {terms: 347, types: 688, coercions: 196}
+Result size of Simplifier
+  = {terms: 347, types: 688, coercions: 196}
+!!! Simplifier [System.Directory.Extra]: finished in 136.00 milliseconds, allocated 73.382 megabytes
+*** Simplifier [System.Directory.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 326, types: 662, coercions: 196}
+Result size of Simplifier
+  = {terms: 323, types: 661, coercions: 196}
+!!! Simplifier [System.Directory.Extra]: finished in 13.00 milliseconds, allocated 5.336 megabytes
+*** Simplifier [System.Directory.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 490, types: 919, coercions: 272}
+Result size of Simplifier iteration=2
+  = {terms: 378, types: 797, coercions: 203}
+Result size of Simplifier iteration=3
+  = {terms: 348, types: 697, coercions: 145}
+Result size of Simplifier
+  = {terms: 348, types: 697, coercions: 145}
+!!! Simplifier [System.Directory.Extra]: finished in 124.00 milliseconds, allocated 9.785 megabytes
+*** Float inwards [System.Directory.Extra]:
+Result size of Float inwards
+  = {terms: 348, types: 697, coercions: 145}
+!!! Float inwards [System.Directory.Extra]: finished in 0.00 milliseconds, allocated 0.474 megabytes
+*** Called arity analysis [System.Directory.Extra]:
+Result size of Called arity analysis
+  = {terms: 348, types: 697, coercions: 145}
+!!! Called arity analysis [System.Directory.Extra]: finished in 0.00 milliseconds, allocated 0.430 megabytes
+*** Simplifier [System.Directory.Extra]:
+Result size of Simplifier
+  = {terms: 348, types: 697, coercions: 145}
+!!! Simplifier [System.Directory.Extra]: finished in 4.00 milliseconds, allocated 2.064 megabytes
+*** Demand analysis [System.Directory.Extra]:
+Result size of Demand analysis
+  = {terms: 348, types: 697, coercions: 145}
+!!! Demand analysis [System.Directory.Extra]: finished in 2.00 milliseconds, allocated 1.827 megabytes
+*** Worker Wrapper binds [System.Directory.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 348, types: 697, coercions: 145}
+!!! Worker Wrapper binds [System.Directory.Extra]: finished in 1.00 milliseconds, allocated 0.176 megabytes
+*** Simplifier [System.Directory.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 348, types: 697, coercions: 145}
+Result size of Simplifier
+  = {terms: 348, types: 697, coercions: 145}
+!!! Simplifier [System.Directory.Extra]: finished in 8.00 milliseconds, allocated 4.519 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Directory.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 348, types: 697, coercions: 145}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Directory.Extra]: finished in 2.00 milliseconds, allocated 1.385 megabytes
+*** Common sub-expression [System.Directory.Extra]:
+Result size of Common sub-expression
+  = {terms: 348, types: 697, coercions: 145}
+!!! Common sub-expression [System.Directory.Extra]: finished in 1.00 milliseconds, allocated 0.617 megabytes
+*** Float inwards [System.Directory.Extra]:
+Result size of Float inwards
+  = {terms: 348, types: 697, coercions: 145}
+!!! Float inwards [System.Directory.Extra]: finished in 0.00 milliseconds, allocated 0.450 megabytes
+*** Simplifier [System.Directory.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 348, types: 697, coercions: 145}
+Result size of Simplifier
+  = {terms: 348, types: 697, coercions: 145}
+!!! Simplifier [System.Directory.Extra]: finished in 8.00 milliseconds, allocated 4.443 megabytes
+*** CoreTidy [System.Directory.Extra]:
+Result size of Tidy Core = {terms: 217, types: 378, coercions: 63}
+!!! CoreTidy [System.Directory.Extra]: finished in 1.00 milliseconds, allocated 0.571 megabytes
+writeBinIface: 85 Names
+writeBinIface: 150 dict entries
+writeBinIface: 85 Names
+writeBinIface: 150 dict entries
+*** CorePrep [System.Directory.Extra]:
+Result size of CorePrep = {terms: 264, types: 417, coercions: 63}
+!!! CorePrep [System.Directory.Extra]: finished in 1.00 milliseconds, allocated 0.547 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Directory.Extra]:
+!!! CodeGen [System.Directory.Extra]: finished in 22.00 milliseconds, allocated 12.414 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Directory -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_63.s -o dist/dist-sandbox-6afc8227/build/System/Directory/Extra.o
+*** CorePrep [System.Directory.Extra]:
+Result size of CorePrep = {terms: 264, types: 417, coercions: 63}
+!!! CorePrep [System.Directory.Extra]: finished in 2.00 milliseconds, allocated 0.528 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Directory.Extra]:
+!!! CodeGen [System.Directory.Extra]: finished in 19.00 milliseconds, allocated 12.924 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Directory -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_65.s -o dist/dist-sandbox-6afc8227/build/System/Directory/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_66.c /tmp/ghc1630_0/ghc_65.s /tmp/ghc1630_0/ghc_64.c /tmp/ghc1630_0/ghc_63.s /tmp/ghc1630_0/ghc_62.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_66.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_64.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_62.s
+compile: input file src/Control/Exception/Extra.hs
+*** Checking old interface for Control.Exception.Extra:
+[11 of 16] Compiling Control.Exception.Extra ( src/Control/Exception/Extra.hs, dist/dist-sandbox-6afc8227/build/Control/Exception/Extra.o )
+*** Parser [Control.Exception.Extra]:
+!!! Parser [Control.Exception.Extra]: finished in 2.00 milliseconds, allocated 3.381 megabytes
+*** Renamer/typechecker [Control.Exception.Extra]:
+!!! Renamer/typechecker [Control.Exception.Extra]: finished in 12.00 milliseconds, allocated 7.598 megabytes
+*** Desugar [Control.Exception.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 262, types: 410, coercions: 22}
+!!! Desugar [Control.Exception.Extra]: finished in 4.00 milliseconds, allocated 1.876 megabytes
+*** Simplifier [Control.Exception.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 295, types: 470, coercions: 47}
+Result size of Simplifier iteration=2
+  = {terms: 299, types: 513, coercions: 96}
+Result size of Simplifier = {terms: 299, types: 513, coercions: 96}
+!!! Simplifier [Control.Exception.Extra]: finished in 6.00 milliseconds, allocated 3.401 megabytes
+*** Specialise [Control.Exception.Extra]:
+Result size of Specialise
+  = {terms: 388, types: 596, coercions: 126}
+!!! Specialise [Control.Exception.Extra]: finished in 1.00 milliseconds, allocated 0.635 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Exception.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 513, types: 812, coercions: 126}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Exception.Extra]: finished in 2.00 milliseconds, allocated 2.064 megabytes
+*** Simplifier [Control.Exception.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 735, types: 1,319, coercions: 340}
+Result size of Simplifier iteration=2
+  = {terms: 585, types: 1,126, coercions: 319}
+Result size of Simplifier
+  = {terms: 585, types: 1,126, coercions: 319}
+!!! Simplifier [Control.Exception.Extra]: finished in 21.00 milliseconds, allocated 10.612 megabytes
+*** Simplifier [Control.Exception.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 559, types: 1,067, coercions: 319}
+Result size of Simplifier iteration=2
+  = {terms: 550, types: 1,064, coercions: 319}
+Result size of Simplifier
+  = {terms: 550, types: 1,064, coercions: 319}
+!!! Simplifier [Control.Exception.Extra]: finished in 12.00 milliseconds, allocated 7.430 megabytes
+*** Simplifier [Control.Exception.Extra]:
+Result size of Simplifier
+  = {terms: 550, types: 1,064, coercions: 319}
+!!! Simplifier [Control.Exception.Extra]: finished in 3.00 milliseconds, allocated 2.254 megabytes
+*** Float inwards [Control.Exception.Extra]:
+Result size of Float inwards
+  = {terms: 550, types: 1,064, coercions: 319}
+!!! Float inwards [Control.Exception.Extra]: finished in 0.00 milliseconds, allocated 0.721 megabytes
+*** Called arity analysis [Control.Exception.Extra]:
+Result size of Called arity analysis
+  = {terms: 550, types: 1,064, coercions: 319}
+!!! Called arity analysis [Control.Exception.Extra]: finished in 2.00 milliseconds, allocated 0.701 megabytes
+*** Simplifier [Control.Exception.Extra]:
+Result size of Simplifier
+  = {terms: 550, types: 1,064, coercions: 319}
+!!! Simplifier [Control.Exception.Extra]: finished in 4.00 milliseconds, allocated 2.257 megabytes
+*** Demand analysis [Control.Exception.Extra]:
+Result size of Demand analysis
+  = {terms: 550, types: 1,064, coercions: 319}
+!!! Demand analysis [Control.Exception.Extra]: finished in 2.00 milliseconds, allocated 2.248 megabytes
+*** Worker Wrapper binds [Control.Exception.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 608, types: 1,154, coercions: 319}
+!!! Worker Wrapper binds [Control.Exception.Extra]: finished in 1.00 milliseconds, allocated 0.282 megabytes
+*** Simplifier [Control.Exception.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 573, types: 1,123, coercions: 319}
+Result size of Simplifier
+  = {terms: 573, types: 1,123, coercions: 319}
+!!! Simplifier [Control.Exception.Extra]: finished in 9.00 milliseconds, allocated 6.234 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Exception.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 654, types: 1,232, coercions: 319}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Exception.Extra]: finished in 2.00 milliseconds, allocated 2.366 megabytes
+*** Common sub-expression [Control.Exception.Extra]:
+Result size of Common sub-expression
+  = {terms: 612, types: 1,194, coercions: 315}
+!!! Common sub-expression [Control.Exception.Extra]: finished in 1.00 milliseconds, allocated 0.939 megabytes
+*** Float inwards [Control.Exception.Extra]:
+Result size of Float inwards
+  = {terms: 612, types: 1,194, coercions: 315}
+!!! Float inwards [Control.Exception.Extra]: finished in 0.00 milliseconds, allocated 0.697 megabytes
+*** Simplifier [Control.Exception.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 569, types: 1,145, coercions: 315}
+Result size of Simplifier
+  = {terms: 569, types: 1,145, coercions: 315}
+!!! Simplifier [Control.Exception.Extra]: finished in 10.00 milliseconds, allocated 6.097 megabytes
+*** CoreTidy [Control.Exception.Extra]:
+Result size of Tidy Core
+  = {terms: 554, types: 1,098, coercions: 290}
+!!! CoreTidy [Control.Exception.Extra]: finished in 2.00 milliseconds, allocated 1.105 megabytes
+writeBinIface: 136 Names
+writeBinIface: 184 dict entries
+writeBinIface: 136 Names
+writeBinIface: 184 dict entries
+*** CorePrep [Control.Exception.Extra]:
+Result size of CorePrep
+  = {terms: 740, types: 1,388, coercions: 290}
+!!! CorePrep [Control.Exception.Extra]: finished in 2.00 milliseconds, allocated 1.360 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Exception.Extra]:
+!!! CodeGen [Control.Exception.Extra]: finished in 47.00 milliseconds, allocated 26.965 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Exception -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_68.s -o dist/dist-sandbox-6afc8227/build/Control/Exception/Extra.o
+*** CorePrep [Control.Exception.Extra]:
+Result size of CorePrep
+  = {terms: 740, types: 1,388, coercions: 290}
+!!! CorePrep [Control.Exception.Extra]: finished in 2.00 milliseconds, allocated 1.317 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Exception.Extra]:
+!!! CodeGen [Control.Exception.Extra]: finished in 56.00 milliseconds, allocated 27.978 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Exception -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_70.s -o dist/dist-sandbox-6afc8227/build/Control/Exception/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_71.c /tmp/ghc1630_0/ghc_70.s /tmp/ghc1630_0/ghc_69.c /tmp/ghc1630_0/ghc_68.s /tmp/ghc1630_0/ghc_67.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_71.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_69.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_67.s
+compile: input file /tmp/ghc1630_0/ghc_1.hscpp
+*** Checking old interface for Control.Concurrent.Extra:
+[12 of 16] Compiling Control.Concurrent.Extra ( src/Control/Concurrent/Extra.hs, dist/dist-sandbox-6afc8227/build/Control/Concurrent/Extra.o )
+*** Parser [Control.Concurrent.Extra]:
+!!! Parser [Control.Concurrent.Extra]: finished in 3.00 milliseconds, allocated 5.835 megabytes
+*** Renamer/typechecker [Control.Concurrent.Extra]:
+!!! Renamer/typechecker [Control.Concurrent.Extra]: finished in 41.00 milliseconds, allocated 24.671 megabytes
+*** Desugar [Control.Concurrent.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 411, types: 795, coercions: 92}
+!!! Desugar [Control.Concurrent.Extra]: finished in 3.00 milliseconds, allocated 2.772 megabytes
+*** Simplifier [Control.Concurrent.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 463, types: 868, coercions: 207}
+Result size of Simplifier iteration=2
+  = {terms: 471, types: 930, coercions: 250}
+Result size of Simplifier
+  = {terms: 471, types: 930, coercions: 250}
+!!! Simplifier [Control.Concurrent.Extra]: finished in 7.00 milliseconds, allocated 5.697 megabytes
+*** Specialise [Control.Concurrent.Extra]:
+Result size of Specialise
+  = {terms: 487, types: 971, coercions: 250}
+!!! Specialise [Control.Concurrent.Extra]: finished in 1.00 milliseconds, allocated 0.741 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 612, types: 1,304, coercions: 250}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.Extra]: finished in 3.00 milliseconds, allocated 3.115 megabytes
+*** Simplifier [Control.Concurrent.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 1,740, types: 4,023, coercions: 744}
+Result size of Simplifier iteration=2
+  = {terms: 1,333, types: 2,949, coercions: 607}
+Result size of Simplifier iteration=3
+  = {terms: 1,333, types: 2,951, coercions: 589}
+Result size of Simplifier
+  = {terms: 1,333, types: 2,951, coercions: 589}
+!!! Simplifier [Control.Concurrent.Extra]: finished in 70.00 milliseconds, allocated 43.808 megabytes
+*** Simplifier [Control.Concurrent.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 1,325, types: 2,927, coercions: 589}
+Result size of Simplifier
+  = {terms: 1,325, types: 2,927, coercions: 589}
+!!! Simplifier [Control.Concurrent.Extra]: finished in 17.00 milliseconds, allocated 11.368 megabytes
+*** Simplifier [Control.Concurrent.Extra]:
+Result size of Simplifier
+  = {terms: 1,325, types: 2,927, coercions: 589}
+!!! Simplifier [Control.Concurrent.Extra]: finished in 9.00 milliseconds, allocated 5.484 megabytes
+*** Float inwards [Control.Concurrent.Extra]:
+Result size of Float inwards
+  = {terms: 1,325, types: 2,927, coercions: 589}
+!!! Float inwards [Control.Concurrent.Extra]: finished in 2.00 milliseconds, allocated 2.194 megabytes
+*** Called arity analysis [Control.Concurrent.Extra]:
+Result size of Called arity analysis
+  = {terms: 1,325, types: 2,927, coercions: 589}
+!!! Called arity analysis [Control.Concurrent.Extra]: finished in 2.00 milliseconds, allocated 1.289 megabytes
+*** Simplifier [Control.Concurrent.Extra]:
+Result size of Simplifier
+  = {terms: 1,325, types: 2,927, coercions: 589}
+!!! Simplifier [Control.Concurrent.Extra]: finished in 9.00 milliseconds, allocated 5.493 megabytes
+*** Demand analysis [Control.Concurrent.Extra]:
+Result size of Demand analysis
+  = {terms: 1,325, types: 2,927, coercions: 589}
+!!! Demand analysis [Control.Concurrent.Extra]: finished in 11.00 milliseconds, allocated 5.246 megabytes
+*** Worker Wrapper binds [Control.Concurrent.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 1,409, types: 3,113, coercions: 629}
+!!! Worker Wrapper binds [Control.Concurrent.Extra]: finished in 2.00 milliseconds, allocated 0.576 megabytes
+*** Simplifier [Control.Concurrent.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 1,377, types: 3,059, coercions: 542}
+Result size of Simplifier iteration=2
+  = {terms: 1,363, types: 3,024, coercions: 542}
+Result size of Simplifier
+  = {terms: 1,363, types: 3,024, coercions: 542}
+!!! Simplifier [Control.Concurrent.Extra]: finished in 31.00 milliseconds, allocated 19.128 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,399, types: 3,085, coercions: 542}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.Extra]: finished in 7.00 milliseconds, allocated 5.556 megabytes
+*** Common sub-expression [Control.Concurrent.Extra]:
+Result size of Common sub-expression
+  = {terms: 1,390, types: 3,078, coercions: 538}
+!!! Common sub-expression [Control.Concurrent.Extra]: finished in 3.00 milliseconds, allocated 1.983 megabytes
+*** Float inwards [Control.Concurrent.Extra]:
+Result size of Float inwards
+  = {terms: 1,390, types: 3,078, coercions: 538}
+!!! Float inwards [Control.Concurrent.Extra]: finished in 3.00 milliseconds, allocated 2.313 megabytes
+*** Simplifier [Control.Concurrent.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 1,376, types: 3,065, coercions: 538}
+Result size of Simplifier
+  = {terms: 1,376, types: 3,065, coercions: 538}
+!!! Simplifier [Control.Concurrent.Extra]: finished in 25.00 milliseconds, allocated 12.498 megabytes
+*** CoreTidy [Control.Concurrent.Extra]:
+Result size of Tidy Core
+  = {terms: 1,354, types: 2,988, coercions: 507}
+!!! CoreTidy [Control.Concurrent.Extra]: finished in 4.00 milliseconds, allocated 2.779 megabytes
+writeBinIface: 125 Names
+writeBinIface: 222 dict entries
+writeBinIface: 125 Names
+writeBinIface: 222 dict entries
+*** CorePrep [Control.Concurrent.Extra]:
+Result size of CorePrep
+  = {terms: 1,659, types: 3,719, coercions: 522}
+!!! CorePrep [Control.Concurrent.Extra]: finished in 5.00 milliseconds, allocated 3.351 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.Extra]:
+!!! CodeGen [Control.Concurrent.Extra]: finished in 89.00 milliseconds, allocated 62.303 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Concurrent -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_73.s -o dist/dist-sandbox-6afc8227/build/Control/Concurrent/Extra.o
+*** CorePrep [Control.Concurrent.Extra]:
+Result size of CorePrep
+  = {terms: 1,659, types: 3,719, coercions: 522}
+!!! CorePrep [Control.Concurrent.Extra]: finished in 5.00 milliseconds, allocated 3.263 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.Extra]:
+!!! CodeGen [Control.Concurrent.Extra]: finished in 92.00 milliseconds, allocated 65.520 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Concurrent -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_75.s -o dist/dist-sandbox-6afc8227/build/Control/Concurrent/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_76.c /tmp/ghc1630_0/ghc_75.s /tmp/ghc1630_0/ghc_74.c /tmp/ghc1630_0/ghc_73.s /tmp/ghc1630_0/ghc_72.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_76.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_74.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_72.s
+compile: input file src/System/IO/Extra.hs
+*** Checking old interface for System.IO.Extra:
+[13 of 16] Compiling System.IO.Extra  ( src/System/IO/Extra.hs, dist/dist-sandbox-6afc8227/build/System/IO/Extra.o )
+*** Parser [System.IO.Extra]:
+!!! Parser [System.IO.Extra]: finished in 3.00 milliseconds, allocated 6.393 megabytes
+*** Renamer/typechecker [System.IO.Extra]:
+!!! Renamer/typechecker [System.IO.Extra]: finished in 67.00 milliseconds, allocated 34.542 megabytes
+*** Desugar [System.IO.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 552, types: 748, coercions: 15}
+!!! Desugar [System.IO.Extra]: finished in 5.00 milliseconds, allocated 3.788 megabytes
+*** Simplifier [System.IO.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 556, types: 745, coercions: 148}
+Result size of Simplifier iteration=2
+  = {terms: 570, types: 846, coercions: 225}
+Result size of Simplifier iteration=3
+  = {terms: 568, types: 840, coercions: 219}
+Result size of Simplifier
+  = {terms: 568, types: 840, coercions: 219}
+!!! Simplifier [System.IO.Extra]: finished in 21.00 milliseconds, allocated 14.292 megabytes
+*** Specialise [System.IO.Extra]:
+Result size of Specialise
+  = {terms: 598, types: 886, coercions: 219}
+!!! Specialise [System.IO.Extra]: finished in 2.00 milliseconds, allocated 0.998 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.IO.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 662, types: 996, coercions: 219}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.IO.Extra]: finished in 3.00 milliseconds, allocated 3.110 megabytes
+*** Simplifier [System.IO.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 1,237, types: 2,135, coercions: 571}
+Result size of Simplifier iteration=2
+  = {terms: 907, types: 1,488, coercions: 396}
+Result size of Simplifier iteration=3
+  = {terms: 907, types: 1,488, coercions: 396}
+Result size of Simplifier
+  = {terms: 907, types: 1,488, coercions: 396}
+!!! Simplifier [System.IO.Extra]: finished in 80.00 milliseconds, allocated 41.065 megabytes
+*** Simplifier [System.IO.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 918, types: 1,502, coercions: 396}
+Result size of Simplifier iteration=2
+  = {terms: 882, types: 1,456, coercions: 396}
+Result size of Simplifier iteration=3
+  = {terms: 882, types: 1,456, coercions: 396}
+Result size of Simplifier
+  = {terms: 882, types: 1,456, coercions: 396}
+!!! Simplifier [System.IO.Extra]: finished in 27.00 milliseconds, allocated 16.070 megabytes
+*** Simplifier [System.IO.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 928, types: 1,498, coercions: 396}
+Result size of Simplifier iteration=2
+  = {terms: 915, types: 1,492, coercions: 396}
+Result size of Simplifier
+  = {terms: 915, types: 1,492, coercions: 396}
+!!! Simplifier [System.IO.Extra]: finished in 20.00 milliseconds, allocated 12.073 megabytes
+*** Float inwards [System.IO.Extra]:
+Result size of Float inwards
+  = {terms: 915, types: 1,492, coercions: 396}
+!!! Float inwards [System.IO.Extra]: finished in 2.00 milliseconds, allocated 1.324 megabytes
+*** Called arity analysis [System.IO.Extra]:
+Result size of Called arity analysis
+  = {terms: 915, types: 1,492, coercions: 396}
+!!! Called arity analysis [System.IO.Extra]: finished in 1.00 milliseconds, allocated 0.988 megabytes
+*** Simplifier [System.IO.Extra]:
+Result size of Simplifier
+  = {terms: 915, types: 1,492, coercions: 396}
+!!! Simplifier [System.IO.Extra]: finished in 7.00 milliseconds, allocated 3.921 megabytes
+*** Demand analysis [System.IO.Extra]:
+Result size of Demand analysis
+  = {terms: 915, types: 1,492, coercions: 396}
+!!! Demand analysis [System.IO.Extra]: finished in 5.00 milliseconds, allocated 4.169 megabytes
+*** Worker Wrapper binds [System.IO.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 915, types: 1,492, coercions: 396}
+!!! Worker Wrapper binds [System.IO.Extra]: finished in 1.00 milliseconds, allocated 0.355 megabytes
+*** Simplifier [System.IO.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 930, types: 1,513, coercions: 396}
+Result size of Simplifier
+  = {terms: 930, types: 1,513, coercions: 396}
+!!! Simplifier [System.IO.Extra]: finished in 14.00 milliseconds, allocated 8.825 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.IO.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 952, types: 1,571, coercions: 396}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.IO.Extra]: finished in 5.00 milliseconds, allocated 3.317 megabytes
+*** Common sub-expression [System.IO.Extra]:
+Result size of Common sub-expression
+  = {terms: 933, types: 1,541, coercions: 394}
+!!! Common sub-expression [System.IO.Extra]: finished in 7.00 milliseconds, allocated 1.412 megabytes
+*** Float inwards [System.IO.Extra]:
+Result size of Float inwards
+  = {terms: 933, types: 1,541, coercions: 394}
+!!! Float inwards [System.IO.Extra]: finished in 2.00 milliseconds, allocated 1.213 megabytes
+*** Simplifier [System.IO.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 925, types: 1,511, coercions: 402}
+Result size of Simplifier
+  = {terms: 925, types: 1,511, coercions: 402}
+!!! Simplifier [System.IO.Extra]: finished in 14.00 milliseconds, allocated 8.757 megabytes
+*** CoreTidy [System.IO.Extra]:
+Result size of Tidy Core
+  = {terms: 884, types: 1,440, coercions: 368}
+!!! CoreTidy [System.IO.Extra]: finished in 3.00 milliseconds, allocated 1.955 megabytes
+writeBinIface: 197 Names
+writeBinIface: 357 dict entries
+writeBinIface: 197 Names
+writeBinIface: 357 dict entries
+*** CorePrep [System.IO.Extra]:
+Result size of CorePrep
+  = {terms: 1,162, types: 1,720, coercions: 368}
+!!! CorePrep [System.IO.Extra]: finished in 3.00 milliseconds, allocated 2.330 megabytes
+*** Stg2Stg:
+*** CodeGen [System.IO.Extra]:
+!!! CodeGen [System.IO.Extra]: finished in 63.00 milliseconds, allocated 44.561 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/IO -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_78.s -o dist/dist-sandbox-6afc8227/build/System/IO/Extra.o
+*** CorePrep [System.IO.Extra]:
+Result size of CorePrep
+  = {terms: 1,162, types: 1,720, coercions: 368}
+!!! CorePrep [System.IO.Extra]: finished in 3.00 milliseconds, allocated 2.287 megabytes
+*** Stg2Stg:
+*** CodeGen [System.IO.Extra]:
+!!! CodeGen [System.IO.Extra]: finished in 67.00 milliseconds, allocated 47.048 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/IO -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_80.s -o dist/dist-sandbox-6afc8227/build/System/IO/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_81.c /tmp/ghc1630_0/ghc_80.s /tmp/ghc1630_0/ghc_79.c /tmp/ghc1630_0/ghc_78.s /tmp/ghc1630_0/ghc_77.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_81.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_79.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_77.s
+compile: input file src/System/Process/Extra.hs
+*** Checking old interface for System.Process.Extra:
+[14 of 16] Compiling System.Process.Extra ( src/System/Process/Extra.hs, dist/dist-sandbox-6afc8227/build/System/Process/Extra.o )
+*** Parser [System.Process.Extra]:
+!!! Parser [System.Process.Extra]: finished in 1.00 milliseconds, allocated 1.102 megabytes
+*** Renamer/typechecker [System.Process.Extra]:
+!!! Renamer/typechecker [System.Process.Extra]: finished in 12.00 milliseconds, allocated 5.865 megabytes
+*** Desugar [System.Process.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 150, types: 175, coercions: 22}
+!!! Desugar [System.Process.Extra]: finished in 2.00 milliseconds, allocated 0.988 megabytes
+*** Simplifier [System.Process.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 177, types: 218, coercions: 18}
+Result size of Simplifier iteration=2
+  = {terms: 179, types: 227, coercions: 29}
+Result size of Simplifier = {terms: 179, types: 227, coercions: 29}
+!!! Simplifier [System.Process.Extra]: finished in 4.00 milliseconds, allocated 2.485 megabytes
+*** Specialise [System.Process.Extra]:
+Result size of Specialise = {terms: 179, types: 227, coercions: 29}
+!!! Specialise [System.Process.Extra]: finished in 0.00 milliseconds, allocated 0.257 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Process.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 249, types: 359, coercions: 29}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Process.Extra]: finished in 2.00 milliseconds, allocated 1.083 megabytes
+*** Simplifier [System.Process.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 265, types: 364, coercions: 94}
+Result size of Simplifier iteration=2
+  = {terms: 232, types: 290, coercions: 58}
+Result size of Simplifier iteration=3
+  = {terms: 230, types: 281, coercions: 58}
+Result size of Simplifier iteration=4
+  = {terms: 228, types: 280, coercions: 58}
+Result size of Simplifier = {terms: 228, types: 280, coercions: 58}
+!!! Simplifier [System.Process.Extra]: finished in 16.00 milliseconds, allocated 6.826 megabytes
+*** Simplifier [System.Process.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 212, types: 252, coercions: 58}
+Result size of Simplifier iteration=2
+  = {terms: 196, types: 218, coercions: 58}
+Result size of Simplifier = {terms: 196, types: 218, coercions: 58}
+!!! Simplifier [System.Process.Extra]: finished in 4.00 milliseconds, allocated 2.765 megabytes
+*** Simplifier [System.Process.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 215, types: 247, coercions: 58}
+Result size of Simplifier = {terms: 215, types: 247, coercions: 58}
+!!! Simplifier [System.Process.Extra]: finished in 4.00 milliseconds, allocated 2.168 megabytes
+*** Float inwards [System.Process.Extra]:
+Result size of Float inwards
+  = {terms: 215, types: 247, coercions: 58}
+!!! Float inwards [System.Process.Extra]: finished in 0.00 milliseconds, allocated 0.287 megabytes
+*** Called arity analysis [System.Process.Extra]:
+Result size of Called arity analysis
+  = {terms: 215, types: 247, coercions: 58}
+!!! Called arity analysis [System.Process.Extra]: finished in 0.00 milliseconds, allocated 0.216 megabytes
+*** Simplifier [System.Process.Extra]:
+Result size of Simplifier = {terms: 215, types: 247, coercions: 58}
+!!! Simplifier [System.Process.Extra]: finished in 2.00 milliseconds, allocated 0.853 megabytes
+*** Demand analysis [System.Process.Extra]:
+Result size of Demand analysis
+  = {terms: 215, types: 247, coercions: 58}
+!!! Demand analysis [System.Process.Extra]: finished in 1.00 milliseconds, allocated 0.812 megabytes
+*** Worker Wrapper binds [System.Process.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 215, types: 247, coercions: 58}
+!!! Worker Wrapper binds [System.Process.Extra]: finished in 0.00 milliseconds, allocated 0.111 megabytes
+*** Simplifier [System.Process.Extra]:
+Result size of Simplifier = {terms: 215, types: 247, coercions: 58}
+!!! Simplifier [System.Process.Extra]: finished in 2.00 milliseconds, allocated 0.882 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Process.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 223, types: 255, coercions: 58}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Process.Extra]: finished in 1.00 milliseconds, allocated 0.697 megabytes
+*** Common sub-expression [System.Process.Extra]:
+Result size of Common sub-expression
+  = {terms: 214, types: 255, coercions: 58}
+!!! Common sub-expression [System.Process.Extra]: finished in 1.00 milliseconds, allocated 0.275 megabytes
+*** Float inwards [System.Process.Extra]:
+Result size of Float inwards
+  = {terms: 214, types: 255, coercions: 58}
+!!! Float inwards [System.Process.Extra]: finished in 0.00 milliseconds, allocated 0.277 megabytes
+*** Simplifier [System.Process.Extra]:
+Result size of Simplifier = {terms: 196, types: 242, coercions: 58}
+!!! Simplifier [System.Process.Extra]: finished in 2.00 milliseconds, allocated 0.818 megabytes
+*** CoreTidy [System.Process.Extra]:
+Result size of Tidy Core = {terms: 196, types: 242, coercions: 58}
+!!! CoreTidy [System.Process.Extra]: finished in 0.00 milliseconds, allocated 0.395 megabytes
+writeBinIface: 86 Names
+writeBinIface: 170 dict entries
+writeBinIface: 86 Names
+writeBinIface: 170 dict entries
+*** CorePrep [System.Process.Extra]:
+Result size of CorePrep = {terms: 228, types: 275, coercions: 58}
+!!! CorePrep [System.Process.Extra]: finished in 0.00 milliseconds, allocated 0.446 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Process.Extra]:
+!!! CodeGen [System.Process.Extra]: finished in 15.00 milliseconds, allocated 8.884 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Process -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_83.s -o dist/dist-sandbox-6afc8227/build/System/Process/Extra.o
+*** CorePrep [System.Process.Extra]:
+Result size of CorePrep = {terms: 228, types: 275, coercions: 58}
+!!! CorePrep [System.Process.Extra]: finished in 0.00 milliseconds, allocated 0.446 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Process.Extra]:
+!!! CodeGen [System.Process.Extra]: finished in 16.00 milliseconds, allocated 9.502 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Process -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_85.s -o dist/dist-sandbox-6afc8227/build/System/Process/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_86.c /tmp/ghc1630_0/ghc_85.s /tmp/ghc1630_0/ghc_84.c /tmp/ghc1630_0/ghc_83.s /tmp/ghc1630_0/ghc_82.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_86.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_84.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_82.s
+compile: input file src/System/Time/Extra.hs
+*** Checking old interface for System.Time.Extra:
+[15 of 16] Compiling System.Time.Extra ( src/System/Time/Extra.hs, dist/dist-sandbox-6afc8227/build/System/Time/Extra.o )
+*** Parser [System.Time.Extra]:
+!!! Parser [System.Time.Extra]: finished in 2.00 milliseconds, allocated 2.993 megabytes
+*** Renamer/typechecker [System.Time.Extra]:
+!!! Renamer/typechecker [System.Time.Extra]: finished in 37.00 milliseconds, allocated 21.359 megabytes
+*** Desugar [System.Time.Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 381, types: 437, coercions: 19}
+!!! Desugar [System.Time.Extra]: finished in 4.00 milliseconds, allocated 2.494 megabytes
+*** Simplifier [System.Time.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 395, types: 470, coercions: 107}
+Result size of Simplifier iteration=2
+  = {terms: 393, types: 502, coercions: 137}
+Result size of Simplifier
+  = {terms: 393, types: 502, coercions: 137}
+!!! Simplifier [System.Time.Extra]: finished in 9.00 milliseconds, allocated 6.623 megabytes
+*** Specialise [System.Time.Extra]:
+Result size of Specialise
+  = {terms: 496, types: 610, coercions: 137}
+!!! Specialise [System.Time.Extra]: finished in 1.00 milliseconds, allocated 0.904 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Time.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 582, types: 737, coercions: 137}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Time.Extra]: finished in 3.00 milliseconds, allocated 2.576 megabytes
+*** Simplifier [System.Time.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 975, types: 1,225, coercions: 232}
+Result size of Simplifier iteration=2
+  = {terms: 790, types: 926, coercions: 181}
+Result size of Simplifier iteration=3
+  = {terms: 784, types: 916, coercions: 186}
+Result size of Simplifier
+  = {terms: 784, types: 916, coercions: 186}
+!!! Simplifier [System.Time.Extra]: finished in 40.00 milliseconds, allocated 26.182 megabytes
+*** Simplifier [System.Time.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 716, types: 819, coercions: 186}
+Result size of Simplifier
+  = {terms: 716, types: 819, coercions: 186}
+!!! Simplifier [System.Time.Extra]: finished in 9.00 milliseconds, allocated 6.904 megabytes
+*** Simplifier [System.Time.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 732, types: 853, coercions: 186}
+Result size of Simplifier
+  = {terms: 729, types: 852, coercions: 186}
+!!! Simplifier [System.Time.Extra]: finished in 26.00 milliseconds, allocated 14.372 megabytes
+*** Float inwards [System.Time.Extra]:
+Result size of Float inwards
+  = {terms: 729, types: 852, coercions: 186}
+!!! Float inwards [System.Time.Extra]: finished in 1.00 milliseconds, allocated 0.979 megabytes
+*** Called arity analysis [System.Time.Extra]:
+Result size of Called arity analysis
+  = {terms: 729, types: 852, coercions: 186}
+!!! Called arity analysis [System.Time.Extra]: finished in 1.00 milliseconds, allocated 0.755 megabytes
+*** Simplifier [System.Time.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 721, types: 841, coercions: 186}
+Result size of Simplifier
+  = {terms: 717, types: 836, coercions: 186}
+!!! Simplifier [System.Time.Extra]: finished in 8.00 milliseconds, allocated 5.961 megabytes
+*** Demand analysis [System.Time.Extra]:
+Result size of Demand analysis
+  = {terms: 717, types: 836, coercions: 186}
+!!! Demand analysis [System.Time.Extra]: finished in 2.00 milliseconds, allocated 2.757 megabytes
+*** Worker Wrapper binds [System.Time.Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 795, types: 916, coercions: 186}
+!!! Worker Wrapper binds [System.Time.Extra]: finished in 1.00 milliseconds, allocated 0.327 megabytes
+*** Simplifier [System.Time.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 760, types: 893, coercions: 186}
+Result size of Simplifier iteration=2
+  = {terms: 757, types: 891, coercions: 186}
+Result size of Simplifier
+  = {terms: 757, types: 891, coercions: 186}
+!!! Simplifier [System.Time.Extra]: finished in 16.00 milliseconds, allocated 11.278 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Time.Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 775, types: 914, coercions: 186}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Time.Extra]: finished in 9.00 milliseconds, allocated 2.758 megabytes
+*** Common sub-expression [System.Time.Extra]:
+Result size of Common sub-expression
+  = {terms: 722, types: 858, coercions: 178}
+!!! Common sub-expression [System.Time.Extra]: finished in 1.00 milliseconds, allocated 1.108 megabytes
+*** Float inwards [System.Time.Extra]:
+Result size of Float inwards
+  = {terms: 722, types: 858, coercions: 178}
+!!! Float inwards [System.Time.Extra]: finished in 1.00 milliseconds, allocated 0.902 megabytes
+*** Simplifier [System.Time.Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 708, types: 840, coercions: 178}
+Result size of Simplifier
+  = {terms: 708, types: 840, coercions: 178}
+!!! Simplifier [System.Time.Extra]: finished in 10.00 milliseconds, allocated 6.789 megabytes
+*** CoreTidy [System.Time.Extra]:
+Result size of Tidy Core = {terms: 698, types: 827, coercions: 178}
+!!! CoreTidy [System.Time.Extra]: finished in 3.00 milliseconds, allocated 1.586 megabytes
+writeBinIface: 101 Names
+writeBinIface: 227 dict entries
+writeBinIface: 101 Names
+writeBinIface: 227 dict entries
+*** CorePrep [System.Time.Extra]:
+Result size of CorePrep = {terms: 876, types: 969, coercions: 178}
+!!! CorePrep [System.Time.Extra]: finished in 2.00 milliseconds, allocated 1.576 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Time.Extra]:
+!!! CodeGen [System.Time.Extra]: finished in 39.00 milliseconds, allocated 30.600 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Time -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_88.s -o dist/dist-sandbox-6afc8227/build/System/Time/Extra.o
+*** CorePrep [System.Time.Extra]:
+Result size of CorePrep = {terms: 876, types: 969, coercions: 178}
+!!! CorePrep [System.Time.Extra]: finished in 2.00 milliseconds, allocated 1.560 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Time.Extra]:
+!!! CodeGen [System.Time.Extra]: finished in 45.00 milliseconds, allocated 32.095 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Time -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_90.s -o dist/dist-sandbox-6afc8227/build/System/Time/Extra.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_91.c /tmp/ghc1630_0/ghc_90.s /tmp/ghc1630_0/ghc_89.c /tmp/ghc1630_0/ghc_88.s /tmp/ghc1630_0/ghc_87.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_91.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_89.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_87.s
+compile: input file src/Extra.hs
+*** Checking old interface for Extra:
+[16 of 16] Compiling Extra            ( src/Extra.hs, dist/dist-sandbox-6afc8227/build/Extra.o )
+*** Parser [Extra]:
+!!! Parser [Extra]: finished in 2.00 milliseconds, allocated 2.646 megabytes
+*** Renamer/typechecker [Extra]:
+!!! Renamer/typechecker [Extra]: finished in 2.00 milliseconds, allocated 1.631 megabytes
+*** Desugar [Extra]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Extra]: finished in 0.00 milliseconds, allocated 0.349 megabytes
+*** Simplifier [Extra]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Extra]: finished in 0.00 milliseconds, allocated 0.135 megabytes
+*** Specialise [Extra]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Extra]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Extra]: finished in 0.00 milliseconds, allocated 0.088 megabytes
+*** Simplifier [Extra]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Extra]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Extra]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Extra]: finished in 1.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Extra]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Extra]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Extra]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Extra]: finished in 0.00 milliseconds, allocated 0.042 megabytes
+*** Called arity analysis [Extra]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Extra]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Extra]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Extra]: finished in 0.00 milliseconds, allocated 0.068 megabytes
+*** Demand analysis [Extra]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Extra]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+*** Worker Wrapper binds [Extra]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Extra]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [Extra]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Extra]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Extra]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Extra]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Extra]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Extra]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Float inwards [Extra]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Extra]: finished in 1.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Extra]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Extra]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Extra]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Extra]: finished in 0.00 milliseconds, allocated 0.062 megabytes
+writeBinIface: 179 Names
+writeBinIface: 237 dict entries
+writeBinIface: 179 Names
+writeBinIface: 237 dict entries
+*** CorePrep [Extra]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Extra]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Extra]:
+!!! CodeGen [Extra]: finished in 1.00 milliseconds, allocated 0.258 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1630_0/ghc_93.s -o dist/dist-sandbox-6afc8227/build/Extra.o
+*** CorePrep [Extra]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Extra]: finished in 1.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Extra]:
+!!! CodeGen [Extra]: finished in 0.00 milliseconds, allocated 0.257 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1630_0/ghc_95.s -o dist/dist-sandbox-6afc8227/build/Extra.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_96.c /tmp/ghc1630_0/ghc_95.s /tmp/ghc1630_0/ghc_94.c /tmp/ghc1630_0/ghc_93.s /tmp/ghc1630_0/ghc_92.s
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_96.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_94.c
+Warning: deleting non-existent /tmp/ghc1630_0/ghc_92.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc1630_0/ghc_15.hscpp /tmp/ghc1630_0/ghc_13.hscpp /tmp/ghc1630_0/ghc_11.hscpp /tmp/ghc1630_0/ghc_9.hscpp /tmp/ghc1630_0/ghc_7.hscpp /tmp/ghc1630_0/ghc_5.hscpp /tmp/ghc1630_0/ghc_3.hscpp /tmp/ghc1630_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1630_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/directory-1.2.6.2 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/filepath-1.4.1.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/process-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0 -o dist/dist-sandbox-6afc8227/build/libHSextra-1.4.7-5rd5FeIPzy64tPHuSWI4F3-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSextra-1.4.7-5rd5FeIPzy64tPHuSWI4F3-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Extra.dyn_o dist/dist-sandbox-6afc8227/build/Control/Concurrent/Extra.dyn_o dist/dist-sandbox-6afc8227/build/Control/Exception/Extra.dyn_o dist/dist-sandbox-6afc8227/build/Control/Monad/Extra.dyn_o dist/dist-sandbox-6afc8227/build/Data/Either/Extra.dyn_o dist/dist-sandbox-6afc8227/build/Data/IORef/Extra.dyn_o dist/dist-sandbox-6afc8227/build/Data/List/Extra.dyn_o dist/dist-sandbox-6afc8227/build/Data/Tuple/Extra.dyn_o dist/dist-sandbox-6afc8227/build/Data/Version/Extra.dyn_o dist/dist-sandbox-6afc8227/build/Numeric/Extra.dyn_o dist/dist-sandbox-6afc8227/build/System/Directory/Extra.dyn_o dist/dist-sandbox-6afc8227/build/System/Environment/Extra.dyn_o dist/dist-sandbox-6afc8227/build/System/Info/Extra.dyn_o dist/dist-sandbox-6afc8227/build/System/IO/Extra.dyn_o dist/dist-sandbox-6afc8227/build/System/Process/Extra.dyn_o dist/dist-sandbox-6afc8227/build/System/Time/Extra.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/process-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/directory-1.2.6.2 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/filepath-1.4.1.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSprocess-1.4.2.0-ghc8.0.1 -lHSdirectory-1.2.6.2-ghc8.0.1 -lHSunix-2.7.2.0-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHStime-1.6.0.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSfilepath-1.4.1.0-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lrt -lutil -ldl -lpthread -lgmp
+Created temporary directory: /tmp/ghc2991_0
+*** Deleting temp files:
+Deleting: /tmp/ghc2991_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc2991_0
+Creating package registration file:
+/tmp/pkgConf-extra-1.419988988141548233367.7
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/extra-1.4.7-5rd5FeIPzy64tPHuSWI4F3
+Registering extra-1.4.7...
+cabal: Leaving directory '/tmp/cabal-tmp-1031/extra-1.4.7'

@@ -1,0 +1,811 @@
+cabal: Entering directory '/tmp/cabal-tmp-1029/vault-0.3.0.6'
+Configuring vault-0.3.0.6...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc10817_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc10817_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc10817_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc10817_0/ghc_2.rsp /tmp/ghc10817_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc10817_0
+Building vault-0.3.0.6...
+Preprocessing library vault-0.3.0.6...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.Vault.Lazy,*Data.Vault.Strict,*Data.Vault.ST.Lazy,*Data.Vault.ST.Strict,*Data.Unique.Really
+Created temporary directory: /tmp/ghc10876_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -DUseGHC -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc10876_0/ghc_2.h -x assembler-with-cpp src/Data/Vault/Lazy.hs -o /tmp/ghc10876_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -DUseGHC -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc10876_0/ghc_4.h -x assembler-with-cpp src/Data/Vault/Strict.hs -o /tmp/ghc10876_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -DUseGHC -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc10876_0/ghc_6.h -x assembler-with-cpp src/Data/Vault/ST/Lazy.hs -o /tmp/ghc10876_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -DUseGHC -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc10876_0/ghc_8.h -x assembler-with-cpp src/Data/Vault/ST/Strict.hs -o /tmp/ghc10876_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -DUseGHC -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc10876_0/ghc_10.h -x assembler-with-cpp src/Data/Unique/Really.hs -o /tmp/ghc10876_0/ghc_9.hscpp
+!!! Chasing dependencies: finished in 52.00 milliseconds, allocated 16.561 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-11 23:29:44 UTC
+         ms_mod = Data.Unique.Really,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Mem.StableName), (Nothing, Data.Unique),
+                            (Nothing, Control.Exception), (Nothing, Data.Hashable),
+                            (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-11 23:29:44 UTC
+         ms_mod = Data.Vault.ST.Lazy,
+         ms_textual_imps = [(Nothing, Data.HashMap.Lazy),
+                            (Nothing, Unsafe.Coerce), (Nothing, GHC.Exts),
+                            (Nothing, Data.Unique.Really), (Nothing, Control.Monad.ST.Unsafe),
+                            (Nothing, Control.Monad.ST), (Nothing, Control.Applicative),
+                            (Nothing, Prelude), (Nothing, Data.Monoid)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-11 23:29:44 UTC
+         ms_mod = Data.Vault.Lazy,
+         ms_textual_imps = [(Nothing, Data.Vault.ST.Lazy),
+                            (Nothing, Control.Monad.ST), (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-11 23:29:44 UTC
+         ms_mod = Data.Vault.ST.Strict,
+         ms_textual_imps = [(Nothing, Data.HashMap.Strict),
+                            (Nothing, Unsafe.Coerce), (Nothing, GHC.Exts),
+                            (Nothing, Data.Unique.Really), (Nothing, Control.Monad.ST.Unsafe),
+                            (Nothing, Control.Monad.ST), (Nothing, Control.Applicative),
+                            (Nothing, Prelude), (Nothing, Data.Monoid)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-11 23:29:44 UTC
+         ms_mod = Data.Vault.Strict,
+         ms_textual_imps = [(Nothing, Data.Vault.ST.Strict),
+                            (Nothing, Control.Monad.ST), (Nothing, Prelude)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc10876_0/ghc_10.h /tmp/ghc10876_0/ghc_8.h /tmp/ghc10876_0/ghc_6.h /tmp/ghc10876_0/ghc_4.h /tmp/ghc10876_0/ghc_2.h
+compile: input file /tmp/ghc10876_0/ghc_9.hscpp
+*** Checking old interface for Data.Unique.Really:
+[1 of 5] Compiling Data.Unique.Really ( src/Data/Unique/Really.hs, dist/dist-sandbox-6afc8227/build/Data/Unique/Really.o )
+*** Parser [Data.Unique.Really]:
+!!! Parser [Data.Unique.Really]: finished in 2.00 milliseconds, allocated 1.368 megabytes
+*** Renamer/typechecker [Data.Unique.Really]:
+!!! Renamer/typechecker [Data.Unique.Really]: finished in 413.00 milliseconds, allocated 172.704 megabytes
+*** Desugar [Data.Unique.Really]:
+Result size of Desugar (after optimization)
+  = {terms: 61, types: 51, coercions: 18}
+!!! Desugar [Data.Unique.Really]: finished in 2.00 milliseconds, allocated 0.638 megabytes
+
+src/Data/Unique/Really.hs:6:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+*** Simplifier [Data.Unique.Really]:
+Result size of Simplifier iteration=1
+  = {terms: 71, types: 56, coercions: 28}
+Result size of Simplifier iteration=2
+  = {terms: 73, types: 65, coercions: 30}
+Result size of Simplifier = {terms: 73, types: 65, coercions: 30}
+!!! Simplifier [Data.Unique.Really]: finished in 3.00 milliseconds, allocated 1.207 megabytes
+*** Specialise [Data.Unique.Really]:
+Result size of Specialise = {terms: 82, types: 85, coercions: 30}
+!!! Specialise [Data.Unique.Really]: finished in 0.00 milliseconds, allocated 0.191 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Unique.Really]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 84, types: 89, coercions: 30}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Unique.Really]: finished in 1.00 milliseconds, allocated 0.321 megabytes
+*** Simplifier [Data.Unique.Really]:
+Result size of Simplifier iteration=1
+  = {terms: 113, types: 154, coercions: 64}
+Result size of Simplifier = {terms: 91, types: 104, coercions: 57}
+!!! Simplifier [Data.Unique.Really]: finished in 9.00 milliseconds, allocated 3.041 megabytes
+*** Simplifier [Data.Unique.Really]:
+Result size of Simplifier = {terms: 91, types: 104, coercions: 57}
+!!! Simplifier [Data.Unique.Really]: finished in 1.00 milliseconds, allocated 0.432 megabytes
+*** Simplifier [Data.Unique.Really]:
+Result size of Simplifier = {terms: 91, types: 104, coercions: 57}
+!!! Simplifier [Data.Unique.Really]: finished in 1.00 milliseconds, allocated 0.432 megabytes
+*** Float inwards [Data.Unique.Really]:
+Result size of Float inwards
+  = {terms: 91, types: 104, coercions: 57}
+!!! Float inwards [Data.Unique.Really]: finished in 0.00 milliseconds, allocated 0.137 megabytes
+*** Called arity analysis [Data.Unique.Really]:
+Result size of Called arity analysis
+  = {terms: 91, types: 104, coercions: 57}
+!!! Called arity analysis [Data.Unique.Really]: finished in 1.00 milliseconds, allocated 0.147 megabytes
+*** Simplifier [Data.Unique.Really]:
+Result size of Simplifier = {terms: 91, types: 104, coercions: 57}
+!!! Simplifier [Data.Unique.Really]: finished in 0.00 milliseconds, allocated 0.431 megabytes
+*** Demand analysis [Data.Unique.Really]:
+Result size of Demand analysis
+  = {terms: 91, types: 104, coercions: 57}
+!!! Demand analysis [Data.Unique.Really]: finished in 1.00 milliseconds, allocated 0.302 megabytes
+*** Worker Wrapper binds [Data.Unique.Really]:
+Result size of Worker Wrapper binds
+  = {terms: 91, types: 104, coercions: 57}
+!!! Worker Wrapper binds [Data.Unique.Really]: finished in 0.00 milliseconds, allocated 0.079 megabytes
+*** Simplifier [Data.Unique.Really]:
+Result size of Simplifier = {terms: 91, types: 104, coercions: 57}
+!!! Simplifier [Data.Unique.Really]: finished in 1.00 milliseconds, allocated 0.582 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Unique.Really]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 91, types: 104, coercions: 57}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Unique.Really]: finished in 1.00 milliseconds, allocated 0.291 megabytes
+*** Common sub-expression [Data.Unique.Really]:
+Result size of Common sub-expression
+  = {terms: 90, types: 104, coercions: 57}
+!!! Common sub-expression [Data.Unique.Really]: finished in 0.00 milliseconds, allocated 0.200 megabytes
+*** Float inwards [Data.Unique.Really]:
+Result size of Float inwards
+  = {terms: 90, types: 104, coercions: 57}
+!!! Float inwards [Data.Unique.Really]: finished in 0.00 milliseconds, allocated 0.134 megabytes
+*** Simplifier [Data.Unique.Really]:
+Result size of Simplifier iteration=1
+  = {terms: 90, types: 104, coercions: 57}
+Result size of Simplifier = {terms: 90, types: 104, coercions: 57}
+!!! Simplifier [Data.Unique.Really]: finished in 2.00 milliseconds, allocated 1.132 megabytes
+*** CoreTidy [Data.Unique.Really]:
+Result size of Tidy Core = {terms: 86, types: 92, coercions: 42}
+!!! CoreTidy [Data.Unique.Really]: finished in 1.00 milliseconds, allocated 0.249 megabytes
+writeBinIface: 34 Names
+writeBinIface: 98 dict entries
+writeBinIface: 34 Names
+writeBinIface: 98 dict entries
+*** CorePrep [Data.Unique.Really]:
+Result size of CorePrep = {terms: 111, types: 109, coercions: 42}
+!!! CorePrep [Data.Unique.Really]: finished in 0.00 milliseconds, allocated 0.217 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Unique.Really]:
+!!! CodeGen [Data.Unique.Really]: finished in 7.00 milliseconds, allocated 3.233 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Unique -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc10876_0/ghc_12.s -o dist/dist-sandbox-6afc8227/build/Data/Unique/Really.o
+*** CorePrep [Data.Unique.Really]:
+Result size of CorePrep = {terms: 111, types: 109, coercions: 42}
+!!! CorePrep [Data.Unique.Really]: finished in 1.00 milliseconds, allocated 0.211 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Unique.Really]:
+!!! CodeGen [Data.Unique.Really]: finished in 6.00 milliseconds, allocated 3.248 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Unique -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc10876_0/ghc_14.s -o dist/dist-sandbox-6afc8227/build/Data/Unique/Really.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc10876_0/ghc_15.c /tmp/ghc10876_0/ghc_14.s /tmp/ghc10876_0/ghc_13.c /tmp/ghc10876_0/ghc_12.s /tmp/ghc10876_0/ghc_11.s
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_13.c
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_11.s
+compile: input file /tmp/ghc10876_0/ghc_5.hscpp
+*** Checking old interface for Data.Vault.ST.Lazy:
+[2 of 5] Compiling Data.Vault.ST.Lazy ( src/Data/Vault/ST/Lazy.hs, dist/dist-sandbox-6afc8227/build/Data/Vault/ST/Lazy.o )
+*** Parser [Data.Vault.ST.Lazy]:
+!!! Parser [Data.Vault.ST.Lazy]: finished in 3.00 milliseconds, allocated 3.115 megabytes
+*** Renamer/typechecker [Data.Vault.ST.Lazy]:
+!!! Renamer/typechecker [Data.Vault.ST.Lazy]: finished in 52.00 milliseconds, allocated 28.742 megabytes
+*** Desugar [Data.Vault.ST.Lazy]:
+Result size of Desugar (after optimization)
+  = {terms: 178, types: 357, coercions: 51}
+!!! Desugar [Data.Vault.ST.Lazy]: finished in 15.00 milliseconds, allocated 8.010 megabytes
+
+src/Data/Vault/ST/ST.hs:17:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+*** Simplifier [Data.Vault.ST.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 190, types: 355, coercions: 80}
+Result size of Simplifier = {terms: 190, types: 355, coercions: 80}
+!!! Simplifier [Data.Vault.ST.Lazy]: finished in 67.00 milliseconds, allocated 1.593 megabytes
+*** Specialise [Data.Vault.ST.Lazy]:
+Result size of Specialise
+  = {terms: 4,449, types: 6,084, coercions: 732}
+!!! Specialise [Data.Vault.ST.Lazy]: finished in 15.00 milliseconds, allocated 13.390 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vault.ST.Lazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 4,716, types: 6,798, coercions: 732}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vault.ST.Lazy]: finished in 30.00 milliseconds, allocated 22.084 megabytes
+*** Simplifier [Data.Vault.ST.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 4,861, types: 6,649, coercions: 776}
+Result size of Simplifier iteration=2
+  = {terms: 4,251, types: 5,491, coercions: 542}
+Result size of Simplifier iteration=3
+  = {terms: 4,214, types: 5,365, coercions: 386}
+Result size of Simplifier
+  = {terms: 4,212, types: 5,349, coercions: 338}
+!!! Simplifier [Data.Vault.ST.Lazy]: finished in 112.00 milliseconds, allocated 82.687 megabytes
+*** Simplifier [Data.Vault.ST.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 4,247, types: 5,428, coercions: 340}
+Result size of Simplifier iteration=2
+  = {terms: 4,109, types: 5,299, coercions: 338}
+Result size of Simplifier iteration=3
+  = {terms: 4,109, types: 5,299, coercions: 338}
+Result size of Simplifier
+  = {terms: 4,109, types: 5,299, coercions: 338}
+!!! Simplifier [Data.Vault.ST.Lazy]: finished in 80.00 milliseconds, allocated 59.415 megabytes
+*** Simplifier [Data.Vault.ST.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 4,036, types: 5,091, coercions: 336}
+Result size of Simplifier iteration=2
+  = {terms: 4,032, types: 5,082, coercions: 336}
+Result size of Simplifier
+  = {terms: 4,032, types: 5,082, coercions: 336}
+!!! Simplifier [Data.Vault.ST.Lazy]: finished in 100.00 milliseconds, allocated 46.591 megabytes
+*** Float inwards [Data.Vault.ST.Lazy]:
+Result size of Float inwards
+  = {terms: 4,032, types: 5,082, coercions: 336}
+!!! Float inwards [Data.Vault.ST.Lazy]: finished in 10.00 milliseconds, allocated 7.928 megabytes
+*** Called arity analysis [Data.Vault.ST.Lazy]:
+Result size of Called arity analysis
+  = {terms: 4,032, types: 5,082, coercions: 336}
+!!! Called arity analysis [Data.Vault.ST.Lazy]: finished in 7.00 milliseconds, allocated 3.548 megabytes
+*** Simplifier [Data.Vault.ST.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 3,966, types: 4,946, coercions: 336}
+Result size of Simplifier iteration=2
+  = {terms: 3,938, types: 4,888, coercions: 336}
+Result size of Simplifier
+  = {terms: 3,938, types: 4,888, coercions: 336}
+!!! Simplifier [Data.Vault.ST.Lazy]: finished in 98.00 milliseconds, allocated 41.619 megabytes
+*** Demand analysis [Data.Vault.ST.Lazy]:
+Result size of Demand analysis
+  = {terms: 3,938, types: 4,888, coercions: 336}
+!!! Demand analysis [Data.Vault.ST.Lazy]: finished in 20.00 milliseconds, allocated 18.903 megabytes
+*** Worker Wrapper binds [Data.Vault.ST.Lazy]:
+Result size of Worker Wrapper binds
+  = {terms: 4,839, types: 5,996, coercions: 380}
+!!! Worker Wrapper binds [Data.Vault.ST.Lazy]: finished in 4.00 milliseconds, allocated 1.674 megabytes
+*** Simplifier [Data.Vault.ST.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 4,259, types: 5,521, coercions: 313}
+Result size of Simplifier iteration=2
+  = {terms: 4,222, types: 5,744, coercions: 308}
+Result size of Simplifier iteration=3
+  = {terms: 4,027, types: 5,407, coercions: 308}
+Result size of Simplifier
+  = {terms: 4,027, types: 5,407, coercions: 308}
+!!! Simplifier [Data.Vault.ST.Lazy]: finished in 139.00 milliseconds, allocated 67.093 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vault.ST.Lazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,037, types: 5,428, coercions: 308}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vault.ST.Lazy]: finished in 20.00 milliseconds, allocated 14.937 megabytes
+*** Common sub-expression [Data.Vault.ST.Lazy]:
+Result size of Common sub-expression
+  = {terms: 4,015, types: 5,406, coercions: 299}
+!!! Common sub-expression [Data.Vault.ST.Lazy]: finished in 9.00 milliseconds, allocated 4.711 megabytes
+*** Float inwards [Data.Vault.ST.Lazy]:
+Result size of Float inwards
+  = {terms: 4,015, types: 5,406, coercions: 299}
+!!! Float inwards [Data.Vault.ST.Lazy]: finished in 14.00 milliseconds, allocated 7.929 megabytes
+*** Simplifier [Data.Vault.ST.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 3,936, types: 5,354, coercions: 301}
+Result size of Simplifier iteration=2
+  = {terms: 3,934, types: 5,353, coercions: 301}
+Result size of Simplifier iteration=3
+  = {terms: 3,934, types: 5,353, coercions: 301}
+Result size of Simplifier
+  = {terms: 3,934, types: 5,353, coercions: 301}
+!!! Simplifier [Data.Vault.ST.Lazy]: finished in 118.00 milliseconds, allocated 58.118 megabytes
+*** CoreTidy [Data.Vault.ST.Lazy]:
+Result size of Tidy Core
+  = {terms: 3,740, types: 4,960, coercions: 275}
+!!! CoreTidy [Data.Vault.ST.Lazy]: finished in 8.00 milliseconds, allocated 4.425 megabytes
+writeBinIface: 95 Names
+writeBinIface: 226 dict entries
+writeBinIface: 95 Names
+writeBinIface: 226 dict entries
+*** CorePrep [Data.Vault.ST.Lazy]:
+Result size of CorePrep
+  = {terms: 4,782, types: 5,412, coercions: 275}
+!!! CorePrep [Data.Vault.ST.Lazy]: finished in 10.00 milliseconds, allocated 7.959 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vault.ST.Lazy]:
+!!! CodeGen [Data.Vault.ST.Lazy]: finished in 172.00 milliseconds, allocated 125.502 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vault/ST -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc10876_0/ghc_17.s -o dist/dist-sandbox-6afc8227/build/Data/Vault/ST/Lazy.o
+*** CorePrep [Data.Vault.ST.Lazy]:
+Result size of CorePrep
+  = {terms: 4,782, types: 5,412, coercions: 275}
+!!! CorePrep [Data.Vault.ST.Lazy]: finished in 7.00 milliseconds, allocated 7.650 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vault.ST.Lazy]:
+!!! CodeGen [Data.Vault.ST.Lazy]: finished in 174.00 milliseconds, allocated 130.569 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vault/ST -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc10876_0/ghc_19.s -o dist/dist-sandbox-6afc8227/build/Data/Vault/ST/Lazy.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc10876_0/ghc_20.c /tmp/ghc10876_0/ghc_19.s /tmp/ghc10876_0/ghc_18.c /tmp/ghc10876_0/ghc_17.s /tmp/ghc10876_0/ghc_16.s
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_18.c
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_16.s
+compile: input file /tmp/ghc10876_0/ghc_1.hscpp
+*** Checking old interface for Data.Vault.Lazy:
+[3 of 5] Compiling Data.Vault.Lazy  ( src/Data/Vault/Lazy.hs, dist/dist-sandbox-6afc8227/build/Data/Vault/Lazy.o )
+*** Parser [Data.Vault.Lazy]:
+!!! Parser [Data.Vault.Lazy]: finished in 1.00 milliseconds, allocated 1.897 megabytes
+*** Renamer/typechecker [Data.Vault.Lazy]:
+!!! Renamer/typechecker [Data.Vault.Lazy]: finished in 4.00 milliseconds, allocated 2.538 megabytes
+*** Desugar [Data.Vault.Lazy]:
+Result size of Desugar (after optimization)
+  = {terms: 27, types: 69, coercions: 0}
+!!! Desugar [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.330 megabytes
+*** Simplifier [Data.Vault.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 31, types: 71, coercions: 0}
+Result size of Simplifier = {terms: 31, types: 71, coercions: 0}
+!!! Simplifier [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.269 megabytes
+*** Specialise [Data.Vault.Lazy]:
+Result size of Specialise = {terms: 31, types: 71, coercions: 0}
+!!! Specialise [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.085 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vault.Lazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 31, types: 71, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vault.Lazy]: finished in 1.00 milliseconds, allocated 0.154 megabytes
+*** Simplifier [Data.Vault.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 29, types: 68, coercions: 77}
+Result size of Simplifier = {terms: 29, types: 68, coercions: 64}
+!!! Simplifier [Data.Vault.Lazy]: finished in 1.00 milliseconds, allocated 0.591 megabytes
+*** Simplifier [Data.Vault.Lazy]:
+Result size of Simplifier = {terms: 29, types: 68, coercions: 64}
+!!! Simplifier [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.212 megabytes
+*** Simplifier [Data.Vault.Lazy]:
+Result size of Simplifier = {terms: 29, types: 68, coercions: 64}
+!!! Simplifier [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.211 megabytes
+*** Float inwards [Data.Vault.Lazy]:
+Result size of Float inwards
+  = {terms: 29, types: 68, coercions: 64}
+!!! Float inwards [Data.Vault.Lazy]: finished in 1.00 milliseconds, allocated 0.074 megabytes
+*** Called arity analysis [Data.Vault.Lazy]:
+Result size of Called arity analysis
+  = {terms: 29, types: 68, coercions: 64}
+!!! Called arity analysis [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.115 megabytes
+*** Simplifier [Data.Vault.Lazy]:
+Result size of Simplifier = {terms: 29, types: 68, coercions: 64}
+!!! Simplifier [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.211 megabytes
+*** Demand analysis [Data.Vault.Lazy]:
+Result size of Demand analysis
+  = {terms: 29, types: 68, coercions: 64}
+!!! Demand analysis [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.081 megabytes
+*** Worker Wrapper binds [Data.Vault.Lazy]:
+Result size of Worker Wrapper binds
+  = {terms: 29, types: 68, coercions: 64}
+!!! Worker Wrapper binds [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.060 megabytes
+*** Simplifier [Data.Vault.Lazy]:
+Result size of Simplifier = {terms: 29, types: 68, coercions: 64}
+!!! Simplifier [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.273 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vault.Lazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 29, types: 68, coercions: 64}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vault.Lazy]: finished in 1.00 milliseconds, allocated 0.139 megabytes
+*** Common sub-expression [Data.Vault.Lazy]:
+Result size of Common sub-expression
+  = {terms: 29, types: 68, coercions: 64}
+!!! Common sub-expression [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.103 megabytes
+*** Float inwards [Data.Vault.Lazy]:
+Result size of Float inwards
+  = {terms: 29, types: 68, coercions: 64}
+!!! Float inwards [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** Simplifier [Data.Vault.Lazy]:
+Result size of Simplifier = {terms: 29, types: 68, coercions: 64}
+!!! Simplifier [Data.Vault.Lazy]: finished in 1.00 milliseconds, allocated 0.274 megabytes
+*** CoreTidy [Data.Vault.Lazy]:
+Result size of Tidy Core = {terms: 29, types: 68, coercions: 64}
+!!! CoreTidy [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.117 megabytes
+writeBinIface: 31 Names
+writeBinIface: 75 dict entries
+writeBinIface: 31 Names
+writeBinIface: 75 dict entries
+*** CorePrep [Data.Vault.Lazy]:
+Result size of CorePrep = {terms: 69, types: 124, coercions: 64}
+!!! CorePrep [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.135 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vault.Lazy]:
+!!! CodeGen [Data.Vault.Lazy]: finished in 3.00 milliseconds, allocated 1.689 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vault -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc10876_0/ghc_22.s -o dist/dist-sandbox-6afc8227/build/Data/Vault/Lazy.o
+*** CorePrep [Data.Vault.Lazy]:
+Result size of CorePrep = {terms: 69, types: 124, coercions: 64}
+!!! CorePrep [Data.Vault.Lazy]: finished in 0.00 milliseconds, allocated 0.139 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vault.Lazy]:
+!!! CodeGen [Data.Vault.Lazy]: finished in 4.00 milliseconds, allocated 1.724 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vault -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc10876_0/ghc_24.s -o dist/dist-sandbox-6afc8227/build/Data/Vault/Lazy.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc10876_0/ghc_25.c /tmp/ghc10876_0/ghc_24.s /tmp/ghc10876_0/ghc_23.c /tmp/ghc10876_0/ghc_22.s /tmp/ghc10876_0/ghc_21.s
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_25.c
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_23.c
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_21.s
+compile: input file /tmp/ghc10876_0/ghc_7.hscpp
+*** Checking old interface for Data.Vault.ST.Strict:
+[4 of 5] Compiling Data.Vault.ST.Strict ( src/Data/Vault/ST/Strict.hs, dist/dist-sandbox-6afc8227/build/Data/Vault/ST/Strict.o )
+*** Parser [Data.Vault.ST.Strict]:
+!!! Parser [Data.Vault.ST.Strict]: finished in 3.00 milliseconds, allocated 3.113 megabytes
+*** Renamer/typechecker [Data.Vault.ST.Strict]:
+!!! Renamer/typechecker [Data.Vault.ST.Strict]: finished in 16.00 milliseconds, allocated 8.089 megabytes
+*** Desugar [Data.Vault.ST.Strict]:
+Result size of Desugar (after optimization)
+  = {terms: 178, types: 357, coercions: 51}
+!!! Desugar [Data.Vault.ST.Strict]: finished in 3.00 milliseconds, allocated 1.310 megabytes
+
+src/Data/Vault/ST/ST.hs:17:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+*** Simplifier [Data.Vault.ST.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 190, types: 355, coercions: 80}
+Result size of Simplifier = {terms: 190, types: 355, coercions: 80}
+!!! Simplifier [Data.Vault.ST.Strict]: finished in 3.00 milliseconds, allocated 1.403 megabytes
+*** Specialise [Data.Vault.ST.Strict]:
+Result size of Specialise
+  = {terms: 4,469, types: 6,106, coercions: 732}
+!!! Specialise [Data.Vault.ST.Strict]: finished in 11.00 milliseconds, allocated 6.550 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vault.ST.Strict]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 4,736, types: 6,820, coercions: 732}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vault.ST.Strict]: finished in 40.00 milliseconds, allocated 21.904 megabytes
+*** Simplifier [Data.Vault.ST.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 4,903, types: 6,672, coercions: 768}
+Result size of Simplifier iteration=2
+  = {terms: 4,290, types: 5,510, coercions: 533}
+Result size of Simplifier iteration=3
+  = {terms: 4,253, types: 5,384, coercions: 377}
+Result size of Simplifier
+  = {terms: 4,251, types: 5,368, coercions: 329}
+!!! Simplifier [Data.Vault.ST.Strict]: finished in 183.00 milliseconds, allocated 81.939 megabytes
+*** Simplifier [Data.Vault.ST.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 4,286, types: 5,447, coercions: 331}
+Result size of Simplifier iteration=2
+  = {terms: 4,148, types: 5,318, coercions: 329}
+Result size of Simplifier iteration=3
+  = {terms: 4,148, types: 5,318, coercions: 329}
+Result size of Simplifier
+  = {terms: 4,148, types: 5,318, coercions: 329}
+!!! Simplifier [Data.Vault.ST.Strict]: finished in 138.00 milliseconds, allocated 59.873 megabytes
+*** Simplifier [Data.Vault.ST.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 4,075, types: 5,110, coercions: 327}
+Result size of Simplifier iteration=2
+  = {terms: 4,071, types: 5,101, coercions: 327}
+Result size of Simplifier
+  = {terms: 4,071, types: 5,101, coercions: 327}
+!!! Simplifier [Data.Vault.ST.Strict]: finished in 95.00 milliseconds, allocated 46.952 megabytes
+*** Float inwards [Data.Vault.ST.Strict]:
+Result size of Float inwards
+  = {terms: 4,071, types: 5,101, coercions: 327}
+!!! Float inwards [Data.Vault.ST.Strict]: finished in 11.00 milliseconds, allocated 7.971 megabytes
+*** Called arity analysis [Data.Vault.ST.Strict]:
+Result size of Called arity analysis
+  = {terms: 4,071, types: 5,101, coercions: 327}
+!!! Called arity analysis [Data.Vault.ST.Strict]: finished in 5.00 milliseconds, allocated 3.573 megabytes
+*** Simplifier [Data.Vault.ST.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 4,005, types: 4,965, coercions: 327}
+Result size of Simplifier iteration=2
+  = {terms: 3,977, types: 4,907, coercions: 327}
+Result size of Simplifier
+  = {terms: 3,977, types: 4,907, coercions: 327}
+!!! Simplifier [Data.Vault.ST.Strict]: finished in 93.00 milliseconds, allocated 41.977 megabytes
+*** Demand analysis [Data.Vault.ST.Strict]:
+Result size of Demand analysis
+  = {terms: 3,977, types: 4,907, coercions: 327}
+!!! Demand analysis [Data.Vault.ST.Strict]: finished in 37.00 milliseconds, allocated 19.045 megabytes
+*** Worker Wrapper binds [Data.Vault.ST.Strict]:
+Result size of Worker Wrapper binds
+  = {terms: 4,878, types: 6,015, coercions: 371}
+!!! Worker Wrapper binds [Data.Vault.ST.Strict]: finished in 4.00 milliseconds, allocated 1.684 megabytes
+*** Simplifier [Data.Vault.ST.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 4,296, types: 5,540, coercions: 301}
+Result size of Simplifier iteration=2
+  = {terms: 4,259, types: 5,763, coercions: 296}
+Result size of Simplifier iteration=3
+  = {terms: 4,064, types: 5,426, coercions: 296}
+Result size of Simplifier
+  = {terms: 4,064, types: 5,426, coercions: 296}
+!!! Simplifier [Data.Vault.ST.Strict]: finished in 147.00 milliseconds, allocated 68.095 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vault.ST.Strict]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,074, types: 5,447, coercions: 296}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vault.ST.Strict]: finished in 32.00 milliseconds, allocated 15.060 megabytes
+*** Common sub-expression [Data.Vault.ST.Strict]:
+Result size of Common sub-expression
+  = {terms: 4,052, types: 5,425, coercions: 287}
+!!! Common sub-expression [Data.Vault.ST.Strict]: finished in 8.00 milliseconds, allocated 4.786 megabytes
+*** Float inwards [Data.Vault.ST.Strict]:
+Result size of Float inwards
+  = {terms: 4,052, types: 5,425, coercions: 287}
+!!! Float inwards [Data.Vault.ST.Strict]: finished in 15.00 milliseconds, allocated 7.967 megabytes
+*** Simplifier [Data.Vault.ST.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 3,973, types: 5,373, coercions: 289}
+Result size of Simplifier iteration=2
+  = {terms: 3,971, types: 5,372, coercions: 289}
+Result size of Simplifier iteration=3
+  = {terms: 3,971, types: 5,372, coercions: 289}
+Result size of Simplifier
+  = {terms: 3,971, types: 5,372, coercions: 289}
+!!! Simplifier [Data.Vault.ST.Strict]: finished in 123.00 milliseconds, allocated 58.966 megabytes
+*** CoreTidy [Data.Vault.ST.Strict]:
+Result size of Tidy Core
+  = {terms: 3,738, types: 4,932, coercions: 261}
+!!! CoreTidy [Data.Vault.ST.Strict]: finished in 12.00 milliseconds, allocated 4.423 megabytes
+writeBinIface: 92 Names
+writeBinIface: 224 dict entries
+writeBinIface: 92 Names
+writeBinIface: 224 dict entries
+*** CorePrep [Data.Vault.ST.Strict]:
+Result size of CorePrep
+  = {terms: 4,768, types: 5,370, coercions: 261}
+!!! CorePrep [Data.Vault.ST.Strict]: finished in 17.00 milliseconds, allocated 7.939 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vault.ST.Strict]:
+!!! CodeGen [Data.Vault.ST.Strict]: finished in 258.00 milliseconds, allocated 124.965 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vault/ST -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc10876_0/ghc_27.s -o dist/dist-sandbox-6afc8227/build/Data/Vault/ST/Strict.o
+*** CorePrep [Data.Vault.ST.Strict]:
+Result size of CorePrep
+  = {terms: 4,768, types: 5,370, coercions: 261}
+!!! CorePrep [Data.Vault.ST.Strict]: finished in 109.00 milliseconds, allocated 7.630 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vault.ST.Strict]:
+!!! CodeGen [Data.Vault.ST.Strict]: finished in 133.00 milliseconds, allocated 130.387 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vault/ST -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc10876_0/ghc_29.s -o dist/dist-sandbox-6afc8227/build/Data/Vault/ST/Strict.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc10876_0/ghc_30.c /tmp/ghc10876_0/ghc_29.s /tmp/ghc10876_0/ghc_28.c /tmp/ghc10876_0/ghc_27.s /tmp/ghc10876_0/ghc_26.s
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_30.c
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_28.c
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_26.s
+compile: input file /tmp/ghc10876_0/ghc_3.hscpp
+*** Checking old interface for Data.Vault.Strict:
+[5 of 5] Compiling Data.Vault.Strict ( src/Data/Vault/Strict.hs, dist/dist-sandbox-6afc8227/build/Data/Vault/Strict.o )
+*** Parser [Data.Vault.Strict]:
+!!! Parser [Data.Vault.Strict]: finished in 1.00 milliseconds, allocated 1.897 megabytes
+*** Renamer/typechecker [Data.Vault.Strict]:
+!!! Renamer/typechecker [Data.Vault.Strict]: finished in 4.00 milliseconds, allocated 2.530 megabytes
+*** Desugar [Data.Vault.Strict]:
+Result size of Desugar (after optimization)
+  = {terms: 27, types: 69, coercions: 0}
+!!! Desugar [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.310 megabytes
+*** Simplifier [Data.Vault.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 31, types: 71, coercions: 0}
+Result size of Simplifier = {terms: 31, types: 71, coercions: 0}
+!!! Simplifier [Data.Vault.Strict]: finished in 1.00 milliseconds, allocated 0.269 megabytes
+*** Specialise [Data.Vault.Strict]:
+Result size of Specialise = {terms: 31, types: 71, coercions: 0}
+!!! Specialise [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.087 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vault.Strict]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 31, types: 71, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.154 megabytes
+*** Simplifier [Data.Vault.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 29, types: 68, coercions: 62}
+Result size of Simplifier = {terms: 29, types: 68, coercions: 49}
+!!! Simplifier [Data.Vault.Strict]: finished in 1.00 milliseconds, allocated 0.538 megabytes
+*** Simplifier [Data.Vault.Strict]:
+Result size of Simplifier = {terms: 29, types: 68, coercions: 49}
+!!! Simplifier [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.195 megabytes
+*** Simplifier [Data.Vault.Strict]:
+Result size of Simplifier = {terms: 29, types: 68, coercions: 49}
+!!! Simplifier [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.194 megabytes
+*** Float inwards [Data.Vault.Strict]:
+Result size of Float inwards
+  = {terms: 29, types: 68, coercions: 49}
+!!! Float inwards [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.073 megabytes
+*** Called arity analysis [Data.Vault.Strict]:
+Result size of Called arity analysis
+  = {terms: 29, types: 68, coercions: 49}
+!!! Called arity analysis [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.113 megabytes
+*** Simplifier [Data.Vault.Strict]:
+Result size of Simplifier = {terms: 29, types: 68, coercions: 49}
+!!! Simplifier [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.194 megabytes
+*** Demand analysis [Data.Vault.Strict]:
+Result size of Demand analysis
+  = {terms: 29, types: 68, coercions: 49}
+!!! Demand analysis [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.080 megabytes
+*** Worker Wrapper binds [Data.Vault.Strict]:
+Result size of Worker Wrapper binds
+  = {terms: 29, types: 68, coercions: 49}
+!!! Worker Wrapper binds [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.060 megabytes
+*** Simplifier [Data.Vault.Strict]:
+Result size of Simplifier = {terms: 29, types: 68, coercions: 49}
+!!! Simplifier [Data.Vault.Strict]: finished in 1.00 milliseconds, allocated 0.247 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vault.Strict]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 29, types: 68, coercions: 49}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.139 megabytes
+*** Common sub-expression [Data.Vault.Strict]:
+Result size of Common sub-expression
+  = {terms: 29, types: 68, coercions: 49}
+!!! Common sub-expression [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.100 megabytes
+*** Float inwards [Data.Vault.Strict]:
+Result size of Float inwards
+  = {terms: 29, types: 68, coercions: 49}
+!!! Float inwards [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** Simplifier [Data.Vault.Strict]:
+Result size of Simplifier = {terms: 29, types: 68, coercions: 49}
+!!! Simplifier [Data.Vault.Strict]: finished in 1.00 milliseconds, allocated 0.248 megabytes
+*** CoreTidy [Data.Vault.Strict]:
+Result size of Tidy Core = {terms: 29, types: 68, coercions: 49}
+!!! CoreTidy [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.112 megabytes
+writeBinIface: 31 Names
+writeBinIface: 74 dict entries
+writeBinIface: 31 Names
+writeBinIface: 74 dict entries
+*** CorePrep [Data.Vault.Strict]:
+Result size of CorePrep = {terms: 69, types: 124, coercions: 49}
+!!! CorePrep [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.134 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vault.Strict]:
+!!! CodeGen [Data.Vault.Strict]: finished in 4.00 milliseconds, allocated 1.692 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vault -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc10876_0/ghc_32.s -o dist/dist-sandbox-6afc8227/build/Data/Vault/Strict.o
+*** CorePrep [Data.Vault.Strict]:
+Result size of CorePrep = {terms: 69, types: 124, coercions: 49}
+!!! CorePrep [Data.Vault.Strict]: finished in 0.00 milliseconds, allocated 0.134 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vault.Strict]:
+!!! CodeGen [Data.Vault.Strict]: finished in 4.00 milliseconds, allocated 1.726 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vault -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc10876_0/ghc_34.s -o dist/dist-sandbox-6afc8227/build/Data/Vault/Strict.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc10876_0/ghc_35.c /tmp/ghc10876_0/ghc_34.s /tmp/ghc10876_0/ghc_33.c /tmp/ghc10876_0/ghc_32.s /tmp/ghc10876_0/ghc_31.s
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_35.c
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_33.c
+Warning: deleting non-existent /tmp/ghc10876_0/ghc_31.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc10876_0/ghc_9.hscpp /tmp/ghc10876_0/ghc_7.hscpp /tmp/ghc10876_0/ghc_5.hscpp /tmp/ghc10876_0/ghc_3.hscpp /tmp/ghc10876_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc10876_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/unordered-containers-0.2.7.0-KR6jjzMAwuYBKL2QUNYyx5 -o dist/dist-sandbox-6afc8227/build/libHSvault-0.3.0.6-1QxxhplwtcS3BMRz2QFr4C-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSvault-0.3.0.6-1QxxhplwtcS3BMRz2QFr4C-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Data/Vault/Lazy.dyn_o dist/dist-sandbox-6afc8227/build/Data/Vault/Strict.dyn_o dist/dist-sandbox-6afc8227/build/Data/Vault/ST/Lazy.dyn_o dist/dist-sandbox-6afc8227/build/Data/Vault/ST/Strict.dyn_o dist/dist-sandbox-6afc8227/build/Data/Unique/Really.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/unordered-containers-0.2.7.0-KR6jjzMAwuYBKL2QUNYyx5 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSunordered-containers-0.2.7.0-KR6jjzMAwuYBKL2QUNYyx5-ghc8.0.1 -lHShashable-1.2.4.0-Ctl752zbguF6QanxurLOm2-ghc8.0.1 -lHStext-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs-ghc8.0.1 -lHSbinary-0.8.3.0-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc11107_0
+*** Deleting temp files:
+Deleting: /tmp/ghc11107_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc11107_0
+Creating package registration file:
+/tmp/pkgConf-vault-0.3.01395235128532670688.6
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vault-0.3.0.6-1QxxhplwtcS3BMRz2QFr4C
+Registering vault-0.3.0.6...
+cabal: Leaving directory '/tmp/cabal-tmp-1029/vault-0.3.0.6'

@@ -1,0 +1,1239 @@
+cabal: Entering directory '/tmp/cabal-tmp-1029/iproute-1.7.0'
+Configuring iproute-1.7.0...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc7554_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc7554_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc7554_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc7554_0/ghc_2.rsp /tmp/ghc7554_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7554_0
+Building iproute-1.7.0...
+Preprocessing library iproute-1.7.0...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.IP,*Data.IP.Internal,*Data.IP.RouteTable,*Data.IP.Addr,*Data.IP.Mask,*Data.IP.Op,*Data.IP.Range,*Data.IP.RouteTable.Internal
+Created temporary directory: /tmp/ghc7604_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/network-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7604_0/ghc_2.h -x assembler-with-cpp ./Data/IP/RouteTable/Internal.hs -o /tmp/ghc7604_0/ghc_1.hscpp
+!!! Chasing dependencies: finished in 25.00 milliseconds, allocated 13.217 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-14 07:15:28 UTC
+         ms_mod = Data.IP.Addr,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Generics),
+                            (Nothing, GHC.Enum), (Nothing, Text.Appar.String),
+                            (Nothing, System.ByteOrder), (Nothing, Numeric),
+                            (Nothing, Network.Socket), (Nothing, Data.Word),
+                            (Nothing, Data.Typeable), (Nothing, Data.String),
+                            (Nothing, Data.List), (Nothing, Data.Data), (Nothing, Data.Char),
+                            (Nothing, Data.Bits), (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-14 07:15:28 UTC
+         ms_mod = Data.IP.Mask,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.IntMap),
+                            (Nothing, Data.Word), (Nothing, Data.IP.Addr),
+                            (Nothing, Data.Bits)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-14 07:15:28 UTC
+         ms_mod = Data.IP.Range,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Generics),
+                            (Nothing, Text.Appar.String), (Nothing, Data.Typeable),
+                            (Nothing, Data.String), (Nothing, Data.IP.Mask),
+                            (Nothing, Data.IP.Addr), (Nothing, Data.Data),
+                            (Nothing, Data.Bits), (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-14 07:15:28 UTC
+         ms_mod = Data.IP.Op,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.IP.Range),
+                            (Nothing, Data.IP.Mask), (Nothing, Data.IP.Addr),
+                            (Nothing, Data.Bits)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-14 07:15:28 UTC
+         ms_mod = Data.IP.Internal,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.IP.Range),
+                            (Nothing, Data.IP.Addr)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-14 07:15:28 UTC
+         ms_mod = Data.IP,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.IP.Range),
+                            (Nothing, Data.IP.Op), (Nothing, Data.IP.Addr)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-14 07:15:28 UTC
+         ms_mod = Data.IP.RouteTable.Internal,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Word),
+                            (Nothing, Data.Traversable), (Nothing, Data.Monoid),
+                            (Nothing, Data.IntMap), (Nothing, Data.IntMap),
+                            (Nothing, Data.IP.Range), (Nothing, Data.IP.Op),
+                            (Nothing, Data.IP.Addr), (Nothing, Data.Foldable),
+                            (Nothing, Data.Bits), (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-14 07:15:28 UTC
+         ms_mod = Data.IP.RouteTable,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.IP.RouteTable.Internal)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc7604_0/ghc_2.h
+compile: input file ./Data/IP/Addr.hs
+*** Checking old interface for Data.IP.Addr:
+[1 of 8] Compiling Data.IP.Addr     ( Data/IP/Addr.hs, dist/dist-sandbox-6afc8227/build/Data/IP/Addr.o )
+*** Parser [Data.IP.Addr]:
+!!! Parser [Data.IP.Addr]: finished in 35.00 milliseconds, allocated 13.938 megabytes
+*** Renamer/typechecker [Data.IP.Addr]:
+!!! Renamer/typechecker [Data.IP.Addr]: finished in 724.00 milliseconds, allocated 315.226 megabytes
+*** Desugar [Data.IP.Addr]:
+Result size of Desugar (after optimization)
+  = {terms: 3,441, types: 4,045, coercions: 836}
+!!! Desugar [Data.IP.Addr]: finished in 52.00 milliseconds, allocated 26.231 megabytes
+*** Simplifier [Data.IP.Addr]:
+Result size of Simplifier iteration=1
+  = {terms: 3,369, types: 4,031, coercions: 879}
+Result size of Simplifier iteration=2
+  = {terms: 3,306, types: 3,949, coercions: 860}
+Result size of Simplifier
+  = {terms: 3,306, types: 3,949, coercions: 860}
+!!! Simplifier [Data.IP.Addr]: finished in 102.00 milliseconds, allocated 53.230 megabytes
+*** Specialise [Data.IP.Addr]:
+Result size of Specialise
+  = {terms: 5,440, types: 7,874, coercions: 1,314}
+!!! Specialise [Data.IP.Addr]: finished in 21.00 milliseconds, allocated 14.626 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.Addr]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 6,713, types: 9,960, coercions: 1,314}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.Addr]: finished in 40.00 milliseconds, allocated 31.815 megabytes
+*** Simplifier [Data.IP.Addr]:
+Result size of Simplifier iteration=1
+  = {terms: 8,618, types: 12,042, coercions: 2,012}
+Result size of Simplifier iteration=2
+  = {terms: 7,648, types: 10,680, coercions: 1,957}
+Result size of Simplifier iteration=3
+  = {terms: 7,518, types: 10,540, coercions: 1,840}
+Result size of Simplifier
+  = {terms: 7,518, types: 10,540, coercions: 1,840}
+!!! Simplifier [Data.IP.Addr]: finished in 560.00 milliseconds, allocated 217.520 megabytes
+*** Simplifier [Data.IP.Addr]:
+Result size of Simplifier iteration=1
+  = {terms: 7,473, types: 10,418, coercions: 1,852}
+Result size of Simplifier iteration=2
+  = {terms: 7,095, types: 10,145, coercions: 1,840}
+Result size of Simplifier iteration=3
+  = {terms: 7,082, types: 10,136, coercions: 1,840}
+Result size of Simplifier iteration=4
+  = {terms: 7,082, types: 10,139, coercions: 1,840}
+Result size of Simplifier
+  = {terms: 7,082, types: 10,139, coercions: 1,840}
+!!! Simplifier [Data.IP.Addr]: finished in 240.00 milliseconds, allocated 160.716 megabytes
+*** Simplifier [Data.IP.Addr]:
+Result size of Simplifier iteration=1
+  = {terms: 13,091, types: 17,370, coercions: 1,852}
+Result size of Simplifier iteration=2
+  = {terms: 11,520, types: 14,971, coercions: 1,849}
+Result size of Simplifier iteration=3
+  = {terms: 11,464, types: 14,836, coercions: 1,849}
+Result size of Simplifier iteration=4
+  = {terms: 11,408, types: 14,673, coercions: 1,849}
+Result size of Simplifier
+  = {terms: 11,408, types: 14,673, coercions: 1,849}
+!!! Simplifier [Data.IP.Addr]: finished in 379.00 milliseconds, allocated 227.625 megabytes
+*** Float inwards [Data.IP.Addr]:
+Result size of Float inwards
+  = {terms: 11,408, types: 14,673, coercions: 1,849}
+!!! Float inwards [Data.IP.Addr]: finished in 10.00 milliseconds, allocated 15.882 megabytes
+*** Called arity analysis [Data.IP.Addr]:
+Result size of Called arity analysis
+  = {terms: 11,408, types: 14,673, coercions: 1,849}
+!!! Called arity analysis [Data.IP.Addr]: finished in 14.00 milliseconds, allocated 15.132 megabytes
+*** Simplifier [Data.IP.Addr]:
+Result size of Simplifier iteration=1
+  = {terms: 11,420, types: 14,585, coercions: 1,849}
+Result size of Simplifier
+  = {terms: 11,420, types: 14,615, coercions: 1,849}
+!!! Simplifier [Data.IP.Addr]: finished in 169.00 milliseconds, allocated 104.617 megabytes
+*** Demand analysis [Data.IP.Addr]:
+Result size of Demand analysis
+  = {terms: 11,420, types: 14,615, coercions: 1,849}
+!!! Demand analysis [Data.IP.Addr]: finished in 49.00 milliseconds, allocated 45.914 megabytes
+*** Worker Wrapper binds [Data.IP.Addr]:
+Result size of Worker Wrapper binds
+  = {terms: 14,049, types: 18,524, coercions: 1,951}
+!!! Worker Wrapper binds [Data.IP.Addr]: finished in 26.00 milliseconds, allocated 6.527 megabytes
+*** Simplifier [Data.IP.Addr]:
+Result size of Simplifier iteration=1
+  = {terms: 14,345, types: 18,416, coercions: 1,888}
+Result size of Simplifier iteration=2
+  = {terms: 13,295, types: 16,791, coercions: 1,899}
+Result size of Simplifier iteration=3
+  = {terms: 13,019, types: 16,559, coercions: 1,895}
+Result size of Simplifier iteration=4
+  = {terms: 13,015, types: 16,556, coercions: 1,895}
+Result size of Simplifier
+  = {terms: 13,015, types: 16,556, coercions: 1,895}
+!!! Simplifier [Data.IP.Addr]: finished in 434.00 milliseconds, allocated 285.711 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.Addr]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 13,553, types: 17,256, coercions: 1,895}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.Addr]: finished in 174.00 milliseconds, allocated 57.620 megabytes
+*** Common sub-expression [Data.IP.Addr]:
+Result size of Common sub-expression
+  = {terms: 12,608, types: 16,048, coercions: 1,805}
+!!! Common sub-expression [Data.IP.Addr]: finished in 40.00 milliseconds, allocated 23.439 megabytes
+*** Float inwards [Data.IP.Addr]:
+Result size of Float inwards
+  = {terms: 12,608, types: 16,048, coercions: 1,805}
+!!! Float inwards [Data.IP.Addr]: finished in 9.00 milliseconds, allocated 15.613 megabytes
+*** Simplifier [Data.IP.Addr]:
+Result size of Simplifier iteration=1
+  = {terms: 12,169, types: 15,417, coercions: 1,851}
+Result size of Simplifier iteration=2
+  = {terms: 12,143, types: 15,346, coercions: 1,851}
+Result size of Simplifier iteration=3
+  = {terms: 12,098, types: 15,277, coercions: 1,851}
+Result size of Simplifier
+  = {terms: 12,098, types: 15,277, coercions: 1,851}
+!!! Simplifier [Data.IP.Addr]: finished in 312.00 milliseconds, allocated 250.162 megabytes
+*** CoreTidy [Data.IP.Addr]:
+Result size of Tidy Core
+  = {terms: 8,862, types: 11,274, coercions: 1,728}
+!!! CoreTidy [Data.IP.Addr]: finished in 32.00 milliseconds, allocated 20.717 megabytes
+writeBinIface: 571 Names
+writeBinIface: 797 dict entries
+writeBinIface: 571 Names
+writeBinIface: 797 dict entries
+*** CorePrep [Data.IP.Addr]:
+Result size of CorePrep
+  = {terms: 11,062, types: 12,841, coercions: 1,728}
+!!! CorePrep [Data.IP.Addr]: finished in 16.00 milliseconds, allocated 19.230 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.Addr]:
+!!! CodeGen [Data.IP.Addr]: finished in 513.00 milliseconds, allocated 488.989 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7604_0/ghc_4.s -o dist/dist-sandbox-6afc8227/build/Data/IP/Addr.o
+*** CorePrep [Data.IP.Addr]:
+Result size of CorePrep
+  = {terms: 11,062, types: 12,841, coercions: 1,728}
+!!! CorePrep [Data.IP.Addr]: finished in 22.00 milliseconds, allocated 18.507 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.Addr]:
+!!! CodeGen [Data.IP.Addr]: finished in 539.00 milliseconds, allocated 513.535 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7604_0/ghc_6.s -o dist/dist-sandbox-6afc8227/build/Data/IP/Addr.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7604_0/ghc_7.c /tmp/ghc7604_0/ghc_6.s /tmp/ghc7604_0/ghc_5.c /tmp/ghc7604_0/ghc_4.s /tmp/ghc7604_0/ghc_3.s
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_7.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_5.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_3.s
+compile: input file ./Data/IP/Mask.hs
+*** Checking old interface for Data.IP.Mask:
+[2 of 8] Compiling Data.IP.Mask     ( Data/IP/Mask.hs, dist/dist-sandbox-6afc8227/build/Data/IP/Mask.o )
+*** Parser [Data.IP.Mask]:
+!!! Parser [Data.IP.Mask]: finished in 1.00 milliseconds, allocated 0.976 megabytes
+*** Renamer/typechecker [Data.IP.Mask]:
+!!! Renamer/typechecker [Data.IP.Mask]: finished in 63.00 milliseconds, allocated 56.013 megabytes
+*** Desugar [Data.IP.Mask]:
+Result size of Desugar (after optimization)
+  = {terms: 116, types: 150, coercions: 4}
+!!! Desugar [Data.IP.Mask]: finished in 2.00 milliseconds, allocated 0.817 megabytes
+*** Simplifier [Data.IP.Mask]:
+Result size of Simplifier iteration=1
+  = {terms: 149, types: 198, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 141, types: 194, coercions: 8}
+Result size of Simplifier = {terms: 141, types: 194, coercions: 8}
+!!! Simplifier [Data.IP.Mask]: finished in 6.00 milliseconds, allocated 6.868 megabytes
+*** Specialise [Data.IP.Mask]:
+Result size of Specialise = {terms: 141, types: 194, coercions: 8}
+!!! Specialise [Data.IP.Mask]: finished in 1.00 milliseconds, allocated 0.214 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.Mask]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 197, types: 304, coercions: 8}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.Mask]: finished in 0.00 milliseconds, allocated 1.002 megabytes
+*** Simplifier [Data.IP.Mask]:
+Result size of Simplifier iteration=1
+  = {terms: 190, types: 276, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 175, types: 237, coercions: 8}
+Result size of Simplifier = {terms: 175, types: 237, coercions: 8}
+!!! Simplifier [Data.IP.Mask]: finished in 3.00 milliseconds, allocated 3.891 megabytes
+*** Simplifier [Data.IP.Mask]:
+Result size of Simplifier iteration=1
+  = {terms: 148, types: 305, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 146, types: 304, coercions: 8}
+Result size of Simplifier = {terms: 146, types: 304, coercions: 8}
+!!! Simplifier [Data.IP.Mask]: finished in 3.00 milliseconds, allocated 2.473 megabytes
+*** Simplifier [Data.IP.Mask]:
+Result size of Simplifier iteration=1
+  = {terms: 222, types: 395, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 190, types: 305, coercions: 8}
+Result size of Simplifier = {terms: 190, types: 305, coercions: 8}
+!!! Simplifier [Data.IP.Mask]: finished in 6.00 milliseconds, allocated 2.491 megabytes
+*** Float inwards [Data.IP.Mask]:
+Result size of Float inwards
+  = {terms: 190, types: 305, coercions: 8}
+!!! Float inwards [Data.IP.Mask]: finished in 0.00 milliseconds, allocated 0.310 megabytes
+*** Called arity analysis [Data.IP.Mask]:
+Result size of Called arity analysis
+  = {terms: 190, types: 305, coercions: 8}
+!!! Called arity analysis [Data.IP.Mask]: finished in 0.00 milliseconds, allocated 0.235 megabytes
+*** Simplifier [Data.IP.Mask]:
+Result size of Simplifier = {terms: 190, types: 305, coercions: 8}
+!!! Simplifier [Data.IP.Mask]: finished in 1.00 milliseconds, allocated 0.724 megabytes
+*** Demand analysis [Data.IP.Mask]:
+Result size of Demand analysis
+  = {terms: 190, types: 305, coercions: 8}
+!!! Demand analysis [Data.IP.Mask]: finished in 1.00 milliseconds, allocated 0.831 megabytes
+*** Worker Wrapper binds [Data.IP.Mask]:
+Result size of Worker Wrapper binds
+  = {terms: 216, types: 340, coercions: 8}
+!!! Worker Wrapper binds [Data.IP.Mask]: finished in 0.00 milliseconds, allocated 0.131 megabytes
+*** Simplifier [Data.IP.Mask]:
+Result size of Simplifier iteration=1
+  = {terms: 211, types: 355, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 195, types: 335, coercions: 8}
+Result size of Simplifier = {terms: 195, types: 335, coercions: 8}
+!!! Simplifier [Data.IP.Mask]: finished in 3.00 milliseconds, allocated 2.600 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.Mask]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 217, types: 433, coercions: 8}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.Mask]: finished in 1.00 milliseconds, allocated 1.019 megabytes
+*** Common sub-expression [Data.IP.Mask]:
+Result size of Common sub-expression
+  = {terms: 216, types: 433, coercions: 8}
+!!! Common sub-expression [Data.IP.Mask]: finished in 0.00 milliseconds, allocated 0.274 megabytes
+*** Float inwards [Data.IP.Mask]:
+Result size of Float inwards
+  = {terms: 216, types: 433, coercions: 8}
+!!! Float inwards [Data.IP.Mask]: finished in 1.00 milliseconds, allocated 0.266 megabytes
+*** Simplifier [Data.IP.Mask]:
+Result size of Simplifier iteration=1
+  = {terms: 214, types: 432, coercions: 8}
+Result size of Simplifier = {terms: 214, types: 432, coercions: 8}
+!!! Simplifier [Data.IP.Mask]: finished in 1.00 milliseconds, allocated 1.729 megabytes
+*** CoreTidy [Data.IP.Mask]:
+Result size of Tidy Core = {terms: 214, types: 432, coercions: 8}
+!!! CoreTidy [Data.IP.Mask]: finished in 1.00 milliseconds, allocated 0.468 megabytes
+writeBinIface: 39 Names
+writeBinIface: 96 dict entries
+writeBinIface: 39 Names
+writeBinIface: 96 dict entries
+*** CorePrep [Data.IP.Mask]:
+Result size of CorePrep = {terms: 251, types: 495, coercions: 8}
+!!! CorePrep [Data.IP.Mask]: finished in 0.00 milliseconds, allocated 0.461 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.Mask]:
+!!! CodeGen [Data.IP.Mask]: finished in 21.00 milliseconds, allocated 14.770 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7604_0/ghc_9.s -o dist/dist-sandbox-6afc8227/build/Data/IP/Mask.o
+*** CorePrep [Data.IP.Mask]:
+Result size of CorePrep = {terms: 251, types: 495, coercions: 8}
+!!! CorePrep [Data.IP.Mask]: finished in 1.00 milliseconds, allocated 0.451 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.Mask]:
+!!! CodeGen [Data.IP.Mask]: finished in 28.00 milliseconds, allocated 15.550 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7604_0/ghc_11.s -o dist/dist-sandbox-6afc8227/build/Data/IP/Mask.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7604_0/ghc_12.c /tmp/ghc7604_0/ghc_11.s /tmp/ghc7604_0/ghc_10.c /tmp/ghc7604_0/ghc_9.s /tmp/ghc7604_0/ghc_8.s
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_12.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_10.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_8.s
+compile: input file ./Data/IP/Range.hs
+*** Checking old interface for Data.IP.Range:
+[3 of 8] Compiling Data.IP.Range    ( Data/IP/Range.hs, dist/dist-sandbox-6afc8227/build/Data/IP/Range.o )
+*** Parser [Data.IP.Range]:
+!!! Parser [Data.IP.Range]: finished in 2.00 milliseconds, allocated 3.411 megabytes
+*** Renamer/typechecker [Data.IP.Range]:
+!!! Renamer/typechecker [Data.IP.Range]: finished in 52.00 milliseconds, allocated 35.035 megabytes
+*** Desugar [Data.IP.Range]:
+Result size of Desugar (after optimization)
+  = {terms: 1,441, types: 2,577, coercions: 664}
+!!! Desugar [Data.IP.Range]: finished in 9.00 milliseconds, allocated 8.364 megabytes
+*** Simplifier [Data.IP.Range]:
+Result size of Simplifier iteration=1
+  = {terms: 1,373, types: 2,505, coercions: 695}
+Result size of Simplifier
+  = {terms: 1,328, types: 2,445, coercions: 678}
+!!! Simplifier [Data.IP.Range]: finished in 18.00 milliseconds, allocated 12.559 megabytes
+*** Specialise [Data.IP.Range]:
+Result size of Specialise
+  = {terms: 3,168, types: 6,010, coercions: 1,189}
+!!! Specialise [Data.IP.Range]: finished in 6.00 milliseconds, allocated 6.292 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.Range]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 3,519, types: 7,043, coercions: 1,189}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.Range]: finished in 17.00 milliseconds, allocated 20.309 megabytes
+*** Simplifier [Data.IP.Range]:
+Result size of Simplifier iteration=1
+  = {terms: 6,443, types: 11,167, coercions: 1,781}
+Result size of Simplifier iteration=2
+  = {terms: 5,497, types: 9,417, coercions: 1,521}
+Result size of Simplifier iteration=3
+  = {terms: 5,381, types: 9,027, coercions: 1,384}
+Result size of Simplifier
+  = {terms: 5,381, types: 9,027, coercions: 1,384}
+!!! Simplifier [Data.IP.Range]: finished in 186.00 milliseconds, allocated 133.021 megabytes
+*** Simplifier [Data.IP.Range]:
+Result size of Simplifier iteration=1
+  = {terms: 5,431, types: 9,024, coercions: 1,400}
+Result size of Simplifier iteration=2
+  = {terms: 5,301, types: 8,925, coercions: 1,400}
+Result size of Simplifier iteration=3
+  = {terms: 5,286, types: 8,920, coercions: 1,400}
+Result size of Simplifier
+  = {terms: 5,286, types: 8,920, coercions: 1,400}
+!!! Simplifier [Data.IP.Range]: finished in 191.00 milliseconds, allocated 99.355 megabytes
+*** Simplifier [Data.IP.Range]:
+Result size of Simplifier iteration=1
+  = {terms: 7,893, types: 11,346, coercions: 1,413}
+Result size of Simplifier iteration=2
+  = {terms: 7,595, types: 10,884, coercions: 1,413}
+Result size of Simplifier iteration=3
+  = {terms: 7,542, types: 10,773, coercions: 1,418}
+Result size of Simplifier iteration=4
+  = {terms: 7,500, types: 10,698, coercions: 1,413}
+Result size of Simplifier
+  = {terms: 7,500, types: 10,698, coercions: 1,413}
+!!! Simplifier [Data.IP.Range]: finished in 292.00 milliseconds, allocated 133.686 megabytes
+*** Float inwards [Data.IP.Range]:
+Result size of Float inwards
+  = {terms: 7,500, types: 10,698, coercions: 1,413}
+!!! Float inwards [Data.IP.Range]: finished in 9.00 milliseconds, allocated 10.988 megabytes
+*** Called arity analysis [Data.IP.Range]:
+Result size of Called arity analysis
+  = {terms: 7,500, types: 10,698, coercions: 1,413}
+!!! Called arity analysis [Data.IP.Range]: finished in 11.00 milliseconds, allocated 7.893 megabytes
+*** Simplifier [Data.IP.Range]:
+Result size of Simplifier
+  = {terms: 7,500, types: 10,698, coercions: 1,413}
+!!! Simplifier [Data.IP.Range]: finished in 45.00 milliseconds, allocated 32.228 megabytes
+*** Demand analysis [Data.IP.Range]:
+Result size of Demand analysis
+  = {terms: 7,500, types: 10,698, coercions: 1,413}
+!!! Demand analysis [Data.IP.Range]: finished in 23.00 milliseconds, allocated 31.043 megabytes
+*** Worker Wrapper binds [Data.IP.Range]:
+Result size of Worker Wrapper binds
+  = {terms: 9,728, types: 14,013, coercions: 1,569}
+!!! Worker Wrapper binds [Data.IP.Range]: finished in 21.00 milliseconds, allocated 4.939 megabytes
+*** Simplifier [Data.IP.Range]:
+Result size of Simplifier iteration=1
+  = {terms: 9,184, types: 12,948, coercions: 1,463}
+Result size of Simplifier iteration=2
+  = {terms: 8,608, types: 12,116, coercions: 1,441}
+Result size of Simplifier
+  = {terms: 8,515, types: 12,058, coercions: 1,441}
+!!! Simplifier [Data.IP.Range]: finished in 165.00 milliseconds, allocated 136.807 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.Range]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 8,702, types: 12,384, coercions: 1,441}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.Range]: finished in 59.00 milliseconds, allocated 44.273 megabytes
+*** Common sub-expression [Data.IP.Range]:
+Result size of Common sub-expression
+  = {terms: 7,842, types: 11,533, coercions: 1,370}
+!!! Common sub-expression [Data.IP.Range]: finished in 13.00 milliseconds, allocated 14.067 megabytes
+*** Float inwards [Data.IP.Range]:
+Result size of Float inwards
+  = {terms: 7,842, types: 11,533, coercions: 1,370}
+!!! Float inwards [Data.IP.Range]: finished in 7.00 milliseconds, allocated 11.232 megabytes
+*** Simplifier [Data.IP.Range]:
+Result size of Simplifier iteration=1
+  = {terms: 7,778, types: 11,464, coercions: 1,394}
+Result size of Simplifier
+  = {terms: 7,778, types: 11,464, coercions: 1,394}
+!!! Simplifier [Data.IP.Range]: finished in 115.00 milliseconds, allocated 78.539 megabytes
+*** CoreTidy [Data.IP.Range]:
+Result size of Tidy Core
+  = {terms: 6,099, types: 8,992, coercions: 1,210}
+!!! CoreTidy [Data.IP.Range]: finished in 20.00 milliseconds, allocated 14.022 megabytes
+writeBinIface: 346 Names
+writeBinIface: 627 dict entries
+writeBinIface: 346 Names
+writeBinIface: 627 dict entries
+*** CorePrep [Data.IP.Range]:
+Result size of CorePrep
+  = {terms: 7,569, types: 10,750, coercions: 1,210}
+!!! CorePrep [Data.IP.Range]: finished in 11.00 milliseconds, allocated 13.356 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.Range]:
+!!! CodeGen [Data.IP.Range]: finished in 333.00 milliseconds, allocated 342.364 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7604_0/ghc_14.s -o dist/dist-sandbox-6afc8227/build/Data/IP/Range.o
+*** CorePrep [Data.IP.Range]:
+Result size of CorePrep
+  = {terms: 7,569, types: 10,750, coercions: 1,210}
+!!! CorePrep [Data.IP.Range]: finished in 12.00 milliseconds, allocated 12.808 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.Range]:
+!!! CodeGen [Data.IP.Range]: finished in 340.00 milliseconds, allocated 358.804 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7604_0/ghc_16.s -o dist/dist-sandbox-6afc8227/build/Data/IP/Range.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7604_0/ghc_17.c /tmp/ghc7604_0/ghc_16.s /tmp/ghc7604_0/ghc_15.c /tmp/ghc7604_0/ghc_14.s /tmp/ghc7604_0/ghc_13.s
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_17.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_13.s
+compile: input file ./Data/IP/Op.hs
+*** Checking old interface for Data.IP.Op:
+[4 of 8] Compiling Data.IP.Op       ( Data/IP/Op.hs, dist/dist-sandbox-6afc8227/build/Data/IP/Op.o )
+*** Parser [Data.IP.Op]:
+!!! Parser [Data.IP.Op]: finished in 1.00 milliseconds, allocated 1.556 megabytes
+*** Renamer/typechecker [Data.IP.Op]:
+!!! Renamer/typechecker [Data.IP.Op]: finished in 7.00 milliseconds, allocated 4.864 megabytes
+*** Desugar [Data.IP.Op]:
+Result size of Desugar (after optimization)
+  = {terms: 253, types: 278, coercions: 0}
+!!! Desugar [Data.IP.Op]: finished in 1.00 milliseconds, allocated 1.307 megabytes
+
+Data/IP/Op.hs:106:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Addr a
+    • In the type signature for:
+           addrRangePair :: Addr a => AddrRange a -> (a, Int)
+*** Simplifier [Data.IP.Op]:
+Result size of Simplifier iteration=1
+  = {terms: 237, types: 233, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 211, types: 209, coercions: 0}
+Result size of Simplifier = {terms: 211, types: 209, coercions: 0}
+!!! Simplifier [Data.IP.Op]: finished in 2.00 milliseconds, allocated 2.381 megabytes
+*** Specialise [Data.IP.Op]:
+Result size of Specialise = {terms: 234, types: 233, coercions: 0}
+!!! Specialise [Data.IP.Op]: finished in 0.00 milliseconds, allocated 0.313 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.Op]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 262, types: 267, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.Op]: finished in 1.00 milliseconds, allocated 1.261 megabytes
+*** Simplifier [Data.IP.Op]:
+Result size of Simplifier iteration=1
+  = {terms: 329, types: 318, coercions: 36}
+Result size of Simplifier iteration=2
+  = {terms: 316, types: 313, coercions: 30}
+Result size of Simplifier = {terms: 316, types: 313, coercions: 30}
+!!! Simplifier [Data.IP.Op]: finished in 4.00 milliseconds, allocated 3.781 megabytes
+*** Simplifier [Data.IP.Op]:
+Result size of Simplifier iteration=1
+  = {terms: 308, types: 309, coercions: 30}
+Result size of Simplifier = {terms: 308, types: 309, coercions: 30}
+!!! Simplifier [Data.IP.Op]: finished in 2.00 milliseconds, allocated 2.368 megabytes
+*** Simplifier [Data.IP.Op]:
+Result size of Simplifier iteration=1
+  = {terms: 386, types: 336, coercions: 29}
+Result size of Simplifier iteration=2
+  = {terms: 282, types: 234, coercions: 27}
+Result size of Simplifier iteration=3
+  = {terms: 278, types: 232, coercions: 27}
+Result size of Simplifier = {terms: 278, types: 232, coercions: 27}
+!!! Simplifier [Data.IP.Op]: finished in 4.00 milliseconds, allocated 4.708 megabytes
+*** Float inwards [Data.IP.Op]:
+Result size of Float inwards
+  = {terms: 278, types: 232, coercions: 27}
+!!! Float inwards [Data.IP.Op]: finished in 0.00 milliseconds, allocated 0.395 megabytes
+*** Called arity analysis [Data.IP.Op]:
+Result size of Called arity analysis
+  = {terms: 278, types: 232, coercions: 27}
+!!! Called arity analysis [Data.IP.Op]: finished in 1.00 milliseconds, allocated 0.263 megabytes
+*** Simplifier [Data.IP.Op]:
+Result size of Simplifier = {terms: 278, types: 232, coercions: 27}
+!!! Simplifier [Data.IP.Op]: finished in 1.00 milliseconds, allocated 0.988 megabytes
+*** Demand analysis [Data.IP.Op]:
+Result size of Demand analysis
+  = {terms: 278, types: 232, coercions: 27}
+!!! Demand analysis [Data.IP.Op]: finished in 1.00 milliseconds, allocated 1.161 megabytes
+*** Worker Wrapper binds [Data.IP.Op]:
+Result size of Worker Wrapper binds
+  = {terms: 442, types: 448, coercions: 30}
+!!! Worker Wrapper binds [Data.IP.Op]: finished in 0.00 milliseconds, allocated 0.377 megabytes
+*** Simplifier [Data.IP.Op]:
+Result size of Simplifier iteration=1
+  = {terms: 368, types: 349, coercions: 27}
+Result size of Simplifier iteration=2
+  = {terms: 311, types: 279, coercions: 31}
+Result size of Simplifier iteration=3
+  = {terms: 274, types: 237, coercions: 27}
+Result size of Simplifier = {terms: 274, types: 237, coercions: 27}
+!!! Simplifier [Data.IP.Op]: finished in 7.00 milliseconds, allocated 6.485 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.Op]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 274, types: 237, coercions: 27}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.Op]: finished in 1.00 milliseconds, allocated 1.279 megabytes
+*** Common sub-expression [Data.IP.Op]:
+Result size of Common sub-expression
+  = {terms: 269, types: 237, coercions: 27}
+!!! Common sub-expression [Data.IP.Op]: finished in 0.00 milliseconds, allocated 0.399 megabytes
+*** Float inwards [Data.IP.Op]:
+Result size of Float inwards
+  = {terms: 269, types: 237, coercions: 27}
+!!! Float inwards [Data.IP.Op]: finished in 1.00 milliseconds, allocated 0.353 megabytes
+*** Simplifier [Data.IP.Op]:
+Result size of Simplifier iteration=1
+  = {terms: 261, types: 233, coercions: 27}
+Result size of Simplifier = {terms: 261, types: 233, coercions: 27}
+!!! Simplifier [Data.IP.Op]: finished in 2.00 milliseconds, allocated 2.664 megabytes
+*** CoreTidy [Data.IP.Op]:
+Result size of Tidy Core = {terms: 243, types: 253, coercions: 22}
+!!! CoreTidy [Data.IP.Op]: finished in 0.00 milliseconds, allocated 0.487 megabytes
+writeBinIface: 41 Names
+writeBinIface: 118 dict entries
+writeBinIface: 41 Names
+writeBinIface: 118 dict entries
+*** CorePrep [Data.IP.Op]:
+Result size of CorePrep = {terms: 348, types: 322, coercions: 22}
+!!! CorePrep [Data.IP.Op]: finished in 1.00 milliseconds, allocated 0.601 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.Op]:
+!!! CodeGen [Data.IP.Op]: finished in 13.00 milliseconds, allocated 12.544 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7604_0/ghc_19.s -o dist/dist-sandbox-6afc8227/build/Data/IP/Op.o
+*** CorePrep [Data.IP.Op]:
+Result size of CorePrep = {terms: 348, types: 322, coercions: 22}
+!!! CorePrep [Data.IP.Op]: finished in 1.00 milliseconds, allocated 0.592 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.Op]:
+!!! CodeGen [Data.IP.Op]: finished in 13.00 milliseconds, allocated 13.298 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7604_0/ghc_21.s -o dist/dist-sandbox-6afc8227/build/Data/IP/Op.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7604_0/ghc_22.c /tmp/ghc7604_0/ghc_21.s /tmp/ghc7604_0/ghc_20.c /tmp/ghc7604_0/ghc_19.s /tmp/ghc7604_0/ghc_18.s
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_22.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_18.s
+compile: input file ./Data/IP/Internal.hs
+*** Checking old interface for Data.IP.Internal:
+[5 of 8] Compiling Data.IP.Internal ( Data/IP/Internal.hs, dist/dist-sandbox-6afc8227/build/Data/IP/Internal.o )
+*** Parser [Data.IP.Internal]:
+!!! Parser [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.153 megabytes
+*** Renamer/typechecker [Data.IP.Internal]:
+!!! Renamer/typechecker [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.864 megabytes
+*** Desugar [Data.IP.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.058 megabytes
+*** Simplifier [Data.IP.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.145 megabytes
+*** Specialise [Data.IP.Internal]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Data.IP.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Simplifier [Data.IP.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.IP.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Data.IP.Internal]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Data.IP.Internal]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.IP.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Data.IP.Internal]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Data.IP.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [Data.IP.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.Internal]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [Data.IP.Internal]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Data.IP.Internal]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Data.IP.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Data.IP.Internal]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 13 Names
+writeBinIface: 51 dict entries
+writeBinIface: 13 Names
+writeBinIface: 51 dict entries
+*** CorePrep [Data.IP.Internal]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.Internal]:
+!!! CodeGen [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.285 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7604_0/ghc_24.s -o dist/dist-sandbox-6afc8227/build/Data/IP/Internal.o
+*** CorePrep [Data.IP.Internal]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.IP.Internal]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.Internal]:
+!!! CodeGen [Data.IP.Internal]: finished in 1.00 milliseconds, allocated 0.283 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7604_0/ghc_26.s -o dist/dist-sandbox-6afc8227/build/Data/IP/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7604_0/ghc_27.c /tmp/ghc7604_0/ghc_26.s /tmp/ghc7604_0/ghc_25.c /tmp/ghc7604_0/ghc_24.s /tmp/ghc7604_0/ghc_23.s
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_27.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_25.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_23.s
+compile: input file ./Data/IP.hs
+*** Checking old interface for Data.IP:
+[6 of 8] Compiling Data.IP          ( Data/IP.hs, dist/dist-sandbox-6afc8227/build/Data/IP.o )
+*** Parser [Data.IP]:
+!!! Parser [Data.IP]: finished in 0.00 milliseconds, allocated 0.418 megabytes
+*** Renamer/typechecker [Data.IP]:
+!!! Renamer/typechecker [Data.IP]: finished in 2.00 milliseconds, allocated 0.983 megabytes
+*** Desugar [Data.IP]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.IP]: finished in 0.00 milliseconds, allocated 0.075 megabytes
+*** Simplifier [Data.IP]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP]: finished in 1.00 milliseconds, allocated 0.144 megabytes
+*** Specialise [Data.IP]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.IP]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Data.IP]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.IP]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Simplifier [Data.IP]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Float inwards [Data.IP]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.IP]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Data.IP]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.IP]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.IP]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Data.IP]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.IP]: finished in 1.00 milliseconds, allocated 0.064 megabytes
+*** Worker Wrapper binds [Data.IP]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.IP]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.IP]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Data.IP]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.IP]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Data.IP]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.IP]: finished in 0.00 milliseconds, allocated 0.042 megabytes
+*** Simplifier [Data.IP]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Data.IP]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.IP]: finished in 0.00 milliseconds, allocated 0.062 megabytes
+writeBinIface: 39 Names
+writeBinIface: 77 dict entries
+writeBinIface: 39 Names
+writeBinIface: 77 dict entries
+*** CorePrep [Data.IP]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.IP]: finished in 1.00 milliseconds, allocated 0.051 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP]:
+!!! CodeGen [Data.IP]: finished in 0.00 milliseconds, allocated 0.269 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7604_0/ghc_29.s -o dist/dist-sandbox-6afc8227/build/Data/IP.o
+*** CorePrep [Data.IP]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.IP]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP]:
+!!! CodeGen [Data.IP]: finished in 1.00 milliseconds, allocated 0.267 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7604_0/ghc_31.s -o dist/dist-sandbox-6afc8227/build/Data/IP.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7604_0/ghc_32.c /tmp/ghc7604_0/ghc_31.s /tmp/ghc7604_0/ghc_30.c /tmp/ghc7604_0/ghc_29.s /tmp/ghc7604_0/ghc_28.s
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_32.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_30.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_28.s
+compile: input file /tmp/ghc7604_0/ghc_1.hscpp
+*** Checking old interface for Data.IP.RouteTable.Internal:
+[7 of 8] Compiling Data.IP.RouteTable.Internal ( Data/IP/RouteTable/Internal.hs, dist/dist-sandbox-6afc8227/build/Data/IP/RouteTable/Internal.o )
+*** Parser [Data.IP.RouteTable.Internal]:
+!!! Parser [Data.IP.RouteTable.Internal]: finished in 5.00 milliseconds, allocated 7.360 megabytes
+*** Renamer/typechecker [Data.IP.RouteTable.Internal]:
+!!! Renamer/typechecker [Data.IP.RouteTable.Internal]: finished in 46.00 milliseconds, allocated 31.074 megabytes
+*** Desugar [Data.IP.RouteTable.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 1,277, types: 1,944, coercions: 19}
+!!! Desugar [Data.IP.RouteTable.Internal]: finished in 8.00 milliseconds, allocated 8.012 megabytes
+
+Data/IP/RouteTable/Internal.hs:103:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Routable k
+    • In the type signature for:
+           empty :: Routable k => IPRTable k a
+
+Data/IP/RouteTable/Internal.hs:187:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Routable k
+    • In the type signature for:
+           node :: Routable k =>
+                   AddrRange k
+                   -> k -> Maybe a -> IPRTable k a -> IPRTable k a -> IPRTable k a
+
+Data/IP/RouteTable/Internal.hs:271:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Routable k
+    • In the type signature for:
+           Data.IP.RouteTable.Internal.toList :: Routable k =>
+                                                 IPRTable k a -> [(AddrRange k, a)]
+*** Simplifier [Data.IP.RouteTable.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 1,300, types: 2,002, coercions: 16}
+Result size of Simplifier iteration=2
+  = {terms: 1,257, types: 1,951, coercions: 16}
+Result size of Simplifier iteration=3
+  = {terms: 1,252, types: 1,946, coercions: 16}
+Result size of Simplifier
+  = {terms: 1,252, types: 1,946, coercions: 16}
+!!! Simplifier [Data.IP.RouteTable.Internal]: finished in 28.00 milliseconds, allocated 25.299 megabytes
+*** Specialise [Data.IP.RouteTable.Internal]:
+Result size of Specialise
+  = {terms: 1,257, types: 1,963, coercions: 16}
+!!! Specialise [Data.IP.RouteTable.Internal]: finished in 2.00 milliseconds, allocated 1.740 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.RouteTable.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,411, types: 2,234, coercions: 16}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.RouteTable.Internal]: finished in 7.00 milliseconds, allocated 11.681 megabytes
+*** Simplifier [Data.IP.RouteTable.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 1,907, types: 2,765, coercions: 144}
+Result size of Simplifier iteration=2
+  = {terms: 1,836, types: 2,731, coercions: 222}
+Result size of Simplifier iteration=3
+  = {terms: 1,832, types: 2,729, coercions: 222}
+Result size of Simplifier
+  = {terms: 1,832, types: 2,729, coercions: 222}
+!!! Simplifier [Data.IP.RouteTable.Internal]: finished in 38.00 milliseconds, allocated 33.223 megabytes
+*** Simplifier [Data.IP.RouteTable.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 1,767, types: 2,739, coercions: 222}
+Result size of Simplifier iteration=2
+  = {terms: 1,759, types: 2,736, coercions: 222}
+Result size of Simplifier
+  = {terms: 1,759, types: 2,736, coercions: 222}
+!!! Simplifier [Data.IP.RouteTable.Internal]: finished in 22.00 milliseconds, allocated 21.415 megabytes
+*** Simplifier [Data.IP.RouteTable.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,313, types: 3,197, coercions: 223}
+Result size of Simplifier iteration=2
+  = {terms: 2,137, types: 2,925, coercions: 223}
+Result size of Simplifier
+  = {terms: 2,131, types: 2,887, coercions: 223}
+!!! Simplifier [Data.IP.RouteTable.Internal]: finished in 27.00 milliseconds, allocated 25.063 megabytes
+*** Float inwards [Data.IP.RouteTable.Internal]:
+Result size of Float inwards
+  = {terms: 2,131, types: 2,887, coercions: 223}
+!!! Float inwards [Data.IP.RouteTable.Internal]: finished in 3.00 milliseconds, allocated 4.398 megabytes
+*** Called arity analysis [Data.IP.RouteTable.Internal]:
+Result size of Called arity analysis
+  = {terms: 2,131, types: 2,887, coercions: 223}
+!!! Called arity analysis [Data.IP.RouteTable.Internal]: finished in 2.00 milliseconds, allocated 2.341 megabytes
+*** Simplifier [Data.IP.RouteTable.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,128, types: 2,882, coercions: 223}
+Result size of Simplifier
+  = {terms: 2,128, types: 2,882, coercions: 223}
+!!! Simplifier [Data.IP.RouteTable.Internal]: finished in 16.00 milliseconds, allocated 15.798 megabytes
+*** Demand analysis [Data.IP.RouteTable.Internal]:
+Result size of Demand analysis
+  = {terms: 2,128, types: 2,882, coercions: 223}
+!!! Demand analysis [Data.IP.RouteTable.Internal]: finished in 10.00 milliseconds, allocated 11.684 megabytes
+*** Worker Wrapper binds [Data.IP.RouteTable.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 2,339, types: 3,250, coercions: 229}
+!!! Worker Wrapper binds [Data.IP.RouteTable.Internal]: finished in 2.00 milliseconds, allocated 1.014 megabytes
+*** Simplifier [Data.IP.RouteTable.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,359, types: 3,226, coercions: 223}
+Result size of Simplifier iteration=2
+  = {terms: 2,285, types: 3,067, coercions: 223}
+Result size of Simplifier iteration=3
+  = {terms: 2,283, types: 3,065, coercions: 223}
+Result size of Simplifier iteration=4
+  = {terms: 2,283, types: 3,065, coercions: 223}
+Result size of Simplifier
+  = {terms: 2,283, types: 3,065, coercions: 223}
+!!! Simplifier [Data.IP.RouteTable.Internal]: finished in 45.00 milliseconds, allocated 39.968 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.RouteTable.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,342, types: 3,157, coercions: 223}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.RouteTable.Internal]: finished in 11.00 milliseconds, allocated 17.109 megabytes
+*** Common sub-expression [Data.IP.RouteTable.Internal]:
+Result size of Common sub-expression
+  = {terms: 2,327, types: 3,143, coercions: 223}
+!!! Common sub-expression [Data.IP.RouteTable.Internal]: finished in 3.00 milliseconds, allocated 2.880 megabytes
+*** Float inwards [Data.IP.RouteTable.Internal]:
+Result size of Float inwards
+  = {terms: 2,327, types: 3,143, coercions: 223}
+!!! Float inwards [Data.IP.RouteTable.Internal]: finished in 3.00 milliseconds, allocated 4.368 megabytes
+*** Simplifier [Data.IP.RouteTable.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,307, types: 3,117, coercions: 223}
+Result size of Simplifier
+  = {terms: 2,307, types: 3,117, coercions: 223}
+!!! Simplifier [Data.IP.RouteTable.Internal]: finished in 24.00 milliseconds, allocated 19.420 megabytes
+*** CoreTidy [Data.IP.RouteTable.Internal]:
+Result size of Tidy Core
+  = {terms: 2,355, types: 3,211, coercions: 223}
+!!! CoreTidy [Data.IP.RouteTable.Internal]: finished in 5.00 milliseconds, allocated 3.637 megabytes
+writeBinIface: 150 Names
+writeBinIface: 311 dict entries
+writeBinIface: 150 Names
+writeBinIface: 311 dict entries
+*** CorePrep [Data.IP.RouteTable.Internal]:
+Result size of CorePrep
+  = {terms: 2,772, types: 3,730, coercions: 223}
+!!! CorePrep [Data.IP.RouteTable.Internal]: finished in 4.00 milliseconds, allocated 4.975 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.RouteTable.Internal]:
+!!! CodeGen [Data.IP.RouteTable.Internal]: finished in 123.00 milliseconds, allocated 134.621 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP/RouteTable -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7604_0/ghc_34.s -o dist/dist-sandbox-6afc8227/build/Data/IP/RouteTable/Internal.o
+*** CorePrep [Data.IP.RouteTable.Internal]:
+Result size of CorePrep
+  = {terms: 2,772, types: 3,730, coercions: 223}
+!!! CorePrep [Data.IP.RouteTable.Internal]: finished in 4.00 milliseconds, allocated 4.767 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.RouteTable.Internal]:
+!!! CodeGen [Data.IP.RouteTable.Internal]: finished in 143.00 milliseconds, allocated 141.765 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP/RouteTable -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7604_0/ghc_36.s -o dist/dist-sandbox-6afc8227/build/Data/IP/RouteTable/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7604_0/ghc_37.c /tmp/ghc7604_0/ghc_36.s /tmp/ghc7604_0/ghc_35.c /tmp/ghc7604_0/ghc_34.s /tmp/ghc7604_0/ghc_33.s
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_37.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_35.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_33.s
+compile: input file ./Data/IP/RouteTable.hs
+*** Checking old interface for Data.IP.RouteTable:
+[8 of 8] Compiling Data.IP.RouteTable ( Data/IP/RouteTable.hs, dist/dist-sandbox-6afc8227/build/Data/IP/RouteTable.o )
+*** Parser [Data.IP.RouteTable]:
+!!! Parser [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.279 megabytes
+*** Renamer/typechecker [Data.IP.RouteTable]:
+!!! Renamer/typechecker [Data.IP.RouteTable]: finished in 1.00 milliseconds, allocated 0.702 megabytes
+*** Desugar [Data.IP.RouteTable]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.058 megabytes
+*** Simplifier [Data.IP.RouteTable]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.146 megabytes
+*** Specialise [Data.IP.RouteTable]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.RouteTable]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Data.IP.RouteTable]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Simplifier [Data.IP.RouteTable]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.IP.RouteTable]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Data.IP.RouteTable]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Data.IP.RouteTable]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Data.IP.RouteTable]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Data.IP.RouteTable]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Data.IP.RouteTable]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.IP.RouteTable]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.RouteTable]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IP.RouteTable]: finished in 1.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Data.IP.RouteTable]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Float inwards [Data.IP.RouteTable]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Data.IP.RouteTable]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Data.IP.RouteTable]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+writeBinIface: 15 Names
+writeBinIface: 56 dict entries
+writeBinIface: 15 Names
+writeBinIface: 56 dict entries
+*** CorePrep [Data.IP.RouteTable]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.IP.RouteTable]: finished in 1.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.RouteTable]:
+!!! CodeGen [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.288 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7604_0/ghc_39.s -o dist/dist-sandbox-6afc8227/build/Data/IP/RouteTable.o
+*** CorePrep [Data.IP.RouteTable]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IP.RouteTable]:
+!!! CodeGen [Data.IP.RouteTable]: finished in 0.00 milliseconds, allocated 0.285 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7604_0/ghc_41.s -o dist/dist-sandbox-6afc8227/build/Data/IP/RouteTable.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc7604_0/ghc_42.c /tmp/ghc7604_0/ghc_41.s /tmp/ghc7604_0/ghc_40.c /tmp/ghc7604_0/ghc_39.s /tmp/ghc7604_0/ghc_38.s
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_42.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_40.c
+Warning: deleting non-existent /tmp/ghc7604_0/ghc_38.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc7604_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7604_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/appar-0.1.4-1in4Ewd8JBkAYDZSWXLSe0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/byteorder-1.0.4-BbL4c17EpZrL9PcZm0xys9 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/network-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0 -o dist/dist-sandbox-6afc8227/build/libHSiproute-1.7.0-3gBtqYPiXNzAiDCAky7oBX-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSiproute-1.7.0-3gBtqYPiXNzAiDCAky7oBX-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Data/IP.dyn_o dist/dist-sandbox-6afc8227/build/Data/IP/Internal.dyn_o dist/dist-sandbox-6afc8227/build/Data/IP/RouteTable.dyn_o dist/dist-sandbox-6afc8227/build/Data/IP/Addr.dyn_o dist/dist-sandbox-6afc8227/build/Data/IP/Mask.dyn_o dist/dist-sandbox-6afc8227/build/Data/IP/Op.dyn_o dist/dist-sandbox-6afc8227/build/Data/IP/Range.dyn_o dist/dist-sandbox-6afc8227/build/Data/IP/RouteTable/Internal.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/network-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/byteorder-1.0.4-BbL4c17EpZrL9PcZm0xys9 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/appar-0.1.4-1in4Ewd8JBkAYDZSWXLSe0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSnetwork-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL-ghc8.0.1 -lHSunix-2.7.2.0-ghc8.0.1 -lHStime-1.6.0.1-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSbyteorder-1.0.4-BbL4c17EpZrL9PcZm0xys9-ghc8.0.1 -lHSappar-0.1.4-1in4Ewd8JBkAYDZSWXLSe0-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lrt -lutil -ldl -lpthread -lgmp
+Created temporary directory: /tmp/ghc8316_0
+*** Deleting temp files:
+Deleting: /tmp/ghc8316_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8316_0
+Creating package registration file:
+/tmp/pkgConf-iproute-1.714099597082077486715.0
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/iproute-1.7.0-3gBtqYPiXNzAiDCAky7oBX
+Registering iproute-1.7.0...
+cabal: Leaving directory '/tmp/cabal-tmp-1029/iproute-1.7.0'

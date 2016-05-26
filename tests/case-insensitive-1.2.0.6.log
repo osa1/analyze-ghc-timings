@@ -1,0 +1,500 @@
+cabal: Entering directory '/tmp/cabal-tmp-1026/case-insensitive-1.2.0.6'
+Configuring case-insensitive-1.2.0.6...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc9472_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/16816927771714636915.c -o /tmp/ghc9472_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc9472_0/ghc_1.s -o /tmp/1957747793424238335.o
+*** Deleting temp files:
+Deleting: /tmp/ghc9472_0/ghc_2.rsp /tmp/ghc9472_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9472_0
+Building case-insensitive-1.2.0.6...
+Preprocessing library case-insensitive-1.2.0.6...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.CaseInsensitive,*Data.CaseInsensitive.Unsafe,*Data.CaseInsensitive.Internal
+Created temporary directory: /tmp/ghc9530_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9530_0/ghc_2.h -x assembler-with-cpp ./Data/CaseInsensitive.hs -o /tmp/ghc9530_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9530_0/ghc_4.h -x assembler-with-cpp ./Data/CaseInsensitive/Unsafe.hs -o /tmp/ghc9530_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9530_0/ghc_6.h -x assembler-with-cpp ./Data/CaseInsensitive/Internal.hs -o /tmp/ghc9530_0/ghc_5.hscpp
+!!! Chasing dependencies: finished in 17.00 milliseconds, allocated 11.999 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-15 13:46:07 UTC
+         ms_mod = Data.CaseInsensitive.Internal,
+         ms_textual_imps = [(Nothing, Data.Hashable),
+                            (Nothing, Control.DeepSeq), (Nothing, Data.Text.Lazy),
+                            (Nothing, Data.Text), (Nothing, Data.ByteString.Lazy),
+                            (Nothing, Data.ByteString), (Nothing, Data.List),
+                            (Nothing, Data.Semigroup), (Nothing, Text.Show),
+                            (Nothing, Text.Read), (Nothing, Prelude), (Nothing, Data.Word),
+                            (Nothing, Data.Typeable), (Nothing, Data.Data),
+                            (Nothing, Data.String), (Nothing, Data.Ord),
+                            (Nothing, Data.Monoid), (Nothing, Data.Function),
+                            (Nothing, Data.Eq), (Nothing, Data.Char), (Nothing, Data.Bool)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-15 13:46:07 UTC
+         ms_mod = Data.CaseInsensitive,
+         ms_textual_imps = [(Nothing, Data.CaseInsensitive.Internal)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-03-15 13:46:07 UTC
+         ms_mod = Data.CaseInsensitive.Unsafe,
+         ms_textual_imps = [(Nothing, Data.CaseInsensitive.Internal)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc9530_0/ghc_6.h /tmp/ghc9530_0/ghc_4.h /tmp/ghc9530_0/ghc_2.h
+compile: input file /tmp/ghc9530_0/ghc_5.hscpp
+*** Checking old interface for Data.CaseInsensitive.Internal:
+[1 of 3] Compiling Data.CaseInsensitive.Internal ( Data/CaseInsensitive/Internal.hs, dist/dist-sandbox-6afc8227/build/Data/CaseInsensitive/Internal.o )
+*** Parser [Data.CaseInsensitive.Internal]:
+!!! Parser [Data.CaseInsensitive.Internal]: finished in 23.00 milliseconds, allocated 5.405 megabytes
+*** Renamer/typechecker [Data.CaseInsensitive.Internal]:
+!!! Renamer/typechecker [Data.CaseInsensitive.Internal]: finished in 858.00 milliseconds, allocated 338.002 megabytes
+*** Desugar [Data.CaseInsensitive.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 842, types: 1,572, coercions: 28}
+!!! Desugar [Data.CaseInsensitive.Internal]: finished in 32.00 milliseconds, allocated 12.648 megabytes
+
+Data/CaseInsensitive/Internal.hs:103:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: FoldCase s
+    • In the type signature for:
+           unsafeMk :: FoldCase s => s -> CI s
+*** Simplifier [Data.CaseInsensitive.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 844, types: 1,582, coercions: 50}
+Result size of Simplifier iteration=2
+  = {terms: 850, types: 1,598, coercions: 59}
+Result size of Simplifier
+  = {terms: 850, types: 1,598, coercions: 59}
+!!! Simplifier [Data.CaseInsensitive.Internal]: finished in 39.00 milliseconds, allocated 20.877 megabytes
+*** Specialise [Data.CaseInsensitive.Internal]:
+Result size of Specialise
+  = {terms: 855, types: 1,617, coercions: 72}
+!!! Specialise [Data.CaseInsensitive.Internal]: finished in 2.00 milliseconds, allocated 1.293 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.CaseInsensitive.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 941, types: 1,709, coercions: 72}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.CaseInsensitive.Internal]: finished in 6.00 milliseconds, allocated 5.885 megabytes
+*** Simplifier [Data.CaseInsensitive.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,046, types: 2,861, coercions: 229}
+Result size of Simplifier iteration=2
+  = {terms: 1,853, types: 2,631, coercions: 183}
+Result size of Simplifier iteration=3
+  = {terms: 1,826, types: 2,610, coercions: 162}
+Result size of Simplifier
+  = {terms: 1,826, types: 2,610, coercions: 162}
+!!! Simplifier [Data.CaseInsensitive.Internal]: finished in 85.00 milliseconds, allocated 40.742 megabytes
+*** Simplifier [Data.CaseInsensitive.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,179, types: 2,617, coercions: 162}
+Result size of Simplifier iteration=2
+  = {terms: 1,985, types: 2,544, coercions: 162}
+Result size of Simplifier
+  = {terms: 1,985, types: 2,544, coercions: 162}
+!!! Simplifier [Data.CaseInsensitive.Internal]: finished in 40.00 milliseconds, allocated 26.084 megabytes
+*** Simplifier [Data.CaseInsensitive.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 3,043, types: 3,372, coercions: 315}
+Result size of Simplifier iteration=2
+  = {terms: 2,976, types: 3,313, coercions: 260}
+Result size of Simplifier iteration=3
+  = {terms: 2,972, types: 3,289, coercions: 182}
+Result size of Simplifier
+  = {terms: 2,972, types: 3,289, coercions: 182}
+!!! Simplifier [Data.CaseInsensitive.Internal]: finished in 87.00 milliseconds, allocated 45.526 megabytes
+*** Float inwards [Data.CaseInsensitive.Internal]:
+Result size of Float inwards
+  = {terms: 2,972, types: 3,289, coercions: 182}
+!!! Float inwards [Data.CaseInsensitive.Internal]: finished in 6.00 milliseconds, allocated 5.389 megabytes
+*** Called arity analysis [Data.CaseInsensitive.Internal]:
+Result size of Called arity analysis
+  = {terms: 2,972, types: 3,289, coercions: 182}
+!!! Called arity analysis [Data.CaseInsensitive.Internal]: finished in 4.00 milliseconds, allocated 3.337 megabytes
+*** Simplifier [Data.CaseInsensitive.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,967, types: 3,285, coercions: 182}
+Result size of Simplifier
+  = {terms: 2,967, types: 3,285, coercions: 182}
+!!! Simplifier [Data.CaseInsensitive.Internal]: finished in 41.00 milliseconds, allocated 21.143 megabytes
+*** Demand analysis [Data.CaseInsensitive.Internal]:
+Result size of Demand analysis
+  = {terms: 2,967, types: 3,285, coercions: 182}
+!!! Demand analysis [Data.CaseInsensitive.Internal]: finished in 26.00 milliseconds, allocated 19.841 megabytes
+*** Worker Wrapper binds [Data.CaseInsensitive.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 3,707, types: 4,346, coercions: 182}
+!!! Worker Wrapper binds [Data.CaseInsensitive.Internal]: finished in 3.00 milliseconds, allocated 1.513 megabytes
+*** Simplifier [Data.CaseInsensitive.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 3,474, types: 4,021, coercions: 182}
+Result size of Simplifier iteration=2
+  = {terms: 3,132, types: 3,527, coercions: 182}
+Result size of Simplifier
+  = {terms: 3,132, types: 3,527, coercions: 182}
+!!! Simplifier [Data.CaseInsensitive.Internal]: finished in 78.00 milliseconds, allocated 45.599 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.CaseInsensitive.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 3,208, types: 3,656, coercions: 182}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.CaseInsensitive.Internal]: finished in 22.00 milliseconds, allocated 15.812 megabytes
+*** Common sub-expression [Data.CaseInsensitive.Internal]:
+Result size of Common sub-expression
+  = {terms: 3,168, types: 3,624, coercions: 182}
+!!! Common sub-expression [Data.CaseInsensitive.Internal]: finished in 5.00 milliseconds, allocated 4.059 megabytes
+*** Float inwards [Data.CaseInsensitive.Internal]:
+Result size of Float inwards
+  = {terms: 3,168, types: 3,624, coercions: 182}
+!!! Float inwards [Data.CaseInsensitive.Internal]: finished in 9.00 milliseconds, allocated 5.362 megabytes
+*** Simplifier [Data.CaseInsensitive.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 3,126, types: 3,591, coercions: 182}
+Result size of Simplifier
+  = {terms: 3,126, types: 3,591, coercions: 182}
+!!! Simplifier [Data.CaseInsensitive.Internal]: finished in 46.00 milliseconds, allocated 26.641 megabytes
+*** CoreTidy [Data.CaseInsensitive.Internal]:
+Result size of Tidy Core
+  = {terms: 3,146, types: 3,616, coercions: 175}
+!!! CoreTidy [Data.CaseInsensitive.Internal]: finished in 7.00 milliseconds, allocated 4.270 megabytes
+writeBinIface: 184 Names
+writeBinIface: 350 dict entries
+writeBinIface: 184 Names
+writeBinIface: 350 dict entries
+*** CorePrep [Data.CaseInsensitive.Internal]:
+Result size of CorePrep
+  = {terms: 4,261, types: 4,769, coercions: 175}
+!!! CorePrep [Data.CaseInsensitive.Internal]: finished in 10.00 milliseconds, allocated 7.006 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.CaseInsensitive.Internal]:
+!!! CodeGen [Data.CaseInsensitive.Internal]: finished in 217.00 milliseconds, allocated 138.724 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/CaseInsensitive -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9530_0/ghc_8.s -o dist/dist-sandbox-6afc8227/build/Data/CaseInsensitive/Internal.o
+*** CorePrep [Data.CaseInsensitive.Internal]:
+Result size of CorePrep
+  = {terms: 4,261, types: 4,769, coercions: 175}
+!!! CorePrep [Data.CaseInsensitive.Internal]: finished in 7.00 milliseconds, allocated 6.752 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.CaseInsensitive.Internal]:
+!!! CodeGen [Data.CaseInsensitive.Internal]: finished in 199.00 milliseconds, allocated 145.412 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/CaseInsensitive -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9530_0/ghc_10.s -o dist/dist-sandbox-6afc8227/build/Data/CaseInsensitive/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9530_0/ghc_11.c /tmp/ghc9530_0/ghc_10.s /tmp/ghc9530_0/ghc_9.c /tmp/ghc9530_0/ghc_8.s /tmp/ghc9530_0/ghc_7.s
+Warning: deleting non-existent /tmp/ghc9530_0/ghc_11.c
+Warning: deleting non-existent /tmp/ghc9530_0/ghc_9.c
+Warning: deleting non-existent /tmp/ghc9530_0/ghc_7.s
+compile: input file /tmp/ghc9530_0/ghc_1.hscpp
+*** Checking old interface for Data.CaseInsensitive:
+[2 of 3] Compiling Data.CaseInsensitive ( Data/CaseInsensitive.hs, dist/dist-sandbox-6afc8227/build/Data/CaseInsensitive.o )
+*** Parser [Data.CaseInsensitive]:
+!!! Parser [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 1.158 megabytes
+*** Renamer/typechecker [Data.CaseInsensitive]:
+!!! Renamer/typechecker [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.428 megabytes
+*** Desugar [Data.CaseInsensitive]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.132 megabytes
+*** Simplifier [Data.CaseInsensitive]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.128 megabytes
+*** Specialise [Data.CaseInsensitive]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.CaseInsensitive]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Data.CaseInsensitive]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Simplifier [Data.CaseInsensitive]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Data.CaseInsensitive]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Data.CaseInsensitive]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Data.CaseInsensitive]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Data.CaseInsensitive]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Data.CaseInsensitive]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Data.CaseInsensitive]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.CaseInsensitive]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.CaseInsensitive]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [Data.CaseInsensitive]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Data.CaseInsensitive]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Data.CaseInsensitive]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Data.CaseInsensitive]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.062 megabytes
+writeBinIface: 11 Names
+writeBinIface: 54 dict entries
+writeBinIface: 11 Names
+writeBinIface: 54 dict entries
+*** CorePrep [Data.CaseInsensitive]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.CaseInsensitive]:
+!!! CodeGen [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.296 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9530_0/ghc_13.s -o dist/dist-sandbox-6afc8227/build/Data/CaseInsensitive.o
+*** CorePrep [Data.CaseInsensitive]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.CaseInsensitive]:
+!!! CodeGen [Data.CaseInsensitive]: finished in 0.00 milliseconds, allocated 0.292 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9530_0/ghc_15.s -o dist/dist-sandbox-6afc8227/build/Data/CaseInsensitive.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9530_0/ghc_16.c /tmp/ghc9530_0/ghc_15.s /tmp/ghc9530_0/ghc_14.c /tmp/ghc9530_0/ghc_13.s /tmp/ghc9530_0/ghc_12.s
+Warning: deleting non-existent /tmp/ghc9530_0/ghc_16.c
+Warning: deleting non-existent /tmp/ghc9530_0/ghc_14.c
+Warning: deleting non-existent /tmp/ghc9530_0/ghc_12.s
+compile: input file /tmp/ghc9530_0/ghc_3.hscpp
+*** Checking old interface for Data.CaseInsensitive.Unsafe:
+[3 of 3] Compiling Data.CaseInsensitive.Unsafe ( Data/CaseInsensitive/Unsafe.hs, dist/dist-sandbox-6afc8227/build/Data/CaseInsensitive/Unsafe.o )
+*** Parser [Data.CaseInsensitive.Unsafe]:
+!!! Parser [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.971 megabytes
+*** Renamer/typechecker [Data.CaseInsensitive.Unsafe]:
+!!! Renamer/typechecker [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.405 megabytes
+*** Desugar [Data.CaseInsensitive.Unsafe]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.127 megabytes
+*** Simplifier [Data.CaseInsensitive.Unsafe]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.129 megabytes
+*** Specialise [Data.CaseInsensitive.Unsafe]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.CaseInsensitive.Unsafe]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Data.CaseInsensitive.Unsafe]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Simplifier [Data.CaseInsensitive.Unsafe]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.CaseInsensitive.Unsafe]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Data.CaseInsensitive.Unsafe]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Called arity analysis [Data.CaseInsensitive.Unsafe]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Data.CaseInsensitive.Unsafe]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Data.CaseInsensitive.Unsafe]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Data.CaseInsensitive.Unsafe]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.CaseInsensitive.Unsafe]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.CaseInsensitive.Unsafe]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [Data.CaseInsensitive.Unsafe]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [Data.CaseInsensitive.Unsafe]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Data.CaseInsensitive.Unsafe]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Data.CaseInsensitive.Unsafe]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 5 Names
+writeBinIface: 48 dict entries
+writeBinIface: 5 Names
+writeBinIface: 48 dict entries
+*** CorePrep [Data.CaseInsensitive.Unsafe]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.CaseInsensitive.Unsafe]:
+!!! CodeGen [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.317 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/CaseInsensitive -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9530_0/ghc_18.s -o dist/dist-sandbox-6afc8227/build/Data/CaseInsensitive/Unsafe.o
+*** CorePrep [Data.CaseInsensitive.Unsafe]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.CaseInsensitive.Unsafe]:
+!!! CodeGen [Data.CaseInsensitive.Unsafe]: finished in 0.00 milliseconds, allocated 0.312 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/CaseInsensitive -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9530_0/ghc_20.s -o dist/dist-sandbox-6afc8227/build/Data/CaseInsensitive/Unsafe.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc9530_0/ghc_21.c /tmp/ghc9530_0/ghc_20.s /tmp/ghc9530_0/ghc_19.c /tmp/ghc9530_0/ghc_18.s /tmp/ghc9530_0/ghc_17.s
+Warning: deleting non-existent /tmp/ghc9530_0/ghc_21.c
+Warning: deleting non-existent /tmp/ghc9530_0/ghc_19.c
+Warning: deleting non-existent /tmp/ghc9530_0/ghc_17.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc9530_0/ghc_5.hscpp /tmp/ghc9530_0/ghc_3.hscpp /tmp/ghc9530_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9530_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -o dist/dist-sandbox-6afc8227/build/libHScase-insensitive-1.2.0.6-6wXdNb03nEPFT3o9XKcio-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHScase-insensitive-1.2.0.6-6wXdNb03nEPFT3o9XKcio-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Data/CaseInsensitive.dyn_o dist/dist-sandbox-6afc8227/build/Data/CaseInsensitive/Unsafe.dyn_o dist/dist-sandbox-6afc8227/build/Data/CaseInsensitive/Internal.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHShashable-1.2.4.0-Ctl752zbguF6QanxurLOm2-ghc8.0.1 -lHStext-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs-ghc8.0.1 -lHSbinary-0.8.3.0-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc9694_0
+*** Deleting temp files:
+Deleting: /tmp/ghc9694_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9694_0
+Creating package registration file:
+/tmp/pkgConf-case-insensitive-1.2.01244316437971899228.6
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/case-insensitive-1.2.0.6-6wXdNb03nEPFT3o9XKcio
+Registering case-insensitive-1.2.0.6...
+cabal: Leaving directory '/tmp/cabal-tmp-1026/case-insensitive-1.2.0.6'

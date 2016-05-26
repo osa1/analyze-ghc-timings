@@ -1,0 +1,379 @@
+cabal: Entering directory '/tmp/cabal-tmp-1048/word8-0.1.2'
+Configuring word8-0.1.2...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc5393_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc5393_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc5393_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc5393_0/ghc_2.rsp /tmp/ghc5393_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc5393_0
+Building word8-0.1.2...
+Preprocessing library word8-0.1.2...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.Char8,*Data.Word8
+Created temporary directory: /tmp/ghc5464_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5464_0/ghc_2.h -x assembler-with-cpp ./Data/Char8.hs -o /tmp/ghc5464_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5464_0/ghc_4.h -x assembler-with-cpp ./Data/Word8.hs -o /tmp/ghc5464_0/ghc_3.hscpp
+!!! Chasing dependencies: finished in 11.00 milliseconds, allocated 9.066 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2015-02-24 05:10:10 UTC
+         ms_mod = Data.Char8,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-02-24 05:10:10 UTC
+         ms_mod = Data.Word8,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Word)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc5464_0/ghc_4.h /tmp/ghc5464_0/ghc_2.h
+compile: input file /tmp/ghc5464_0/ghc_1.hscpp
+*** Checking old interface for Data.Char8:
+[1 of 2] Compiling Data.Char8       ( Data/Char8.hs, dist/dist-sandbox-6afc8227/build/Data/Char8.o )
+*** Parser [Data.Char8]:
+!!! Parser [Data.Char8]: finished in 4.00 milliseconds, allocated 5.049 megabytes
+*** Renamer/typechecker [Data.Char8]:
+!!! Renamer/typechecker [Data.Char8]: finished in 302.00 milliseconds, allocated 114.179 megabytes
+*** Desugar [Data.Char8]:
+Result size of Desugar (after optimization)
+  = {terms: 661, types: 185, coercions: 0}
+!!! Desugar [Data.Char8]: finished in 3.00 milliseconds, allocated 2.459 megabytes
+*** Simplifier [Data.Char8]:
+Result size of Simplifier iteration=1
+  = {terms: 604, types: 130, coercions: 0}
+Result size of Simplifier = {terms: 604, types: 130, coercions: 0}
+!!! Simplifier [Data.Char8]: finished in 10.00 milliseconds, allocated 5.818 megabytes
+*** Specialise [Data.Char8]:
+Result size of Specialise = {terms: 604, types: 130, coercions: 0}
+!!! Specialise [Data.Char8]: finished in 0.00 milliseconds, allocated 0.546 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Char8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 752, types: 218, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Char8]: finished in 3.00 milliseconds, allocated 2.942 megabytes
+*** Simplifier [Data.Char8]:
+Result size of Simplifier iteration=1
+  = {terms: 980, types: 302, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 852, types: 254, coercions: 0}
+Result size of Simplifier = {terms: 852, types: 254, coercions: 0}
+!!! Simplifier [Data.Char8]: finished in 13.00 milliseconds, allocated 8.197 megabytes
+*** Simplifier [Data.Char8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,163, types: 527, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,026, types: 459, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 1,060, types: 472, coercions: 0}
+Result size of Simplifier = {terms: 984, types: 439, coercions: 0}
+!!! Simplifier [Data.Char8]: finished in 18.00 milliseconds, allocated 13.119 megabytes
+*** Simplifier [Data.Char8]:
+Result size of Simplifier = {terms: 984, types: 439, coercions: 0}
+!!! Simplifier [Data.Char8]: finished in 5.00 milliseconds, allocated 3.001 megabytes
+*** Float inwards [Data.Char8]:
+Result size of Float inwards
+  = {terms: 984, types: 439, coercions: 0}
+!!! Float inwards [Data.Char8]: finished in 1.00 milliseconds, allocated 0.891 megabytes
+*** Called arity analysis [Data.Char8]:
+Result size of Called arity analysis
+  = {terms: 984, types: 439, coercions: 0}
+!!! Called arity analysis [Data.Char8]: finished in 2.00 milliseconds, allocated 0.866 megabytes
+*** Simplifier [Data.Char8]:
+Result size of Simplifier = {terms: 984, types: 439, coercions: 0}
+!!! Simplifier [Data.Char8]: finished in 4.00 milliseconds, allocated 3.000 megabytes
+*** Demand analysis [Data.Char8]:
+Result size of Demand analysis
+  = {terms: 984, types: 439, coercions: 0}
+!!! Demand analysis [Data.Char8]: finished in 3.00 milliseconds, allocated 2.739 megabytes
+*** Worker Wrapper binds [Data.Char8]:
+Result size of Worker Wrapper binds
+  = {terms: 1,111, types: 512, coercions: 0}
+!!! Worker Wrapper binds [Data.Char8]: finished in 1.00 milliseconds, allocated 0.434 megabytes
+*** Simplifier [Data.Char8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,041, types: 475, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,087, types: 478, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 1,067, types: 472, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,067, types: 472, coercions: 0}
+!!! Simplifier [Data.Char8]: finished in 26.00 milliseconds, allocated 16.000 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Char8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,069, types: 473, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Char8]: finished in 3.00 milliseconds, allocated 2.620 megabytes
+*** Common sub-expression [Data.Char8]:
+Result size of Common sub-expression
+  = {terms: 1,068, types: 473, coercions: 0}
+!!! Common sub-expression [Data.Char8]: finished in 2.00 milliseconds, allocated 1.225 megabytes
+*** Float inwards [Data.Char8]:
+Result size of Float inwards
+  = {terms: 1,068, types: 473, coercions: 0}
+!!! Float inwards [Data.Char8]: finished in 1.00 milliseconds, allocated 0.951 megabytes
+*** Simplifier [Data.Char8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,068, types: 473, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,068, types: 473, coercions: 0}
+!!! Simplifier [Data.Char8]: finished in 11.00 milliseconds, allocated 7.818 megabytes
+*** CoreTidy [Data.Char8]:
+Result size of Tidy Core = {terms: 1,068, types: 473, coercions: 0}
+!!! CoreTidy [Data.Char8]: finished in 9.00 milliseconds, allocated 6.002 megabytes
+writeBinIface: 149 Names
+writeBinIface: 185 dict entries
+writeBinIface: 149 Names
+writeBinIface: 185 dict entries
+*** CorePrep [Data.Char8]:
+Result size of CorePrep = {terms: 1,232, types: 528, coercions: 0}
+!!! CorePrep [Data.Char8]: finished in 2.00 milliseconds, allocated 1.661 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Char8]:
+!!! CodeGen [Data.Char8]: finished in 48.00 milliseconds, allocated 25.752 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc5464_0/ghc_6.s -o dist/dist-sandbox-6afc8227/build/Data/Char8.o
+*** CorePrep [Data.Char8]:
+Result size of CorePrep = {terms: 1,232, types: 528, coercions: 0}
+!!! CorePrep [Data.Char8]: finished in 2.00 milliseconds, allocated 1.637 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Char8]:
+!!! CodeGen [Data.Char8]: finished in 37.00 milliseconds, allocated 26.435 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5464_0/ghc_8.s -o dist/dist-sandbox-6afc8227/build/Data/Char8.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5464_0/ghc_9.c /tmp/ghc5464_0/ghc_8.s /tmp/ghc5464_0/ghc_7.c /tmp/ghc5464_0/ghc_6.s /tmp/ghc5464_0/ghc_5.s
+Warning: deleting non-existent /tmp/ghc5464_0/ghc_9.c
+Warning: deleting non-existent /tmp/ghc5464_0/ghc_7.c
+Warning: deleting non-existent /tmp/ghc5464_0/ghc_5.s
+compile: input file /tmp/ghc5464_0/ghc_3.hscpp
+*** Checking old interface for Data.Word8:
+[2 of 2] Compiling Data.Word8       ( Data/Word8.hs, dist/dist-sandbox-6afc8227/build/Data/Word8.o )
+*** Parser [Data.Word8]:
+!!! Parser [Data.Word8]: finished in 5.00 milliseconds, allocated 8.160 megabytes
+*** Renamer/typechecker [Data.Word8]:
+!!! Renamer/typechecker [Data.Word8]: finished in 44.00 milliseconds, allocated 25.758 megabytes
+*** Desugar [Data.Word8]:
+Result size of Desugar (after optimization)
+  = {terms: 1,099, types: 457, coercions: 0}
+!!! Desugar [Data.Word8]: finished in 14.00 milliseconds, allocated 6.154 megabytes
+*** Simplifier [Data.Word8]:
+Result size of Simplifier iteration=1
+  = {terms: 860, types: 220, coercions: 0}
+Result size of Simplifier = {terms: 860, types: 220, coercions: 0}
+!!! Simplifier [Data.Word8]: finished in 11.00 milliseconds, allocated 6.562 megabytes
+*** Specialise [Data.Word8]:
+Result size of Specialise = {terms: 860, types: 220, coercions: 0}
+!!! Specialise [Data.Word8]: finished in 1.00 milliseconds, allocated 0.838 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Word8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,342, types: 475, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Word8]: finished in 4.00 milliseconds, allocated 3.951 megabytes
+*** Simplifier [Data.Word8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,170, types: 315, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,110, types: 295, coercions: 0}
+!!! Simplifier [Data.Word8]: finished in 13.00 milliseconds, allocated 9.079 megabytes
+*** Simplifier [Data.Word8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,486, types: 639, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,398, types: 587, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 1,432, types: 600, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,353, types: 565, coercions: 0}
+!!! Simplifier [Data.Word8]: finished in 28.00 milliseconds, allocated 17.703 megabytes
+*** Simplifier [Data.Word8]:
+Result size of Simplifier
+  = {terms: 1,353, types: 565, coercions: 0}
+!!! Simplifier [Data.Word8]: finished in 5.00 milliseconds, allocated 4.059 megabytes
+*** Float inwards [Data.Word8]:
+Result size of Float inwards
+  = {terms: 1,353, types: 565, coercions: 0}
+!!! Float inwards [Data.Word8]: finished in 1.00 milliseconds, allocated 1.140 megabytes
+*** Called arity analysis [Data.Word8]:
+Result size of Called arity analysis
+  = {terms: 1,353, types: 565, coercions: 0}
+!!! Called arity analysis [Data.Word8]: finished in 1.00 milliseconds, allocated 1.584 megabytes
+*** Simplifier [Data.Word8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,344, types: 559, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,344, types: 559, coercions: 0}
+!!! Simplifier [Data.Word8]: finished in 12.00 milliseconds, allocated 8.086 megabytes
+*** Demand analysis [Data.Word8]:
+Result size of Demand analysis
+  = {terms: 1,344, types: 559, coercions: 0}
+!!! Demand analysis [Data.Word8]: finished in 3.00 milliseconds, allocated 3.510 megabytes
+*** Worker Wrapper binds [Data.Word8]:
+Result size of Worker Wrapper binds
+  = {terms: 1,471, types: 632, coercions: 0}
+!!! Worker Wrapper binds [Data.Word8]: finished in 4.00 milliseconds, allocated 0.643 megabytes
+*** Simplifier [Data.Word8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,401, types: 595, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,446, types: 598, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 1,427, types: 592, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,427, types: 592, coercions: 0}
+!!! Simplifier [Data.Word8]: finished in 27.00 milliseconds, allocated 20.059 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Word8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,429, types: 593, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Word8]: finished in 3.00 milliseconds, allocated 3.110 megabytes
+*** Common sub-expression [Data.Word8]:
+Result size of Common sub-expression
+  = {terms: 1,395, types: 593, coercions: 0}
+!!! Common sub-expression [Data.Word8]: finished in 2.00 milliseconds, allocated 1.560 megabytes
+*** Float inwards [Data.Word8]:
+Result size of Float inwards
+  = {terms: 1,395, types: 593, coercions: 0}
+!!! Float inwards [Data.Word8]: finished in 1.00 milliseconds, allocated 1.130 megabytes
+*** Simplifier [Data.Word8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,329, types: 560, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,329, types: 560, coercions: 0}
+!!! Simplifier [Data.Word8]: finished in 12.00 milliseconds, allocated 9.303 megabytes
+*** CoreTidy [Data.Word8]:
+Result size of Tidy Core = {terms: 1,329, types: 560, coercions: 0}
+!!! CoreTidy [Data.Word8]: finished in 2.00 milliseconds, allocated 2.375 megabytes
+writeBinIface: 240 Names
+writeBinIface: 278 dict entries
+writeBinIface: 240 Names
+writeBinIface: 278 dict entries
+*** CorePrep [Data.Word8]:
+Result size of CorePrep = {terms: 1,481, types: 611, coercions: 0}
+!!! CorePrep [Data.Word8]: finished in 1.00 milliseconds, allocated 1.965 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Word8]:
+!!! CodeGen [Data.Word8]: finished in 39.00 milliseconds, allocated 27.797 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc5464_0/ghc_11.s -o dist/dist-sandbox-6afc8227/build/Data/Word8.o
+*** CorePrep [Data.Word8]:
+Result size of CorePrep = {terms: 1,481, types: 611, coercions: 0}
+!!! CorePrep [Data.Word8]: finished in 1.00 milliseconds, allocated 1.946 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Word8]:
+!!! CodeGen [Data.Word8]: finished in 35.00 milliseconds, allocated 28.701 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5464_0/ghc_13.s -o dist/dist-sandbox-6afc8227/build/Data/Word8.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc5464_0/ghc_14.c /tmp/ghc5464_0/ghc_13.s /tmp/ghc5464_0/ghc_12.c /tmp/ghc5464_0/ghc_11.s /tmp/ghc5464_0/ghc_10.s
+Warning: deleting non-existent /tmp/ghc5464_0/ghc_14.c
+Warning: deleting non-existent /tmp/ghc5464_0/ghc_12.c
+Warning: deleting non-existent /tmp/ghc5464_0/ghc_10.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc5464_0/ghc_3.hscpp /tmp/ghc5464_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc5464_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -o dist/dist-sandbox-6afc8227/build/libHSword8-0.1.2-2E1SgvvAV2fK8vZPDHbRan-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSword8-0.1.2-2E1SgvvAV2fK8vZPDHbRan-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Data/Char8.dyn_o dist/dist-sandbox-6afc8227/build/Data/Word8.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc5618_0
+*** Deleting temp files:
+Deleting: /tmp/ghc5618_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc5618_0
+Creating package registration file:
+/tmp/pkgConf-word8-0.11330573317603570492.2
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/word8-0.1.2-2E1SgvvAV2fK8vZPDHbRan
+Registering word8-0.1.2...
+cabal: Leaving directory '/tmp/cabal-tmp-1048/word8-0.1.2'

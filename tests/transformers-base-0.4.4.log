@@ -1,0 +1,259 @@
+cabal: Entering directory '/tmp/cabal-tmp-1032/transformers-base-0.4.4'
+Configuring transformers-base-0.4.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc6973_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc6973_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc6973_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc6973_0/ghc_2.rsp /tmp/ghc6973_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc6973_0
+Building transformers-base-0.4.4...
+Preprocessing library transformers-base-0.4.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Control.Monad.Base
+Created temporary directory: /tmp/ghc7023_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DHS_TRANSFORMERS_BASE__ORPHANS=1' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7023_0/ghc_2.h -x assembler-with-cpp src/Control/Monad/Base.hs -o /tmp/ghc7023_0/ghc_1.hscpp
+!!! Chasing dependencies: finished in 10.00 milliseconds, allocated 6.681 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2015-02-11 19:40:38 UTC
+         ms_mod = Control.Monad.Base,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Monad.STM), (Nothing, Control.Monad.ST.Safe),
+                            (Nothing, Control.Monad.ST.Lazy.Safe),
+                            (Nothing, Control.Monad.Trans.Except),
+                            (Nothing, Control.Monad.Trans.Cont),
+                            (Nothing, Control.Monad.Trans.Error),
+                            (Nothing, Control.Monad.Trans.RWS.Strict),
+                            (Nothing, Control.Monad.Trans.RWS.Lazy),
+                            (Nothing, Control.Monad.Trans.State.Strict),
+                            (Nothing, Control.Monad.Trans.State.Lazy),
+                            (Nothing, Control.Monad.Trans.Writer.Strict),
+                            (Nothing, Control.Monad.Trans.Writer.Lazy),
+                            (Nothing, Control.Monad.Trans.Reader),
+                            (Nothing, Control.Monad.Trans.List),
+                            (Nothing, Control.Monad.Trans.Maybe),
+                            (Nothing, Control.Monad.Trans.Identity),
+                            (Nothing, Control.Monad.Trans.Class),
+                            (Nothing, Control.Applicative), (Nothing, Data.Functor.Identity),
+                            (Nothing, Data.Monoid)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc7023_0/ghc_2.h
+compile: input file /tmp/ghc7023_0/ghc_1.hscpp
+*** Checking old interface for Control.Monad.Base:
+[1 of 1] Compiling Control.Monad.Base ( src/Control/Monad/Base.hs, dist/dist-sandbox-6afc8227/build/Control/Monad/Base.o )
+*** Parser [Control.Monad.Base]:
+!!! Parser [Control.Monad.Base]: finished in 5.00 milliseconds, allocated 4.134 megabytes
+*** Renamer/typechecker [Control.Monad.Base]:
+!!! Renamer/typechecker [Control.Monad.Base]: finished in 253.00 milliseconds, allocated 102.035 megabytes
+*** Desugar [Control.Monad.Base]:
+Result size of Desugar (after optimization)
+  = {terms: 892, types: 3,148, coercions: 0}
+!!! Desugar [Control.Monad.Base]: finished in 29.00 milliseconds, allocated 12.854 megabytes
+
+src/Control/Monad/Base.hs:22:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+*** Simplifier [Control.Monad.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 888, types: 3,124, coercions: 0}
+Result size of Simplifier
+  = {terms: 888, types: 3,124, coercions: 0}
+!!! Simplifier [Control.Monad.Base]: finished in 19.00 milliseconds, allocated 7.484 megabytes
+*** Specialise [Control.Monad.Base]:
+Result size of Specialise
+  = {terms: 888, types: 3,124, coercions: 0}
+!!! Specialise [Control.Monad.Base]: finished in 4.00 milliseconds, allocated 1.571 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Base]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 910, types: 3,204, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Base]: finished in 13.00 milliseconds, allocated 7.726 megabytes
+*** Simplifier [Control.Monad.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 921, types: 3,241, coercions: 148}
+Result size of Simplifier
+  = {terms: 890, types: 3,126, coercions: 148}
+!!! Simplifier [Control.Monad.Base]: finished in 22.00 milliseconds, allocated 8.194 megabytes
+*** Simplifier [Control.Monad.Base]:
+Result size of Simplifier
+  = {terms: 890, types: 3,126, coercions: 148}
+!!! Simplifier [Control.Monad.Base]: finished in 6.00 milliseconds, allocated 3.609 megabytes
+*** Simplifier [Control.Monad.Base]:
+Result size of Simplifier
+  = {terms: 890, types: 3,126, coercions: 148}
+!!! Simplifier [Control.Monad.Base]: finished in 5.00 milliseconds, allocated 3.609 megabytes
+*** Float inwards [Control.Monad.Base]:
+Result size of Float inwards
+  = {terms: 890, types: 3,126, coercions: 148}
+!!! Float inwards [Control.Monad.Base]: finished in 1.00 milliseconds, allocated 1.252 megabytes
+*** Called arity analysis [Control.Monad.Base]:
+Result size of Called arity analysis
+  = {terms: 890, types: 3,126, coercions: 148}
+!!! Called arity analysis [Control.Monad.Base]: finished in 3.00 milliseconds, allocated 1.593 megabytes
+*** Simplifier [Control.Monad.Base]:
+Result size of Simplifier
+  = {terms: 890, types: 3,126, coercions: 148}
+!!! Simplifier [Control.Monad.Base]: finished in 9.00 milliseconds, allocated 3.609 megabytes
+*** Demand analysis [Control.Monad.Base]:
+Result size of Demand analysis
+  = {terms: 890, types: 3,126, coercions: 148}
+!!! Demand analysis [Control.Monad.Base]: finished in 8.00 milliseconds, allocated 3.080 megabytes
+*** Worker Wrapper binds [Control.Monad.Base]:
+Result size of Worker Wrapper binds
+  = {terms: 1,072, types: 5,547, coercions: 148}
+!!! Worker Wrapper binds [Control.Monad.Base]: finished in 4.00 milliseconds, allocated 1.056 megabytes
+*** Simplifier [Control.Monad.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 1,322, types: 5,393, coercions: 376}
+Result size of Simplifier iteration=2
+  = {terms: 1,173, types: 5,274, coercions: 405}
+Result size of Simplifier
+  = {terms: 1,173, types: 5,274, coercions: 405}
+!!! Simplifier [Control.Monad.Base]: finished in 99.00 milliseconds, allocated 25.004 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Base]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,203, types: 5,393, coercions: 405}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Base]: finished in 15.00 milliseconds, allocated 11.248 megabytes
+*** Common sub-expression [Control.Monad.Base]:
+Result size of Common sub-expression
+  = {terms: 1,132, types: 5,191, coercions: 405}
+!!! Common sub-expression [Control.Monad.Base]: finished in 4.00 milliseconds, allocated 2.069 megabytes
+*** Float inwards [Control.Monad.Base]:
+Result size of Float inwards
+  = {terms: 1,132, types: 5,191, coercions: 405}
+!!! Float inwards [Control.Monad.Base]: finished in 2.00 milliseconds, allocated 2.063 megabytes
+*** Simplifier [Control.Monad.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 1,113, types: 5,026, coercions: 405}
+Result size of Simplifier
+  = {terms: 1,082, types: 4,911, coercions: 405}
+!!! Simplifier [Control.Monad.Base]: finished in 22.00 milliseconds, allocated 12.495 megabytes
+*** CoreTidy [Control.Monad.Base]:
+Result size of Tidy Core
+  = {terms: 1,122, types: 5,120, coercions: 405}
+!!! CoreTidy [Control.Monad.Base]: finished in 11.00 milliseconds, allocated 6.723 megabytes
+writeBinIface: 200 Names
+writeBinIface: 257 dict entries
+writeBinIface: 200 Names
+writeBinIface: 257 dict entries
+*** CorePrep [Control.Monad.Base]:
+Result size of CorePrep
+  = {terms: 1,738, types: 6,381, coercions: 519}
+!!! CorePrep [Control.Monad.Base]: finished in 6.00 milliseconds, allocated 3.946 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Base]:
+!!! CodeGen [Control.Monad.Base]: finished in 131.00 milliseconds, allocated 80.798 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7023_0/ghc_4.s -o dist/dist-sandbox-6afc8227/build/Control/Monad/Base.o
+*** CorePrep [Control.Monad.Base]:
+Result size of CorePrep
+  = {terms: 1,738, types: 6,381, coercions: 519}
+!!! CorePrep [Control.Monad.Base]: finished in 5.00 milliseconds, allocated 3.832 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Base]:
+!!! CodeGen [Control.Monad.Base]: finished in 123.00 milliseconds, allocated 84.646 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Control/Monad -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7023_0/ghc_6.s -o dist/dist-sandbox-6afc8227/build/Control/Monad/Base.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc7023_0/ghc_7.c /tmp/ghc7023_0/ghc_6.s /tmp/ghc7023_0/ghc_5.c /tmp/ghc7023_0/ghc_4.s /tmp/ghc7023_0/ghc_3.s
+Warning: deleting non-existent /tmp/ghc7023_0/ghc_7.c
+Warning: deleting non-existent /tmp/ghc7023_0/ghc_5.c
+Warning: deleting non-existent /tmp/ghc7023_0/ghc_3.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc7023_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7023_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N -o dist/dist-sandbox-6afc8227/build/libHStransformers-base-0.4.4-FMTbgPqmqMsCiOz3biyAGx-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHStransformers-base-0.4.4-FMTbgPqmqMsCiOz3biyAGx-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Control/Monad/Base.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N-ghc8.0.1 -lHStransformers-0.5.2.0-ghc8.0.1 -lHSstm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc7191_0
+*** Deleting temp files:
+Deleting: /tmp/ghc7191_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7191_0
+Creating package registration file:
+/tmp/pkgConf-transformers-base-0.43642284441947346619.4
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-base-0.4.4-FMTbgPqmqMsCiOz3biyAGx
+Registering transformers-base-0.4.4...
+cabal: Leaving directory '/tmp/cabal-tmp-1032/transformers-base-0.4.4'

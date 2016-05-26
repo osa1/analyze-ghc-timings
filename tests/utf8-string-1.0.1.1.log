@@ -1,0 +1,936 @@
+cabal: Entering directory '/tmp/cabal-tmp-1047/utf8-string-1.0.1.1'
+Configuring utf8-string-1.0.1.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc5261_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc5261_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc5261_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc5261_0/ghc_2.rsp /tmp/ghc5261_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc5261_0
+Building utf8-string-1.0.1.1...
+Preprocessing library utf8-string-1.0.1.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Codec.Binary.UTF8.String,*Codec.Binary.UTF8.Generic,*Data.String.UTF8,*Data.ByteString.UTF8,*Data.ByteString.Lazy.UTF8
+Created temporary directory: /tmp/ghc5371_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5371_0/ghc_2.h -x assembler-with-cpp ./Codec/Binary/UTF8/String.hs -o /tmp/ghc5371_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5371_0/ghc_4.h -x assembler-with-cpp ./Codec/Binary/UTF8/Generic.hs -o /tmp/ghc5371_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5371_0/ghc_6.h -x assembler-with-cpp ./Data/String/UTF8.hs -o /tmp/ghc5371_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5371_0/ghc_8.h -x assembler-with-cpp ./Data/ByteString/UTF8.hs -o /tmp/ghc5371_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5371_0/ghc_10.h -x assembler-with-cpp ./Data/ByteString/Lazy/UTF8.hs -o /tmp/ghc5371_0/ghc_9.hscpp
+!!! Chasing dependencies: finished in 27.00 milliseconds, allocated 18.699 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-23 16:19:40 UTC
+         ms_mod = Codec.Binary.UTF8.String,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Char),
+                            (Nothing, Data.Bits), (Nothing, Data.Word)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-23 16:19:40 UTC
+         ms_mod = Codec.Binary.UTF8.Generic,
+         ms_textual_imps = [(Nothing, Codec.Binary.UTF8.String),
+                            (Nothing, Prelude), (Nothing, Data.List),
+                            (Nothing, Data.ByteString.Lazy), (Nothing, Data.ByteString),
+                            (Nothing, Data.Word), (Nothing, Data.Int), (Nothing, Data.Bits)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-23 16:19:40 UTC
+         ms_mod = Data.String.UTF8,
+         ms_textual_imps = [(Nothing, Codec.Binary.UTF8.Generic),
+                            (Nothing, Codec.Binary.UTF8.Generic), (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-23 16:19:40 UTC
+         ms_mod = Data.ByteString.UTF8,
+         ms_textual_imps = [(Nothing, Codec.Binary.UTF8.Generic),
+                            (Nothing, Codec.Binary.UTF8.String), (Nothing, Prelude),
+                            (Nothing, Data.ByteString), (Nothing, Data.Word),
+                            (Nothing, Data.Bits)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-23 16:19:40 UTC
+         ms_mod = Data.ByteString.Lazy.UTF8,
+         ms_textual_imps = [(Nothing, System.IO.Unsafe),
+                            (Nothing, Codec.Binary.UTF8.Generic), (Nothing, Prelude),
+                            (Nothing, Data.ByteString.Internal),
+                            (Nothing, Data.ByteString.Lazy.Internal),
+                            (Nothing, Data.ByteString.Lazy), (Nothing, Control.Exception),
+                            (Nothing, Data.Char), (Nothing, Foreign.ForeignPtr),
+                            (Nothing, Foreign.Ptr), (Nothing, Foreign.Storable),
+                            (Nothing, Data.Int), (Nothing, Data.Word), (Nothing, Data.Bits)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc5371_0/ghc_10.h /tmp/ghc5371_0/ghc_8.h /tmp/ghc5371_0/ghc_6.h /tmp/ghc5371_0/ghc_4.h /tmp/ghc5371_0/ghc_2.h
+compile: input file /tmp/ghc5371_0/ghc_1.hscpp
+*** Checking old interface for Codec.Binary.UTF8.String:
+[1 of 5] Compiling Codec.Binary.UTF8.String ( Codec/Binary/UTF8/String.hs, dist/dist-sandbox-6afc8227/build/Codec/Binary/UTF8/String.o )
+*** Parser [Codec.Binary.UTF8.String]:
+!!! Parser [Codec.Binary.UTF8.String]: finished in 4.00 milliseconds, allocated 5.036 megabytes
+*** Renamer/typechecker [Codec.Binary.UTF8.String]:
+!!! Renamer/typechecker [Codec.Binary.UTF8.String]: finished in 367.00 milliseconds, allocated 138.636 megabytes
+*** Desugar [Codec.Binary.UTF8.String]:
+Result size of Desugar (after optimization)
+  = {terms: 891, types: 422, coercions: 0}
+!!! Desugar [Codec.Binary.UTF8.String]: finished in 6.00 milliseconds, allocated 3.961 megabytes
+*** Simplifier [Codec.Binary.UTF8.String]:
+Result size of Simplifier iteration=1
+  = {terms: 753, types: 299, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 702, types: 237, coercions: 0}
+Result size of Simplifier = {terms: 702, types: 237, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.String]: finished in 26.00 milliseconds, allocated 12.112 megabytes
+*** Specialise [Codec.Binary.UTF8.String]:
+Result size of Specialise = {terms: 722, types: 271, coercions: 0}
+!!! Specialise [Codec.Binary.UTF8.String]: finished in 1.00 milliseconds, allocated 0.714 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Binary.UTF8.String]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,060, types: 442, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Binary.UTF8.String]: finished in 3.00 milliseconds, allocated 3.455 megabytes
+*** Simplifier [Codec.Binary.UTF8.String]:
+Result size of Simplifier iteration=1
+  = {terms: 1,164, types: 469, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,008, types: 398, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,008, types: 398, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.String]: finished in 25.00 milliseconds, allocated 14.263 megabytes
+*** Simplifier [Codec.Binary.UTF8.String]:
+Result size of Simplifier iteration=1
+  = {terms: 1,106, types: 432, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 912, types: 362, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 912, types: 362, coercions: 0}
+Result size of Simplifier = {terms: 912, types: 362, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.String]: finished in 20.00 milliseconds, allocated 14.871 megabytes
+*** Simplifier [Codec.Binary.UTF8.String]:
+Result size of Simplifier iteration=1
+  = {terms: 961, types: 387, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 915, types: 366, coercions: 0}
+Result size of Simplifier = {terms: 915, types: 366, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.String]: finished in 12.00 milliseconds, allocated 9.471 megabytes
+*** Float inwards [Codec.Binary.UTF8.String]:
+Result size of Float inwards
+  = {terms: 915, types: 366, coercions: 0}
+!!! Float inwards [Codec.Binary.UTF8.String]: finished in 2.00 milliseconds, allocated 1.294 megabytes
+*** Called arity analysis [Codec.Binary.UTF8.String]:
+Result size of Called arity analysis
+  = {terms: 915, types: 366, coercions: 0}
+!!! Called arity analysis [Codec.Binary.UTF8.String]: finished in 1.00 milliseconds, allocated 0.792 megabytes
+*** Simplifier [Codec.Binary.UTF8.String]:
+Result size of Simplifier iteration=1
+  = {terms: 915, types: 365, coercions: 0}
+Result size of Simplifier = {terms: 912, types: 364, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.String]: finished in 8.00 milliseconds, allocated 6.001 megabytes
+*** Demand analysis [Codec.Binary.UTF8.String]:
+Result size of Demand analysis
+  = {terms: 912, types: 364, coercions: 0}
+!!! Demand analysis [Codec.Binary.UTF8.String]: finished in 2.00 milliseconds, allocated 3.663 megabytes
+*** Worker Wrapper binds [Codec.Binary.UTF8.String]:
+Result size of Worker Wrapper binds
+  = {terms: 1,033, types: 466, coercions: 0}
+!!! Worker Wrapper binds [Codec.Binary.UTF8.String]: finished in 1.00 milliseconds, allocated 0.356 megabytes
+*** Simplifier [Codec.Binary.UTF8.String]:
+Result size of Simplifier iteration=1
+  = {terms: 1,025, types: 494, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,340, types: 544, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 1,091, types: 407, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,091, types: 407, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.String]: finished in 28.00 milliseconds, allocated 17.104 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Binary.UTF8.String]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,099, types: 413, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Binary.UTF8.String]: finished in 4.00 milliseconds, allocated 3.544 megabytes
+*** Common sub-expression [Codec.Binary.UTF8.String]:
+Result size of Common sub-expression
+  = {terms: 1,095, types: 411, coercions: 0}
+!!! Common sub-expression [Codec.Binary.UTF8.String]: finished in 2.00 milliseconds, allocated 1.060 megabytes
+*** Float inwards [Codec.Binary.UTF8.String]:
+Result size of Float inwards
+  = {terms: 1,095, types: 411, coercions: 0}
+!!! Float inwards [Codec.Binary.UTF8.String]: finished in 1.00 milliseconds, allocated 1.531 megabytes
+*** Liberate case [Codec.Binary.UTF8.String]:
+Result size of Liberate case
+  = {terms: 1,095, types: 411, coercions: 0}
+!!! Liberate case [Codec.Binary.UTF8.String]: finished in 1.00 milliseconds, allocated 0.527 megabytes
+*** Simplifier [Codec.Binary.UTF8.String]:
+Result size of Simplifier iteration=1
+  = {terms: 1,091, types: 408, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,091, types: 408, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.String]: finished in 13.00 milliseconds, allocated 7.907 megabytes
+*** SpecConstr [Codec.Binary.UTF8.String]:
+Result size of SpecConstr
+  = {terms: 2,089, types: 767, coercions: 0}
+!!! SpecConstr [Codec.Binary.UTF8.String]: finished in 3.00 milliseconds, allocated 3.242 megabytes
+*** Simplifier [Codec.Binary.UTF8.String]:
+Result size of Simplifier iteration=1
+  = {terms: 2,083, types: 763, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,343, types: 491, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,341, types: 489, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.String]: finished in 30.00 milliseconds, allocated 17.755 megabytes
+*** CoreTidy [Codec.Binary.UTF8.String]:
+Result size of Tidy Core = {terms: 1,338, types: 484, coercions: 0}
+!!! CoreTidy [Codec.Binary.UTF8.String]: finished in 2.00 milliseconds, allocated 1.013 megabytes
+writeBinIface: 22 Names
+writeBinIface: 74 dict entries
+writeBinIface: 22 Names
+writeBinIface: 74 dict entries
+*** CorePrep [Codec.Binary.UTF8.String]:
+Result size of CorePrep = {terms: 2,127, types: 827, coercions: 0}
+!!! CorePrep [Codec.Binary.UTF8.String]: finished in 3.00 milliseconds, allocated 2.939 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Binary.UTF8.String]:
+!!! CodeGen [Codec.Binary.UTF8.String]: finished in 79.00 milliseconds, allocated 52.288 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Codec/Binary/UTF8 -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc5371_0/ghc_12.s -o dist/dist-sandbox-6afc8227/build/Codec/Binary/UTF8/String.o
+*** CorePrep [Codec.Binary.UTF8.String]:
+Result size of CorePrep = {terms: 2,127, types: 827, coercions: 0}
+!!! CorePrep [Codec.Binary.UTF8.String]: finished in 3.00 milliseconds, allocated 2.876 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Binary.UTF8.String]:
+!!! CodeGen [Codec.Binary.UTF8.String]: finished in 90.00 milliseconds, allocated 55.162 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Codec/Binary/UTF8 -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5371_0/ghc_14.s -o dist/dist-sandbox-6afc8227/build/Codec/Binary/UTF8/String.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5371_0/ghc_15.c /tmp/ghc5371_0/ghc_14.s /tmp/ghc5371_0/ghc_13.c /tmp/ghc5371_0/ghc_12.s /tmp/ghc5371_0/ghc_11.s
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_13.c
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_11.s
+compile: input file /tmp/ghc5371_0/ghc_3.hscpp
+*** Checking old interface for Codec.Binary.UTF8.Generic:
+[2 of 5] Compiling Codec.Binary.UTF8.Generic ( Codec/Binary/UTF8/Generic.hs, dist/dist-sandbox-6afc8227/build/Codec/Binary/UTF8/Generic.o )
+*** Parser [Codec.Binary.UTF8.Generic]:
+!!! Parser [Codec.Binary.UTF8.Generic]: finished in 12.00 milliseconds, allocated 14.209 megabytes
+*** Renamer/typechecker [Codec.Binary.UTF8.Generic]:
+!!! Renamer/typechecker [Codec.Binary.UTF8.Generic]: finished in 104.00 milliseconds, allocated 61.122 megabytes
+*** Desugar [Codec.Binary.UTF8.Generic]:
+Result size of Desugar (after optimization)
+  = {terms: 3,458, types: 3,983, coercions: 0}
+!!! Desugar [Codec.Binary.UTF8.Generic]: finished in 27.00 milliseconds, allocated 17.855 megabytes
+*** Simplifier [Codec.Binary.UTF8.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 2,493, types: 2,487, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 2,431, types: 2,435, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,431, types: 2,435, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.Generic]: finished in 214.00 milliseconds, allocated 67.727 megabytes
+*** Specialise [Codec.Binary.UTF8.Generic]:
+Result size of Specialise
+  = {terms: 2,725, types: 2,751, coercions: 0}
+!!! Specialise [Codec.Binary.UTF8.Generic]: finished in 4.00 milliseconds, allocated 3.283 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Binary.UTF8.Generic]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 3,365, types: 3,104, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Binary.UTF8.Generic]: finished in 24.00 milliseconds, allocated 16.741 megabytes
+*** Simplifier [Codec.Binary.UTF8.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 6,112, types: 5,205, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 3,983, types: 2,872, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 3,933, types: 2,898, coercions: 0}
+Result size of Simplifier iteration=4
+  = {terms: 3,921, types: 2,892, coercions: 0}
+Result size of Simplifier
+  = {terms: 3,921, types: 2,892, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.Generic]: finished in 125.00 milliseconds, allocated 79.788 megabytes
+*** Simplifier [Codec.Binary.UTF8.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 4,200, types: 3,141, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 3,939, types: 2,946, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 3,931, types: 2,942, coercions: 0}
+Result size of Simplifier
+  = {terms: 3,931, types: 2,942, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.Generic]: finished in 105.00 milliseconds, allocated 58.069 megabytes
+*** Simplifier [Codec.Binary.UTF8.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 4,482, types: 3,232, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 4,440, types: 3,191, coercions: 0}
+Result size of Simplifier
+  = {terms: 4,440, types: 3,191, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.Generic]: finished in 74.00 milliseconds, allocated 45.244 megabytes
+*** Float inwards [Codec.Binary.UTF8.Generic]:
+Result size of Float inwards
+  = {terms: 4,440, types: 3,191, coercions: 0}
+!!! Float inwards [Codec.Binary.UTF8.Generic]: finished in 14.00 milliseconds, allocated 7.488 megabytes
+*** Called arity analysis [Codec.Binary.UTF8.Generic]:
+Result size of Called arity analysis
+  = {terms: 4,440, types: 3,191, coercions: 0}
+!!! Called arity analysis [Codec.Binary.UTF8.Generic]: finished in 4.00 milliseconds, allocated 3.708 megabytes
+*** Simplifier [Codec.Binary.UTF8.Generic]:
+Result size of Simplifier
+  = {terms: 4,440, types: 3,191, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.Generic]: finished in 17.00 milliseconds, allocated 14.660 megabytes
+*** Demand analysis [Codec.Binary.UTF8.Generic]:
+Result size of Demand analysis
+  = {terms: 4,440, types: 3,191, coercions: 0}
+!!! Demand analysis [Codec.Binary.UTF8.Generic]: finished in 26.00 milliseconds, allocated 21.616 megabytes
+*** Worker Wrapper binds [Codec.Binary.UTF8.Generic]:
+Result size of Worker Wrapper binds
+  = {terms: 5,383, types: 4,374, coercions: 0}
+!!! Worker Wrapper binds [Codec.Binary.UTF8.Generic]: finished in 4.00 milliseconds, allocated 2.237 megabytes
+*** Simplifier [Codec.Binary.UTF8.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 6,473, types: 4,809, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 5,398, types: 4,011, coercions: 0}
+Result size of Simplifier
+  = {terms: 5,398, types: 4,011, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.Generic]: finished in 122.00 milliseconds, allocated 66.327 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Binary.UTF8.Generic]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 5,650, types: 4,201, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Binary.UTF8.Generic]: finished in 29.00 milliseconds, allocated 22.021 megabytes
+*** Common sub-expression [Codec.Binary.UTF8.Generic]:
+Result size of Common sub-expression
+  = {terms: 5,502, types: 4,145, coercions: 0}
+!!! Common sub-expression [Codec.Binary.UTF8.Generic]: finished in 5.00 milliseconds, allocated 6.017 megabytes
+*** Float inwards [Codec.Binary.UTF8.Generic]:
+Result size of Float inwards
+  = {terms: 5,502, types: 4,145, coercions: 0}
+!!! Float inwards [Codec.Binary.UTF8.Generic]: finished in 8.00 milliseconds, allocated 8.311 megabytes
+*** Liberate case [Codec.Binary.UTF8.Generic]:
+Result size of Liberate case
+  = {terms: 5,502, types: 4,145, coercions: 0}
+!!! Liberate case [Codec.Binary.UTF8.Generic]: finished in 3.00 milliseconds, allocated 2.458 megabytes
+*** Simplifier [Codec.Binary.UTF8.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 5,236, types: 3,959, coercions: 0}
+Result size of Simplifier
+  = {terms: 5,236, types: 3,959, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.Generic]: finished in 54.00 milliseconds, allocated 36.803 megabytes
+*** SpecConstr [Codec.Binary.UTF8.Generic]:
+Result size of SpecConstr
+  = {terms: 5,932, types: 4,568, coercions: 0}
+!!! SpecConstr [Codec.Binary.UTF8.Generic]: finished in 16.00 milliseconds, allocated 9.704 megabytes
+*** Simplifier [Codec.Binary.UTF8.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 5,985, types: 4,571, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 5,766, types: 4,428, coercions: 0}
+Result size of Simplifier
+  = {terms: 5,766, types: 4,428, coercions: 0}
+!!! Simplifier [Codec.Binary.UTF8.Generic]: finished in 105.00 milliseconds, allocated 64.879 megabytes
+*** CoreTidy [Codec.Binary.UTF8.Generic]:
+Result size of Tidy Core
+  = {terms: 5,708, types: 4,771, coercions: 0}
+!!! CoreTidy [Codec.Binary.UTF8.Generic]: finished in 17.00 milliseconds, allocated 6.178 megabytes
+writeBinIface: 146 Names
+writeBinIface: 239 dict entries
+writeBinIface: 146 Names
+writeBinIface: 239 dict entries
+*** CorePrep [Codec.Binary.UTF8.Generic]:
+Result size of CorePrep
+  = {terms: 7,904, types: 5,755, coercions: 0}
+!!! CorePrep [Codec.Binary.UTF8.Generic]: finished in 12.00 milliseconds, allocated 12.484 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Binary.UTF8.Generic]:
+!!! CodeGen [Codec.Binary.UTF8.Generic]: finished in 345.00 milliseconds, allocated 238.405 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Codec/Binary/UTF8 -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc5371_0/ghc_17.s -o dist/dist-sandbox-6afc8227/build/Codec/Binary/UTF8/Generic.o
+*** CorePrep [Codec.Binary.UTF8.Generic]:
+Result size of CorePrep
+  = {terms: 7,904, types: 5,755, coercions: 0}
+!!! CorePrep [Codec.Binary.UTF8.Generic]: finished in 14.00 milliseconds, allocated 12.035 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Binary.UTF8.Generic]:
+!!! CodeGen [Codec.Binary.UTF8.Generic]: finished in 376.00 milliseconds, allocated 251.172 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Codec/Binary/UTF8 -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5371_0/ghc_19.s -o dist/dist-sandbox-6afc8227/build/Codec/Binary/UTF8/Generic.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5371_0/ghc_20.c /tmp/ghc5371_0/ghc_19.s /tmp/ghc5371_0/ghc_18.c /tmp/ghc5371_0/ghc_17.s /tmp/ghc5371_0/ghc_16.s
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_18.c
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_16.s
+compile: input file /tmp/ghc5371_0/ghc_5.hscpp
+*** Checking old interface for Data.String.UTF8:
+[3 of 5] Compiling Data.String.UTF8 ( Data/String/UTF8.hs, dist/dist-sandbox-6afc8227/build/Data/String/UTF8.o )
+*** Parser [Data.String.UTF8]:
+!!! Parser [Data.String.UTF8]: finished in 3.00 milliseconds, allocated 5.188 megabytes
+*** Renamer/typechecker [Data.String.UTF8]:
+!!! Renamer/typechecker [Data.String.UTF8]: finished in 45.00 milliseconds, allocated 25.577 megabytes
+*** Desugar [Data.String.UTF8]:
+Result size of Desugar (after optimization)
+  = {terms: 357, types: 821, coercions: 172}
+!!! Desugar [Data.String.UTF8]: finished in 5.00 milliseconds, allocated 3.564 megabytes
+*** Simplifier [Data.String.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 288, types: 721, coercions: 431}
+Result size of Simplifier
+  = {terms: 288, types: 721, coercions: 397}
+!!! Simplifier [Data.String.UTF8]: finished in 7.00 milliseconds, allocated 3.463 megabytes
+*** Specialise [Data.String.UTF8]:
+Result size of Specialise
+  = {terms: 288, types: 721, coercions: 397}
+!!! Specialise [Data.String.UTF8]: finished in 0.00 milliseconds, allocated 0.436 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.String.UTF8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 297, types: 748, coercions: 397}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.String.UTF8]: finished in 3.00 milliseconds, allocated 1.978 megabytes
+*** Simplifier [Data.String.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 359, types: 811, coercions: 491}
+Result size of Simplifier iteration=2
+  = {terms: 337, types: 768, coercions: 488}
+Result size of Simplifier
+  = {terms: 337, types: 768, coercions: 488}
+!!! Simplifier [Data.String.UTF8]: finished in 13.00 milliseconds, allocated 5.879 megabytes
+*** Simplifier [Data.String.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 301, types: 706, coercions: 542}
+Result size of Simplifier
+  = {terms: 293, types: 692, coercions: 510}
+!!! Simplifier [Data.String.UTF8]: finished in 5.00 milliseconds, allocated 3.580 megabytes
+*** Simplifier [Data.String.UTF8]:
+Result size of Simplifier
+  = {terms: 293, types: 692, coercions: 510}
+!!! Simplifier [Data.String.UTF8]: finished in 3.00 milliseconds, allocated 1.620 megabytes
+*** Float inwards [Data.String.UTF8]:
+Result size of Float inwards
+  = {terms: 293, types: 692, coercions: 510}
+!!! Float inwards [Data.String.UTF8]: finished in 0.00 milliseconds, allocated 0.359 megabytes
+*** Called arity analysis [Data.String.UTF8]:
+Result size of Called arity analysis
+  = {terms: 293, types: 692, coercions: 510}
+!!! Called arity analysis [Data.String.UTF8]: finished in 1.00 milliseconds, allocated 0.400 megabytes
+*** Simplifier [Data.String.UTF8]:
+Result size of Simplifier
+  = {terms: 293, types: 692, coercions: 510}
+!!! Simplifier [Data.String.UTF8]: finished in 3.00 milliseconds, allocated 1.620 megabytes
+*** Demand analysis [Data.String.UTF8]:
+Result size of Demand analysis
+  = {terms: 293, types: 692, coercions: 510}
+!!! Demand analysis [Data.String.UTF8]: finished in 1.00 milliseconds, allocated 1.002 megabytes
+*** Worker Wrapper binds [Data.String.UTF8]:
+Result size of Worker Wrapper binds
+  = {terms: 344, types: 806, coercions: 510}
+!!! Worker Wrapper binds [Data.String.UTF8]: finished in 1.00 milliseconds, allocated 0.233 megabytes
+*** Simplifier [Data.String.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 333, types: 767, coercions: 518}
+Result size of Simplifier
+  = {terms: 311, types: 723, coercions: 510}
+!!! Simplifier [Data.String.UTF8]: finished in 7.00 milliseconds, allocated 5.236 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.String.UTF8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 315, types: 727, coercions: 510}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.String.UTF8]: finished in 3.00 milliseconds, allocated 1.909 megabytes
+*** Common sub-expression [Data.String.UTF8]:
+Result size of Common sub-expression
+  = {terms: 313, types: 725, coercions: 510}
+!!! Common sub-expression [Data.String.UTF8]: finished in 1.00 milliseconds, allocated 0.598 megabytes
+*** Float inwards [Data.String.UTF8]:
+Result size of Float inwards
+  = {terms: 313, types: 725, coercions: 510}
+!!! Float inwards [Data.String.UTF8]: finished in 0.00 milliseconds, allocated 0.370 megabytes
+*** Liberate case [Data.String.UTF8]:
+Result size of Liberate case
+  = {terms: 313, types: 725, coercions: 510}
+!!! Liberate case [Data.String.UTF8]: finished in 1.00 milliseconds, allocated 0.171 megabytes
+*** Simplifier [Data.String.UTF8]:
+Result size of Simplifier
+  = {terms: 311, types: 723, coercions: 510}
+!!! Simplifier [Data.String.UTF8]: finished in 4.00 milliseconds, allocated 2.445 megabytes
+*** SpecConstr [Data.String.UTF8]:
+Result size of SpecConstr
+  = {terms: 311, types: 723, coercions: 510}
+!!! SpecConstr [Data.String.UTF8]: finished in 1.00 milliseconds, allocated 0.361 megabytes
+*** Simplifier [Data.String.UTF8]:
+Result size of Simplifier
+  = {terms: 311, types: 723, coercions: 510}
+!!! Simplifier [Data.String.UTF8]: finished in 5.00 milliseconds, allocated 2.519 megabytes
+*** CoreTidy [Data.String.UTF8]:
+Result size of Tidy Core = {terms: 311, types: 723, coercions: 510}
+!!! CoreTidy [Data.String.UTF8]: finished in 1.00 milliseconds, allocated 0.812 megabytes
+writeBinIface: 83 Names
+writeBinIface: 130 dict entries
+writeBinIface: 83 Names
+writeBinIface: 130 dict entries
+*** CorePrep [Data.String.UTF8]:
+Result size of CorePrep
+  = {terms: 488, types: 1,005, coercions: 510}
+!!! CorePrep [Data.String.UTF8]: finished in 1.00 milliseconds, allocated 0.806 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.String.UTF8]:
+!!! CodeGen [Data.String.UTF8]: finished in 33.00 milliseconds, allocated 17.626 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/String -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc5371_0/ghc_22.s -o dist/dist-sandbox-6afc8227/build/Data/String/UTF8.o
+*** CorePrep [Data.String.UTF8]:
+Result size of CorePrep
+  = {terms: 488, types: 1,005, coercions: 510}
+!!! CorePrep [Data.String.UTF8]: finished in 1.00 milliseconds, allocated 0.781 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.String.UTF8]:
+!!! CodeGen [Data.String.UTF8]: finished in 27.00 milliseconds, allocated 18.477 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/String -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5371_0/ghc_24.s -o dist/dist-sandbox-6afc8227/build/Data/String/UTF8.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5371_0/ghc_25.c /tmp/ghc5371_0/ghc_24.s /tmp/ghc5371_0/ghc_23.c /tmp/ghc5371_0/ghc_22.s /tmp/ghc5371_0/ghc_21.s
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_25.c
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_23.c
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_21.s
+compile: input file /tmp/ghc5371_0/ghc_7.hscpp
+*** Checking old interface for Data.ByteString.UTF8:
+[4 of 5] Compiling Data.ByteString.UTF8 ( Data/ByteString/UTF8.hs, dist/dist-sandbox-6afc8227/build/Data/ByteString/UTF8.o )
+*** Parser [Data.ByteString.UTF8]:
+!!! Parser [Data.ByteString.UTF8]: finished in 4.00 milliseconds, allocated 6.810 megabytes
+*** Renamer/typechecker [Data.ByteString.UTF8]:
+!!! Renamer/typechecker [Data.ByteString.UTF8]: finished in 22.00 milliseconds, allocated 11.289 megabytes
+*** Desugar [Data.ByteString.UTF8]:
+Result size of Desugar (after optimization)
+  = {terms: 703, types: 595, coercions: 0}
+!!! Desugar [Data.ByteString.UTF8]: finished in 6.00 milliseconds, allocated 3.666 megabytes
+*** Simplifier [Data.ByteString.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 573, types: 457, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 551, types: 440, coercions: 0}
+Result size of Simplifier = {terms: 551, types: 440, coercions: 0}
+!!! Simplifier [Data.ByteString.UTF8]: finished in 9.00 milliseconds, allocated 6.184 megabytes
+*** Specialise [Data.ByteString.UTF8]:
+Result size of Specialise = {terms: 551, types: 440, coercions: 0}
+!!! Specialise [Data.ByteString.UTF8]: finished in 1.00 milliseconds, allocated 0.598 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.ByteString.UTF8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 657, types: 501, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.ByteString.UTF8]: finished in 6.00 milliseconds, allocated 2.629 megabytes
+*** Simplifier [Data.ByteString.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,812, types: 1,242, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,047, types: 621, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 1,039, types: 617, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,039, types: 617, coercions: 0}
+!!! Simplifier [Data.ByteString.UTF8]: finished in 30.00 milliseconds, allocated 20.881 megabytes
+*** Simplifier [Data.ByteString.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,057, types: 660, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,018, types: 623, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 1,016, types: 622, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,016, types: 622, coercions: 0}
+!!! Simplifier [Data.ByteString.UTF8]: finished in 20.00 milliseconds, allocated 14.060 megabytes
+*** Simplifier [Data.ByteString.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,130, types: 663, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,120, types: 653, coercions: 0}
+!!! Simplifier [Data.ByteString.UTF8]: finished in 9.00 milliseconds, allocated 7.018 megabytes
+*** Float inwards [Data.ByteString.UTF8]:
+Result size of Float inwards
+  = {terms: 1,120, types: 653, coercions: 0}
+!!! Float inwards [Data.ByteString.UTF8]: finished in 2.00 milliseconds, allocated 1.805 megabytes
+*** Called arity analysis [Data.ByteString.UTF8]:
+Result size of Called arity analysis
+  = {terms: 1,120, types: 653, coercions: 0}
+!!! Called arity analysis [Data.ByteString.UTF8]: finished in 2.00 milliseconds, allocated 0.986 megabytes
+*** Simplifier [Data.ByteString.UTF8]:
+Result size of Simplifier
+  = {terms: 1,120, types: 653, coercions: 0}
+!!! Simplifier [Data.ByteString.UTF8]: finished in 5.00 milliseconds, allocated 3.486 megabytes
+*** Demand analysis [Data.ByteString.UTF8]:
+Result size of Demand analysis
+  = {terms: 1,120, types: 653, coercions: 0}
+!!! Demand analysis [Data.ByteString.UTF8]: finished in 8.00 milliseconds, allocated 5.245 megabytes
+*** Worker Wrapper binds [Data.ByteString.UTF8]:
+Result size of Worker Wrapper binds
+  = {terms: 1,454, types: 1,004, coercions: 0}
+!!! Worker Wrapper binds [Data.ByteString.UTF8]: finished in 1.00 milliseconds, allocated 0.633 megabytes
+*** Simplifier [Data.ByteString.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,903, types: 1,114, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,677, types: 977, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,677, types: 977, coercions: 0}
+!!! Simplifier [Data.ByteString.UTF8]: finished in 30.00 milliseconds, allocated 20.023 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.ByteString.UTF8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,777, types: 1,070, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.ByteString.UTF8]: finished in 7.00 milliseconds, allocated 5.826 megabytes
+*** Common sub-expression [Data.ByteString.UTF8]:
+Result size of Common sub-expression
+  = {terms: 1,719, types: 1,036, coercions: 0}
+!!! Common sub-expression [Data.ByteString.UTF8]: finished in 3.00 milliseconds, allocated 1.817 megabytes
+*** Float inwards [Data.ByteString.UTF8]:
+Result size of Float inwards
+  = {terms: 1,719, types: 1,036, coercions: 0}
+!!! Float inwards [Data.ByteString.UTF8]: finished in 5.00 milliseconds, allocated 2.348 megabytes
+*** Liberate case [Data.ByteString.UTF8]:
+Result size of Liberate case
+  = {terms: 1,719, types: 1,036, coercions: 0}
+!!! Liberate case [Data.ByteString.UTF8]: finished in 1.00 milliseconds, allocated 0.771 megabytes
+*** Simplifier [Data.ByteString.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,637, types: 961, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,637, types: 961, coercions: 0}
+!!! Simplifier [Data.ByteString.UTF8]: finished in 16.00 milliseconds, allocated 11.188 megabytes
+*** SpecConstr [Data.ByteString.UTF8]:
+Result size of SpecConstr
+  = {terms: 1,928, types: 1,141, coercions: 0}
+!!! SpecConstr [Data.ByteString.UTF8]: finished in 7.00 milliseconds, allocated 3.096 megabytes
+*** Simplifier [Data.ByteString.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,948, types: 1,151, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,729, types: 1,008, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,729, types: 1,008, coercions: 0}
+!!! Simplifier [Data.ByteString.UTF8]: finished in 27.00 milliseconds, allocated 19.116 megabytes
+*** CoreTidy [Data.ByteString.UTF8]:
+Result size of Tidy Core
+  = {terms: 1,729, types: 1,008, coercions: 0}
+!!! CoreTidy [Data.ByteString.UTF8]: finished in 2.00 milliseconds, allocated 1.759 megabytes
+writeBinIface: 40 Names
+writeBinIface: 113 dict entries
+writeBinIface: 40 Names
+writeBinIface: 113 dict entries
+*** CorePrep [Data.ByteString.UTF8]:
+Result size of CorePrep
+  = {terms: 2,373, types: 1,252, coercions: 0}
+!!! CorePrep [Data.ByteString.UTF8]: finished in 4.00 milliseconds, allocated 3.668 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.ByteString.UTF8]:
+!!! CodeGen [Data.ByteString.UTF8]: finished in 86.00 milliseconds, allocated 60.726 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/ByteString -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc5371_0/ghc_27.s -o dist/dist-sandbox-6afc8227/build/Data/ByteString/UTF8.o
+*** CorePrep [Data.ByteString.UTF8]:
+Result size of CorePrep
+  = {terms: 2,373, types: 1,252, coercions: 0}
+!!! CorePrep [Data.ByteString.UTF8]: finished in 4.00 milliseconds, allocated 3.541 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.ByteString.UTF8]:
+!!! CodeGen [Data.ByteString.UTF8]: finished in 92.00 milliseconds, allocated 63.221 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/ByteString -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5371_0/ghc_29.s -o dist/dist-sandbox-6afc8227/build/Data/ByteString/UTF8.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5371_0/ghc_30.c /tmp/ghc5371_0/ghc_29.s /tmp/ghc5371_0/ghc_28.c /tmp/ghc5371_0/ghc_27.s /tmp/ghc5371_0/ghc_26.s
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_30.c
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_28.c
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_26.s
+compile: input file /tmp/ghc5371_0/ghc_9.hscpp
+*** Checking old interface for Data.ByteString.Lazy.UTF8:
+[5 of 5] Compiling Data.ByteString.Lazy.UTF8 ( Data/ByteString/Lazy/UTF8.hs, dist/dist-sandbox-6afc8227/build/Data/ByteString/Lazy/UTF8.o )
+*** Parser [Data.ByteString.Lazy.UTF8]:
+!!! Parser [Data.ByteString.Lazy.UTF8]: finished in 8.00 milliseconds, allocated 10.131 megabytes
+*** Renamer/typechecker [Data.ByteString.Lazy.UTF8]:
+!!! Renamer/typechecker [Data.ByteString.Lazy.UTF8]: finished in 52.00 milliseconds, allocated 27.393 megabytes
+*** Desugar [Data.ByteString.Lazy.UTF8]:
+Result size of Desugar (after optimization)
+  = {terms: 1,233, types: 1,095, coercions: 0}
+!!! Desugar [Data.ByteString.Lazy.UTF8]: finished in 13.00 milliseconds, allocated 7.718 megabytes
+*** Simplifier [Data.ByteString.Lazy.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,077, types: 885, coercions: 54}
+Result size of Simplifier iteration=2
+  = {terms: 1,059, types: 903, coercions: 79}
+Result size of Simplifier iteration=3
+  = {terms: 1,057, types: 893, coercions: 95}
+Result size of Simplifier
+  = {terms: 1,057, types: 893, coercions: 95}
+!!! Simplifier [Data.ByteString.Lazy.UTF8]: finished in 39.00 milliseconds, allocated 28.439 megabytes
+*** Specialise [Data.ByteString.Lazy.UTF8]:
+Result size of Specialise
+  = {terms: 1,057, types: 893, coercions: 95}
+!!! Specialise [Data.ByteString.Lazy.UTF8]: finished in 2.00 milliseconds, allocated 1.136 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.ByteString.Lazy.UTF8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,319, types: 1,041, coercions: 95}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.ByteString.Lazy.UTF8]: finished in 8.00 milliseconds, allocated 5.148 megabytes
+*** Simplifier [Data.ByteString.Lazy.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 8,959, types: 5,651, coercions: 35}
+Result size of Simplifier iteration=2
+  = {terms: 4,669, types: 2,261, coercions: 5}
+Result size of Simplifier iteration=3
+  = {terms: 7,015, types: 2,940, coercions: 5}
+Result size of Simplifier iteration=4
+  = {terms: 6,039, types: 2,443, coercions: 5}
+Result size of Simplifier
+  = {terms: 6,039, types: 2,443, coercions: 5}
+!!! Simplifier [Data.ByteString.Lazy.UTF8]: finished in 234.00 milliseconds, allocated 126.402 megabytes
+*** Simplifier [Data.ByteString.Lazy.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 6,913, types: 3,202, coercions: 5}
+Result size of Simplifier iteration=2
+  = {terms: 5,886, types: 2,617, coercions: 5}
+Result size of Simplifier iteration=3
+  = {terms: 5,826, types: 2,596, coercions: 5}
+Result size of Simplifier iteration=4
+  = {terms: 5,694, types: 2,593, coercions: 5}
+Result size of Simplifier
+  = {terms: 5,694, types: 2,593, coercions: 5}
+!!! Simplifier [Data.ByteString.Lazy.UTF8]: finished in 514.00 milliseconds, allocated 92.021 megabytes
+*** Simplifier [Data.ByteString.Lazy.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 5,435, types: 2,590, coercions: 5}
+Result size of Simplifier iteration=2
+  = {terms: 5,372, types: 2,582, coercions: 5}
+Result size of Simplifier
+  = {terms: 5,354, types: 2,576, coercions: 5}
+!!! Simplifier [Data.ByteString.Lazy.UTF8]: finished in 0.00 milliseconds, allocated 59.148 megabytes
+*** Float inwards [Data.ByteString.Lazy.UTF8]:
+Result size of Float inwards
+  = {terms: 5,354, types: 2,576, coercions: 5}
+!!! Float inwards [Data.ByteString.Lazy.UTF8]: finished in 0.00 milliseconds, allocated 8.872 megabytes
+*** Called arity analysis [Data.ByteString.Lazy.UTF8]:
+Result size of Called arity analysis
+  = {terms: 5,354, types: 2,576, coercions: 5}
+!!! Called arity analysis [Data.ByteString.Lazy.UTF8]: finished in 0.00 milliseconds, allocated 4.246 megabytes
+*** Simplifier [Data.ByteString.Lazy.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 5,309, types: 2,573, coercions: 5}
+Result size of Simplifier
+  = {terms: 5,243, types: 2,567, coercions: 5}
+!!! Simplifier [Data.ByteString.Lazy.UTF8]: finished in 0.00 milliseconds, allocated 37.822 megabytes
+*** Demand analysis [Data.ByteString.Lazy.UTF8]:
+Result size of Demand analysis
+  = {terms: 5,243, types: 2,567, coercions: 5}
+!!! Demand analysis [Data.ByteString.Lazy.UTF8]: finished in 0.00 milliseconds, allocated 27.610 megabytes
+*** Worker Wrapper binds [Data.ByteString.Lazy.UTF8]:
+Result size of Worker Wrapper binds
+  = {terms: 6,511, types: 3,821, coercions: 5}
+!!! Worker Wrapper binds [Data.ByteString.Lazy.UTF8]: finished in 0.00 milliseconds, allocated 2.305 megabytes
+*** Simplifier [Data.ByteString.Lazy.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 6,134, types: 3,568, coercions: 5}
+Result size of Simplifier iteration=2
+  = {terms: 5,052, types: 2,642, coercions: 5}
+Result size of Simplifier
+  = {terms: 5,034, types: 2,636, coercions: 5}
+!!! Simplifier [Data.ByteString.Lazy.UTF8]: finished in 74.00 milliseconds, allocated 69.761 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.ByteString.Lazy.UTF8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 5,178, types: 2,727, coercions: 5}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.ByteString.Lazy.UTF8]: finished in 15.00 milliseconds, allocated 15.383 megabytes
+*** Common sub-expression [Data.ByteString.Lazy.UTF8]:
+Result size of Common sub-expression
+  = {terms: 5,104, types: 2,711, coercions: 5}
+!!! Common sub-expression [Data.ByteString.Lazy.UTF8]: finished in 7.00 milliseconds, allocated 5.531 megabytes
+*** Float inwards [Data.ByteString.Lazy.UTF8]:
+Result size of Float inwards
+  = {terms: 5,104, types: 2,711, coercions: 5}
+!!! Float inwards [Data.ByteString.Lazy.UTF8]: finished in 14.00 milliseconds, allocated 8.292 megabytes
+*** Liberate case [Data.ByteString.Lazy.UTF8]:
+Result size of Liberate case
+  = {terms: 5,104, types: 2,711, coercions: 5}
+!!! Liberate case [Data.ByteString.Lazy.UTF8]: finished in 3.00 milliseconds, allocated 2.100 megabytes
+*** Simplifier [Data.ByteString.Lazy.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 4,946, types: 2,628, coercions: 5}
+Result size of Simplifier
+  = {terms: 4,905, types: 2,622, coercions: 5}
+!!! Simplifier [Data.ByteString.Lazy.UTF8]: finished in 62.00 milliseconds, allocated 36.740 megabytes
+*** SpecConstr [Data.ByteString.Lazy.UTF8]:
+Result size of SpecConstr
+  = {terms: 5,734, types: 3,017, coercions: 5}
+!!! SpecConstr [Data.ByteString.Lazy.UTF8]: finished in 10.00 milliseconds, allocated 9.085 megabytes
+*** Simplifier [Data.ByteString.Lazy.UTF8]:
+Result size of Simplifier iteration=1
+  = {terms: 5,730, types: 3,017, coercions: 5}
+Result size of Simplifier
+  = {terms: 5,625, types: 2,975, coercions: 5}
+!!! Simplifier [Data.ByteString.Lazy.UTF8]: finished in 60.00 milliseconds, allocated 43.684 megabytes
+*** CoreTidy [Data.ByteString.Lazy.UTF8]:
+Result size of Tidy Core
+  = {terms: 5,625, types: 2,975, coercions: 5}
+!!! CoreTidy [Data.ByteString.Lazy.UTF8]: finished in 8.00 milliseconds, allocated 5.500 megabytes
+writeBinIface: 66 Names
+writeBinIface: 183 dict entries
+writeBinIface: 66 Names
+writeBinIface: 183 dict entries
+*** CorePrep [Data.ByteString.Lazy.UTF8]:
+Result size of CorePrep
+  = {terms: 7,961, types: 3,863, coercions: 5}
+!!! CorePrep [Data.ByteString.Lazy.UTF8]: finished in 13.00 milliseconds, allocated 11.938 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.ByteString.Lazy.UTF8]:
+!!! CodeGen [Data.ByteString.Lazy.UTF8]: finished in 231.00 milliseconds, allocated 202.033 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/ByteString/Lazy -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc5371_0/ghc_32.s -o dist/dist-sandbox-6afc8227/build/Data/ByteString/Lazy/UTF8.o
+*** CorePrep [Data.ByteString.Lazy.UTF8]:
+Result size of CorePrep
+  = {terms: 7,961, types: 3,863, coercions: 5}
+!!! CorePrep [Data.ByteString.Lazy.UTF8]: finished in 17.00 milliseconds, allocated 11.496 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.ByteString.Lazy.UTF8]:
+!!! CodeGen [Data.ByteString.Lazy.UTF8]: finished in 275.00 milliseconds, allocated 208.890 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/ByteString/Lazy -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5371_0/ghc_34.s -o dist/dist-sandbox-6afc8227/build/Data/ByteString/Lazy/UTF8.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc5371_0/ghc_35.c /tmp/ghc5371_0/ghc_34.s /tmp/ghc5371_0/ghc_33.c /tmp/ghc5371_0/ghc_32.s /tmp/ghc5371_0/ghc_31.s
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_35.c
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_33.c
+Warning: deleting non-existent /tmp/ghc5371_0/ghc_31.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc5371_0/ghc_9.hscpp /tmp/ghc5371_0/ghc_7.hscpp /tmp/ghc5371_0/ghc_5.hscpp /tmp/ghc5371_0/ghc_3.hscpp /tmp/ghc5371_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc5371_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -o dist/dist-sandbox-6afc8227/build/libHSutf8-string-1.0.1.1-2T8mBCuEDlXDo8zed8Onw4-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSutf8-string-1.0.1.1-2T8mBCuEDlXDo8zed8Onw4-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Codec/Binary/UTF8/String.dyn_o dist/dist-sandbox-6afc8227/build/Codec/Binary/UTF8/Generic.dyn_o dist/dist-sandbox-6afc8227/build/Data/String/UTF8.dyn_o dist/dist-sandbox-6afc8227/build/Data/ByteString/UTF8.dyn_o dist/dist-sandbox-6afc8227/build/Data/ByteString/Lazy/UTF8.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc6306_0
+*** Deleting temp files:
+Deleting: /tmp/ghc6306_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc6306_0
+Creating package registration file:
+/tmp/pkgConf-utf8-string-1.0.11687926652660260756.1
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/utf8-string-1.0.1.1-2T8mBCuEDlXDo8zed8Onw4
+Registering utf8-string-1.0.1.1...
+cabal: Leaving directory '/tmp/cabal-tmp-1047/utf8-string-1.0.1.1'

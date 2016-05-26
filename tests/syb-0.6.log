@@ -1,0 +1,2154 @@
+cabal: Entering directory '/tmp/cabal-tmp-1042/syb-0.6'
+Configuring syb-0.6...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc4234_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc4234_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc4234_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc4234_0/ghc_2.rsp /tmp/ghc4234_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc4234_0
+Building syb-0.6...
+Preprocessing library syb-0.6...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.Generics,*Data.Generics.Basics,*Data.Generics.Instances,*Data.Generics.Aliases,*Data.Generics.Schemes,*Data.Generics.Text,*Data.Generics.Twins,*Data.Generics.Builders,*Generics.SYB,*Generics.SYB.Basics,*Generics.SYB.Instances,*Generics.SYB.Aliases,*Generics.SYB.Schemes,*Generics.SYB.Text,*Generics.SYB.Twins,*Generics.SYB.Builders
+Created temporary directory: /tmp/ghc4337_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4337_0/ghc_2.h -x assembler-with-cpp src/Data/Generics.hs -o /tmp/ghc4337_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4337_0/ghc_4.h -x assembler-with-cpp src/Data/Generics/Instances.hs -o /tmp/ghc4337_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4337_0/ghc_6.h -x assembler-with-cpp src/Data/Generics/Aliases.hs -o /tmp/ghc4337_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4337_0/ghc_8.h -x assembler-with-cpp src/Data/Generics/Schemes.hs -o /tmp/ghc4337_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4337_0/ghc_10.h -x assembler-with-cpp src/Data/Generics/Text.hs -o /tmp/ghc4337_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4337_0/ghc_12.h -x assembler-with-cpp src/Data/Generics/Twins.hs -o /tmp/ghc4337_0/ghc_11.hscpp
+!!! Chasing dependencies: finished in 37.00 milliseconds, allocated 35.484 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Data.Generics.Aliases,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Data),
+                            (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Data.Generics.Schemes,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Control.Monad),
+                            (Nothing, Data.Generics.Aliases), (Nothing, Data.Data)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Generics.SYB.Schemes,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Generics.Schemes)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Data.Generics.Text,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Text.Read.Lex),
+                            (Nothing, Text.ParserCombinators.ReadP),
+                            (Nothing, Data.Generics.Aliases), (Nothing, Data.Data),
+                            (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Generics.SYB.Text,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Generics.Text)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Data.Generics.Twins,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Generics.Aliases), (Nothing, Data.Data)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Generics.SYB.Twins,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Generics.Twins)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Data.Generics.Builders,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Generics.Aliases), (Nothing, Data.Data)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Generics.SYB.Aliases,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Generics.Aliases)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Data.Generics.Instances,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Concurrent), (Nothing, Data.IORef),
+                            (Nothing, GHC.Conc), (Nothing, GHC.ST), (Nothing, GHC.Stable),
+                            (Nothing, GHC.IO.Handle), (Nothing, Data.Data)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Generics.SYB.Instances,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Generics.Instances)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Data.Generics.Basics,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Data)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Generics.SYB.Basics,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Generics.Basics)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Data.Generics,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Generics.Builders), (Nothing, Data.Generics.Twins),
+                            (Nothing, Data.Generics.Text), (Nothing, Data.Generics.Schemes),
+                            (Nothing, Data.Generics.Aliases),
+                            (Nothing, Data.Generics.Instances), (Nothing, Data.Data)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Generics.SYB,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Generics)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-09-22 17:13:50 UTC
+         ms_mod = Generics.SYB.Builders,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Generics.Builders)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_12.h /tmp/ghc4337_0/ghc_10.h /tmp/ghc4337_0/ghc_8.h /tmp/ghc4337_0/ghc_6.h /tmp/ghc4337_0/ghc_4.h /tmp/ghc4337_0/ghc_2.h
+compile: input file /tmp/ghc4337_0/ghc_5.hscpp
+*** Checking old interface for Data.Generics.Aliases:
+[ 1 of 16] Compiling Data.Generics.Aliases ( src/Data/Generics/Aliases.hs, dist/dist-sandbox-6afc8227/build/Data/Generics/Aliases.o )
+*** Parser [Data.Generics.Aliases]:
+!!! Parser [Data.Generics.Aliases]: finished in 8.00 milliseconds, allocated 9.237 megabytes
+*** Renamer/typechecker [Data.Generics.Aliases]:
+!!! Renamer/typechecker [Data.Generics.Aliases]: finished in 206.00 milliseconds, allocated 86.555 megabytes
+*** Desugar [Data.Generics.Aliases]:
+Result size of Desugar (after optimization)
+  = {terms: 681, types: 1,868, coercions: 127}
+!!! Desugar [Data.Generics.Aliases]: finished in 23.00 milliseconds, allocated 11.666 megabytes
+
+src/Data/Generics/Aliases.hs:181:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           extM :: (Monad m, Typeable a, Typeable b) =>
+                   (a -> m a) -> (b -> m b) -> a -> m a
+
+src/Data/Generics/Aliases.hs:207:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           extR :: (Monad m, Typeable a, Typeable b) => m a -> m b -> m a
+
+src/Data/Generics/Aliases.hs:338:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           ext1M :: (Monad m, Data d, Typeable t) =>
+                    (forall e. Data e => e -> m e)
+                    -> (forall f. Data f => t f -> m (t f)) -> d -> m d
+
+src/Data/Generics/Aliases.hs:354:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           ext1R :: (Monad m, Data d, Typeable t) =>
+                    m d -> (forall e. Data e => m (t e)) -> m d
+
+src/Data/Generics/Aliases.hs:389:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           ext2M :: (Monad m, Data d, Typeable t) =>
+                    (forall e. Data e => e -> m e)
+                    -> (forall d1 d2. (Data d1, Data d2) => t d1 d2 -> m (t d1 d2))
+                    -> d
+                    -> m d
+
+src/Data/Generics/Aliases.hs:405:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           ext2R :: (Monad m, Data d, Typeable t) =>
+                    m d -> (forall d1 d2. (Data d1, Data d2) => m (t d1 d2)) -> m d
+*** Simplifier [Data.Generics.Aliases]:
+Result size of Simplifier iteration=1
+  = {terms: 678, types: 1,851, coercions: 263}
+Result size of Simplifier iteration=2
+  = {terms: 676, types: 1,849, coercions: 263}
+Result size of Simplifier
+  = {terms: 676, types: 1,849, coercions: 263}
+!!! Simplifier [Data.Generics.Aliases]: finished in 15.00 milliseconds, allocated 6.670 megabytes
+*** Specialise [Data.Generics.Aliases]:
+Result size of Specialise
+  = {terms: 676, types: 1,849, coercions: 263}
+!!! Specialise [Data.Generics.Aliases]: finished in 2.00 milliseconds, allocated 0.860 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Aliases]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 682, types: 1,865, coercions: 263}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Aliases]: finished in 5.00 milliseconds, allocated 4.323 megabytes
+*** Simplifier [Data.Generics.Aliases]:
+Result size of Simplifier iteration=1
+  = {terms: 864, types: 2,341, coercions: 792}
+Result size of Simplifier iteration=2
+  = {terms: 849, types: 2,318, coercions: 771}
+Result size of Simplifier
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! Simplifier [Data.Generics.Aliases]: finished in 24.00 milliseconds, allocated 11.615 megabytes
+*** Simplifier [Data.Generics.Aliases]:
+Result size of Simplifier
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! Simplifier [Data.Generics.Aliases]: finished in 8.00 milliseconds, allocated 3.400 megabytes
+*** Simplifier [Data.Generics.Aliases]:
+Result size of Simplifier
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! Simplifier [Data.Generics.Aliases]: finished in 8.00 milliseconds, allocated 3.402 megabytes
+*** Float inwards [Data.Generics.Aliases]:
+Result size of Float inwards
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! Float inwards [Data.Generics.Aliases]: finished in 2.00 milliseconds, allocated 0.933 megabytes
+*** Called arity analysis [Data.Generics.Aliases]:
+Result size of Called arity analysis
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! Called arity analysis [Data.Generics.Aliases]: finished in 1.00 milliseconds, allocated 0.951 megabytes
+*** Simplifier [Data.Generics.Aliases]:
+Result size of Simplifier
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! Simplifier [Data.Generics.Aliases]: finished in 7.00 milliseconds, allocated 3.403 megabytes
+*** Demand analysis [Data.Generics.Aliases]:
+Result size of Demand analysis
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! Demand analysis [Data.Generics.Aliases]: finished in 6.00 milliseconds, allocated 2.998 megabytes
+*** Worker Wrapper binds [Data.Generics.Aliases]:
+Result size of Worker Wrapper binds
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! Worker Wrapper binds [Data.Generics.Aliases]: finished in 3.00 milliseconds, allocated 0.448 megabytes
+*** Simplifier [Data.Generics.Aliases]:
+Result size of Simplifier
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! Simplifier [Data.Generics.Aliases]: finished in 14.00 milliseconds, allocated 5.761 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Aliases]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Aliases]: finished in 8.00 milliseconds, allocated 4.254 megabytes
+*** Common sub-expression [Data.Generics.Aliases]:
+Result size of Common sub-expression
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! Common sub-expression [Data.Generics.Aliases]: finished in 44.00 milliseconds, allocated 1.851 megabytes
+*** Float inwards [Data.Generics.Aliases]:
+Result size of Float inwards
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! Float inwards [Data.Generics.Aliases]: finished in 1.00 milliseconds, allocated 0.901 megabytes
+*** Simplifier [Data.Generics.Aliases]:
+Result size of Simplifier iteration=1
+  = {terms: 849, types: 2,318, coercions: 768}
+Result size of Simplifier
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! Simplifier [Data.Generics.Aliases]: finished in 20.00 milliseconds, allocated 10.819 megabytes
+*** CoreTidy [Data.Generics.Aliases]:
+Result size of Tidy Core
+  = {terms: 849, types: 2,318, coercions: 768}
+!!! CoreTidy [Data.Generics.Aliases]: finished in 3.00 milliseconds, allocated 2.086 megabytes
+writeBinIface: 109 Names
+writeBinIface: 200 dict entries
+writeBinIface: 109 Names
+writeBinIface: 200 dict entries
+*** CorePrep [Data.Generics.Aliases]:
+Result size of CorePrep
+  = {terms: 1,067, types: 2,716, coercions: 768}
+!!! CorePrep [Data.Generics.Aliases]: finished in 2.00 milliseconds, allocated 1.764 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Aliases]:
+!!! CodeGen [Data.Generics.Aliases]: finished in 44.00 milliseconds, allocated 25.850 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_14.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Aliases.o
+*** CorePrep [Data.Generics.Aliases]:
+Result size of CorePrep
+  = {terms: 1,067, types: 2,716, coercions: 768}
+!!! CorePrep [Data.Generics.Aliases]: finished in 2.00 milliseconds, allocated 1.684 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Aliases]:
+!!! CodeGen [Data.Generics.Aliases]: finished in 40.00 milliseconds, allocated 26.518 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_16.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Aliases.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_17.c /tmp/ghc4337_0/ghc_16.s /tmp/ghc4337_0/ghc_15.c /tmp/ghc4337_0/ghc_14.s /tmp/ghc4337_0/ghc_13.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_17.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_13.s
+compile: input file /tmp/ghc4337_0/ghc_7.hscpp
+*** Checking old interface for Data.Generics.Schemes:
+[ 2 of 16] Compiling Data.Generics.Schemes ( src/Data/Generics/Schemes.hs, dist/dist-sandbox-6afc8227/build/Data/Generics/Schemes.o )
+*** Parser [Data.Generics.Schemes]:
+!!! Parser [Data.Generics.Schemes]: finished in 4.00 milliseconds, allocated 4.643 megabytes
+*** Renamer/typechecker [Data.Generics.Schemes]:
+!!! Renamer/typechecker [Data.Generics.Schemes]: finished in 271.00 milliseconds, allocated 120.644 megabytes
+*** Desugar [Data.Generics.Schemes]:
+Result size of Desugar (after optimization)
+  = {terms: 475, types: 703, coercions: 0}
+!!! Desugar [Data.Generics.Schemes]: finished in 0.00 milliseconds, allocated 2.894 megabytes
+*** Simplifier [Data.Generics.Schemes]:
+Result size of Simplifier iteration=1
+  = {terms: 425, types: 621, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 428, types: 620, coercions: 0}
+Result size of Simplifier = {terms: 428, types: 620, coercions: 0}
+!!! Simplifier [Data.Generics.Schemes]: finished in 0.00 milliseconds, allocated 7.095 megabytes
+*** Specialise [Data.Generics.Schemes]:
+Result size of Specialise = {terms: 435, types: 627, coercions: 0}
+!!! Specialise [Data.Generics.Schemes]: finished in 5.00 milliseconds, allocated 0.588 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Schemes]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 474, types: 700, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Schemes]: finished in 0.00 milliseconds, allocated 3.439 megabytes
+*** Simplifier [Data.Generics.Schemes]:
+Result size of Simplifier iteration=1
+  = {terms: 618, types: 826, coercions: 32}
+Result size of Simplifier iteration=2
+  = {terms: 542, types: 717, coercions: 36}
+Result size of Simplifier = {terms: 542, types: 717, coercions: 36}
+!!! Simplifier [Data.Generics.Schemes]: finished in 11.00 milliseconds, allocated 6.866 megabytes
+*** Simplifier [Data.Generics.Schemes]:
+Result size of Simplifier iteration=1
+  = {terms: 536, types: 709, coercions: 36}
+Result size of Simplifier = {terms: 536, types: 709, coercions: 36}
+!!! Simplifier [Data.Generics.Schemes]: finished in 7.00 milliseconds, allocated 4.478 megabytes
+*** Simplifier [Data.Generics.Schemes]:
+Result size of Simplifier iteration=1
+  = {terms: 599, types: 758, coercions: 36}
+Result size of Simplifier iteration=2
+  = {terms: 594, types: 752, coercions: 36}
+Result size of Simplifier = {terms: 594, types: 752, coercions: 36}
+!!! Simplifier [Data.Generics.Schemes]: finished in 13.00 milliseconds, allocated 6.369 megabytes
+*** Float inwards [Data.Generics.Schemes]:
+Result size of Float inwards
+  = {terms: 594, types: 752, coercions: 36}
+!!! Float inwards [Data.Generics.Schemes]: finished in 1.00 milliseconds, allocated 0.916 megabytes
+*** Called arity analysis [Data.Generics.Schemes]:
+Result size of Called arity analysis
+  = {terms: 594, types: 752, coercions: 36}
+!!! Called arity analysis [Data.Generics.Schemes]: finished in 0.00 milliseconds, allocated 0.660 megabytes
+*** Simplifier [Data.Generics.Schemes]:
+Result size of Simplifier = {terms: 594, types: 752, coercions: 36}
+!!! Simplifier [Data.Generics.Schemes]: finished in 2.00 milliseconds, allocated 2.080 megabytes
+*** Demand analysis [Data.Generics.Schemes]:
+Result size of Demand analysis
+  = {terms: 594, types: 752, coercions: 36}
+!!! Demand analysis [Data.Generics.Schemes]: finished in 4.00 milliseconds, allocated 3.407 megabytes
+*** Worker Wrapper binds [Data.Generics.Schemes]:
+Result size of Worker Wrapper binds
+  = {terms: 672, types: 841, coercions: 36}
+!!! Worker Wrapper binds [Data.Generics.Schemes]: finished in 1.00 milliseconds, allocated 0.403 megabytes
+*** Simplifier [Data.Generics.Schemes]:
+Result size of Simplifier iteration=1
+  = {terms: 640, types: 806, coercions: 36}
+Result size of Simplifier = {terms: 613, types: 788, coercions: 36}
+!!! Simplifier [Data.Generics.Schemes]: finished in 10.00 milliseconds, allocated 5.081 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Schemes]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 622, types: 803, coercions: 36}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Schemes]: finished in 5.00 milliseconds, allocated 4.075 megabytes
+*** Common sub-expression [Data.Generics.Schemes]:
+Result size of Common sub-expression
+  = {terms: 621, types: 803, coercions: 36}
+!!! Common sub-expression [Data.Generics.Schemes]: finished in 1.00 milliseconds, allocated 0.711 megabytes
+*** Float inwards [Data.Generics.Schemes]:
+Result size of Float inwards
+  = {terms: 621, types: 803, coercions: 36}
+!!! Float inwards [Data.Generics.Schemes]: finished in 2.00 milliseconds, allocated 1.045 megabytes
+*** Simplifier [Data.Generics.Schemes]:
+Result size of Simplifier = {terms: 619, types: 802, coercions: 36}
+!!! Simplifier [Data.Generics.Schemes]: finished in 4.00 milliseconds, allocated 2.290 megabytes
+*** CoreTidy [Data.Generics.Schemes]:
+Result size of Tidy Core = {terms: 615, types: 797, coercions: 36}
+!!! CoreTidy [Data.Generics.Schemes]: finished in 2.00 milliseconds, allocated 0.885 megabytes
+writeBinIface: 39 Names
+writeBinIface: 111 dict entries
+writeBinIface: 39 Names
+writeBinIface: 111 dict entries
+*** CorePrep [Data.Generics.Schemes]:
+Result size of CorePrep = {terms: 734, types: 926, coercions: 36}
+!!! CorePrep [Data.Generics.Schemes]: finished in 2.00 milliseconds, allocated 1.366 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Schemes]:
+!!! CodeGen [Data.Generics.Schemes]: finished in 45.00 milliseconds, allocated 31.513 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_19.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Schemes.o
+*** CorePrep [Data.Generics.Schemes]:
+Result size of CorePrep = {terms: 734, types: 926, coercions: 36}
+!!! CorePrep [Data.Generics.Schemes]: finished in 2.00 milliseconds, allocated 1.321 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Schemes]:
+!!! CodeGen [Data.Generics.Schemes]: finished in 49.00 milliseconds, allocated 33.077 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_21.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Schemes.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_22.c /tmp/ghc4337_0/ghc_21.s /tmp/ghc4337_0/ghc_20.c /tmp/ghc4337_0/ghc_19.s /tmp/ghc4337_0/ghc_18.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_22.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_18.s
+compile: input file src/Generics/SYB/Schemes.hs
+*** Checking old interface for Generics.SYB.Schemes:
+[ 3 of 16] Compiling Generics.SYB.Schemes ( src/Generics/SYB/Schemes.hs, dist/dist-sandbox-6afc8227/build/Generics/SYB/Schemes.o )
+*** Parser [Generics.SYB.Schemes]:
+!!! Parser [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.284 megabytes
+*** Renamer/typechecker [Generics.SYB.Schemes]:
+!!! Renamer/typechecker [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.473 megabytes
+*** Desugar [Generics.SYB.Schemes]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Generics.SYB.Schemes]: finished in 1.00 milliseconds, allocated 0.062 megabytes
+*** Simplifier [Generics.SYB.Schemes]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.130 megabytes
+*** Specialise [Generics.SYB.Schemes]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Schemes]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Schemes]: finished in 1.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Generics.SYB.Schemes]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.068 megabytes
+*** Simplifier [Generics.SYB.Schemes]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Generics.SYB.Schemes]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Generics.SYB.Schemes]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Generics.SYB.Schemes]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Generics.SYB.Schemes]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Generics.SYB.Schemes]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Generics.SYB.Schemes]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Generics.SYB.Schemes]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Schemes]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Generics.SYB.Schemes]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Generics.SYB.Schemes]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Generics.SYB.Schemes]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** CoreTidy [Generics.SYB.Schemes]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.062 megabytes
+writeBinIface: 22 Names
+writeBinIface: 43 dict entries
+writeBinIface: 22 Names
+writeBinIface: 43 dict entries
+*** CorePrep [Generics.SYB.Schemes]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Schemes]:
+!!! CodeGen [Generics.SYB.Schemes]: finished in 1.00 milliseconds, allocated 0.289 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_24.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Schemes.o
+*** CorePrep [Generics.SYB.Schemes]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Schemes]:
+!!! CodeGen [Generics.SYB.Schemes]: finished in 0.00 milliseconds, allocated 0.285 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_26.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Schemes.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_27.c /tmp/ghc4337_0/ghc_26.s /tmp/ghc4337_0/ghc_25.c /tmp/ghc4337_0/ghc_24.s /tmp/ghc4337_0/ghc_23.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_27.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_25.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_23.s
+compile: input file /tmp/ghc4337_0/ghc_9.hscpp
+*** Checking old interface for Data.Generics.Text:
+[ 4 of 16] Compiling Data.Generics.Text ( src/Data/Generics/Text.hs, dist/dist-sandbox-6afc8227/build/Data/Generics/Text.o )
+*** Parser [Data.Generics.Text]:
+!!! Parser [Data.Generics.Text]: finished in 1.00 milliseconds, allocated 2.918 megabytes
+*** Renamer/typechecker [Data.Generics.Text]:
+!!! Renamer/typechecker [Data.Generics.Text]: finished in 55.00 milliseconds, allocated 31.505 megabytes
+*** Desugar [Data.Generics.Text]:
+Result size of Desugar (after optimization)
+  = {terms: 260, types: 323, coercions: 45}
+!!! Desugar [Data.Generics.Text]: finished in 11.00 milliseconds, allocated 3.517 megabytes
+*** Simplifier [Data.Generics.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 274, types: 354, coercions: 48}
+Result size of Simplifier iteration=2
+  = {terms: 268, types: 355, coercions: 52}
+Result size of Simplifier = {terms: 268, types: 355, coercions: 52}
+!!! Simplifier [Data.Generics.Text]: finished in 11.00 milliseconds, allocated 4.537 megabytes
+*** Specialise [Data.Generics.Text]:
+Result size of Specialise = {terms: 286, types: 393, coercions: 74}
+!!! Specialise [Data.Generics.Text]: finished in 1.00 milliseconds, allocated 0.556 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Text]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 396, types: 559, coercions: 74}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Text]: finished in 2.00 milliseconds, allocated 1.915 megabytes
+*** Simplifier [Data.Generics.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 860, types: 1,062, coercions: 197}
+Result size of Simplifier iteration=2
+  = {terms: 496, types: 521, coercions: 88}
+Result size of Simplifier iteration=3
+  = {terms: 492, types: 517, coercions: 86}
+Result size of Simplifier = {terms: 492, types: 517, coercions: 86}
+!!! Simplifier [Data.Generics.Text]: finished in 38.00 milliseconds, allocated 19.490 megabytes
+*** Simplifier [Data.Generics.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 463, types: 472, coercions: 86}
+Result size of Simplifier = {terms: 460, types: 471, coercions: 86}
+!!! Simplifier [Data.Generics.Text]: finished in 9.00 milliseconds, allocated 4.205 megabytes
+*** Simplifier [Data.Generics.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 526, types: 576, coercions: 86}
+Result size of Simplifier iteration=2
+  = {terms: 515, types: 560, coercions: 86}
+Result size of Simplifier = {terms: 515, types: 560, coercions: 86}
+!!! Simplifier [Data.Generics.Text]: finished in 16.00 milliseconds, allocated 6.861 megabytes
+*** Float inwards [Data.Generics.Text]:
+Result size of Float inwards
+  = {terms: 515, types: 560, coercions: 86}
+!!! Float inwards [Data.Generics.Text]: finished in 1.00 milliseconds, allocated 0.954 megabytes
+*** Called arity analysis [Data.Generics.Text]:
+Result size of Called arity analysis
+  = {terms: 515, types: 560, coercions: 86}
+!!! Called arity analysis [Data.Generics.Text]: finished in 2.00 milliseconds, allocated 0.637 megabytes
+*** Simplifier [Data.Generics.Text]:
+Result size of Simplifier = {terms: 515, types: 560, coercions: 86}
+!!! Simplifier [Data.Generics.Text]: finished in 3.00 milliseconds, allocated 2.025 megabytes
+*** Demand analysis [Data.Generics.Text]:
+Result size of Demand analysis
+  = {terms: 515, types: 560, coercions: 86}
+!!! Demand analysis [Data.Generics.Text]: finished in 3.00 milliseconds, allocated 2.339 megabytes
+*** Worker Wrapper binds [Data.Generics.Text]:
+Result size of Worker Wrapper binds
+  = {terms: 558, types: 624, coercions: 86}
+!!! Worker Wrapper binds [Data.Generics.Text]: finished in 1.00 milliseconds, allocated 0.236 megabytes
+*** Simplifier [Data.Generics.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 538, types: 603, coercions: 86}
+Result size of Simplifier iteration=2
+  = {terms: 536, types: 600, coercions: 86}
+Result size of Simplifier = {terms: 536, types: 600, coercions: 86}
+!!! Simplifier [Data.Generics.Text]: finished in 16.00 milliseconds, allocated 7.257 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Text]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 592, types: 655, coercions: 86}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Text]: finished in 3.00 milliseconds, allocated 2.816 megabytes
+*** Common sub-expression [Data.Generics.Text]:
+Result size of Common sub-expression
+  = {terms: 565, types: 637, coercions: 86}
+!!! Common sub-expression [Data.Generics.Text]: finished in 2.00 milliseconds, allocated 0.787 megabytes
+*** Float inwards [Data.Generics.Text]:
+Result size of Float inwards
+  = {terms: 565, types: 637, coercions: 86}
+!!! Float inwards [Data.Generics.Text]: finished in 2.00 milliseconds, allocated 0.979 megabytes
+*** Simplifier [Data.Generics.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 557, types: 644, coercions: 92}
+Result size of Simplifier = {terms: 541, types: 621, coercions: 86}
+!!! Simplifier [Data.Generics.Text]: finished in 9.00 milliseconds, allocated 4.978 megabytes
+*** CoreTidy [Data.Generics.Text]:
+Result size of Tidy Core = {terms: 525, types: 575, coercions: 74}
+!!! CoreTidy [Data.Generics.Text]: finished in 2.00 milliseconds, allocated 0.839 megabytes
+writeBinIface: 26 Names
+writeBinIface: 74 dict entries
+writeBinIface: 26 Names
+writeBinIface: 74 dict entries
+*** CorePrep [Data.Generics.Text]:
+Result size of CorePrep = {terms: 602, types: 661, coercions: 74}
+!!! CorePrep [Data.Generics.Text]: finished in 2.00 milliseconds, allocated 1.139 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Text]:
+!!! CodeGen [Data.Generics.Text]: finished in 47.00 milliseconds, allocated 30.592 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_29.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Text.o
+*** CorePrep [Data.Generics.Text]:
+Result size of CorePrep = {terms: 602, types: 661, coercions: 74}
+!!! CorePrep [Data.Generics.Text]: finished in 2.00 milliseconds, allocated 1.076 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Text]:
+!!! CodeGen [Data.Generics.Text]: finished in 51.00 milliseconds, allocated 32.733 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_31.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Text.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_32.c /tmp/ghc4337_0/ghc_31.s /tmp/ghc4337_0/ghc_30.c /tmp/ghc4337_0/ghc_29.s /tmp/ghc4337_0/ghc_28.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_32.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_30.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_28.s
+compile: input file src/Generics/SYB/Text.hs
+*** Checking old interface for Generics.SYB.Text:
+[ 5 of 16] Compiling Generics.SYB.Text ( src/Generics/SYB/Text.hs, dist/dist-sandbox-6afc8227/build/Generics/SYB/Text.o )
+*** Parser [Generics.SYB.Text]:
+!!! Parser [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.278 megabytes
+*** Renamer/typechecker [Generics.SYB.Text]:
+!!! Renamer/typechecker [Generics.SYB.Text]: finished in 1.00 milliseconds, allocated 0.420 megabytes
+*** Desugar [Generics.SYB.Text]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.054 megabytes
+*** Simplifier [Generics.SYB.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.130 megabytes
+*** Specialise [Generics.SYB.Text]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Text]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.088 megabytes
+*** Simplifier [Generics.SYB.Text]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Simplifier [Generics.SYB.Text]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Generics.SYB.Text]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Float inwards [Generics.SYB.Text]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Generics.SYB.Text]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Generics.SYB.Text]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Generics.SYB.Text]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Generics.SYB.Text]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Generics.SYB.Text]: finished in 1.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Generics.SYB.Text]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Text]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Generics.SYB.Text]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Generics.SYB.Text]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Text]: finished in 1.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Generics.SYB.Text]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** CoreTidy [Generics.SYB.Text]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+writeBinIface: 7 Names
+writeBinIface: 28 dict entries
+writeBinIface: 7 Names
+writeBinIface: 28 dict entries
+*** CorePrep [Generics.SYB.Text]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Text]:
+!!! CodeGen [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.285 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_34.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Text.o
+*** CorePrep [Generics.SYB.Text]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Text]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Text]:
+!!! CodeGen [Generics.SYB.Text]: finished in 1.00 milliseconds, allocated 0.281 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_36.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Text.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_37.c /tmp/ghc4337_0/ghc_36.s /tmp/ghc4337_0/ghc_35.c /tmp/ghc4337_0/ghc_34.s /tmp/ghc4337_0/ghc_33.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_37.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_35.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_33.s
+compile: input file /tmp/ghc4337_0/ghc_11.hscpp
+*** Checking old interface for Data.Generics.Twins:
+[ 6 of 16] Compiling Data.Generics.Twins ( src/Data/Generics/Twins.hs, dist/dist-sandbox-6afc8227/build/Data/Generics/Twins.o )
+*** Parser [Data.Generics.Twins]:
+!!! Parser [Data.Generics.Twins]: finished in 5.00 milliseconds, allocated 7.299 megabytes
+*** Renamer/typechecker [Data.Generics.Twins]:
+!!! Renamer/typechecker [Data.Generics.Twins]: finished in 81.00 milliseconds, allocated 39.601 megabytes
+*** Desugar [Data.Generics.Twins]:
+Result size of Desugar (after optimization)
+  = {terms: 1,012, types: 1,700, coercions: 111}
+!!! Desugar [Data.Generics.Twins]: finished in 20.00 milliseconds, allocated 8.398 megabytes
+*** Simplifier [Data.Generics.Twins]:
+Result size of Simplifier iteration=1
+  = {terms: 939, types: 1,455, coercions: 176}
+Result size of Simplifier iteration=2
+  = {terms: 873, types: 1,368, coercions: 176}
+Result size of Simplifier
+  = {terms: 873, types: 1,368, coercions: 176}
+!!! Simplifier [Data.Generics.Twins]: finished in 32.00 milliseconds, allocated 13.744 megabytes
+*** Specialise [Data.Generics.Twins]:
+Result size of Specialise
+  = {terms: 951, types: 1,471, coercions: 191}
+!!! Specialise [Data.Generics.Twins]: finished in 3.00 milliseconds, allocated 1.182 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Twins]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,163, types: 1,925, coercions: 191}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Twins]: finished in 13.00 milliseconds, allocated 7.048 megabytes
+*** Simplifier [Data.Generics.Twins]:
+Result size of Simplifier iteration=1
+  = {terms: 1,213, types: 2,057, coercions: 537}
+Result size of Simplifier iteration=2
+  = {terms: 1,098, types: 1,888, coercions: 522}
+Result size of Simplifier
+  = {terms: 1,098, types: 1,888, coercions: 522}
+!!! Simplifier [Data.Generics.Twins]: finished in 121.00 milliseconds, allocated 14.733 megabytes
+*** Simplifier [Data.Generics.Twins]:
+Result size of Simplifier iteration=1
+  = {terms: 1,068, types: 1,822, coercions: 522}
+Result size of Simplifier
+  = {terms: 1,068, types: 1,822, coercions: 522}
+!!! Simplifier [Data.Generics.Twins]: finished in 16.00 milliseconds, allocated 9.194 megabytes
+*** Simplifier [Data.Generics.Twins]:
+Result size of Simplifier iteration=1
+  = {terms: 1,080, types: 1,831, coercions: 517}
+Result size of Simplifier
+  = {terms: 1,080, types: 1,831, coercions: 517}
+!!! Simplifier [Data.Generics.Twins]: finished in 14.00 milliseconds, allocated 8.187 megabytes
+*** Float inwards [Data.Generics.Twins]:
+Result size of Float inwards
+  = {terms: 1,080, types: 1,831, coercions: 517}
+!!! Float inwards [Data.Generics.Twins]: finished in 2.00 milliseconds, allocated 1.934 megabytes
+*** Called arity analysis [Data.Generics.Twins]:
+Result size of Called arity analysis
+  = {terms: 1,080, types: 1,831, coercions: 517}
+!!! Called arity analysis [Data.Generics.Twins]: finished in 1.00 milliseconds, allocated 1.113 megabytes
+*** Simplifier [Data.Generics.Twins]:
+Result size of Simplifier
+  = {terms: 1,080, types: 1,831, coercions: 517}
+!!! Simplifier [Data.Generics.Twins]: finished in 7.00 milliseconds, allocated 4.066 megabytes
+*** Demand analysis [Data.Generics.Twins]:
+Result size of Demand analysis
+  = {terms: 1,080, types: 1,831, coercions: 517}
+!!! Demand analysis [Data.Generics.Twins]: finished in 10.00 milliseconds, allocated 5.351 megabytes
+*** Worker Wrapper binds [Data.Generics.Twins]:
+Result size of Worker Wrapper binds
+  = {terms: 1,200, types: 2,121, coercions: 517}
+!!! Worker Wrapper binds [Data.Generics.Twins]: finished in 1.00 milliseconds, allocated 0.656 megabytes
+*** Simplifier [Data.Generics.Twins]:
+Result size of Simplifier iteration=1
+  = {terms: 1,152, types: 2,039, coercions: 517}
+Result size of Simplifier
+  = {terms: 1,152, types: 2,039, coercions: 517}
+!!! Simplifier [Data.Generics.Twins]: finished in 17.00 milliseconds, allocated 10.452 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Twins]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,275, types: 2,202, coercions: 517}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Twins]: finished in 8.00 milliseconds, allocated 7.550 megabytes
+*** Common sub-expression [Data.Generics.Twins]:
+Result size of Common sub-expression
+  = {terms: 1,235, types: 2,202, coercions: 517}
+!!! Common sub-expression [Data.Generics.Twins]: finished in 3.00 milliseconds, allocated 1.564 megabytes
+*** Float inwards [Data.Generics.Twins]:
+Result size of Float inwards
+  = {terms: 1,235, types: 2,202, coercions: 517}
+!!! Float inwards [Data.Generics.Twins]: finished in 2.00 milliseconds, allocated 1.845 megabytes
+*** Simplifier [Data.Generics.Twins]:
+Result size of Simplifier iteration=1
+  = {terms: 1,261, types: 2,337, coercions: 706}
+Result size of Simplifier iteration=2
+  = {terms: 1,208, types: 2,240, coercions: 705}
+Result size of Simplifier
+  = {terms: 1,208, types: 2,240, coercions: 705}
+!!! Simplifier [Data.Generics.Twins]: finished in 34.00 milliseconds, allocated 16.110 megabytes
+*** CoreTidy [Data.Generics.Twins]:
+Result size of Tidy Core
+  = {terms: 1,151, types: 2,129, coercions: 688}
+!!! CoreTidy [Data.Generics.Twins]: finished in 5.00 milliseconds, allocated 2.506 megabytes
+writeBinIface: 66 Names
+writeBinIface: 173 dict entries
+writeBinIface: 66 Names
+writeBinIface: 173 dict entries
+*** CorePrep [Data.Generics.Twins]:
+Result size of CorePrep
+  = {terms: 1,315, types: 2,454, coercions: 688}
+!!! CorePrep [Data.Generics.Twins]: finished in 3.00 milliseconds, allocated 2.576 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Twins]:
+!!! CodeGen [Data.Generics.Twins]: finished in 87.00 milliseconds, allocated 53.627 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_39.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Twins.o
+*** CorePrep [Data.Generics.Twins]:
+Result size of CorePrep
+  = {terms: 1,315, types: 2,454, coercions: 688}
+!!! CorePrep [Data.Generics.Twins]: finished in 4.00 milliseconds, allocated 2.495 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Twins]:
+!!! CodeGen [Data.Generics.Twins]: finished in 84.00 milliseconds, allocated 56.681 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_41.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Twins.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_42.c /tmp/ghc4337_0/ghc_41.s /tmp/ghc4337_0/ghc_40.c /tmp/ghc4337_0/ghc_39.s /tmp/ghc4337_0/ghc_38.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_42.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_40.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_38.s
+compile: input file src/Generics/SYB/Twins.hs
+*** Checking old interface for Generics.SYB.Twins:
+[ 7 of 16] Compiling Generics.SYB.Twins ( src/Generics/SYB/Twins.hs, dist/dist-sandbox-6afc8227/build/Generics/SYB/Twins.o )
+*** Parser [Generics.SYB.Twins]:
+!!! Parser [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.281 megabytes
+*** Renamer/typechecker [Generics.SYB.Twins]:
+!!! Renamer/typechecker [Generics.SYB.Twins]: finished in 1.00 milliseconds, allocated 0.453 megabytes
+*** Desugar [Generics.SYB.Twins]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Generics.SYB.Twins]: finished in 1.00 milliseconds, allocated 0.058 megabytes
+*** Simplifier [Generics.SYB.Twins]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.129 megabytes
+*** Specialise [Generics.SYB.Twins]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Twins]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Twins]: finished in 1.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Generics.SYB.Twins]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.068 megabytes
+*** Simplifier [Generics.SYB.Twins]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Generics.SYB.Twins]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Float inwards [Generics.SYB.Twins]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Generics.SYB.Twins]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Generics.SYB.Twins]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Generics.SYB.Twins]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Generics.SYB.Twins]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Generics.SYB.Twins]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Twins]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Generics.SYB.Twins]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Generics.SYB.Twins]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Generics.SYB.Twins]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Generics.SYB.Twins]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 17 Names
+writeBinIface: 38 dict entries
+writeBinIface: 17 Names
+writeBinIface: 38 dict entries
+*** CorePrep [Generics.SYB.Twins]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Twins]:
+!!! CodeGen [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.286 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_44.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Twins.o
+*** CorePrep [Generics.SYB.Twins]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Twins]: finished in 0.00 milliseconds, allocated 0.051 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Twins]:
+!!! CodeGen [Generics.SYB.Twins]: finished in 1.00 milliseconds, allocated 0.283 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_46.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Twins.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_47.c /tmp/ghc4337_0/ghc_46.s /tmp/ghc4337_0/ghc_45.c /tmp/ghc4337_0/ghc_44.s /tmp/ghc4337_0/ghc_43.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_47.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_45.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_43.s
+compile: input file src/Data/Generics/Builders.hs
+*** Checking old interface for Data.Generics.Builders:
+[ 8 of 16] Compiling Data.Generics.Builders ( src/Data/Generics/Builders.hs, dist/dist-sandbox-6afc8227/build/Data/Generics/Builders.o )
+*** Parser [Data.Generics.Builders]:
+!!! Parser [Data.Generics.Builders]: finished in 1.00 milliseconds, allocated 1.587 megabytes
+*** Renamer/typechecker [Data.Generics.Builders]:
+!!! Renamer/typechecker [Data.Generics.Builders]: finished in 7.00 milliseconds, allocated 3.561 megabytes
+*** Desugar [Data.Generics.Builders]:
+Result size of Desugar (after optimization)
+  = {terms: 262, types: 332, coercions: 104}
+!!! Desugar [Data.Generics.Builders]: finished in 2.00 milliseconds, allocated 1.764 megabytes
+
+src/Data/Generics/Builders.hs:33:3: warning: [-Wredundant-constraints]
+    • Redundant constraint: Data a
+    • In the type signature for:
+           general :: Data a => a
+      In an equation for ‘empty’:
+          empty
+            = general `extB` char `extB` int `extB` integer `extB` float
+              `extB` double
+            where
+                general :: Data a => a
+                general = fromConstrB empty (indexConstr (dataTypeOf general) 1)
+                char = '\NUL'
+                int = 0 :: Int
+                ....
+*** Simplifier [Data.Generics.Builders]:
+Result size of Simplifier iteration=1
+  = {terms: 258, types: 353, coercions: 156}
+Result size of Simplifier iteration=2
+  = {terms: 254, types: 347, coercions: 156}
+Result size of Simplifier
+  = {terms: 254, types: 347, coercions: 156}
+!!! Simplifier [Data.Generics.Builders]: finished in 5.00 milliseconds, allocated 3.114 megabytes
+*** Specialise [Data.Generics.Builders]:
+Result size of Specialise
+  = {terms: 279, types: 412, coercions: 201}
+!!! Specialise [Data.Generics.Builders]: finished in 1.00 milliseconds, allocated 0.527 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Builders]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 382, types: 568, coercions: 201}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Builders]: finished in 2.00 milliseconds, allocated 1.763 megabytes
+*** Simplifier [Data.Generics.Builders]:
+Result size of Simplifier iteration=1
+  = {terms: 901, types: 794, coercions: 166}
+Result size of Simplifier iteration=2
+  = {terms: 746, types: 640, coercions: 162}
+Result size of Simplifier
+  = {terms: 746, types: 640, coercions: 162}
+!!! Simplifier [Data.Generics.Builders]: finished in 16.00 milliseconds, allocated 10.863 megabytes
+*** Simplifier [Data.Generics.Builders]:
+Result size of Simplifier iteration=1
+  = {terms: 693, types: 562, coercions: 162}
+Result size of Simplifier
+  = {terms: 693, types: 562, coercions: 162}
+!!! Simplifier [Data.Generics.Builders]: finished in 10.00 milliseconds, allocated 6.145 megabytes
+*** Simplifier [Data.Generics.Builders]:
+Result size of Simplifier iteration=1
+  = {terms: 711, types: 577, coercions: 162}
+Result size of Simplifier
+  = {terms: 708, types: 576, coercions: 162}
+!!! Simplifier [Data.Generics.Builders]: finished in 10.00 milliseconds, allocated 5.575 megabytes
+*** Float inwards [Data.Generics.Builders]:
+Result size of Float inwards
+  = {terms: 708, types: 576, coercions: 162}
+!!! Float inwards [Data.Generics.Builders]: finished in 1.00 milliseconds, allocated 1.486 megabytes
+*** Called arity analysis [Data.Generics.Builders]:
+Result size of Called arity analysis
+  = {terms: 708, types: 576, coercions: 162}
+!!! Called arity analysis [Data.Generics.Builders]: finished in 1.00 milliseconds, allocated 0.656 megabytes
+*** Simplifier [Data.Generics.Builders]:
+Result size of Simplifier iteration=1
+  = {terms: 681, types: 501, coercions: 162}
+Result size of Simplifier iteration=2
+  = {terms: 665, types: 494, coercions: 162}
+Result size of Simplifier
+  = {terms: 665, types: 494, coercions: 162}
+!!! Simplifier [Data.Generics.Builders]: finished in 15.00 milliseconds, allocated 7.741 megabytes
+*** Demand analysis [Data.Generics.Builders]:
+Result size of Demand analysis
+  = {terms: 665, types: 494, coercions: 162}
+!!! Demand analysis [Data.Generics.Builders]: finished in 3.00 milliseconds, allocated 2.549 megabytes
+*** Worker Wrapper binds [Data.Generics.Builders]:
+Result size of Worker Wrapper binds
+  = {terms: 674, types: 505, coercions: 162}
+!!! Worker Wrapper binds [Data.Generics.Builders]: finished in 1.00 milliseconds, allocated 0.252 megabytes
+*** Simplifier [Data.Generics.Builders]:
+Result size of Simplifier iteration=1
+  = {terms: 669, types: 498, coercions: 162}
+Result size of Simplifier
+  = {terms: 665, types: 492, coercions: 162}
+!!! Simplifier [Data.Generics.Builders]: finished in 6.00 milliseconds, allocated 5.151 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Builders]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 767, types: 586, coercions: 162}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Builders]: finished in 2.00 milliseconds, allocated 2.876 megabytes
+*** Common sub-expression [Data.Generics.Builders]:
+Result size of Common sub-expression
+  = {terms: 721, types: 554, coercions: 143}
+!!! Common sub-expression [Data.Generics.Builders]: finished in 1.00 milliseconds, allocated 0.939 megabytes
+*** Float inwards [Data.Generics.Builders]:
+Result size of Float inwards
+  = {terms: 721, types: 554, coercions: 143}
+!!! Float inwards [Data.Generics.Builders]: finished in 1.00 milliseconds, allocated 1.010 megabytes
+*** Simplifier [Data.Generics.Builders]:
+Result size of Simplifier iteration=1
+  = {terms: 651, types: 474, coercions: 143}
+Result size of Simplifier
+  = {terms: 651, types: 474, coercions: 143}
+!!! Simplifier [Data.Generics.Builders]: finished in 8.00 milliseconds, allocated 5.244 megabytes
+*** CoreTidy [Data.Generics.Builders]:
+Result size of Tidy Core = {terms: 616, types: 384, coercions: 118}
+!!! CoreTidy [Data.Generics.Builders]: finished in 1.00 milliseconds, allocated 0.987 megabytes
+writeBinIface: 17 Names
+writeBinIface: 53 dict entries
+writeBinIface: 17 Names
+writeBinIface: 53 dict entries
+*** CorePrep [Data.Generics.Builders]:
+Result size of CorePrep = {terms: 726, types: 448, coercions: 118}
+!!! CorePrep [Data.Generics.Builders]: finished in 1.00 milliseconds, allocated 1.255 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Builders]:
+!!! CodeGen [Data.Generics.Builders]: finished in 33.00 milliseconds, allocated 27.617 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_49.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Builders.o
+*** CorePrep [Data.Generics.Builders]:
+Result size of CorePrep = {terms: 726, types: 448, coercions: 118}
+!!! CorePrep [Data.Generics.Builders]: finished in 2.00 milliseconds, allocated 1.166 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Builders]:
+!!! CodeGen [Data.Generics.Builders]: finished in 49.00 milliseconds, allocated 29.925 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_51.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Builders.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_52.c /tmp/ghc4337_0/ghc_51.s /tmp/ghc4337_0/ghc_50.c /tmp/ghc4337_0/ghc_49.s /tmp/ghc4337_0/ghc_48.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_52.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_50.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_48.s
+compile: input file src/Generics/SYB/Aliases.hs
+*** Checking old interface for Generics.SYB.Aliases:
+[ 9 of 16] Compiling Generics.SYB.Aliases ( src/Generics/SYB/Aliases.hs, dist/dist-sandbox-6afc8227/build/Generics/SYB/Aliases.o )
+*** Parser [Generics.SYB.Aliases]:
+!!! Parser [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.285 megabytes
+*** Renamer/typechecker [Generics.SYB.Aliases]:
+!!! Renamer/typechecker [Generics.SYB.Aliases]: finished in 1.00 milliseconds, allocated 0.586 megabytes
+*** Desugar [Generics.SYB.Aliases]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** Simplifier [Generics.SYB.Aliases]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Aliases]: finished in 1.00 milliseconds, allocated 0.128 megabytes
+*** Specialise [Generics.SYB.Aliases]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.053 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Aliases]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Generics.SYB.Aliases]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Generics.SYB.Aliases]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Generics.SYB.Aliases]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Generics.SYB.Aliases]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Generics.SYB.Aliases]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Generics.SYB.Aliases]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Generics.SYB.Aliases]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Generics.SYB.Aliases]: finished in 1.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Generics.SYB.Aliases]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Generics.SYB.Aliases]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Aliases]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Generics.SYB.Aliases]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Generics.SYB.Aliases]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Generics.SYB.Aliases]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** CoreTidy [Generics.SYB.Aliases]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 50 Names
+writeBinIface: 69 dict entries
+writeBinIface: 50 Names
+writeBinIface: 69 dict entries
+*** CorePrep [Generics.SYB.Aliases]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Aliases]:
+!!! CodeGen [Generics.SYB.Aliases]: finished in 1.00 milliseconds, allocated 0.289 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_54.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Aliases.o
+*** CorePrep [Generics.SYB.Aliases]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Aliases]: finished in 1.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Aliases]:
+!!! CodeGen [Generics.SYB.Aliases]: finished in 0.00 milliseconds, allocated 0.285 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_56.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Aliases.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_57.c /tmp/ghc4337_0/ghc_56.s /tmp/ghc4337_0/ghc_55.c /tmp/ghc4337_0/ghc_54.s /tmp/ghc4337_0/ghc_53.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_57.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_55.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_53.s
+compile: input file /tmp/ghc4337_0/ghc_3.hscpp
+*** Checking old interface for Data.Generics.Instances:
+[10 of 16] Compiling Data.Generics.Instances ( src/Data/Generics/Instances.hs, dist/dist-sandbox-6afc8227/build/Data/Generics/Instances.o )
+*** Parser [Data.Generics.Instances]:
+!!! Parser [Data.Generics.Instances]: finished in 3.00 milliseconds, allocated 4.068 megabytes
+*** Renamer/typechecker [Data.Generics.Instances]:
+!!! Renamer/typechecker [Data.Generics.Instances]: finished in 35.00 milliseconds, allocated 24.998 megabytes
+*** Desugar [Data.Generics.Instances]:
+Result size of Desugar (after optimization)
+  = {terms: 2,413, types: 6,593, coercions: 445}
+!!! Desugar [Data.Generics.Instances]: finished in 26.00 milliseconds, allocated 16.014 megabytes
+*** Simplifier [Data.Generics.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 2,539, types: 6,921, coercions: 263}
+Result size of Simplifier iteration=2
+  = {terms: 2,507, types: 6,905, coercions: 263}
+Result size of Simplifier
+  = {terms: 2,507, types: 6,905, coercions: 263}
+!!! Simplifier [Data.Generics.Instances]: finished in 57.00 milliseconds, allocated 34.943 megabytes
+*** Specialise [Data.Generics.Instances]:
+Result size of Specialise
+  = {terms: 4,112, types: 10,709, coercions: 1,125}
+!!! Specialise [Data.Generics.Instances]: finished in 19.00 milliseconds, allocated 7.544 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Instances]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 5,306, types: 12,875, coercions: 1,125}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Instances]: finished in 40.00 milliseconds, allocated 34.230 megabytes
+*** Simplifier [Data.Generics.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 8,896, types: 18,580, coercions: 4,159}
+Result size of Simplifier iteration=2
+  = {terms: 5,042, types: 14,512, coercions: 1,066}
+Result size of Simplifier iteration=3
+  = {terms: 4,807, types: 14,003, coercions: 318}
+Result size of Simplifier iteration=4
+  = {terms: 4,791, types: 13,865, coercions: 318}
+Result size of Simplifier
+  = {terms: 4,791, types: 13,865, coercions: 318}
+!!! Simplifier [Data.Generics.Instances]: finished in 239.00 milliseconds, allocated 138.486 megabytes
+*** Simplifier [Data.Generics.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 4,455, types: 13,233, coercions: 318}
+Result size of Simplifier
+  = {terms: 4,455, types: 13,233, coercions: 318}
+!!! Simplifier [Data.Generics.Instances]: finished in 85.00 milliseconds, allocated 46.975 megabytes
+*** Simplifier [Data.Generics.Instances]:
+Result size of Simplifier
+  = {terms: 4,455, types: 13,233, coercions: 318}
+!!! Simplifier [Data.Generics.Instances]: finished in 39.00 milliseconds, allocated 20.191 megabytes
+*** Float inwards [Data.Generics.Instances]:
+Result size of Float inwards
+  = {terms: 4,455, types: 13,233, coercions: 318}
+!!! Float inwards [Data.Generics.Instances]: finished in 6.00 milliseconds, allocated 5.903 megabytes
+*** Called arity analysis [Data.Generics.Instances]:
+Result size of Called arity analysis
+  = {terms: 4,455, types: 13,233, coercions: 318}
+!!! Called arity analysis [Data.Generics.Instances]: finished in 7.00 milliseconds, allocated 5.245 megabytes
+*** Simplifier [Data.Generics.Instances]:
+Result size of Simplifier
+  = {terms: 4,455, types: 13,233, coercions: 318}
+!!! Simplifier [Data.Generics.Instances]: finished in 34.00 milliseconds, allocated 20.194 megabytes
+*** Demand analysis [Data.Generics.Instances]:
+Result size of Demand analysis
+  = {terms: 4,455, types: 13,233, coercions: 318}
+!!! Demand analysis [Data.Generics.Instances]: finished in 31.00 milliseconds, allocated 15.722 megabytes
+*** Worker Wrapper binds [Data.Generics.Instances]:
+Result size of Worker Wrapper binds
+  = {terms: 5,037, types: 14,923, coercions: 318}
+!!! Worker Wrapper binds [Data.Generics.Instances]: finished in 4.00 milliseconds, allocated 2.147 megabytes
+*** Simplifier [Data.Generics.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 4,733, types: 14,087, coercions: 318}
+Result size of Simplifier
+  = {terms: 4,733, types: 14,087, coercions: 318}
+!!! Simplifier [Data.Generics.Instances]: finished in 87.00 milliseconds, allocated 49.275 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Instances]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 5,745, types: 17,158, coercions: 318}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Instances]: finished in 36.00 milliseconds, allocated 24.161 megabytes
+*** Common sub-expression [Data.Generics.Instances]:
+Result size of Common sub-expression
+  = {terms: 5,348, types: 16,398, coercions: 318}
+!!! Common sub-expression [Data.Generics.Instances]: finished in 26.00 milliseconds, allocated 10.657 megabytes
+*** Float inwards [Data.Generics.Instances]:
+Result size of Float inwards
+  = {terms: 5,348, types: 16,398, coercions: 318}
+!!! Float inwards [Data.Generics.Instances]: finished in 6.00 milliseconds, allocated 7.054 megabytes
+*** Simplifier [Data.Generics.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 5,001, types: 16,458, coercions: 318}
+Result size of Simplifier
+  = {terms: 5,001, types: 16,458, coercions: 318}
+!!! Simplifier [Data.Generics.Instances]: finished in 95.00 milliseconds, allocated 51.196 megabytes
+*** CoreTidy [Data.Generics.Instances]:
+Result size of Tidy Core
+  = {terms: 4,585, types: 15,254, coercions: 258}
+!!! CoreTidy [Data.Generics.Instances]: finished in 27.00 milliseconds, allocated 13.022 megabytes
+writeBinIface: 365 Names
+writeBinIface: 476 dict entries
+writeBinIface: 365 Names
+writeBinIface: 476 dict entries
+*** CorePrep [Data.Generics.Instances]:
+Result size of CorePrep
+  = {terms: 4,961, types: 15,940, coercions: 258}
+!!! CorePrep [Data.Generics.Instances]: finished in 12.00 milliseconds, allocated 8.848 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Instances]:
+!!! CodeGen [Data.Generics.Instances]: finished in 309.00 milliseconds, allocated 182.355 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_59.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Instances.o
+*** CorePrep [Data.Generics.Instances]:
+Result size of CorePrep
+  = {terms: 4,961, types: 15,940, coercions: 258}
+!!! CorePrep [Data.Generics.Instances]: finished in 11.00 milliseconds, allocated 8.312 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Instances]:
+!!! CodeGen [Data.Generics.Instances]: finished in 324.00 milliseconds, allocated 193.611 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_61.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Instances.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_62.c /tmp/ghc4337_0/ghc_61.s /tmp/ghc4337_0/ghc_60.c /tmp/ghc4337_0/ghc_59.s /tmp/ghc4337_0/ghc_58.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_62.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_60.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_58.s
+compile: input file src/Generics/SYB/Instances.hs
+*** Checking old interface for Generics.SYB.Instances:
+[11 of 16] Compiling Generics.SYB.Instances ( src/Generics/SYB/Instances.hs, dist/dist-sandbox-6afc8227/build/Generics/SYB/Instances.o )
+*** Parser [Generics.SYB.Instances]:
+!!! Parser [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.278 megabytes
+*** Renamer/typechecker [Generics.SYB.Instances]:
+!!! Renamer/typechecker [Generics.SYB.Instances]: finished in 1.00 milliseconds, allocated 0.381 megabytes
+*** Desugar [Generics.SYB.Instances]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.054 megabytes
+*** Simplifier [Generics.SYB.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.132 megabytes
+*** Specialise [Generics.SYB.Instances]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Instances]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Generics.SYB.Instances]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Simplifier [Generics.SYB.Instances]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Generics.SYB.Instances]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Float inwards [Generics.SYB.Instances]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Generics.SYB.Instances]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Generics.SYB.Instances]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Demand analysis [Generics.SYB.Instances]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Generics.SYB.Instances]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Generics.SYB.Instances]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Instances]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Instances]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.087 megabytes
+*** Common sub-expression [Generics.SYB.Instances]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [Generics.SYB.Instances]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Generics.SYB.Instances]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Generics.SYB.Instances]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+writeBinIface: 4 Names
+writeBinIface: 24 dict entries
+writeBinIface: 4 Names
+writeBinIface: 24 dict entries
+*** CorePrep [Generics.SYB.Instances]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Instances]:
+!!! CodeGen [Generics.SYB.Instances]: finished in 1.00 milliseconds, allocated 0.292 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_64.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Instances.o
+*** CorePrep [Generics.SYB.Instances]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Instances]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Instances]:
+!!! CodeGen [Generics.SYB.Instances]: finished in 1.00 milliseconds, allocated 0.288 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_66.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Instances.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_67.c /tmp/ghc4337_0/ghc_66.s /tmp/ghc4337_0/ghc_65.c /tmp/ghc4337_0/ghc_64.s /tmp/ghc4337_0/ghc_63.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_67.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_65.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_63.s
+compile: input file src/Data/Generics/Basics.hs
+*** Checking old interface for Data.Generics.Basics:
+[12 of 16] Compiling Data.Generics.Basics ( src/Data/Generics/Basics.hs, dist/dist-sandbox-6afc8227/build/Data/Generics/Basics.o )
+*** Parser [Data.Generics.Basics]:
+!!! Parser [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.384 megabytes
+*** Renamer/typechecker [Data.Generics.Basics]:
+!!! Renamer/typechecker [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.857 megabytes
+*** Desugar [Data.Generics.Basics]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.Generics.Basics]: finished in 1.00 milliseconds, allocated 0.127 megabytes
+*** Simplifier [Data.Generics.Basics]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.130 megabytes
+*** Specialise [Data.Generics.Basics]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Basics]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Data.Generics.Basics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics.Basics]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.Generics.Basics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.Generics.Basics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Data.Generics.Basics]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Data.Generics.Basics]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Data.Generics.Basics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Data.Generics.Basics]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Data.Generics.Basics]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.Generics.Basics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Basics]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [Data.Generics.Basics]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Data.Generics.Basics]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Data.Generics.Basics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** CoreTidy [Data.Generics.Basics]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 105 Names
+writeBinIface: 127 dict entries
+writeBinIface: 105 Names
+writeBinIface: 127 dict entries
+*** CorePrep [Data.Generics.Basics]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Basics]:
+!!! CodeGen [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.288 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_69.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Basics.o
+*** CorePrep [Data.Generics.Basics]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.051 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics.Basics]:
+!!! CodeGen [Data.Generics.Basics]: finished in 0.00 milliseconds, allocated 0.285 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_71.s -o dist/dist-sandbox-6afc8227/build/Data/Generics/Basics.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_72.c /tmp/ghc4337_0/ghc_71.s /tmp/ghc4337_0/ghc_70.c /tmp/ghc4337_0/ghc_69.s /tmp/ghc4337_0/ghc_68.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_72.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_70.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_68.s
+compile: input file src/Generics/SYB/Basics.hs
+*** Checking old interface for Generics.SYB.Basics:
+[13 of 16] Compiling Generics.SYB.Basics ( src/Generics/SYB/Basics.hs, dist/dist-sandbox-6afc8227/build/Generics/SYB/Basics.o )
+*** Parser [Generics.SYB.Basics]:
+!!! Parser [Generics.SYB.Basics]: finished in 1.00 milliseconds, allocated 0.284 megabytes
+*** Renamer/typechecker [Generics.SYB.Basics]:
+!!! Renamer/typechecker [Generics.SYB.Basics]: finished in 1.00 milliseconds, allocated 0.859 megabytes
+*** Desugar [Generics.SYB.Basics]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.126 megabytes
+*** Simplifier [Generics.SYB.Basics]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.128 megabytes
+*** Specialise [Generics.SYB.Basics]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Basics]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Generics.SYB.Basics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Generics.SYB.Basics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Basics]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Generics.SYB.Basics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Float inwards [Generics.SYB.Basics]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Generics.SYB.Basics]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Generics.SYB.Basics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Generics.SYB.Basics]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Generics.SYB.Basics]: finished in 1.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Generics.SYB.Basics]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Generics.SYB.Basics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Basics]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [Generics.SYB.Basics]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Generics.SYB.Basics]: finished in 1.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Generics.SYB.Basics]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Simplifier [Generics.SYB.Basics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Generics.SYB.Basics]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 105 Names
+writeBinIface: 128 dict entries
+writeBinIface: 105 Names
+writeBinIface: 128 dict entries
+*** CorePrep [Generics.SYB.Basics]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Basics]:
+!!! CodeGen [Generics.SYB.Basics]: finished in 1.00 milliseconds, allocated 0.287 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_74.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Basics.o
+*** CorePrep [Generics.SYB.Basics]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Basics]:
+!!! CodeGen [Generics.SYB.Basics]: finished in 0.00 milliseconds, allocated 0.284 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_76.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Basics.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_77.c /tmp/ghc4337_0/ghc_76.s /tmp/ghc4337_0/ghc_75.c /tmp/ghc4337_0/ghc_74.s /tmp/ghc4337_0/ghc_73.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_77.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_75.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_73.s
+compile: input file /tmp/ghc4337_0/ghc_1.hscpp
+*** Checking old interface for Data.Generics:
+[14 of 16] Compiling Data.Generics    ( src/Data/Generics.hs, dist/dist-sandbox-6afc8227/build/Data/Generics.o )
+*** Parser [Data.Generics]:
+!!! Parser [Data.Generics]: finished in 1.00 milliseconds, allocated 1.314 megabytes
+*** Renamer/typechecker [Data.Generics]:
+!!! Renamer/typechecker [Data.Generics]: finished in 2.00 milliseconds, allocated 1.429 megabytes
+*** Desugar [Data.Generics]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.Generics]: finished in 1.00 milliseconds, allocated 0.321 megabytes
+*** Simplifier [Data.Generics]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics]: finished in 0.00 milliseconds, allocated 0.133 megabytes
+*** Specialise [Data.Generics]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.Generics]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Generics]: finished in 1.00 milliseconds, allocated 0.088 megabytes
+*** Simplifier [Data.Generics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Simplifier [Data.Generics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Data.Generics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics]: finished in 0.00 milliseconds, allocated 0.068 megabytes
+*** Float inwards [Data.Generics]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.Generics]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Data.Generics]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.Generics]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Data.Generics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Demand analysis [Data.Generics]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.Generics]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Data.Generics]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.Generics]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.Generics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Generics]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [Data.Generics]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.Generics]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Data.Generics]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.Generics]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Data.Generics]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Generics]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Data.Generics]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.Generics]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+writeBinIface: 187 Names
+writeBinIface: 214 dict entries
+writeBinIface: 187 Names
+writeBinIface: 214 dict entries
+*** CorePrep [Data.Generics]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.Generics]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics]:
+!!! CodeGen [Data.Generics]: finished in 0.00 milliseconds, allocated 0.271 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_79.s -o dist/dist-sandbox-6afc8227/build/Data/Generics.o
+*** CorePrep [Data.Generics]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.Generics]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Generics]:
+!!! CodeGen [Data.Generics]: finished in 0.00 milliseconds, allocated 0.269 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_81.s -o dist/dist-sandbox-6afc8227/build/Data/Generics.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_82.c /tmp/ghc4337_0/ghc_81.s /tmp/ghc4337_0/ghc_80.c /tmp/ghc4337_0/ghc_79.s /tmp/ghc4337_0/ghc_78.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_82.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_80.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_78.s
+compile: input file src/Generics/SYB.hs
+*** Checking old interface for Generics.SYB:
+[15 of 16] Compiling Generics.SYB     ( src/Generics/SYB.hs, dist/dist-sandbox-6afc8227/build/Generics/SYB.o )
+*** Parser [Generics.SYB]:
+!!! Parser [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.274 megabytes
+*** Renamer/typechecker [Generics.SYB]:
+!!! Renamer/typechecker [Generics.SYB]: finished in 1.00 milliseconds, allocated 1.244 megabytes
+*** Desugar [Generics.SYB]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.243 megabytes
+*** Simplifier [Generics.SYB]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.134 megabytes
+*** Specialise [Generics.SYB]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Generics.SYB]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Generics.SYB]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB]: finished in 1.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Generics.SYB]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Generics.SYB]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.042 megabytes
+*** Called arity analysis [Generics.SYB]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Generics.SYB]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Demand analysis [Generics.SYB]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Generics.SYB]: finished in 1.00 milliseconds, allocated 0.064 megabytes
+*** Worker Wrapper binds [Generics.SYB]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Generics.SYB]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Generics.SYB]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Generics.SYB]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Generics.SYB]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Generics.SYB]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 187 Names
+writeBinIface: 215 dict entries
+writeBinIface: 187 Names
+writeBinIface: 215 dict entries
+*** CorePrep [Generics.SYB]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB]:
+!!! CodeGen [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.272 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_84.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB.o
+*** CorePrep [Generics.SYB]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB]:
+!!! CodeGen [Generics.SYB]: finished in 1.00 milliseconds, allocated 0.270 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_86.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_87.c /tmp/ghc4337_0/ghc_86.s /tmp/ghc4337_0/ghc_85.c /tmp/ghc4337_0/ghc_84.s /tmp/ghc4337_0/ghc_83.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_87.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_85.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_83.s
+compile: input file src/Generics/SYB/Builders.hs
+*** Checking old interface for Generics.SYB.Builders:
+[16 of 16] Compiling Generics.SYB.Builders ( src/Generics/SYB/Builders.hs, dist/dist-sandbox-6afc8227/build/Generics/SYB/Builders.o )
+*** Parser [Generics.SYB.Builders]:
+!!! Parser [Generics.SYB.Builders]: finished in 1.00 milliseconds, allocated 0.287 megabytes
+*** Renamer/typechecker [Generics.SYB.Builders]:
+!!! Renamer/typechecker [Generics.SYB.Builders]: finished in 1.00 milliseconds, allocated 0.415 megabytes
+*** Desugar [Generics.SYB.Builders]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.053 megabytes
+*** Simplifier [Generics.SYB.Builders]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Builders]: finished in 1.00 milliseconds, allocated 0.129 megabytes
+*** Specialise [Generics.SYB.Builders]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.053 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Builders]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Generics.SYB.Builders]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Generics.SYB.Builders]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Builders]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Generics.SYB.Builders]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Float inwards [Generics.SYB.Builders]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Generics.SYB.Builders]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Generics.SYB.Builders]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Generics.SYB.Builders]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Generics.SYB.Builders]: finished in 1.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Generics.SYB.Builders]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Generics.SYB.Builders]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Builders]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Generics.SYB.Builders]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [Generics.SYB.Builders]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Generics.SYB.Builders]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** CoreTidy [Generics.SYB.Builders]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 6 Names
+writeBinIface: 27 dict entries
+writeBinIface: 6 Names
+writeBinIface: 27 dict entries
+*** CorePrep [Generics.SYB.Builders]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Builders]:
+!!! CodeGen [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.291 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc4337_0/ghc_89.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Builders.o
+*** CorePrep [Generics.SYB.Builders]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Generics.SYB.Builders]: finished in 0.00 milliseconds, allocated 0.051 megabytes
+*** Stg2Stg:
+*** CodeGen [Generics.SYB.Builders]:
+!!! CodeGen [Generics.SYB.Builders]: finished in 1.00 milliseconds, allocated 0.287 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Generics/SYB -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4337_0/ghc_91.s -o dist/dist-sandbox-6afc8227/build/Generics/SYB/Builders.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_92.c /tmp/ghc4337_0/ghc_91.s /tmp/ghc4337_0/ghc_90.c /tmp/ghc4337_0/ghc_89.s /tmp/ghc4337_0/ghc_88.s
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_92.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_90.c
+Warning: deleting non-existent /tmp/ghc4337_0/ghc_88.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc4337_0/ghc_11.hscpp /tmp/ghc4337_0/ghc_9.hscpp /tmp/ghc4337_0/ghc_7.hscpp /tmp/ghc4337_0/ghc_5.hscpp /tmp/ghc4337_0/ghc_3.hscpp /tmp/ghc4337_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc4337_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -o dist/dist-sandbox-6afc8227/build/libHSsyb-0.6-C65vWCsht6A8uLstpQIXyj-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSsyb-0.6-C65vWCsht6A8uLstpQIXyj-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Data/Generics.dyn_o dist/dist-sandbox-6afc8227/build/Data/Generics/Basics.dyn_o dist/dist-sandbox-6afc8227/build/Data/Generics/Instances.dyn_o dist/dist-sandbox-6afc8227/build/Data/Generics/Aliases.dyn_o dist/dist-sandbox-6afc8227/build/Data/Generics/Schemes.dyn_o dist/dist-sandbox-6afc8227/build/Data/Generics/Text.dyn_o dist/dist-sandbox-6afc8227/build/Data/Generics/Twins.dyn_o dist/dist-sandbox-6afc8227/build/Data/Generics/Builders.dyn_o dist/dist-sandbox-6afc8227/build/Generics/SYB.dyn_o dist/dist-sandbox-6afc8227/build/Generics/SYB/Basics.dyn_o dist/dist-sandbox-6afc8227/build/Generics/SYB/Instances.dyn_o dist/dist-sandbox-6afc8227/build/Generics/SYB/Aliases.dyn_o dist/dist-sandbox-6afc8227/build/Generics/SYB/Schemes.dyn_o dist/dist-sandbox-6afc8227/build/Generics/SYB/Text.dyn_o dist/dist-sandbox-6afc8227/build/Generics/SYB/Twins.dyn_o dist/dist-sandbox-6afc8227/build/Generics/SYB/Builders.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc5573_0
+*** Deleting temp files:
+Deleting: /tmp/ghc5573_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc5573_0
+Creating package registration file: /tmp/pkgConf-syb-014115496761843993368.6
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/syb-0.6-C65vWCsht6A8uLstpQIXyj
+Registering syb-0.6...
+cabal: Leaving directory '/tmp/cabal-tmp-1042/syb-0.6'

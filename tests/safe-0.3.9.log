@@ -1,0 +1,648 @@
+cabal: Entering directory '/tmp/cabal-tmp-1040/safe-0.3.9'
+Configuring safe-0.3.9...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc2883_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc2883_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc2883_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc2883_0/ghc_2.rsp /tmp/ghc2883_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc2883_0
+Building safe-0.3.9...
+Preprocessing library safe-0.3.9...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Safe.hs,*Safe.Exact,*Safe.Foldable,*Safe.Util
+!!! Chasing dependencies: finished in 5.00 milliseconds, allocated 4.876 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2015-05-09 19:59:23 UTC
+         ms_mod = Safe.Util,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Maybe)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-05-09 19:59:23 UTC
+         ms_mod = Safe.Exact,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Safe.Util),
+                            (Nothing, Data.Maybe), (Nothing, Control.Arrow)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-05-09 19:59:23 UTC
+         ms_mod = Safe.Foldable,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Maybe),
+                            (Nothing, Data.Monoid), (Nothing, Data.Foldable),
+                            (Nothing, Safe.Util)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-05-09 19:59:23 UTC
+         ms_mod = Safe,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Maybe),
+                            (Nothing, Data.List), (Nothing, Safe.Util)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: 
+compile: input file ./Safe/Util.hs
+*** Checking old interface for Safe.Util:
+[1 of 4] Compiling Safe.Util        ( Safe/Util.hs, dist/dist-sandbox-6afc8227/build/Safe/Util.o )
+*** Parser [Safe.Util]:
+!!! Parser [Safe.Util]: finished in 1.00 milliseconds, allocated 1.074 megabytes
+*** Renamer/typechecker [Safe.Util]:
+!!! Renamer/typechecker [Safe.Util]: finished in 291.00 milliseconds, allocated 110.408 megabytes
+*** Desugar [Safe.Util]:
+Result size of Desugar (after optimization)
+  = {terms: 160, types: 190, coercions: 22}
+!!! Desugar [Safe.Util]: finished in 2.00 milliseconds, allocated 0.925 megabytes
+*** Simplifier [Safe.Util]:
+Result size of Simplifier iteration=1
+  = {terms: 241, types: 316, coercions: 8}
+Result size of Simplifier = {terms: 241, types: 316, coercions: 8}
+!!! Simplifier [Safe.Util]: finished in 11.00 milliseconds, allocated 6.143 megabytes
+*** Specialise [Safe.Util]:
+Result size of Specialise = {terms: 241, types: 316, coercions: 8}
+!!! Specialise [Safe.Util]: finished in 0.00 milliseconds, allocated 0.302 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Safe.Util]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 319, types: 461, coercions: 8}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Safe.Util]: finished in 1.00 milliseconds, allocated 1.588 megabytes
+*** Simplifier [Safe.Util]:
+Result size of Simplifier iteration=1
+  = {terms: 303, types: 392, coercions: 12}
+Result size of Simplifier iteration=2
+  = {terms: 294, types: 370, coercions: 8}
+Result size of Simplifier = {terms: 294, types: 370, coercions: 8}
+!!! Simplifier [Safe.Util]: finished in 6.00 milliseconds, allocated 4.137 megabytes
+*** Simplifier [Safe.Util]:
+Result size of Simplifier iteration=1
+  = {terms: 248, types: 293, coercions: 8}
+Result size of Simplifier = {terms: 208, types: 223, coercions: 8}
+!!! Simplifier [Safe.Util]: finished in 4.00 milliseconds, allocated 2.617 megabytes
+*** Simplifier [Safe.Util]:
+Result size of Simplifier = {terms: 208, types: 223, coercions: 8}
+!!! Simplifier [Safe.Util]: finished in 1.00 milliseconds, allocated 0.663 megabytes
+*** Float inwards [Safe.Util]:
+Result size of Float inwards
+  = {terms: 208, types: 223, coercions: 8}
+!!! Float inwards [Safe.Util]: finished in 0.00 milliseconds, allocated 0.212 megabytes
+*** Called arity analysis [Safe.Util]:
+Result size of Called arity analysis
+  = {terms: 208, types: 223, coercions: 8}
+!!! Called arity analysis [Safe.Util]: finished in 0.00 milliseconds, allocated 0.212 megabytes
+*** Simplifier [Safe.Util]:
+Result size of Simplifier = {terms: 208, types: 223, coercions: 8}
+!!! Simplifier [Safe.Util]: finished in 1.00 milliseconds, allocated 0.662 megabytes
+*** Demand analysis [Safe.Util]:
+Result size of Demand analysis
+  = {terms: 208, types: 223, coercions: 8}
+!!! Demand analysis [Safe.Util]: finished in 1.00 milliseconds, allocated 0.637 megabytes
+*** Worker Wrapper binds [Safe.Util]:
+Result size of Worker Wrapper binds
+  = {terms: 208, types: 223, coercions: 8}
+!!! Worker Wrapper binds [Safe.Util]: finished in 0.00 milliseconds, allocated 0.120 megabytes
+*** Simplifier [Safe.Util]:
+Result size of Simplifier = {terms: 208, types: 223, coercions: 8}
+!!! Simplifier [Safe.Util]: finished in 1.00 milliseconds, allocated 0.821 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Safe.Util]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 228, types: 251, coercions: 8}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Safe.Util]: finished in 2.00 milliseconds, allocated 0.925 megabytes
+*** Common sub-expression [Safe.Util]:
+Result size of Common sub-expression
+  = {terms: 222, types: 251, coercions: 8}
+!!! Common sub-expression [Safe.Util]: finished in 0.00 milliseconds, allocated 0.299 megabytes
+*** Float inwards [Safe.Util]:
+Result size of Float inwards
+  = {terms: 222, types: 251, coercions: 8}
+!!! Float inwards [Safe.Util]: finished in 1.00 milliseconds, allocated 0.219 megabytes
+*** Simplifier [Safe.Util]:
+Result size of Simplifier iteration=1
+  = {terms: 203, types: 235, coercions: 8}
+Result size of Simplifier = {terms: 203, types: 235, coercions: 8}
+!!! Simplifier [Safe.Util]: finished in 5.00 milliseconds, allocated 1.623 megabytes
+*** CoreTidy [Safe.Util]:
+Result size of Tidy Core = {terms: 203, types: 235, coercions: 8}
+!!! CoreTidy [Safe.Util]: finished in 1.00 milliseconds, allocated 0.336 megabytes
+writeBinIface: 13 Names
+writeBinIface: 56 dict entries
+writeBinIface: 13 Names
+writeBinIface: 56 dict entries
+Created temporary directory: /tmp/ghc2970_0
+*** CorePrep [Safe.Util]:
+Result size of CorePrep = {terms: 236, types: 264, coercions: 8}
+!!! CorePrep [Safe.Util]: finished in 1.00 milliseconds, allocated 0.393 megabytes
+*** Stg2Stg:
+*** CodeGen [Safe.Util]:
+!!! CodeGen [Safe.Util]: finished in 19.00 milliseconds, allocated 11.455 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Safe -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc2970_0/ghc_2.s -o dist/dist-sandbox-6afc8227/build/Safe/Util.o
+*** CorePrep [Safe.Util]:
+Result size of CorePrep = {terms: 236, types: 264, coercions: 8}
+!!! CorePrep [Safe.Util]: finished in 0.00 milliseconds, allocated 0.380 megabytes
+*** Stg2Stg:
+*** CodeGen [Safe.Util]:
+!!! CodeGen [Safe.Util]: finished in 18.00 milliseconds, allocated 11.851 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Safe -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc2970_0/ghc_4.s -o dist/dist-sandbox-6afc8227/build/Safe/Util.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc2970_0/ghc_5.c /tmp/ghc2970_0/ghc_4.s /tmp/ghc2970_0/ghc_3.c /tmp/ghc2970_0/ghc_2.s /tmp/ghc2970_0/ghc_1.s
+Warning: deleting non-existent /tmp/ghc2970_0/ghc_5.c
+Warning: deleting non-existent /tmp/ghc2970_0/ghc_3.c
+Warning: deleting non-existent /tmp/ghc2970_0/ghc_1.s
+compile: input file ./Safe/Exact.hs
+*** Checking old interface for Safe.Exact:
+[2 of 4] Compiling Safe.Exact       ( Safe/Exact.hs, dist/dist-sandbox-6afc8227/build/Safe/Exact.o )
+*** Parser [Safe.Exact]:
+!!! Parser [Safe.Exact]: finished in 3.00 milliseconds, allocated 5.040 megabytes
+*** Renamer/typechecker [Safe.Exact]:
+!!! Renamer/typechecker [Safe.Exact]: finished in 45.00 milliseconds, allocated 23.886 megabytes
+*** Desugar [Safe.Exact]:
+Result size of Desugar (after optimization)
+  = {terms: 449, types: 941, coercions: 11}
+!!! Desugar [Safe.Exact]: finished in 4.00 milliseconds, allocated 2.329 megabytes
+*** Simplifier [Safe.Exact]:
+Result size of Simplifier iteration=1
+  = {terms: 608, types: 1,353, coercions: 4}
+Result size of Simplifier
+  = {terms: 608, types: 1,353, coercions: 4}
+!!! Simplifier [Safe.Exact]: finished in 13.00 milliseconds, allocated 7.562 megabytes
+*** Specialise [Safe.Exact]:
+Result size of Specialise
+  = {terms: 608, types: 1,353, coercions: 4}
+!!! Specialise [Safe.Exact]: finished in 1.00 milliseconds, allocated 0.818 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Safe.Exact]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 729, types: 1,660, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Safe.Exact]: finished in 7.00 milliseconds, allocated 4.535 megabytes
+*** Simplifier [Safe.Exact]:
+Result size of Simplifier iteration=1
+  = {terms: 1,065, types: 1,885, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 1,209, types: 1,849, coercions: 4}
+Result size of Simplifier iteration=3
+  = {terms: 1,167, types: 1,743, coercions: 4}
+Result size of Simplifier
+  = {terms: 1,167, types: 1,743, coercions: 4}
+!!! Simplifier [Safe.Exact]: finished in 34.00 milliseconds, allocated 17.714 megabytes
+*** Simplifier [Safe.Exact]:
+Result size of Simplifier iteration=1
+  = {terms: 1,052, types: 1,557, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 990, types: 1,450, coercions: 4}
+Result size of Simplifier
+  = {terms: 990, types: 1,450, coercions: 4}
+!!! Simplifier [Safe.Exact]: finished in 25.00 milliseconds, allocated 13.070 megabytes
+*** Simplifier [Safe.Exact]:
+Result size of Simplifier iteration=1
+  = {terms: 1,046, types: 1,570, coercions: 4}
+Result size of Simplifier
+  = {terms: 1,046, types: 1,570, coercions: 4}
+!!! Simplifier [Safe.Exact]: finished in 12.00 milliseconds, allocated 7.536 megabytes
+*** Float inwards [Safe.Exact]:
+Result size of Float inwards
+  = {terms: 1,046, types: 1,570, coercions: 4}
+!!! Float inwards [Safe.Exact]: finished in 1.00 milliseconds, allocated 1.236 megabytes
+*** Called arity analysis [Safe.Exact]:
+Result size of Called arity analysis
+  = {terms: 1,046, types: 1,570, coercions: 4}
+!!! Called arity analysis [Safe.Exact]: finished in 4.00 milliseconds, allocated 1.137 megabytes
+*** Simplifier [Safe.Exact]:
+Result size of Simplifier
+  = {terms: 1,046, types: 1,570, coercions: 4}
+!!! Simplifier [Safe.Exact]: finished in 6.00 milliseconds, allocated 3.637 megabytes
+*** Demand analysis [Safe.Exact]:
+Result size of Demand analysis
+  = {terms: 1,046, types: 1,570, coercions: 4}
+!!! Demand analysis [Safe.Exact]: finished in 5.00 milliseconds, allocated 4.383 megabytes
+*** Worker Wrapper binds [Safe.Exact]:
+Result size of Worker Wrapper binds
+  = {terms: 1,310, types: 1,914, coercions: 4}
+!!! Worker Wrapper binds [Safe.Exact]: finished in 2.00 milliseconds, allocated 0.713 megabytes
+*** Simplifier [Safe.Exact]:
+Result size of Simplifier iteration=1
+  = {terms: 1,176, types: 1,817, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 1,084, types: 1,712, coercions: 4}
+Result size of Simplifier
+  = {terms: 1,084, types: 1,712, coercions: 4}
+!!! Simplifier [Safe.Exact]: finished in 26.00 milliseconds, allocated 14.184 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Safe.Exact]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,200, types: 1,958, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Safe.Exact]: finished in 10.00 milliseconds, allocated 6.242 megabytes
+*** Common sub-expression [Safe.Exact]:
+Result size of Common sub-expression
+  = {terms: 1,190, types: 1,948, coercions: 4}
+!!! Common sub-expression [Safe.Exact]: finished in 3.00 milliseconds, allocated 1.580 megabytes
+*** Float inwards [Safe.Exact]:
+Result size of Float inwards
+  = {terms: 1,190, types: 1,948, coercions: 4}
+!!! Float inwards [Safe.Exact]: finished in 1.00 milliseconds, allocated 1.298 megabytes
+*** Simplifier [Safe.Exact]:
+Result size of Simplifier iteration=1
+  = {terms: 1,174, types: 1,925, coercions: 4}
+Result size of Simplifier
+  = {terms: 1,174, types: 1,925, coercions: 4}
+!!! Simplifier [Safe.Exact]: finished in 15.00 milliseconds, allocated 8.990 megabytes
+*** CoreTidy [Safe.Exact]:
+Result size of Tidy Core
+  = {terms: 1,174, types: 1,925, coercions: 4}
+!!! CoreTidy [Safe.Exact]: finished in 5.00 milliseconds, allocated 2.165 megabytes
+writeBinIface: 68 Names
+writeBinIface: 142 dict entries
+writeBinIface: 68 Names
+writeBinIface: 142 dict entries
+*** CorePrep [Safe.Exact]:
+Result size of CorePrep
+  = {terms: 1,394, types: 2,112, coercions: 4}
+!!! CorePrep [Safe.Exact]: finished in 2.00 milliseconds, allocated 2.372 megabytes
+*** Stg2Stg:
+*** CodeGen [Safe.Exact]:
+!!! CodeGen [Safe.Exact]: finished in 97.00 milliseconds, allocated 64.621 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Safe -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc2970_0/ghc_7.s -o dist/dist-sandbox-6afc8227/build/Safe/Exact.o
+*** CorePrep [Safe.Exact]:
+Result size of CorePrep
+  = {terms: 1,394, types: 2,112, coercions: 4}
+!!! CorePrep [Safe.Exact]: finished in 4.00 milliseconds, allocated 2.301 megabytes
+*** Stg2Stg:
+*** CodeGen [Safe.Exact]:
+!!! CodeGen [Safe.Exact]: finished in 122.00 milliseconds, allocated 67.594 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Safe -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc2970_0/ghc_9.s -o dist/dist-sandbox-6afc8227/build/Safe/Exact.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc2970_0/ghc_10.c /tmp/ghc2970_0/ghc_9.s /tmp/ghc2970_0/ghc_8.c /tmp/ghc2970_0/ghc_7.s /tmp/ghc2970_0/ghc_6.s
+Warning: deleting non-existent /tmp/ghc2970_0/ghc_10.c
+Warning: deleting non-existent /tmp/ghc2970_0/ghc_8.c
+Warning: deleting non-existent /tmp/ghc2970_0/ghc_6.s
+compile: input file ./Safe/Foldable.hs
+*** Checking old interface for Safe.Foldable:
+[3 of 4] Compiling Safe.Foldable    ( Safe/Foldable.hs, dist/dist-sandbox-6afc8227/build/Safe/Foldable.o )
+*** Parser [Safe.Foldable]:
+!!! Parser [Safe.Foldable]: finished in 2.00 milliseconds, allocated 3.391 megabytes
+*** Renamer/typechecker [Safe.Foldable]:
+!!! Renamer/typechecker [Safe.Foldable]: finished in 19.00 milliseconds, allocated 10.704 megabytes
+*** Desugar [Safe.Foldable]:
+Result size of Desugar (after optimization)
+  = {terms: 286, types: 865, coercions: 0}
+!!! Desugar [Safe.Foldable]: finished in 3.00 milliseconds, allocated 1.881 megabytes
+*** Simplifier [Safe.Foldable]:
+Result size of Simplifier iteration=1
+  = {terms: 343, types: 946, coercions: 0}
+Result size of Simplifier = {terms: 343, types: 946, coercions: 0}
+!!! Simplifier [Safe.Foldable]: finished in 3.00 milliseconds, allocated 2.156 megabytes
+*** Specialise [Safe.Foldable]:
+Result size of Specialise = {terms: 343, types: 946, coercions: 0}
+!!! Specialise [Safe.Foldable]: finished in 1.00 milliseconds, allocated 0.510 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Safe.Foldable]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 380, types: 1,033, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Safe.Foldable]: finished in 3.00 milliseconds, allocated 2.694 megabytes
+*** Simplifier [Safe.Foldable]:
+Result size of Simplifier iteration=1
+  = {terms: 655, types: 1,147, coercions: 21}
+Result size of Simplifier iteration=2
+  = {terms: 532, types: 987, coercions: 21}
+Result size of Simplifier = {terms: 532, types: 987, coercions: 21}
+!!! Simplifier [Safe.Foldable]: finished in 15.00 milliseconds, allocated 6.873 megabytes
+*** Simplifier [Safe.Foldable]:
+Result size of Simplifier iteration=1
+  = {terms: 514, types: 951, coercions: 21}
+Result size of Simplifier = {terms: 514, types: 951, coercions: 21}
+!!! Simplifier [Safe.Foldable]: finished in 6.00 milliseconds, allocated 3.712 megabytes
+*** Simplifier [Safe.Foldable]:
+Result size of Simplifier = {terms: 514, types: 951, coercions: 21}
+!!! Simplifier [Safe.Foldable]: finished in 3.00 milliseconds, allocated 1.682 megabytes
+*** Float inwards [Safe.Foldable]:
+Result size of Float inwards
+  = {terms: 514, types: 951, coercions: 21}
+!!! Float inwards [Safe.Foldable]: finished in 1.00 milliseconds, allocated 0.555 megabytes
+*** Called arity analysis [Safe.Foldable]:
+Result size of Called arity analysis
+  = {terms: 514, types: 951, coercions: 21}
+!!! Called arity analysis [Safe.Foldable]: finished in 0.00 milliseconds, allocated 0.462 megabytes
+*** Simplifier [Safe.Foldable]:
+Result size of Simplifier = {terms: 514, types: 951, coercions: 21}
+!!! Simplifier [Safe.Foldable]: finished in 3.00 milliseconds, allocated 1.680 megabytes
+*** Demand analysis [Safe.Foldable]:
+Result size of Demand analysis
+  = {terms: 514, types: 951, coercions: 21}
+!!! Demand analysis [Safe.Foldable]: finished in 2.00 milliseconds, allocated 1.775 megabytes
+*** Worker Wrapper binds [Safe.Foldable]:
+Result size of Worker Wrapper binds
+  = {terms: 514, types: 951, coercions: 21}
+!!! Worker Wrapper binds [Safe.Foldable]: finished in 2.00 milliseconds, allocated 0.467 megabytes
+*** Simplifier [Safe.Foldable]:
+Result size of Simplifier = {terms: 514, types: 951, coercions: 21}
+!!! Simplifier [Safe.Foldable]: finished in 4.00 milliseconds, allocated 2.311 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Safe.Foldable]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 552, types: 1,013, coercions: 21}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Safe.Foldable]: finished in 4.00 milliseconds, allocated 3.630 megabytes
+*** Common sub-expression [Safe.Foldable]:
+Result size of Common sub-expression
+  = {terms: 552, types: 1,013, coercions: 21}
+!!! Common sub-expression [Safe.Foldable]: finished in 1.00 milliseconds, allocated 0.811 megabytes
+*** Float inwards [Safe.Foldable]:
+Result size of Float inwards
+  = {terms: 552, types: 1,013, coercions: 21}
+!!! Float inwards [Safe.Foldable]: finished in 1.00 milliseconds, allocated 0.592 megabytes
+*** Simplifier [Safe.Foldable]:
+Result size of Simplifier
+  = {terms: 552, types: 1,013, coercions: 21}
+!!! Simplifier [Safe.Foldable]: finished in 4.00 milliseconds, allocated 2.077 megabytes
+*** CoreTidy [Safe.Foldable]:
+Result size of Tidy Core
+  = {terms: 552, types: 1,013, coercions: 21}
+!!! CoreTidy [Safe.Foldable]: finished in 1.00 milliseconds, allocated 1.023 megabytes
+writeBinIface: 50 Names
+writeBinIface: 100 dict entries
+writeBinIface: 50 Names
+writeBinIface: 100 dict entries
+*** CorePrep [Safe.Foldable]:
+Result size of CorePrep = {terms: 596, types: 1,067, coercions: 21}
+!!! CorePrep [Safe.Foldable]: finished in 1.00 milliseconds, allocated 1.056 megabytes
+*** Stg2Stg:
+*** CodeGen [Safe.Foldable]:
+!!! CodeGen [Safe.Foldable]: finished in 53.00 milliseconds, allocated 31.864 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Safe -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc2970_0/ghc_12.s -o dist/dist-sandbox-6afc8227/build/Safe/Foldable.o
+*** CorePrep [Safe.Foldable]:
+Result size of CorePrep = {terms: 596, types: 1,067, coercions: 21}
+!!! CorePrep [Safe.Foldable]: finished in 2.00 milliseconds, allocated 1.038 megabytes
+*** Stg2Stg:
+*** CodeGen [Safe.Foldable]:
+!!! CodeGen [Safe.Foldable]: finished in 54.00 milliseconds, allocated 33.748 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Safe -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc2970_0/ghc_14.s -o dist/dist-sandbox-6afc8227/build/Safe/Foldable.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc2970_0/ghc_15.c /tmp/ghc2970_0/ghc_14.s /tmp/ghc2970_0/ghc_13.c /tmp/ghc2970_0/ghc_12.s /tmp/ghc2970_0/ghc_11.s
+Warning: deleting non-existent /tmp/ghc2970_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc2970_0/ghc_13.c
+Warning: deleting non-existent /tmp/ghc2970_0/ghc_11.s
+compile: input file Safe.hs
+*** Checking old interface for Safe:
+[4 of 4] Compiling Safe             ( Safe.hs, dist/dist-sandbox-6afc8227/build/Safe.o )
+*** Parser [Safe]:
+!!! Parser [Safe]: finished in 7.00 milliseconds, allocated 8.160 megabytes
+*** Renamer/typechecker [Safe]:
+!!! Renamer/typechecker [Safe]: finished in 74.00 milliseconds, allocated 40.902 megabytes
+*** Desugar [Safe]:
+Result size of Desugar (after optimization)
+  = {terms: 822, types: 1,673, coercions: 11}
+!!! Desugar [Safe]: finished in 9.00 milliseconds, allocated 4.631 megabytes
+*** Simplifier [Safe]:
+Result size of Simplifier iteration=1
+  = {terms: 1,025, types: 2,056, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 1,014, types: 2,041, coercions: 4}
+Result size of Simplifier
+  = {terms: 1,014, types: 2,041, coercions: 4}
+!!! Simplifier [Safe]: finished in 16.00 milliseconds, allocated 11.946 megabytes
+*** Specialise [Safe]:
+Result size of Specialise
+  = {terms: 1,014, types: 2,041, coercions: 4}
+!!! Specialise [Safe]: finished in 2.00 milliseconds, allocated 1.414 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Safe]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,189, types: 2,428, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Safe]: finished in 7.00 milliseconds, allocated 6.819 megabytes
+*** Simplifier [Safe]:
+Result size of Simplifier iteration=1
+  = {terms: 1,803, types: 2,457, coercions: 61}
+Result size of Simplifier iteration=2
+  = {terms: 1,526, types: 2,067, coercions: 28}
+Result size of Simplifier iteration=3
+  = {terms: 1,520, types: 2,061, coercions: 28}
+Result size of Simplifier
+  = {terms: 1,520, types: 2,061, coercions: 28}
+!!! Simplifier [Safe]: finished in 51.00 milliseconds, allocated 26.307 megabytes
+*** Simplifier [Safe]:
+Result size of Simplifier iteration=1
+  = {terms: 1,446, types: 1,909, coercions: 28}
+Result size of Simplifier iteration=2
+  = {terms: 1,387, types: 1,807, coercions: 28}
+Result size of Simplifier
+  = {terms: 1,387, types: 1,807, coercions: 28}
+!!! Simplifier [Safe]: finished in 34.00 milliseconds, allocated 16.816 megabytes
+*** Simplifier [Safe]:
+Result size of Simplifier iteration=1
+  = {terms: 1,554, types: 2,025, coercions: 28}
+Result size of Simplifier iteration=2
+  = {terms: 1,539, types: 2,014, coercions: 28}
+Result size of Simplifier
+  = {terms: 1,539, types: 2,014, coercions: 28}
+!!! Simplifier [Safe]: finished in 29.00 milliseconds, allocated 15.303 megabytes
+*** Float inwards [Safe]:
+Result size of Float inwards
+  = {terms: 1,539, types: 2,014, coercions: 28}
+!!! Float inwards [Safe]: finished in 2.00 milliseconds, allocated 1.720 megabytes
+*** Called arity analysis [Safe]:
+Result size of Called arity analysis
+  = {terms: 1,539, types: 2,014, coercions: 28}
+!!! Called arity analysis [Safe]: finished in 4.00 milliseconds, allocated 1.356 megabytes
+*** Simplifier [Safe]:
+Result size of Simplifier iteration=1
+  = {terms: 1,533, types: 2,010, coercions: 28}
+Result size of Simplifier
+  = {terms: 1,533, types: 2,010, coercions: 28}
+!!! Simplifier [Safe]: finished in 22.00 milliseconds, allocated 9.977 megabytes
+*** Demand analysis [Safe]:
+Result size of Demand analysis
+  = {terms: 1,533, types: 2,010, coercions: 28}
+!!! Demand analysis [Safe]: finished in 9.00 milliseconds, allocated 5.354 megabytes
+*** Worker Wrapper binds [Safe]:
+Result size of Worker Wrapper binds
+  = {terms: 1,633, types: 2,150, coercions: 28}
+!!! Worker Wrapper binds [Safe]: finished in 1.00 milliseconds, allocated 0.782 megabytes
+*** Simplifier [Safe]:
+Result size of Simplifier iteration=1
+  = {terms: 1,611, types: 2,128, coercions: 28}
+Result size of Simplifier iteration=2
+  = {terms: 1,574, types: 2,065, coercions: 28}
+Result size of Simplifier
+  = {terms: 1,574, types: 2,065, coercions: 28}
+!!! Simplifier [Safe]: finished in 46.00 milliseconds, allocated 22.234 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Safe]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,725, types: 2,313, coercions: 28}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Safe]: finished in 13.00 milliseconds, allocated 8.152 megabytes
+*** Common sub-expression [Safe]:
+Result size of Common sub-expression
+  = {terms: 1,703, types: 2,297, coercions: 28}
+!!! Common sub-expression [Safe]: finished in 7.00 milliseconds, allocated 2.852 megabytes
+*** Float inwards [Safe]:
+Result size of Float inwards
+  = {terms: 1,703, types: 2,297, coercions: 28}
+!!! Float inwards [Safe]: finished in 4.00 milliseconds, allocated 1.768 megabytes
+*** Simplifier [Safe]:
+Result size of Simplifier iteration=1
+  = {terms: 1,681, types: 2,273, coercions: 28}
+Result size of Simplifier iteration=2
+  = {terms: 1,677, types: 2,271, coercions: 28}
+Result size of Simplifier
+  = {terms: 1,677, types: 2,271, coercions: 28}
+!!! Simplifier [Safe]: finished in 52.00 milliseconds, allocated 22.603 megabytes
+*** CoreTidy [Safe]:
+Result size of Tidy Core
+  = {terms: 1,677, types: 2,271, coercions: 28}
+!!! CoreTidy [Safe]: finished in 9.00 milliseconds, allocated 3.054 megabytes
+writeBinIface: 151 Names
+writeBinIface: 233 dict entries
+writeBinIface: 151 Names
+writeBinIface: 233 dict entries
+*** CorePrep [Safe]:
+Result size of CorePrep
+  = {terms: 1,794, types: 2,362, coercions: 28}
+!!! CorePrep [Safe]: finished in 4.00 milliseconds, allocated 3.108 megabytes
+*** Stg2Stg:
+*** CodeGen [Safe]:
+!!! CodeGen [Safe]: finished in 167.00 milliseconds, allocated 102.847 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I. -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc2970_0/ghc_17.s -o dist/dist-sandbox-6afc8227/build/Safe.o
+*** CorePrep [Safe]:
+Result size of CorePrep
+  = {terms: 1,794, types: 2,362, coercions: 28}
+!!! CorePrep [Safe]: finished in 4.00 milliseconds, allocated 2.995 megabytes
+*** Stg2Stg:
+*** CodeGen [Safe]:
+!!! CodeGen [Safe]: finished in 170.00 milliseconds, allocated 107.180 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I. -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc2970_0/ghc_19.s -o dist/dist-sandbox-6afc8227/build/Safe.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc2970_0/ghc_20.c /tmp/ghc2970_0/ghc_19.s /tmp/ghc2970_0/ghc_18.c /tmp/ghc2970_0/ghc_17.s /tmp/ghc2970_0/ghc_16.s
+Warning: deleting non-existent /tmp/ghc2970_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc2970_0/ghc_18.c
+Warning: deleting non-existent /tmp/ghc2970_0/ghc_16.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: 
+*** Deleting temp dirs:
+Deleting: /tmp/ghc2970_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -o dist/dist-sandbox-6afc8227/build/libHSsafe-0.3.9-Hqo3JhJes6h6KTrVZw55Pb-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSsafe-0.3.9-Hqo3JhJes6h6KTrVZw55Pb-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Safe.dyn_o dist/dist-sandbox-6afc8227/build/Safe/Exact.dyn_o dist/dist-sandbox-6afc8227/build/Safe/Foldable.dyn_o dist/dist-sandbox-6afc8227/build/Safe/Util.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc3848_0
+*** Deleting temp files:
+Deleting: /tmp/ghc3848_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc3848_0
+Creating package registration file: /tmp/pkgConf-safe-0.31374344043760313750.9
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/safe-0.3.9-Hqo3JhJes6h6KTrVZw55Pb
+Registering safe-0.3.9...
+cabal: Leaving directory '/tmp/cabal-tmp-1040/safe-0.3.9'

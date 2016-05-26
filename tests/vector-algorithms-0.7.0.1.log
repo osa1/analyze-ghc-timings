@@ -1,0 +1,1780 @@
+cabal: Entering directory '/tmp/cabal-tmp-1030/vector-algorithms-0.7.0.1'
+Configuring vector-algorithms-0.7.0.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc11340_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc11340_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc11340_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc11340_0/ghc_2.rsp /tmp/ghc11340_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc11340_0
+Building vector-algorithms-0.7.0.1...
+Preprocessing library vector-algorithms-0.7.0.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.Vector.Algorithms.Optimal,*Data.Vector.Algorithms.Insertion,*Data.Vector.Algorithms.Intro,*Data.Vector.Algorithms.Merge,*Data.Vector.Algorithms.Radix,*Data.Vector.Algorithms.Search,*Data.Vector.Algorithms.Heap,*Data.Vector.Algorithms.AmericanFlag,*Data.Vector.Algorithms.Tim,*Data.Vector.Algorithms.Common
+Created temporary directory: /tmp/ghc11386_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -DVECTOR_BOUNDS_CHECKS -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc11386_0/ghc_2.h -x assembler-with-cpp src/Data/Vector/Algorithms/Optimal.hs -o /tmp/ghc11386_0/ghc_1.hscpp
+!!! Chasing dependencies: finished in 50.00 milliseconds, allocated 30.464 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-12 21:47:36 UTC
+         ms_mod = Data.Vector.Algorithms.Common,
+         ms_textual_imps = [(Nothing, Data.Vector.Primitive.Mutable),
+                            (Nothing, Data.Vector.Generic.Mutable),
+                            (Nothing, Control.Monad.Primitive), (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-12 21:47:36 UTC
+         ms_mod = Data.Vector.Algorithms.Optimal,
+         ms_textual_imps = [(Nothing, Data.Vector.Internal.Check),
+                            (Nothing, Data.Vector.Algorithms.Common),
+                            (Nothing, Data.Vector.Generic.Mutable),
+                            (Nothing, Control.Monad.Primitive), (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-12 21:47:36 UTC
+         ms_mod = Data.Vector.Algorithms.Insertion,
+         ms_textual_imps = [(Nothing, Data.Vector.Algorithms.Optimal),
+                            (Nothing, Data.Vector.Algorithms.Common),
+                            (Nothing, Data.Vector.Generic.Mutable),
+                            (Nothing, Control.Monad.Primitive), (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-12 21:47:36 UTC
+         ms_mod = Data.Vector.Algorithms.Merge,
+         ms_textual_imps = [(Nothing, Data.Vector.Algorithms.Insertion),
+                            (Nothing, Data.Vector.Algorithms.Optimal),
+                            (Nothing, Data.Vector.Algorithms.Common),
+                            (Nothing, Data.Vector.Generic.Mutable), (Nothing, Data.Bits),
+                            (Nothing, Control.Monad.Primitive), (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-12 21:47:36 UTC
+         ms_mod = Data.Vector.Algorithms.Radix,
+         ms_textual_imps = [(Nothing, Foreign.Storable),
+                            (Nothing, Data.Word), (Nothing, Data.Int), (Nothing, Data.Bits),
+                            (Nothing, Data.Vector.Algorithms.Common),
+                            (Nothing, Data.Vector.Generic.Mutable),
+                            (Nothing, Data.Vector.Primitive.Mutable),
+                            (Nothing, Control.Monad.Primitive), (Nothing, Control.Monad),
+                            (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-12 21:47:36 UTC
+         ms_mod = Data.Vector.Algorithms.Search,
+         ms_textual_imps = [(Nothing, Data.Vector.Algorithms.Common),
+                            (Nothing, Data.Vector.Generic.Mutable), (Nothing, Data.Bits),
+                            (Nothing, Control.Monad.Primitive), (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-12 21:47:36 UTC
+         ms_mod = Data.Vector.Algorithms.Tim,
+         ms_textual_imps = [(Nothing, Data.Vector.Algorithms.Insertion),
+                            (Nothing, Data.Vector.Algorithms.Search),
+                            (Nothing, Data.Vector.Generic.Mutable), (Nothing, Data.Bits),
+                            (Nothing, Control.Monad), (Nothing, Control.Monad.Primitive),
+                            (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-12 21:47:36 UTC
+         ms_mod = Data.Vector.Algorithms.Heap,
+         ms_textual_imps = [(Nothing, Data.Vector.Algorithms.Optimal),
+                            (Nothing, Data.Vector.Algorithms.Common),
+                            (Nothing, Data.Vector.Generic.Mutable), (Nothing, Data.Bits),
+                            (Nothing, Control.Monad.Primitive), (Nothing, Control.Monad),
+                            (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-12 21:47:36 UTC
+         ms_mod = Data.Vector.Algorithms.Intro,
+         ms_textual_imps = [(Nothing, Data.Vector.Algorithms.Heap),
+                            (Nothing, Data.Vector.Algorithms.Optimal),
+                            (Nothing, Data.Vector.Algorithms.Insertion),
+                            (Nothing, Data.Vector.Algorithms.Common),
+                            (Nothing, Data.Vector.Generic.Mutable), (Nothing, Data.Bits),
+                            (Nothing, Control.Monad.Primitive), (Nothing, Control.Monad),
+                            (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-08-12 21:47:36 UTC
+         ms_mod = Data.Vector.Algorithms.AmericanFlag,
+         ms_textual_imps = [(Nothing, Data.Vector.Algorithms.Insertion),
+                            (Nothing, Data.Vector.Algorithms.Common),
+                            (Nothing, Data.Vector.Unboxed.Mutable),
+                            (Nothing, Data.Vector.Primitive.Mutable),
+                            (Nothing, Data.Vector.Generic.Mutable), (Nothing, Data.ByteString),
+                            (Nothing, Data.Bits), (Nothing, Data.Int), (Nothing, Data.Word),
+                            (Nothing, Control.Monad.Primitive), (Nothing, Control.Monad),
+                            (Nothing, Prelude)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc11386_0/ghc_2.h
+compile: input file src/Data/Vector/Algorithms/Common.hs
+*** Checking old interface for Data.Vector.Algorithms.Common:
+[ 1 of 10] Compiling Data.Vector.Algorithms.Common ( src/Data/Vector/Algorithms/Common.hs, dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Common.o )
+*** Parser [Data.Vector.Algorithms.Common]:
+!!! Parser [Data.Vector.Algorithms.Common]: finished in 2.00 milliseconds, allocated 1.596 megabytes
+*** Renamer/typechecker [Data.Vector.Algorithms.Common]:
+!!! Renamer/typechecker [Data.Vector.Algorithms.Common]: finished in 357.00 milliseconds, allocated 131.168 megabytes
+*** Desugar [Data.Vector.Algorithms.Common]:
+Result size of Desugar (after optimization)
+  = {terms: 128, types: 230, coercions: 0}
+!!! Desugar [Data.Vector.Algorithms.Common]: finished in 5.00 milliseconds, allocated 3.242 megabytes
+*** Simplifier [Data.Vector.Algorithms.Common]:
+Result size of Simplifier iteration=1
+  = {terms: 127, types: 228, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 127, types: 228, coercions: 0}
+Result size of Simplifier = {terms: 127, types: 228, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Common]: finished in 70.00 milliseconds, allocated 39.409 megabytes
+*** Specialise [Data.Vector.Algorithms.Common]:
+Result size of Specialise
+  = {terms: 1,196, types: 1,472, coercions: 102}
+!!! Specialise [Data.Vector.Algorithms.Common]: finished in 36.00 milliseconds, allocated 14.574 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Common]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,626, types: 2,318, coercions: 102}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Common]: finished in 17.00 milliseconds, allocated 7.030 megabytes
+*** Simplifier [Data.Vector.Algorithms.Common]:
+Result size of Simplifier iteration=1
+  = {terms: 1,790, types: 2,304, coercions: 288}
+Result size of Simplifier iteration=2
+  = {terms: 1,152, types: 1,541, coercions: 95}
+Result size of Simplifier
+  = {terms: 1,152, types: 1,541, coercions: 95}
+!!! Simplifier [Data.Vector.Algorithms.Common]: finished in 78.00 milliseconds, allocated 34.992 megabytes
+*** Simplifier [Data.Vector.Algorithms.Common]:
+Result size of Simplifier
+  = {terms: 1,152, types: 1,541, coercions: 95}
+!!! Simplifier [Data.Vector.Algorithms.Common]: finished in 20.00 milliseconds, allocated 8.202 megabytes
+*** Simplifier [Data.Vector.Algorithms.Common]:
+Result size of Simplifier iteration=1
+  = {terms: 1,124, types: 1,470, coercions: 95}
+Result size of Simplifier iteration=2
+  = {terms: 1,060, types: 1,362, coercions: 95}
+Result size of Simplifier iteration=3
+  = {terms: 1,059, types: 1,361, coercions: 95}
+Result size of Simplifier
+  = {terms: 1,059, types: 1,361, coercions: 95}
+!!! Simplifier [Data.Vector.Algorithms.Common]: finished in 72.00 milliseconds, allocated 33.064 megabytes
+*** Simplifier [Data.Vector.Algorithms.Common]:
+Result size of Simplifier iteration=1
+  = {terms: 1,096, types: 1,424, coercions: 95}
+Result size of Simplifier
+  = {terms: 1,096, types: 1,424, coercions: 95}
+!!! Simplifier [Data.Vector.Algorithms.Common]: finished in 37.00 milliseconds, allocated 16.337 megabytes
+*** Float inwards [Data.Vector.Algorithms.Common]:
+Result size of Float inwards
+  = {terms: 1,096, types: 1,424, coercions: 95}
+!!! Float inwards [Data.Vector.Algorithms.Common]: finished in 3.00 milliseconds, allocated 1.951 megabytes
+*** Called arity analysis [Data.Vector.Algorithms.Common]:
+Result size of Called arity analysis
+  = {terms: 1,096, types: 1,424, coercions: 95}
+!!! Called arity analysis [Data.Vector.Algorithms.Common]: finished in 2.00 milliseconds, allocated 1.181 megabytes
+*** Simplifier [Data.Vector.Algorithms.Common]:
+Result size of Simplifier
+  = {terms: 1,096, types: 1,424, coercions: 95}
+!!! Simplifier [Data.Vector.Algorithms.Common]: finished in 18.00 milliseconds, allocated 7.930 megabytes
+*** Demand analysis [Data.Vector.Algorithms.Common]:
+Result size of Demand analysis
+  = {terms: 1,096, types: 1,424, coercions: 95}
+!!! Demand analysis [Data.Vector.Algorithms.Common]: finished in 14.00 milliseconds, allocated 4.541 megabytes
+*** Worker Wrapper binds [Data.Vector.Algorithms.Common]:
+Result size of Worker Wrapper binds
+  = {terms: 1,116, types: 1,436, coercions: 95}
+!!! Worker Wrapper binds [Data.Vector.Algorithms.Common]: finished in 1.00 milliseconds, allocated 0.353 megabytes
+*** Simplifier [Data.Vector.Algorithms.Common]:
+Result size of Simplifier iteration=1
+  = {terms: 1,100, types: 1,428, coercions: 95}
+Result size of Simplifier iteration=2
+  = {terms: 1,088, types: 1,420, coercions: 95}
+Result size of Simplifier
+  = {terms: 1,088, types: 1,420, coercions: 95}
+!!! Simplifier [Data.Vector.Algorithms.Common]: finished in 57.00 milliseconds, allocated 24.346 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Common]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,120, types: 1,517, coercions: 95}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Common]: finished in 8.00 milliseconds, allocated 5.031 megabytes
+*** Common sub-expression [Data.Vector.Algorithms.Common]:
+Result size of Common sub-expression
+  = {terms: 947, types: 1,392, coercions: 79}
+!!! Common sub-expression [Data.Vector.Algorithms.Common]: finished in 10.00 milliseconds, allocated 2.618 megabytes
+*** Float inwards [Data.Vector.Algorithms.Common]:
+Result size of Float inwards
+  = {terms: 947, types: 1,392, coercions: 79}
+!!! Float inwards [Data.Vector.Algorithms.Common]: finished in 2.00 milliseconds, allocated 1.546 megabytes
+*** Liberate case [Data.Vector.Algorithms.Common]:
+Result size of Liberate case
+  = {terms: 947, types: 1,392, coercions: 79}
+!!! Liberate case [Data.Vector.Algorithms.Common]: finished in 1.00 milliseconds, allocated 0.446 megabytes
+*** Simplifier [Data.Vector.Algorithms.Common]:
+Result size of Simplifier
+  = {terms: 833, types: 1,262, coercions: 79}
+!!! Simplifier [Data.Vector.Algorithms.Common]: finished in 16.00 milliseconds, allocated 6.593 megabytes
+*** SpecConstr [Data.Vector.Algorithms.Common]:
+Result size of SpecConstr
+  = {terms: 833, types: 1,262, coercions: 79}
+!!! SpecConstr [Data.Vector.Algorithms.Common]: finished in 2.00 milliseconds, allocated 1.004 megabytes
+*** Simplifier [Data.Vector.Algorithms.Common]:
+Result size of Simplifier
+  = {terms: 833, types: 1,262, coercions: 79}
+!!! Simplifier [Data.Vector.Algorithms.Common]: finished in 14.00 milliseconds, allocated 7.548 megabytes
+*** CoreTidy [Data.Vector.Algorithms.Common]:
+Result size of Tidy Core = {terms: 203, types: 333, coercions: 12}
+!!! CoreTidy [Data.Vector.Algorithms.Common]: finished in 2.00 milliseconds, allocated 1.473 megabytes
+writeBinIface: 41 Names
+writeBinIface: 127 dict entries
+writeBinIface: 41 Names
+writeBinIface: 127 dict entries
+*** CorePrep [Data.Vector.Algorithms.Common]:
+Result size of CorePrep = {terms: 263, types: 403, coercions: 12}
+!!! CorePrep [Data.Vector.Algorithms.Common]: finished in 1.00 milliseconds, allocated 0.547 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Common]:
+!!! CodeGen [Data.Vector.Algorithms.Common]: finished in 22.00 milliseconds, allocated 14.710 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc11386_0/ghc_4.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Common.o
+*** CorePrep [Data.Vector.Algorithms.Common]:
+Result size of CorePrep = {terms: 263, types: 403, coercions: 12}
+!!! CorePrep [Data.Vector.Algorithms.Common]: finished in 1.00 milliseconds, allocated 0.528 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Common]:
+!!! CodeGen [Data.Vector.Algorithms.Common]: finished in 18.00 milliseconds, allocated 15.519 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11386_0/ghc_6.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Common.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11386_0/ghc_7.c /tmp/ghc11386_0/ghc_6.s /tmp/ghc11386_0/ghc_5.c /tmp/ghc11386_0/ghc_4.s /tmp/ghc11386_0/ghc_3.s
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_7.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_5.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_3.s
+compile: input file /tmp/ghc11386_0/ghc_1.hscpp
+*** Checking old interface for Data.Vector.Algorithms.Optimal:
+[ 2 of 10] Compiling Data.Vector.Algorithms.Optimal ( src/Data/Vector/Algorithms/Optimal.hs, dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Optimal.o )
+*** Parser [Data.Vector.Algorithms.Optimal]:
+!!! Parser [Data.Vector.Algorithms.Optimal]: finished in 7.00 milliseconds, allocated 9.801 megabytes
+*** Renamer/typechecker [Data.Vector.Algorithms.Optimal]:
+!!! Renamer/typechecker [Data.Vector.Algorithms.Optimal]: finished in 49.00 milliseconds, allocated 22.137 megabytes
+*** Desugar [Data.Vector.Algorithms.Optimal]:
+Result size of Desugar (after optimization)
+  = {terms: 1,231, types: 1,028, coercions: 0}
+!!! Desugar [Data.Vector.Algorithms.Optimal]: finished in 23.00 milliseconds, allocated 12.191 megabytes
+*** Simplifier [Data.Vector.Algorithms.Optimal]:
+Result size of Simplifier iteration=1
+  = {terms: 1,207, types: 1,067, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,207, types: 1,067, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Optimal]: finished in 47.00 milliseconds, allocated 25.370 megabytes
+*** Specialise [Data.Vector.Algorithms.Optimal]:
+Result size of Specialise
+  = {terms: 1,207, types: 1,067, coercions: 0}
+!!! Specialise [Data.Vector.Algorithms.Optimal]: finished in 6.00 milliseconds, allocated 1.463 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Optimal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,475, types: 1,404, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Optimal]: finished in 26.00 milliseconds, allocated 18.028 megabytes
+*** Simplifier [Data.Vector.Algorithms.Optimal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,324, types: 2,252, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,238, types: 1,068, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,238, types: 1,068, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Optimal]: finished in 188.00 milliseconds, allocated 49.664 megabytes
+*** Simplifier [Data.Vector.Algorithms.Optimal]:
+Result size of Simplifier
+  = {terms: 1,238, types: 1,068, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Optimal]: finished in 15.00 milliseconds, allocated 12.592 megabytes
+*** Simplifier [Data.Vector.Algorithms.Optimal]:
+Result size of Simplifier
+  = {terms: 1,238, types: 1,068, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Optimal]: finished in 23.00 milliseconds, allocated 12.591 megabytes
+*** Simplifier [Data.Vector.Algorithms.Optimal]:
+Result size of Simplifier
+  = {terms: 1,238, types: 1,068, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Optimal]: finished in 15.00 milliseconds, allocated 12.592 megabytes
+*** Float inwards [Data.Vector.Algorithms.Optimal]:
+Result size of Float inwards
+  = {terms: 1,238, types: 1,068, coercions: 0}
+!!! Float inwards [Data.Vector.Algorithms.Optimal]: finished in 9.00 milliseconds, allocated 9.756 megabytes
+*** Called arity analysis [Data.Vector.Algorithms.Optimal]:
+Result size of Called arity analysis
+  = {terms: 1,238, types: 1,068, coercions: 0}
+!!! Called arity analysis [Data.Vector.Algorithms.Optimal]: finished in 1.00 milliseconds, allocated 1.142 megabytes
+*** Simplifier [Data.Vector.Algorithms.Optimal]:
+Result size of Simplifier
+  = {terms: 1,238, types: 1,068, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Optimal]: finished in 14.00 milliseconds, allocated 12.592 megabytes
+*** Demand analysis [Data.Vector.Algorithms.Optimal]:
+Result size of Demand analysis
+  = {terms: 1,238, types: 1,068, coercions: 0}
+!!! Demand analysis [Data.Vector.Algorithms.Optimal]: finished in 12.00 milliseconds, allocated 8.703 megabytes
+*** Worker Wrapper binds [Data.Vector.Algorithms.Optimal]:
+Result size of Worker Wrapper binds
+  = {terms: 1,238, types: 1,068, coercions: 0}
+!!! Worker Wrapper binds [Data.Vector.Algorithms.Optimal]: finished in 1.00 milliseconds, allocated 0.506 megabytes
+*** Simplifier [Data.Vector.Algorithms.Optimal]:
+Result size of Simplifier
+  = {terms: 1,238, types: 1,068, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Optimal]: finished in 21.00 milliseconds, allocated 13.253 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Optimal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,238, types: 1,068, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Optimal]: finished in 16.00 milliseconds, allocated 14.648 megabytes
+*** Common sub-expression [Data.Vector.Algorithms.Optimal]:
+Result size of Common sub-expression
+  = {terms: 1,000, types: 924, coercions: 0}
+!!! Common sub-expression [Data.Vector.Algorithms.Optimal]: finished in 6.00 milliseconds, allocated 3.635 megabytes
+*** Float inwards [Data.Vector.Algorithms.Optimal]:
+Result size of Float inwards
+  = {terms: 1,000, types: 924, coercions: 0}
+!!! Float inwards [Data.Vector.Algorithms.Optimal]: finished in 4.00 milliseconds, allocated 5.911 megabytes
+*** Liberate case [Data.Vector.Algorithms.Optimal]:
+Result size of Liberate case
+  = {terms: 1,000, types: 924, coercions: 0}
+!!! Liberate case [Data.Vector.Algorithms.Optimal]: finished in 0.00 milliseconds, allocated 0.448 megabytes
+*** Simplifier [Data.Vector.Algorithms.Optimal]:
+Result size of Simplifier = {terms: 924, types: 850, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Optimal]: finished in 18.00 milliseconds, allocated 10.091 megabytes
+*** SpecConstr [Data.Vector.Algorithms.Optimal]:
+Result size of SpecConstr = {terms: 924, types: 850, coercions: 0}
+!!! SpecConstr [Data.Vector.Algorithms.Optimal]: finished in 1.00 milliseconds, allocated 0.996 megabytes
+*** Simplifier [Data.Vector.Algorithms.Optimal]:
+Result size of Simplifier = {terms: 924, types: 850, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Optimal]: finished in 14.00 milliseconds, allocated 12.074 megabytes
+*** CoreTidy [Data.Vector.Algorithms.Optimal]:
+Result size of Tidy Core = {terms: 924, types: 850, coercions: 0}
+!!! CoreTidy [Data.Vector.Algorithms.Optimal]: finished in 4.00 milliseconds, allocated 2.664 megabytes
+writeBinIface: 21 Names
+writeBinIface: 84 dict entries
+writeBinIface: 21 Names
+writeBinIface: 84 dict entries
+*** CorePrep [Data.Vector.Algorithms.Optimal]:
+Result size of CorePrep = {terms: 1,083, types: 997, coercions: 0}
+!!! CorePrep [Data.Vector.Algorithms.Optimal]: finished in 3.00 milliseconds, allocated 2.215 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Optimal]:
+!!! CodeGen [Data.Vector.Algorithms.Optimal]: finished in 117.00 milliseconds, allocated 82.025 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc11386_0/ghc_9.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Optimal.o
+*** CorePrep [Data.Vector.Algorithms.Optimal]:
+Result size of CorePrep = {terms: 1,083, types: 997, coercions: 0}
+!!! CorePrep [Data.Vector.Algorithms.Optimal]: finished in 4.00 milliseconds, allocated 2.161 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Optimal]:
+!!! CodeGen [Data.Vector.Algorithms.Optimal]: finished in 126.00 milliseconds, allocated 87.090 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11386_0/ghc_11.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Optimal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11386_0/ghc_12.c /tmp/ghc11386_0/ghc_11.s /tmp/ghc11386_0/ghc_10.c /tmp/ghc11386_0/ghc_9.s /tmp/ghc11386_0/ghc_8.s
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_12.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_10.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_8.s
+compile: input file src/Data/Vector/Algorithms/Insertion.hs
+*** Checking old interface for Data.Vector.Algorithms.Insertion:
+[ 3 of 10] Compiling Data.Vector.Algorithms.Insertion ( src/Data/Vector/Algorithms/Insertion.hs, dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Insertion.o )
+*** Parser [Data.Vector.Algorithms.Insertion]:
+!!! Parser [Data.Vector.Algorithms.Insertion]: finished in 2.00 milliseconds, allocated 2.599 megabytes
+*** Renamer/typechecker [Data.Vector.Algorithms.Insertion]:
+!!! Renamer/typechecker [Data.Vector.Algorithms.Insertion]: finished in 16.00 milliseconds, allocated 8.926 megabytes
+*** Desugar [Data.Vector.Algorithms.Insertion]:
+Result size of Desugar (after optimization)
+  = {terms: 261, types: 361, coercions: 0}
+!!! Desugar [Data.Vector.Algorithms.Insertion]: finished in 4.00 milliseconds, allocated 2.683 megabytes
+*** Simplifier [Data.Vector.Algorithms.Insertion]:
+Result size of Simplifier iteration=1
+  = {terms: 245, types: 350, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 245, types: 350, coercions: 0}
+Result size of Simplifier = {terms: 245, types: 350, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Insertion]: finished in 15.00 milliseconds, allocated 9.548 megabytes
+*** Specialise [Data.Vector.Algorithms.Insertion]:
+Result size of Specialise = {terms: 245, types: 350, coercions: 0}
+!!! Specialise [Data.Vector.Algorithms.Insertion]: finished in 1.00 milliseconds, allocated 0.309 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Insertion]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 271, types: 367, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Insertion]: finished in 3.00 milliseconds, allocated 2.249 megabytes
+*** Simplifier [Data.Vector.Algorithms.Insertion]:
+Result size of Simplifier iteration=1
+  = {terms: 922, types: 799, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 668, types: 528, coercions: 0}
+Result size of Simplifier = {terms: 668, types: 528, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Insertion]: finished in 30.00 milliseconds, allocated 16.340 megabytes
+*** Simplifier [Data.Vector.Algorithms.Insertion]:
+Result size of Simplifier = {terms: 668, types: 528, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Insertion]: finished in 6.00 milliseconds, allocated 4.662 megabytes
+*** Simplifier [Data.Vector.Algorithms.Insertion]:
+Result size of Simplifier iteration=1
+  = {terms: 743, types: 619, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 640, types: 533, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 648, types: 540, coercions: 0}
+Result size of Simplifier iteration=4
+  = {terms: 622, types: 527, coercions: 0}
+Result size of Simplifier = {terms: 622, types: 527, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Insertion]: finished in 35.00 milliseconds, allocated 24.976 megabytes
+*** Simplifier [Data.Vector.Algorithms.Insertion]:
+Result size of Simplifier = {terms: 622, types: 527, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Insertion]: finished in 8.00 milliseconds, allocated 4.567 megabytes
+*** Float inwards [Data.Vector.Algorithms.Insertion]:
+Result size of Float inwards
+  = {terms: 622, types: 527, coercions: 0}
+!!! Float inwards [Data.Vector.Algorithms.Insertion]: finished in 2.00 milliseconds, allocated 1.777 megabytes
+*** Called arity analysis [Data.Vector.Algorithms.Insertion]:
+Result size of Called arity analysis
+  = {terms: 622, types: 527, coercions: 0}
+!!! Called arity analysis [Data.Vector.Algorithms.Insertion]: finished in 1.00 milliseconds, allocated 1.048 megabytes
+*** Simplifier [Data.Vector.Algorithms.Insertion]:
+Result size of Simplifier iteration=1
+  = {terms: 619, types: 525, coercions: 0}
+Result size of Simplifier = {terms: 619, types: 525, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Insertion]: finished in 18.00 milliseconds, allocated 9.118 megabytes
+*** Demand analysis [Data.Vector.Algorithms.Insertion]:
+Result size of Demand analysis
+  = {terms: 619, types: 525, coercions: 0}
+!!! Demand analysis [Data.Vector.Algorithms.Insertion]: finished in 7.00 milliseconds, allocated 5.195 megabytes
+*** Worker Wrapper binds [Data.Vector.Algorithms.Insertion]:
+Result size of Worker Wrapper binds
+  = {terms: 731, types: 601, coercions: 0}
+!!! Worker Wrapper binds [Data.Vector.Algorithms.Insertion]: finished in 0.00 milliseconds, allocated 0.279 megabytes
+*** Simplifier [Data.Vector.Algorithms.Insertion]:
+Result size of Simplifier iteration=1
+  = {terms: 675, types: 575, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 603, types: 515, coercions: 0}
+Result size of Simplifier = {terms: 603, types: 515, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Insertion]: finished in 24.00 milliseconds, allocated 14.592 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Insertion]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 635, types: 545, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Insertion]: finished in 13.00 milliseconds, allocated 6.071 megabytes
+*** Common sub-expression [Data.Vector.Algorithms.Insertion]:
+Result size of Common sub-expression
+  = {terms: 623, types: 535, coercions: 0}
+!!! Common sub-expression [Data.Vector.Algorithms.Insertion]: finished in 2.00 milliseconds, allocated 1.374 megabytes
+*** Float inwards [Data.Vector.Algorithms.Insertion]:
+Result size of Float inwards
+  = {terms: 623, types: 535, coercions: 0}
+!!! Float inwards [Data.Vector.Algorithms.Insertion]: finished in 3.00 milliseconds, allocated 2.625 megabytes
+*** Liberate case [Data.Vector.Algorithms.Insertion]:
+Result size of Liberate case
+  = {terms: 718, types: 590, coercions: 0}
+!!! Liberate case [Data.Vector.Algorithms.Insertion]: finished in 1.00 milliseconds, allocated 0.376 megabytes
+*** Simplifier [Data.Vector.Algorithms.Insertion]:
+Result size of Simplifier iteration=1
+  = {terms: 696, types: 572, coercions: 0}
+Result size of Simplifier = {terms: 696, types: 572, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Insertion]: finished in 17.00 milliseconds, allocated 9.356 megabytes
+*** SpecConstr [Data.Vector.Algorithms.Insertion]:
+Result size of SpecConstr = {terms: 696, types: 572, coercions: 0}
+!!! SpecConstr [Data.Vector.Algorithms.Insertion]: finished in 2.00 milliseconds, allocated 1.028 megabytes
+*** Simplifier [Data.Vector.Algorithms.Insertion]:
+Result size of Simplifier = {terms: 696, types: 572, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Insertion]: finished in 9.00 milliseconds, allocated 5.071 megabytes
+*** CoreTidy [Data.Vector.Algorithms.Insertion]:
+Result size of Tidy Core = {terms: 696, types: 572, coercions: 0}
+!!! CoreTidy [Data.Vector.Algorithms.Insertion]: finished in 3.00 milliseconds, allocated 1.174 megabytes
+writeBinIface: 28 Names
+writeBinIface: 100 dict entries
+writeBinIface: 28 Names
+writeBinIface: 100 dict entries
+*** CorePrep [Data.Vector.Algorithms.Insertion]:
+Result size of CorePrep = {terms: 881, types: 695, coercions: 0}
+!!! CorePrep [Data.Vector.Algorithms.Insertion]: finished in 3.00 milliseconds, allocated 1.687 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Insertion]:
+!!! CodeGen [Data.Vector.Algorithms.Insertion]: finished in 72.00 milliseconds, allocated 45.723 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc11386_0/ghc_14.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Insertion.o
+*** CorePrep [Data.Vector.Algorithms.Insertion]:
+Result size of CorePrep = {terms: 881, types: 695, coercions: 0}
+!!! CorePrep [Data.Vector.Algorithms.Insertion]: finished in 2.00 milliseconds, allocated 1.644 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Insertion]:
+!!! CodeGen [Data.Vector.Algorithms.Insertion]: finished in 75.00 milliseconds, allocated 48.501 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11386_0/ghc_16.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Insertion.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11386_0/ghc_17.c /tmp/ghc11386_0/ghc_16.s /tmp/ghc11386_0/ghc_15.c /tmp/ghc11386_0/ghc_14.s /tmp/ghc11386_0/ghc_13.s
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_17.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_13.s
+compile: input file src/Data/Vector/Algorithms/Merge.hs
+*** Checking old interface for Data.Vector.Algorithms.Merge:
+[ 4 of 10] Compiling Data.Vector.Algorithms.Merge ( src/Data/Vector/Algorithms/Merge.hs, dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Merge.o )
+*** Parser [Data.Vector.Algorithms.Merge]:
+!!! Parser [Data.Vector.Algorithms.Merge]: finished in 2.00 milliseconds, allocated 3.429 megabytes
+*** Renamer/typechecker [Data.Vector.Algorithms.Merge]:
+!!! Renamer/typechecker [Data.Vector.Algorithms.Merge]: finished in 27.00 milliseconds, allocated 12.699 megabytes
+*** Desugar [Data.Vector.Algorithms.Merge]:
+Result size of Desugar (after optimization)
+  = {terms: 437, types: 507, coercions: 0}
+!!! Desugar [Data.Vector.Algorithms.Merge]: finished in 9.00 milliseconds, allocated 4.600 megabytes
+*** Simplifier [Data.Vector.Algorithms.Merge]:
+Result size of Simplifier iteration=1
+  = {terms: 388, types: 441, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 388, types: 441, coercions: 0}
+Result size of Simplifier = {terms: 388, types: 441, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Merge]: finished in 23.00 milliseconds, allocated 15.739 megabytes
+*** Specialise [Data.Vector.Algorithms.Merge]:
+Result size of Specialise = {terms: 388, types: 441, coercions: 0}
+!!! Specialise [Data.Vector.Algorithms.Merge]: finished in 1.00 milliseconds, allocated 0.486 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Merge]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 432, types: 465, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Merge]: finished in 10.00 milliseconds, allocated 4.244 megabytes
+*** Simplifier [Data.Vector.Algorithms.Merge]:
+Result size of Simplifier iteration=1
+  = {terms: 1,315, types: 1,271, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 592, types: 559, coercions: 0}
+Result size of Simplifier = {terms: 592, types: 559, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Merge]: finished in 29.00 milliseconds, allocated 19.270 megabytes
+*** Simplifier [Data.Vector.Algorithms.Merge]:
+Result size of Simplifier = {terms: 592, types: 559, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Merge]: finished in 8.00 milliseconds, allocated 4.372 megabytes
+*** Simplifier [Data.Vector.Algorithms.Merge]:
+Result size of Simplifier iteration=1
+  = {terms: 610, types: 584, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 771, types: 674, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 719, types: 630, coercions: 0}
+Result size of Simplifier iteration=4
+  = {terms: 699, types: 621, coercions: 0}
+Result size of Simplifier = {terms: 693, types: 618, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Merge]: finished in 40.00 milliseconds, allocated 25.173 megabytes
+*** Simplifier [Data.Vector.Algorithms.Merge]:
+Result size of Simplifier iteration=1
+  = {terms: 700, types: 622, coercions: 0}
+Result size of Simplifier = {terms: 697, types: 621, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Merge]: finished in 17.00 milliseconds, allocated 9.557 megabytes
+*** Float inwards [Data.Vector.Algorithms.Merge]:
+Result size of Float inwards
+  = {terms: 697, types: 621, coercions: 0}
+!!! Float inwards [Data.Vector.Algorithms.Merge]: finished in 2.00 milliseconds, allocated 2.380 megabytes
+*** Called arity analysis [Data.Vector.Algorithms.Merge]:
+Result size of Called arity analysis
+  = {terms: 697, types: 621, coercions: 0}
+!!! Called arity analysis [Data.Vector.Algorithms.Merge]: finished in 2.00 milliseconds, allocated 1.234 megabytes
+*** Simplifier [Data.Vector.Algorithms.Merge]:
+Result size of Simplifier iteration=1
+  = {terms: 689, types: 615, coercions: 0}
+Result size of Simplifier = {terms: 689, types: 615, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Merge]: finished in 15.00 milliseconds, allocated 9.436 megabytes
+*** Demand analysis [Data.Vector.Algorithms.Merge]:
+Result size of Demand analysis
+  = {terms: 689, types: 615, coercions: 0}
+!!! Demand analysis [Data.Vector.Algorithms.Merge]: finished in 11.00 milliseconds, allocated 6.340 megabytes
+*** Worker Wrapper binds [Data.Vector.Algorithms.Merge]:
+Result size of Worker Wrapper binds
+  = {terms: 787, types: 698, coercions: 0}
+!!! Worker Wrapper binds [Data.Vector.Algorithms.Merge]: finished in 1.00 milliseconds, allocated 0.288 megabytes
+*** Simplifier [Data.Vector.Algorithms.Merge]:
+Result size of Simplifier iteration=1
+  = {terms: 739, types: 668, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 660, types: 599, coercions: 0}
+Result size of Simplifier = {terms: 660, types: 599, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Merge]: finished in 21.00 milliseconds, allocated 14.804 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Merge]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 720, types: 702, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Merge]: finished in 7.00 milliseconds, allocated 6.717 megabytes
+*** Common sub-expression [Data.Vector.Algorithms.Merge]:
+Result size of Common sub-expression
+  = {terms: 686, types: 675, coercions: 0}
+!!! Common sub-expression [Data.Vector.Algorithms.Merge]: finished in 2.00 milliseconds, allocated 1.408 megabytes
+*** Float inwards [Data.Vector.Algorithms.Merge]:
+Result size of Float inwards
+  = {terms: 686, types: 675, coercions: 0}
+!!! Float inwards [Data.Vector.Algorithms.Merge]: finished in 6.00 milliseconds, allocated 2.392 megabytes
+*** Liberate case [Data.Vector.Algorithms.Merge]:
+Result size of Liberate case
+  = {terms: 686, types: 675, coercions: 0}
+!!! Liberate case [Data.Vector.Algorithms.Merge]: finished in 0.00 milliseconds, allocated 0.401 megabytes
+*** Simplifier [Data.Vector.Algorithms.Merge]:
+Result size of Simplifier iteration=1
+  = {terms: 644, types: 629, coercions: 0}
+Result size of Simplifier = {terms: 644, types: 629, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Merge]: finished in 13.00 milliseconds, allocated 8.808 megabytes
+*** SpecConstr [Data.Vector.Algorithms.Merge]:
+Result size of SpecConstr = {terms: 644, types: 629, coercions: 0}
+!!! SpecConstr [Data.Vector.Algorithms.Merge]: finished in 1.00 milliseconds, allocated 0.950 megabytes
+*** Simplifier [Data.Vector.Algorithms.Merge]:
+Result size of Simplifier = {terms: 644, types: 629, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Merge]: finished in 7.00 milliseconds, allocated 4.814 megabytes
+*** CoreTidy [Data.Vector.Algorithms.Merge]:
+Result size of Tidy Core = {terms: 644, types: 629, coercions: 0}
+!!! CoreTidy [Data.Vector.Algorithms.Merge]: finished in 2.00 milliseconds, allocated 1.202 megabytes
+writeBinIface: 40 Names
+writeBinIface: 140 dict entries
+writeBinIface: 40 Names
+writeBinIface: 140 dict entries
+*** CorePrep [Data.Vector.Algorithms.Merge]:
+Result size of CorePrep = {terms: 825, types: 790, coercions: 0}
+!!! CorePrep [Data.Vector.Algorithms.Merge]: finished in 2.00 milliseconds, allocated 1.547 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Merge]:
+!!! CodeGen [Data.Vector.Algorithms.Merge]: finished in 55.00 milliseconds, allocated 40.932 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc11386_0/ghc_19.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Merge.o
+*** CorePrep [Data.Vector.Algorithms.Merge]:
+Result size of CorePrep = {terms: 825, types: 790, coercions: 0}
+!!! CorePrep [Data.Vector.Algorithms.Merge]: finished in 2.00 milliseconds, allocated 1.509 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Merge]:
+!!! CodeGen [Data.Vector.Algorithms.Merge]: finished in 61.00 milliseconds, allocated 43.553 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11386_0/ghc_21.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Merge.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11386_0/ghc_22.c /tmp/ghc11386_0/ghc_21.s /tmp/ghc11386_0/ghc_20.c /tmp/ghc11386_0/ghc_19.s /tmp/ghc11386_0/ghc_18.s
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_22.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_18.s
+compile: input file src/Data/Vector/Algorithms/Radix.hs
+*** Checking old interface for Data.Vector.Algorithms.Radix:
+[ 5 of 10] Compiling Data.Vector.Algorithms.Radix ( src/Data/Vector/Algorithms/Radix.hs, dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Radix.o )
+*** Parser [Data.Vector.Algorithms.Radix]:
+!!! Parser [Data.Vector.Algorithms.Radix]: finished in 8.00 milliseconds, allocated 10.048 megabytes
+*** Renamer/typechecker [Data.Vector.Algorithms.Radix]:
+!!! Renamer/typechecker [Data.Vector.Algorithms.Radix]: finished in 62.00 milliseconds, allocated 32.556 megabytes
+*** Desugar [Data.Vector.Algorithms.Radix]:
+Result size of Desugar (after optimization)
+  = {terms: 1,274, types: 1,072, coercions: 33}
+!!! Desugar [Data.Vector.Algorithms.Radix]: finished in 26.00 milliseconds, allocated 10.683 megabytes
+*** Simplifier [Data.Vector.Algorithms.Radix]:
+Result size of Simplifier iteration=1
+  = {terms: 1,143, types: 963, coercions: 12}
+Result size of Simplifier iteration=2
+  = {terms: 1,143, types: 963, coercions: 12}
+Result size of Simplifier
+  = {terms: 1,143, types: 963, coercions: 12}
+!!! Simplifier [Data.Vector.Algorithms.Radix]: finished in 103.00 milliseconds, allocated 49.932 megabytes
+*** Specialise [Data.Vector.Algorithms.Radix]:
+Result size of Specialise
+  = {terms: 2,216, types: 2,218, coercions: 114}
+!!! Specialise [Data.Vector.Algorithms.Radix]: finished in 5.00 milliseconds, allocated 3.071 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Radix]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 2,985, types: 3,338, coercions: 114}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Radix]: finished in 17.00 milliseconds, allocated 12.203 megabytes
+*** Simplifier [Data.Vector.Algorithms.Radix]:
+Result size of Simplifier iteration=1
+  = {terms: 4,964, types: 5,164, coercions: 492}
+Result size of Simplifier iteration=2
+  = {terms: 3,097, types: 3,094, coercions: 151}
+Result size of Simplifier iteration=3
+  = {terms: 3,079, types: 3,081, coercions: 151}
+Result size of Simplifier
+  = {terms: 3,079, types: 3,081, coercions: 151}
+!!! Simplifier [Data.Vector.Algorithms.Radix]: finished in 217.00 milliseconds, allocated 106.795 megabytes
+*** Simplifier [Data.Vector.Algorithms.Radix]:
+Result size of Simplifier
+  = {terms: 3,079, types: 3,081, coercions: 151}
+!!! Simplifier [Data.Vector.Algorithms.Radix]: finished in 42.00 milliseconds, allocated 20.681 megabytes
+*** Simplifier [Data.Vector.Algorithms.Radix]:
+Result size of Simplifier iteration=1
+  = {terms: 2,998, types: 2,891, coercions: 151}
+Result size of Simplifier iteration=2
+  = {terms: 2,883, types: 2,730, coercions: 151}
+Result size of Simplifier iteration=3
+  = {terms: 2,882, types: 2,729, coercions: 151}
+Result size of Simplifier
+  = {terms: 2,882, types: 2,729, coercions: 151}
+!!! Simplifier [Data.Vector.Algorithms.Radix]: finished in 163.00 milliseconds, allocated 83.372 megabytes
+*** Simplifier [Data.Vector.Algorithms.Radix]:
+Result size of Simplifier iteration=1
+  = {terms: 2,941, types: 2,828, coercions: 151}
+Result size of Simplifier iteration=2
+  = {terms: 2,906, types: 2,816, coercions: 151}
+Result size of Simplifier
+  = {terms: 2,906, types: 2,816, coercions: 151}
+!!! Simplifier [Data.Vector.Algorithms.Radix]: finished in 105.00 milliseconds, allocated 60.920 megabytes
+*** Float inwards [Data.Vector.Algorithms.Radix]:
+Result size of Float inwards
+  = {terms: 2,906, types: 2,816, coercions: 151}
+!!! Float inwards [Data.Vector.Algorithms.Radix]: finished in 10.00 milliseconds, allocated 5.684 megabytes
+*** Called arity analysis [Data.Vector.Algorithms.Radix]:
+Result size of Called arity analysis
+  = {terms: 2,906, types: 2,816, coercions: 151}
+!!! Called arity analysis [Data.Vector.Algorithms.Radix]: finished in 6.00 milliseconds, allocated 3.070 megabytes
+*** Simplifier [Data.Vector.Algorithms.Radix]:
+Result size of Simplifier
+  = {terms: 2,906, types: 2,816, coercions: 151}
+!!! Simplifier [Data.Vector.Algorithms.Radix]: finished in 42.00 milliseconds, allocated 19.910 megabytes
+*** Demand analysis [Data.Vector.Algorithms.Radix]:
+Result size of Demand analysis
+  = {terms: 2,906, types: 2,816, coercions: 151}
+!!! Demand analysis [Data.Vector.Algorithms.Radix]: finished in 35.00 milliseconds, allocated 15.436 megabytes
+*** Worker Wrapper binds [Data.Vector.Algorithms.Radix]:
+Result size of Worker Wrapper binds
+  = {terms: 3,034, types: 2,897, coercions: 151}
+!!! Worker Wrapper binds [Data.Vector.Algorithms.Radix]: finished in 1.00 milliseconds, allocated 0.866 megabytes
+*** Simplifier [Data.Vector.Algorithms.Radix]:
+Result size of Simplifier iteration=1
+  = {terms: 2,933, types: 2,851, coercions: 151}
+Result size of Simplifier iteration=2
+  = {terms: 2,867, types: 2,798, coercions: 151}
+Result size of Simplifier
+  = {terms: 2,867, types: 2,798, coercions: 151}
+!!! Simplifier [Data.Vector.Algorithms.Radix]: finished in 161.00 milliseconds, allocated 61.115 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Radix]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 3,121, types: 3,198, coercions: 151}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Radix]: finished in 11.00 milliseconds, allocated 14.709 megabytes
+*** Common sub-expression [Data.Vector.Algorithms.Radix]:
+Result size of Common sub-expression
+  = {terms: 2,724, types: 2,893, coercions: 107}
+!!! Common sub-expression [Data.Vector.Algorithms.Radix]: finished in 7.00 milliseconds, allocated 6.915 megabytes
+*** Float inwards [Data.Vector.Algorithms.Radix]:
+Result size of Float inwards
+  = {terms: 2,724, types: 2,893, coercions: 107}
+!!! Float inwards [Data.Vector.Algorithms.Radix]: finished in 9.00 milliseconds, allocated 5.617 megabytes
+*** Liberate case [Data.Vector.Algorithms.Radix]:
+Result size of Liberate case
+  = {terms: 2,844, types: 2,997, coercions: 107}
+!!! Liberate case [Data.Vector.Algorithms.Radix]: finished in 1.00 milliseconds, allocated 1.345 megabytes
+*** Simplifier [Data.Vector.Algorithms.Radix]:
+Result size of Simplifier iteration=1
+  = {terms: 2,473, types: 2,616, coercions: 107}
+Result size of Simplifier
+  = {terms: 2,473, types: 2,616, coercions: 107}
+!!! Simplifier [Data.Vector.Algorithms.Radix]: finished in 41.00 milliseconds, allocated 36.313 megabytes
+*** SpecConstr [Data.Vector.Algorithms.Radix]:
+Result size of SpecConstr
+  = {terms: 2,895, types: 2,976, coercions: 107}
+!!! SpecConstr [Data.Vector.Algorithms.Radix]: finished in 3.00 milliseconds, allocated 3.770 megabytes
+*** Simplifier [Data.Vector.Algorithms.Radix]:
+Result size of Simplifier iteration=1
+  = {terms: 2,886, types: 2,976, coercions: 107}
+Result size of Simplifier iteration=2
+  = {terms: 2,475, types: 2,618, coercions: 107}
+Result size of Simplifier
+  = {terms: 2,475, types: 2,618, coercions: 107}
+!!! Simplifier [Data.Vector.Algorithms.Radix]: finished in 66.00 milliseconds, allocated 59.267 megabytes
+*** CoreTidy [Data.Vector.Algorithms.Radix]:
+Result size of Tidy Core
+  = {terms: 1,960, types: 1,827, coercions: 48}
+!!! CoreTidy [Data.Vector.Algorithms.Radix]: finished in 12.00 milliseconds, allocated 5.019 megabytes
+writeBinIface: 161 Names
+writeBinIface: 302 dict entries
+writeBinIface: 161 Names
+writeBinIface: 302 dict entries
+*** CorePrep [Data.Vector.Algorithms.Radix]:
+Result size of CorePrep
+  = {terms: 2,778, types: 2,585, coercions: 48}
+!!! CorePrep [Data.Vector.Algorithms.Radix]: finished in 4.00 milliseconds, allocated 4.718 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Radix]:
+!!! CodeGen [Data.Vector.Algorithms.Radix]: finished in 129.00 milliseconds, allocated 128.183 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc11386_0/ghc_24.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Radix.o
+*** CorePrep [Data.Vector.Algorithms.Radix]:
+Result size of CorePrep
+  = {terms: 2,778, types: 2,585, coercions: 48}
+!!! CorePrep [Data.Vector.Algorithms.Radix]: finished in 6.00 milliseconds, allocated 4.549 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Radix]:
+!!! CodeGen [Data.Vector.Algorithms.Radix]: finished in 134.00 milliseconds, allocated 134.837 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11386_0/ghc_26.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Radix.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11386_0/ghc_27.c /tmp/ghc11386_0/ghc_26.s /tmp/ghc11386_0/ghc_25.c /tmp/ghc11386_0/ghc_24.s /tmp/ghc11386_0/ghc_23.s
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_27.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_25.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_23.s
+compile: input file src/Data/Vector/Algorithms/Search.hs
+*** Checking old interface for Data.Vector.Algorithms.Search:
+[ 6 of 10] Compiling Data.Vector.Algorithms.Search ( src/Data/Vector/Algorithms/Search.hs, dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Search.o )
+*** Parser [Data.Vector.Algorithms.Search]:
+!!! Parser [Data.Vector.Algorithms.Search]: finished in 5.00 milliseconds, allocated 8.302 megabytes
+*** Renamer/typechecker [Data.Vector.Algorithms.Search]:
+!!! Renamer/typechecker [Data.Vector.Algorithms.Search]: finished in 21.00 milliseconds, allocated 17.286 megabytes
+*** Desugar [Data.Vector.Algorithms.Search]:
+Result size of Desugar (after optimization)
+  = {terms: 606, types: 983, coercions: 0}
+!!! Desugar [Data.Vector.Algorithms.Search]: finished in 7.00 milliseconds, allocated 6.830 megabytes
+*** Simplifier [Data.Vector.Algorithms.Search]:
+Result size of Simplifier iteration=1
+  = {terms: 599, types: 981, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 599, types: 981, coercions: 0}
+Result size of Simplifier = {terms: 599, types: 981, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Search]: finished in 22.00 milliseconds, allocated 20.248 megabytes
+*** Specialise [Data.Vector.Algorithms.Search]:
+Result size of Specialise = {terms: 599, types: 981, coercions: 0}
+!!! Specialise [Data.Vector.Algorithms.Search]: finished in 0.00 milliseconds, allocated 0.690 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Search]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 689, types: 1,043, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Search]: finished in 4.00 milliseconds, allocated 4.778 megabytes
+*** Simplifier [Data.Vector.Algorithms.Search]:
+Result size of Simplifier iteration=1
+  = {terms: 2,003, types: 1,841, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,690, types: 1,542, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,690, types: 1,542, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Search]: finished in 42.00 milliseconds, allocated 35.918 megabytes
+*** Simplifier [Data.Vector.Algorithms.Search]:
+Result size of Simplifier
+  = {terms: 1,690, types: 1,542, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Search]: finished in 15.00 milliseconds, allocated 10.823 megabytes
+*** Simplifier [Data.Vector.Algorithms.Search]:
+Result size of Simplifier iteration=1
+  = {terms: 1,726, types: 1,575, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,724, types: 1,574, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,724, types: 1,574, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Search]: finished in 40.00 milliseconds, allocated 33.164 megabytes
+*** Simplifier [Data.Vector.Algorithms.Search]:
+Result size of Simplifier iteration=1
+  = {terms: 1,692, types: 1,557, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,686, types: 1,555, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Search]: finished in 24.00 milliseconds, allocated 22.299 megabytes
+*** Float inwards [Data.Vector.Algorithms.Search]:
+Result size of Float inwards
+  = {terms: 1,686, types: 1,555, coercions: 0}
+!!! Float inwards [Data.Vector.Algorithms.Search]: finished in 8.00 milliseconds, allocated 5.288 megabytes
+*** Called arity analysis [Data.Vector.Algorithms.Search]:
+Result size of Called arity analysis
+  = {terms: 1,686, types: 1,555, coercions: 0}
+!!! Called arity analysis [Data.Vector.Algorithms.Search]: finished in 2.00 milliseconds, allocated 2.068 megabytes
+*** Simplifier [Data.Vector.Algorithms.Search]:
+Result size of Simplifier iteration=1
+  = {terms: 1,650, types: 1,530, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,650, types: 1,530, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Search]: finished in 21.00 milliseconds, allocated 21.739 megabytes
+*** Demand analysis [Data.Vector.Algorithms.Search]:
+Result size of Demand analysis
+  = {terms: 1,650, types: 1,530, coercions: 0}
+!!! Demand analysis [Data.Vector.Algorithms.Search]: finished in 15.00 milliseconds, allocated 13.831 megabytes
+*** Worker Wrapper binds [Data.Vector.Algorithms.Search]:
+Result size of Worker Wrapper binds
+  = {terms: 2,196, types: 1,876, coercions: 0}
+!!! Worker Wrapper binds [Data.Vector.Algorithms.Search]: finished in 1.00 milliseconds, allocated 0.845 megabytes
+*** Simplifier [Data.Vector.Algorithms.Search]:
+Result size of Simplifier iteration=1
+  = {terms: 1,929, types: 1,754, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,482, types: 1,446, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,482, types: 1,446, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Search]: finished in 42.00 milliseconds, allocated 35.485 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Search]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,570, types: 1,534, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Search]: finished in 7.00 milliseconds, allocated 9.538 megabytes
+*** Common sub-expression [Data.Vector.Algorithms.Search]:
+Result size of Common sub-expression
+  = {terms: 1,555, types: 1,524, coercions: 0}
+!!! Common sub-expression [Data.Vector.Algorithms.Search]: finished in 4.00 milliseconds, allocated 3.242 megabytes
+*** Float inwards [Data.Vector.Algorithms.Search]:
+Result size of Float inwards
+  = {terms: 1,555, types: 1,524, coercions: 0}
+!!! Float inwards [Data.Vector.Algorithms.Search]: finished in 5.00 milliseconds, allocated 5.407 megabytes
+*** Liberate case [Data.Vector.Algorithms.Search]:
+Result size of Liberate case
+  = {terms: 1,555, types: 1,524, coercions: 0}
+!!! Liberate case [Data.Vector.Algorithms.Search]: finished in 0.00 milliseconds, allocated 0.732 megabytes
+*** Simplifier [Data.Vector.Algorithms.Search]:
+Result size of Simplifier iteration=1
+  = {terms: 1,539, types: 1,510, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,527, types: 1,498, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Search]: finished in 19.00 milliseconds, allocated 19.887 megabytes
+*** SpecConstr [Data.Vector.Algorithms.Search]:
+Result size of SpecConstr
+  = {terms: 1,527, types: 1,498, coercions: 0}
+!!! SpecConstr [Data.Vector.Algorithms.Search]: finished in 2.00 milliseconds, allocated 2.342 megabytes
+*** Simplifier [Data.Vector.Algorithms.Search]:
+Result size of Simplifier
+  = {terms: 1,527, types: 1,498, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Search]: finished in 14.00 milliseconds, allocated 10.849 megabytes
+*** CoreTidy [Data.Vector.Algorithms.Search]:
+Result size of Tidy Core
+  = {terms: 1,527, types: 1,498, coercions: 0}
+!!! CoreTidy [Data.Vector.Algorithms.Search]: finished in 2.00 milliseconds, allocated 2.670 megabytes
+writeBinIface: 36 Names
+writeBinIface: 118 dict entries
+writeBinIface: 36 Names
+writeBinIface: 118 dict entries
+*** CorePrep [Data.Vector.Algorithms.Search]:
+Result size of CorePrep
+  = {terms: 1,974, types: 1,743, coercions: 0}
+!!! CorePrep [Data.Vector.Algorithms.Search]: finished in 2.00 milliseconds, allocated 3.612 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Search]:
+!!! CodeGen [Data.Vector.Algorithms.Search]: finished in 76.00 milliseconds, allocated 90.749 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc11386_0/ghc_29.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Search.o
+*** CorePrep [Data.Vector.Algorithms.Search]:
+Result size of CorePrep
+  = {terms: 1,974, types: 1,743, coercions: 0}
+!!! CorePrep [Data.Vector.Algorithms.Search]: finished in 4.00 milliseconds, allocated 3.484 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Search]:
+!!! CodeGen [Data.Vector.Algorithms.Search]: finished in 80.00 milliseconds, allocated 96.041 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11386_0/ghc_31.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Search.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11386_0/ghc_32.c /tmp/ghc11386_0/ghc_31.s /tmp/ghc11386_0/ghc_30.c /tmp/ghc11386_0/ghc_29.s /tmp/ghc11386_0/ghc_28.s
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_32.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_30.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_28.s
+compile: input file src/Data/Vector/Algorithms/Tim.hs
+*** Checking old interface for Data.Vector.Algorithms.Tim:
+[ 7 of 10] Compiling Data.Vector.Algorithms.Tim ( src/Data/Vector/Algorithms/Tim.hs, dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Tim.o )
+*** Parser [Data.Vector.Algorithms.Tim]:
+!!! Parser [Data.Vector.Algorithms.Tim]: finished in 4.00 milliseconds, allocated 11.745 megabytes
+*** Renamer/typechecker [Data.Vector.Algorithms.Tim]:
+!!! Renamer/typechecker [Data.Vector.Algorithms.Tim]: finished in 73.00 milliseconds, allocated 60.364 megabytes
+*** Desugar [Data.Vector.Algorithms.Tim]:
+Result size of Desugar (after optimization)
+  = {terms: 1,860, types: 1,912, coercions: 11}
+!!! Desugar [Data.Vector.Algorithms.Tim]: finished in 35.00 milliseconds, allocated 19.698 megabytes
+*** Simplifier [Data.Vector.Algorithms.Tim]:
+Result size of Simplifier iteration=1
+  = {terms: 1,629, types: 1,634, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 1,587, types: 1,570, coercions: 4}
+Result size of Simplifier iteration=3
+  = {terms: 1,583, types: 1,566, coercions: 4}
+Result size of Simplifier
+  = {terms: 1,583, types: 1,566, coercions: 4}
+!!! Simplifier [Data.Vector.Algorithms.Tim]: finished in 241.00 milliseconds, allocated 126.034 megabytes
+*** Specialise [Data.Vector.Algorithms.Tim]:
+Result size of Specialise
+  = {terms: 1,593, types: 1,574, coercions: 4}
+!!! Specialise [Data.Vector.Algorithms.Tim]: finished in 3.00 milliseconds, allocated 1.852 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Tim]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,860, types: 1,896, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Tim]: finished in 18.00 milliseconds, allocated 16.241 megabytes
+*** Simplifier [Data.Vector.Algorithms.Tim]:
+Result size of Simplifier iteration=1
+  = {terms: 11,996, types: 8,521, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 7,527, types: 4,859, coercions: 8}
+Result size of Simplifier iteration=3
+  = {terms: 7,431, types: 4,777, coercions: 8}
+Result size of Simplifier
+  = {terms: 7,431, types: 4,777, coercions: 8}
+!!! Simplifier [Data.Vector.Algorithms.Tim]: finished in 391.00 milliseconds, allocated 240.630 megabytes
+*** Simplifier [Data.Vector.Algorithms.Tim]:
+Result size of Simplifier
+  = {terms: 7,431, types: 4,777, coercions: 8}
+!!! Simplifier [Data.Vector.Algorithms.Tim]: finished in 161.00 milliseconds, allocated 51.499 megabytes
+*** Simplifier [Data.Vector.Algorithms.Tim]:
+Result size of Simplifier iteration=1
+  = {terms: 29,246, types: 19,046, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 22,537, types: 13,722, coercions: 8}
+Result size of Simplifier iteration=3
+  = {terms: 22,505, types: 13,690, coercions: 8}
+Result size of Simplifier
+  = {terms: 22,505, types: 13,690, coercions: 8}
+!!! Simplifier [Data.Vector.Algorithms.Tim]: finished in 1074.00 milliseconds, allocated 486.267 megabytes
+*** Simplifier [Data.Vector.Algorithms.Tim]:
+Result size of Simplifier iteration=1
+  = {terms: 22,401, types: 13,638, coercions: 8}
+Result size of Simplifier
+  = {terms: 22,401, types: 13,638, coercions: 8}
+!!! Simplifier [Data.Vector.Algorithms.Tim]: finished in 517.00 milliseconds, allocated 200.616 megabytes
+*** Float inwards [Data.Vector.Algorithms.Tim]:
+Result size of Float inwards
+  = {terms: 22,401, types: 13,638, coercions: 8}
+!!! Float inwards [Data.Vector.Algorithms.Tim]: finished in 125.00 milliseconds, allocated 72.425 megabytes
+*** Called arity analysis [Data.Vector.Algorithms.Tim]:
+Result size of Called arity analysis
+  = {terms: 22,401, types: 13,638, coercions: 8}
+!!! Called arity analysis [Data.Vector.Algorithms.Tim]: finished in 58.00 milliseconds, allocated 37.949 megabytes
+*** Simplifier [Data.Vector.Algorithms.Tim]:
+Result size of Simplifier iteration=1
+  = {terms: 22,385, types: 13,612, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 22,301, types: 13,570, coercions: 8}
+Result size of Simplifier
+  = {terms: 22,301, types: 13,570, coercions: 8}
+!!! Simplifier [Data.Vector.Algorithms.Tim]: finished in 826.00 milliseconds, allocated 298.377 megabytes
+*** Demand analysis [Data.Vector.Algorithms.Tim]:
+Result size of Demand analysis
+  = {terms: 22,301, types: 13,570, coercions: 8}
+!!! Demand analysis [Data.Vector.Algorithms.Tim]: finished in 431.00 milliseconds, allocated 258.240 megabytes
+*** Worker Wrapper binds [Data.Vector.Algorithms.Tim]:
+Result size of Worker Wrapper binds
+  = {terms: 27,631, types: 17,154, coercions: 8}
+!!! Worker Wrapper binds [Data.Vector.Algorithms.Tim]: finished in 12.00 milliseconds, allocated 9.158 megabytes
+*** Simplifier [Data.Vector.Algorithms.Tim]:
+Result size of Simplifier iteration=1
+  = {terms: 24,117, types: 15,510, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 20,829, types: 13,442, coercions: 8}
+Result size of Simplifier iteration=3
+  = {terms: 20,829, types: 13,442, coercions: 8}
+Result size of Simplifier
+  = {terms: 20,829, types: 13,442, coercions: 8}
+!!! Simplifier [Data.Vector.Algorithms.Tim]: finished in 827.00 milliseconds, allocated 417.505 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Tim]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 24,074, types: 18,649, coercions: 8}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Tim]: finished in 313.00 milliseconds, allocated 187.956 megabytes
+*** Common sub-expression [Data.Vector.Algorithms.Tim]:
+Result size of Common sub-expression
+  = {terms: 21,349, types: 16,027, coercions: 4}
+!!! Common sub-expression [Data.Vector.Algorithms.Tim]: finished in 69.00 milliseconds, allocated 30.025 megabytes
+*** Float inwards [Data.Vector.Algorithms.Tim]:
+Result size of Float inwards
+  = {terms: 21,349, types: 16,027, coercions: 4}
+!!! Float inwards [Data.Vector.Algorithms.Tim]: finished in 172.00 milliseconds, allocated 127.238 megabytes
+*** Liberate case [Data.Vector.Algorithms.Tim]:
+Result size of Liberate case
+  = {terms: 21,415, types: 16,067, coercions: 4}
+!!! Liberate case [Data.Vector.Algorithms.Tim]: finished in 21.00 milliseconds, allocated 11.141 megabytes
+*** Simplifier [Data.Vector.Algorithms.Tim]:
+Result size of Simplifier iteration=1
+  = {terms: 19,722, types: 13,100, coercions: 4}
+Result size of Simplifier
+  = {terms: 19,410, types: 12,788, coercions: 4}
+!!! Simplifier [Data.Vector.Algorithms.Tim]: finished in 320.00 milliseconds, allocated 183.734 megabytes
+*** SpecConstr [Data.Vector.Algorithms.Tim]:
+Result size of SpecConstr
+  = {terms: 95,717, types: 57,026, coercions: 4}
+!!! SpecConstr [Data.Vector.Algorithms.Tim]: finished in 386.00 milliseconds, allocated 158.435 megabytes
+*** Simplifier [Data.Vector.Algorithms.Tim]:
+Result size of Simplifier iteration=1
+  = {terms: 95,689, types: 57,064, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 82,335, types: 49,759, coercions: 4}
+Result size of Simplifier
+  = {terms: 82,335, types: 49,759, coercions: 4}
+!!! Simplifier [Data.Vector.Algorithms.Tim]: finished in 1729.00 milliseconds, allocated 1001.896 megabytes
+*** CoreTidy [Data.Vector.Algorithms.Tim]:
+Result size of Tidy Core
+  = {terms: 82,331, types: 49,755, coercions: 4}
+!!! CoreTidy [Data.Vector.Algorithms.Tim]: finished in 286.00 milliseconds, allocated 72.728 megabytes
+writeBinIface: 86 Names
+writeBinIface: 271 dict entries
+writeBinIface: 86 Names
+writeBinIface: 271 dict entries
+*** CorePrep [Data.Vector.Algorithms.Tim]:
+Result size of CorePrep
+  = {terms: 110,748, types: 68,440, coercions: 4}
+!!! CorePrep [Data.Vector.Algorithms.Tim]: finished in 339.00 milliseconds, allocated 201.309 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Tim]:
+!!! CodeGen [Data.Vector.Algorithms.Tim]: finished in 6475.00 milliseconds, allocated 5428.534 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc11386_0/ghc_34.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Tim.o
+*** CorePrep [Data.Vector.Algorithms.Tim]:
+Result size of CorePrep
+  = {terms: 110,748, types: 68,440, coercions: 4}
+!!! CorePrep [Data.Vector.Algorithms.Tim]: finished in 227.00 milliseconds, allocated 193.693 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Tim]:
+!!! CodeGen [Data.Vector.Algorithms.Tim]: finished in 6580.00 milliseconds, allocated 5726.824 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11386_0/ghc_36.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Tim.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11386_0/ghc_37.c /tmp/ghc11386_0/ghc_36.s /tmp/ghc11386_0/ghc_35.c /tmp/ghc11386_0/ghc_34.s /tmp/ghc11386_0/ghc_33.s
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_37.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_35.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_33.s
+compile: input file src/Data/Vector/Algorithms/Heap.hs
+*** Checking old interface for Data.Vector.Algorithms.Heap:
+[ 8 of 10] Compiling Data.Vector.Algorithms.Heap ( src/Data/Vector/Algorithms/Heap.hs, dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Heap.o )
+*** Parser [Data.Vector.Algorithms.Heap]:
+!!! Parser [Data.Vector.Algorithms.Heap]: finished in 7.00 milliseconds, allocated 10.598 megabytes
+*** Renamer/typechecker [Data.Vector.Algorithms.Heap]:
+!!! Renamer/typechecker [Data.Vector.Algorithms.Heap]: finished in 35.00 milliseconds, allocated 24.455 megabytes
+*** Desugar [Data.Vector.Algorithms.Heap]:
+Result size of Desugar (after optimization)
+  = {terms: 1,149, types: 1,395, coercions: 0}
+!!! Desugar [Data.Vector.Algorithms.Heap]: finished in 16.00 milliseconds, allocated 12.837 megabytes
+*** Simplifier [Data.Vector.Algorithms.Heap]:
+Result size of Simplifier iteration=1
+  = {terms: 1,038, types: 1,318, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,038, types: 1,318, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,038, types: 1,318, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Heap]: finished in 229.00 milliseconds, allocated 141.192 megabytes
+*** Specialise [Data.Vector.Algorithms.Heap]:
+Result size of Specialise
+  = {terms: 1,038, types: 1,318, coercions: 0}
+!!! Specialise [Data.Vector.Algorithms.Heap]: finished in 1.00 milliseconds, allocated 1.193 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Heap]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,172, types: 1,437, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Heap]: finished in 7.00 milliseconds, allocated 10.248 megabytes
+*** Simplifier [Data.Vector.Algorithms.Heap]:
+Result size of Simplifier iteration=1
+  = {terms: 19,373, types: 14,974, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 13,415, types: 8,932, coercions: 0}
+Result size of Simplifier
+  = {terms: 13,415, types: 8,932, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Heap]: finished in 482.00 milliseconds, allocated 370.906 megabytes
+*** Simplifier [Data.Vector.Algorithms.Heap]:
+Result size of Simplifier
+  = {terms: 13,415, types: 8,932, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Heap]: finished in 204.00 milliseconds, allocated 106.920 megabytes
+*** Simplifier [Data.Vector.Algorithms.Heap]:
+Result size of Simplifier iteration=1
+  = {terms: 14,379, types: 9,654, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 13,594, types: 9,059, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 13,560, types: 9,056, coercions: 0}
+Result size of Simplifier iteration=4
+  = {terms: 13,488, types: 9,021, coercions: 0}
+Result size of Simplifier
+  = {terms: 13,488, types: 9,021, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Heap]: finished in 719.00 milliseconds, allocated 552.155 megabytes
+*** Simplifier [Data.Vector.Algorithms.Heap]:
+Result size of Simplifier iteration=1
+  = {terms: 13,472, types: 9,019, coercions: 0}
+Result size of Simplifier
+  = {terms: 13,466, types: 9,017, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Heap]: finished in 323.00 milliseconds, allocated 214.922 megabytes
+*** Float inwards [Data.Vector.Algorithms.Heap]:
+Result size of Float inwards
+  = {terms: 13,466, types: 9,017, coercions: 0}
+!!! Float inwards [Data.Vector.Algorithms.Heap]: finished in 47.00 milliseconds, allocated 47.513 megabytes
+*** Called arity analysis [Data.Vector.Algorithms.Heap]:
+Result size of Called arity analysis
+  = {terms: 13,466, types: 9,017, coercions: 0}
+!!! Called arity analysis [Data.Vector.Algorithms.Heap]: finished in 18.00 milliseconds, allocated 25.719 megabytes
+*** Simplifier [Data.Vector.Algorithms.Heap]:
+Result size of Simplifier iteration=1
+  = {terms: 13,451, types: 9,007, coercions: 0}
+Result size of Simplifier
+  = {terms: 13,451, types: 9,007, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Heap]: finished in 279.00 milliseconds, allocated 213.688 megabytes
+*** Demand analysis [Data.Vector.Algorithms.Heap]:
+Result size of Demand analysis
+  = {terms: 13,451, types: 9,007, coercions: 0}
+!!! Demand analysis [Data.Vector.Algorithms.Heap]: finished in 292.00 milliseconds, allocated 153.201 megabytes
+*** Worker Wrapper binds [Data.Vector.Algorithms.Heap]:
+Result size of Worker Wrapper binds
+  = {terms: 14,683, types: 9,815, coercions: 0}
+!!! Worker Wrapper binds [Data.Vector.Algorithms.Heap]: finished in 6.00 milliseconds, allocated 4.411 megabytes
+*** Simplifier [Data.Vector.Algorithms.Heap]:
+Result size of Simplifier iteration=1
+  = {terms: 14,041, types: 9,509, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 13,200, types: 8,874, coercions: 0}
+Result size of Simplifier
+  = {terms: 13,200, types: 8,874, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Heap]: finished in 400.00 milliseconds, allocated 329.635 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Heap]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 14,562, types: 10,305, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Heap]: finished in 130.00 milliseconds, allocated 142.879 megabytes
+*** Common sub-expression [Data.Vector.Algorithms.Heap]:
+Result size of Common sub-expression
+  = {terms: 13,521, types: 9,656, coercions: 0}
+!!! Common sub-expression [Data.Vector.Algorithms.Heap]: finished in 46.00 milliseconds, allocated 33.306 megabytes
+*** Float inwards [Data.Vector.Algorithms.Heap]:
+Result size of Float inwards
+  = {terms: 13,521, types: 9,656, coercions: 0}
+!!! Float inwards [Data.Vector.Algorithms.Heap]: finished in 57.00 milliseconds, allocated 59.463 megabytes
+*** Liberate case [Data.Vector.Algorithms.Heap]:
+Result size of Liberate case
+  = {terms: 13,576, types: 9,691, coercions: 0}
+!!! Liberate case [Data.Vector.Algorithms.Heap]: finished in 7.00 milliseconds, allocated 7.700 megabytes
+*** Simplifier [Data.Vector.Algorithms.Heap]:
+Result size of Simplifier iteration=1
+  = {terms: 12,994, types: 9,116, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 12,989, types: 9,114, coercions: 0}
+Result size of Simplifier
+  = {terms: 12,989, types: 9,114, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Heap]: finished in 495.00 milliseconds, allocated 309.605 megabytes
+*** SpecConstr [Data.Vector.Algorithms.Heap]:
+Result size of SpecConstr
+  = {terms: 15,545, types: 10,752, coercions: 0}
+!!! SpecConstr [Data.Vector.Algorithms.Heap]: finished in 18.00 milliseconds, allocated 25.110 megabytes
+*** Simplifier [Data.Vector.Algorithms.Heap]:
+Result size of Simplifier iteration=1
+  = {terms: 15,551, types: 10,758, coercions: 0}
+Result size of Simplifier
+  = {terms: 12,833, types: 9,000, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Heap]: finished in 294.00 milliseconds, allocated 229.763 megabytes
+*** CoreTidy [Data.Vector.Algorithms.Heap]:
+Result size of Tidy Core
+  = {terms: 12,833, types: 9,000, coercions: 0}
+!!! CoreTidy [Data.Vector.Algorithms.Heap]: finished in 39.00 milliseconds, allocated 26.490 megabytes
+writeBinIface: 40 Names
+writeBinIface: 153 dict entries
+writeBinIface: 40 Names
+writeBinIface: 153 dict entries
+*** CorePrep [Data.Vector.Algorithms.Heap]:
+Result size of CorePrep
+  = {terms: 16,385, types: 12,649, coercions: 0}
+!!! CorePrep [Data.Vector.Algorithms.Heap]: finished in 39.00 milliseconds, allocated 31.691 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Heap]:
+!!! CodeGen [Data.Vector.Algorithms.Heap]: finished in 1011.00 milliseconds, allocated 937.420 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc11386_0/ghc_39.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Heap.o
+*** CorePrep [Data.Vector.Algorithms.Heap]:
+Result size of CorePrep
+  = {terms: 16,385, types: 12,649, coercions: 0}
+!!! CorePrep [Data.Vector.Algorithms.Heap]: finished in 26.00 milliseconds, allocated 30.667 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Heap]:
+!!! CodeGen [Data.Vector.Algorithms.Heap]: finished in 899.00 milliseconds, allocated 993.125 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11386_0/ghc_41.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Heap.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11386_0/ghc_42.c /tmp/ghc11386_0/ghc_41.s /tmp/ghc11386_0/ghc_40.c /tmp/ghc11386_0/ghc_39.s /tmp/ghc11386_0/ghc_38.s
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_42.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_40.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_38.s
+compile: input file src/Data/Vector/Algorithms/Intro.hs
+*** Checking old interface for Data.Vector.Algorithms.Intro:
+[ 9 of 10] Compiling Data.Vector.Algorithms.Intro ( src/Data/Vector/Algorithms/Intro.hs, dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Intro.o )
+*** Parser [Data.Vector.Algorithms.Intro]:
+!!! Parser [Data.Vector.Algorithms.Intro]: finished in 5.00 milliseconds, allocated 7.858 megabytes
+*** Renamer/typechecker [Data.Vector.Algorithms.Intro]:
+!!! Renamer/typechecker [Data.Vector.Algorithms.Intro]: finished in 46.00 milliseconds, allocated 20.436 megabytes
+*** Desugar [Data.Vector.Algorithms.Intro]:
+Result size of Desugar (after optimization)
+  = {terms: 851, types: 921, coercions: 0}
+!!! Desugar [Data.Vector.Algorithms.Intro]: finished in 14.00 milliseconds, allocated 8.735 megabytes
+*** Simplifier [Data.Vector.Algorithms.Intro]:
+Result size of Simplifier iteration=1
+  = {terms: 768, types: 851, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 768, types: 851, coercions: 0}
+Result size of Simplifier = {terms: 768, types: 851, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Intro]: finished in 163.00 milliseconds, allocated 134.020 megabytes
+*** Specialise [Data.Vector.Algorithms.Intro]:
+Result size of Specialise = {terms: 768, types: 851, coercions: 0}
+!!! Specialise [Data.Vector.Algorithms.Intro]: finished in 0.00 milliseconds, allocated 0.828 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Intro]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 896, types: 929, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.Intro]: finished in 16.00 milliseconds, allocated 6.834 megabytes
+*** Simplifier [Data.Vector.Algorithms.Intro]:
+Result size of Simplifier iteration=1
+  = {terms: 16,932, types: 12,267, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 12,353, types: 7,534, coercions: 0}
+Result size of Simplifier
+  = {terms: 12,353, types: 7,534, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Intro]: finished in 412.00 milliseconds, allocated 315.583 megabytes
+*** Simplifier [Data.Vector.Algorithms.Intro]:
+Result size of Simplifier
+  = {terms: 12,353, types: 7,534, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Intro]: finished in 129.00 milliseconds, allocated 93.167 megabytes
+*** Simplifier [Data.Vector.Algorithms.Intro]:
+Result size of Simplifier iteration=1
+  = {terms: 19,302, types: 12,115, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 16,631, types: 9,968, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 16,587, types: 9,970, coercions: 0}
+Result size of Simplifier iteration=4
+  = {terms: 16,463, types: 9,909, coercions: 0}
+Result size of Simplifier
+  = {terms: 16,463, types: 9,909, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Intro]: finished in 844.00 milliseconds, allocated 584.964 megabytes
+*** Simplifier [Data.Vector.Algorithms.Intro]:
+Result size of Simplifier iteration=1
+  = {terms: 16,490, types: 9,925, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 16,478, types: 9,921, coercions: 0}
+Result size of Simplifier
+  = {terms: 16,478, types: 9,921, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Intro]: finished in 555.00 milliseconds, allocated 322.184 megabytes
+*** Float inwards [Data.Vector.Algorithms.Intro]:
+Result size of Float inwards
+  = {terms: 16,478, types: 9,921, coercions: 0}
+!!! Float inwards [Data.Vector.Algorithms.Intro]: finished in 69.00 milliseconds, allocated 55.568 megabytes
+*** Called arity analysis [Data.Vector.Algorithms.Intro]:
+Result size of Called arity analysis
+  = {terms: 16,478, types: 9,921, coercions: 0}
+!!! Called arity analysis [Data.Vector.Algorithms.Intro]: finished in 43.00 milliseconds, allocated 54.612 megabytes
+*** Simplifier [Data.Vector.Algorithms.Intro]:
+Result size of Simplifier iteration=1
+  = {terms: 16,442, types: 9,895, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 16,442, types: 9,895, coercions: 0}
+Result size of Simplifier
+  = {terms: 16,442, types: 9,895, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Intro]: finished in 431.00 milliseconds, allocated 320.567 megabytes
+*** Demand analysis [Data.Vector.Algorithms.Intro]:
+Result size of Demand analysis
+  = {terms: 16,442, types: 9,895, coercions: 0}
+!!! Demand analysis [Data.Vector.Algorithms.Intro]: finished in 468.00 milliseconds, allocated 258.865 megabytes
+*** Worker Wrapper binds [Data.Vector.Algorithms.Intro]:
+Result size of Worker Wrapper binds
+  = {terms: 18,947, types: 11,535, coercions: 0}
+!!! Worker Wrapper binds [Data.Vector.Algorithms.Intro]: finished in 8.00 milliseconds, allocated 5.921 megabytes
+*** Simplifier [Data.Vector.Algorithms.Intro]:
+Result size of Simplifier iteration=1
+  = {terms: 30,646, types: 19,241, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 25,091, types: 14,995, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 25,091, types: 15,005, coercions: 0}
+Result size of Simplifier
+  = {terms: 25,031, types: 14,975, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Intro]: finished in 832.00 milliseconds, allocated 623.505 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Intro]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 27,503, types: 17,519, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.Intro]: finished in 386.00 milliseconds, allocated 267.427 megabytes
+*** Common sub-expression [Data.Vector.Algorithms.Intro]:
+Result size of Common sub-expression
+  = {terms: 25,517, types: 16,340, coercions: 0}
+!!! Common sub-expression [Data.Vector.Algorithms.Intro]: finished in 72.00 milliseconds, allocated 41.414 megabytes
+*** Float inwards [Data.Vector.Algorithms.Intro]:
+Result size of Float inwards
+  = {terms: 25,517, types: 16,340, coercions: 0}
+!!! Float inwards [Data.Vector.Algorithms.Intro]: finished in 97.00 milliseconds, allocated 128.866 megabytes
+*** Liberate case [Data.Vector.Algorithms.Intro]:
+Result size of Liberate case
+  = {terms: 25,517, types: 16,340, coercions: 0}
+!!! Liberate case [Data.Vector.Algorithms.Intro]: finished in 17.00 milliseconds, allocated 15.067 megabytes
+*** Simplifier [Data.Vector.Algorithms.Intro]:
+Result size of Simplifier iteration=1
+  = {terms: 24,383, types: 15,243, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 24,371, types: 15,239, coercions: 0}
+Result size of Simplifier
+  = {terms: 24,371, types: 15,239, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Intro]: finished in 529.00 milliseconds, allocated 397.751 megabytes
+*** SpecConstr [Data.Vector.Algorithms.Intro]:
+Result size of SpecConstr
+  = {terms: 57,965, types: 35,851, coercions: 0}
+!!! SpecConstr [Data.Vector.Algorithms.Intro]: finished in 129.00 milliseconds, allocated 94.117 megabytes
+*** Simplifier [Data.Vector.Algorithms.Intro]:
+Result size of Simplifier iteration=1
+  = {terms: 57,802, types: 35,853, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 38,090, types: 23,874, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 38,082, types: 23,866, coercions: 0}
+Result size of Simplifier iteration=4
+  = {terms: 38,082, types: 23,866, coercions: 0}
+Result size of Simplifier
+  = {terms: 38,082, types: 23,866, coercions: 0}
+!!! Simplifier [Data.Vector.Algorithms.Intro]: finished in 1592.00 milliseconds, allocated 1004.174 megabytes
+*** CoreTidy [Data.Vector.Algorithms.Intro]:
+Result size of Tidy Core
+  = {terms: 38,082, types: 23,866, coercions: 0}
+!!! CoreTidy [Data.Vector.Algorithms.Intro]: finished in 50.00 milliseconds, allocated 42.906 megabytes
+writeBinIface: 47 Names
+writeBinIface: 184 dict entries
+writeBinIface: 47 Names
+writeBinIface: 184 dict entries
+*** CorePrep [Data.Vector.Algorithms.Intro]:
+Result size of CorePrep
+  = {terms: 50,296, types: 34,885, coercions: 0}
+!!! CorePrep [Data.Vector.Algorithms.Intro]: finished in 118.00 milliseconds, allocated 97.220 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Intro]:
+!!! CodeGen [Data.Vector.Algorithms.Intro]: finished in 2878.00 milliseconds, allocated 2798.392 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc11386_0/ghc_44.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Intro.o
+*** CorePrep [Data.Vector.Algorithms.Intro]:
+Result size of CorePrep
+  = {terms: 50,296, types: 34,885, coercions: 0}
+!!! CorePrep [Data.Vector.Algorithms.Intro]: finished in 141.00 milliseconds, allocated 94.175 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.Intro]:
+!!! CodeGen [Data.Vector.Algorithms.Intro]: finished in 3025.00 milliseconds, allocated 2963.342 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11386_0/ghc_46.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Intro.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11386_0/ghc_47.c /tmp/ghc11386_0/ghc_46.s /tmp/ghc11386_0/ghc_45.c /tmp/ghc11386_0/ghc_44.s /tmp/ghc11386_0/ghc_43.s
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_47.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_45.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_43.s
+compile: input file src/Data/Vector/Algorithms/AmericanFlag.hs
+*** Checking old interface for Data.Vector.Algorithms.AmericanFlag:
+[10 of 10] Compiling Data.Vector.Algorithms.AmericanFlag ( src/Data/Vector/Algorithms/AmericanFlag.hs, dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/AmericanFlag.o )
+*** Parser [Data.Vector.Algorithms.AmericanFlag]:
+!!! Parser [Data.Vector.Algorithms.AmericanFlag]: finished in 13.00 milliseconds, allocated 13.008 megabytes
+*** Renamer/typechecker [Data.Vector.Algorithms.AmericanFlag]:
+!!! Renamer/typechecker [Data.Vector.Algorithms.AmericanFlag]: finished in 49.00 milliseconds, allocated 34.951 megabytes
+*** Desugar [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Desugar (after optimization)
+  = {terms: 1,679, types: 1,293, coercions: 11}
+!!! Desugar [Data.Vector.Algorithms.AmericanFlag]: finished in 21.00 milliseconds, allocated 17.281 megabytes
+*** Simplifier [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Simplifier iteration=1
+  = {terms: 1,539, types: 1,125, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 1,539, types: 1,125, coercions: 4}
+Result size of Simplifier
+  = {terms: 1,539, types: 1,125, coercions: 4}
+!!! Simplifier [Data.Vector.Algorithms.AmericanFlag]: finished in 90.00 milliseconds, allocated 77.336 megabytes
+*** Specialise [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Specialise
+  = {terms: 2,612, types: 2,380, coercions: 106}
+!!! Specialise [Data.Vector.Algorithms.AmericanFlag]: finished in 9.00 milliseconds, allocated 3.529 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 3,519, types: 3,559, coercions: 106}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Vector.Algorithms.AmericanFlag]: finished in 17.00 milliseconds, allocated 15.278 megabytes
+*** Simplifier [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Simplifier iteration=1
+  = {terms: 8,392, types: 7,914, coercions: 720}
+Result size of Simplifier iteration=2
+  = {terms: 4,690, types: 4,125, coercions: 215}
+Result size of Simplifier iteration=3
+  = {terms: 4,672, types: 4,112, coercions: 215}
+Result size of Simplifier
+  = {terms: 4,672, types: 4,112, coercions: 215}
+!!! Simplifier [Data.Vector.Algorithms.AmericanFlag]: finished in 260.00 milliseconds, allocated 172.212 megabytes
+*** Simplifier [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Simplifier
+  = {terms: 4,672, types: 4,112, coercions: 215}
+!!! Simplifier [Data.Vector.Algorithms.AmericanFlag]: finished in 131.00 milliseconds, allocated 32.598 megabytes
+*** Simplifier [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Simplifier iteration=1
+  = {terms: 4,610, types: 3,907, coercions: 215}
+Result size of Simplifier iteration=2
+  = {terms: 4,437, types: 3,700, coercions: 215}
+Result size of Simplifier iteration=3
+  = {terms: 4,444, types: 3,705, coercions: 215}
+Result size of Simplifier iteration=4
+  = {terms: 4,424, types: 3,695, coercions: 215}
+Result size of Simplifier
+  = {terms: 4,424, types: 3,695, coercions: 215}
+!!! Simplifier [Data.Vector.Algorithms.AmericanFlag]: finished in 188.00 milliseconds, allocated 165.506 megabytes
+*** Simplifier [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Simplifier iteration=1
+  = {terms: 4,495, types: 3,856, coercions: 215}
+Result size of Simplifier
+  = {terms: 4,441, types: 3,838, coercions: 215}
+!!! Simplifier [Data.Vector.Algorithms.AmericanFlag]: finished in 79.00 milliseconds, allocated 65.067 megabytes
+*** Float inwards [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Float inwards
+  = {terms: 4,441, types: 3,838, coercions: 215}
+!!! Float inwards [Data.Vector.Algorithms.AmericanFlag]: finished in 9.00 milliseconds, allocated 10.058 megabytes
+*** Called arity analysis [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Called arity analysis
+  = {terms: 4,441, types: 3,838, coercions: 215}
+!!! Called arity analysis [Data.Vector.Algorithms.AmericanFlag]: finished in 14.00 milliseconds, allocated 6.751 megabytes
+*** Simplifier [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Simplifier iteration=1
+  = {terms: 4,431, types: 3,832, coercions: 215}
+Result size of Simplifier
+  = {terms: 4,431, types: 3,832, coercions: 215}
+!!! Simplifier [Data.Vector.Algorithms.AmericanFlag]: finished in 69.00 milliseconds, allocated 63.459 megabytes
+*** Demand analysis [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Demand analysis
+  = {terms: 4,431, types: 3,832, coercions: 215}
+!!! Demand analysis [Data.Vector.Algorithms.AmericanFlag]: finished in 24.00 milliseconds, allocated 31.159 megabytes
+*** Worker Wrapper binds [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Worker Wrapper binds
+  = {terms: 4,663, types: 3,984, coercions: 215}
+!!! Worker Wrapper binds [Data.Vector.Algorithms.AmericanFlag]: finished in 2.00 milliseconds, allocated 1.312 megabytes
+*** Simplifier [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Simplifier iteration=1
+  = {terms: 4,521, types: 3,920, coercions: 215}
+Result size of Simplifier iteration=2
+  = {terms: 4,393, types: 3,814, coercions: 215}
+Result size of Simplifier
+  = {terms: 4,393, types: 3,814, coercions: 215}
+!!! Simplifier [Data.Vector.Algorithms.AmericanFlag]: finished in 121.00 milliseconds, allocated 97.253 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,871, types: 4,412, coercions: 215}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Vector.Algorithms.AmericanFlag]: finished in 34.00 milliseconds, allocated 26.181 megabytes
+*** Common sub-expression [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Common sub-expression
+  = {terms: 4,088, types: 3,721, coercions: 131}
+!!! Common sub-expression [Data.Vector.Algorithms.AmericanFlag]: finished in 11.00 milliseconds, allocated 10.925 megabytes
+*** Float inwards [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Float inwards
+  = {terms: 4,088, types: 3,721, coercions: 131}
+!!! Float inwards [Data.Vector.Algorithms.AmericanFlag]: finished in 7.00 milliseconds, allocated 10.704 megabytes
+*** Liberate case [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Liberate case
+  = {terms: 4,464, types: 4,061, coercions: 131}
+!!! Liberate case [Data.Vector.Algorithms.AmericanFlag]: finished in 3.00 milliseconds, allocated 2.315 megabytes
+*** Simplifier [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Simplifier iteration=1
+  = {terms: 3,884, types: 3,490, coercions: 131}
+Result size of Simplifier iteration=2
+  = {terms: 3,856, types: 3,461, coercions: 131}
+Result size of Simplifier
+  = {terms: 3,856, types: 3,461, coercions: 131}
+!!! Simplifier [Data.Vector.Algorithms.AmericanFlag]: finished in 107.00 milliseconds, allocated 89.019 megabytes
+*** SpecConstr [Data.Vector.Algorithms.AmericanFlag]:
+Result size of SpecConstr
+  = {terms: 6,162, types: 5,219, coercions: 131}
+!!! SpecConstr [Data.Vector.Algorithms.AmericanFlag]: finished in 8.00 milliseconds, allocated 9.335 megabytes
+*** Simplifier [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Simplifier iteration=1
+  = {terms: 6,158, types: 5,223, coercions: 131}
+Result size of Simplifier iteration=2
+  = {terms: 3,826, types: 3,437, coercions: 131}
+Result size of Simplifier
+  = {terms: 3,826, types: 3,437, coercions: 131}
+!!! Simplifier [Data.Vector.Algorithms.AmericanFlag]: finished in 135.00 milliseconds, allocated 103.030 megabytes
+*** CoreTidy [Data.Vector.Algorithms.AmericanFlag]:
+Result size of Tidy Core
+  = {terms: 3,311, types: 2,650, coercions: 72}
+!!! CoreTidy [Data.Vector.Algorithms.AmericanFlag]: finished in 10.00 milliseconds, allocated 8.250 megabytes
+writeBinIface: 169 Names
+writeBinIface: 342 dict entries
+writeBinIface: 169 Names
+writeBinIface: 342 dict entries
+*** CorePrep [Data.Vector.Algorithms.AmericanFlag]:
+Result size of CorePrep
+  = {terms: 4,659, types: 3,876, coercions: 72}
+!!! CorePrep [Data.Vector.Algorithms.AmericanFlag]: finished in 7.00 milliseconds, allocated 8.317 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.AmericanFlag]:
+!!! CodeGen [Data.Vector.Algorithms.AmericanFlag]: finished in 244.00 milliseconds, allocated 235.645 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc11386_0/ghc_49.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/AmericanFlag.o
+*** CorePrep [Data.Vector.Algorithms.AmericanFlag]:
+Result size of CorePrep
+  = {terms: 4,659, types: 3,876, coercions: 72}
+!!! CorePrep [Data.Vector.Algorithms.AmericanFlag]: finished in 9.00 milliseconds, allocated 8.006 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Vector.Algorithms.AmericanFlag]:
+!!! CodeGen [Data.Vector.Algorithms.AmericanFlag]: finished in 238.00 milliseconds, allocated 248.348 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Vector/Algorithms -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11386_0/ghc_51.s -o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/AmericanFlag.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc11386_0/ghc_52.c /tmp/ghc11386_0/ghc_51.s /tmp/ghc11386_0/ghc_50.c /tmp/ghc11386_0/ghc_49.s /tmp/ghc11386_0/ghc_48.s
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_52.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_50.c
+Warning: deleting non-existent /tmp/ghc11386_0/ghc_48.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc11386_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc11386_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3 -o dist/dist-sandbox-6afc8227/build/libHSvector-algorithms-0.7.0.1-G9AxdqWU229CqxbF1p46xS-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSvector-algorithms-0.7.0.1-G9AxdqWU229CqxbF1p46xS-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Optimal.dyn_o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Insertion.dyn_o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Intro.dyn_o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Merge.dyn_o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Radix.dyn_o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Search.dyn_o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Heap.dyn_o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/AmericanFlag.dyn_o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Tim.dyn_o dist/dist-sandbox-6afc8227/build/Data/Vector/Algorithms/Common.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSvector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3-ghc8.0.1 -lHSprimitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa-ghc8.0.1 -lHStransformers-0.5.2.0-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc12403_0
+*** Deleting temp files:
+Deleting: /tmp/ghc12403_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc12403_0
+Creating package registration file:
+/tmp/pkgConf-vector-algorithms-0.7.014505736221037127828.1
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-algorithms-0.7.0.1-G9AxdqWU229CqxbF1p46xS
+Registering vector-algorithms-0.7.0.1...
+cabal: Leaving directory '/tmp/cabal-tmp-1030/vector-algorithms-0.7.0.1'

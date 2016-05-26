@@ -1,0 +1,736 @@
+cabal: Entering directory '/tmp/cabal-tmp-1028/tf-random-0.5'
+Configuring tf-random-0.5...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc6811_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc6811_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc6811_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc6811_0/ghc_2.rsp /tmp/ghc6811_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc6811_0
+Building tf-random-0.5...
+Preprocessing library tf-random-0.5...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *System.Random.TF,*System.Random.TF.Gen,*System.Random.TF.Init,*System.Random.TF.Instances
+Created temporary directory: /tmp/ghc6873_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc6873_0/ghc_2.h -x assembler-with-cpp src/System/Random/TF/Gen.hs -o /tmp/ghc6873_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc6873_0/ghc_4.h -x assembler-with-cpp src/System/Random/TF/Init.hs -o /tmp/ghc6873_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc6873_0/ghc_6.h -x assembler-with-cpp src/System/Random/TF/Instances.hs -o /tmp/ghc6873_0/ghc_5.hscpp
+!!! Chasing dependencies: finished in 14.00 milliseconds, allocated 10.923 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2014-04-09 13:57:12 UTC
+         ms_mod = System.Random.TF.Gen,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Numeric),
+                            (Nothing, Data.Primitive.ByteArray), (Nothing, Data.Word),
+                            (Nothing, Data.Int), (Nothing, Data.Maybe), (Nothing, Data.Char),
+                            (Nothing, Data.Bits), (Nothing, System.IO.Unsafe),
+                            (Nothing, System.Random)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2014-04-09 13:57:12 UTC
+         ms_mod = System.Random.TF.Init,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, System.IO.Unsafe),
+                            (Nothing, System.IO), (Nothing, System.CPUTime),
+                            (Nothing, Data.Time), (Nothing, Data.Ratio), (Nothing, Foreign),
+                            (Nothing, Data.Word), (Nothing, Data.IORef), (Nothing, Data.Bits),
+                            (Nothing, Control.Monad), (Nothing, System.Random.TF.Gen)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2014-04-09 13:57:12 UTC
+         ms_mod = System.Random.TF,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Random.TF.Init), (Nothing, System.Random.TF.Gen)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2014-04-09 13:57:12 UTC
+         ms_mod = System.Random.TF.Instances,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Random.TF.Gen), (Nothing, Data.Word),
+                            (Nothing, Data.Int), (Nothing, Data.Bits)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc6873_0/ghc_6.h /tmp/ghc6873_0/ghc_4.h /tmp/ghc6873_0/ghc_2.h
+compile: input file /tmp/ghc6873_0/ghc_1.hscpp
+*** Checking old interface for System.Random.TF.Gen:
+[1 of 4] Compiling System.Random.TF.Gen ( src/System/Random/TF/Gen.hs, dist/dist-sandbox-6afc8227/build/System/Random/TF/Gen.o )
+*** Parser [System.Random.TF.Gen]:
+!!! Parser [System.Random.TF.Gen]: finished in 27.00 milliseconds, allocated 8.118 megabytes
+*** Renamer/typechecker [System.Random.TF.Gen]:
+!!! Renamer/typechecker [System.Random.TF.Gen]: finished in 629.00 milliseconds, allocated 263.593 megabytes
+*** Desugar [System.Random.TF.Gen]:
+Result size of Desugar (after optimization)
+  = {terms: 1,362, types: 1,154, coercions: 62}
+!!! Desugar [System.Random.TF.Gen]: finished in 14.00 milliseconds, allocated 9.074 megabytes
+*** Simplifier [System.Random.TF.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 1,312, types: 1,048, coercions: 96}
+Result size of Simplifier iteration=2
+  = {terms: 1,272, types: 1,016, coercions: 118}
+Result size of Simplifier
+  = {terms: 1,272, types: 1,016, coercions: 118}
+!!! Simplifier [System.Random.TF.Gen]: finished in 49.00 milliseconds, allocated 23.460 megabytes
+*** Specialise [System.Random.TF.Gen]:
+Result size of Specialise
+  = {terms: 1,476, types: 1,277, coercions: 124}
+!!! Specialise [System.Random.TF.Gen]: finished in 12.00 milliseconds, allocated 2.657 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Random.TF.Gen]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,929, types: 1,754, coercions: 124}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Random.TF.Gen]: finished in 9.00 milliseconds, allocated 7.178 megabytes
+*** Simplifier [System.Random.TF.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 3,193, types: 3,031, coercions: 669}
+Result size of Simplifier iteration=2
+  = {terms: 3,605, types: 4,274, coercions: 761}
+Result size of Simplifier iteration=3
+  = {terms: 3,450, types: 4,161, coercions: 708}
+Result size of Simplifier
+  = {terms: 3,445, types: 4,157, coercions: 703}
+!!! Simplifier [System.Random.TF.Gen]: finished in 157.00 milliseconds, allocated 73.854 megabytes
+*** Simplifier [System.Random.TF.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 3,435, types: 4,136, coercions: 703}
+Result size of Simplifier iteration=2
+  = {terms: 3,310, types: 4,073, coercions: 703}
+Result size of Simplifier iteration=3
+  = {terms: 3,303, types: 4,062, coercions: 703}
+Result size of Simplifier iteration=4
+  = {terms: 3,379, types: 4,169, coercions: 719}
+Result size of Simplifier
+  = {terms: 3,379, types: 4,169, coercions: 719}
+!!! Simplifier [System.Random.TF.Gen]: finished in 97.00 milliseconds, allocated 55.437 megabytes
+*** Simplifier [System.Random.TF.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 3,766, types: 4,683, coercions: 735}
+Result size of Simplifier iteration=2
+  = {terms: 3,542, types: 4,333, coercions: 708}
+Result size of Simplifier iteration=3
+  = {terms: 3,530, types: 4,298, coercions: 684}
+Result size of Simplifier iteration=4
+  = {terms: 3,528, types: 4,297, coercions: 684}
+Result size of Simplifier
+  = {terms: 3,528, types: 4,297, coercions: 684}
+!!! Simplifier [System.Random.TF.Gen]: finished in 109.00 milliseconds, allocated 56.266 megabytes
+*** Float inwards [System.Random.TF.Gen]:
+Result size of Float inwards
+  = {terms: 3,528, types: 4,297, coercions: 684}
+!!! Float inwards [System.Random.TF.Gen]: finished in 4.00 milliseconds, allocated 5.620 megabytes
+*** Called arity analysis [System.Random.TF.Gen]:
+Result size of Called arity analysis
+  = {terms: 3,528, types: 4,297, coercions: 684}
+!!! Called arity analysis [System.Random.TF.Gen]: finished in 5.00 milliseconds, allocated 3.288 megabytes
+*** Simplifier [System.Random.TF.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 3,518, types: 4,290, coercions: 684}
+Result size of Simplifier
+  = {terms: 3,515, types: 4,289, coercions: 684}
+!!! Simplifier [System.Random.TF.Gen]: finished in 53.00 milliseconds, allocated 26.598 megabytes
+*** Demand analysis [System.Random.TF.Gen]:
+Result size of Demand analysis
+  = {terms: 3,515, types: 4,289, coercions: 684}
+!!! Demand analysis [System.Random.TF.Gen]: finished in 29.00 milliseconds, allocated 15.641 megabytes
+*** Worker Wrapper binds [System.Random.TF.Gen]:
+Result size of Worker Wrapper binds
+  = {terms: 4,109, types: 5,101, coercions: 684}
+!!! Worker Wrapper binds [System.Random.TF.Gen]: finished in 4.00 milliseconds, allocated 2.203 megabytes
+*** Simplifier [System.Random.TF.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 4,864, types: 6,320, coercions: 911}
+Result size of Simplifier iteration=2
+  = {terms: 3,915, types: 4,889, coercions: 742}
+Result size of Simplifier
+  = {terms: 3,915, types: 4,889, coercions: 742}
+!!! Simplifier [System.Random.TF.Gen]: finished in 104.00 milliseconds, allocated 58.412 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Random.TF.Gen]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 3,994, types: 4,954, coercions: 742}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Random.TF.Gen]: finished in 22.00 milliseconds, allocated 13.389 megabytes
+*** Common sub-expression [System.Random.TF.Gen]:
+Result size of Common sub-expression
+  = {terms: 3,865, types: 4,868, coercions: 706}
+!!! Common sub-expression [System.Random.TF.Gen]: finished in 12.00 milliseconds, allocated 5.980 megabytes
+*** Float inwards [System.Random.TF.Gen]:
+Result size of Float inwards
+  = {terms: 3,865, types: 4,868, coercions: 706}
+!!! Float inwards [System.Random.TF.Gen]: finished in 4.00 milliseconds, allocated 5.919 megabytes
+*** Simplifier [System.Random.TF.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 3,823, types: 4,835, coercions: 717}
+Result size of Simplifier
+  = {terms: 3,823, types: 4,835, coercions: 717}
+!!! Simplifier [System.Random.TF.Gen]: finished in 60.00 milliseconds, allocated 33.588 megabytes
+*** CoreTidy [System.Random.TF.Gen]:
+Result size of Tidy Core
+  = {terms: 3,743, types: 4,705, coercions: 651}
+!!! CoreTidy [System.Random.TF.Gen]: finished in 17.00 milliseconds, allocated 6.017 megabytes
+writeBinIface: 143 Names
+writeBinIface: 283 dict entries
+writeBinIface: 143 Names
+writeBinIface: 283 dict entries
+*** CorePrep [System.Random.TF.Gen]:
+Result size of CorePrep
+  = {terms: 4,338, types: 5,044, coercions: 651}
+!!! CorePrep [System.Random.TF.Gen]: finished in 10.00 milliseconds, allocated 8.068 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Random.TF.Gen]:
+!!! CodeGen [System.Random.TF.Gen]: finished in 189.00 milliseconds, allocated 126.533 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Random/TF -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc6873_0/ghc_8.s -o dist/dist-sandbox-6afc8227/build/System/Random/TF/Gen.o
+*** CorePrep [System.Random.TF.Gen]:
+Result size of CorePrep
+  = {terms: 4,338, types: 5,044, coercions: 651}
+!!! CorePrep [System.Random.TF.Gen]: finished in 8.00 milliseconds, allocated 7.675 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Random.TF.Gen]:
+!!! CodeGen [System.Random.TF.Gen]: finished in 217.00 milliseconds, allocated 132.938 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Random/TF -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc6873_0/ghc_10.s -o dist/dist-sandbox-6afc8227/build/System/Random/TF/Gen.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc6873_0/ghc_11.c /tmp/ghc6873_0/ghc_10.s /tmp/ghc6873_0/ghc_9.c /tmp/ghc6873_0/ghc_8.s /tmp/ghc6873_0/ghc_7.s
+Warning: deleting non-existent /tmp/ghc6873_0/ghc_11.c
+Warning: deleting non-existent /tmp/ghc6873_0/ghc_9.c
+Warning: deleting non-existent /tmp/ghc6873_0/ghc_7.s
+compile: input file /tmp/ghc6873_0/ghc_3.hscpp
+*** Checking old interface for System.Random.TF.Init:
+[2 of 4] Compiling System.Random.TF.Init ( src/System/Random/TF/Init.hs, dist/dist-sandbox-6afc8227/build/System/Random/TF/Init.o )
+*** Parser [System.Random.TF.Init]:
+!!! Parser [System.Random.TF.Init]: finished in 2.00 milliseconds, allocated 2.764 megabytes
+*** Renamer/typechecker [System.Random.TF.Init]:
+!!! Renamer/typechecker [System.Random.TF.Init]: finished in 46.00 milliseconds, allocated 25.302 megabytes
+*** Desugar [System.Random.TF.Init]:
+Result size of Desugar (after optimization)
+  = {terms: 262, types: 327, coercions: 11}
+!!! Desugar [System.Random.TF.Init]: finished in 5.00 milliseconds, allocated 1.730 megabytes
+
+src/System/Random/TF/Init.hs:94:5: warning: [-Wdeprecations]
+    In the use of ‘bitSize’ (imported from Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"
+*** Simplifier [System.Random.TF.Init]:
+Result size of Simplifier iteration=1
+  = {terms: 303, types: 366, coercions: 48}
+Result size of Simplifier iteration=2
+  = {terms: 293, types: 380, coercions: 57}
+Result size of Simplifier = {terms: 293, types: 380, coercions: 57}
+!!! Simplifier [System.Random.TF.Init]: finished in 16.00 milliseconds, allocated 8.341 megabytes
+*** Specialise [System.Random.TF.Init]:
+Result size of Specialise = {terms: 300, types: 385, coercions: 57}
+!!! Specialise [System.Random.TF.Init]: finished in 0.00 milliseconds, allocated 0.445 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Random.TF.Init]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 390, types: 535, coercions: 57}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Random.TF.Init]: finished in 5.00 milliseconds, allocated 2.375 megabytes
+*** Simplifier [System.Random.TF.Init]:
+Result size of Simplifier iteration=1
+  = {terms: 494, types: 733, coercions: 97}
+Result size of Simplifier iteration=2
+  = {terms: 391, types: 545, coercions: 47}
+Result size of Simplifier iteration=3
+  = {terms: 373, types: 501, coercions: 47}
+Result size of Simplifier = {terms: 373, types: 501, coercions: 47}
+!!! Simplifier [System.Random.TF.Init]: finished in 207.00 milliseconds, allocated 60.024 megabytes
+*** Simplifier [System.Random.TF.Init]:
+Result size of Simplifier iteration=1
+  = {terms: 337, types: 466, coercions: 47}
+Result size of Simplifier iteration=2
+  = {terms: 303, types: 438, coercions: 43}
+Result size of Simplifier = {terms: 303, types: 438, coercions: 43}
+!!! Simplifier [System.Random.TF.Init]: finished in 7.00 milliseconds, allocated 4.313 megabytes
+*** Simplifier [System.Random.TF.Init]:
+Result size of Simplifier iteration=1
+  = {terms: 435, types: 642, coercions: 68}
+Result size of Simplifier = {terms: 423, types: 638, coercions: 68}
+!!! Simplifier [System.Random.TF.Init]: finished in 5.00 milliseconds, allocated 3.494 megabytes
+*** Float inwards [System.Random.TF.Init]:
+Result size of Float inwards
+  = {terms: 423, types: 638, coercions: 68}
+!!! Float inwards [System.Random.TF.Init]: finished in 0.00 milliseconds, allocated 0.655 megabytes
+*** Called arity analysis [System.Random.TF.Init]:
+Result size of Called arity analysis
+  = {terms: 423, types: 638, coercions: 68}
+!!! Called arity analysis [System.Random.TF.Init]: finished in 0.00 milliseconds, allocated 0.402 megabytes
+*** Simplifier [System.Random.TF.Init]:
+Result size of Simplifier = {terms: 423, types: 638, coercions: 68}
+!!! Simplifier [System.Random.TF.Init]: finished in 3.00 milliseconds, allocated 1.574 megabytes
+*** Demand analysis [System.Random.TF.Init]:
+Result size of Demand analysis
+  = {terms: 423, types: 638, coercions: 68}
+!!! Demand analysis [System.Random.TF.Init]: finished in 2.00 milliseconds, allocated 1.690 megabytes
+*** Worker Wrapper binds [System.Random.TF.Init]:
+Result size of Worker Wrapper binds
+  = {terms: 453, types: 695, coercions: 68}
+!!! Worker Wrapper binds [System.Random.TF.Init]: finished in 1.00 milliseconds, allocated 0.279 megabytes
+*** Simplifier [System.Random.TF.Init]:
+Result size of Simplifier iteration=1
+  = {terms: 438, types: 685, coercions: 68}
+Result size of Simplifier iteration=2
+  = {terms: 436, types: 684, coercions: 68}
+Result size of Simplifier = {terms: 436, types: 684, coercions: 68}
+!!! Simplifier [System.Random.TF.Init]: finished in 9.00 milliseconds, allocated 5.532 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Random.TF.Init]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 450, types: 709, coercions: 68}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Random.TF.Init]: finished in 2.00 milliseconds, allocated 1.579 megabytes
+*** Common sub-expression [System.Random.TF.Init]:
+Result size of Common sub-expression
+  = {terms: 450, types: 709, coercions: 68}
+!!! Common sub-expression [System.Random.TF.Init]: finished in 1.00 milliseconds, allocated 0.669 megabytes
+*** Float inwards [System.Random.TF.Init]:
+Result size of Float inwards
+  = {terms: 450, types: 709, coercions: 68}
+!!! Float inwards [System.Random.TF.Init]: finished in 1.00 milliseconds, allocated 0.644 megabytes
+*** Simplifier [System.Random.TF.Init]:
+Result size of Simplifier = {terms: 450, types: 709, coercions: 68}
+!!! Simplifier [System.Random.TF.Init]: finished in 4.00 milliseconds, allocated 1.842 megabytes
+*** CoreTidy [System.Random.TF.Init]:
+Result size of Tidy Core = {terms: 448, types: 707, coercions: 68}
+!!! CoreTidy [System.Random.TF.Init]: finished in 1.00 milliseconds, allocated 1.003 megabytes
+writeBinIface: 72 Names
+writeBinIface: 201 dict entries
+writeBinIface: 72 Names
+writeBinIface: 201 dict entries
+*** CorePrep [System.Random.TF.Init]:
+Result size of CorePrep = {terms: 509, types: 744, coercions: 68}
+!!! CorePrep [System.Random.TF.Init]: finished in 0.00 milliseconds, allocated 1.063 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Random.TF.Init]:
+!!! CodeGen [System.Random.TF.Init]: finished in 29.00 milliseconds, allocated 21.358 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Random/TF -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc6873_0/ghc_13.s -o dist/dist-sandbox-6afc8227/build/System/Random/TF/Init.o
+*** CorePrep [System.Random.TF.Init]:
+Result size of CorePrep = {terms: 509, types: 744, coercions: 68}
+!!! CorePrep [System.Random.TF.Init]: finished in 1.00 milliseconds, allocated 1.045 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Random.TF.Init]:
+!!! CodeGen [System.Random.TF.Init]: finished in 31.00 milliseconds, allocated 22.572 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Random/TF -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc6873_0/ghc_15.s -o dist/dist-sandbox-6afc8227/build/System/Random/TF/Init.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc6873_0/ghc_16.c /tmp/ghc6873_0/ghc_15.s /tmp/ghc6873_0/ghc_14.c /tmp/ghc6873_0/ghc_13.s /tmp/ghc6873_0/ghc_12.s
+Warning: deleting non-existent /tmp/ghc6873_0/ghc_16.c
+Warning: deleting non-existent /tmp/ghc6873_0/ghc_14.c
+Warning: deleting non-existent /tmp/ghc6873_0/ghc_12.s
+compile: input file src/System/Random/TF.hs
+*** Checking old interface for System.Random.TF:
+[3 of 4] Compiling System.Random.TF ( src/System/Random/TF.hs, dist/dist-sandbox-6afc8227/build/System/Random/TF.o )
+*** Parser [System.Random.TF]:
+!!! Parser [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.405 megabytes
+*** Renamer/typechecker [System.Random.TF]:
+!!! Renamer/typechecker [System.Random.TF]: finished in 1.00 milliseconds, allocated 0.552 megabytes
+*** Desugar [System.Random.TF]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.058 megabytes
+*** Simplifier [System.Random.TF]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Random.TF]: finished in 1.00 milliseconds, allocated 0.127 megabytes
+*** Specialise [System.Random.TF]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Random.TF]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [System.Random.TF]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [System.Random.TF]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Random.TF]: finished in 1.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [System.Random.TF]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [System.Random.TF]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [System.Random.TF]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [System.Random.TF]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [System.Random.TF]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+*** Worker Wrapper binds [System.Random.TF]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [System.Random.TF]: finished in 1.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [System.Random.TF]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Random.TF]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [System.Random.TF]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [System.Random.TF]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [System.Random.TF]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [System.Random.TF]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+writeBinIface: 10 Names
+writeBinIface: 48 dict entries
+writeBinIface: 10 Names
+writeBinIface: 48 dict entries
+*** CorePrep [System.Random.TF]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Random.TF]:
+!!! CodeGen [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.288 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Random -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc6873_0/ghc_18.s -o dist/dist-sandbox-6afc8227/build/System/Random/TF.o
+*** CorePrep [System.Random.TF]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.Random.TF]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Random.TF]:
+!!! CodeGen [System.Random.TF]: finished in 1.00 milliseconds, allocated 0.285 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Random -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc6873_0/ghc_20.s -o dist/dist-sandbox-6afc8227/build/System/Random/TF.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc6873_0/ghc_21.c /tmp/ghc6873_0/ghc_20.s /tmp/ghc6873_0/ghc_19.c /tmp/ghc6873_0/ghc_18.s /tmp/ghc6873_0/ghc_17.s
+Warning: deleting non-existent /tmp/ghc6873_0/ghc_21.c
+Warning: deleting non-existent /tmp/ghc6873_0/ghc_19.c
+Warning: deleting non-existent /tmp/ghc6873_0/ghc_17.s
+compile: input file /tmp/ghc6873_0/ghc_5.hscpp
+*** Checking old interface for System.Random.TF.Instances:
+[4 of 4] Compiling System.Random.TF.Instances ( src/System/Random/TF/Instances.hs, dist/dist-sandbox-6afc8227/build/System/Random/TF/Instances.o )
+*** Parser [System.Random.TF.Instances]:
+!!! Parser [System.Random.TF.Instances]: finished in 5.00 milliseconds, allocated 8.530 megabytes
+*** Renamer/typechecker [System.Random.TF.Instances]:
+!!! Renamer/typechecker [System.Random.TF.Instances]: finished in 71.00 milliseconds, allocated 36.450 megabytes
+*** Desugar [System.Random.TF.Instances]:
+Result size of Desugar (after optimization)
+  = {terms: 1,764, types: 2,364, coercions: 0}
+!!! Desugar [System.Random.TF.Instances]: finished in 20.00 milliseconds, allocated 13.521 megabytes
+*** Simplifier [System.Random.TF.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 1,753, types: 2,107, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,544, types: 1,881, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 1,534, types: 1,866, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,534, types: 1,866, coercions: 0}
+!!! Simplifier [System.Random.TF.Instances]: finished in 64.00 milliseconds, allocated 33.907 megabytes
+*** Specialise [System.Random.TF.Instances]:
+Result size of Specialise
+  = {terms: 2,003, types: 2,374, coercions: 0}
+!!! Specialise [System.Random.TF.Instances]: finished in 5.00 milliseconds, allocated 2.676 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Random.TF.Instances]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 2,117, types: 2,441, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Random.TF.Instances]: finished in 14.00 milliseconds, allocated 11.912 megabytes
+*** Simplifier [System.Random.TF.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 2,452, types: 2,490, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 2,306, types: 2,205, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,284, types: 2,186, coercions: 0}
+!!! Simplifier [System.Random.TF.Instances]: finished in 52.00 milliseconds, allocated 31.871 megabytes
+*** Simplifier [System.Random.TF.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 3,264, types: 2,860, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 3,099, types: 2,569, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 2,812, types: 2,346, coercions: 0}
+Result size of Simplifier iteration=4
+  = {terms: 2,798, types: 2,333, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,798, types: 2,333, coercions: 0}
+!!! Simplifier [System.Random.TF.Instances]: finished in 84.00 milliseconds, allocated 48.877 megabytes
+*** Simplifier [System.Random.TF.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 2,795, types: 2,333, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,792, types: 2,332, coercions: 0}
+!!! Simplifier [System.Random.TF.Instances]: finished in 38.00 milliseconds, allocated 21.270 megabytes
+*** Float inwards [System.Random.TF.Instances]:
+Result size of Float inwards
+  = {terms: 2,792, types: 2,332, coercions: 0}
+!!! Float inwards [System.Random.TF.Instances]: finished in 11.00 milliseconds, allocated 5.194 megabytes
+*** Called arity analysis [System.Random.TF.Instances]:
+Result size of Called arity analysis
+  = {terms: 2,792, types: 2,332, coercions: 0}
+!!! Called arity analysis [System.Random.TF.Instances]: finished in 4.00 milliseconds, allocated 3.604 megabytes
+*** Simplifier [System.Random.TF.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 2,758, types: 2,315, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,752, types: 2,313, coercions: 0}
+!!! Simplifier [System.Random.TF.Instances]: finished in 36.00 milliseconds, allocated 20.773 megabytes
+*** Demand analysis [System.Random.TF.Instances]:
+Result size of Demand analysis
+  = {terms: 2,752, types: 2,313, coercions: 0}
+!!! Demand analysis [System.Random.TF.Instances]: finished in 30.00 milliseconds, allocated 13.682 megabytes
+*** Worker Wrapper binds [System.Random.TF.Instances]:
+Result size of Worker Wrapper binds
+  = {terms: 3,821, types: 3,974, coercions: 0}
+!!! Worker Wrapper binds [System.Random.TF.Instances]: finished in 3.00 milliseconds, allocated 1.983 megabytes
+*** Simplifier [System.Random.TF.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 4,082, types: 4,065, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 4,727, types: 4,178, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 4,432, types: 3,904, coercions: 0}
+Result size of Simplifier iteration=4
+  = {terms: 4,414, types: 3,889, coercions: 0}
+Result size of Simplifier
+  = {terms: 4,414, types: 3,889, coercions: 0}
+!!! Simplifier [System.Random.TF.Instances]: finished in 154.00 milliseconds, allocated 85.703 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Random.TF.Instances]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,436, types: 3,900, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Random.TF.Instances]: finished in 23.00 milliseconds, allocated 19.080 megabytes
+*** Common sub-expression [System.Random.TF.Instances]:
+Result size of Common sub-expression
+  = {terms: 4,421, types: 3,892, coercions: 0}
+!!! Common sub-expression [System.Random.TF.Instances]: finished in 9.00 milliseconds, allocated 6.385 megabytes
+*** Float inwards [System.Random.TF.Instances]:
+Result size of Float inwards
+  = {terms: 4,421, types: 3,892, coercions: 0}
+!!! Float inwards [System.Random.TF.Instances]: finished in 17.00 milliseconds, allocated 7.853 megabytes
+*** Simplifier [System.Random.TF.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 4,405, types: 3,906, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 4,397, types: 3,892, coercions: 0}
+Result size of Simplifier
+  = {terms: 4,397, types: 3,892, coercions: 0}
+!!! Simplifier [System.Random.TF.Instances]: finished in 106.00 milliseconds, allocated 56.768 megabytes
+*** CoreTidy [System.Random.TF.Instances]:
+Result size of Tidy Core
+  = {terms: 4,416, types: 4,105, coercions: 0}
+!!! CoreTidy [System.Random.TF.Instances]: finished in 13.00 milliseconds, allocated 6.947 megabytes
+writeBinIface: 140 Names
+writeBinIface: 267 dict entries
+writeBinIface: 140 Names
+writeBinIface: 267 dict entries
+*** CorePrep [System.Random.TF.Instances]:
+Result size of CorePrep
+  = {terms: 5,958, types: 4,810, coercions: 0}
+!!! CorePrep [System.Random.TF.Instances]: finished in 14.00 milliseconds, allocated 10.127 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Random.TF.Instances]:
+!!! CodeGen [System.Random.TF.Instances]: finished in 314.00 milliseconds, allocated 220.414 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Random/TF -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc6873_0/ghc_23.s -o dist/dist-sandbox-6afc8227/build/System/Random/TF/Instances.o
+*** CorePrep [System.Random.TF.Instances]:
+Result size of CorePrep
+  = {terms: 5,958, types: 4,810, coercions: 0}
+!!! CorePrep [System.Random.TF.Instances]: finished in 11.00 milliseconds, allocated 9.709 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Random.TF.Instances]:
+!!! CodeGen [System.Random.TF.Instances]: finished in 343.00 milliseconds, allocated 231.898 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/Random/TF -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc6873_0/ghc_25.s -o dist/dist-sandbox-6afc8227/build/System/Random/TF/Instances.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc6873_0/ghc_26.c /tmp/ghc6873_0/ghc_25.s /tmp/ghc6873_0/ghc_24.c /tmp/ghc6873_0/ghc_23.s /tmp/ghc6873_0/ghc_22.s
+Warning: deleting non-existent /tmp/ghc6873_0/ghc_26.c
+Warning: deleting non-existent /tmp/ghc6873_0/ghc_24.c
+Warning: deleting non-existent /tmp/ghc6873_0/ghc_22.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc6873_0/ghc_5.hscpp /tmp/ghc6873_0/ghc_3.hscpp /tmp/ghc6873_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc6873_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc7563_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -O2 -x c cbits/threefish_block.c -o /tmp/ghc7563_0/ghc_1.s -fPIC -U__PIC__ -D__PIC__ -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7563_0/ghc_1.s -o dist/dist-sandbox-6afc8227/build/cbits/threefish_block.o
+*** Deleting temp files:
+Deleting: /tmp/ghc7563_0/ghc_2.rsp /tmp/ghc7563_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7563_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc7596_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -O2 -x c cbits/threefish_block.c -o /tmp/ghc7596_0/ghc_1.s -fPIC -U__PIC__ -D__PIC__ -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7596_0/ghc_1.s -o dist/dist-sandbox-6afc8227/build/cbits/threefish_block.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7596_0/ghc_2.rsp /tmp/ghc7596_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7596_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/random-1.1-54KmMHXjttlERYcr1mvsAe -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -o dist/dist-sandbox-6afc8227/build/libHStf-random-0.5-4z8OJUaXC1FRNfrLPFWAD-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHStf-random-0.5-4z8OJUaXC1FRNfrLPFWAD-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/System/Random/TF.dyn_o dist/dist-sandbox-6afc8227/build/System/Random/TF/Gen.dyn_o dist/dist-sandbox-6afc8227/build/System/Random/TF/Init.dyn_o dist/dist-sandbox-6afc8227/build/System/Random/TF/Instances.dyn_o dist/dist-sandbox-6afc8227/build/cbits/threefish_block.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/random-1.1-54KmMHXjttlERYcr1mvsAe -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSrandom-1.1-54KmMHXjttlERYcr1mvsAe-ghc8.0.1 -lHStime-1.6.0.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSprimitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa-ghc8.0.1 -lHStransformers-0.5.2.0-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc7629_0
+*** Deleting temp files:
+Deleting: /tmp/ghc7629_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7629_0
+Creating package registration file:
+/tmp/pkgConf-tf-random-0631704567498777856.5
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/tf-random-0.5-4z8OJUaXC1FRNfrLPFWAD
+Registering tf-random-0.5...
+cabal: Leaving directory '/tmp/cabal-tmp-1028/tf-random-0.5'

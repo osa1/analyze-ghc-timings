@@ -1,0 +1,808 @@
+cabal: Entering directory '/tmp/cabal-tmp-1027/http-date-0.0.6.1'
+Configuring http-date-0.0.6.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc12498_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc12498_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc12498_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc12498_0/ghc_2.rsp /tmp/ghc12498_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc12498_0
+Building http-date-0.0.6.1...
+Preprocessing library http-date-0.0.6.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Network.HTTP.Date,*Network.HTTP.Date.Converter,*Network.HTTP.Date.Formatter,*Network.HTTP.Date.Types,*Network.HTTP.Date.Parser
+!!! Chasing dependencies: finished in 5.00 milliseconds, allocated 5.817 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2015-05-11 03:16:28 UTC
+         ms_mod = Network.HTTP.Date.Types,
+         ms_textual_imps = [(Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-05-11 03:16:28 UTC
+         ms_mod = Network.HTTP.Date.Formatter,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Network.HTTP.Date.Types), (Nothing, Foreign.Storable),
+                            (Nothing, Foreign.Ptr), (Nothing, Foreign.ForeignPtr),
+                            (Nothing, Data.Word), (Nothing, Data.ByteString.Internal),
+                            (Nothing, Data.ByteString.Char8)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-05-11 03:16:28 UTC
+         ms_mod = Network.HTTP.Date.Converter,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Posix.Types), (Nothing, System.IO.Unsafe),
+                            (Nothing, Network.HTTP.Date.Types), (Nothing, Foreign.Storable),
+                            (Nothing, Foreign.Ptr), (Nothing, Foreign.Marshal.Array),
+                            (Nothing, Data.Word), (Nothing, Data.ByteString.Internal),
+                            (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-05-11 03:16:28 UTC
+         ms_mod = Network.HTTP.Date.Parser,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Network.HTTP.Date.Types), (Nothing, Data.Char),
+                            (Nothing, Data.ByteString),
+                            (Nothing, Data.Attoparsec.ByteString.Char8),
+                            (Nothing, Data.Attoparsec.ByteString), (Nothing, Control.Monad),
+                            (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-05-11 03:16:28 UTC
+         ms_mod = Network.HTTP.Date,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Network.HTTP.Date.Types),
+                            (Nothing, Network.HTTP.Date.Parser),
+                            (Nothing, Network.HTTP.Date.Formatter),
+                            (Nothing, Network.HTTP.Date.Converter)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: 
+compile: input file ./Network/HTTP/Date/Types.hs
+*** Checking old interface for Network.HTTP.Date.Types:
+[1 of 5] Compiling Network.HTTP.Date.Types ( Network/HTTP/Date/Types.hs, dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Types.o )
+*** Parser [Network.HTTP.Date.Types]:
+!!! Parser [Network.HTTP.Date.Types]: finished in 1.00 milliseconds, allocated 0.511 megabytes
+*** Renamer/typechecker [Network.HTTP.Date.Types]:
+!!! Renamer/typechecker [Network.HTTP.Date.Types]: finished in 128.00 milliseconds, allocated 70.500 megabytes
+*** Desugar [Network.HTTP.Date.Types]:
+Result size of Desugar (after optimization)
+  = {terms: 739, types: 394, coercions: 0}
+!!! Desugar [Network.HTTP.Date.Types]: finished in 4.00 milliseconds, allocated 3.748 megabytes
+*** Simplifier [Network.HTTP.Date.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 729, types: 409, coercions: 0}
+Result size of Simplifier = {terms: 729, types: 409, coercions: 0}
+!!! Simplifier [Network.HTTP.Date.Types]: finished in 6.00 milliseconds, allocated 5.330 megabytes
+*** Specialise [Network.HTTP.Date.Types]:
+Result size of Specialise = {terms: 763, types: 431, coercions: 0}
+!!! Specialise [Network.HTTP.Date.Types]: finished in 2.00 milliseconds, allocated 1.021 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Date.Types]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 883, types: 596, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Date.Types]: finished in 2.00 milliseconds, allocated 3.092 megabytes
+*** Simplifier [Network.HTTP.Date.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 1,434, types: 941, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,084, types: 652, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,084, types: 652, coercions: 0}
+!!! Simplifier [Network.HTTP.Date.Types]: finished in 22.00 milliseconds, allocated 19.126 megabytes
+*** Simplifier [Network.HTTP.Date.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 1,013, types: 515, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,010, types: 514, coercions: 0}
+!!! Simplifier [Network.HTTP.Date.Types]: finished in 10.00 milliseconds, allocated 10.204 megabytes
+*** Simplifier [Network.HTTP.Date.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 1,045, types: 584, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,003, types: 570, coercions: 0}
+!!! Simplifier [Network.HTTP.Date.Types]: finished in 8.00 milliseconds, allocated 7.069 megabytes
+*** Float inwards [Network.HTTP.Date.Types]:
+Result size of Float inwards
+  = {terms: 1,003, types: 570, coercions: 0}
+!!! Float inwards [Network.HTTP.Date.Types]: finished in 1.00 milliseconds, allocated 0.997 megabytes
+*** Called arity analysis [Network.HTTP.Date.Types]:
+Result size of Called arity analysis
+  = {terms: 1,003, types: 570, coercions: 0}
+!!! Called arity analysis [Network.HTTP.Date.Types]: finished in 1.00 milliseconds, allocated 0.810 megabytes
+*** Simplifier [Network.HTTP.Date.Types]:
+Result size of Simplifier
+  = {terms: 1,003, types: 570, coercions: 0}
+!!! Simplifier [Network.HTTP.Date.Types]: finished in 4.00 milliseconds, allocated 3.380 megabytes
+*** Demand analysis [Network.HTTP.Date.Types]:
+Result size of Demand analysis
+  = {terms: 1,003, types: 570, coercions: 0}
+!!! Demand analysis [Network.HTTP.Date.Types]: finished in 3.00 milliseconds, allocated 3.889 megabytes
+*** Worker Wrapper binds [Network.HTTP.Date.Types]:
+Result size of Worker Wrapper binds
+  = {terms: 1,453, types: 947, coercions: 0}
+!!! Worker Wrapper binds [Network.HTTP.Date.Types]: finished in 0.00 milliseconds, allocated 0.688 megabytes
+*** Simplifier [Network.HTTP.Date.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 1,726, types: 1,005, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,656, types: 962, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,656, types: 962, coercions: 0}
+!!! Simplifier [Network.HTTP.Date.Types]: finished in 24.00 milliseconds, allocated 20.739 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Date.Types]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,656, types: 962, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Date.Types]: finished in 5.00 milliseconds, allocated 5.411 megabytes
+*** Common sub-expression [Network.HTTP.Date.Types]:
+Result size of Common sub-expression
+  = {terms: 1,400, types: 854, coercions: 0}
+!!! Common sub-expression [Network.HTTP.Date.Types]: finished in 3.00 milliseconds, allocated 2.264 megabytes
+*** Float inwards [Network.HTTP.Date.Types]:
+Result size of Float inwards
+  = {terms: 1,400, types: 854, coercions: 0}
+!!! Float inwards [Network.HTTP.Date.Types]: finished in 2.00 milliseconds, allocated 1.327 megabytes
+*** Simplifier [Network.HTTP.Date.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 1,390, types: 844, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,390, types: 844, coercions: 0}
+!!! Simplifier [Network.HTTP.Date.Types]: finished in 13.00 milliseconds, allocated 11.151 megabytes
+*** CoreTidy [Network.HTTP.Date.Types]:
+Result size of Tidy Core = {terms: 1,419, types: 863, coercions: 0}
+!!! CoreTidy [Network.HTTP.Date.Types]: finished in 3.00 milliseconds, allocated 2.397 megabytes
+writeBinIface: 49 Names
+writeBinIface: 109 dict entries
+writeBinIface: 49 Names
+writeBinIface: 109 dict entries
+Created temporary directory: /tmp/ghc12548_0
+*** CorePrep [Network.HTTP.Date.Types]:
+Result size of CorePrep
+  = {terms: 1,800, types: 1,024, coercions: 0}
+!!! CorePrep [Network.HTTP.Date.Types]: finished in 3.00 milliseconds, allocated 2.885 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Date.Types]:
+!!! CodeGen [Network.HTTP.Date.Types]: finished in 55.00 milliseconds, allocated 55.190 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Date -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc12548_0/ghc_2.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Types.o
+*** CorePrep [Network.HTTP.Date.Types]:
+Result size of CorePrep
+  = {terms: 1,800, types: 1,024, coercions: 0}
+!!! CorePrep [Network.HTTP.Date.Types]: finished in 2.00 milliseconds, allocated 2.775 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Date.Types]:
+!!! CodeGen [Network.HTTP.Date.Types]: finished in 53.00 milliseconds, allocated 56.564 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Date -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12548_0/ghc_4.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Types.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12548_0/ghc_5.c /tmp/ghc12548_0/ghc_4.s /tmp/ghc12548_0/ghc_3.c /tmp/ghc12548_0/ghc_2.s /tmp/ghc12548_0/ghc_1.s
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_5.c
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_3.c
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_1.s
+compile: input file ./Network/HTTP/Date/Formatter.hs
+*** Checking old interface for Network.HTTP.Date.Formatter:
+[2 of 5] Compiling Network.HTTP.Date.Formatter ( Network/HTTP/Date/Formatter.hs, dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Formatter.o )
+*** Parser [Network.HTTP.Date.Formatter]:
+!!! Parser [Network.HTTP.Date.Formatter]: finished in 2.00 milliseconds, allocated 2.717 megabytes
+*** Renamer/typechecker [Network.HTTP.Date.Formatter]:
+!!! Renamer/typechecker [Network.HTTP.Date.Formatter]: finished in 68.00 milliseconds, allocated 53.526 megabytes
+*** Desugar [Network.HTTP.Date.Formatter]:
+Result size of Desugar (after optimization)
+  = {terms: 426, types: 324, coercions: 0}
+!!! Desugar [Network.HTTP.Date.Formatter]: finished in 6.00 milliseconds, allocated 2.627 megabytes
+*** Simplifier [Network.HTTP.Date.Formatter]:
+Result size of Simplifier iteration=1
+  = {terms: 363, types: 244, coercions: 7}
+Result size of Simplifier iteration=2
+  = {terms: 341, types: 234, coercions: 12}
+Result size of Simplifier = {terms: 341, types: 234, coercions: 12}
+!!! Simplifier [Network.HTTP.Date.Formatter]: finished in 13.00 milliseconds, allocated 9.045 megabytes
+*** Specialise [Network.HTTP.Date.Formatter]:
+Result size of Specialise = {terms: 343, types: 236, coercions: 14}
+!!! Specialise [Network.HTTP.Date.Formatter]: finished in 0.00 milliseconds, allocated 0.448 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Date.Formatter]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 449, types: 307, coercions: 14}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Date.Formatter]: finished in 3.00 milliseconds, allocated 2.457 megabytes
+*** Simplifier [Network.HTTP.Date.Formatter]:
+Result size of Simplifier iteration=1
+  = {terms: 1,058, types: 640, coercions: 24}
+Result size of Simplifier iteration=2
+  = {terms: 781, types: 460, coercions: 5}
+Result size of Simplifier iteration=3
+  = {terms: 724, types: 408, coercions: 5}
+Result size of Simplifier iteration=4
+  = {terms: 719, types: 400, coercions: 5}
+Result size of Simplifier = {terms: 719, types: 400, coercions: 5}
+!!! Simplifier [Network.HTTP.Date.Formatter]: finished in 45.00 milliseconds, allocated 30.991 megabytes
+*** Simplifier [Network.HTTP.Date.Formatter]:
+Result size of Simplifier iteration=1
+  = {terms: 748, types: 436, coercions: 5}
+Result size of Simplifier iteration=2
+  = {terms: 689, types: 376, coercions: 5}
+Result size of Simplifier iteration=3
+  = {terms: 681, types: 372, coercions: 5}
+Result size of Simplifier = {terms: 681, types: 372, coercions: 5}
+!!! Simplifier [Network.HTTP.Date.Formatter]: finished in 88.00 milliseconds, allocated 40.903 megabytes
+*** Simplifier [Network.HTTP.Date.Formatter]:
+Result size of Simplifier iteration=1
+  = {terms: 806, types: 408, coercions: 5}
+Result size of Simplifier iteration=2
+  = {terms: 784, types: 399, coercions: 5}
+Result size of Simplifier = {terms: 784, types: 399, coercions: 5}
+!!! Simplifier [Network.HTTP.Date.Formatter]: finished in 11.00 milliseconds, allocated 7.401 megabytes
+*** Float inwards [Network.HTTP.Date.Formatter]:
+Result size of Float inwards
+  = {terms: 784, types: 399, coercions: 5}
+!!! Float inwards [Network.HTTP.Date.Formatter]: finished in 0.00 milliseconds, allocated 1.357 megabytes
+*** Called arity analysis [Network.HTTP.Date.Formatter]:
+Result size of Called arity analysis
+  = {terms: 784, types: 399, coercions: 5}
+!!! Called arity analysis [Network.HTTP.Date.Formatter]: finished in 0.00 milliseconds, allocated 0.647 megabytes
+*** Simplifier [Network.HTTP.Date.Formatter]:
+Result size of Simplifier = {terms: 784, types: 399, coercions: 5}
+!!! Simplifier [Network.HTTP.Date.Formatter]: finished in 2.00 milliseconds, allocated 2.264 megabytes
+*** Demand analysis [Network.HTTP.Date.Formatter]:
+Result size of Demand analysis
+  = {terms: 784, types: 399, coercions: 5}
+!!! Demand analysis [Network.HTTP.Date.Formatter]: finished in 2.00 milliseconds, allocated 3.381 megabytes
+*** Worker Wrapper binds [Network.HTTP.Date.Formatter]:
+Result size of Worker Wrapper binds
+  = {terms: 836, types: 456, coercions: 5}
+!!! Worker Wrapper binds [Network.HTTP.Date.Formatter]: finished in 1.00 milliseconds, allocated 0.356 megabytes
+*** Simplifier [Network.HTTP.Date.Formatter]:
+Result size of Simplifier iteration=1
+  = {terms: 804, types: 434, coercions: 5}
+Result size of Simplifier = {terms: 794, types: 410, coercions: 5}
+!!! Simplifier [Network.HTTP.Date.Formatter]: finished in 4.00 milliseconds, allocated 5.051 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Date.Formatter]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 794, types: 410, coercions: 5}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Date.Formatter]: finished in 4.00 milliseconds, allocated 1.816 megabytes
+*** Common sub-expression [Network.HTTP.Date.Formatter]:
+Result size of Common sub-expression
+  = {terms: 794, types: 410, coercions: 5}
+!!! Common sub-expression [Network.HTTP.Date.Formatter]: finished in 0.00 milliseconds, allocated 0.733 megabytes
+*** Float inwards [Network.HTTP.Date.Formatter]:
+Result size of Float inwards
+  = {terms: 794, types: 410, coercions: 5}
+!!! Float inwards [Network.HTTP.Date.Formatter]: finished in 1.00 milliseconds, allocated 1.313 megabytes
+*** Simplifier [Network.HTTP.Date.Formatter]:
+Result size of Simplifier = {terms: 794, types: 410, coercions: 5}
+!!! Simplifier [Network.HTTP.Date.Formatter]: finished in 2.00 milliseconds, allocated 2.435 megabytes
+*** CoreTidy [Network.HTTP.Date.Formatter]:
+Result size of Tidy Core = {terms: 792, types: 408, coercions: 5}
+!!! CoreTidy [Network.HTTP.Date.Formatter]: finished in 1.00 milliseconds, allocated 1.057 megabytes
+writeBinIface: 20 Names
+writeBinIface: 133 dict entries
+writeBinIface: 20 Names
+writeBinIface: 133 dict entries
+*** CorePrep [Network.HTTP.Date.Formatter]:
+Result size of CorePrep = {terms: 1,211, types: 541, coercions: 5}
+!!! CorePrep [Network.HTTP.Date.Formatter]: finished in 1.00 milliseconds, allocated 1.683 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Date.Formatter]:
+!!! CodeGen [Network.HTTP.Date.Formatter]: finished in 11.00 milliseconds, allocated 12.047 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Date -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc12548_0/ghc_7.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Formatter.o
+*** CorePrep [Network.HTTP.Date.Formatter]:
+Result size of CorePrep = {terms: 1,211, types: 541, coercions: 5}
+!!! CorePrep [Network.HTTP.Date.Formatter]: finished in 1.00 milliseconds, allocated 1.681 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Date.Formatter]:
+!!! CodeGen [Network.HTTP.Date.Formatter]: finished in 13.00 milliseconds, allocated 12.352 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Date -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12548_0/ghc_9.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Formatter.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12548_0/ghc_10.c /tmp/ghc12548_0/ghc_9.s /tmp/ghc12548_0/ghc_8.c /tmp/ghc12548_0/ghc_7.s /tmp/ghc12548_0/ghc_6.s
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_10.c
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_8.c
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_6.s
+compile: input file ./Network/HTTP/Date/Converter.hs
+*** Checking old interface for Network.HTTP.Date.Converter:
+[3 of 5] Compiling Network.HTTP.Date.Converter ( Network/HTTP/Date/Converter.hs, dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Converter.o )
+*** Parser [Network.HTTP.Date.Converter]:
+!!! Parser [Network.HTTP.Date.Converter]: finished in 1.00 milliseconds, allocated 2.827 megabytes
+*** Renamer/typechecker [Network.HTTP.Date.Converter]:
+!!! Renamer/typechecker [Network.HTTP.Date.Converter]: finished in 102.00 milliseconds, allocated 92.557 megabytes
+*** Desugar [Network.HTTP.Date.Converter]:
+Result size of Desugar (after optimization)
+  = {terms: 663, types: 630, coercions: 0}
+!!! Desugar [Network.HTTP.Date.Converter]: finished in 7.00 milliseconds, allocated 3.547 megabytes
+
+Network/HTTP/Date/Converter.hs:4:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Network/HTTP/Date/Converter.hs:61:19: warning: [-Wdeprecations]
+    In the use of ‘inlinePerformIO’
+    (imported from Data.ByteString.Internal):
+    Deprecated: "If you think you know what you are doing, use 'unsafePerformIO'. If you are sure you know what you are doing, use 'unsafeDupablePerformIO'. If you enjoy sharing an address space with a malevolent agent of chaos, try 'accursedUnutterablePerformIO'."
+*** Simplifier [Network.HTTP.Date.Converter]:
+Result size of Simplifier iteration=1
+  = {terms: 533, types: 432, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 461, types: 351, coercions: 0}
+Result size of Simplifier = {terms: 461, types: 351, coercions: 0}
+!!! Simplifier [Network.HTTP.Date.Converter]: finished in 10.00 milliseconds, allocated 6.573 megabytes
+*** Specialise [Network.HTTP.Date.Converter]:
+Result size of Specialise = {terms: 552, types: 457, coercions: 0}
+!!! Specialise [Network.HTTP.Date.Converter]: finished in 1.00 milliseconds, allocated 0.748 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Date.Converter]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 720, types: 562, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Date.Converter]: finished in 3.00 milliseconds, allocated 3.010 megabytes
+*** Simplifier [Network.HTTP.Date.Converter]:
+Result size of Simplifier iteration=1
+  = {terms: 848, types: 671, coercions: 44}
+Result size of Simplifier iteration=2
+  = {terms: 600, types: 431, coercions: 16}
+Result size of Simplifier iteration=3
+  = {terms: 585, types: 404, coercions: 16}
+Result size of Simplifier iteration=4
+  = {terms: 583, types: 401, coercions: 16}
+Result size of Simplifier = {terms: 583, types: 401, coercions: 16}
+!!! Simplifier [Network.HTTP.Date.Converter]: finished in 19.00 milliseconds, allocated 16.600 megabytes
+*** Simplifier [Network.HTTP.Date.Converter]:
+Result size of Simplifier iteration=1
+  = {terms: 636, types: 466, coercions: 16}
+Result size of Simplifier iteration=2
+  = {terms: 603, types: 446, coercions: 16}
+Result size of Simplifier = {terms: 603, types: 446, coercions: 16}
+!!! Simplifier [Network.HTTP.Date.Converter]: finished in 10.00 milliseconds, allocated 8.553 megabytes
+*** Simplifier [Network.HTTP.Date.Converter]:
+Result size of Simplifier iteration=1
+  = {terms: 909, types: 723, coercions: 16}
+Result size of Simplifier iteration=2
+  = {terms: 811, types: 635, coercions: 16}
+Result size of Simplifier = {terms: 811, types: 635, coercions: 16}
+!!! Simplifier [Network.HTTP.Date.Converter]: finished in 11.00 milliseconds, allocated 9.748 megabytes
+*** Float inwards [Network.HTTP.Date.Converter]:
+Result size of Float inwards
+  = {terms: 811, types: 635, coercions: 16}
+!!! Float inwards [Network.HTTP.Date.Converter]: finished in 1.00 milliseconds, allocated 1.192 megabytes
+*** Called arity analysis [Network.HTTP.Date.Converter]:
+Result size of Called arity analysis
+  = {terms: 811, types: 635, coercions: 16}
+!!! Called arity analysis [Network.HTTP.Date.Converter]: finished in 1.00 milliseconds, allocated 0.689 megabytes
+*** Simplifier [Network.HTTP.Date.Converter]:
+Result size of Simplifier = {terms: 811, types: 635, coercions: 16}
+!!! Simplifier [Network.HTTP.Date.Converter]: finished in 4.00 milliseconds, allocated 3.055 megabytes
+*** Demand analysis [Network.HTTP.Date.Converter]:
+Result size of Demand analysis
+  = {terms: 811, types: 635, coercions: 16}
+!!! Demand analysis [Network.HTTP.Date.Converter]: finished in 4.00 milliseconds, allocated 3.259 megabytes
+*** Worker Wrapper binds [Network.HTTP.Date.Converter]:
+Result size of Worker Wrapper binds
+  = {terms: 991, types: 849, coercions: 19}
+!!! Worker Wrapper binds [Network.HTTP.Date.Converter]: finished in 1.00 milliseconds, allocated 0.602 megabytes
+*** Simplifier [Network.HTTP.Date.Converter]:
+Result size of Simplifier iteration=1
+  = {terms: 1,288, types: 992, coercions: 16}
+Result size of Simplifier iteration=2
+  = {terms: 767, types: 570, coercions: 16}
+Result size of Simplifier = {terms: 767, types: 570, coercions: 16}
+!!! Simplifier [Network.HTTP.Date.Converter]: finished in 17.00 milliseconds, allocated 14.104 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Date.Converter]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 774, types: 596, coercions: 16}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Date.Converter]: finished in 3.00 milliseconds, allocated 2.308 megabytes
+*** Common sub-expression [Network.HTTP.Date.Converter]:
+Result size of Common sub-expression
+  = {terms: 718, types: 585, coercions: 16}
+!!! Common sub-expression [Network.HTTP.Date.Converter]: finished in 1.00 milliseconds, allocated 1.083 megabytes
+*** Float inwards [Network.HTTP.Date.Converter]:
+Result size of Float inwards
+  = {terms: 718, types: 585, coercions: 16}
+!!! Float inwards [Network.HTTP.Date.Converter]: finished in 1.00 milliseconds, allocated 1.065 megabytes
+*** Simplifier [Network.HTTP.Date.Converter]:
+Result size of Simplifier iteration=1
+  = {terms: 662, types: 547, coercions: 16}
+Result size of Simplifier = {terms: 654, types: 531, coercions: 16}
+!!! Simplifier [Network.HTTP.Date.Converter]: finished in 8.00 milliseconds, allocated 6.419 megabytes
+*** CoreTidy [Network.HTTP.Date.Converter]:
+Result size of Tidy Core = {terms: 616, types: 452, coercions: 1}
+!!! CoreTidy [Network.HTTP.Date.Converter]: finished in 1.00 milliseconds, allocated 1.141 megabytes
+writeBinIface: 43 Names
+writeBinIface: 140 dict entries
+writeBinIface: 43 Names
+writeBinIface: 140 dict entries
+*** CorePrep [Network.HTTP.Date.Converter]:
+Result size of CorePrep = {terms: 810, types: 518, coercions: 1}
+!!! CorePrep [Network.HTTP.Date.Converter]: finished in 1.00 milliseconds, allocated 1.308 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Date.Converter]:
+!!! CodeGen [Network.HTTP.Date.Converter]: finished in 23.00 milliseconds, allocated 21.670 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Date -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc12548_0/ghc_12.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Converter.o
+*** CorePrep [Network.HTTP.Date.Converter]:
+Result size of CorePrep = {terms: 810, types: 518, coercions: 1}
+!!! CorePrep [Network.HTTP.Date.Converter]: finished in 1.00 milliseconds, allocated 1.269 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Date.Converter]:
+!!! CodeGen [Network.HTTP.Date.Converter]: finished in 25.00 milliseconds, allocated 22.354 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Date -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12548_0/ghc_14.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Converter.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12548_0/ghc_15.c /tmp/ghc12548_0/ghc_14.s /tmp/ghc12548_0/ghc_13.c /tmp/ghc12548_0/ghc_12.s /tmp/ghc12548_0/ghc_11.s
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_13.c
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_11.s
+compile: input file ./Network/HTTP/Date/Parser.hs
+*** Checking old interface for Network.HTTP.Date.Parser:
+[4 of 5] Compiling Network.HTTP.Date.Parser ( Network/HTTP/Date/Parser.hs, dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Parser.o )
+*** Parser [Network.HTTP.Date.Parser]:
+!!! Parser [Network.HTTP.Date.Parser]: finished in 2.00 milliseconds, allocated 2.381 megabytes
+*** Renamer/typechecker [Network.HTTP.Date.Parser]:
+!!! Renamer/typechecker [Network.HTTP.Date.Parser]: finished in 121.00 milliseconds, allocated 46.531 megabytes
+*** Desugar [Network.HTTP.Date.Parser]:
+Result size of Desugar (after optimization)
+  = {terms: 450, types: 551, coercions: 0}
+!!! Desugar [Network.HTTP.Date.Parser]: finished in 10.00 milliseconds, allocated 7.094 megabytes
+*** Simplifier [Network.HTTP.Date.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 646, types: 760, coercions: 26}
+Result size of Simplifier = {terms: 646, types: 760, coercions: 30}
+!!! Simplifier [Network.HTTP.Date.Parser]: finished in 5.00 milliseconds, allocated 5.848 megabytes
+*** Specialise [Network.HTTP.Date.Parser]:
+Result size of Specialise = {terms: 660, types: 801, coercions: 32}
+!!! Specialise [Network.HTTP.Date.Parser]: finished in 1.00 milliseconds, allocated 1.002 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Date.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 824, types: 1,090, coercions: 32}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Date.Parser]: finished in 2.00 milliseconds, allocated 3.107 megabytes
+*** Simplifier [Network.HTTP.Date.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 9,602, types: 8,900, coercions: 1,904}
+Result size of Simplifier iteration=2
+  = {terms: 6,345, types: 3,665, coercions: 1,331}
+Result size of Simplifier iteration=3
+  = {terms: 5,699, types: 2,961, coercions: 1,298}
+Result size of Simplifier iteration=4
+  = {terms: 5,615, types: 2,901, coercions: 1,298}
+Result size of Simplifier
+  = {terms: 5,615, types: 2,901, coercions: 1,298}
+!!! Simplifier [Network.HTTP.Date.Parser]: finished in 220.00 milliseconds, allocated 172.597 megabytes
+*** Simplifier [Network.HTTP.Date.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 5,749, types: 3,313, coercions: 1,298}
+Result size of Simplifier iteration=2
+  = {terms: 5,261, types: 2,985, coercions: 1,298}
+Result size of Simplifier iteration=3
+  = {terms: 5,259, types: 2,984, coercions: 1,298}
+Result size of Simplifier iteration=4
+  = {terms: 5,257, types: 2,983, coercions: 1,298}
+Result size of Simplifier
+  = {terms: 5,257, types: 2,983, coercions: 1,298}
+!!! Simplifier [Network.HTTP.Date.Parser]: finished in 117.00 milliseconds, allocated 100.555 megabytes
+*** Simplifier [Network.HTTP.Date.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 6,556, types: 3,741, coercions: 1,234}
+Result size of Simplifier iteration=2
+  = {terms: 6,500, types: 3,709, coercions: 1,234}
+Result size of Simplifier
+  = {terms: 6,500, types: 3,709, coercions: 1,234}
+!!! Simplifier [Network.HTTP.Date.Parser]: finished in 95.00 milliseconds, allocated 75.801 megabytes
+*** Float inwards [Network.HTTP.Date.Parser]:
+Result size of Float inwards
+  = {terms: 6,500, types: 3,709, coercions: 1,234}
+!!! Float inwards [Network.HTTP.Date.Parser]: finished in 8.00 milliseconds, allocated 14.285 megabytes
+*** Called arity analysis [Network.HTTP.Date.Parser]:
+Result size of Called arity analysis
+  = {terms: 6,500, types: 3,709, coercions: 1,234}
+!!! Called arity analysis [Network.HTTP.Date.Parser]: finished in 5.00 milliseconds, allocated 5.384 megabytes
+*** Simplifier [Network.HTTP.Date.Parser]:
+Result size of Simplifier
+  = {terms: 6,500, types: 3,709, coercions: 1,234}
+!!! Simplifier [Network.HTTP.Date.Parser]: finished in 27.00 milliseconds, allocated 23.351 megabytes
+*** Demand analysis [Network.HTTP.Date.Parser]:
+Result size of Demand analysis
+  = {terms: 6,500, types: 3,709, coercions: 1,234}
+!!! Demand analysis [Network.HTTP.Date.Parser]: finished in 51.00 milliseconds, allocated 35.026 megabytes
+*** Worker Wrapper binds [Network.HTTP.Date.Parser]:
+Result size of Worker Wrapper binds
+  = {terms: 7,912, types: 5,062, coercions: 1,396}
+!!! Worker Wrapper binds [Network.HTTP.Date.Parser]: finished in 3.00 milliseconds, allocated 2.828 megabytes
+*** Simplifier [Network.HTTP.Date.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 7,896, types: 4,552, coercions: 892}
+Result size of Simplifier iteration=2
+  = {terms: 7,417, types: 4,151, coercions: 871}
+Result size of Simplifier
+  = {terms: 7,417, types: 4,151, coercions: 871}
+!!! Simplifier [Network.HTTP.Date.Parser]: finished in 115.00 milliseconds, allocated 89.552 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Date.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 7,591, types: 4,508, coercions: 871}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Date.Parser]: finished in 38.00 milliseconds, allocated 32.478 megabytes
+*** Common sub-expression [Network.HTTP.Date.Parser]:
+Result size of Common sub-expression
+  = {terms: 7,443, types: 4,447, coercions: 859}
+!!! Common sub-expression [Network.HTTP.Date.Parser]: finished in 7.00 milliseconds, allocated 7.671 megabytes
+*** Float inwards [Network.HTTP.Date.Parser]:
+Result size of Float inwards
+  = {terms: 7,443, types: 4,447, coercions: 859}
+!!! Float inwards [Network.HTTP.Date.Parser]: finished in 16.00 milliseconds, allocated 14.835 megabytes
+*** Simplifier [Network.HTTP.Date.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 7,354, types: 4,339, coercions: 911}
+Result size of Simplifier
+  = {terms: 7,316, types: 4,308, coercions: 895}
+!!! Simplifier [Network.HTTP.Date.Parser]: finished in 66.00 milliseconds, allocated 53.629 megabytes
+*** CoreTidy [Network.HTTP.Date.Parser]:
+Result size of Tidy Core
+  = {terms: 7,287, types: 4,232, coercions: 881}
+!!! CoreTidy [Network.HTTP.Date.Parser]: finished in 14.00 milliseconds, allocated 7.478 megabytes
+writeBinIface: 10 Names
+writeBinIface: 88 dict entries
+writeBinIface: 10 Names
+writeBinIface: 88 dict entries
+*** CorePrep [Network.HTTP.Date.Parser]:
+Result size of CorePrep
+  = {terms: 8,989, types: 4,862, coercions: 881}
+!!! CorePrep [Network.HTTP.Date.Parser]: finished in 12.00 milliseconds, allocated 15.832 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Date.Parser]:
+!!! CodeGen [Network.HTTP.Date.Parser]: finished in 314.00 milliseconds, allocated 274.945 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Date -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc12548_0/ghc_17.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Parser.o
+*** CorePrep [Network.HTTP.Date.Parser]:
+Result size of CorePrep
+  = {terms: 8,989, types: 4,862, coercions: 881}
+!!! CorePrep [Network.HTTP.Date.Parser]: finished in 23.00 milliseconds, allocated 14.802 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Date.Parser]:
+!!! CodeGen [Network.HTTP.Date.Parser]: finished in 357.00 milliseconds, allocated 285.362 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Date -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12548_0/ghc_19.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Parser.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12548_0/ghc_20.c /tmp/ghc12548_0/ghc_19.s /tmp/ghc12548_0/ghc_18.c /tmp/ghc12548_0/ghc_17.s /tmp/ghc12548_0/ghc_16.s
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_18.c
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_16.s
+compile: input file ./Network/HTTP/Date.hs
+*** Checking old interface for Network.HTTP.Date:
+[5 of 5] Compiling Network.HTTP.Date ( Network/HTTP/Date.hs, dist/dist-sandbox-6afc8227/build/Network/HTTP/Date.o )
+*** Parser [Network.HTTP.Date]:
+!!! Parser [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.223 megabytes
+*** Renamer/typechecker [Network.HTTP.Date]:
+!!! Renamer/typechecker [Network.HTTP.Date]: finished in 2.00 milliseconds, allocated 1.023 megabytes
+*** Desugar [Network.HTTP.Date]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Simplifier [Network.HTTP.Date]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Date]: finished in 1.00 milliseconds, allocated 0.131 megabytes
+*** Specialise [Network.HTTP.Date]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.053 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Date]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Network.HTTP.Date]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Network.HTTP.Date]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Network.HTTP.Date]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Network.HTTP.Date]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Network.HTTP.Date]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Network.HTTP.Date]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Demand analysis [Network.HTTP.Date]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Network.HTTP.Date]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Network.HTTP.Date]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Date]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Network.HTTP.Date]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Network.HTTP.Date]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Network.HTTP.Date]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Network.HTTP.Date]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+writeBinIface: 16 Names
+writeBinIface: 74 dict entries
+writeBinIface: 16 Names
+writeBinIface: 74 dict entries
+*** CorePrep [Network.HTTP.Date]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Date]:
+!!! CodeGen [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.294 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc12548_0/ghc_22.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date.o
+*** CorePrep [Network.HTTP.Date]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Network.HTTP.Date]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Date]:
+!!! CodeGen [Network.HTTP.Date]: finished in 1.00 milliseconds, allocated 0.291 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12548_0/ghc_24.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc12548_0/ghc_25.c /tmp/ghc12548_0/ghc_24.s /tmp/ghc12548_0/ghc_23.c /tmp/ghc12548_0/ghc_22.s /tmp/ghc12548_0/ghc_21.s
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_25.c
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_23.c
+Warning: deleting non-existent /tmp/ghc12548_0/ghc_21.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: 
+*** Deleting temp dirs:
+Deleting: /tmp/ghc12548_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/attoparsec-0.13.0.2-4uZxAuiEcXA6meGn8wFOYK -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/scientific-0.3.4.6-9fCa1BWCWrnKAuoCGjgPJx -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3 -o dist/dist-sandbox-6afc8227/build/libHShttp-date-0.0.6.1-94dgxFSkq0UFdECZ0voDtT-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHShttp-date-0.0.6.1-94dgxFSkq0UFdECZ0voDtT-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Network/HTTP/Date.dyn_o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Converter.dyn_o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Formatter.dyn_o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Types.dyn_o dist/dist-sandbox-6afc8227/build/Network/HTTP/Date/Parser.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/attoparsec-0.13.0.2-4uZxAuiEcXA6meGn8wFOYK -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/scientific-0.3.4.6-9fCa1BWCWrnKAuoCGjgPJx -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSattoparsec-0.13.0.2-4uZxAuiEcXA6meGn8wFOYK-ghc8.0.1 -lHSscientific-0.3.4.6-9fCa1BWCWrnKAuoCGjgPJx-ghc8.0.1 -lHSvector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3-ghc8.0.1 -lHSprimitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa-ghc8.0.1 -lHStransformers-0.5.2.0-ghc8.0.1 -lHShashable-1.2.4.0-Ctl752zbguF6QanxurLOm2-ghc8.0.1 -lHStext-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs-ghc8.0.1 -lHSbinary-0.8.3.0-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc12612_0
+*** Deleting temp files:
+Deleting: /tmp/ghc12612_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc12612_0
+Creating package registration file:
+/tmp/pkgConf-http-date-0.0.61034949299654887343.1
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/http-date-0.0.6.1-94dgxFSkq0UFdECZ0voDtT
+Registering http-date-0.0.6.1...
+cabal: Leaving directory '/tmp/cabal-tmp-1027/http-date-0.0.6.1'

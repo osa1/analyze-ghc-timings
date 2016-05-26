@@ -1,0 +1,2317 @@
+cabal: Entering directory '/tmp/cabal-tmp-1028/QuickCheck-2.8.2'
+Configuring QuickCheck-2.8.2...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc7890_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc7890_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc7890_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc7890_0/ghc_2.rsp /tmp/ghc7890_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7890_0
+Building QuickCheck-2.8.2...
+Preprocessing library QuickCheck-2.8.2...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Test.QuickCheck,*Test.QuickCheck.Arbitrary,*Test.QuickCheck.Gen,*Test.QuickCheck.Gen.Unsafe,*Test.QuickCheck.Monadic,*Test.QuickCheck.Modifiers,*Test.QuickCheck.Property,*Test.QuickCheck.Test,*Test.QuickCheck.Text,*Test.QuickCheck.Poly,*Test.QuickCheck.State,*Test.QuickCheck.Random,*Test.QuickCheck.Exception,*Test.QuickCheck.Function,*Test.QuickCheck.All
+Created temporary directory: /tmp/ghc7960_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7960_0/ghc_2.h -x assembler-with-cpp ./Test/QuickCheck.hs -o /tmp/ghc7960_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7960_0/ghc_4.h -x assembler-with-cpp ./Test/QuickCheck/Arbitrary.hs -o /tmp/ghc7960_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7960_0/ghc_6.h -x assembler-with-cpp ./Test/QuickCheck/Gen.hs -o /tmp/ghc7960_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7960_0/ghc_8.h -x assembler-with-cpp ./Test/QuickCheck/Gen/Unsafe.hs -o /tmp/ghc7960_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7960_0/ghc_10.h -x assembler-with-cpp ./Test/QuickCheck/Monadic.hs -o /tmp/ghc7960_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7960_0/ghc_12.h -x assembler-with-cpp ./Test/QuickCheck/Modifiers.hs -o /tmp/ghc7960_0/ghc_11.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7960_0/ghc_14.h -x assembler-with-cpp ./Test/QuickCheck/Property.hs -o /tmp/ghc7960_0/ghc_13.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7960_0/ghc_16.h -x assembler-with-cpp ./Test/QuickCheck/Test.hs -o /tmp/ghc7960_0/ghc_15.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7960_0/ghc_18.h -x assembler-with-cpp ./Test/QuickCheck/Poly.hs -o /tmp/ghc7960_0/ghc_17.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7960_0/ghc_20.h -x assembler-with-cpp ./Test/QuickCheck/Random.hs -o /tmp/ghc7960_0/ghc_19.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7960_0/ghc_22.h -x assembler-with-cpp ./Test/QuickCheck/Exception.hs -o /tmp/ghc7960_0/ghc_21.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7960_0/ghc_24.h -x assembler-with-cpp ./Test/QuickCheck/Function.hs -o /tmp/ghc7960_0/ghc_23.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7960_0/ghc_26.h -x assembler-with-cpp ./Test/QuickCheck/All.hs -o /tmp/ghc7960_0/ghc_25.hscpp
+!!! Chasing dependencies: finished in 69.00 milliseconds, allocated 49.271 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.Exception,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Typeable),
+                            (Nothing, Control.Exception)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.Random,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Bits),
+                            (Nothing, Data.Word), (Nothing, System.Random.TF.Gen),
+                            (Nothing, System.Random.TF), (Nothing, System.Random)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.Text,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Test.QuickCheck.Exception), (Nothing, Data.IORef),
+                            (Nothing, System.IO), (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.State,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Set),
+                            (Nothing, Data.Map), (Nothing, Data.Map),
+                            (Nothing, Test.QuickCheck.Random), (Nothing, Test.QuickCheck.Text)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.Gen,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Ord),
+                            (Nothing, Data.List), (Nothing, Test.QuickCheck.Random),
+                            (Nothing, Control.Arrow), (Nothing, Control.Applicative),
+                            (Nothing, Control.Monad), (Nothing, System.Random)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.Gen.Unsafe,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Control.Monad),
+                            (Nothing, Test.QuickCheck.Gen)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.Arbitrary,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Sequence),
+                            (Nothing, Data.IntMap), (Nothing, Data.IntSet),
+                            (Nothing, Data.Map), (Nothing, Data.Set), (Nothing, GHC.Generics),
+                            (Nothing, Data.Word), (Nothing, Data.Int),
+                            (Nothing, Control.Monad), (Nothing, Data.List),
+                            (Nothing, Data.Complex), (Nothing, Data.Ratio),
+                            (Nothing, Numeric.Natural), (Nothing, Data.Fixed),
+                            (Nothing, Data.Char), (Nothing, Test.QuickCheck.Gen.Unsafe),
+                            (Nothing, Test.QuickCheck.Gen), (Nothing, System.Random),
+                            (Nothing, Data.Foldable), (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.Modifiers,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.List),
+                            (Nothing, Test.QuickCheck.Arbitrary),
+                            (Nothing, Test.QuickCheck.Gen)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.Property,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Set),
+                            (Nothing, Data.Set), (Nothing, Data.Map), (Nothing, Data.Map),
+                            (Nothing, Control.Monad), (Nothing, Control.Applicative),
+                            (Nothing, Data.Maybe), (Nothing, System.Timeout),
+                            (Nothing, Test.QuickCheck.State),
+                            (Nothing, Test.QuickCheck.Exception),
+                            (Nothing, Test.QuickCheck.Text),
+                            (Nothing, Test.QuickCheck.Arbitrary),
+                            (Nothing, Test.QuickCheck.Gen.Unsafe),
+                            (Nothing, Test.QuickCheck.Gen)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.Monadic,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Monad.Trans.Class),
+                            (Nothing, Control.Monad.IO.Class), (Nothing, Control.Applicative),
+                            (Nothing, Control.Monad.ST), (Nothing, Control.Monad),
+                            (Nothing, Test.QuickCheck.Property),
+                            (Nothing, Test.QuickCheck.Gen.Unsafe),
+                            (Nothing, Test.QuickCheck.Gen)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.Test,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.List),
+                            (Nothing, Data.Char), (Nothing, Data.Set), (Nothing, Data.Map),
+                            (Nothing, System.Random), (Nothing, Test.QuickCheck.Random),
+                            (Nothing, Test.QuickCheck.Exception),
+                            (Nothing, Test.QuickCheck.State), (Nothing, Test.QuickCheck.State),
+                            (Nothing, Test.QuickCheck.Text),
+                            (Nothing, Test.QuickCheck.Property),
+                            (Nothing, Test.QuickCheck.Property),
+                            (Nothing, Test.QuickCheck.Gen)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.Poly,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Test.QuickCheck.Arbitrary)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.Function,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Control.Arrow),
+                            (Nothing, Data.Ratio), (Nothing, Data.Maybe), (Nothing, Data.List),
+                            (Nothing, Data.Word), (Nothing, Data.Char),
+                            (Nothing, Test.QuickCheck.Poly),
+                            (Nothing, Test.QuickCheck.Arbitrary)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck.All,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, System.IO),
+                            (Nothing, Control.Monad), (Nothing, Data.List),
+                            (Nothing, Data.Char), (Nothing, Test.QuickCheck.Test),
+                            (Nothing, Test.QuickCheck.Property),
+                            (Nothing, Language.Haskell.TH)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-01-15 16:09:16 UTC
+         ms_mod = Test.QuickCheck,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Test.QuickCheck.All),
+                            (Nothing, Test.QuickCheck.Exception),
+                            (Nothing, Test.QuickCheck.Text), (Nothing, Test.QuickCheck.Test),
+                            (Nothing, Test.QuickCheck.Property),
+                            (Nothing, Test.QuickCheck.Modifiers),
+                            (Nothing, Test.QuickCheck.Arbitrary),
+                            (Nothing, Test.QuickCheck.Gen)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_26.h /tmp/ghc7960_0/ghc_24.h /tmp/ghc7960_0/ghc_22.h /tmp/ghc7960_0/ghc_20.h /tmp/ghc7960_0/ghc_18.h /tmp/ghc7960_0/ghc_16.h /tmp/ghc7960_0/ghc_14.h /tmp/ghc7960_0/ghc_12.h /tmp/ghc7960_0/ghc_10.h /tmp/ghc7960_0/ghc_8.h /tmp/ghc7960_0/ghc_6.h /tmp/ghc7960_0/ghc_4.h /tmp/ghc7960_0/ghc_2.h
+compile: input file /tmp/ghc7960_0/ghc_21.hscpp
+*** Checking old interface for Test.QuickCheck.Exception:
+[ 1 of 15] Compiling Test.QuickCheck.Exception ( Test/QuickCheck/Exception.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Exception.o )
+*** Parser [Test.QuickCheck.Exception]:
+!!! Parser [Test.QuickCheck.Exception]: finished in 1.00 milliseconds, allocated 1.837 megabytes
+*** Renamer/typechecker [Test.QuickCheck.Exception]:
+!!! Renamer/typechecker [Test.QuickCheck.Exception]: finished in 169.00 milliseconds, allocated 77.506 megabytes
+*** Desugar [Test.QuickCheck.Exception]:
+Result size of Desugar (after optimization)
+  = {terms: 113, types: 168, coercions: 5}
+!!! Desugar [Test.QuickCheck.Exception]: finished in 14.00 milliseconds, allocated 8.564 megabytes
+*** Simplifier [Test.QuickCheck.Exception]:
+Result size of Simplifier iteration=1
+  = {terms: 109, types: 140, coercions: 23}
+Result size of Simplifier iteration=2
+  = {terms: 90, types: 128, coercions: 34}
+Result size of Simplifier = {terms: 90, types: 128, coercions: 34}
+!!! Simplifier [Test.QuickCheck.Exception]: finished in 7.00 milliseconds, allocated 2.167 megabytes
+*** Specialise [Test.QuickCheck.Exception]:
+Result size of Specialise = {terms: 112, types: 147, coercions: 34}
+!!! Specialise [Test.QuickCheck.Exception]: finished in 0.00 milliseconds, allocated 0.224 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Exception]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 128, types: 168, coercions: 34}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Exception]: finished in 0.00 milliseconds, allocated 0.522 megabytes
+*** Simplifier [Test.QuickCheck.Exception]:
+Result size of Simplifier iteration=1
+  = {terms: 212, types: 281, coercions: 72}
+Result size of Simplifier iteration=2
+  = {terms: 163, types: 242, coercions: 72}
+Result size of Simplifier = {terms: 163, types: 242, coercions: 72}
+!!! Simplifier [Test.QuickCheck.Exception]: finished in 23.00 milliseconds, allocated 10.872 megabytes
+*** Simplifier [Test.QuickCheck.Exception]:
+Result size of Simplifier iteration=1
+  = {terms: 157, types: 234, coercions: 72}
+Result size of Simplifier = {terms: 157, types: 234, coercions: 72}
+!!! Simplifier [Test.QuickCheck.Exception]: finished in 3.00 milliseconds, allocated 1.444 megabytes
+*** Simplifier [Test.QuickCheck.Exception]:
+Result size of Simplifier = {terms: 157, types: 234, coercions: 72}
+!!! Simplifier [Test.QuickCheck.Exception]: finished in 1.00 milliseconds, allocated 0.694 megabytes
+*** Float inwards [Test.QuickCheck.Exception]:
+Result size of Float inwards
+  = {terms: 157, types: 234, coercions: 72}
+!!! Float inwards [Test.QuickCheck.Exception]: finished in 1.00 milliseconds, allocated 0.218 megabytes
+*** Called arity analysis [Test.QuickCheck.Exception]:
+Result size of Called arity analysis
+  = {terms: 157, types: 234, coercions: 72}
+!!! Called arity analysis [Test.QuickCheck.Exception]: finished in 0.00 milliseconds, allocated 0.188 megabytes
+*** Simplifier [Test.QuickCheck.Exception]:
+Result size of Simplifier = {terms: 157, types: 234, coercions: 72}
+!!! Simplifier [Test.QuickCheck.Exception]: finished in 2.00 milliseconds, allocated 0.696 megabytes
+*** Demand analysis [Test.QuickCheck.Exception]:
+Result size of Demand analysis
+  = {terms: 157, types: 234, coercions: 72}
+!!! Demand analysis [Test.QuickCheck.Exception]: finished in 0.00 milliseconds, allocated 0.567 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.Exception]:
+Result size of Worker Wrapper binds
+  = {terms: 157, types: 234, coercions: 72}
+!!! Worker Wrapper binds [Test.QuickCheck.Exception]: finished in 1.00 milliseconds, allocated 0.101 megabytes
+*** Simplifier [Test.QuickCheck.Exception]:
+Result size of Simplifier = {terms: 157, types: 234, coercions: 72}
+!!! Simplifier [Test.QuickCheck.Exception]: finished in 1.00 milliseconds, allocated 0.959 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Exception]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 169, types: 270, coercions: 72}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Exception]: finished in 2.00 milliseconds, allocated 0.668 megabytes
+*** Common sub-expression [Test.QuickCheck.Exception]:
+Result size of Common sub-expression
+  = {terms: 163, types: 256, coercions: 72}
+!!! Common sub-expression [Test.QuickCheck.Exception]: finished in 1.00 milliseconds, allocated 0.332 megabytes
+*** Float inwards [Test.QuickCheck.Exception]:
+Result size of Float inwards
+  = {terms: 163, types: 256, coercions: 72}
+!!! Float inwards [Test.QuickCheck.Exception]: finished in 0.00 milliseconds, allocated 0.214 megabytes
+*** Simplifier [Test.QuickCheck.Exception]:
+Result size of Simplifier iteration=1
+  = {terms: 162, types: 244, coercions: 72}
+Result size of Simplifier = {terms: 162, types: 244, coercions: 72}
+!!! Simplifier [Test.QuickCheck.Exception]: finished in 4.00 milliseconds, allocated 1.910 megabytes
+*** CoreTidy [Test.QuickCheck.Exception]:
+Result size of Tidy Core = {terms: 141, types: 226, coercions: 72}
+!!! CoreTidy [Test.QuickCheck.Exception]: finished in 8.00 milliseconds, allocated 4.155 megabytes
+writeBinIface: 35 Names
+writeBinIface: 92 dict entries
+writeBinIface: 35 Names
+writeBinIface: 92 dict entries
+*** CorePrep [Test.QuickCheck.Exception]:
+Result size of CorePrep = {terms: 180, types: 282, coercions: 72}
+!!! CorePrep [Test.QuickCheck.Exception]: finished in 1.00 milliseconds, allocated 0.371 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Exception]:
+!!! CodeGen [Test.QuickCheck.Exception]: finished in 15.00 milliseconds, allocated 6.859 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_28.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Exception.o
+*** CorePrep [Test.QuickCheck.Exception]:
+Result size of CorePrep = {terms: 180, types: 282, coercions: 72}
+!!! CorePrep [Test.QuickCheck.Exception]: finished in 1.00 milliseconds, allocated 0.363 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Exception]:
+!!! CodeGen [Test.QuickCheck.Exception]: finished in 13.00 milliseconds, allocated 7.102 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_30.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Exception.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_31.c /tmp/ghc7960_0/ghc_30.s /tmp/ghc7960_0/ghc_29.c /tmp/ghc7960_0/ghc_28.s /tmp/ghc7960_0/ghc_27.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_31.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_29.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_27.s
+compile: input file /tmp/ghc7960_0/ghc_19.hscpp
+*** Checking old interface for Test.QuickCheck.Random:
+[ 2 of 15] Compiling Test.QuickCheck.Random ( Test/QuickCheck/Random.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Random.o )
+*** Parser [Test.QuickCheck.Random]:
+!!! Parser [Test.QuickCheck.Random]: finished in 4.00 milliseconds, allocated 3.102 megabytes
+*** Renamer/typechecker [Test.QuickCheck.Random]:
+!!! Renamer/typechecker [Test.QuickCheck.Random]: finished in 143.00 milliseconds, allocated 75.000 megabytes
+*** Desugar [Test.QuickCheck.Random]:
+Result size of Desugar (after optimization)
+  = {terms: 379, types: 346, coercions: 17}
+!!! Desugar [Test.QuickCheck.Random]: finished in 5.00 milliseconds, allocated 3.030 megabytes
+*** Simplifier [Test.QuickCheck.Random]:
+Result size of Simplifier iteration=1
+  = {terms: 350, types: 319, coercions: 55}
+Result size of Simplifier iteration=2
+  = {terms: 330, types: 301, coercions: 43}
+Result size of Simplifier = {terms: 330, types: 301, coercions: 43}
+!!! Simplifier [Test.QuickCheck.Random]: finished in 29.00 milliseconds, allocated 15.971 megabytes
+*** Specialise [Test.QuickCheck.Random]:
+Result size of Specialise = {terms: 388, types: 347, coercions: 43}
+!!! Specialise [Test.QuickCheck.Random]: finished in 1.00 milliseconds, allocated 0.791 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Random]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 454, types: 394, coercions: 43}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Random]: finished in 2.00 milliseconds, allocated 2.060 megabytes
+*** Simplifier [Test.QuickCheck.Random]:
+Result size of Simplifier iteration=1
+  = {terms: 601, types: 526, coercions: 172}
+Result size of Simplifier iteration=2
+  = {terms: 548, types: 499, coercions: 155}
+Result size of Simplifier
+  = {terms: 544, types: 492, coercions: 144}
+!!! Simplifier [Test.QuickCheck.Random]: finished in 21.00 milliseconds, allocated 11.180 megabytes
+*** Simplifier [Test.QuickCheck.Random]:
+Result size of Simplifier iteration=1
+  = {terms: 540, types: 487, coercions: 144}
+Result size of Simplifier
+  = {terms: 540, types: 487, coercions: 144}
+!!! Simplifier [Test.QuickCheck.Random]: finished in 7.00 milliseconds, allocated 5.500 megabytes
+*** Simplifier [Test.QuickCheck.Random]:
+Result size of Simplifier iteration=1
+  = {terms: 744, types: 754, coercions: 154}
+Result size of Simplifier iteration=2
+  = {terms: 739, types: 752, coercions: 154}
+Result size of Simplifier
+  = {terms: 739, types: 752, coercions: 154}
+!!! Simplifier [Test.QuickCheck.Random]: finished in 17.00 milliseconds, allocated 11.141 megabytes
+*** Float inwards [Test.QuickCheck.Random]:
+Result size of Float inwards
+  = {terms: 739, types: 752, coercions: 154}
+!!! Float inwards [Test.QuickCheck.Random]: finished in 1.00 milliseconds, allocated 1.017 megabytes
+*** Called arity analysis [Test.QuickCheck.Random]:
+Result size of Called arity analysis
+  = {terms: 739, types: 752, coercions: 154}
+!!! Called arity analysis [Test.QuickCheck.Random]: finished in 1.00 milliseconds, allocated 0.825 megabytes
+*** Simplifier [Test.QuickCheck.Random]:
+Result size of Simplifier
+  = {terms: 739, types: 752, coercions: 154}
+!!! Simplifier [Test.QuickCheck.Random]: finished in 6.00 milliseconds, allocated 3.450 megabytes
+*** Demand analysis [Test.QuickCheck.Random]:
+Result size of Demand analysis
+  = {terms: 739, types: 752, coercions: 154}
+!!! Demand analysis [Test.QuickCheck.Random]: finished in 4.00 milliseconds, allocated 3.293 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.Random]:
+Result size of Worker Wrapper binds
+  = {terms: 997, types: 1,054, coercions: 157}
+!!! Worker Wrapper binds [Test.QuickCheck.Random]: finished in 0.00 milliseconds, allocated 0.680 megabytes
+*** Simplifier [Test.QuickCheck.Random]:
+Result size of Simplifier iteration=1
+  = {terms: 883, types: 956, coercions: 159}
+Result size of Simplifier
+  = {terms: 852, types: 910, coercions: 154}
+!!! Simplifier [Test.QuickCheck.Random]: finished in 17.00 milliseconds, allocated 10.535 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Random]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 854, types: 912, coercions: 154}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Random]: finished in 4.00 milliseconds, allocated 3.455 megabytes
+*** Common sub-expression [Test.QuickCheck.Random]:
+Result size of Common sub-expression
+  = {terms: 851, types: 905, coercions: 145}
+!!! Common sub-expression [Test.QuickCheck.Random]: finished in 2.00 milliseconds, allocated 1.402 megabytes
+*** Float inwards [Test.QuickCheck.Random]:
+Result size of Float inwards
+  = {terms: 851, types: 905, coercions: 145}
+!!! Float inwards [Test.QuickCheck.Random]: finished in 2.00 milliseconds, allocated 1.126 megabytes
+*** Simplifier [Test.QuickCheck.Random]:
+Result size of Simplifier
+  = {terms: 843, types: 899, coercions: 145}
+!!! Simplifier [Test.QuickCheck.Random]: finished in 7.00 milliseconds, allocated 4.475 megabytes
+*** CoreTidy [Test.QuickCheck.Random]:
+Result size of Tidy Core = {terms: 738, types: 826, coercions: 130}
+!!! CoreTidy [Test.QuickCheck.Random]: finished in 2.00 milliseconds, allocated 1.542 megabytes
+writeBinIface: 103 Names
+writeBinIface: 205 dict entries
+writeBinIface: 103 Names
+writeBinIface: 205 dict entries
+*** CorePrep [Test.QuickCheck.Random]:
+Result size of CorePrep = {terms: 939, types: 943, coercions: 130}
+!!! CorePrep [Test.QuickCheck.Random]: finished in 2.00 milliseconds, allocated 1.752 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Random]:
+!!! CodeGen [Test.QuickCheck.Random]: finished in 51.00 milliseconds, allocated 38.465 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_33.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Random.o
+*** CorePrep [Test.QuickCheck.Random]:
+Result size of CorePrep = {terms: 939, types: 943, coercions: 130}
+!!! CorePrep [Test.QuickCheck.Random]: finished in 3.00 milliseconds, allocated 1.663 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Random]:
+!!! CodeGen [Test.QuickCheck.Random]: finished in 116.00 milliseconds, allocated 40.400 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_35.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Random.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_36.c /tmp/ghc7960_0/ghc_35.s /tmp/ghc7960_0/ghc_34.c /tmp/ghc7960_0/ghc_33.s /tmp/ghc7960_0/ghc_32.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_36.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_34.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_32.s
+compile: input file ./Test/QuickCheck/Text.hs
+*** Checking old interface for Test.QuickCheck.Text:
+[ 3 of 15] Compiling Test.QuickCheck.Text ( Test/QuickCheck/Text.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Text.o )
+*** Parser [Test.QuickCheck.Text]:
+!!! Parser [Test.QuickCheck.Text]: finished in 2.00 milliseconds, allocated 3.370 megabytes
+*** Renamer/typechecker [Test.QuickCheck.Text]:
+!!! Renamer/typechecker [Test.QuickCheck.Text]: finished in 82.00 milliseconds, allocated 71.244 megabytes
+*** Desugar [Test.QuickCheck.Text]:
+Result size of Desugar (after optimization)
+  = {terms: 393, types: 378, coercions: 3}
+!!! Desugar [Test.QuickCheck.Text]: finished in 3.00 milliseconds, allocated 2.467 megabytes
+*** Simplifier [Test.QuickCheck.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 493, types: 477, coercions: 75}
+Result size of Simplifier iteration=2
+  = {terms: 507, types: 573, coercions: 130}
+Result size of Simplifier
+  = {terms: 507, types: 573, coercions: 130}
+!!! Simplifier [Test.QuickCheck.Text]: finished in 17.00 milliseconds, allocated 9.258 megabytes
+*** Specialise [Test.QuickCheck.Text]:
+Result size of Specialise
+  = {terms: 549, types: 613, coercions: 130}
+!!! Specialise [Test.QuickCheck.Text]: finished in 0.00 milliseconds, allocated 0.787 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Text]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 617, types: 693, coercions: 130}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Text]: finished in 3.00 milliseconds, allocated 3.235 megabytes
+*** Simplifier [Test.QuickCheck.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 876, types: 1,256, coercions: 247}
+Result size of Simplifier iteration=2
+  = {terms: 785, types: 1,013, coercions: 152}
+Result size of Simplifier
+  = {terms: 785, types: 1,013, coercions: 152}
+!!! Simplifier [Test.QuickCheck.Text]: finished in 32.00 milliseconds, allocated 25.531 megabytes
+*** Simplifier [Test.QuickCheck.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 713, types: 929, coercions: 173}
+Result size of Simplifier iteration=2
+  = {terms: 674, types: 878, coercions: 167}
+Result size of Simplifier iteration=3
+  = {terms: 670, types: 876, coercions: 167}
+Result size of Simplifier
+  = {terms: 670, types: 876, coercions: 167}
+!!! Simplifier [Test.QuickCheck.Text]: finished in 17.00 milliseconds, allocated 13.162 megabytes
+*** Simplifier [Test.QuickCheck.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 745, types: 919, coercions: 167}
+Result size of Simplifier iteration=2
+  = {terms: 735, types: 911, coercions: 167}
+Result size of Simplifier
+  = {terms: 735, types: 911, coercions: 167}
+!!! Simplifier [Test.QuickCheck.Text]: finished in 12.00 milliseconds, allocated 9.022 megabytes
+*** Float inwards [Test.QuickCheck.Text]:
+Result size of Float inwards
+  = {terms: 735, types: 911, coercions: 167}
+!!! Float inwards [Test.QuickCheck.Text]: finished in 0.00 milliseconds, allocated 1.010 megabytes
+*** Called arity analysis [Test.QuickCheck.Text]:
+Result size of Called arity analysis
+  = {terms: 735, types: 911, coercions: 167}
+!!! Called arity analysis [Test.QuickCheck.Text]: finished in 2.00 milliseconds, allocated 0.788 megabytes
+*** Simplifier [Test.QuickCheck.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 729, types: 908, coercions: 167}
+Result size of Simplifier
+  = {terms: 729, types: 908, coercions: 167}
+!!! Simplifier [Test.QuickCheck.Text]: finished in 6.00 milliseconds, allocated 5.845 megabytes
+*** Demand analysis [Test.QuickCheck.Text]:
+Result size of Demand analysis
+  = {terms: 729, types: 908, coercions: 167}
+!!! Demand analysis [Test.QuickCheck.Text]: finished in 3.00 milliseconds, allocated 2.890 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.Text]:
+Result size of Worker Wrapper binds
+  = {terms: 935, types: 1,172, coercions: 182}
+!!! Worker Wrapper binds [Test.QuickCheck.Text]: finished in 0.00 milliseconds, allocated 0.490 megabytes
+*** Simplifier [Test.QuickCheck.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 829, types: 1,083, coercions: 177}
+Result size of Simplifier iteration=2
+  = {terms: 776, types: 1,038, coercions: 173}
+Result size of Simplifier
+  = {terms: 776, types: 1,038, coercions: 173}
+!!! Simplifier [Test.QuickCheck.Text]: finished in 17.00 milliseconds, allocated 13.049 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Text]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 782, types: 1,044, coercions: 173}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Text]: finished in 3.00 milliseconds, allocated 2.830 megabytes
+*** Common sub-expression [Test.QuickCheck.Text]:
+Result size of Common sub-expression
+  = {terms: 762, types: 1,019, coercions: 166}
+!!! Common sub-expression [Test.QuickCheck.Text]: finished in 0.00 milliseconds, allocated 1.168 megabytes
+*** Float inwards [Test.QuickCheck.Text]:
+Result size of Float inwards
+  = {terms: 762, types: 1,019, coercions: 166}
+!!! Float inwards [Test.QuickCheck.Text]: finished in 2.00 milliseconds, allocated 0.991 megabytes
+*** Simplifier [Test.QuickCheck.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 750, types: 983, coercions: 166}
+Result size of Simplifier
+  = {terms: 750, types: 983, coercions: 166}
+!!! Simplifier [Test.QuickCheck.Text]: finished in 11.00 milliseconds, allocated 7.580 megabytes
+*** CoreTidy [Test.QuickCheck.Text]:
+Result size of Tidy Core = {terms: 732, types: 965, coercions: 160}
+!!! CoreTidy [Test.QuickCheck.Text]: finished in 2.00 milliseconds, allocated 1.556 megabytes
+writeBinIface: 97 Names
+writeBinIface: 196 dict entries
+writeBinIface: 97 Names
+writeBinIface: 196 dict entries
+*** CorePrep [Test.QuickCheck.Text]:
+Result size of CorePrep
+  = {terms: 915, types: 1,112, coercions: 160}
+!!! CorePrep [Test.QuickCheck.Text]: finished in 0.00 milliseconds, allocated 1.599 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Text]:
+!!! CodeGen [Test.QuickCheck.Text]: finished in 0.00 milliseconds, allocated 37.291 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_38.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Text.o
+*** CorePrep [Test.QuickCheck.Text]:
+Result size of CorePrep
+  = {terms: 915, types: 1,112, coercions: 160}
+!!! CorePrep [Test.QuickCheck.Text]: finished in 0.00 milliseconds, allocated 1.558 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Text]:
+!!! CodeGen [Test.QuickCheck.Text]: finished in 0.00 milliseconds, allocated 39.168 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_40.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Text.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_41.c /tmp/ghc7960_0/ghc_40.s /tmp/ghc7960_0/ghc_39.c /tmp/ghc7960_0/ghc_38.s /tmp/ghc7960_0/ghc_37.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_41.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_39.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_37.s
+compile: input file ./Test/QuickCheck/State.hs
+*** Checking old interface for Test.QuickCheck.State:
+[ 4 of 15] Compiling Test.QuickCheck.State ( Test/QuickCheck/State.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/State.o )
+*** Parser [Test.QuickCheck.State]:
+!!! Parser [Test.QuickCheck.State]: finished in 0.00 milliseconds, allocated 1.158 megabytes
+*** Renamer/typechecker [Test.QuickCheck.State]:
+!!! Renamer/typechecker [Test.QuickCheck.State]: finished in 25.00 milliseconds, allocated 41.641 megabytes
+*** Desugar [Test.QuickCheck.State]:
+Result size of Desugar (after optimization)
+  = {terms: 110, types: 345, coercions: 0}
+!!! Desugar [Test.QuickCheck.State]: finished in 1.00 milliseconds, allocated 1.037 megabytes
+*** Simplifier [Test.QuickCheck.State]:
+Result size of Simplifier iteration=1
+  = {terms: 118, types: 349, coercions: 0}
+Result size of Simplifier = {terms: 118, types: 349, coercions: 0}
+!!! Simplifier [Test.QuickCheck.State]: finished in 1.00 milliseconds, allocated 1.580 megabytes
+*** Specialise [Test.QuickCheck.State]:
+Result size of Specialise = {terms: 118, types: 349, coercions: 0}
+!!! Specialise [Test.QuickCheck.State]: finished in 0.00 milliseconds, allocated 0.316 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.State]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 118, types: 349, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.State]: finished in 1.00 milliseconds, allocated 0.625 megabytes
+*** Simplifier [Test.QuickCheck.State]:
+Result size of Simplifier = {terms: 118, types: 349, coercions: 0}
+!!! Simplifier [Test.QuickCheck.State]: finished in 0.00 milliseconds, allocated 0.788 megabytes
+*** Simplifier [Test.QuickCheck.State]:
+Result size of Simplifier = {terms: 118, types: 349, coercions: 0}
+!!! Simplifier [Test.QuickCheck.State]: finished in 1.00 milliseconds, allocated 0.786 megabytes
+*** Simplifier [Test.QuickCheck.State]:
+Result size of Simplifier = {terms: 118, types: 349, coercions: 0}
+!!! Simplifier [Test.QuickCheck.State]: finished in 1.00 milliseconds, allocated 0.787 megabytes
+*** Float inwards [Test.QuickCheck.State]:
+Result size of Float inwards
+  = {terms: 118, types: 349, coercions: 0}
+!!! Float inwards [Test.QuickCheck.State]: finished in 2.00 milliseconds, allocated 0.130 megabytes
+*** Called arity analysis [Test.QuickCheck.State]:
+Result size of Called arity analysis
+  = {terms: 118, types: 349, coercions: 0}
+!!! Called arity analysis [Test.QuickCheck.State]: finished in 0.00 milliseconds, allocated 0.156 megabytes
+*** Simplifier [Test.QuickCheck.State]:
+Result size of Simplifier = {terms: 118, types: 349, coercions: 0}
+!!! Simplifier [Test.QuickCheck.State]: finished in 0.00 milliseconds, allocated 0.786 megabytes
+*** Demand analysis [Test.QuickCheck.State]:
+Result size of Demand analysis
+  = {terms: 118, types: 349, coercions: 0}
+!!! Demand analysis [Test.QuickCheck.State]: finished in 1.00 milliseconds, allocated 0.750 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.State]:
+Result size of Worker Wrapper binds
+  = {terms: 118, types: 349, coercions: 0}
+!!! Worker Wrapper binds [Test.QuickCheck.State]: finished in 0.00 milliseconds, allocated 0.102 megabytes
+*** Simplifier [Test.QuickCheck.State]:
+Result size of Simplifier = {terms: 118, types: 349, coercions: 0}
+!!! Simplifier [Test.QuickCheck.State]: finished in 1.00 milliseconds, allocated 1.581 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.State]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 118, types: 349, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.State]: finished in 0.00 milliseconds, allocated 0.620 megabytes
+*** Common sub-expression [Test.QuickCheck.State]:
+Result size of Common sub-expression
+  = {terms: 118, types: 349, coercions: 0}
+!!! Common sub-expression [Test.QuickCheck.State]: finished in 0.00 milliseconds, allocated 0.710 megabytes
+*** Float inwards [Test.QuickCheck.State]:
+Result size of Float inwards
+  = {terms: 118, types: 349, coercions: 0}
+!!! Float inwards [Test.QuickCheck.State]: finished in 0.00 milliseconds, allocated 0.128 megabytes
+*** Simplifier [Test.QuickCheck.State]:
+Result size of Simplifier = {terms: 118, types: 349, coercions: 0}
+!!! Simplifier [Test.QuickCheck.State]: finished in 1.00 milliseconds, allocated 1.491 megabytes
+*** CoreTidy [Test.QuickCheck.State]:
+Result size of Tidy Core = {terms: 178, types: 410, coercions: 0}
+!!! CoreTidy [Test.QuickCheck.State]: finished in 1.00 milliseconds, allocated 0.816 megabytes
+writeBinIface: 29 Names
+writeBinIface: 91 dict entries
+writeBinIface: 29 Names
+writeBinIface: 91 dict entries
+*** CorePrep [Test.QuickCheck.State]:
+Result size of CorePrep = {terms: 208, types: 451, coercions: 0}
+!!! CorePrep [Test.QuickCheck.State]: finished in 1.00 milliseconds, allocated 0.671 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.State]:
+!!! CodeGen [Test.QuickCheck.State]: finished in 11.00 milliseconds, allocated 12.527 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_43.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/State.o
+*** CorePrep [Test.QuickCheck.State]:
+Result size of CorePrep = {terms: 208, types: 451, coercions: 0}
+!!! CorePrep [Test.QuickCheck.State]: finished in 0.00 milliseconds, allocated 0.607 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.State]:
+!!! CodeGen [Test.QuickCheck.State]: finished in 16.00 milliseconds, allocated 12.810 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_45.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/State.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_46.c /tmp/ghc7960_0/ghc_45.s /tmp/ghc7960_0/ghc_44.c /tmp/ghc7960_0/ghc_43.s /tmp/ghc7960_0/ghc_42.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_46.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_44.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_42.s
+compile: input file /tmp/ghc7960_0/ghc_5.hscpp
+*** Checking old interface for Test.QuickCheck.Gen:
+[ 5 of 15] Compiling Test.QuickCheck.Gen ( Test/QuickCheck/Gen.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Gen.o )
+*** Parser [Test.QuickCheck.Gen]:
+!!! Parser [Test.QuickCheck.Gen]: finished in 3.00 milliseconds, allocated 5.836 megabytes
+*** Renamer/typechecker [Test.QuickCheck.Gen]:
+!!! Renamer/typechecker [Test.QuickCheck.Gen]: finished in 163.00 milliseconds, allocated 70.298 megabytes
+*** Desugar [Test.QuickCheck.Gen]:
+Result size of Desugar (after optimization)
+  = {terms: 753, types: 842, coercions: 103}
+!!! Desugar [Test.QuickCheck.Gen]: finished in 5.00 milliseconds, allocated 4.475 megabytes
+*** Simplifier [Test.QuickCheck.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 843, types: 1,057, coercions: 186}
+Result size of Simplifier iteration=2
+  = {terms: 847, types: 1,117, coercions: 243}
+Result size of Simplifier
+  = {terms: 847, types: 1,117, coercions: 243}
+!!! Simplifier [Test.QuickCheck.Gen]: finished in 20.00 milliseconds, allocated 13.371 megabytes
+*** Specialise [Test.QuickCheck.Gen]:
+Result size of Specialise
+  = {terms: 1,016, types: 1,415, coercions: 243}
+!!! Specialise [Test.QuickCheck.Gen]: finished in 2.00 milliseconds, allocated 1.892 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Gen]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,332, types: 1,905, coercions: 243}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Gen]: finished in 5.00 milliseconds, allocated 6.259 megabytes
+*** Simplifier [Test.QuickCheck.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 1,867, types: 2,279, coercions: 628}
+Result size of Simplifier iteration=2
+  = {terms: 1,657, types: 2,237, coercions: 716}
+Result size of Simplifier iteration=3
+  = {terms: 1,599, types: 2,180, coercions: 684}
+Result size of Simplifier iteration=4
+  = {terms: 1,591, types: 2,159, coercions: 666}
+Result size of Simplifier
+  = {terms: 1,591, types: 2,159, coercions: 666}
+!!! Simplifier [Test.QuickCheck.Gen]: finished in 52.00 milliseconds, allocated 38.770 megabytes
+*** Simplifier [Test.QuickCheck.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 1,525, types: 1,992, coercions: 686}
+Result size of Simplifier iteration=2
+  = {terms: 1,528, types: 2,012, coercions: 679}
+Result size of Simplifier iteration=3
+  = {terms: 1,505, types: 1,985, coercions: 665}
+Result size of Simplifier
+  = {terms: 1,505, types: 1,985, coercions: 665}
+!!! Simplifier [Test.QuickCheck.Gen]: finished in 35.00 milliseconds, allocated 29.151 megabytes
+*** Simplifier [Test.QuickCheck.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 2,271, types: 2,940, coercions: 826}
+Result size of Simplifier iteration=2
+  = {terms: 1,898, types: 2,551, coercions: 794}
+Result size of Simplifier iteration=3
+  = {terms: 1,869, types: 2,507, coercions: 768}
+Result size of Simplifier
+  = {terms: 1,869, types: 2,507, coercions: 768}
+!!! Simplifier [Test.QuickCheck.Gen]: finished in 52.00 milliseconds, allocated 35.492 megabytes
+*** Float inwards [Test.QuickCheck.Gen]:
+Result size of Float inwards
+  = {terms: 1,869, types: 2,507, coercions: 768}
+!!! Float inwards [Test.QuickCheck.Gen]: finished in 2.00 milliseconds, allocated 2.701 megabytes
+*** Called arity analysis [Test.QuickCheck.Gen]:
+Result size of Called arity analysis
+  = {terms: 1,869, types: 2,507, coercions: 768}
+!!! Called arity analysis [Test.QuickCheck.Gen]: finished in 2.00 milliseconds, allocated 2.059 megabytes
+*** Simplifier [Test.QuickCheck.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 1,872, types: 2,508, coercions: 772}
+Result size of Simplifier iteration=2
+  = {terms: 1,871, types: 2,521, coercions: 781}
+Result size of Simplifier iteration=3
+  = {terms: 1,871, types: 2,521, coercions: 777}
+Result size of Simplifier
+  = {terms: 1,869, types: 2,511, coercions: 763}
+!!! Simplifier [Test.QuickCheck.Gen]: finished in 42.00 milliseconds, allocated 31.537 megabytes
+*** Demand analysis [Test.QuickCheck.Gen]:
+Result size of Demand analysis
+  = {terms: 1,869, types: 2,511, coercions: 763}
+!!! Demand analysis [Test.QuickCheck.Gen]: finished in 7.00 milliseconds, allocated 8.682 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.Gen]:
+Result size of Worker Wrapper binds
+  = {terms: 2,148, types: 2,833, coercions: 763}
+!!! Worker Wrapper binds [Test.QuickCheck.Gen]: finished in 2.00 milliseconds, allocated 0.857 megabytes
+*** Simplifier [Test.QuickCheck.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 1,999, types: 2,701, coercions: 767}
+Result size of Simplifier iteration=2
+  = {terms: 1,930, types: 2,624, coercions: 767}
+Result size of Simplifier
+  = {terms: 1,930, types: 2,624, coercions: 767}
+!!! Simplifier [Test.QuickCheck.Gen]: finished in 34.00 milliseconds, allocated 29.088 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Gen]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,082, types: 2,754, coercions: 767}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Gen]: finished in 9.00 milliseconds, allocated 8.356 megabytes
+*** Common sub-expression [Test.QuickCheck.Gen]:
+Result size of Common sub-expression
+  = {terms: 2,014, types: 2,705, coercions: 725}
+!!! Common sub-expression [Test.QuickCheck.Gen]: finished in 12.00 milliseconds, allocated 3.202 megabytes
+*** Float inwards [Test.QuickCheck.Gen]:
+Result size of Float inwards
+  = {terms: 2,014, types: 2,705, coercions: 725}
+!!! Float inwards [Test.QuickCheck.Gen]: finished in 2.00 milliseconds, allocated 2.565 megabytes
+*** Simplifier [Test.QuickCheck.Gen]:
+Result size of Simplifier iteration=1
+  = {terms: 1,945, types: 2,631, coercions: 760}
+Result size of Simplifier
+  = {terms: 1,938, types: 2,618, coercions: 760}
+!!! Simplifier [Test.QuickCheck.Gen]: finished in 21.00 milliseconds, allocated 18.719 megabytes
+*** CoreTidy [Test.QuickCheck.Gen]:
+Result size of Tidy Core
+  = {terms: 1,615, types: 2,067, coercions: 569}
+!!! CoreTidy [Test.QuickCheck.Gen]: finished in 4.00 milliseconds, allocated 3.738 megabytes
+writeBinIface: 125 Names
+writeBinIface: 268 dict entries
+writeBinIface: 125 Names
+writeBinIface: 268 dict entries
+*** CorePrep [Test.QuickCheck.Gen]:
+Result size of CorePrep
+  = {terms: 2,023, types: 2,399, coercions: 569}
+!!! CorePrep [Test.QuickCheck.Gen]: finished in 4.00 milliseconds, allocated 3.574 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Gen]:
+!!! CodeGen [Test.QuickCheck.Gen]: finished in 117.00 milliseconds, allocated 80.732 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_48.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Gen.o
+*** CorePrep [Test.QuickCheck.Gen]:
+Result size of CorePrep
+  = {terms: 2,023, types: 2,399, coercions: 569}
+!!! CorePrep [Test.QuickCheck.Gen]: finished in 5.00 milliseconds, allocated 3.457 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Gen]:
+!!! CodeGen [Test.QuickCheck.Gen]: finished in 91.00 milliseconds, allocated 84.479 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_50.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Gen.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_51.c /tmp/ghc7960_0/ghc_50.s /tmp/ghc7960_0/ghc_49.c /tmp/ghc7960_0/ghc_48.s /tmp/ghc7960_0/ghc_47.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_51.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_49.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_47.s
+compile: input file /tmp/ghc7960_0/ghc_7.hscpp
+*** Checking old interface for Test.QuickCheck.Gen.Unsafe:
+[ 6 of 15] Compiling Test.QuickCheck.Gen.Unsafe ( Test/QuickCheck/Gen/Unsafe.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Gen/Unsafe.o )
+*** Parser [Test.QuickCheck.Gen.Unsafe]:
+!!! Parser [Test.QuickCheck.Gen.Unsafe]: finished in 1.00 milliseconds, allocated 1.709 megabytes
+*** Renamer/typechecker [Test.QuickCheck.Gen.Unsafe]:
+!!! Renamer/typechecker [Test.QuickCheck.Gen.Unsafe]: finished in 4.00 milliseconds, allocated 1.600 megabytes
+*** Desugar [Test.QuickCheck.Gen.Unsafe]:
+Result size of Desugar (after optimization)
+  = {terms: 53, types: 67, coercions: 10}
+!!! Desugar [Test.QuickCheck.Gen.Unsafe]: finished in 1.00 milliseconds, allocated 0.469 megabytes
+*** Simplifier [Test.QuickCheck.Gen.Unsafe]:
+Result size of Simplifier iteration=1
+  = {terms: 67, types: 85, coercions: 25}
+Result size of Simplifier iteration=2
+  = {terms: 69, types: 100, coercions: 33}
+Result size of Simplifier = {terms: 69, types: 100, coercions: 33}
+!!! Simplifier [Test.QuickCheck.Gen.Unsafe]: finished in 2.00 milliseconds, allocated 0.857 megabytes
+*** Specialise [Test.QuickCheck.Gen.Unsafe]:
+Result size of Specialise = {terms: 69, types: 100, coercions: 33}
+!!! Specialise [Test.QuickCheck.Gen.Unsafe]: finished in 0.00 milliseconds, allocated 0.117 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Gen.Unsafe]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 69, types: 100, coercions: 33}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Gen.Unsafe]: finished in 1.00 milliseconds, allocated 0.362 megabytes
+*** Simplifier [Test.QuickCheck.Gen.Unsafe]:
+Result size of Simplifier iteration=1
+  = {terms: 92, types: 123, coercions: 41}
+Result size of Simplifier iteration=2
+  = {terms: 78, types: 106, coercions: 39}
+Result size of Simplifier = {terms: 78, types: 106, coercions: 39}
+!!! Simplifier [Test.QuickCheck.Gen.Unsafe]: finished in 2.00 milliseconds, allocated 1.268 megabytes
+*** Simplifier [Test.QuickCheck.Gen.Unsafe]:
+Result size of Simplifier = {terms: 78, types: 106, coercions: 39}
+!!! Simplifier [Test.QuickCheck.Gen.Unsafe]: finished in 1.00 milliseconds, allocated 0.336 megabytes
+*** Simplifier [Test.QuickCheck.Gen.Unsafe]:
+Result size of Simplifier = {terms: 78, types: 106, coercions: 39}
+!!! Simplifier [Test.QuickCheck.Gen.Unsafe]: finished in 1.00 milliseconds, allocated 0.339 megabytes
+*** Float inwards [Test.QuickCheck.Gen.Unsafe]:
+Result size of Float inwards
+  = {terms: 78, types: 106, coercions: 39}
+!!! Float inwards [Test.QuickCheck.Gen.Unsafe]: finished in 0.00 milliseconds, allocated 0.135 megabytes
+*** Called arity analysis [Test.QuickCheck.Gen.Unsafe]:
+Result size of Called arity analysis
+  = {terms: 78, types: 106, coercions: 39}
+!!! Called arity analysis [Test.QuickCheck.Gen.Unsafe]: finished in 0.00 milliseconds, allocated 0.126 megabytes
+*** Simplifier [Test.QuickCheck.Gen.Unsafe]:
+Result size of Simplifier = {terms: 78, types: 106, coercions: 39}
+!!! Simplifier [Test.QuickCheck.Gen.Unsafe]: finished in 1.00 milliseconds, allocated 0.339 megabytes
+*** Demand analysis [Test.QuickCheck.Gen.Unsafe]:
+Result size of Demand analysis
+  = {terms: 78, types: 106, coercions: 39}
+!!! Demand analysis [Test.QuickCheck.Gen.Unsafe]: finished in 1.00 milliseconds, allocated 0.302 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.Gen.Unsafe]:
+Result size of Worker Wrapper binds
+  = {terms: 78, types: 106, coercions: 39}
+!!! Worker Wrapper binds [Test.QuickCheck.Gen.Unsafe]: finished in 0.00 milliseconds, allocated 0.087 megabytes
+*** Simplifier [Test.QuickCheck.Gen.Unsafe]:
+Result size of Simplifier = {terms: 78, types: 106, coercions: 39}
+!!! Simplifier [Test.QuickCheck.Gen.Unsafe]: finished in 1.00 milliseconds, allocated 0.417 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Gen.Unsafe]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 78, types: 106, coercions: 39}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Gen.Unsafe]: finished in 0.00 milliseconds, allocated 0.359 megabytes
+*** Common sub-expression [Test.QuickCheck.Gen.Unsafe]:
+Result size of Common sub-expression
+  = {terms: 78, types: 106, coercions: 39}
+!!! Common sub-expression [Test.QuickCheck.Gen.Unsafe]: finished in 0.00 milliseconds, allocated 0.130 megabytes
+*** Float inwards [Test.QuickCheck.Gen.Unsafe]:
+Result size of Float inwards
+  = {terms: 78, types: 106, coercions: 39}
+!!! Float inwards [Test.QuickCheck.Gen.Unsafe]: finished in 0.00 milliseconds, allocated 0.134 megabytes
+*** Simplifier [Test.QuickCheck.Gen.Unsafe]:
+Result size of Simplifier = {terms: 78, types: 106, coercions: 39}
+!!! Simplifier [Test.QuickCheck.Gen.Unsafe]: finished in 1.00 milliseconds, allocated 0.400 megabytes
+*** CoreTidy [Test.QuickCheck.Gen.Unsafe]:
+Result size of Tidy Core = {terms: 78, types: 106, coercions: 39}
+!!! CoreTidy [Test.QuickCheck.Gen.Unsafe]: finished in 1.00 milliseconds, allocated 0.212 megabytes
+writeBinIface: 23 Names
+writeBinIface: 86 dict entries
+writeBinIface: 23 Names
+writeBinIface: 86 dict entries
+*** CorePrep [Test.QuickCheck.Gen.Unsafe]:
+Result size of CorePrep = {terms: 106, types: 140, coercions: 39}
+!!! CorePrep [Test.QuickCheck.Gen.Unsafe]: finished in 0.00 milliseconds, allocated 0.204 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Gen.Unsafe]:
+!!! CodeGen [Test.QuickCheck.Gen.Unsafe]: finished in 5.00 milliseconds, allocated 3.066 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck/Gen -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_53.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Gen/Unsafe.o
+*** CorePrep [Test.QuickCheck.Gen.Unsafe]:
+Result size of CorePrep = {terms: 106, types: 140, coercions: 39}
+!!! CorePrep [Test.QuickCheck.Gen.Unsafe]: finished in 0.00 milliseconds, allocated 0.203 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Gen.Unsafe]:
+!!! CodeGen [Test.QuickCheck.Gen.Unsafe]: finished in 5.00 milliseconds, allocated 3.149 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck/Gen -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_55.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Gen/Unsafe.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_56.c /tmp/ghc7960_0/ghc_55.s /tmp/ghc7960_0/ghc_54.c /tmp/ghc7960_0/ghc_53.s /tmp/ghc7960_0/ghc_52.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_56.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_54.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_52.s
+compile: input file /tmp/ghc7960_0/ghc_3.hscpp
+*** Checking old interface for Test.QuickCheck.Arbitrary:
+[ 7 of 15] Compiling Test.QuickCheck.Arbitrary ( Test/QuickCheck/Arbitrary.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Arbitrary.o )
+*** Parser [Test.QuickCheck.Arbitrary]:
+!!! Parser [Test.QuickCheck.Arbitrary]: finished in 10.00 milliseconds, allocated 22.653 megabytes
+*** Renamer/typechecker [Test.QuickCheck.Arbitrary]:
+!!! Renamer/typechecker [Test.QuickCheck.Arbitrary]: finished in 197.00 milliseconds, allocated 156.327 megabytes
+*** Desugar [Test.QuickCheck.Arbitrary]:
+Result size of Desugar (after optimization)
+  = {terms: 3,195, types: 6,272, coercions: 295}
+!!! Desugar [Test.QuickCheck.Arbitrary]: finished in 34.00 milliseconds, allocated 24.101 megabytes
+*** Simplifier [Test.QuickCheck.Arbitrary]:
+Result size of Simplifier iteration=1
+  = {terms: 3,085, types: 5,890, coercions: 779}
+Result size of Simplifier iteration=2
+  = {terms: 3,033, types: 5,838, coercions: 840}
+Result size of Simplifier
+  = {terms: 3,033, types: 5,838, coercions: 840}
+!!! Simplifier [Test.QuickCheck.Arbitrary]: finished in 79.00 milliseconds, allocated 49.554 megabytes
+*** Specialise [Test.QuickCheck.Arbitrary]:
+Result size of Specialise
+  = {terms: 7,401, types: 9,654, coercions: 872}
+!!! Specialise [Test.QuickCheck.Arbitrary]: finished in 29.00 milliseconds, allocated 13.333 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Arbitrary]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 8,787, types: 10,979, coercions: 872}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Arbitrary]: finished in 42.00 milliseconds, allocated 50.345 megabytes
+*** Simplifier [Test.QuickCheck.Arbitrary]:
+Result size of Simplifier iteration=1
+  = {terms: 14,226, types: 14,370, coercions: 2,804}
+Result size of Simplifier iteration=2
+  = {terms: 11,425, types: 11,790, coercions: 2,744}
+Result size of Simplifier iteration=3
+  = {terms: 11,537, types: 11,878, coercions: 2,842}
+Result size of Simplifier iteration=4
+  = {terms: 11,465, types: 11,807, coercions: 2,787}
+Result size of Simplifier
+  = {terms: 11,465, types: 11,807, coercions: 2,787}
+!!! Simplifier [Test.QuickCheck.Arbitrary]: finished in 380.00 milliseconds, allocated 279.761 megabytes
+*** Simplifier [Test.QuickCheck.Arbitrary]:
+Result size of Simplifier iteration=1
+  = {terms: 10,711, types: 11,450, coercions: 2,863}
+Result size of Simplifier iteration=2
+  = {terms: 10,275, types: 11,234, coercions: 2,843}
+Result size of Simplifier iteration=3
+  = {terms: 10,274, types: 11,232, coercions: 2,843}
+Result size of Simplifier iteration=4
+  = {terms: 10,274, types: 11,231, coercions: 2,843}
+Result size of Simplifier
+  = {terms: 10,274, types: 11,231, coercions: 2,843}
+!!! Simplifier [Test.QuickCheck.Arbitrary]: finished in 466.00 milliseconds, allocated 191.542 megabytes
+*** Simplifier [Test.QuickCheck.Arbitrary]:
+Result size of Simplifier iteration=1
+  = {terms: 14,716, types: 15,155, coercions: 2,843}
+Result size of Simplifier iteration=2
+  = {terms: 14,366, types: 14,984, coercions: 2,847}
+Result size of Simplifier iteration=3
+  = {terms: 14,269, types: 14,924, coercions: 2,847}
+Result size of Simplifier iteration=4
+  = {terms: 14,269, types: 14,924, coercions: 2,847}
+Result size of Simplifier
+  = {terms: 14,269, types: 14,924, coercions: 2,847}
+!!! Simplifier [Test.QuickCheck.Arbitrary]: finished in 316.00 milliseconds, allocated 241.492 megabytes
+*** Float inwards [Test.QuickCheck.Arbitrary]:
+Result size of Float inwards
+  = {terms: 14,269, types: 14,924, coercions: 2,847}
+!!! Float inwards [Test.QuickCheck.Arbitrary]: finished in 31.00 milliseconds, allocated 20.857 megabytes
+*** Called arity analysis [Test.QuickCheck.Arbitrary]:
+Result size of Called arity analysis
+  = {terms: 14,269, types: 14,924, coercions: 2,847}
+!!! Called arity analysis [Test.QuickCheck.Arbitrary]: finished in 13.00 milliseconds, allocated 18.487 megabytes
+*** Simplifier [Test.QuickCheck.Arbitrary]:
+Result size of Simplifier iteration=1
+  = {terms: 14,271, types: 14,895, coercions: 2,847}
+Result size of Simplifier iteration=2
+  = {terms: 14,355, types: 14,916, coercions: 2,847}
+Result size of Simplifier iteration=3
+  = {terms: 14,350, types: 14,911, coercions: 2,847}
+Result size of Simplifier iteration=4
+  = {terms: 14,355, types: 14,906, coercions: 2,847}
+Result size of Simplifier
+  = {terms: 14,355, types: 14,906, coercions: 2,847}
+!!! Simplifier [Test.QuickCheck.Arbitrary]: finished in 299.00 milliseconds, allocated 232.871 megabytes
+*** Demand analysis [Test.QuickCheck.Arbitrary]:
+Result size of Demand analysis
+  = {terms: 14,355, types: 14,906, coercions: 2,847}
+!!! Demand analysis [Test.QuickCheck.Arbitrary]: finished in 66.00 milliseconds, allocated 59.151 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.Arbitrary]:
+Result size of Worker Wrapper binds
+  = {terms: 16,743, types: 18,257, coercions: 2,871}
+!!! Worker Wrapper binds [Test.QuickCheck.Arbitrary]: finished in 34.00 milliseconds, allocated 7.142 megabytes
+*** Simplifier [Test.QuickCheck.Arbitrary]:
+Result size of Simplifier iteration=1
+  = {terms: 18,202, types: 18,466, coercions: 2,871}
+Result size of Simplifier iteration=2
+  = {terms: 15,836, types: 16,456, coercions: 2,855}
+Result size of Simplifier
+  = {terms: 15,836, types: 16,456, coercions: 2,855}
+!!! Simplifier [Test.QuickCheck.Arbitrary]: finished in 380.00 milliseconds, allocated 237.491 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Arbitrary]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 16,037, types: 16,810, coercions: 2,855}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Arbitrary]: finished in 106.00 milliseconds, allocated 64.781 megabytes
+*** Common sub-expression [Test.QuickCheck.Arbitrary]:
+Result size of Common sub-expression
+  = {terms: 15,539, types: 16,518, coercions: 2,782}
+!!! Common sub-expression [Test.QuickCheck.Arbitrary]: finished in 30.00 milliseconds, allocated 22.477 megabytes
+*** Float inwards [Test.QuickCheck.Arbitrary]:
+Result size of Float inwards
+  = {terms: 15,539, types: 16,518, coercions: 2,782}
+!!! Float inwards [Test.QuickCheck.Arbitrary]: finished in 37.00 milliseconds, allocated 20.900 megabytes
+*** Simplifier [Test.QuickCheck.Arbitrary]:
+Result size of Simplifier iteration=1
+  = {terms: 15,277, types: 16,212, coercions: 2,793}
+Result size of Simplifier
+  = {terms: 15,277, types: 16,212, coercions: 2,793}
+!!! Simplifier [Test.QuickCheck.Arbitrary]: finished in 240.00 milliseconds, allocated 135.389 megabytes
+*** CoreTidy [Test.QuickCheck.Arbitrary]:
+Result size of Tidy Core
+  = {terms: 11,771, types: 13,032, coercions: 2,472}
+!!! CoreTidy [Test.QuickCheck.Arbitrary]: finished in 54.00 milliseconds, allocated 23.789 megabytes
+writeBinIface: 601 Names
+writeBinIface: 846 dict entries
+writeBinIface: 601 Names
+writeBinIface: 846 dict entries
+*** CorePrep [Test.QuickCheck.Arbitrary]:
+Result size of CorePrep
+  = {terms: 15,389, types: 16,019, coercions: 2,472}
+!!! CorePrep [Test.QuickCheck.Arbitrary]: finished in 32.00 milliseconds, allocated 26.249 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Arbitrary]:
+!!! CodeGen [Test.QuickCheck.Arbitrary]: finished in 708.00 milliseconds, allocated 586.750 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_58.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Arbitrary.o
+*** CorePrep [Test.QuickCheck.Arbitrary]:
+Result size of CorePrep
+  = {terms: 15,389, types: 16,019, coercions: 2,472}
+!!! CorePrep [Test.QuickCheck.Arbitrary]: finished in 26.00 milliseconds, allocated 25.443 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Arbitrary]:
+!!! CodeGen [Test.QuickCheck.Arbitrary]: finished in 614.00 milliseconds, allocated 615.622 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_60.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Arbitrary.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_61.c /tmp/ghc7960_0/ghc_60.s /tmp/ghc7960_0/ghc_59.c /tmp/ghc7960_0/ghc_58.s /tmp/ghc7960_0/ghc_57.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_61.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_59.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_57.s
+compile: input file /tmp/ghc7960_0/ghc_11.hscpp
+*** Checking old interface for Test.QuickCheck.Modifiers:
+[ 8 of 15] Compiling Test.QuickCheck.Modifiers ( Test/QuickCheck/Modifiers.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Modifiers.o )
+*** Parser [Test.QuickCheck.Modifiers]:
+!!! Parser [Test.QuickCheck.Modifiers]: finished in 5.00 milliseconds, allocated 8.147 megabytes
+*** Renamer/typechecker [Test.QuickCheck.Modifiers]:
+!!! Renamer/typechecker [Test.QuickCheck.Modifiers]: finished in 254.00 milliseconds, allocated 229.035 megabytes
+*** Desugar [Test.QuickCheck.Modifiers]:
+Result size of Desugar (after optimization)
+  = {terms: 4,510, types: 8,156, coercions: 2,346}
+!!! Desugar [Test.QuickCheck.Modifiers]: finished in 48.00 milliseconds, allocated 26.092 megabytes
+*** Simplifier [Test.QuickCheck.Modifiers]:
+Result size of Simplifier iteration=1
+  = {terms: 3,914, types: 7,242, coercions: 3,991}
+Result size of Simplifier iteration=2
+  = {terms: 3,915, types: 7,287, coercions: 4,051}
+Result size of Simplifier
+  = {terms: 3,915, types: 7,287, coercions: 4,051}
+!!! Simplifier [Test.QuickCheck.Modifiers]: finished in 85.00 milliseconds, allocated 66.726 megabytes
+*** Specialise [Test.QuickCheck.Modifiers]:
+Result size of Specialise
+  = {terms: 4,003, types: 7,496, coercions: 4,051}
+!!! Specialise [Test.QuickCheck.Modifiers]: finished in 6.00 milliseconds, allocated 5.725 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Modifiers]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 4,718, types: 8,581, coercions: 4,051}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Modifiers]: finished in 26.00 milliseconds, allocated 27.715 megabytes
+*** Simplifier [Test.QuickCheck.Modifiers]:
+Result size of Simplifier iteration=1
+  = {terms: 7,387, types: 12,647, coercions: 8,760}
+Result size of Simplifier iteration=2
+  = {terms: 5,155, types: 8,828, coercions: 7,631}
+Result size of Simplifier iteration=3
+  = {terms: 5,083, types: 8,738, coercions: 7,429}
+Result size of Simplifier
+  = {terms: 5,083, types: 8,738, coercions: 7,429}
+!!! Simplifier [Test.QuickCheck.Modifiers]: finished in 254.00 milliseconds, allocated 176.394 megabytes
+*** Simplifier [Test.QuickCheck.Modifiers]:
+Result size of Simplifier iteration=1
+  = {terms: 4,766, types: 8,171, coercions: 7,602}
+Result size of Simplifier iteration=2
+  = {terms: 4,688, types: 8,109, coercions: 7,500}
+Result size of Simplifier iteration=3
+  = {terms: 4,670, types: 8,091, coercions: 7,500}
+Result size of Simplifier
+  = {terms: 4,670, types: 8,091, coercions: 7,500}
+!!! Simplifier [Test.QuickCheck.Modifiers]: finished in 178.00 milliseconds, allocated 111.812 megabytes
+*** Simplifier [Test.QuickCheck.Modifiers]:
+Result size of Simplifier iteration=1
+  = {terms: 6,265, types: 9,452, coercions: 7,572}
+Result size of Simplifier iteration=2
+  = {terms: 5,671, types: 8,941, coercions: 7,572}
+Result size of Simplifier
+  = {terms: 5,671, types: 8,941, coercions: 7,572}
+!!! Simplifier [Test.QuickCheck.Modifiers]: finished in 263.00 milliseconds, allocated 96.191 megabytes
+*** Float inwards [Test.QuickCheck.Modifiers]:
+Result size of Float inwards
+  = {terms: 5,671, types: 8,941, coercions: 7,572}
+!!! Float inwards [Test.QuickCheck.Modifiers]: finished in 7.00 milliseconds, allocated 9.341 megabytes
+*** Called arity analysis [Test.QuickCheck.Modifiers]:
+Result size of Called arity analysis
+  = {terms: 5,671, types: 8,941, coercions: 7,572}
+!!! Called arity analysis [Test.QuickCheck.Modifiers]: finished in 8.00 milliseconds, allocated 7.354 megabytes
+*** Simplifier [Test.QuickCheck.Modifiers]:
+Result size of Simplifier
+  = {terms: 5,671, types: 8,941, coercions: 7,572}
+!!! Simplifier [Test.QuickCheck.Modifiers]: finished in 44.00 milliseconds, allocated 30.056 megabytes
+*** Demand analysis [Test.QuickCheck.Modifiers]:
+Result size of Demand analysis
+  = {terms: 5,671, types: 8,941, coercions: 7,572}
+!!! Demand analysis [Test.QuickCheck.Modifiers]: finished in 16.00 milliseconds, allocated 20.949 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.Modifiers]:
+Result size of Worker Wrapper binds
+  = {terms: 5,990, types: 9,375, coercions: 7,572}
+!!! Worker Wrapper binds [Test.QuickCheck.Modifiers]: finished in 4.00 milliseconds, allocated 2.318 megabytes
+*** Simplifier [Test.QuickCheck.Modifiers]:
+Result size of Simplifier iteration=1
+  = {terms: 5,878, types: 9,261, coercions: 7,582}
+Result size of Simplifier iteration=2
+  = {terms: 5,821, types: 9,172, coercions: 7,572}
+Result size of Simplifier
+  = {terms: 5,821, types: 9,172, coercions: 7,572}
+!!! Simplifier [Test.QuickCheck.Modifiers]: finished in 140.00 milliseconds, allocated 117.046 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Modifiers]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 5,852, types: 9,244, coercions: 7,572}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Modifiers]: finished in 37.00 milliseconds, allocated 33.705 megabytes
+*** Common sub-expression [Test.QuickCheck.Modifiers]:
+Result size of Common sub-expression
+  = {terms: 5,714, types: 9,124, coercions: 7,424}
+!!! Common sub-expression [Test.QuickCheck.Modifiers]: finished in 14.00 milliseconds, allocated 12.421 megabytes
+*** Float inwards [Test.QuickCheck.Modifiers]:
+Result size of Float inwards
+  = {terms: 5,714, types: 9,124, coercions: 7,424}
+!!! Float inwards [Test.QuickCheck.Modifiers]: finished in 8.00 milliseconds, allocated 9.388 megabytes
+*** Simplifier [Test.QuickCheck.Modifiers]:
+Result size of Simplifier iteration=1
+  = {terms: 5,558, types: 8,921, coercions: 7,564}
+Result size of Simplifier
+  = {terms: 5,558, types: 8,921, coercions: 7,564}
+!!! Simplifier [Test.QuickCheck.Modifiers]: finished in 97.00 milliseconds, allocated 74.147 megabytes
+*** CoreTidy [Test.QuickCheck.Modifiers]:
+Result size of Tidy Core
+  = {terms: 5,552, types: 8,880, coercions: 7,424}
+!!! CoreTidy [Test.QuickCheck.Modifiers]: finished in 16.00 milliseconds, allocated 13.471 megabytes
+writeBinIface: 717 Names
+writeBinIface: 857 dict entries
+writeBinIface: 717 Names
+writeBinIface: 857 dict entries
+*** CorePrep [Test.QuickCheck.Modifiers]:
+Result size of CorePrep
+  = {terms: 8,359, types: 13,377, coercions: 7,424}
+!!! CorePrep [Test.QuickCheck.Modifiers]: finished in 15.00 milliseconds, allocated 14.500 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Modifiers]:
+!!! CodeGen [Test.QuickCheck.Modifiers]: finished in 475.00 milliseconds, allocated 424.935 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_63.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Modifiers.o
+*** CorePrep [Test.QuickCheck.Modifiers]:
+Result size of CorePrep
+  = {terms: 8,359, types: 13,377, coercions: 7,424}
+!!! CorePrep [Test.QuickCheck.Modifiers]: finished in 15.00 milliseconds, allocated 13.993 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Modifiers]:
+!!! CodeGen [Test.QuickCheck.Modifiers]: finished in 507.00 milliseconds, allocated 446.796 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_65.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Modifiers.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_66.c /tmp/ghc7960_0/ghc_65.s /tmp/ghc7960_0/ghc_64.c /tmp/ghc7960_0/ghc_63.s /tmp/ghc7960_0/ghc_62.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_66.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_64.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_62.s
+compile: input file /tmp/ghc7960_0/ghc_13.hscpp
+*** Checking old interface for Test.QuickCheck.Property:
+[ 9 of 15] Compiling Test.QuickCheck.Property ( Test/QuickCheck/Property.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Property.o )
+*** Parser [Test.QuickCheck.Property]:
+!!! Parser [Test.QuickCheck.Property]: finished in 9.00 milliseconds, allocated 16.157 megabytes
+*** Renamer/typechecker [Test.QuickCheck.Property]:
+!!! Renamer/typechecker [Test.QuickCheck.Property]: finished in 37.00 milliseconds, allocated 30.603 megabytes
+*** Desugar [Test.QuickCheck.Property]:
+Result size of Desugar (after optimization)
+  = {terms: 1,874, types: 2,475, coercions: 36}
+!!! Desugar [Test.QuickCheck.Property]: finished in 14.00 milliseconds, allocated 11.417 megabytes
+*** Simplifier [Test.QuickCheck.Property]:
+Result size of Simplifier iteration=1
+  = {terms: 1,998, types: 2,633, coercions: 224}
+Result size of Simplifier iteration=2
+  = {terms: 1,928, types: 2,594, coercions: 256}
+Result size of Simplifier
+  = {terms: 1,928, types: 2,594, coercions: 256}
+!!! Simplifier [Test.QuickCheck.Property]: finished in 41.00 milliseconds, allocated 28.195 megabytes
+*** Specialise [Test.QuickCheck.Property]:
+Result size of Specialise
+  = {terms: 3,607, types: 4,721, coercions: 374}
+!!! Specialise [Test.QuickCheck.Property]: finished in 8.00 milliseconds, allocated 7.495 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Property]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 4,009, types: 5,590, coercions: 374}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Property]: finished in 20.00 milliseconds, allocated 23.684 megabytes
+*** Simplifier [Test.QuickCheck.Property]:
+Result size of Simplifier iteration=1
+  = {terms: 5,478, types: 7,467, coercions: 1,541}
+Result size of Simplifier iteration=2
+  = {terms: 4,112, types: 5,756, coercions: 1,081}
+Result size of Simplifier iteration=3
+  = {terms: 4,115, types: 5,737, coercions: 971}
+Result size of Simplifier iteration=4
+  = {terms: 4,115, types: 5,735, coercions: 971}
+Result size of Simplifier
+  = {terms: 4,115, types: 5,735, coercions: 971}
+!!! Simplifier [Test.QuickCheck.Property]: finished in 158.00 milliseconds, allocated 107.914 megabytes
+*** Simplifier [Test.QuickCheck.Property]:
+Result size of Simplifier iteration=1
+  = {terms: 3,916, types: 5,433, coercions: 985}
+Result size of Simplifier
+  = {terms: 3,812, types: 5,255, coercions: 971}
+!!! Simplifier [Test.QuickCheck.Property]: finished in 47.00 milliseconds, allocated 37.333 megabytes
+*** Simplifier [Test.QuickCheck.Property]:
+Result size of Simplifier iteration=1
+  = {terms: 4,307, types: 6,190, coercions: 1,025}
+Result size of Simplifier iteration=2
+  = {terms: 4,264, types: 6,136, coercions: 1,025}
+Result size of Simplifier
+  = {terms: 4,264, types: 6,136, coercions: 1,025}
+!!! Simplifier [Test.QuickCheck.Property]: finished in 73.00 milliseconds, allocated 54.854 megabytes
+*** Float inwards [Test.QuickCheck.Property]:
+Result size of Float inwards
+  = {terms: 4,264, types: 6,136, coercions: 1,025}
+!!! Float inwards [Test.QuickCheck.Property]: finished in 5.00 milliseconds, allocated 6.072 megabytes
+*** Called arity analysis [Test.QuickCheck.Property]:
+Result size of Called arity analysis
+  = {terms: 4,264, types: 6,136, coercions: 1,025}
+!!! Called arity analysis [Test.QuickCheck.Property]: finished in 6.00 milliseconds, allocated 7.271 megabytes
+*** Simplifier [Test.QuickCheck.Property]:
+Result size of Simplifier iteration=1
+  = {terms: 4,271, types: 6,158, coercions: 1,087}
+Result size of Simplifier
+  = {terms: 4,267, types: 6,140, coercions: 1,023}
+!!! Simplifier [Test.QuickCheck.Property]: finished in 55.00 milliseconds, allocated 36.450 megabytes
+*** Demand analysis [Test.QuickCheck.Property]:
+Result size of Demand analysis
+  = {terms: 4,267, types: 6,140, coercions: 1,023}
+!!! Demand analysis [Test.QuickCheck.Property]: finished in 16.00 milliseconds, allocated 20.657 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.Property]:
+Result size of Worker Wrapper binds
+  = {terms: 4,581, types: 6,719, coercions: 1,028}
+!!! Worker Wrapper binds [Test.QuickCheck.Property]: finished in 4.00 milliseconds, allocated 2.078 megabytes
+*** Simplifier [Test.QuickCheck.Property]:
+Result size of Simplifier iteration=1
+  = {terms: 4,459, types: 6,577, coercions: 1,037}
+Result size of Simplifier iteration=2
+  = {terms: 4,349, types: 6,294, coercions: 1,041}
+Result size of Simplifier iteration=3
+  = {terms: 4,315, types: 6,219, coercions: 1,023}
+Result size of Simplifier
+  = {terms: 4,315, types: 6,219, coercions: 1,023}
+!!! Simplifier [Test.QuickCheck.Property]: finished in 112.00 milliseconds, allocated 86.728 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Property]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,428, types: 6,451, coercions: 1,023}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Property]: finished in 27.00 milliseconds, allocated 22.634 megabytes
+*** Common sub-expression [Test.QuickCheck.Property]:
+Result size of Common sub-expression
+  = {terms: 4,275, types: 6,217, coercions: 995}
+!!! Common sub-expression [Test.QuickCheck.Property]: finished in 7.00 milliseconds, allocated 6.503 megabytes
+*** Float inwards [Test.QuickCheck.Property]:
+Result size of Float inwards
+  = {terms: 4,275, types: 6,217, coercions: 995}
+!!! Float inwards [Test.QuickCheck.Property]: finished in 5.00 milliseconds, allocated 6.020 megabytes
+*** Simplifier [Test.QuickCheck.Property]:
+Result size of Simplifier iteration=1
+  = {terms: 4,204, types: 6,115, coercions: 1,050}
+Result size of Simplifier iteration=2
+  = {terms: 4,198, types: 6,105, coercions: 1,040}
+Result size of Simplifier
+  = {terms: 4,198, types: 6,105, coercions: 1,040}
+!!! Simplifier [Test.QuickCheck.Property]: finished in 80.00 milliseconds, allocated 62.065 megabytes
+*** CoreTidy [Test.QuickCheck.Property]:
+Result size of Tidy Core
+  = {terms: 3,787, types: 5,469, coercions: 926}
+!!! CoreTidy [Test.QuickCheck.Property]: finished in 10.00 milliseconds, allocated 8.713 megabytes
+writeBinIface: 283 Names
+writeBinIface: 509 dict entries
+writeBinIface: 283 Names
+writeBinIface: 509 dict entries
+*** CorePrep [Test.QuickCheck.Property]:
+Result size of CorePrep
+  = {terms: 4,702, types: 6,481, coercions: 926}
+!!! CorePrep [Test.QuickCheck.Property]: finished in 8.00 milliseconds, allocated 9.233 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Property]:
+!!! CodeGen [Test.QuickCheck.Property]: finished in 259.00 milliseconds, allocated 238.202 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_68.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Property.o
+*** CorePrep [Test.QuickCheck.Property]:
+Result size of CorePrep
+  = {terms: 4,702, types: 6,481, coercions: 926}
+!!! CorePrep [Test.QuickCheck.Property]: finished in 9.00 milliseconds, allocated 8.925 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Property]:
+!!! CodeGen [Test.QuickCheck.Property]: finished in 285.00 milliseconds, allocated 249.317 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_70.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Property.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_71.c /tmp/ghc7960_0/ghc_70.s /tmp/ghc7960_0/ghc_69.c /tmp/ghc7960_0/ghc_68.s /tmp/ghc7960_0/ghc_67.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_71.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_69.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_67.s
+compile: input file /tmp/ghc7960_0/ghc_9.hscpp
+*** Checking old interface for Test.QuickCheck.Monadic:
+[10 of 15] Compiling Test.QuickCheck.Monadic ( Test/QuickCheck/Monadic.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Monadic.o )
+*** Parser [Test.QuickCheck.Monadic]:
+!!! Parser [Test.QuickCheck.Monadic]: finished in 3.00 milliseconds, allocated 4.879 megabytes
+*** Renamer/typechecker [Test.QuickCheck.Monadic]:
+!!! Renamer/typechecker [Test.QuickCheck.Monadic]: finished in 22.00 milliseconds, allocated 11.474 megabytes
+*** Desugar [Test.QuickCheck.Monadic]:
+Result size of Desugar (after optimization)
+  = {terms: 404, types: 1,011, coercions: 44}
+!!! Desugar [Test.QuickCheck.Monadic]: finished in 10.00 milliseconds, allocated 3.572 megabytes
+*** Simplifier [Test.QuickCheck.Monadic]:
+Result size of Simplifier iteration=1
+  = {terms: 415, types: 1,110, coercions: 191}
+Result size of Simplifier iteration=2
+  = {terms: 405, types: 1,130, coercions: 229}
+Result size of Simplifier
+  = {terms: 405, types: 1,130, coercions: 229}
+!!! Simplifier [Test.QuickCheck.Monadic]: finished in 11.00 milliseconds, allocated 5.622 megabytes
+*** Specialise [Test.QuickCheck.Monadic]:
+Result size of Specialise
+  = {terms: 439, types: 1,198, coercions: 232}
+!!! Specialise [Test.QuickCheck.Monadic]: finished in 2.00 milliseconds, allocated 0.727 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Monadic]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 464, types: 1,275, coercions: 232}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Monadic]: finished in 3.00 milliseconds, allocated 3.268 megabytes
+*** Simplifier [Test.QuickCheck.Monadic]:
+Result size of Simplifier iteration=1
+  = {terms: 830, types: 1,841, coercions: 862}
+Result size of Simplifier iteration=2
+  = {terms: 692, types: 1,657, coercions: 840}
+Result size of Simplifier iteration=3
+  = {terms: 697, types: 1,695, coercions: 907}
+Result size of Simplifier
+  = {terms: 697, types: 1,695, coercions: 907}
+!!! Simplifier [Test.QuickCheck.Monadic]: finished in 26.00 milliseconds, allocated 18.878 megabytes
+*** Simplifier [Test.QuickCheck.Monadic]:
+Result size of Simplifier iteration=1
+  = {terms: 695, types: 1,691, coercions: 907}
+Result size of Simplifier
+  = {terms: 695, types: 1,691, coercions: 907}
+!!! Simplifier [Test.QuickCheck.Monadic]: finished in 15.00 milliseconds, allocated 7.235 megabytes
+*** Simplifier [Test.QuickCheck.Monadic]:
+Result size of Simplifier iteration=1
+  = {terms: 737, types: 1,751, coercions: 948}
+Result size of Simplifier iteration=2
+  = {terms: 733, types: 1,749, coercions: 933}
+Result size of Simplifier
+  = {terms: 733, types: 1,749, coercions: 933}
+!!! Simplifier [Test.QuickCheck.Monadic]: finished in 24.00 milliseconds, allocated 11.490 megabytes
+*** Float inwards [Test.QuickCheck.Monadic]:
+Result size of Float inwards
+  = {terms: 733, types: 1,749, coercions: 933}
+!!! Float inwards [Test.QuickCheck.Monadic]: finished in 1.00 milliseconds, allocated 1.084 megabytes
+*** Called arity analysis [Test.QuickCheck.Monadic]:
+Result size of Called arity analysis
+  = {terms: 733, types: 1,749, coercions: 933}
+!!! Called arity analysis [Test.QuickCheck.Monadic]: finished in 1.00 milliseconds, allocated 1.084 megabytes
+*** Simplifier [Test.QuickCheck.Monadic]:
+Result size of Simplifier
+  = {terms: 733, types: 1,749, coercions: 933}
+!!! Simplifier [Test.QuickCheck.Monadic]: finished in 6.00 milliseconds, allocated 3.794 megabytes
+*** Demand analysis [Test.QuickCheck.Monadic]:
+Result size of Demand analysis
+  = {terms: 733, types: 1,749, coercions: 933}
+!!! Demand analysis [Test.QuickCheck.Monadic]: finished in 3.00 milliseconds, allocated 3.179 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.Monadic]:
+Result size of Worker Wrapper binds
+  = {terms: 752, types: 1,796, coercions: 933}
+!!! Worker Wrapper binds [Test.QuickCheck.Monadic]: finished in 1.00 milliseconds, allocated 0.363 megabytes
+*** Simplifier [Test.QuickCheck.Monadic]:
+Result size of Simplifier iteration=1
+  = {terms: 744, types: 1,780, coercions: 933}
+Result size of Simplifier
+  = {terms: 744, types: 1,780, coercions: 933}
+!!! Simplifier [Test.QuickCheck.Monadic]: finished in 16.00 milliseconds, allocated 10.055 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Monadic]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 791, types: 1,976, coercions: 933}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Monadic]: finished in 4.00 milliseconds, allocated 4.568 megabytes
+*** Common sub-expression [Test.QuickCheck.Monadic]:
+Result size of Common sub-expression
+  = {terms: 776, types: 1,950, coercions: 910}
+!!! Common sub-expression [Test.QuickCheck.Monadic]: finished in 2.00 milliseconds, allocated 1.272 megabytes
+*** Float inwards [Test.QuickCheck.Monadic]:
+Result size of Float inwards
+  = {terms: 776, types: 1,950, coercions: 910}
+!!! Float inwards [Test.QuickCheck.Monadic]: finished in 1.00 milliseconds, allocated 1.162 megabytes
+*** Simplifier [Test.QuickCheck.Monadic]:
+Result size of Simplifier iteration=1
+  = {terms: 770, types: 1,915, coercions: 922}
+Result size of Simplifier
+  = {terms: 766, types: 1,913, coercions: 910}
+!!! Simplifier [Test.QuickCheck.Monadic]: finished in 13.00 milliseconds, allocated 9.995 megabytes
+*** CoreTidy [Test.QuickCheck.Monadic]:
+Result size of Tidy Core
+  = {terms: 706, types: 1,778, coercions: 843}
+!!! CoreTidy [Test.QuickCheck.Monadic]: finished in 2.00 milliseconds, allocated 2.085 megabytes
+writeBinIface: 114 Names
+writeBinIface: 239 dict entries
+writeBinIface: 114 Names
+writeBinIface: 239 dict entries
+*** CorePrep [Test.QuickCheck.Monadic]:
+Result size of CorePrep
+  = {terms: 1,051, types: 2,403, coercions: 843}
+!!! CorePrep [Test.QuickCheck.Monadic]: finished in 3.00 milliseconds, allocated 1.962 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Monadic]:
+!!! CodeGen [Test.QuickCheck.Monadic]: finished in 68.00 milliseconds, allocated 43.697 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_73.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Monadic.o
+*** CorePrep [Test.QuickCheck.Monadic]:
+Result size of CorePrep
+  = {terms: 1,051, types: 2,403, coercions: 843}
+!!! CorePrep [Test.QuickCheck.Monadic]: finished in 3.00 milliseconds, allocated 1.920 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Monadic]:
+!!! CodeGen [Test.QuickCheck.Monadic]: finished in 74.00 milliseconds, allocated 45.754 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_75.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Monadic.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_76.c /tmp/ghc7960_0/ghc_75.s /tmp/ghc7960_0/ghc_74.c /tmp/ghc7960_0/ghc_73.s /tmp/ghc7960_0/ghc_72.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_76.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_74.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_72.s
+compile: input file /tmp/ghc7960_0/ghc_15.hscpp
+*** Checking old interface for Test.QuickCheck.Test:
+[11 of 15] Compiling Test.QuickCheck.Test ( Test/QuickCheck/Test.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Test.o )
+*** Parser [Test.QuickCheck.Test]:
+!!! Parser [Test.QuickCheck.Test]: finished in 6.00 milliseconds, allocated 14.210 megabytes
+*** Renamer/typechecker [Test.QuickCheck.Test]:
+!!! Renamer/typechecker [Test.QuickCheck.Test]: finished in 62.00 milliseconds, allocated 37.754 megabytes
+*** Desugar [Test.QuickCheck.Test]:
+Result size of Desugar (after optimization)
+  = {terms: 2,613, types: 2,455, coercions: 0}
+!!! Desugar [Test.QuickCheck.Test]: finished in 18.00 milliseconds, allocated 11.977 megabytes
+*** Simplifier [Test.QuickCheck.Test]:
+Result size of Simplifier iteration=1
+  = {terms: 2,783, types: 2,791, coercions: 80}
+Result size of Simplifier iteration=2
+  = {terms: 2,700, types: 2,744, coercions: 133}
+Result size of Simplifier
+  = {terms: 2,700, types: 2,744, coercions: 139}
+!!! Simplifier [Test.QuickCheck.Test]: finished in 74.00 milliseconds, allocated 43.518 megabytes
+*** Specialise [Test.QuickCheck.Test]:
+Result size of Specialise
+  = {terms: 4,094, types: 4,620, coercions: 169}
+!!! Specialise [Test.QuickCheck.Test]: finished in 11.00 milliseconds, allocated 7.443 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Test]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 5,138, types: 6,305, coercions: 169}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Test]: finished in 28.00 milliseconds, allocated 25.043 megabytes
+*** Simplifier [Test.QuickCheck.Test]:
+Result size of Simplifier iteration=1
+  = {terms: 7,991, types: 10,616, coercions: 1,138}
+Result size of Simplifier iteration=2
+  = {terms: 5,860, types: 7,783, coercions: 715}
+Result size of Simplifier iteration=3
+  = {terms: 5,797, types: 7,662, coercions: 660}
+Result size of Simplifier iteration=4
+  = {terms: 5,795, types: 7,659, coercions: 655}
+Result size of Simplifier
+  = {terms: 5,795, types: 7,659, coercions: 655}
+!!! Simplifier [Test.QuickCheck.Test]: finished in 294.00 milliseconds, allocated 200.701 megabytes
+*** Simplifier [Test.QuickCheck.Test]:
+Result size of Simplifier iteration=1
+  = {terms: 5,086, types: 6,554, coercions: 655}
+Result size of Simplifier iteration=2
+  = {terms: 4,961, types: 6,471, coercions: 655}
+Result size of Simplifier
+  = {terms: 4,961, types: 6,471, coercions: 655}
+!!! Simplifier [Test.QuickCheck.Test]: finished in 101.00 milliseconds, allocated 92.714 megabytes
+*** Simplifier [Test.QuickCheck.Test]:
+Result size of Simplifier iteration=1
+  = {terms: 7,471, types: 9,275, coercions: 828}
+Result size of Simplifier iteration=2
+  = {terms: 7,071, types: 8,838, coercions: 770}
+Result size of Simplifier iteration=3
+  = {terms: 7,008, types: 8,721, coercions: 714}
+Result size of Simplifier
+  = {terms: 7,008, types: 8,721, coercions: 714}
+!!! Simplifier [Test.QuickCheck.Test]: finished in 172.00 milliseconds, allocated 133.786 megabytes
+*** Float inwards [Test.QuickCheck.Test]:
+Result size of Float inwards
+  = {terms: 7,008, types: 8,721, coercions: 714}
+!!! Float inwards [Test.QuickCheck.Test]: finished in 10.00 milliseconds, allocated 10.998 megabytes
+*** Called arity analysis [Test.QuickCheck.Test]:
+Result size of Called arity analysis
+  = {terms: 7,008, types: 8,721, coercions: 714}
+!!! Called arity analysis [Test.QuickCheck.Test]: finished in 7.00 milliseconds, allocated 7.313 megabytes
+*** Simplifier [Test.QuickCheck.Test]:
+Result size of Simplifier iteration=1
+  = {terms: 6,956, types: 8,549, coercions: 714}
+Result size of Simplifier iteration=2
+  = {terms: 6,944, types: 8,542, coercions: 714}
+Result size of Simplifier
+  = {terms: 6,944, types: 8,542, coercions: 714}
+!!! Simplifier [Test.QuickCheck.Test]: finished in 120.00 milliseconds, allocated 87.694 megabytes
+*** Demand analysis [Test.QuickCheck.Test]:
+Result size of Demand analysis
+  = {terms: 6,944, types: 8,542, coercions: 714}
+!!! Demand analysis [Test.QuickCheck.Test]: finished in 47.00 milliseconds, allocated 35.128 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.Test]:
+Result size of Worker Wrapper binds
+  = {terms: 8,807, types: 11,226, coercions: 770}
+!!! Worker Wrapper binds [Test.QuickCheck.Test]: finished in 4.00 milliseconds, allocated 3.586 megabytes
+*** Simplifier [Test.QuickCheck.Test]:
+Result size of Simplifier iteration=1
+  = {terms: 8,415, types: 10,189, coercions: 729}
+Result size of Simplifier iteration=2
+  = {terms: 7,882, types: 9,698, coercions: 721}
+Result size of Simplifier
+  = {terms: 7,882, types: 9,698, coercions: 721}
+!!! Simplifier [Test.QuickCheck.Test]: finished in 150.00 milliseconds, allocated 119.341 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Test]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 7,990, types: 9,896, coercions: 721}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Test]: finished in 38.00 milliseconds, allocated 35.349 megabytes
+*** Common sub-expression [Test.QuickCheck.Test]:
+Result size of Common sub-expression
+  = {terms: 7,802, types: 9,707, coercions: 694}
+!!! Common sub-expression [Test.QuickCheck.Test]: finished in 12.00 milliseconds, allocated 11.172 megabytes
+*** Float inwards [Test.QuickCheck.Test]:
+Result size of Float inwards
+  = {terms: 7,802, types: 9,707, coercions: 694}
+!!! Float inwards [Test.QuickCheck.Test]: finished in 15.00 milliseconds, allocated 11.460 megabytes
+*** Simplifier [Test.QuickCheck.Test]:
+Result size of Simplifier iteration=1
+  = {terms: 7,643, types: 9,502, coercions: 694}
+Result size of Simplifier
+  = {terms: 7,643, types: 9,502, coercions: 694}
+!!! Simplifier [Test.QuickCheck.Test]: finished in 81.00 milliseconds, allocated 71.432 megabytes
+*** CoreTidy [Test.QuickCheck.Test]:
+Result size of Tidy Core
+  = {terms: 6,471, types: 7,772, coercions: 655}
+!!! CoreTidy [Test.QuickCheck.Test]: finished in 26.00 milliseconds, allocated 11.503 megabytes
+writeBinIface: 236 Names
+writeBinIface: 493 dict entries
+writeBinIface: 236 Names
+writeBinIface: 493 dict entries
+*** CorePrep [Test.QuickCheck.Test]:
+Result size of CorePrep
+  = {terms: 7,876, types: 9,086, coercions: 655}
+!!! CorePrep [Test.QuickCheck.Test]: finished in 13.00 milliseconds, allocated 15.351 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Test]:
+!!! CodeGen [Test.QuickCheck.Test]: finished in 411.00 milliseconds, allocated 428.273 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_78.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Test.o
+*** CorePrep [Test.QuickCheck.Test]:
+Result size of CorePrep
+  = {terms: 7,876, types: 9,086, coercions: 655}
+!!! CorePrep [Test.QuickCheck.Test]: finished in 17.00 milliseconds, allocated 14.402 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Test]:
+!!! CodeGen [Test.QuickCheck.Test]: finished in 532.00 milliseconds, allocated 450.700 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_80.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Test.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_81.c /tmp/ghc7960_0/ghc_80.s /tmp/ghc7960_0/ghc_79.c /tmp/ghc7960_0/ghc_78.s /tmp/ghc7960_0/ghc_77.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_81.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_79.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_77.s
+compile: input file /tmp/ghc7960_0/ghc_17.hscpp
+*** Checking old interface for Test.QuickCheck.Poly:
+[12 of 15] Compiling Test.QuickCheck.Poly ( Test/QuickCheck/Poly.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Poly.o )
+*** Parser [Test.QuickCheck.Poly]:
+!!! Parser [Test.QuickCheck.Poly]: finished in 2.00 milliseconds, allocated 3.486 megabytes
+*** Renamer/typechecker [Test.QuickCheck.Poly]:
+!!! Renamer/typechecker [Test.QuickCheck.Poly]: finished in 37.00 milliseconds, allocated 23.489 megabytes
+*** Desugar [Test.QuickCheck.Poly]:
+Result size of Desugar (after optimization)
+  = {terms: 777, types: 703, coercions: 414}
+!!! Desugar [Test.QuickCheck.Poly]: finished in 6.00 milliseconds, allocated 5.337 megabytes
+*** Simplifier [Test.QuickCheck.Poly]:
+Result size of Simplifier iteration=1
+  = {terms: 769, types: 735, coercions: 480}
+Result size of Simplifier iteration=2
+  = {terms: 769, types: 735, coercions: 480}
+Result size of Simplifier
+  = {terms: 769, types: 735, coercions: 480}
+!!! Simplifier [Test.QuickCheck.Poly]: finished in 11.00 milliseconds, allocated 10.681 megabytes
+*** Specialise [Test.QuickCheck.Poly]:
+Result size of Specialise
+  = {terms: 879, types: 838, coercions: 482}
+!!! Specialise [Test.QuickCheck.Poly]: finished in 2.00 milliseconds, allocated 1.397 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Poly]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 903, types: 856, coercions: 482}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Poly]: finished in 3.00 milliseconds, allocated 3.118 megabytes
+*** Simplifier [Test.QuickCheck.Poly]:
+Result size of Simplifier iteration=1
+  = {terms: 1,005, types: 808, coercions: 1,343}
+Result size of Simplifier
+  = {terms: 885, types: 688, coercions: 1,139}
+!!! Simplifier [Test.QuickCheck.Poly]: finished in 17.00 milliseconds, allocated 11.900 megabytes
+*** Simplifier [Test.QuickCheck.Poly]:
+Result size of Simplifier iteration=1
+  = {terms: 861, types: 670, coercions: 1,139}
+Result size of Simplifier
+  = {terms: 861, types: 670, coercions: 1,139}
+!!! Simplifier [Test.QuickCheck.Poly]: finished in 9.00 milliseconds, allocated 9.084 megabytes
+*** Simplifier [Test.QuickCheck.Poly]:
+Result size of Simplifier iteration=1
+  = {terms: 1,137, types: 1,048, coercions: 1,139}
+Result size of Simplifier
+  = {terms: 1,137, types: 1,048, coercions: 1,139}
+!!! Simplifier [Test.QuickCheck.Poly]: finished in 12.00 milliseconds, allocated 11.152 megabytes
+*** Float inwards [Test.QuickCheck.Poly]:
+Result size of Float inwards
+  = {terms: 1,137, types: 1,048, coercions: 1,139}
+!!! Float inwards [Test.QuickCheck.Poly]: finished in 1.00 milliseconds, allocated 1.131 megabytes
+*** Called arity analysis [Test.QuickCheck.Poly]:
+Result size of Called arity analysis
+  = {terms: 1,137, types: 1,048, coercions: 1,139}
+!!! Called arity analysis [Test.QuickCheck.Poly]: finished in 1.00 milliseconds, allocated 1.515 megabytes
+*** Simplifier [Test.QuickCheck.Poly]:
+Result size of Simplifier
+  = {terms: 1,137, types: 1,048, coercions: 1,139}
+!!! Simplifier [Test.QuickCheck.Poly]: finished in 6.00 milliseconds, allocated 5.427 megabytes
+*** Demand analysis [Test.QuickCheck.Poly]:
+Result size of Demand analysis
+  = {terms: 1,137, types: 1,048, coercions: 1,139}
+!!! Demand analysis [Test.QuickCheck.Poly]: finished in 3.00 milliseconds, allocated 3.622 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.Poly]:
+Result size of Worker Wrapper binds
+  = {terms: 1,137, types: 1,048, coercions: 1,139}
+!!! Worker Wrapper binds [Test.QuickCheck.Poly]: finished in 1.00 milliseconds, allocated 0.485 megabytes
+*** Simplifier [Test.QuickCheck.Poly]:
+Result size of Simplifier
+  = {terms: 1,137, types: 1,048, coercions: 1,139}
+!!! Simplifier [Test.QuickCheck.Poly]: finished in 7.00 milliseconds, allocated 6.763 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Poly]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,149, types: 1,072, coercions: 1,139}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Poly]: finished in 3.00 milliseconds, allocated 3.733 megabytes
+*** Common sub-expression [Test.QuickCheck.Poly]:
+Result size of Common sub-expression
+  = {terms: 845, types: 752, coercions: 1,109}
+!!! Common sub-expression [Test.QuickCheck.Poly]: finished in 3.00 milliseconds, allocated 2.565 megabytes
+*** Float inwards [Test.QuickCheck.Poly]:
+Result size of Float inwards
+  = {terms: 845, types: 752, coercions: 1,109}
+!!! Float inwards [Test.QuickCheck.Poly]: finished in 1.00 milliseconds, allocated 0.772 megabytes
+*** Simplifier [Test.QuickCheck.Poly]:
+Result size of Simplifier
+  = {terms: 781, types: 683, coercions: 1,109}
+!!! Simplifier [Test.QuickCheck.Poly]: finished in 6.00 milliseconds, allocated 4.845 megabytes
+*** CoreTidy [Test.QuickCheck.Poly]:
+Result size of Tidy Core
+  = {terms: 743, types: 634, coercions: 1,074}
+!!! CoreTidy [Test.QuickCheck.Poly]: finished in 2.00 milliseconds, allocated 2.183 megabytes
+writeBinIface: 200 Names
+writeBinIface: 273 dict entries
+writeBinIface: 200 Names
+writeBinIface: 273 dict entries
+*** CorePrep [Test.QuickCheck.Poly]:
+Result size of CorePrep
+  = {terms: 1,153, types: 888, coercions: 1,074}
+!!! CorePrep [Test.QuickCheck.Poly]: finished in 1.00 milliseconds, allocated 1.679 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Poly]:
+!!! CodeGen [Test.QuickCheck.Poly]: finished in 41.00 milliseconds, allocated 34.920 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_83.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Poly.o
+*** CorePrep [Test.QuickCheck.Poly]:
+Result size of CorePrep
+  = {terms: 1,153, types: 888, coercions: 1,074}
+!!! CorePrep [Test.QuickCheck.Poly]: finished in 2.00 milliseconds, allocated 1.659 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Poly]:
+!!! CodeGen [Test.QuickCheck.Poly]: finished in 45.00 milliseconds, allocated 35.753 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_85.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Poly.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_86.c /tmp/ghc7960_0/ghc_85.s /tmp/ghc7960_0/ghc_84.c /tmp/ghc7960_0/ghc_83.s /tmp/ghc7960_0/ghc_82.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_86.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_84.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_82.s
+compile: input file /tmp/ghc7960_0/ghc_23.hscpp
+*** Checking old interface for Test.QuickCheck.Function:
+[13 of 15] Compiling Test.QuickCheck.Function ( Test/QuickCheck/Function.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Function.o )
+*** Parser [Test.QuickCheck.Function]:
+!!! Parser [Test.QuickCheck.Function]: finished in 6.00 milliseconds, allocated 10.277 megabytes
+*** Renamer/typechecker [Test.QuickCheck.Function]:
+!!! Renamer/typechecker [Test.QuickCheck.Function]: finished in 47.00 milliseconds, allocated 39.870 megabytes
+*** Desugar [Test.QuickCheck.Function]:
+Result size of Desugar (after optimization)
+  = {terms: 1,718, types: 3,692, coercions: 140}
+!!! Desugar [Test.QuickCheck.Function]: finished in 20.00 milliseconds, allocated 13.023 megabytes
+*** Simplifier [Test.QuickCheck.Function]:
+Result size of Simplifier iteration=1
+  = {terms: 1,603, types: 3,337, coercions: 386}
+Result size of Simplifier iteration=2
+  = {terms: 1,583, types: 3,343, coercions: 420}
+Result size of Simplifier
+  = {terms: 1,583, types: 3,343, coercions: 420}
+!!! Simplifier [Test.QuickCheck.Function]: finished in 39.00 milliseconds, allocated 30.627 megabytes
+*** Specialise [Test.QuickCheck.Function]:
+Result size of Specialise
+  = {terms: 1,773, types: 3,662, coercions: 434}
+!!! Specialise [Test.QuickCheck.Function]: finished in 3.00 milliseconds, allocated 2.924 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Function]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,939, types: 4,184, coercions: 434}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.Function]: finished in 11.00 milliseconds, allocated 16.727 megabytes
+*** Simplifier [Test.QuickCheck.Function]:
+Result size of Simplifier iteration=1
+  = {terms: 2,416, types: 5,211, coercions: 675}
+Result size of Simplifier iteration=2
+  = {terms: 2,140, types: 4,759, coercions: 643}
+Result size of Simplifier
+  = {terms: 2,125, types: 4,725, coercions: 636}
+!!! Simplifier [Test.QuickCheck.Function]: finished in 47.00 milliseconds, allocated 37.851 megabytes
+*** Simplifier [Test.QuickCheck.Function]:
+Result size of Simplifier iteration=1
+  = {terms: 2,012, types: 4,740, coercions: 646}
+Result size of Simplifier iteration=2
+  = {terms: 1,994, types: 4,708, coercions: 646}
+Result size of Simplifier iteration=3
+  = {terms: 1,991, types: 4,705, coercions: 646}
+Result size of Simplifier
+  = {terms: 1,991, types: 4,705, coercions: 646}
+!!! Simplifier [Test.QuickCheck.Function]: finished in 52.00 milliseconds, allocated 41.527 megabytes
+*** Simplifier [Test.QuickCheck.Function]:
+Result size of Simplifier iteration=1
+  = {terms: 2,115, types: 4,912, coercions: 646}
+Result size of Simplifier
+  = {terms: 2,115, types: 4,912, coercions: 646}
+!!! Simplifier [Test.QuickCheck.Function]: finished in 21.00 milliseconds, allocated 18.515 megabytes
+*** Float inwards [Test.QuickCheck.Function]:
+Result size of Float inwards
+  = {terms: 2,115, types: 4,912, coercions: 646}
+!!! Float inwards [Test.QuickCheck.Function]: finished in 3.00 milliseconds, allocated 3.279 megabytes
+*** Called arity analysis [Test.QuickCheck.Function]:
+Result size of Called arity analysis
+  = {terms: 2,115, types: 4,912, coercions: 646}
+!!! Called arity analysis [Test.QuickCheck.Function]: finished in 3.00 milliseconds, allocated 3.542 megabytes
+*** Simplifier [Test.QuickCheck.Function]:
+Result size of Simplifier
+  = {terms: 2,115, types: 4,912, coercions: 646}
+!!! Simplifier [Test.QuickCheck.Function]: finished in 14.00 milliseconds, allocated 9.177 megabytes
+*** Demand analysis [Test.QuickCheck.Function]:
+Result size of Demand analysis
+  = {terms: 2,115, types: 4,912, coercions: 646}
+!!! Demand analysis [Test.QuickCheck.Function]: finished in 8.00 milliseconds, allocated 8.915 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.Function]:
+Result size of Worker Wrapper binds
+  = {terms: 2,169, types: 5,057, coercions: 646}
+!!! Worker Wrapper binds [Test.QuickCheck.Function]: finished in 2.00 milliseconds, allocated 1.001 megabytes
+*** Simplifier [Test.QuickCheck.Function]:
+Result size of Simplifier iteration=1
+  = {terms: 2,146, types: 5,019, coercions: 646}
+Result size of Simplifier iteration=2
+  = {terms: 2,157, types: 5,024, coercions: 646}
+Result size of Simplifier iteration=3
+  = {terms: 2,134, types: 4,974, coercions: 646}
+Result size of Simplifier
+  = {terms: 2,134, types: 4,974, coercions: 646}
+!!! Simplifier [Test.QuickCheck.Function]: finished in 61.00 milliseconds, allocated 45.913 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Function]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,153, types: 5,033, coercions: 646}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.Function]: finished in 15.00 milliseconds, allocated 20.020 megabytes
+*** Common sub-expression [Test.QuickCheck.Function]:
+Result size of Common sub-expression
+  = {terms: 2,141, types: 5,016, coercions: 646}
+!!! Common sub-expression [Test.QuickCheck.Function]: finished in 4.00 milliseconds, allocated 3.481 megabytes
+*** Float inwards [Test.QuickCheck.Function]:
+Result size of Float inwards
+  = {terms: 2,141, types: 5,016, coercions: 646}
+!!! Float inwards [Test.QuickCheck.Function]: finished in 3.00 milliseconds, allocated 3.270 megabytes
+*** Simplifier [Test.QuickCheck.Function]:
+Result size of Simplifier iteration=1
+  = {terms: 2,112, types: 4,979, coercions: 646}
+Result size of Simplifier
+  = {terms: 2,112, types: 4,979, coercions: 646}
+!!! Simplifier [Test.QuickCheck.Function]: finished in 28.00 milliseconds, allocated 22.451 megabytes
+*** CoreTidy [Test.QuickCheck.Function]:
+Result size of Tidy Core
+  = {terms: 1,974, types: 4,680, coercions: 608}
+!!! CoreTidy [Test.QuickCheck.Function]: finished in 6.00 milliseconds, allocated 4.678 megabytes
+writeBinIface: 187 Names
+writeBinIface: 350 dict entries
+writeBinIface: 187 Names
+writeBinIface: 350 dict entries
+*** CorePrep [Test.QuickCheck.Function]:
+Result size of CorePrep
+  = {terms: 2,815, types: 6,226, coercions: 611}
+!!! CorePrep [Test.QuickCheck.Function]: finished in 5.00 milliseconds, allocated 5.445 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Function]:
+!!! CodeGen [Test.QuickCheck.Function]: finished in 158.00 milliseconds, allocated 140.249 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_88.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Function.o
+*** CorePrep [Test.QuickCheck.Function]:
+Result size of CorePrep
+  = {terms: 2,815, types: 6,226, coercions: 611}
+!!! CorePrep [Test.QuickCheck.Function]: finished in 6.00 milliseconds, allocated 5.293 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.Function]:
+!!! CodeGen [Test.QuickCheck.Function]: finished in 157.00 milliseconds, allocated 147.133 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_90.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Function.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_91.c /tmp/ghc7960_0/ghc_90.s /tmp/ghc7960_0/ghc_89.c /tmp/ghc7960_0/ghc_88.s /tmp/ghc7960_0/ghc_87.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_91.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_89.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_87.s
+compile: input file /tmp/ghc7960_0/ghc_25.hscpp
+*** Checking old interface for Test.QuickCheck.All:
+[14 of 15] Compiling Test.QuickCheck.All ( Test/QuickCheck/All.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck/All.o )
+*** Parser [Test.QuickCheck.All]:
+!!! Parser [Test.QuickCheck.All]: finished in 4.00 milliseconds, allocated 5.926 megabytes
+*** Renamer/typechecker [Test.QuickCheck.All]:
+!!! Renamer/typechecker [Test.QuickCheck.All]: finished in 141.00 milliseconds, allocated 112.104 megabytes
+*** Desugar [Test.QuickCheck.All]:
+Result size of Desugar (after optimization)
+  = {terms: 560, types: 537, coercions: 22}
+!!! Desugar [Test.QuickCheck.All]: finished in 9.00 milliseconds, allocated 4.797 megabytes
+*** Simplifier [Test.QuickCheck.All]:
+Result size of Simplifier iteration=1
+  = {terms: 663, types: 754, coercions: 23}
+Result size of Simplifier iteration=2
+  = {terms: 649, types: 750, coercions: 29}
+Result size of Simplifier = {terms: 649, types: 750, coercions: 29}
+!!! Simplifier [Test.QuickCheck.All]: finished in 228.00 milliseconds, allocated 40.770 megabytes
+*** Specialise [Test.QuickCheck.All]:
+Result size of Specialise = {terms: 720, types: 879, coercions: 29}
+!!! Specialise [Test.QuickCheck.All]: finished in 1.00 milliseconds, allocated 1.123 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.All]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 989, types: 1,380, coercions: 29}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck.All]: finished in 3.00 milliseconds, allocated 4.452 megabytes
+*** Simplifier [Test.QuickCheck.All]:
+Result size of Simplifier iteration=1
+  = {terms: 1,538, types: 2,235, coercions: 421}
+Result size of Simplifier iteration=2
+  = {terms: 1,316, types: 1,810, coercions: 289}
+Result size of Simplifier iteration=3
+  = {terms: 1,256, types: 1,724, coercions: 277}
+Result size of Simplifier iteration=4
+  = {terms: 1,247, types: 1,694, coercions: 252}
+Result size of Simplifier
+  = {terms: 1,247, types: 1,694, coercions: 252}
+!!! Simplifier [Test.QuickCheck.All]: finished in 43.00 milliseconds, allocated 35.265 megabytes
+*** Simplifier [Test.QuickCheck.All]:
+Result size of Simplifier iteration=1
+  = {terms: 1,136, types: 1,513, coercions: 254}
+Result size of Simplifier iteration=2
+  = {terms: 1,086, types: 1,456, coercions: 254}
+Result size of Simplifier
+  = {terms: 1,086, types: 1,456, coercions: 254}
+!!! Simplifier [Test.QuickCheck.All]: finished in 20.00 milliseconds, allocated 16.835 megabytes
+*** Simplifier [Test.QuickCheck.All]:
+Result size of Simplifier iteration=1
+  = {terms: 1,305, types: 1,650, coercions: 248}
+Result size of Simplifier iteration=2
+  = {terms: 1,241, types: 1,556, coercions: 248}
+Result size of Simplifier
+  = {terms: 1,241, types: 1,556, coercions: 248}
+!!! Simplifier [Test.QuickCheck.All]: finished in 17.00 milliseconds, allocated 15.458 megabytes
+*** Float inwards [Test.QuickCheck.All]:
+Result size of Float inwards
+  = {terms: 1,241, types: 1,556, coercions: 248}
+!!! Float inwards [Test.QuickCheck.All]: finished in 2.00 milliseconds, allocated 2.279 megabytes
+*** Called arity analysis [Test.QuickCheck.All]:
+Result size of Called arity analysis
+  = {terms: 1,241, types: 1,556, coercions: 248}
+!!! Called arity analysis [Test.QuickCheck.All]: finished in 1.00 milliseconds, allocated 1.443 megabytes
+*** Simplifier [Test.QuickCheck.All]:
+Result size of Simplifier
+  = {terms: 1,241, types: 1,556, coercions: 248}
+!!! Simplifier [Test.QuickCheck.All]: finished in 5.00 milliseconds, allocated 4.995 megabytes
+*** Demand analysis [Test.QuickCheck.All]:
+Result size of Demand analysis
+  = {terms: 1,241, types: 1,556, coercions: 248}
+!!! Demand analysis [Test.QuickCheck.All]: finished in 5.00 milliseconds, allocated 6.272 megabytes
+*** Worker Wrapper binds [Test.QuickCheck.All]:
+Result size of Worker Wrapper binds
+  = {terms: 1,265, types: 1,570, coercions: 248}
+!!! Worker Wrapper binds [Test.QuickCheck.All]: finished in 1.00 milliseconds, allocated 0.751 megabytes
+*** Simplifier [Test.QuickCheck.All]:
+Result size of Simplifier iteration=1
+  = {terms: 1,249, types: 1,562, coercions: 248}
+Result size of Simplifier
+  = {terms: 1,249, types: 1,562, coercions: 248}
+!!! Simplifier [Test.QuickCheck.All]: finished in 21.00 milliseconds, allocated 11.690 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.All]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,337, types: 1,658, coercions: 248}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck.All]: finished in 5.00 milliseconds, allocated 6.696 megabytes
+*** Common sub-expression [Test.QuickCheck.All]:
+Result size of Common sub-expression
+  = {terms: 1,202, types: 1,562, coercions: 233}
+!!! Common sub-expression [Test.QuickCheck.All]: finished in 2.00 milliseconds, allocated 1.656 megabytes
+*** Float inwards [Test.QuickCheck.All]:
+Result size of Float inwards
+  = {terms: 1,202, types: 1,562, coercions: 233}
+!!! Float inwards [Test.QuickCheck.All]: finished in 1.00 milliseconds, allocated 2.415 megabytes
+*** Simplifier [Test.QuickCheck.All]:
+Result size of Simplifier iteration=1
+  = {terms: 1,158, types: 1,520, coercions: 233}
+Result size of Simplifier
+  = {terms: 1,158, types: 1,520, coercions: 233}
+!!! Simplifier [Test.QuickCheck.All]: finished in 13.00 milliseconds, allocated 10.439 megabytes
+*** CoreTidy [Test.QuickCheck.All]:
+Result size of Tidy Core
+  = {terms: 1,051, types: 1,296, coercions: 190}
+!!! CoreTidy [Test.QuickCheck.All]: finished in 2.00 milliseconds, allocated 1.829 megabytes
+writeBinIface: 65 Names
+writeBinIface: 197 dict entries
+writeBinIface: 65 Names
+writeBinIface: 197 dict entries
+*** CorePrep [Test.QuickCheck.All]:
+Result size of CorePrep
+  = {terms: 1,350, types: 1,705, coercions: 190}
+!!! CorePrep [Test.QuickCheck.All]: finished in 3.00 milliseconds, allocated 2.473 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.All]:
+!!! CodeGen [Test.QuickCheck.All]: finished in 71.00 milliseconds, allocated 72.903 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_93.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/All.o
+*** CorePrep [Test.QuickCheck.All]:
+Result size of CorePrep
+  = {terms: 1,350, types: 1,705, coercions: 190}
+!!! CorePrep [Test.QuickCheck.All]: finished in 3.00 milliseconds, allocated 2.380 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck.All]:
+!!! CodeGen [Test.QuickCheck.All]: finished in 76.00 milliseconds, allocated 77.288 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test/QuickCheck -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_95.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/All.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_96.c /tmp/ghc7960_0/ghc_95.s /tmp/ghc7960_0/ghc_94.c /tmp/ghc7960_0/ghc_93.s /tmp/ghc7960_0/ghc_92.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_96.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_94.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_92.s
+compile: input file /tmp/ghc7960_0/ghc_1.hscpp
+*** Checking old interface for Test.QuickCheck:
+[15 of 15] Compiling Test.QuickCheck  ( Test/QuickCheck.hs, dist/dist-sandbox-6afc8227/build/Test/QuickCheck.o )
+*** Parser [Test.QuickCheck]:
+!!! Parser [Test.QuickCheck]: finished in 1.00 milliseconds, allocated 3.213 megabytes
+*** Renamer/typechecker [Test.QuickCheck]:
+!!! Renamer/typechecker [Test.QuickCheck]: finished in 2.00 milliseconds, allocated 1.890 megabytes
+*** Desugar [Test.QuickCheck]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Test.QuickCheck]: finished in 1.00 milliseconds, allocated 0.326 megabytes
+*** Simplifier [Test.QuickCheck]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.147 megabytes
+*** Specialise [Test.QuickCheck]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Test.QuickCheck]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Test.QuickCheck]: finished in 1.00 milliseconds, allocated 0.072 megabytes
+*** Simplifier [Test.QuickCheck]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.073 megabytes
+*** Simplifier [Test.QuickCheck]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Float inwards [Test.QuickCheck]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Test.QuickCheck]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Test.QuickCheck]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Demand analysis [Test.QuickCheck]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Test.QuickCheck]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [Test.QuickCheck]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Test.QuickCheck]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Test.QuickCheck]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Test.QuickCheck]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** CoreTidy [Test.QuickCheck]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Test.QuickCheck]: finished in 1.00 milliseconds, allocated 0.063 megabytes
+writeBinIface: 161 Names
+writeBinIface: 210 dict entries
+writeBinIface: 161 Names
+writeBinIface: 210 dict entries
+*** CorePrep [Test.QuickCheck]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck]:
+!!! CodeGen [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.283 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7960_0/ghc_98.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck.o
+*** CorePrep [Test.QuickCheck]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Test.QuickCheck]:
+!!! CodeGen [Test.QuickCheck]: finished in 0.00 milliseconds, allocated 0.280 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Test -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7960_0/ghc_100.s -o dist/dist-sandbox-6afc8227/build/Test/QuickCheck.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_101.c /tmp/ghc7960_0/ghc_100.s /tmp/ghc7960_0/ghc_99.c /tmp/ghc7960_0/ghc_98.s /tmp/ghc7960_0/ghc_97.s
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_101.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_99.c
+Warning: deleting non-existent /tmp/ghc7960_0/ghc_97.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc7960_0/ghc_25.hscpp /tmp/ghc7960_0/ghc_23.hscpp /tmp/ghc7960_0/ghc_21.hscpp /tmp/ghc7960_0/ghc_19.hscpp /tmp/ghc7960_0/ghc_17.hscpp /tmp/ghc7960_0/ghc_15.hscpp /tmp/ghc7960_0/ghc_13.hscpp /tmp/ghc7960_0/ghc_11.hscpp /tmp/ghc7960_0/ghc_9.hscpp /tmp/ghc7960_0/ghc_7.hscpp /tmp/ghc7960_0/ghc_5.hscpp /tmp/ghc7960_0/ghc_3.hscpp /tmp/ghc7960_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7960_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-boot-th-8.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/pretty-1.1.3.3 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/random-1.1-54KmMHXjttlERYcr1mvsAe -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/template-haskell-2.11.0.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/tf-random-0.5-4z8OJUaXC1FRNfrLPFWAD -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -o dist/dist-sandbox-6afc8227/build/libHSQuickCheck-2.8.2-KPm3V9n9OMa9urRrdeE4gm-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSQuickCheck-2.8.2-KPm3V9n9OMa9urRrdeE4gm-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Test/QuickCheck.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Arbitrary.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Gen.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Gen/Unsafe.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Monadic.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Modifiers.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Property.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Test.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Text.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Poly.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/State.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Random.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Exception.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/Function.dyn_o dist/dist-sandbox-6afc8227/build/Test/QuickCheck/All.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/tf-random-0.5-4z8OJUaXC1FRNfrLPFWAD -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/template-haskell-2.11.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/pretty-1.1.3.3 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-boot-th-8.0.1 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/random-1.1-54KmMHXjttlERYcr1mvsAe -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHStf-random-0.5-4z8OJUaXC1FRNfrLPFWAD-ghc8.0.1 -lHSprimitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa-ghc8.0.1 -lHStransformers-0.5.2.0-ghc8.0.1 -lHStemplate-haskell-2.11.0.0-ghc8.0.1 -lHSpretty-1.1.3.3-ghc8.0.1 -lHSghc-boot-th-8.0.1-ghc8.0.1 -lHSrandom-1.1-54KmMHXjttlERYcr1mvsAe-ghc8.0.1 -lHStime-1.6.0.1-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc8574_0
+*** Deleting temp files:
+Deleting: /tmp/ghc8574_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8574_0
+Creating package registration file:
+/tmp/pkgConf-QuickCheck-2.81117142618168002245.2
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/QuickCheck-2.8.2-KPm3V9n9OMa9urRrdeE4gm
+Registering QuickCheck-2.8.2...
+cabal: Leaving directory '/tmp/cabal-tmp-1028/QuickCheck-2.8.2'

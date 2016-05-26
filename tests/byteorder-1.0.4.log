@@ -1,0 +1,247 @@
+cabal: Entering directory '/tmp/cabal-tmp-1027/byteorder-1.0.4'
+Configuring byteorder-1.0.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc1372_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/7198853861649760492.c -o /tmp/ghc1372_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc1372_0/ghc_1.s -o /tmp/5965166491189641421.o
+*** Deleting temp files:
+Deleting: /tmp/ghc1372_0/ghc_2.rsp /tmp/ghc1372_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1372_0
+Building byteorder-1.0.4...
+Preprocessing library byteorder-1.0.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *System.ByteOrder
+!!! Chasing dependencies: finished in 3.00 milliseconds, allocated 1.613 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2013-04-24 03:01:57 UTC
+         ms_mod = System.ByteOrder,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, System.IO.Unsafe),
+                            (Nothing, Data.Word), (Nothing, Foreign.Storable),
+                            (Nothing, Foreign.Ptr), (Nothing, Foreign.Marshal.Array),
+                            (Nothing, Foreign.Marshal.Alloc)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: 
+compile: input file ./System/ByteOrder.hs
+*** Checking old interface for System.ByteOrder:
+[1 of 1] Compiling System.ByteOrder ( System/ByteOrder.hs, dist/dist-sandbox-6afc8227/build/System/ByteOrder.o )
+*** Parser [System.ByteOrder]:
+!!! Parser [System.ByteOrder]: finished in 2.00 milliseconds, allocated 1.434 megabytes
+*** Renamer/typechecker [System.ByteOrder]:
+!!! Renamer/typechecker [System.ByteOrder]: finished in 284.00 milliseconds, allocated 122.214 megabytes
+*** Desugar [System.ByteOrder]:
+Result size of Desugar (after optimization)
+  = {terms: 604, types: 520, coercions: 0}
+!!! Desugar [System.ByteOrder]: finished in 7.00 milliseconds, allocated 4.404 megabytes
+*** Simplifier [System.ByteOrder]:
+Result size of Simplifier iteration=1
+  = {terms: 619, types: 556, coercions: 66}
+Result size of Simplifier iteration=2
+  = {terms: 567, types: 476, coercions: 81}
+Result size of Simplifier = {terms: 567, types: 476, coercions: 81}
+!!! Simplifier [System.ByteOrder]: finished in 18.00 milliseconds, allocated 9.801 megabytes
+*** Specialise [System.ByteOrder]:
+Result size of Specialise = {terms: 825, types: 856, coercions: 91}
+!!! Specialise [System.ByteOrder]: finished in 3.00 milliseconds, allocated 2.169 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.ByteOrder]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 955, types: 1,090, coercions: 91}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.ByteOrder]: finished in 4.00 milliseconds, allocated 3.345 megabytes
+*** Simplifier [System.ByteOrder]:
+Result size of Simplifier iteration=1
+  = {terms: 1,454, types: 1,547, coercions: 266}
+Result size of Simplifier iteration=2
+  = {terms: 1,195, types: 1,315, coercions: 141}
+Result size of Simplifier iteration=3
+  = {terms: 1,165, types: 1,271, coercions: 111}
+Result size of Simplifier
+  = {terms: 1,160, types: 1,267, coercions: 106}
+!!! Simplifier [System.ByteOrder]: finished in 132.00 milliseconds, allocated 75.956 megabytes
+*** Simplifier [System.ByteOrder]:
+Result size of Simplifier iteration=1
+  = {terms: 1,137, types: 1,252, coercions: 106}
+Result size of Simplifier iteration=2
+  = {terms: 1,084, types: 1,221, coercions: 106}
+Result size of Simplifier
+  = {terms: 1,078, types: 1,217, coercions: 106}
+!!! Simplifier [System.ByteOrder]: finished in 32.00 milliseconds, allocated 18.572 megabytes
+*** Simplifier [System.ByteOrder]:
+Result size of Simplifier iteration=1
+  = {terms: 2,581, types: 2,161, coercions: 108}
+Result size of Simplifier iteration=2
+  = {terms: 2,305, types: 1,993, coercions: 108}
+Result size of Simplifier
+  = {terms: 2,305, types: 1,993, coercions: 108}
+!!! Simplifier [System.ByteOrder]: finished in 61.00 milliseconds, allocated 32.482 megabytes
+*** Float inwards [System.ByteOrder]:
+Result size of Float inwards
+  = {terms: 2,305, types: 1,993, coercions: 108}
+!!! Float inwards [System.ByteOrder]: finished in 3.00 milliseconds, allocated 2.330 megabytes
+*** Called arity analysis [System.ByteOrder]:
+Result size of Called arity analysis
+  = {terms: 2,305, types: 1,993, coercions: 108}
+!!! Called arity analysis [System.ByteOrder]: finished in 3.00 milliseconds, allocated 1.671 megabytes
+*** Simplifier [System.ByteOrder]:
+Result size of Simplifier iteration=1
+  = {terms: 2,302, types: 1,991, coercions: 108}
+Result size of Simplifier
+  = {terms: 2,302, types: 1,991, coercions: 108}
+!!! Simplifier [System.ByteOrder]: finished in 34.00 milliseconds, allocated 19.121 megabytes
+*** Demand analysis [System.ByteOrder]:
+Result size of Demand analysis
+  = {terms: 2,302, types: 1,991, coercions: 108}
+!!! Demand analysis [System.ByteOrder]: finished in 13.00 milliseconds, allocated 8.084 megabytes
+*** Worker Wrapper binds [System.ByteOrder]:
+Result size of Worker Wrapper binds
+  = {terms: 2,312, types: 2,009, coercions: 108}
+!!! Worker Wrapper binds [System.ByteOrder]: finished in 0.00 milliseconds, allocated 0.580 megabytes
+*** Simplifier [System.ByteOrder]:
+Result size of Simplifier iteration=1
+  = {terms: 2,281, types: 1,970, coercions: 108}
+Result size of Simplifier iteration=2
+  = {terms: 2,263, types: 1,921, coercions: 108}
+Result size of Simplifier
+  = {terms: 2,263, types: 1,921, coercions: 108}
+!!! Simplifier [System.ByteOrder]: finished in 61.00 milliseconds, allocated 29.369 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.ByteOrder]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,275, types: 1,937, coercions: 108}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.ByteOrder]: finished in 12.00 milliseconds, allocated 7.356 megabytes
+*** Float inwards [System.ByteOrder]:
+Result size of Float inwards
+  = {terms: 2,275, types: 1,937, coercions: 108}
+!!! Float inwards [System.ByteOrder]: finished in 2.00 milliseconds, allocated 2.236 megabytes
+*** Simplifier [System.ByteOrder]:
+Result size of Simplifier iteration=1
+  = {terms: 2,275, types: 1,937, coercions: 108}
+Result size of Simplifier
+  = {terms: 2,275, types: 1,937, coercions: 108}
+!!! Simplifier [System.ByteOrder]: finished in 37.00 milliseconds, allocated 19.577 megabytes
+*** CoreTidy [System.ByteOrder]:
+Result size of Tidy Core
+  = {terms: 1,440, types: 1,175, coercions: 81}
+!!! CoreTidy [System.ByteOrder]: finished in 7.00 milliseconds, allocated 3.115 megabytes
+writeBinIface: 95 Names
+writeBinIface: 180 dict entries
+writeBinIface: 95 Names
+writeBinIface: 180 dict entries
+Created temporary directory: /tmp/ghc1603_0
+*** CorePrep [System.ByteOrder]:
+Result size of CorePrep
+  = {terms: 1,720, types: 1,351, coercions: 81}
+!!! CorePrep [System.ByteOrder]: finished in 0.00 milliseconds, allocated 2.702 megabytes
+*** Stg2Stg:
+*** CodeGen [System.ByteOrder]:
+!!! CodeGen [System.ByteOrder]: finished in 0.00 milliseconds, allocated 72.140 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./System -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1603_0/ghc_2.s -o dist/dist-sandbox-6afc8227/build/System/ByteOrder.o
+*** CorePrep [System.ByteOrder]:
+Result size of CorePrep
+  = {terms: 1,720, types: 1,351, coercions: 81}
+!!! CorePrep [System.ByteOrder]: finished in 0.00 milliseconds, allocated 2.653 megabytes
+*** Stg2Stg:
+*** CodeGen [System.ByteOrder]:
+!!! CodeGen [System.ByteOrder]: finished in 119.00 milliseconds, allocated 74.885 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./System -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1603_0/ghc_4.s -o dist/dist-sandbox-6afc8227/build/System/ByteOrder.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc1603_0/ghc_5.c /tmp/ghc1603_0/ghc_4.s /tmp/ghc1603_0/ghc_3.c /tmp/ghc1603_0/ghc_2.s /tmp/ghc1603_0/ghc_1.s
+Warning: deleting non-existent /tmp/ghc1603_0/ghc_5.c
+Warning: deleting non-existent /tmp/ghc1603_0/ghc_3.c
+Warning: deleting non-existent /tmp/ghc1603_0/ghc_1.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: 
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1603_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -o dist/dist-sandbox-6afc8227/build/libHSbyteorder-1.0.4-BbL4c17EpZrL9PcZm0xys9-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSbyteorder-1.0.4-BbL4c17EpZrL9PcZm0xys9-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/System/ByteOrder.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc1926_0
+*** Deleting temp files:
+Deleting: /tmp/ghc1926_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1926_0
+Creating package registration file:
+/tmp/pkgConf-byteorder-1.019374770841827336327.4
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/byteorder-1.0.4-BbL4c17EpZrL9PcZm0xys9
+Registering byteorder-1.0.4...
+cabal: Leaving directory '/tmp/cabal-tmp-1027/byteorder-1.0.4'

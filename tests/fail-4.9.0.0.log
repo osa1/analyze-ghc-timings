@@ -1,0 +1,33 @@
+cabal: Entering directory '/tmp/cabal-tmp-1032/fail-4.9.0.0'
+Configuring fail-4.9.0.0...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc1391_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/10252023621350490027.c -o /tmp/ghc1391_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc1391_0/ghc_1.s -o /tmp/7833686901102520059.o
+*** Deleting temp files:
+Deleting: /tmp/ghc1391_0/ghc_2.rsp /tmp/ghc1391_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1391_0
+Building fail-4.9.0.0...
+Preprocessing library fail-4.9.0.0...
+Creating package registration file:
+/tmp/pkgConf-fail-4.9.02145174067468703135.0
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/fail-4.9.0.0-FGE8TmYPyfd2ZUpoMVx9sD
+Registering fail-4.9.0.0...
+cabal: Leaving directory '/tmp/cabal-tmp-1032/fail-4.9.0.0'

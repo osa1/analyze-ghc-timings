@@ -1,0 +1,1092 @@
+cabal: Entering directory '/tmp/cabal-tmp-1046/unix-compat-0.4.1.4'
+Configuring unix-compat-0.4.1.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc5074_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc5074_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc5074_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc5074_0/ghc_2.rsp /tmp/ghc5074_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc5074_0
+Building unix-compat-0.4.1.4...
+Preprocessing library unix-compat-0.4.1.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *System.PosixCompat,*System.PosixCompat.Extensions,*System.PosixCompat.Files,*System.PosixCompat.Temp,*System.PosixCompat.Time,*System.PosixCompat.Types,*System.PosixCompat.Unistd,*System.PosixCompat.User
+Created temporary directory: /tmp/ghc5238_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5238_0/ghc_2.h -x assembler-with-cpp src/System/PosixCompat.hs -o /tmp/ghc5238_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5238_0/ghc_4.h -x assembler-with-cpp dist/dist-sandbox-6afc8227/build/System/PosixCompat/Extensions.hs -o /tmp/ghc5238_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5238_0/ghc_6.h -x assembler-with-cpp dist/dist-sandbox-6afc8227/build/System/PosixCompat/Files.hs -o /tmp/ghc5238_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5238_0/ghc_8.h -x assembler-with-cpp src/System/PosixCompat/Temp.hs -o /tmp/ghc5238_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5238_0/ghc_10.h -x assembler-with-cpp src/System/PosixCompat/Time.hs -o /tmp/ghc5238_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5238_0/ghc_12.h -x assembler-with-cpp src/System/PosixCompat/Types.hs -o /tmp/ghc5238_0/ghc_11.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5238_0/ghc_14.h -x assembler-with-cpp src/System/PosixCompat/Unistd.hs -o /tmp/ghc5238_0/ghc_13.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5238_0/ghc_16.h -x assembler-with-cpp dist/dist-sandbox-6afc8227/build/System/PosixCompat/User.hs -o /tmp/ghc5238_0/ghc_15.hscpp
+!!! Chasing dependencies: finished in 28.00 milliseconds, allocated 23.047 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2015-01-06 13:22:03 UTC
+         ms_mod = System.PosixCompat.Unistd,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Posix.Unistd)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-01-06 13:22:03 UTC
+         ms_mod = System.PosixCompat.Types,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Posix.Types)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-01-06 13:22:03 UTC
+         ms_mod = System.PosixCompat.Time,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Posix.Time)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-01-06 13:22:03 UTC
+         ms_mod = System.PosixCompat.Temp,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Posix.Temp)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-26 19:21:02.682686416 UTC
+         ms_mod = System.PosixCompat.Files,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Posix.Files)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-26 19:21:02.553686418 UTC
+         ms_mod = System.PosixCompat.Extensions,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.PosixCompat.Types), (Nothing, Foreign.C.Types)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-26 19:21:02.922686412 UTC
+         ms_mod = System.PosixCompat.User,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Posix.User)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-01-06 13:22:03 UTC
+         ms_mod = System.PosixCompat,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.PosixCompat.User),
+                            (Nothing, System.PosixCompat.Unistd),
+                            (Nothing, System.PosixCompat.Types),
+                            (Nothing, System.PosixCompat.Time),
+                            (Nothing, System.PosixCompat.Temp),
+                            (Nothing, System.PosixCompat.Files)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc5238_0/ghc_16.h /tmp/ghc5238_0/ghc_14.h /tmp/ghc5238_0/ghc_12.h /tmp/ghc5238_0/ghc_10.h /tmp/ghc5238_0/ghc_8.h /tmp/ghc5238_0/ghc_6.h /tmp/ghc5238_0/ghc_4.h /tmp/ghc5238_0/ghc_2.h
+compile: input file /tmp/ghc5238_0/ghc_13.hscpp
+*** Checking old interface for System.PosixCompat.Unistd:
+[1 of 8] Compiling System.PosixCompat.Unistd ( src/System/PosixCompat/Unistd.hs, dist/dist-sandbox-6afc8227/build/System/PosixCompat/Unistd.o )
+*** Parser [System.PosixCompat.Unistd]:
+!!! Parser [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.922 megabytes
+*** Renamer/typechecker [System.PosixCompat.Unistd]:
+!!! Renamer/typechecker [System.PosixCompat.Unistd]: finished in 80.00 milliseconds, allocated 19.458 megabytes
+*** Desugar [System.PosixCompat.Unistd]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.137 megabytes
+*** Simplifier [System.PosixCompat.Unistd]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Unistd]: finished in 1.00 milliseconds, allocated 0.129 megabytes
+*** Specialise [System.PosixCompat.Unistd]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.Unistd]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [System.PosixCompat.Unistd]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Unistd]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [System.PosixCompat.Unistd]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [System.PosixCompat.Unistd]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [System.PosixCompat.Unistd]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [System.PosixCompat.Unistd]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [System.PosixCompat.Unistd]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [System.PosixCompat.Unistd]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [System.PosixCompat.Unistd]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [System.PosixCompat.Unistd]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.Unistd]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [System.PosixCompat.Unistd]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [System.PosixCompat.Unistd]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [System.PosixCompat.Unistd]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [System.PosixCompat.Unistd]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [System.PosixCompat.Unistd]: finished in 5.00 milliseconds, allocated 3.845 megabytes
+writeBinIface: 15 Names
+writeBinIface: 34 dict entries
+writeBinIface: 15 Names
+writeBinIface: 34 dict entries
+*** CorePrep [System.PosixCompat.Unistd]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.Unistd]:
+!!! CodeGen [System.PosixCompat.Unistd]: finished in 1.00 milliseconds, allocated 0.337 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc5238_0/ghc_18.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Unistd.o
+*** CorePrep [System.PosixCompat.Unistd]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.Unistd]:
+!!! CodeGen [System.PosixCompat.Unistd]: finished in 0.00 milliseconds, allocated 0.305 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5238_0/ghc_20.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Unistd.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5238_0/ghc_21.c /tmp/ghc5238_0/ghc_20.s /tmp/ghc5238_0/ghc_19.c /tmp/ghc5238_0/ghc_18.s /tmp/ghc5238_0/ghc_17.s
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_21.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_19.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_17.s
+compile: input file /tmp/ghc5238_0/ghc_11.hscpp
+*** Checking old interface for System.PosixCompat.Types:
+[2 of 8] Compiling System.PosixCompat.Types ( src/System/PosixCompat/Types.hs, dist/dist-sandbox-6afc8227/build/System/PosixCompat/Types.o )
+*** Parser [System.PosixCompat.Types]:
+!!! Parser [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.885 megabytes
+*** Renamer/typechecker [System.PosixCompat.Types]:
+!!! Renamer/typechecker [System.PosixCompat.Types]: finished in 23.00 milliseconds, allocated 17.828 megabytes
+*** Desugar [System.PosixCompat.Types]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [System.PosixCompat.Types]: finished in 1.00 milliseconds, allocated 0.146 megabytes
+*** Simplifier [System.PosixCompat.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.127 megabytes
+*** Specialise [System.PosixCompat.Types]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.Types]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.Types]: finished in 1.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [System.PosixCompat.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.068 megabytes
+*** Simplifier [System.PosixCompat.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Types]: finished in 2.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [System.PosixCompat.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [System.PosixCompat.Types]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [System.PosixCompat.Types]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [System.PosixCompat.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [System.PosixCompat.Types]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [System.PosixCompat.Types]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [System.PosixCompat.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.Types]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [System.PosixCompat.Types]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [System.PosixCompat.Types]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [System.PosixCompat.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** CoreTidy [System.PosixCompat.Types]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+writeBinIface: 45 Names
+writeBinIface: 50 dict entries
+writeBinIface: 45 Names
+writeBinIface: 50 dict entries
+*** CorePrep [System.PosixCompat.Types]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.Types]:
+!!! CodeGen [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.308 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc5238_0/ghc_23.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Types.o
+*** CorePrep [System.PosixCompat.Types]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.Types]:
+!!! CodeGen [System.PosixCompat.Types]: finished in 0.00 milliseconds, allocated 0.304 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5238_0/ghc_25.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Types.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5238_0/ghc_26.c /tmp/ghc5238_0/ghc_25.s /tmp/ghc5238_0/ghc_24.c /tmp/ghc5238_0/ghc_23.s /tmp/ghc5238_0/ghc_22.s
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_26.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_24.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_22.s
+compile: input file /tmp/ghc5238_0/ghc_9.hscpp
+*** Checking old interface for System.PosixCompat.Time:
+[3 of 8] Compiling System.PosixCompat.Time ( src/System/PosixCompat/Time.hs, dist/dist-sandbox-6afc8227/build/System/PosixCompat/Time.o )
+*** Parser [System.PosixCompat.Time]:
+!!! Parser [System.PosixCompat.Time]: finished in 1.00 milliseconds, allocated 0.759 megabytes
+*** Renamer/typechecker [System.PosixCompat.Time]:
+!!! Renamer/typechecker [System.PosixCompat.Time]: finished in 1.00 milliseconds, allocated 0.593 megabytes
+*** Desugar [System.PosixCompat.Time]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [System.PosixCompat.Time]: finished in 1.00 milliseconds, allocated 0.130 megabytes
+*** Simplifier [System.PosixCompat.Time]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.130 megabytes
+*** Specialise [System.PosixCompat.Time]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.Time]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [System.PosixCompat.Time]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [System.PosixCompat.Time]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [System.PosixCompat.Time]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [System.PosixCompat.Time]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [System.PosixCompat.Time]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [System.PosixCompat.Time]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [System.PosixCompat.Time]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [System.PosixCompat.Time]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [System.PosixCompat.Time]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.Time]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.Time]: finished in 1.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [System.PosixCompat.Time]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [System.PosixCompat.Time]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [System.PosixCompat.Time]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [System.PosixCompat.Time]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [System.PosixCompat.Time]: finished in 1.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 5 Names
+writeBinIface: 25 dict entries
+writeBinIface: 5 Names
+writeBinIface: 25 dict entries
+*** CorePrep [System.PosixCompat.Time]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.Time]:
+!!! CodeGen [System.PosixCompat.Time]: finished in 1.00 milliseconds, allocated 0.307 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc5238_0/ghc_28.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Time.o
+*** CorePrep [System.PosixCompat.Time]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.PosixCompat.Time]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.Time]:
+!!! CodeGen [System.PosixCompat.Time]: finished in 1.00 milliseconds, allocated 0.303 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5238_0/ghc_30.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Time.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5238_0/ghc_31.c /tmp/ghc5238_0/ghc_30.s /tmp/ghc5238_0/ghc_29.c /tmp/ghc5238_0/ghc_28.s /tmp/ghc5238_0/ghc_27.s
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_31.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_29.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_27.s
+compile: input file /tmp/ghc5238_0/ghc_7.hscpp
+*** Checking old interface for System.PosixCompat.Temp:
+[4 of 8] Compiling System.PosixCompat.Temp ( src/System/PosixCompat/Temp.hs, dist/dist-sandbox-6afc8227/build/System/PosixCompat/Temp.o )
+*** Parser [System.PosixCompat.Temp]:
+!!! Parser [System.PosixCompat.Temp]: finished in 1.00 milliseconds, allocated 0.846 megabytes
+*** Renamer/typechecker [System.PosixCompat.Temp]:
+!!! Renamer/typechecker [System.PosixCompat.Temp]: finished in 2.00 milliseconds, allocated 0.800 megabytes
+*** Desugar [System.PosixCompat.Temp]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.130 megabytes
+*** Simplifier [System.PosixCompat.Temp]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.128 megabytes
+*** Specialise [System.PosixCompat.Temp]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [System.PosixCompat.Temp]: finished in 1.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.Temp]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [System.PosixCompat.Temp]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [System.PosixCompat.Temp]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [System.PosixCompat.Temp]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Temp]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [System.PosixCompat.Temp]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Called arity analysis [System.PosixCompat.Temp]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [System.PosixCompat.Temp]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [System.PosixCompat.Temp]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [System.PosixCompat.Temp]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [System.PosixCompat.Temp]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Temp]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.Temp]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.Temp]: finished in 1.00 milliseconds, allocated 0.087 megabytes
+*** Common sub-expression [System.PosixCompat.Temp]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [System.PosixCompat.Temp]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [System.PosixCompat.Temp]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** CoreTidy [System.PosixCompat.Temp]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [System.PosixCompat.Temp]: finished in 1.00 milliseconds, allocated 0.062 megabytes
+writeBinIface: 5 Names
+writeBinIface: 25 dict entries
+writeBinIface: 5 Names
+writeBinIface: 25 dict entries
+*** CorePrep [System.PosixCompat.Temp]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.Temp]:
+!!! CodeGen [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.307 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc5238_0/ghc_33.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Temp.o
+*** CorePrep [System.PosixCompat.Temp]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.PosixCompat.Temp]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.Temp]:
+!!! CodeGen [System.PosixCompat.Temp]: finished in 1.00 milliseconds, allocated 0.303 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5238_0/ghc_35.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Temp.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5238_0/ghc_36.c /tmp/ghc5238_0/ghc_35.s /tmp/ghc5238_0/ghc_34.c /tmp/ghc5238_0/ghc_33.s /tmp/ghc5238_0/ghc_32.s
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_36.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_34.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_32.s
+compile: input file /tmp/ghc5238_0/ghc_5.hscpp
+*** Checking old interface for System.PosixCompat.Files:
+[5 of 8] Compiling System.PosixCompat.Files ( dist/dist-sandbox-6afc8227/build/System/PosixCompat/Files.hs, dist/dist-sandbox-6afc8227/build/System/PosixCompat/Files.o )
+*** Parser [System.PosixCompat.Files]:
+!!! Parser [System.PosixCompat.Files]: finished in 2.00 milliseconds, allocated 2.194 megabytes
+*** Renamer/typechecker [System.PosixCompat.Files]:
+!!! Renamer/typechecker [System.PosixCompat.Files]: finished in 4.00 milliseconds, allocated 2.524 megabytes
+*** Desugar [System.PosixCompat.Files]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.205 megabytes
+*** Simplifier [System.PosixCompat.Files]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Files]: finished in 1.00 milliseconds, allocated 0.129 megabytes
+*** Specialise [System.PosixCompat.Files]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.053 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.Files]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [System.PosixCompat.Files]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Files]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [System.PosixCompat.Files]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Simplifier [System.PosixCompat.Files]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [System.PosixCompat.Files]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [System.PosixCompat.Files]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [System.PosixCompat.Files]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [System.PosixCompat.Files]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [System.PosixCompat.Files]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [System.PosixCompat.Files]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.Files]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.Files]: finished in 1.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [System.PosixCompat.Files]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Float inwards [System.PosixCompat.Files]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [System.PosixCompat.Files]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [System.PosixCompat.Files]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 81 Names
+writeBinIface: 112 dict entries
+writeBinIface: 81 Names
+writeBinIface: 112 dict entries
+*** CorePrep [System.PosixCompat.Files]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.Files]:
+!!! CodeGen [System.PosixCompat.Files]: finished in 1.00 milliseconds, allocated 0.308 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc5238_0/ghc_38.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Files.o
+*** CorePrep [System.PosixCompat.Files]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.PosixCompat.Files]: finished in 1.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.Files]:
+!!! CodeGen [System.PosixCompat.Files]: finished in 0.00 milliseconds, allocated 0.304 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5238_0/ghc_40.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Files.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5238_0/ghc_41.c /tmp/ghc5238_0/ghc_40.s /tmp/ghc5238_0/ghc_39.c /tmp/ghc5238_0/ghc_38.s /tmp/ghc5238_0/ghc_37.s
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_41.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_39.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_37.s
+compile: input file /tmp/ghc5238_0/ghc_3.hscpp
+*** Checking old interface for System.PosixCompat.Extensions:
+[6 of 8] Compiling System.PosixCompat.Extensions ( dist/dist-sandbox-6afc8227/build/System/PosixCompat/Extensions.hs, dist/dist-sandbox-6afc8227/build/System/PosixCompat/Extensions.o )
+*** Parser [System.PosixCompat.Extensions]:
+!!! Parser [System.PosixCompat.Extensions]: finished in 2.00 milliseconds, allocated 2.129 megabytes
+*** Renamer/typechecker [System.PosixCompat.Extensions]:
+!!! Renamer/typechecker [System.PosixCompat.Extensions]: finished in 90.00 milliseconds, allocated 36.100 megabytes
+*** Desugar [System.PosixCompat.Extensions]:
+Result size of Desugar (after optimization)
+  = {terms: 63, types: 58, coercions: 18}
+!!! Desugar [System.PosixCompat.Extensions]: finished in 2.00 milliseconds, allocated 0.673 megabytes
+*** Simplifier [System.PosixCompat.Extensions]:
+Result size of Simplifier iteration=1
+  = {terms: 65, types: 63, coercions: 18}
+Result size of Simplifier = {terms: 59, types: 56, coercions: 18}
+!!! Simplifier [System.PosixCompat.Extensions]: finished in 5.00 milliseconds, allocated 0.795 megabytes
+*** Specialise [System.PosixCompat.Extensions]:
+Result size of Specialise = {terms: 59, types: 56, coercions: 18}
+!!! Specialise [System.PosixCompat.Extensions]: finished in 0.00 milliseconds, allocated 0.106 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.Extensions]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 59, types: 56, coercions: 18}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.Extensions]: finished in 1.00 milliseconds, allocated 0.201 megabytes
+*** Simplifier [System.PosixCompat.Extensions]:
+Result size of Simplifier = {terms: 59, types: 56, coercions: 18}
+!!! Simplifier [System.PosixCompat.Extensions]: finished in 1.00 milliseconds, allocated 0.403 megabytes
+*** Simplifier [System.PosixCompat.Extensions]:
+Result size of Simplifier = {terms: 59, types: 56, coercions: 18}
+!!! Simplifier [System.PosixCompat.Extensions]: finished in 0.00 milliseconds, allocated 0.385 megabytes
+*** Simplifier [System.PosixCompat.Extensions]:
+Result size of Simplifier = {terms: 59, types: 56, coercions: 18}
+!!! Simplifier [System.PosixCompat.Extensions]: finished in 1.00 milliseconds, allocated 0.384 megabytes
+*** Float inwards [System.PosixCompat.Extensions]:
+Result size of Float inwards
+  = {terms: 59, types: 56, coercions: 18}
+!!! Float inwards [System.PosixCompat.Extensions]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Called arity analysis [System.PosixCompat.Extensions]:
+Result size of Called arity analysis
+  = {terms: 59, types: 56, coercions: 18}
+!!! Called arity analysis [System.PosixCompat.Extensions]: finished in 1.00 milliseconds, allocated 0.091 megabytes
+*** Simplifier [System.PosixCompat.Extensions]:
+Result size of Simplifier = {terms: 59, types: 56, coercions: 18}
+!!! Simplifier [System.PosixCompat.Extensions]: finished in 0.00 milliseconds, allocated 0.386 megabytes
+*** Demand analysis [System.PosixCompat.Extensions]:
+Result size of Demand analysis
+  = {terms: 59, types: 56, coercions: 18}
+!!! Demand analysis [System.PosixCompat.Extensions]: finished in 2.00 milliseconds, allocated 0.218 megabytes
+*** Worker Wrapper binds [System.PosixCompat.Extensions]:
+Result size of Worker Wrapper binds
+  = {terms: 59, types: 56, coercions: 18}
+!!! Worker Wrapper binds [System.PosixCompat.Extensions]: finished in 0.00 milliseconds, allocated 0.059 megabytes
+*** Simplifier [System.PosixCompat.Extensions]:
+Result size of Simplifier = {terms: 59, types: 56, coercions: 18}
+!!! Simplifier [System.PosixCompat.Extensions]: finished in 0.00 milliseconds, allocated 0.509 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.Extensions]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 59, types: 56, coercions: 18}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.Extensions]: finished in 2.00 milliseconds, allocated 0.201 megabytes
+*** Common sub-expression [System.PosixCompat.Extensions]:
+Result size of Common sub-expression
+  = {terms: 59, types: 56, coercions: 18}
+!!! Common sub-expression [System.PosixCompat.Extensions]: finished in 0.00 milliseconds, allocated 0.201 megabytes
+*** Float inwards [System.PosixCompat.Extensions]:
+Result size of Float inwards
+  = {terms: 59, types: 56, coercions: 18}
+!!! Float inwards [System.PosixCompat.Extensions]: finished in 0.00 milliseconds, allocated 0.088 megabytes
+*** Simplifier [System.PosixCompat.Extensions]:
+Result size of Simplifier = {terms: 59, types: 56, coercions: 18}
+!!! Simplifier [System.PosixCompat.Extensions]: finished in 1.00 milliseconds, allocated 0.488 megabytes
+*** CoreTidy [System.PosixCompat.Extensions]:
+Result size of Tidy Core = {terms: 59, types: 56, coercions: 18}
+!!! CoreTidy [System.PosixCompat.Extensions]: finished in 1.00 milliseconds, allocated 0.187 megabytes
+writeBinIface: 17 Names
+writeBinIface: 49 dict entries
+writeBinIface: 17 Names
+writeBinIface: 49 dict entries
+*** CorePrep [System.PosixCompat.Extensions]:
+Result size of CorePrep = {terms: 73, types: 62, coercions: 18}
+!!! CorePrep [System.PosixCompat.Extensions]: finished in 0.00 milliseconds, allocated 0.154 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.Extensions]:
+!!! CodeGen [System.PosixCompat.Extensions]: finished in 5.00 milliseconds, allocated 2.905 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc5238_0/ghc_43.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Extensions.o
+*** CorePrep [System.PosixCompat.Extensions]:
+Result size of CorePrep = {terms: 73, types: 62, coercions: 18}
+!!! CorePrep [System.PosixCompat.Extensions]: finished in 0.00 milliseconds, allocated 0.150 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.Extensions]:
+!!! CodeGen [System.PosixCompat.Extensions]: finished in 6.00 milliseconds, allocated 2.975 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5238_0/ghc_45.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Extensions.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5238_0/ghc_46.c /tmp/ghc5238_0/ghc_45.s /tmp/ghc5238_0/ghc_44.c /tmp/ghc5238_0/ghc_43.s /tmp/ghc5238_0/ghc_42.s
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_46.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_44.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_42.s
+compile: input file /tmp/ghc5238_0/ghc_15.hscpp
+*** Checking old interface for System.PosixCompat.User:
+[7 of 8] Compiling System.PosixCompat.User ( dist/dist-sandbox-6afc8227/build/System/PosixCompat/User.hs, dist/dist-sandbox-6afc8227/build/System/PosixCompat/User.o )
+*** Parser [System.PosixCompat.User]:
+!!! Parser [System.PosixCompat.User]: finished in 1.00 milliseconds, allocated 1.399 megabytes
+*** Renamer/typechecker [System.PosixCompat.User]:
+!!! Renamer/typechecker [System.PosixCompat.User]: finished in 4.00 milliseconds, allocated 2.974 megabytes
+*** Desugar [System.PosixCompat.User]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.166 megabytes
+*** Simplifier [System.PosixCompat.User]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.127 megabytes
+*** Specialise [System.PosixCompat.User]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.User]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [System.PosixCompat.User]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [System.PosixCompat.User]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [System.PosixCompat.User]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [System.PosixCompat.User]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [System.PosixCompat.User]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [System.PosixCompat.User]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [System.PosixCompat.User]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [System.PosixCompat.User]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [System.PosixCompat.User]: finished in 1.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [System.PosixCompat.User]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.User]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [System.PosixCompat.User]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [System.PosixCompat.User]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [System.PosixCompat.User]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [System.PosixCompat.User]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 34 Names
+writeBinIface: 52 dict entries
+writeBinIface: 34 Names
+writeBinIface: 52 dict entries
+*** CorePrep [System.PosixCompat.User]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.User]:
+!!! CodeGen [System.PosixCompat.User]: finished in 2.00 milliseconds, allocated 0.307 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc5238_0/ghc_48.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/User.o
+*** CorePrep [System.PosixCompat.User]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [System.PosixCompat.User]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat.User]:
+!!! CodeGen [System.PosixCompat.User]: finished in 1.00 milliseconds, allocated 0.303 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/System/PosixCompat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5238_0/ghc_50.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat/User.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5238_0/ghc_51.c /tmp/ghc5238_0/ghc_50.s /tmp/ghc5238_0/ghc_49.c /tmp/ghc5238_0/ghc_48.s /tmp/ghc5238_0/ghc_47.s
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_51.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_49.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_47.s
+compile: input file /tmp/ghc5238_0/ghc_1.hscpp
+*** Checking old interface for System.PosixCompat:
+[8 of 8] Compiling System.PosixCompat ( src/System/PosixCompat.hs, dist/dist-sandbox-6afc8227/build/System/PosixCompat.o )
+*** Parser [System.PosixCompat]:
+!!! Parser [System.PosixCompat]: finished in 0.00 milliseconds, allocated 1.081 megabytes
+*** Renamer/typechecker [System.PosixCompat]:
+!!! Renamer/typechecker [System.PosixCompat]: finished in 3.00 milliseconds, allocated 1.463 megabytes
+*** Desugar [System.PosixCompat]:
+Result size of Desugar (after optimization)
+  = {terms: 8, types: 2, coercions: 0}
+!!! Desugar [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.292 megabytes
+*** Simplifier [System.PosixCompat]:
+Result size of Simplifier iteration=1
+  = {terms: 12, types: 4, coercions: 0}
+Result size of Simplifier = {terms: 12, types: 4, coercions: 0}
+!!! Simplifier [System.PosixCompat]: finished in 1.00 milliseconds, allocated 0.141 megabytes
+*** Specialise [System.PosixCompat]:
+Result size of Specialise = {terms: 12, types: 4, coercions: 0}
+!!! Specialise [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.054 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 12, types: 4, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.092 megabytes
+*** Simplifier [System.PosixCompat]:
+Result size of Simplifier = {terms: 12, types: 4, coercions: 0}
+!!! Simplifier [System.PosixCompat]: finished in 1.00 milliseconds, allocated 0.076 megabytes
+*** Simplifier [System.PosixCompat]:
+Result size of Simplifier = {terms: 12, types: 4, coercions: 0}
+!!! Simplifier [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.077 megabytes
+*** Simplifier [System.PosixCompat]:
+Result size of Simplifier = {terms: 12, types: 4, coercions: 0}
+!!! Simplifier [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.075 megabytes
+*** Float inwards [System.PosixCompat]:
+Result size of Float inwards = {terms: 12, types: 4, coercions: 0}
+!!! Float inwards [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [System.PosixCompat]:
+Result size of Called arity analysis
+  = {terms: 12, types: 4, coercions: 0}
+!!! Called arity analysis [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Simplifier [System.PosixCompat]:
+Result size of Simplifier = {terms: 12, types: 4, coercions: 0}
+!!! Simplifier [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.075 megabytes
+*** Demand analysis [System.PosixCompat]:
+Result size of Demand analysis
+  = {terms: 12, types: 4, coercions: 0}
+!!! Demand analysis [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.066 megabytes
+*** Worker Wrapper binds [System.PosixCompat]:
+Result size of Worker Wrapper binds
+  = {terms: 12, types: 4, coercions: 0}
+!!! Worker Wrapper binds [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [System.PosixCompat]:
+Result size of Simplifier = {terms: 12, types: 4, coercions: 0}
+!!! Simplifier [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.077 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 12, types: 4, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.092 megabytes
+*** Common sub-expression [System.PosixCompat]:
+Result size of Common sub-expression
+  = {terms: 12, types: 4, coercions: 0}
+!!! Common sub-expression [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float inwards [System.PosixCompat]:
+Result size of Float inwards = {terms: 12, types: 4, coercions: 0}
+!!! Float inwards [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [System.PosixCompat]:
+Result size of Simplifier = {terms: 12, types: 4, coercions: 0}
+!!! Simplifier [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.077 megabytes
+*** CoreTidy [System.PosixCompat]:
+Result size of Tidy Core = {terms: 12, types: 4, coercions: 0}
+!!! CoreTidy [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.067 megabytes
+writeBinIface: 166 Names
+writeBinIface: 191 dict entries
+writeBinIface: 166 Names
+writeBinIface: 191 dict entries
+*** CorePrep [System.PosixCompat]:
+Result size of CorePrep = {terms: 12, types: 4, coercions: 0}
+!!! CorePrep [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.054 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat]:
+!!! CodeGen [System.PosixCompat]: finished in 1.00 milliseconds, allocated 0.318 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc5238_0/ghc_53.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat.o
+*** CorePrep [System.PosixCompat]:
+Result size of CorePrep = {terms: 12, types: 4, coercions: 0}
+!!! CorePrep [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [System.PosixCompat]:
+!!! CodeGen [System.PosixCompat]: finished in 0.00 milliseconds, allocated 0.311 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/System -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5238_0/ghc_55.s -o dist/dist-sandbox-6afc8227/build/System/PosixCompat.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc5238_0/ghc_56.c /tmp/ghc5238_0/ghc_55.s /tmp/ghc5238_0/ghc_54.c /tmp/ghc5238_0/ghc_53.s /tmp/ghc5238_0/ghc_52.s
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_56.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_54.c
+Warning: deleting non-existent /tmp/ghc5238_0/ghc_52.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc5238_0/ghc_15.hscpp /tmp/ghc5238_0/ghc_13.hscpp /tmp/ghc5238_0/ghc_11.hscpp /tmp/ghc5238_0/ghc_9.hscpp /tmp/ghc5238_0/ghc_7.hscpp /tmp/ghc5238_0/ghc_5.hscpp /tmp/ghc5238_0/ghc_3.hscpp /tmp/ghc5238_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc5238_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc5467_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -O2 -x c cbits/HsUnixCompat.c -o /tmp/ghc5467_0/ghc_1.s -fPIC -U__PIC__ -D__PIC__ -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5467_0/ghc_1.s -o dist/dist-sandbox-6afc8227/build/cbits/HsUnixCompat.o
+*** Deleting temp files:
+Deleting: /tmp/ghc5467_0/ghc_2.rsp /tmp/ghc5467_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc5467_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc5497_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -O2 -x c cbits/HsUnixCompat.c -o /tmp/ghc5497_0/ghc_1.s -fPIC -U__PIC__ -D__PIC__ -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5497_0/ghc_1.s -o dist/dist-sandbox-6afc8227/build/cbits/HsUnixCompat.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5497_0/ghc_2.rsp /tmp/ghc5497_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc5497_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0 -o dist/dist-sandbox-6afc8227/build/libHSunix-compat-0.4.1.4-BJJZan88NfEA8OL8BNPxDV-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSunix-compat-0.4.1.4-BJJZan88NfEA8OL8BNPxDV-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/System/PosixCompat.dyn_o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Extensions.dyn_o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Files.dyn_o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Temp.dyn_o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Time.dyn_o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Types.dyn_o dist/dist-sandbox-6afc8227/build/System/PosixCompat/Unistd.dyn_o dist/dist-sandbox-6afc8227/build/System/PosixCompat/User.dyn_o dist/dist-sandbox-6afc8227/build/cbits/HsUnixCompat.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSunix-2.7.2.0-ghc8.0.1 -lHStime-1.6.0.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lrt -lutil -ldl -lpthread -lgmp
+Created temporary directory: /tmp/ghc5525_0
+*** Deleting temp files:
+Deleting: /tmp/ghc5525_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc5525_0
+Creating package registration file:
+/tmp/pkgConf-unix-compat-0.4.120539999321264095060.4
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/unix-compat-0.4.1.4-BJJZan88NfEA8OL8BNPxDV
+Registering unix-compat-0.4.1.4...
+cabal: Leaving directory '/tmp/cabal-tmp-1046/unix-compat-0.4.1.4'

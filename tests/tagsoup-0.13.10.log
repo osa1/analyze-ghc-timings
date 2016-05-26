@@ -1,0 +1,1900 @@
+cabal: Entering directory '/tmp/cabal-tmp-1030/tagsoup-0.13.10'
+Configuring tagsoup-0.13.10...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc8967_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/5965166491189641421.c -o /tmp/ghc8967_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc8967_0/ghc_1.s -o /tmp/10252023621350490027.o
+*** Deleting temp files:
+Deleting: /tmp/ghc8967_0/ghc_2.rsp /tmp/ghc8967_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8967_0
+Building tagsoup-0.13.10...
+Preprocessing library tagsoup-0.13.10...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Text.HTML.TagSoup,*Text.HTML.TagSoup.Entity,*Text.HTML.TagSoup.Match,*Text.HTML.TagSoup.Tree,*Text.StringLike,*Text.HTML.TagSoup.Generated,*Text.HTML.TagSoup.Implementation,*Text.HTML.TagSoup.Manual,*Text.HTML.TagSoup.Options,*Text.HTML.TagSoup.Parser,*Text.HTML.TagSoup.Render,*Text.HTML.TagSoup.Specification,*Text.HTML.TagSoup.Type
+!!! Chasing dependencies: finished in 27.00 milliseconds, allocated 13.654 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-06 14:01:11 UTC
+         ms_mod = Text.StringLike,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Text.Lazy),
+                            (Nothing, Data.Text), (Nothing, Data.ByteString.Lazy.Char8),
+                            (Nothing, Data.ByteString.Char8), (Nothing, Data.Typeable),
+                            (Nothing, Data.String)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-06 14:01:11 UTC
+         ms_mod = Text.HTML.TagSoup.Entity,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Numeric),
+                            (Nothing, Data.Map), (Nothing, Data.Ix), (Nothing, Data.IntMap),
+                            (Nothing, Data.Char)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-06 14:01:11 UTC
+         ms_mod = Text.HTML.TagSoup.Type,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Data),
+                            (Nothing, Text.StringLike), (Nothing, Data.Maybe),
+                            (Nothing, Data.List)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-06 14:01:11 UTC
+         ms_mod = Text.HTML.TagSoup.Match,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.List),
+                            (Nothing, Text.HTML.TagSoup.Type)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-06 14:01:11 UTC
+         ms_mod = Text.HTML.TagSoup.Options,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Text.StringLike),
+                            (Nothing, Text.HTML.TagSoup.Entity),
+                            (Nothing, Text.HTML.TagSoup.Type), (Nothing, Data.Typeable)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-06 14:01:11 UTC
+         ms_mod = Text.HTML.TagSoup.Implementation,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Control.Arrow),
+                            (Nothing, Control.Exception), (Nothing, Data.Ix),
+                            (Nothing, Data.Char), (Nothing, Numeric),
+                            (Nothing, Text.StringLike), (Nothing, Text.HTML.TagSoup.Options),
+                            (Nothing, Text.HTML.TagSoup.Type)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-06 14:01:11 UTC
+         ms_mod = Text.HTML.TagSoup.Specification,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Char),
+                            (Nothing, Text.HTML.TagSoup.Implementation)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-06 14:01:11 UTC
+         ms_mod = Text.HTML.TagSoup.Manual,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Text.StringLike),
+                            (Nothing, Text.HTML.TagSoup.Options),
+                            (Nothing, Text.HTML.TagSoup.Type),
+                            (Nothing, Text.HTML.TagSoup.Implementation),
+                            (Nothing, Text.HTML.TagSoup.Specification)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-06 14:01:11 UTC
+         ms_mod = Text.HTML.TagSoup.Generated,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.HTML.TagSoup.Manual)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-06 14:01:11 UTC
+         ms_mod = Text.HTML.TagSoup.Parser,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.HTML.TagSoup.Generated),
+                            (Nothing, Text.HTML.TagSoup.Options),
+                            (Nothing, Text.HTML.TagSoup.Type)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-06 14:01:11 UTC
+         ms_mod = Text.HTML.TagSoup.Render,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Text.StringLike),
+                            (Nothing, Text.HTML.TagSoup.Type),
+                            (Nothing, Text.HTML.TagSoup.Entity)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-06 14:01:11 UTC
+         ms_mod = Text.HTML.TagSoup,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Text.StringLike),
+                            (Nothing, Data.List), (Nothing, Data.Char),
+                            (Nothing, Text.HTML.TagSoup.Render),
+                            (Nothing, Text.HTML.TagSoup.Parser),
+                            (Nothing, Text.HTML.TagSoup.Type)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-06 14:01:11 UTC
+         ms_mod = Text.HTML.TagSoup.Tree,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Exts),
+                            (Nothing, Control.Arrow), (Nothing, Text.HTML.TagSoup.Type),
+                            (Nothing, Text.HTML.TagSoup)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: 
+compile: input file ./Text/StringLike.hs
+*** Checking old interface for Text.StringLike:
+[ 1 of 13] Compiling Text.StringLike  ( Text/StringLike.hs, dist/dist-sandbox-6afc8227/build/Text/StringLike.o )
+*** Parser [Text.StringLike]:
+!!! Parser [Text.StringLike]: finished in 2.00 milliseconds, allocated 2.158 megabytes
+*** Renamer/typechecker [Text.StringLike]:
+!!! Renamer/typechecker [Text.StringLike]: finished in 539.00 milliseconds, allocated 228.103 megabytes
+*** Desugar [Text.StringLike]:
+Result size of Desugar (after optimization)
+  = {terms: 182, types: 188, coercions: 38}
+!!! Desugar [Text.StringLike]: finished in 15.00 milliseconds, allocated 9.252 megabytes
+*** Simplifier [Text.StringLike]:
+Result size of Simplifier iteration=1
+  = {terms: 202, types: 223, coercions: 38}
+Result size of Simplifier iteration=2
+  = {terms: 202, types: 223, coercions: 38}
+Result size of Simplifier = {terms: 202, types: 223, coercions: 38}
+!!! Simplifier [Text.StringLike]: finished in 47.00 milliseconds, allocated 22.895 megabytes
+*** Specialise [Text.StringLike]:
+Result size of Specialise = {terms: 229, types: 283, coercions: 60}
+!!! Specialise [Text.StringLike]: finished in 1.00 milliseconds, allocated 0.434 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.StringLike]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 237, types: 297, coercions: 60}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.StringLike]: finished in 2.00 milliseconds, allocated 0.843 megabytes
+*** Simplifier [Text.StringLike]:
+Result size of Simplifier iteration=1
+  = {terms: 343, types: 336, coercions: 91}
+Result size of Simplifier = {terms: 339, types: 318, coercions: 84}
+!!! Simplifier [Text.StringLike]: finished in 14.00 milliseconds, allocated 6.305 megabytes
+*** Simplifier [Text.StringLike]:
+Result size of Simplifier iteration=1
+  = {terms: 325, types: 303, coercions: 84}
+Result size of Simplifier = {terms: 325, types: 303, coercions: 84}
+!!! Simplifier [Text.StringLike]: finished in 5.00 milliseconds, allocated 3.259 megabytes
+*** Simplifier [Text.StringLike]:
+Result size of Simplifier iteration=1
+  = {terms: 334, types: 315, coercions: 84}
+Result size of Simplifier = {terms: 334, types: 315, coercions: 84}
+!!! Simplifier [Text.StringLike]: finished in 5.00 milliseconds, allocated 3.029 megabytes
+*** Float inwards [Text.StringLike]:
+Result size of Float inwards
+  = {terms: 334, types: 315, coercions: 84}
+!!! Float inwards [Text.StringLike]: finished in 1.00 milliseconds, allocated 0.408 megabytes
+*** Called arity analysis [Text.StringLike]:
+Result size of Called arity analysis
+  = {terms: 334, types: 315, coercions: 84}
+!!! Called arity analysis [Text.StringLike]: finished in 1.00 milliseconds, allocated 0.434 megabytes
+*** Simplifier [Text.StringLike]:
+Result size of Simplifier = {terms: 334, types: 315, coercions: 84}
+!!! Simplifier [Text.StringLike]: finished in 3.00 milliseconds, allocated 1.506 megabytes
+*** Demand analysis [Text.StringLike]:
+Result size of Demand analysis
+  = {terms: 334, types: 315, coercions: 84}
+!!! Demand analysis [Text.StringLike]: finished in 1.00 milliseconds, allocated 1.112 megabytes
+*** Worker Wrapper binds [Text.StringLike]:
+Result size of Worker Wrapper binds
+  = {terms: 334, types: 315, coercions: 84}
+!!! Worker Wrapper binds [Text.StringLike]: finished in 0.00 milliseconds, allocated 0.148 megabytes
+*** Simplifier [Text.StringLike]:
+Result size of Simplifier = {terms: 334, types: 315, coercions: 84}
+!!! Simplifier [Text.StringLike]: finished in 3.00 milliseconds, allocated 1.732 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.StringLike]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 349, types: 329, coercions: 84}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.StringLike]: finished in 1.00 milliseconds, allocated 1.196 megabytes
+*** Common sub-expression [Text.StringLike]:
+Result size of Common sub-expression
+  = {terms: 349, types: 329, coercions: 84}
+!!! Common sub-expression [Text.StringLike]: finished in 1.00 milliseconds, allocated 0.496 megabytes
+*** Float inwards [Text.StringLike]:
+Result size of Float inwards
+  = {terms: 349, types: 329, coercions: 84}
+!!! Float inwards [Text.StringLike]: finished in 0.00 milliseconds, allocated 0.407 megabytes
+*** Simplifier [Text.StringLike]:
+Result size of Simplifier = {terms: 349, types: 329, coercions: 84}
+!!! Simplifier [Text.StringLike]: finished in 4.00 milliseconds, allocated 1.741 megabytes
+*** CoreTidy [Text.StringLike]:
+Result size of Tidy Core = {terms: 412, types: 743, coercions: 72}
+!!! CoreTidy [Text.StringLike]: finished in 2.00 milliseconds, allocated 0.928 megabytes
+writeBinIface: 118 Names
+writeBinIface: 164 dict entries
+writeBinIface: 118 Names
+writeBinIface: 164 dict entries
+Created temporary directory: /tmp/ghc9091_0
+*** CorePrep [Text.StringLike]:
+Result size of CorePrep = {terms: 476, types: 856, coercions: 72}
+!!! CorePrep [Text.StringLike]: finished in 2.00 milliseconds, allocated 0.930 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.StringLike]:
+!!! CodeGen [Text.StringLike]: finished in 36.00 milliseconds, allocated 20.921 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9091_0/ghc_2.s -o dist/dist-sandbox-6afc8227/build/Text/StringLike.o
+*** CorePrep [Text.StringLike]:
+Result size of CorePrep = {terms: 476, types: 856, coercions: 72}
+!!! CorePrep [Text.StringLike]: finished in 2.00 milliseconds, allocated 0.921 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.StringLike]:
+!!! CodeGen [Text.StringLike]: finished in 28.00 milliseconds, allocated 21.988 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9091_0/ghc_4.s -o dist/dist-sandbox-6afc8227/build/Text/StringLike.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9091_0/ghc_5.c /tmp/ghc9091_0/ghc_4.s /tmp/ghc9091_0/ghc_3.c /tmp/ghc9091_0/ghc_2.s /tmp/ghc9091_0/ghc_1.s
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_5.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_3.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_1.s
+compile: input file ./Text/HTML/TagSoup/Entity.hs
+*** Checking old interface for Text.HTML.TagSoup.Entity:
+[ 2 of 13] Compiling Text.HTML.TagSoup.Entity ( Text/HTML/TagSoup/Entity.hs, dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Entity.o )
+*** Parser [Text.HTML.TagSoup.Entity]:
+!!! Parser [Text.HTML.TagSoup.Entity]: finished in 46.00 milliseconds, allocated 53.195 megabytes
+*** Renamer/typechecker [Text.HTML.TagSoup.Entity]:
+!!! Renamer/typechecker [Text.HTML.TagSoup.Entity]: finished in 197.00 milliseconds, allocated 100.275 megabytes
+*** Desugar [Text.HTML.TagSoup.Entity]:
+Result size of Desugar (after optimization)
+  = {terms: 13,698, types: 15,953, coercions: 0}
+!!! Desugar [Text.HTML.TagSoup.Entity]: finished in 79.00 milliseconds, allocated 35.206 megabytes
+*** Simplifier [Text.HTML.TagSoup.Entity]:
+Result size of Simplifier iteration=1
+  = {terms: 36,118, types: 54,112, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 36,114, types: 54,110, coercions: 0}
+Result size of Simplifier
+  = {terms: 36,114, types: 54,110, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Entity]: finished in 1012.00 milliseconds, allocated 391.954 megabytes
+*** Specialise [Text.HTML.TagSoup.Entity]:
+Result size of Specialise
+  = {terms: 36,597, types: 54,874, coercions: 0}
+!!! Specialise [Text.HTML.TagSoup.Entity]: finished in 63.00 milliseconds, allocated 48.452 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Entity]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 41,284, types: 71,085, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Entity]: finished in 178.00 milliseconds, allocated 130.189 megabytes
+*** Simplifier [Text.HTML.TagSoup.Entity]:
+Result size of Simplifier iteration=1
+  = {terms: 36,792, types: 55,139, coercions: 17}
+Result size of Simplifier iteration=2
+  = {terms: 36,567, types: 54,794, coercions: 19}
+Result size of Simplifier iteration=3
+  = {terms: 36,567, types: 54,794, coercions: 19}
+Result size of Simplifier
+  = {terms: 36,567, types: 54,794, coercions: 19}
+!!! Simplifier [Text.HTML.TagSoup.Entity]: finished in 1341.00 milliseconds, allocated 634.221 megabytes
+*** Simplifier [Text.HTML.TagSoup.Entity]:
+Result size of Simplifier iteration=1
+  = {terms: 32,006, types: 45,700, coercions: 19}
+Result size of Simplifier iteration=2
+  = {terms: 31,995, types: 45,671, coercions: 19}
+Result size of Simplifier
+  = {terms: 31,995, types: 45,671, coercions: 19}
+!!! Simplifier [Text.HTML.TagSoup.Entity]: finished in 892.00 milliseconds, allocated 454.971 megabytes
+*** Simplifier [Text.HTML.TagSoup.Entity]:
+Result size of Simplifier iteration=1
+  = {terms: 32,047, types: 45,720, coercions: 15}
+Result size of Simplifier iteration=2
+  = {terms: 32,027, types: 45,703, coercions: 14}
+Result size of Simplifier
+  = {terms: 32,027, types: 45,703, coercions: 14}
+!!! Simplifier [Text.HTML.TagSoup.Entity]: finished in 844.00 milliseconds, allocated 364.565 megabytes
+*** Float inwards [Text.HTML.TagSoup.Entity]:
+Result size of Float inwards
+  = {terms: 32,027, types: 45,703, coercions: 14}
+!!! Float inwards [Text.HTML.TagSoup.Entity]: finished in 43.00 milliseconds, allocated 30.343 megabytes
+*** Called arity analysis [Text.HTML.TagSoup.Entity]:
+Result size of Called arity analysis
+  = {terms: 32,027, types: 45,703, coercions: 14}
+!!! Called arity analysis [Text.HTML.TagSoup.Entity]: finished in 107.00 milliseconds, allocated 40.532 megabytes
+*** Simplifier [Text.HTML.TagSoup.Entity]:
+Result size of Simplifier
+  = {terms: 32,027, types: 45,703, coercions: 14}
+!!! Simplifier [Text.HTML.TagSoup.Entity]: finished in 277.00 milliseconds, allocated 121.187 megabytes
+*** Demand analysis [Text.HTML.TagSoup.Entity]:
+Result size of Demand analysis
+  = {terms: 32,027, types: 45,703, coercions: 14}
+!!! Demand analysis [Text.HTML.TagSoup.Entity]: finished in 159.00 milliseconds, allocated 94.345 megabytes
+*** Worker Wrapper binds [Text.HTML.TagSoup.Entity]:
+Result size of Worker Wrapper binds
+  = {terms: 32,079, types: 45,856, coercions: 14}
+!!! Worker Wrapper binds [Text.HTML.TagSoup.Entity]: finished in 33.00 milliseconds, allocated 12.644 megabytes
+*** Simplifier [Text.HTML.TagSoup.Entity]:
+Result size of Simplifier iteration=1
+  = {terms: 32,070, types: 45,898, coercions: 14}
+Result size of Simplifier iteration=2
+  = {terms: 32,015, types: 45,731, coercions: 14}
+Result size of Simplifier
+  = {terms: 32,015, types: 45,731, coercions: 14}
+!!! Simplifier [Text.HTML.TagSoup.Entity]: finished in 681.00 milliseconds, allocated 365.608 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Entity]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 32,023, types: 45,743, coercions: 14}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Entity]: finished in 138.00 milliseconds, allocated 86.678 megabytes
+*** Common sub-expression [Text.HTML.TagSoup.Entity]:
+Result size of Common sub-expression
+  = {terms: 31,290, types: 45,738, coercions: 12}
+!!! Common sub-expression [Text.HTML.TagSoup.Entity]: finished in 255.00 milliseconds, allocated 37.403 megabytes
+*** Float inwards [Text.HTML.TagSoup.Entity]:
+Result size of Float inwards
+  = {terms: 31,290, types: 45,738, coercions: 12}
+!!! Float inwards [Text.HTML.TagSoup.Entity]: finished in 31.00 milliseconds, allocated 29.331 megabytes
+*** Simplifier [Text.HTML.TagSoup.Entity]:
+Result size of Simplifier iteration=1
+  = {terms: 29,832, types: 44,281, coercions: 12}
+Result size of Simplifier
+  = {terms: 29,832, types: 44,281, coercions: 12}
+!!! Simplifier [Text.HTML.TagSoup.Entity]: finished in 457.00 milliseconds, allocated 234.463 megabytes
+*** CoreTidy [Text.HTML.TagSoup.Entity]:
+Result size of Tidy Core
+  = {terms: 29,814, types: 44,246, coercions: 12}
+!!! CoreTidy [Text.HTML.TagSoup.Entity]: finished in 220.00 milliseconds, allocated 127.678 megabytes
+writeBinIface: 8293 Names
+writeBinIface: 8397 dict entries
+writeBinIface: 8293 Names
+writeBinIface: 8397 dict entries
+*** CorePrep [Text.HTML.TagSoup.Entity]:
+Result size of CorePrep
+  = {terms: 29,896, types: 44,315, coercions: 12}
+!!! CorePrep [Text.HTML.TagSoup.Entity]: finished in 80.00 milliseconds, allocated 46.867 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Entity]:
+!!! CodeGen [Text.HTML.TagSoup.Entity]: finished in 3275.00 milliseconds, allocated 1804.382 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9091_0/ghc_7.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Entity.o
+*** CorePrep [Text.HTML.TagSoup.Entity]:
+Result size of CorePrep
+  = {terms: 29,896, types: 44,315, coercions: 12}
+!!! CorePrep [Text.HTML.TagSoup.Entity]: finished in 67.00 milliseconds, allocated 46.823 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Entity]:
+!!! CodeGen [Text.HTML.TagSoup.Entity]: finished in 3440.00 milliseconds, allocated 1866.489 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9091_0/ghc_9.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Entity.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9091_0/ghc_10.c /tmp/ghc9091_0/ghc_9.s /tmp/ghc9091_0/ghc_8.c /tmp/ghc9091_0/ghc_7.s /tmp/ghc9091_0/ghc_6.s
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_10.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_8.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_6.s
+compile: input file ./Text/HTML/TagSoup/Type.hs
+*** Checking old interface for Text.HTML.TagSoup.Type:
+[ 3 of 13] Compiling Text.HTML.TagSoup.Type ( Text/HTML/TagSoup/Type.hs, dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Type.o )
+*** Parser [Text.HTML.TagSoup.Type]:
+!!! Parser [Text.HTML.TagSoup.Type]: finished in 2.00 milliseconds, allocated 3.793 megabytes
+*** Renamer/typechecker [Text.HTML.TagSoup.Type]:
+!!! Renamer/typechecker [Text.HTML.TagSoup.Type]: finished in 163.00 milliseconds, allocated 77.942 megabytes
+*** Desugar [Text.HTML.TagSoup.Type]:
+Result size of Desugar (after optimization)
+  = {terms: 1,522, types: 1,806, coercions: 42}
+!!! Desugar [Text.HTML.TagSoup.Type]: finished in 16.00 milliseconds, allocated 9.307 megabytes
+*** Simplifier [Text.HTML.TagSoup.Type]:
+Result size of Simplifier iteration=1
+  = {terms: 1,505, types: 1,821, coercions: 28}
+Result size of Simplifier iteration=2
+  = {terms: 1,479, types: 1,784, coercions: 28}
+Result size of Simplifier
+  = {terms: 1,479, types: 1,784, coercions: 28}
+!!! Simplifier [Text.HTML.TagSoup.Type]: finished in 45.00 milliseconds, allocated 18.448 megabytes
+*** Specialise [Text.HTML.TagSoup.Type]:
+Result size of Specialise
+  = {terms: 1,526, types: 1,844, coercions: 41}
+!!! Specialise [Text.HTML.TagSoup.Type]: finished in 3.00 milliseconds, allocated 2.111 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Type]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,739, types: 2,151, coercions: 41}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Type]: finished in 11.00 milliseconds, allocated 9.002 megabytes
+*** Simplifier [Text.HTML.TagSoup.Type]:
+Result size of Simplifier iteration=1
+  = {terms: 2,527, types: 2,819, coercions: 254}
+Result size of Simplifier iteration=2
+  = {terms: 2,386, types: 2,722, coercions: 321}
+Result size of Simplifier
+  = {terms: 2,386, types: 2,722, coercions: 321}
+!!! Simplifier [Text.HTML.TagSoup.Type]: finished in 63.00 milliseconds, allocated 32.781 megabytes
+*** Simplifier [Text.HTML.TagSoup.Type]:
+Result size of Simplifier iteration=1
+  = {terms: 2,275, types: 2,548, coercions: 321}
+Result size of Simplifier
+  = {terms: 2,254, types: 2,541, coercions: 321}
+!!! Simplifier [Text.HTML.TagSoup.Type]: finished in 34.00 milliseconds, allocated 19.258 megabytes
+*** Simplifier [Text.HTML.TagSoup.Type]:
+Result size of Simplifier iteration=1
+  = {terms: 2,353, types: 2,721, coercions: 321}
+Result size of Simplifier
+  = {terms: 2,326, types: 2,712, coercions: 321}
+!!! Simplifier [Text.HTML.TagSoup.Type]: finished in 29.00 milliseconds, allocated 17.329 megabytes
+*** Float inwards [Text.HTML.TagSoup.Type]:
+Result size of Float inwards
+  = {terms: 2,326, types: 2,712, coercions: 321}
+!!! Float inwards [Text.HTML.TagSoup.Type]: finished in 3.00 milliseconds, allocated 3.043 megabytes
+*** Called arity analysis [Text.HTML.TagSoup.Type]:
+Result size of Called arity analysis
+  = {terms: 2,326, types: 2,712, coercions: 321}
+!!! Called arity analysis [Text.HTML.TagSoup.Type]: finished in 4.00 milliseconds, allocated 2.749 megabytes
+*** Simplifier [Text.HTML.TagSoup.Type]:
+Result size of Simplifier
+  = {terms: 2,326, types: 2,712, coercions: 321}
+!!! Simplifier [Text.HTML.TagSoup.Type]: finished in 14.00 milliseconds, allocated 8.412 megabytes
+*** Demand analysis [Text.HTML.TagSoup.Type]:
+Result size of Demand analysis
+  = {terms: 2,326, types: 2,712, coercions: 321}
+!!! Demand analysis [Text.HTML.TagSoup.Type]: finished in 19.00 milliseconds, allocated 8.762 megabytes
+*** Worker Wrapper binds [Text.HTML.TagSoup.Type]:
+Result size of Worker Wrapper binds
+  = {terms: 2,465, types: 2,848, coercions: 321}
+!!! Worker Wrapper binds [Text.HTML.TagSoup.Type]: finished in 2.00 milliseconds, allocated 0.887 megabytes
+*** Simplifier [Text.HTML.TagSoup.Type]:
+Result size of Simplifier iteration=1
+  = {terms: 2,422, types: 2,805, coercions: 321}
+Result size of Simplifier iteration=2
+  = {terms: 2,374, types: 2,773, coercions: 321}
+Result size of Simplifier
+  = {terms: 2,374, types: 2,773, coercions: 321}
+!!! Simplifier [Text.HTML.TagSoup.Type]: finished in 54.00 milliseconds, allocated 32.109 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Type]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,443, types: 2,939, coercions: 321}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Type]: finished in 23.00 milliseconds, allocated 13.256 megabytes
+*** Common sub-expression [Text.HTML.TagSoup.Type]:
+Result size of Common sub-expression
+  = {terms: 2,326, types: 2,881, coercions: 321}
+!!! Common sub-expression [Text.HTML.TagSoup.Type]: finished in 6.00 milliseconds, allocated 3.303 megabytes
+*** Float inwards [Text.HTML.TagSoup.Type]:
+Result size of Float inwards
+  = {terms: 2,326, types: 2,881, coercions: 321}
+!!! Float inwards [Text.HTML.TagSoup.Type]: finished in 3.00 milliseconds, allocated 3.195 megabytes
+*** Simplifier [Text.HTML.TagSoup.Type]:
+Result size of Simplifier iteration=1
+  = {terms: 2,295, types: 2,857, coercions: 321}
+Result size of Simplifier
+  = {terms: 2,293, types: 2,850, coercions: 321}
+!!! Simplifier [Text.HTML.TagSoup.Type]: finished in 37.00 milliseconds, allocated 20.161 megabytes
+*** CoreTidy [Text.HTML.TagSoup.Type]:
+Result size of Tidy Core
+  = {terms: 2,301, types: 2,829, coercions: 314}
+!!! CoreTidy [Text.HTML.TagSoup.Type]: finished in 7.00 milliseconds, allocated 4.019 megabytes
+writeBinIface: 193 Names
+writeBinIface: 336 dict entries
+writeBinIface: 193 Names
+writeBinIface: 336 dict entries
+*** CorePrep [Text.HTML.TagSoup.Type]:
+Result size of CorePrep
+  = {terms: 2,946, types: 3,955, coercions: 314}
+!!! CorePrep [Text.HTML.TagSoup.Type]: finished in 7.00 milliseconds, allocated 5.059 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Type]:
+!!! CodeGen [Text.HTML.TagSoup.Type]: finished in 234.00 milliseconds, allocated 142.779 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9091_0/ghc_12.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Type.o
+*** CorePrep [Text.HTML.TagSoup.Type]:
+Result size of CorePrep
+  = {terms: 2,946, types: 3,955, coercions: 314}
+!!! CorePrep [Text.HTML.TagSoup.Type]: finished in 6.00 milliseconds, allocated 4.920 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Type]:
+!!! CodeGen [Text.HTML.TagSoup.Type]: finished in 231.00 milliseconds, allocated 150.645 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9091_0/ghc_14.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Type.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9091_0/ghc_15.c /tmp/ghc9091_0/ghc_14.s /tmp/ghc9091_0/ghc_13.c /tmp/ghc9091_0/ghc_12.s /tmp/ghc9091_0/ghc_11.s
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_13.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_11.s
+compile: input file ./Text/HTML/TagSoup/Match.hs
+*** Checking old interface for Text.HTML.TagSoup.Match:
+[ 4 of 13] Compiling Text.HTML.TagSoup.Match ( Text/HTML/TagSoup/Match.hs, dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Match.o )
+*** Parser [Text.HTML.TagSoup.Match]:
+!!! Parser [Text.HTML.TagSoup.Match]: finished in 2.00 milliseconds, allocated 3.564 megabytes
+*** Renamer/typechecker [Text.HTML.TagSoup.Match]:
+!!! Renamer/typechecker [Text.HTML.TagSoup.Match]: finished in 18.00 milliseconds, allocated 8.038 megabytes
+*** Desugar [Text.HTML.TagSoup.Match]:
+Result size of Desugar (after optimization)
+  = {terms: 206, types: 413, coercions: 0}
+!!! Desugar [Text.HTML.TagSoup.Match]: finished in 2.00 milliseconds, allocated 1.405 megabytes
+*** Simplifier [Text.HTML.TagSoup.Match]:
+Result size of Simplifier iteration=1
+  = {terms: 195, types: 410, coercions: 0}
+Result size of Simplifier = {terms: 191, types: 404, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Match]: finished in 3.00 milliseconds, allocated 1.447 megabytes
+*** Specialise [Text.HTML.TagSoup.Match]:
+Result size of Specialise = {terms: 191, types: 404, coercions: 0}
+!!! Specialise [Text.HTML.TagSoup.Match]: finished in 1.00 milliseconds, allocated 0.290 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Match]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 202, types: 437, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Match]: finished in 2.00 milliseconds, allocated 1.378 megabytes
+*** Simplifier [Text.HTML.TagSoup.Match]:
+Result size of Simplifier iteration=1
+  = {terms: 479, types: 712, coercions: 82}
+Result size of Simplifier iteration=2
+  = {terms: 418, types: 619, coercions: 133}
+Result size of Simplifier iteration=3
+  = {terms: 419, types: 618, coercions: 133}
+Result size of Simplifier
+  = {terms: 419, types: 618, coercions: 133}
+!!! Simplifier [Text.HTML.TagSoup.Match]: finished in 22.00 milliseconds, allocated 9.053 megabytes
+*** Simplifier [Text.HTML.TagSoup.Match]:
+Result size of Simplifier iteration=1
+  = {terms: 397, types: 605, coercions: 133}
+Result size of Simplifier iteration=2
+  = {terms: 393, types: 596, coercions: 133}
+Result size of Simplifier
+  = {terms: 393, types: 596, coercions: 133}
+!!! Simplifier [Text.HTML.TagSoup.Match]: finished in 14.00 milliseconds, allocated 5.578 megabytes
+*** Simplifier [Text.HTML.TagSoup.Match]:
+Result size of Simplifier iteration=1
+  = {terms: 507, types: 742, coercions: 103}
+Result size of Simplifier iteration=2
+  = {terms: 442, types: 658, coercions: 101}
+Result size of Simplifier iteration=3
+  = {terms: 440, types: 656, coercions: 101}
+Result size of Simplifier
+  = {terms: 440, types: 656, coercions: 101}
+!!! Simplifier [Text.HTML.TagSoup.Match]: finished in 12.00 milliseconds, allocated 6.701 megabytes
+*** Float inwards [Text.HTML.TagSoup.Match]:
+Result size of Float inwards
+  = {terms: 440, types: 656, coercions: 101}
+!!! Float inwards [Text.HTML.TagSoup.Match]: finished in 0.00 milliseconds, allocated 0.574 megabytes
+*** Called arity analysis [Text.HTML.TagSoup.Match]:
+Result size of Called arity analysis
+  = {terms: 440, types: 656, coercions: 101}
+!!! Called arity analysis [Text.HTML.TagSoup.Match]: finished in 1.00 milliseconds, allocated 0.436 megabytes
+*** Simplifier [Text.HTML.TagSoup.Match]:
+Result size of Simplifier
+  = {terms: 440, types: 656, coercions: 101}
+!!! Simplifier [Text.HTML.TagSoup.Match]: finished in 2.00 milliseconds, allocated 1.567 megabytes
+*** Demand analysis [Text.HTML.TagSoup.Match]:
+Result size of Demand analysis
+  = {terms: 440, types: 656, coercions: 101}
+!!! Demand analysis [Text.HTML.TagSoup.Match]: finished in 2.00 milliseconds, allocated 1.745 megabytes
+*** Worker Wrapper binds [Text.HTML.TagSoup.Match]:
+Result size of Worker Wrapper binds
+  = {terms: 458, types: 678, coercions: 101}
+!!! Worker Wrapper binds [Text.HTML.TagSoup.Match]: finished in 0.00 milliseconds, allocated 0.249 megabytes
+*** Simplifier [Text.HTML.TagSoup.Match]:
+Result size of Simplifier iteration=1
+  = {terms: 446, types: 669, coercions: 101}
+Result size of Simplifier
+  = {terms: 433, types: 653, coercions: 101}
+!!! Simplifier [Text.HTML.TagSoup.Match]: finished in 8.00 milliseconds, allocated 3.940 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Match]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 434, types: 659, coercions: 101}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Match]: finished in 2.00 milliseconds, allocated 2.407 megabytes
+*** Common sub-expression [Text.HTML.TagSoup.Match]:
+Result size of Common sub-expression
+  = {terms: 432, types: 658, coercions: 101}
+!!! Common sub-expression [Text.HTML.TagSoup.Match]: finished in 1.00 milliseconds, allocated 0.631 megabytes
+*** Float inwards [Text.HTML.TagSoup.Match]:
+Result size of Float inwards
+  = {terms: 432, types: 658, coercions: 101}
+!!! Float inwards [Text.HTML.TagSoup.Match]: finished in 1.00 milliseconds, allocated 0.536 megabytes
+*** Simplifier [Text.HTML.TagSoup.Match]:
+Result size of Simplifier iteration=1
+  = {terms: 430, types: 656, coercions: 101}
+Result size of Simplifier
+  = {terms: 430, types: 656, coercions: 101}
+!!! Simplifier [Text.HTML.TagSoup.Match]: finished in 5.00 milliseconds, allocated 3.726 megabytes
+*** CoreTidy [Text.HTML.TagSoup.Match]:
+Result size of Tidy Core = {terms: 430, types: 656, coercions: 101}
+!!! CoreTidy [Text.HTML.TagSoup.Match]: finished in 1.00 milliseconds, allocated 0.842 megabytes
+writeBinIface: 41 Names
+writeBinIface: 126 dict entries
+writeBinIface: 41 Names
+writeBinIface: 126 dict entries
+*** CorePrep [Text.HTML.TagSoup.Match]:
+Result size of CorePrep = {terms: 501, types: 758, coercions: 101}
+!!! CorePrep [Text.HTML.TagSoup.Match]: finished in 1.00 milliseconds, allocated 0.856 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Match]:
+!!! CodeGen [Text.HTML.TagSoup.Match]: finished in 31.00 milliseconds, allocated 26.403 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9091_0/ghc_17.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Match.o
+*** CorePrep [Text.HTML.TagSoup.Match]:
+Result size of CorePrep = {terms: 501, types: 758, coercions: 101}
+!!! CorePrep [Text.HTML.TagSoup.Match]: finished in 1.00 milliseconds, allocated 0.845 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Match]:
+!!! CodeGen [Text.HTML.TagSoup.Match]: finished in 36.00 milliseconds, allocated 27.589 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9091_0/ghc_19.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Match.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9091_0/ghc_20.c /tmp/ghc9091_0/ghc_19.s /tmp/ghc9091_0/ghc_18.c /tmp/ghc9091_0/ghc_17.s /tmp/ghc9091_0/ghc_16.s
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_18.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_16.s
+compile: input file ./Text/HTML/TagSoup/Options.hs
+*** Checking old interface for Text.HTML.TagSoup.Options:
+[ 5 of 13] Compiling Text.HTML.TagSoup.Options ( Text/HTML/TagSoup/Options.hs, dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Options.o )
+*** Parser [Text.HTML.TagSoup.Options]:
+!!! Parser [Text.HTML.TagSoup.Options]: finished in 2.00 milliseconds, allocated 2.543 megabytes
+*** Renamer/typechecker [Text.HTML.TagSoup.Options]:
+!!! Renamer/typechecker [Text.HTML.TagSoup.Options]: finished in 21.00 milliseconds, allocated 12.933 megabytes
+*** Desugar [Text.HTML.TagSoup.Options]:
+Result size of Desugar (after optimization)
+  = {terms: 280, types: 548, coercions: 0}
+!!! Desugar [Text.HTML.TagSoup.Options]: finished in 5.00 milliseconds, allocated 4.310 megabytes
+*** Simplifier [Text.HTML.TagSoup.Options]:
+Result size of Simplifier iteration=1
+  = {terms: 267, types: 505, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 251, types: 479, coercions: 0}
+Result size of Simplifier = {terms: 251, types: 479, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Options]: finished in 5.00 milliseconds, allocated 3.265 megabytes
+*** Specialise [Text.HTML.TagSoup.Options]:
+Result size of Specialise = {terms: 251, types: 479, coercions: 0}
+!!! Specialise [Text.HTML.TagSoup.Options]: finished in 0.00 milliseconds, allocated 0.380 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Options]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 267, types: 502, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Options]: finished in 3.00 milliseconds, allocated 1.885 megabytes
+*** Simplifier [Text.HTML.TagSoup.Options]:
+Result size of Simplifier iteration=1
+  = {terms: 287, types: 501, coercions: 12}
+Result size of Simplifier iteration=2
+  = {terms: 282, types: 489, coercions: 12}
+Result size of Simplifier = {terms: 282, types: 489, coercions: 12}
+!!! Simplifier [Text.HTML.TagSoup.Options]: finished in 6.00 milliseconds, allocated 3.780 megabytes
+*** Simplifier [Text.HTML.TagSoup.Options]:
+Result size of Simplifier iteration=1
+  = {terms: 258, types: 450, coercions: 12}
+Result size of Simplifier = {terms: 258, types: 450, coercions: 12}
+!!! Simplifier [Text.HTML.TagSoup.Options]: finished in 4.00 milliseconds, allocated 2.279 megabytes
+*** Simplifier [Text.HTML.TagSoup.Options]:
+Result size of Simplifier = {terms: 258, types: 450, coercions: 12}
+!!! Simplifier [Text.HTML.TagSoup.Options]: finished in 1.00 milliseconds, allocated 1.005 megabytes
+*** Float inwards [Text.HTML.TagSoup.Options]:
+Result size of Float inwards
+  = {terms: 258, types: 450, coercions: 12}
+!!! Float inwards [Text.HTML.TagSoup.Options]: finished in 1.00 milliseconds, allocated 0.665 megabytes
+*** Called arity analysis [Text.HTML.TagSoup.Options]:
+Result size of Called arity analysis
+  = {terms: 258, types: 450, coercions: 12}
+!!! Called arity analysis [Text.HTML.TagSoup.Options]: finished in 0.00 milliseconds, allocated 0.276 megabytes
+*** Simplifier [Text.HTML.TagSoup.Options]:
+Result size of Simplifier = {terms: 258, types: 450, coercions: 12}
+!!! Simplifier [Text.HTML.TagSoup.Options]: finished in 1.00 milliseconds, allocated 0.998 megabytes
+*** Demand analysis [Text.HTML.TagSoup.Options]:
+Result size of Demand analysis
+  = {terms: 258, types: 450, coercions: 12}
+!!! Demand analysis [Text.HTML.TagSoup.Options]: finished in 2.00 milliseconds, allocated 1.180 megabytes
+*** Worker Wrapper binds [Text.HTML.TagSoup.Options]:
+Result size of Worker Wrapper binds
+  = {terms: 378, types: 934, coercions: 12}
+!!! Worker Wrapper binds [Text.HTML.TagSoup.Options]: finished in 1.00 milliseconds, allocated 0.437 megabytes
+*** Simplifier [Text.HTML.TagSoup.Options]:
+Result size of Simplifier iteration=1
+  = {terms: 340, types: 855, coercions: 12}
+Result size of Simplifier iteration=2
+  = {terms: 326, types: 828, coercions: 12}
+Result size of Simplifier = {terms: 326, types: 828, coercions: 12}
+!!! Simplifier [Text.HTML.TagSoup.Options]: finished in 8.00 milliseconds, allocated 5.675 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Options]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 328, types: 830, coercions: 12}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Options]: finished in 5.00 milliseconds, allocated 2.095 megabytes
+*** Common sub-expression [Text.HTML.TagSoup.Options]:
+Result size of Common sub-expression
+  = {terms: 325, types: 826, coercions: 12}
+!!! Common sub-expression [Text.HTML.TagSoup.Options]: finished in 2.00 milliseconds, allocated 0.569 megabytes
+*** Float inwards [Text.HTML.TagSoup.Options]:
+Result size of Float inwards
+  = {terms: 325, types: 826, coercions: 12}
+!!! Float inwards [Text.HTML.TagSoup.Options]: finished in 0.00 milliseconds, allocated 0.837 megabytes
+*** Simplifier [Text.HTML.TagSoup.Options]:
+Result size of Simplifier = {terms: 321, types: 820, coercions: 12}
+!!! Simplifier [Text.HTML.TagSoup.Options]: finished in 4.00 milliseconds, allocated 1.689 megabytes
+*** CoreTidy [Text.HTML.TagSoup.Options]:
+Result size of Tidy Core = {terms: 321, types: 820, coercions: 12}
+!!! CoreTidy [Text.HTML.TagSoup.Options]: finished in 1.00 milliseconds, allocated 0.805 megabytes
+writeBinIface: 40 Names
+writeBinIface: 128 dict entries
+writeBinIface: 40 Names
+writeBinIface: 128 dict entries
+*** CorePrep [Text.HTML.TagSoup.Options]:
+Result size of CorePrep = {terms: 400, types: 927, coercions: 12}
+!!! CorePrep [Text.HTML.TagSoup.Options]: finished in 1.00 milliseconds, allocated 0.902 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Options]:
+!!! CodeGen [Text.HTML.TagSoup.Options]: finished in 38.00 milliseconds, allocated 22.499 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9091_0/ghc_22.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Options.o
+*** CorePrep [Text.HTML.TagSoup.Options]:
+Result size of CorePrep = {terms: 400, types: 927, coercions: 12}
+!!! CorePrep [Text.HTML.TagSoup.Options]: finished in 2.00 milliseconds, allocated 0.877 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Options]:
+!!! CodeGen [Text.HTML.TagSoup.Options]: finished in 32.00 milliseconds, allocated 23.778 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9091_0/ghc_24.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Options.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9091_0/ghc_25.c /tmp/ghc9091_0/ghc_24.s /tmp/ghc9091_0/ghc_23.c /tmp/ghc9091_0/ghc_22.s /tmp/ghc9091_0/ghc_21.s
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_25.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_23.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_21.s
+compile: input file ./Text/HTML/TagSoup/Implementation.hs
+*** Checking old interface for Text.HTML.TagSoup.Implementation:
+[ 6 of 13] Compiling Text.HTML.TagSoup.Implementation ( Text/HTML/TagSoup/Implementation.hs, dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Implementation.o )
+*** Parser [Text.HTML.TagSoup.Implementation]:
+!!! Parser [Text.HTML.TagSoup.Implementation]: finished in 7.00 milliseconds, allocated 8.574 megabytes
+*** Renamer/typechecker [Text.HTML.TagSoup.Implementation]:
+!!! Renamer/typechecker [Text.HTML.TagSoup.Implementation]: finished in 62.00 milliseconds, allocated 30.112 megabytes
+*** Desugar [Text.HTML.TagSoup.Implementation]:
+Result size of Desugar (after optimization)
+  = {terms: 2,185, types: 4,943, coercions: 6}
+!!! Desugar [Text.HTML.TagSoup.Implementation]: finished in 31.00 milliseconds, allocated 15.952 megabytes
+*** Simplifier [Text.HTML.TagSoup.Implementation]:
+Result size of Simplifier iteration=1
+  = {terms: 2,104, types: 4,284, coercions: 6}
+Result size of Simplifier iteration=2
+  = {terms: 1,980, types: 3,870, coercions: 6}
+Result size of Simplifier
+  = {terms: 1,980, types: 3,870, coercions: 6}
+!!! Simplifier [Text.HTML.TagSoup.Implementation]: finished in 48.00 milliseconds, allocated 23.314 megabytes
+*** Specialise [Text.HTML.TagSoup.Implementation]:
+Result size of Specialise
+  = {terms: 2,107, types: 4,252, coercions: 6}
+!!! Specialise [Text.HTML.TagSoup.Implementation]: finished in 13.00 milliseconds, allocated 2.940 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Implementation]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 2,354, types: 4,698, coercions: 6}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Implementation]: finished in 18.00 milliseconds, allocated 14.099 megabytes
+*** Simplifier [Text.HTML.TagSoup.Implementation]:
+Result size of Simplifier iteration=1
+  = {terms: 3,564, types: 5,810, coercions: 36}
+Result size of Simplifier iteration=2
+  = {terms: 3,070, types: 4,670, coercions: 40}
+Result size of Simplifier iteration=3
+  = {terms: 3,022, types: 4,526, coercions: 50}
+Result size of Simplifier
+  = {terms: 3,022, types: 4,526, coercions: 50}
+!!! Simplifier [Text.HTML.TagSoup.Implementation]: finished in 116.00 milliseconds, allocated 62.769 megabytes
+*** Simplifier [Text.HTML.TagSoup.Implementation]:
+Result size of Simplifier iteration=1
+  = {terms: 2,695, types: 4,117, coercions: 50}
+Result size of Simplifier iteration=2
+  = {terms: 2,604, types: 4,066, coercions: 50}
+Result size of Simplifier
+  = {terms: 2,571, types: 4,044, coercions: 50}
+!!! Simplifier [Text.HTML.TagSoup.Implementation]: finished in 46.00 milliseconds, allocated 34.996 megabytes
+*** Simplifier [Text.HTML.TagSoup.Implementation]:
+Result size of Simplifier iteration=1
+  = {terms: 2,821, types: 4,224, coercions: 50}
+Result size of Simplifier iteration=2
+  = {terms: 2,749, types: 4,131, coercions: 50}
+Result size of Simplifier
+  = {terms: 2,749, types: 4,131, coercions: 50}
+!!! Simplifier [Text.HTML.TagSoup.Implementation]: finished in 38.00 milliseconds, allocated 30.001 megabytes
+*** Float inwards [Text.HTML.TagSoup.Implementation]:
+Result size of Float inwards
+  = {terms: 2,749, types: 4,131, coercions: 50}
+!!! Float inwards [Text.HTML.TagSoup.Implementation]: finished in 4.00 milliseconds, allocated 5.205 megabytes
+*** Called arity analysis [Text.HTML.TagSoup.Implementation]:
+Result size of Called arity analysis
+  = {terms: 2,749, types: 4,131, coercions: 50}
+!!! Called arity analysis [Text.HTML.TagSoup.Implementation]: finished in 6.00 milliseconds, allocated 2.450 megabytes
+*** Simplifier [Text.HTML.TagSoup.Implementation]:
+Result size of Simplifier iteration=1
+  = {terms: 2,710, types: 3,981, coercions: 50}
+Result size of Simplifier iteration=2
+  = {terms: 2,710, types: 3,981, coercions: 50}
+Result size of Simplifier
+  = {terms: 2,710, types: 3,981, coercions: 50}
+!!! Simplifier [Text.HTML.TagSoup.Implementation]: finished in 42.00 milliseconds, allocated 29.255 megabytes
+*** Demand analysis [Text.HTML.TagSoup.Implementation]:
+Result size of Demand analysis
+  = {terms: 2,710, types: 3,981, coercions: 50}
+!!! Demand analysis [Text.HTML.TagSoup.Implementation]: finished in 11.00 milliseconds, allocated 13.967 megabytes
+*** Worker Wrapper binds [Text.HTML.TagSoup.Implementation]:
+Result size of Worker Wrapper binds
+  = {terms: 3,215, types: 5,482, coercions: 50}
+!!! Worker Wrapper binds [Text.HTML.TagSoup.Implementation]: finished in 3.00 milliseconds, allocated 1.509 megabytes
+*** Simplifier [Text.HTML.TagSoup.Implementation]:
+Result size of Simplifier iteration=1
+  = {terms: 3,555, types: 6,625, coercions: 50}
+Result size of Simplifier iteration=2
+  = {terms: 3,694, types: 5,718, coercions: 58}
+Result size of Simplifier iteration=3
+  = {terms: 3,642, types: 5,655, coercions: 58}
+Result size of Simplifier iteration=4
+  = {terms: 3,642, types: 5,655, coercions: 58}
+Result size of Simplifier
+  = {terms: 3,642, types: 5,655, coercions: 58}
+!!! Simplifier [Text.HTML.TagSoup.Implementation]: finished in 89.00 milliseconds, allocated 63.699 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Implementation]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 3,692, types: 5,701, coercions: 58}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Implementation]: finished in 33.00 milliseconds, allocated 18.840 megabytes
+*** Common sub-expression [Text.HTML.TagSoup.Implementation]:
+Result size of Common sub-expression
+  = {terms: 3,583, types: 5,654, coercions: 52}
+!!! Common sub-expression [Text.HTML.TagSoup.Implementation]: finished in 8.00 milliseconds, allocated 4.877 megabytes
+*** Float inwards [Text.HTML.TagSoup.Implementation]:
+Result size of Float inwards
+  = {terms: 3,583, types: 5,654, coercions: 52}
+!!! Float inwards [Text.HTML.TagSoup.Implementation]: finished in 7.00 milliseconds, allocated 6.033 megabytes
+*** Simplifier [Text.HTML.TagSoup.Implementation]:
+Result size of Simplifier iteration=1
+  = {terms: 3,588, types: 5,637, coercions: 60}
+Result size of Simplifier iteration=2
+  = {terms: 3,560, types: 5,540, coercions: 60}
+Result size of Simplifier
+  = {terms: 3,560, types: 5,540, coercions: 60}
+!!! Simplifier [Text.HTML.TagSoup.Implementation]: finished in 65.00 milliseconds, allocated 43.159 megabytes
+*** CoreTidy [Text.HTML.TagSoup.Implementation]:
+Result size of Tidy Core
+  = {terms: 3,516, types: 5,495, coercions: 54}
+!!! CoreTidy [Text.HTML.TagSoup.Implementation]: finished in 7.00 milliseconds, allocated 5.699 megabytes
+writeBinIface: 165 Names
+writeBinIface: 304 dict entries
+writeBinIface: 165 Names
+writeBinIface: 304 dict entries
+*** CorePrep [Text.HTML.TagSoup.Implementation]:
+Result size of CorePrep
+  = {terms: 4,202, types: 6,130, coercions: 54}
+!!! CorePrep [Text.HTML.TagSoup.Implementation]: finished in 8.00 milliseconds, allocated 7.525 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Implementation]:
+!!! CodeGen [Text.HTML.TagSoup.Implementation]: finished in 313.00 milliseconds, allocated 224.633 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9091_0/ghc_27.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Implementation.o
+*** CorePrep [Text.HTML.TagSoup.Implementation]:
+Result size of CorePrep
+  = {terms: 4,202, types: 6,130, coercions: 54}
+!!! CorePrep [Text.HTML.TagSoup.Implementation]: finished in 10.00 milliseconds, allocated 7.064 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Implementation]:
+!!! CodeGen [Text.HTML.TagSoup.Implementation]: finished in 355.00 milliseconds, allocated 235.903 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9091_0/ghc_29.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Implementation.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9091_0/ghc_30.c /tmp/ghc9091_0/ghc_29.s /tmp/ghc9091_0/ghc_28.c /tmp/ghc9091_0/ghc_27.s /tmp/ghc9091_0/ghc_26.s
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_30.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_28.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_26.s
+compile: input file ./Text/HTML/TagSoup/Specification.hs
+*** Checking old interface for Text.HTML.TagSoup.Specification:
+[ 7 of 13] Compiling Text.HTML.TagSoup.Specification ( Text/HTML/TagSoup/Specification.hs, dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Specification.o )
+*** Parser [Text.HTML.TagSoup.Specification]:
+!!! Parser [Text.HTML.TagSoup.Specification]: finished in 10.00 milliseconds, allocated 10.311 megabytes
+*** Renamer/typechecker [Text.HTML.TagSoup.Specification]:
+!!! Renamer/typechecker [Text.HTML.TagSoup.Specification]: finished in 42.00 milliseconds, allocated 24.131 megabytes
+*** Desugar [Text.HTML.TagSoup.Specification]:
+Result size of Desugar (after optimization)
+  = {terms: 2,455, types: 2,018, coercions: 0}
+!!! Desugar [Text.HTML.TagSoup.Specification]: finished in 18.00 milliseconds, allocated 12.080 megabytes
+*** Simplifier [Text.HTML.TagSoup.Specification]:
+Result size of Simplifier iteration=1
+  = {terms: 2,316, types: 1,767, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 2,261, types: 1,617, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,261, types: 1,617, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Specification]: finished in 40.00 milliseconds, allocated 24.425 megabytes
+*** Specialise [Text.HTML.TagSoup.Specification]:
+Result size of Specialise
+  = {terms: 2,281, types: 1,641, coercions: 4}
+!!! Specialise [Text.HTML.TagSoup.Specification]: finished in 5.00 milliseconds, allocated 2.787 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Specification]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 2,677, types: 2,253, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Specification]: finished in 19.00 milliseconds, allocated 11.804 megabytes
+*** Simplifier [Text.HTML.TagSoup.Specification]:
+Result size of Simplifier iteration=1
+  = {terms: 2,804, types: 1,839, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 2,541, types: 1,688, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 2,531, types: 1,674, coercions: 0}
+Result size of Simplifier iteration=4
+  = {terms: 2,528, types: 1,673, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,528, types: 1,673, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Specification]: finished in 53.00 milliseconds, allocated 41.027 megabytes
+*** Simplifier [Text.HTML.TagSoup.Specification]:
+Result size of Simplifier iteration=1
+  = {terms: 2,451, types: 1,453, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 2,378, types: 1,416, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,378, types: 1,416, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Specification]: finished in 41.00 milliseconds, allocated 27.891 megabytes
+*** Simplifier [Text.HTML.TagSoup.Specification]:
+Result size of Simplifier iteration=1
+  = {terms: 2,782, types: 1,545, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 2,782, types: 1,545, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,782, types: 1,545, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Specification]: finished in 44.00 milliseconds, allocated 29.359 megabytes
+*** Float inwards [Text.HTML.TagSoup.Specification]:
+Result size of Float inwards
+  = {terms: 2,782, types: 1,545, coercions: 0}
+!!! Float inwards [Text.HTML.TagSoup.Specification]: finished in 9.00 milliseconds, allocated 3.174 megabytes
+*** Called arity analysis [Text.HTML.TagSoup.Specification]:
+Result size of Called arity analysis
+  = {terms: 2,782, types: 1,545, coercions: 0}
+!!! Called arity analysis [Text.HTML.TagSoup.Specification]: finished in 6.00 milliseconds, allocated 7.039 megabytes
+*** Simplifier [Text.HTML.TagSoup.Specification]:
+Result size of Simplifier iteration=1
+  = {terms: 2,779, types: 1,543, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,779, types: 1,543, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Specification]: finished in 31.00 milliseconds, allocated 19.435 megabytes
+*** Demand analysis [Text.HTML.TagSoup.Specification]:
+Result size of Demand analysis
+  = {terms: 2,779, types: 1,543, coercions: 0}
+!!! Demand analysis [Text.HTML.TagSoup.Specification]: finished in 46.00 milliseconds, allocated 34.325 megabytes
+*** Worker Wrapper binds [Text.HTML.TagSoup.Specification]:
+Result size of Worker Wrapper binds
+  = {terms: 2,877, types: 1,660, coercions: 0}
+!!! Worker Wrapper binds [Text.HTML.TagSoup.Specification]: finished in 1.00 milliseconds, allocated 0.743 megabytes
+*** Simplifier [Text.HTML.TagSoup.Specification]:
+Result size of Simplifier iteration=1
+  = {terms: 3,068, types: 1,725, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 2,961, types: 1,649, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,961, types: 1,649, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Specification]: finished in 56.00 milliseconds, allocated 32.233 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Specification]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 3,337, types: 1,948, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Specification]: finished in 18.00 milliseconds, allocated 14.061 megabytes
+*** Common sub-expression [Text.HTML.TagSoup.Specification]:
+Result size of Common sub-expression
+  = {terms: 3,055, types: 1,840, coercions: 0}
+!!! Common sub-expression [Text.HTML.TagSoup.Specification]: finished in 3.00 milliseconds, allocated 3.258 megabytes
+*** Float inwards [Text.HTML.TagSoup.Specification]:
+Result size of Float inwards
+  = {terms: 3,055, types: 1,840, coercions: 0}
+!!! Float inwards [Text.HTML.TagSoup.Specification]: finished in 2.00 milliseconds, allocated 3.024 megabytes
+*** Simplifier [Text.HTML.TagSoup.Specification]:
+Result size of Simplifier iteration=1
+  = {terms: 2,683, types: 1,555, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,683, types: 1,555, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Specification]: finished in 33.00 milliseconds, allocated 19.327 megabytes
+*** CoreTidy [Text.HTML.TagSoup.Specification]:
+Result size of Tidy Core
+  = {terms: 2,665, types: 1,534, coercions: 0}
+!!! CoreTidy [Text.HTML.TagSoup.Specification]: finished in 5.00 milliseconds, allocated 3.162 megabytes
+writeBinIface: 26 Names
+writeBinIface: 109 dict entries
+writeBinIface: 26 Names
+writeBinIface: 109 dict entries
+*** CorePrep [Text.HTML.TagSoup.Specification]:
+Result size of CorePrep
+  = {terms: 3,412, types: 2,113, coercions: 0}
+!!! CorePrep [Text.HTML.TagSoup.Specification]: finished in 5.00 milliseconds, allocated 5.559 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Specification]:
+!!! CodeGen [Text.HTML.TagSoup.Specification]: finished in 307.00 milliseconds, allocated 183.815 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9091_0/ghc_32.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Specification.o
+*** CorePrep [Text.HTML.TagSoup.Specification]:
+Result size of CorePrep
+  = {terms: 3,412, types: 2,113, coercions: 0}
+!!! CorePrep [Text.HTML.TagSoup.Specification]: finished in 5.00 milliseconds, allocated 5.272 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Specification]:
+!!! CodeGen [Text.HTML.TagSoup.Specification]: finished in 466.00 milliseconds, allocated 195.548 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9091_0/ghc_34.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Specification.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9091_0/ghc_35.c /tmp/ghc9091_0/ghc_34.s /tmp/ghc9091_0/ghc_33.c /tmp/ghc9091_0/ghc_32.s /tmp/ghc9091_0/ghc_31.s
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_35.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_33.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_31.s
+compile: input file ./Text/HTML/TagSoup/Manual.hs
+*** Checking old interface for Text.HTML.TagSoup.Manual:
+[ 8 of 13] Compiling Text.HTML.TagSoup.Manual ( Text/HTML/TagSoup/Manual.hs, dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Manual.o )
+*** Parser [Text.HTML.TagSoup.Manual]:
+!!! Parser [Text.HTML.TagSoup.Manual]: finished in 0.00 milliseconds, allocated 0.287 megabytes
+*** Renamer/typechecker [Text.HTML.TagSoup.Manual]:
+!!! Renamer/typechecker [Text.HTML.TagSoup.Manual]: finished in 4.00 milliseconds, allocated 1.693 megabytes
+*** Desugar [Text.HTML.TagSoup.Manual]:
+Result size of Desugar (after optimization)
+  = {terms: 18, types: 29, coercions: 0}
+!!! Desugar [Text.HTML.TagSoup.Manual]: finished in 1.00 milliseconds, allocated 0.167 megabytes
+*** Simplifier [Text.HTML.TagSoup.Manual]:
+Result size of Simplifier iteration=1
+  = {terms: 24, types: 32, coercions: 0}
+Result size of Simplifier = {terms: 24, types: 32, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Manual]: finished in 0.00 milliseconds, allocated 0.216 megabytes
+*** Specialise [Text.HTML.TagSoup.Manual]:
+Result size of Specialise = {terms: 24, types: 32, coercions: 0}
+!!! Specialise [Text.HTML.TagSoup.Manual]: finished in 1.00 milliseconds, allocated 0.069 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Manual]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 24, types: 32, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Manual]: finished in 0.00 milliseconds, allocated 0.189 megabytes
+*** Simplifier [Text.HTML.TagSoup.Manual]:
+Result size of Simplifier iteration=1
+  = {terms: 24, types: 22, coercions: 0}
+Result size of Simplifier = {terms: 24, types: 22, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Manual]: finished in 1.00 milliseconds, allocated 0.231 megabytes
+*** Simplifier [Text.HTML.TagSoup.Manual]:
+Result size of Simplifier = {terms: 24, types: 22, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Manual]: finished in 0.00 milliseconds, allocated 0.111 megabytes
+*** Simplifier [Text.HTML.TagSoup.Manual]:
+Result size of Simplifier iteration=1
+  = {terms: 41, types: 70, coercions: 0}
+Result size of Simplifier = {terms: 41, types: 70, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Manual]: finished in 1.00 milliseconds, allocated 0.366 megabytes
+*** Float inwards [Text.HTML.TagSoup.Manual]:
+Result size of Float inwards = {terms: 41, types: 70, coercions: 0}
+!!! Float inwards [Text.HTML.TagSoup.Manual]: finished in 0.00 milliseconds, allocated 0.075 megabytes
+*** Called arity analysis [Text.HTML.TagSoup.Manual]:
+Result size of Called arity analysis
+  = {terms: 41, types: 70, coercions: 0}
+!!! Called arity analysis [Text.HTML.TagSoup.Manual]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Text.HTML.TagSoup.Manual]:
+Result size of Simplifier = {terms: 41, types: 70, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Manual]: finished in 0.00 milliseconds, allocated 0.179 megabytes
+*** Demand analysis [Text.HTML.TagSoup.Manual]:
+Result size of Demand analysis
+  = {terms: 41, types: 70, coercions: 0}
+!!! Demand analysis [Text.HTML.TagSoup.Manual]: finished in 1.00 milliseconds, allocated 0.213 megabytes
+*** Worker Wrapper binds [Text.HTML.TagSoup.Manual]:
+Result size of Worker Wrapper binds
+  = {terms: 75, types: 148, coercions: 0}
+!!! Worker Wrapper binds [Text.HTML.TagSoup.Manual]: finished in 0.00 milliseconds, allocated 0.094 megabytes
+*** Simplifier [Text.HTML.TagSoup.Manual]:
+Result size of Simplifier iteration=1
+  = {terms: 58, types: 118, coercions: 0}
+Result size of Simplifier = {terms: 58, types: 118, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Manual]: finished in 1.00 milliseconds, allocated 0.652 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Manual]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 58, types: 118, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Manual]: finished in 1.00 milliseconds, allocated 0.390 megabytes
+*** Common sub-expression [Text.HTML.TagSoup.Manual]:
+Result size of Common sub-expression
+  = {terms: 58, types: 118, coercions: 0}
+!!! Common sub-expression [Text.HTML.TagSoup.Manual]: finished in 0.00 milliseconds, allocated 0.109 megabytes
+*** Float inwards [Text.HTML.TagSoup.Manual]:
+Result size of Float inwards
+  = {terms: 58, types: 118, coercions: 0}
+!!! Float inwards [Text.HTML.TagSoup.Manual]: finished in 1.00 milliseconds, allocated 0.092 megabytes
+*** Simplifier [Text.HTML.TagSoup.Manual]:
+Result size of Simplifier = {terms: 58, types: 118, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Manual]: finished in 0.00 milliseconds, allocated 0.284 megabytes
+*** CoreTidy [Text.HTML.TagSoup.Manual]:
+Result size of Tidy Core = {terms: 58, types: 118, coercions: 0}
+!!! CoreTidy [Text.HTML.TagSoup.Manual]: finished in 1.00 milliseconds, allocated 0.171 megabytes
+writeBinIface: 15 Names
+writeBinIface: 79 dict entries
+writeBinIface: 15 Names
+writeBinIface: 79 dict entries
+*** CorePrep [Text.HTML.TagSoup.Manual]:
+Result size of CorePrep = {terms: 64, types: 122, coercions: 0}
+!!! CorePrep [Text.HTML.TagSoup.Manual]: finished in 1.00 milliseconds, allocated 0.154 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Manual]:
+!!! CodeGen [Text.HTML.TagSoup.Manual]: finished in 6.00 milliseconds, allocated 3.482 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9091_0/ghc_37.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Manual.o
+*** CorePrep [Text.HTML.TagSoup.Manual]:
+Result size of CorePrep = {terms: 64, types: 122, coercions: 0}
+!!! CorePrep [Text.HTML.TagSoup.Manual]: finished in 1.00 milliseconds, allocated 0.154 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Manual]:
+!!! CodeGen [Text.HTML.TagSoup.Manual]: finished in 4.00 milliseconds, allocated 3.606 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9091_0/ghc_39.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Manual.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9091_0/ghc_40.c /tmp/ghc9091_0/ghc_39.s /tmp/ghc9091_0/ghc_38.c /tmp/ghc9091_0/ghc_37.s /tmp/ghc9091_0/ghc_36.s
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_40.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_38.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_36.s
+compile: input file ./Text/HTML/TagSoup/Generated.hs
+*** Checking old interface for Text.HTML.TagSoup.Generated:
+[ 9 of 13] Compiling Text.HTML.TagSoup.Generated ( Text/HTML/TagSoup/Generated.hs, dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Generated.o )
+*** Parser [Text.HTML.TagSoup.Generated]:
+!!! Parser [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Renamer/typechecker [Text.HTML.TagSoup.Generated]:
+!!! Renamer/typechecker [Text.HTML.TagSoup.Generated]: finished in 1.00 milliseconds, allocated 0.587 megabytes
+*** Desugar [Text.HTML.TagSoup.Generated]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Text.HTML.TagSoup.Generated]: finished in 1.00 milliseconds, allocated 0.055 megabytes
+*** Simplifier [Text.HTML.TagSoup.Generated]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.133 megabytes
+*** Specialise [Text.HTML.TagSoup.Generated]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Generated]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Text.HTML.TagSoup.Generated]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Generated]: finished in 1.00 milliseconds, allocated 0.072 megabytes
+*** Simplifier [Text.HTML.TagSoup.Generated]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Simplifier [Text.HTML.TagSoup.Generated]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Float inwards [Text.HTML.TagSoup.Generated]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Called arity analysis [Text.HTML.TagSoup.Generated]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Text.HTML.TagSoup.Generated]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Demand analysis [Text.HTML.TagSoup.Generated]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Text.HTML.TagSoup.Generated]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Text.HTML.TagSoup.Generated]: finished in 1.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Text.HTML.TagSoup.Generated]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Generated]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [Text.HTML.TagSoup.Generated]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [Text.HTML.TagSoup.Generated]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Simplifier [Text.HTML.TagSoup.Generated]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** CoreTidy [Text.HTML.TagSoup.Generated]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Text.HTML.TagSoup.Generated]: finished in 1.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 5 Names
+writeBinIface: 53 dict entries
+writeBinIface: 5 Names
+writeBinIface: 53 dict entries
+*** CorePrep [Text.HTML.TagSoup.Generated]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Generated]:
+!!! CodeGen [Text.HTML.TagSoup.Generated]: finished in 1.00 milliseconds, allocated 0.311 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9091_0/ghc_42.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Generated.o
+*** CorePrep [Text.HTML.TagSoup.Generated]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Text.HTML.TagSoup.Generated]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Generated]:
+!!! CodeGen [Text.HTML.TagSoup.Generated]: finished in 1.00 milliseconds, allocated 0.307 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9091_0/ghc_44.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Generated.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9091_0/ghc_45.c /tmp/ghc9091_0/ghc_44.s /tmp/ghc9091_0/ghc_43.c /tmp/ghc9091_0/ghc_42.s /tmp/ghc9091_0/ghc_41.s
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_45.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_43.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_41.s
+compile: input file ./Text/HTML/TagSoup/Parser.hs
+*** Checking old interface for Text.HTML.TagSoup.Parser:
+[10 of 13] Compiling Text.HTML.TagSoup.Parser ( Text/HTML/TagSoup/Parser.hs, dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Parser.o )
+*** Parser [Text.HTML.TagSoup.Parser]:
+!!! Parser [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.585 megabytes
+*** Renamer/typechecker [Text.HTML.TagSoup.Parser]:
+!!! Renamer/typechecker [Text.HTML.TagSoup.Parser]: finished in 4.00 milliseconds, allocated 1.668 megabytes
+*** Desugar [Text.HTML.TagSoup.Parser]:
+Result size of Desugar (after optimization)
+  = {terms: 15, types: 25, coercions: 0}
+!!! Desugar [Text.HTML.TagSoup.Parser]: finished in 1.00 milliseconds, allocated 0.232 megabytes
+*** Simplifier [Text.HTML.TagSoup.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 19, types: 27, coercions: 0}
+Result size of Simplifier = {terms: 19, types: 27, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.185 megabytes
+*** Specialise [Text.HTML.TagSoup.Parser]:
+Result size of Specialise = {terms: 19, types: 27, coercions: 0}
+!!! Specialise [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 19, types: 27, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.138 megabytes
+*** Simplifier [Text.HTML.TagSoup.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 19, types: 27, coercions: 0}
+Result size of Simplifier = {terms: 19, types: 27, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.193 megabytes
+*** Simplifier [Text.HTML.TagSoup.Parser]:
+Result size of Simplifier = {terms: 19, types: 27, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.096 megabytes
+*** Simplifier [Text.HTML.TagSoup.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 38, types: 90, coercions: 0}
+Result size of Simplifier = {terms: 38, types: 90, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Parser]: finished in 1.00 milliseconds, allocated 0.401 megabytes
+*** Float inwards [Text.HTML.TagSoup.Parser]:
+Result size of Float inwards = {terms: 38, types: 90, coercions: 0}
+!!! Float inwards [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Called arity analysis [Text.HTML.TagSoup.Parser]:
+Result size of Called arity analysis
+  = {terms: 38, types: 90, coercions: 0}
+!!! Called arity analysis [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.076 megabytes
+*** Simplifier [Text.HTML.TagSoup.Parser]:
+Result size of Simplifier = {terms: 38, types: 90, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Parser]: finished in 1.00 milliseconds, allocated 0.193 megabytes
+*** Demand analysis [Text.HTML.TagSoup.Parser]:
+Result size of Demand analysis
+  = {terms: 38, types: 90, coercions: 0}
+!!! Demand analysis [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.196 megabytes
+*** Worker Wrapper binds [Text.HTML.TagSoup.Parser]:
+Result size of Worker Wrapper binds
+  = {terms: 38, types: 90, coercions: 0}
+!!! Worker Wrapper binds [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.062 megabytes
+*** Simplifier [Text.HTML.TagSoup.Parser]:
+Result size of Simplifier = {terms: 38, types: 90, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Parser]: finished in 1.00 milliseconds, allocated 0.209 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 38, types: 90, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.291 megabytes
+*** Common sub-expression [Text.HTML.TagSoup.Parser]:
+Result size of Common sub-expression
+  = {terms: 38, types: 90, coercions: 0}
+!!! Common sub-expression [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.082 megabytes
+*** Float inwards [Text.HTML.TagSoup.Parser]:
+Result size of Float inwards = {terms: 38, types: 90, coercions: 0}
+!!! Float inwards [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Text.HTML.TagSoup.Parser]:
+Result size of Simplifier = {terms: 38, types: 90, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.196 megabytes
+*** CoreTidy [Text.HTML.TagSoup.Parser]:
+Result size of Tidy Core = {terms: 38, types: 90, coercions: 0}
+!!! CoreTidy [Text.HTML.TagSoup.Parser]: finished in 1.00 milliseconds, allocated 0.124 megabytes
+writeBinIface: 22 Names
+writeBinIface: 78 dict entries
+writeBinIface: 22 Names
+writeBinIface: 78 dict entries
+*** CorePrep [Text.HTML.TagSoup.Parser]:
+Result size of CorePrep = {terms: 47, types: 102, coercions: 0}
+!!! CorePrep [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.121 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Parser]:
+!!! CodeGen [Text.HTML.TagSoup.Parser]: finished in 3.00 milliseconds, allocated 2.304 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9091_0/ghc_47.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Parser.o
+*** CorePrep [Text.HTML.TagSoup.Parser]:
+Result size of CorePrep = {terms: 47, types: 102, coercions: 0}
+!!! CorePrep [Text.HTML.TagSoup.Parser]: finished in 0.00 milliseconds, allocated 0.121 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Parser]:
+!!! CodeGen [Text.HTML.TagSoup.Parser]: finished in 3.00 milliseconds, allocated 2.388 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9091_0/ghc_49.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Parser.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9091_0/ghc_50.c /tmp/ghc9091_0/ghc_49.s /tmp/ghc9091_0/ghc_48.c /tmp/ghc9091_0/ghc_47.s /tmp/ghc9091_0/ghc_46.s
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_50.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_48.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_46.s
+compile: input file ./Text/HTML/TagSoup/Render.hs
+*** Checking old interface for Text.HTML.TagSoup.Render:
+[11 of 13] Compiling Text.HTML.TagSoup.Render ( Text/HTML/TagSoup/Render.hs, dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Render.o )
+*** Parser [Text.HTML.TagSoup.Render]:
+!!! Parser [Text.HTML.TagSoup.Render]: finished in 2.00 milliseconds, allocated 2.673 megabytes
+*** Renamer/typechecker [Text.HTML.TagSoup.Render]:
+!!! Renamer/typechecker [Text.HTML.TagSoup.Render]: finished in 20.00 milliseconds, allocated 11.740 megabytes
+*** Desugar [Text.HTML.TagSoup.Render]:
+Result size of Desugar (after optimization)
+  = {terms: 581, types: 605, coercions: 0}
+!!! Desugar [Text.HTML.TagSoup.Render]: finished in 8.00 milliseconds, allocated 4.190 megabytes
+*** Simplifier [Text.HTML.TagSoup.Render]:
+Result size of Simplifier iteration=1
+  = {terms: 637, types: 671, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 622, types: 646, coercions: 0}
+Result size of Simplifier = {terms: 622, types: 646, coercions: 0}
+!!! Simplifier [Text.HTML.TagSoup.Render]: finished in 12.00 milliseconds, allocated 9.291 megabytes
+*** Specialise [Text.HTML.TagSoup.Render]:
+Result size of Specialise = {terms: 675, types: 718, coercions: 0}
+!!! Specialise [Text.HTML.TagSoup.Render]: finished in 2.00 milliseconds, allocated 0.912 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Render]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 805, types: 935, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Render]: finished in 7.00 milliseconds, allocated 5.740 megabytes
+*** Simplifier [Text.HTML.TagSoup.Render]:
+Result size of Simplifier iteration=1
+  = {terms: 825, types: 864, coercions: 50}
+Result size of Simplifier iteration=2
+  = {terms: 743, types: 725, coercions: 50}
+Result size of Simplifier iteration=3
+  = {terms: 731, types: 710, coercions: 48}
+Result size of Simplifier = {terms: 731, types: 710, coercions: 48}
+!!! Simplifier [Text.HTML.TagSoup.Render]: finished in 29.00 milliseconds, allocated 17.580 megabytes
+*** Simplifier [Text.HTML.TagSoup.Render]:
+Result size of Simplifier iteration=1
+  = {terms: 631, types: 566, coercions: 48}
+Result size of Simplifier iteration=2
+  = {terms: 629, types: 559, coercions: 48}
+Result size of Simplifier = {terms: 629, types: 559, coercions: 48}
+!!! Simplifier [Text.HTML.TagSoup.Render]: finished in 18.00 milliseconds, allocated 10.699 megabytes
+*** Simplifier [Text.HTML.TagSoup.Render]:
+Result size of Simplifier iteration=1
+  = {terms: 661, types: 596, coercions: 48}
+Result size of Simplifier = {terms: 661, types: 596, coercions: 48}
+!!! Simplifier [Text.HTML.TagSoup.Render]: finished in 7.00 milliseconds, allocated 5.381 megabytes
+*** Float inwards [Text.HTML.TagSoup.Render]:
+Result size of Float inwards
+  = {terms: 661, types: 596, coercions: 48}
+!!! Float inwards [Text.HTML.TagSoup.Render]: finished in 2.00 milliseconds, allocated 2.791 megabytes
+*** Called arity analysis [Text.HTML.TagSoup.Render]:
+Result size of Called arity analysis
+  = {terms: 661, types: 596, coercions: 48}
+!!! Called arity analysis [Text.HTML.TagSoup.Render]: finished in 1.00 milliseconds, allocated 0.729 megabytes
+*** Simplifier [Text.HTML.TagSoup.Render]:
+Result size of Simplifier = {terms: 661, types: 596, coercions: 48}
+!!! Simplifier [Text.HTML.TagSoup.Render]: finished in 5.00 milliseconds, allocated 2.678 megabytes
+*** Demand analysis [Text.HTML.TagSoup.Render]:
+Result size of Demand analysis
+  = {terms: 661, types: 596, coercions: 48}
+!!! Demand analysis [Text.HTML.TagSoup.Render]: finished in 6.00 milliseconds, allocated 4.426 megabytes
+*** Worker Wrapper binds [Text.HTML.TagSoup.Render]:
+Result size of Worker Wrapper binds
+  = {terms: 681, types: 654, coercions: 48}
+!!! Worker Wrapper binds [Text.HTML.TagSoup.Render]: finished in 1.00 milliseconds, allocated 0.326 megabytes
+*** Simplifier [Text.HTML.TagSoup.Render]:
+Result size of Simplifier iteration=1
+  = {terms: 672, types: 640, coercions: 48}
+Result size of Simplifier = {terms: 672, types: 640, coercions: 48}
+!!! Simplifier [Text.HTML.TagSoup.Render]: finished in 11.00 milliseconds, allocated 5.840 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Render]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 682, types: 651, coercions: 48}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Render]: finished in 9.00 milliseconds, allocated 4.982 megabytes
+*** Common sub-expression [Text.HTML.TagSoup.Render]:
+Result size of Common sub-expression
+  = {terms: 664, types: 641, coercions: 30}
+!!! Common sub-expression [Text.HTML.TagSoup.Render]: finished in 1.00 milliseconds, allocated 0.824 megabytes
+*** Float inwards [Text.HTML.TagSoup.Render]:
+Result size of Float inwards
+  = {terms: 664, types: 641, coercions: 30}
+!!! Float inwards [Text.HTML.TagSoup.Render]: finished in 3.00 milliseconds, allocated 2.896 megabytes
+*** Simplifier [Text.HTML.TagSoup.Render]:
+Result size of Simplifier iteration=1
+  = {terms: 638, types: 624, coercions: 30}
+Result size of Simplifier = {terms: 638, types: 624, coercions: 30}
+!!! Simplifier [Text.HTML.TagSoup.Render]: finished in 8.00 milliseconds, allocated 5.372 megabytes
+*** CoreTidy [Text.HTML.TagSoup.Render]:
+Result size of Tidy Core = {terms: 619, types: 591, coercions: 30}
+!!! CoreTidy [Text.HTML.TagSoup.Render]: finished in 1.00 milliseconds, allocated 0.850 megabytes
+writeBinIface: 27 Names
+writeBinIface: 96 dict entries
+writeBinIface: 27 Names
+writeBinIface: 96 dict entries
+*** CorePrep [Text.HTML.TagSoup.Render]:
+Result size of CorePrep = {terms: 759, types: 720, coercions: 30}
+!!! CorePrep [Text.HTML.TagSoup.Render]: finished in 1.00 milliseconds, allocated 1.450 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Render]:
+!!! CodeGen [Text.HTML.TagSoup.Render]: finished in 75.00 milliseconds, allocated 48.886 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9091_0/ghc_52.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Render.o
+*** CorePrep [Text.HTML.TagSoup.Render]:
+Result size of CorePrep = {terms: 759, types: 720, coercions: 30}
+!!! CorePrep [Text.HTML.TagSoup.Render]: finished in 2.00 milliseconds, allocated 1.366 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Render]:
+!!! CodeGen [Text.HTML.TagSoup.Render]: finished in 82.00 milliseconds, allocated 51.574 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9091_0/ghc_54.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Render.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9091_0/ghc_55.c /tmp/ghc9091_0/ghc_54.s /tmp/ghc9091_0/ghc_53.c /tmp/ghc9091_0/ghc_52.s /tmp/ghc9091_0/ghc_51.s
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_55.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_53.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_51.s
+compile: input file ./Text/HTML/TagSoup.hs
+*** Checking old interface for Text.HTML.TagSoup:
+[12 of 13] Compiling Text.HTML.TagSoup ( Text/HTML/TagSoup.hs, dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup.o )
+*** Parser [Text.HTML.TagSoup]:
+!!! Parser [Text.HTML.TagSoup]: finished in 3.00 milliseconds, allocated 3.126 megabytes
+*** Renamer/typechecker [Text.HTML.TagSoup]:
+!!! Renamer/typechecker [Text.HTML.TagSoup]: finished in 25.00 milliseconds, allocated 12.765 megabytes
+*** Desugar [Text.HTML.TagSoup]:
+Result size of Desugar (after optimization)
+  = {terms: 384, types: 422, coercions: 18}
+!!! Desugar [Text.HTML.TagSoup]: finished in 5.00 milliseconds, allocated 2.960 megabytes
+*** Simplifier [Text.HTML.TagSoup]:
+Result size of Simplifier iteration=1
+  = {terms: 434, types: 494, coercions: 17}
+Result size of Simplifier iteration=2
+  = {terms: 441, types: 507, coercions: 17}
+Result size of Simplifier = {terms: 441, types: 507, coercions: 17}
+!!! Simplifier [Text.HTML.TagSoup]: finished in 11.00 milliseconds, allocated 6.050 megabytes
+*** Specialise [Text.HTML.TagSoup]:
+Result size of Specialise = {terms: 443, types: 515, coercions: 20}
+!!! Specialise [Text.HTML.TagSoup]: finished in 1.00 milliseconds, allocated 0.625 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 497, types: 597, coercions: 20}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup]: finished in 4.00 milliseconds, allocated 3.295 megabytes
+*** Simplifier [Text.HTML.TagSoup]:
+Result size of Simplifier iteration=1
+  = {terms: 604, types: 693, coercions: 64}
+Result size of Simplifier iteration=2
+  = {terms: 556, types: 605, coercions: 62}
+Result size of Simplifier iteration=3
+  = {terms: 554, types: 603, coercions: 62}
+Result size of Simplifier = {terms: 554, types: 603, coercions: 62}
+!!! Simplifier [Text.HTML.TagSoup]: finished in 21.00 milliseconds, allocated 11.201 megabytes
+*** Simplifier [Text.HTML.TagSoup]:
+Result size of Simplifier iteration=1
+  = {terms: 500, types: 525, coercions: 62}
+Result size of Simplifier = {terms: 494, types: 519, coercions: 62}
+!!! Simplifier [Text.HTML.TagSoup]: finished in 10.00 milliseconds, allocated 5.135 megabytes
+*** Simplifier [Text.HTML.TagSoup]:
+Result size of Simplifier iteration=1
+  = {terms: 510, types: 550, coercions: 56}
+Result size of Simplifier iteration=2
+  = {terms: 506, types: 542, coercions: 59}
+Result size of Simplifier iteration=3
+  = {terms: 506, types: 541, coercions: 59}
+Result size of Simplifier = {terms: 506, types: 541, coercions: 59}
+!!! Simplifier [Text.HTML.TagSoup]: finished in 15.00 milliseconds, allocated 7.611 megabytes
+*** Float inwards [Text.HTML.TagSoup]:
+Result size of Float inwards
+  = {terms: 518, types: 553, coercions: 59}
+!!! Float inwards [Text.HTML.TagSoup]: finished in 2.00 milliseconds, allocated 1.099 megabytes
+*** Called arity analysis [Text.HTML.TagSoup]:
+Result size of Called arity analysis
+  = {terms: 518, types: 553, coercions: 59}
+!!! Called arity analysis [Text.HTML.TagSoup]: finished in 1.00 milliseconds, allocated 0.490 megabytes
+*** Simplifier [Text.HTML.TagSoup]:
+Result size of Simplifier iteration=1
+  = {terms: 510, types: 545, coercions: 59}
+Result size of Simplifier = {terms: 510, types: 545, coercions: 59}
+!!! Simplifier [Text.HTML.TagSoup]: finished in 7.00 milliseconds, allocated 3.814 megabytes
+*** Demand analysis [Text.HTML.TagSoup]:
+Result size of Demand analysis
+  = {terms: 510, types: 545, coercions: 59}
+!!! Demand analysis [Text.HTML.TagSoup]: finished in 3.00 milliseconds, allocated 2.098 megabytes
+*** Worker Wrapper binds [Text.HTML.TagSoup]:
+Result size of Worker Wrapper binds
+  = {terms: 510, types: 545, coercions: 59}
+!!! Worker Wrapper binds [Text.HTML.TagSoup]: finished in 0.00 milliseconds, allocated 0.232 megabytes
+*** Simplifier [Text.HTML.TagSoup]:
+Result size of Simplifier = {terms: 510, types: 545, coercions: 59}
+!!! Simplifier [Text.HTML.TagSoup]: finished in 4.00 milliseconds, allocated 2.148 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 521, types: 569, coercions: 59}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup]: finished in 3.00 milliseconds, allocated 3.108 megabytes
+*** Common sub-expression [Text.HTML.TagSoup]:
+Result size of Common sub-expression
+  = {terms: 513, types: 559, coercions: 55}
+!!! Common sub-expression [Text.HTML.TagSoup]: finished in 1.00 milliseconds, allocated 0.592 megabytes
+*** Float inwards [Text.HTML.TagSoup]:
+Result size of Float inwards
+  = {terms: 513, types: 559, coercions: 55}
+!!! Float inwards [Text.HTML.TagSoup]: finished in 1.00 milliseconds, allocated 0.830 megabytes
+*** Simplifier [Text.HTML.TagSoup]:
+Result size of Simplifier iteration=1
+  = {terms: 499, types: 534, coercions: 55}
+Result size of Simplifier = {terms: 499, types: 534, coercions: 55}
+!!! Simplifier [Text.HTML.TagSoup]: finished in 8.00 milliseconds, allocated 3.936 megabytes
+*** CoreTidy [Text.HTML.TagSoup]:
+Result size of Tidy Core = {terms: 489, types: 516, coercions: 50}
+!!! CoreTidy [Text.HTML.TagSoup]: finished in 2.00 milliseconds, allocated 0.748 megabytes
+writeBinIface: 88 Names
+writeBinIface: 189 dict entries
+writeBinIface: 88 Names
+writeBinIface: 189 dict entries
+*** CorePrep [Text.HTML.TagSoup]:
+Result size of CorePrep = {terms: 582, types: 598, coercions: 50}
+!!! CorePrep [Text.HTML.TagSoup]: finished in 1.00 milliseconds, allocated 0.995 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup]:
+!!! CodeGen [Text.HTML.TagSoup]: finished in 44.00 milliseconds, allocated 29.659 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9091_0/ghc_57.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup.o
+*** CorePrep [Text.HTML.TagSoup]:
+Result size of CorePrep = {terms: 582, types: 598, coercions: 50}
+!!! CorePrep [Text.HTML.TagSoup]: finished in 2.00 milliseconds, allocated 0.973 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup]:
+!!! CodeGen [Text.HTML.TagSoup]: finished in 46.00 milliseconds, allocated 31.431 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9091_0/ghc_59.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9091_0/ghc_60.c /tmp/ghc9091_0/ghc_59.s /tmp/ghc9091_0/ghc_58.c /tmp/ghc9091_0/ghc_57.s /tmp/ghc9091_0/ghc_56.s
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_60.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_58.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_56.s
+compile: input file ./Text/HTML/TagSoup/Tree.hs
+*** Checking old interface for Text.HTML.TagSoup.Tree:
+[13 of 13] Compiling Text.HTML.TagSoup.Tree ( Text/HTML/TagSoup/Tree.hs, dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Tree.o )
+*** Parser [Text.HTML.TagSoup.Tree]:
+!!! Parser [Text.HTML.TagSoup.Tree]: finished in 2.00 milliseconds, allocated 3.550 megabytes
+*** Renamer/typechecker [Text.HTML.TagSoup.Tree]:
+!!! Renamer/typechecker [Text.HTML.TagSoup.Tree]: finished in 34.00 milliseconds, allocated 19.538 megabytes
+*** Desugar [Text.HTML.TagSoup.Tree]:
+Result size of Desugar (after optimization)
+  = {terms: 964, types: 1,511, coercions: 11}
+!!! Desugar [Text.HTML.TagSoup.Tree]: finished in 12.00 milliseconds, allocated 4.637 megabytes
+*** Simplifier [Text.HTML.TagSoup.Tree]:
+Result size of Simplifier iteration=1
+  = {terms: 960, types: 1,521, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 868, types: 1,338, coercions: 4}
+Result size of Simplifier
+  = {terms: 868, types: 1,338, coercions: 4}
+!!! Simplifier [Text.HTML.TagSoup.Tree]: finished in 22.00 milliseconds, allocated 12.386 megabytes
+*** Specialise [Text.HTML.TagSoup.Tree]:
+Result size of Specialise
+  = {terms: 896, types: 1,391, coercions: 4}
+!!! Specialise [Text.HTML.TagSoup.Tree]: finished in 3.00 milliseconds, allocated 1.240 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Tree]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 970, types: 1,501, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.HTML.TagSoup.Tree]: finished in 7.00 milliseconds, allocated 6.775 megabytes
+*** Simplifier [Text.HTML.TagSoup.Tree]:
+Result size of Simplifier iteration=1
+  = {terms: 1,127, types: 1,539, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 1,070, types: 1,490, coercions: 4}
+Result size of Simplifier
+  = {terms: 1,070, types: 1,490, coercions: 4}
+!!! Simplifier [Text.HTML.TagSoup.Tree]: finished in 25.00 milliseconds, allocated 15.633 megabytes
+*** Simplifier [Text.HTML.TagSoup.Tree]:
+Result size of Simplifier iteration=1
+  = {terms: 983, types: 1,393, coercions: 4}
+Result size of Simplifier
+  = {terms: 975, types: 1,390, coercions: 4}
+!!! Simplifier [Text.HTML.TagSoup.Tree]: finished in 15.00 milliseconds, allocated 9.618 megabytes
+*** Simplifier [Text.HTML.TagSoup.Tree]:
+Result size of Simplifier iteration=1
+  = {terms: 1,049, types: 1,470, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 1,035, types: 1,445, coercions: 4}
+Result size of Simplifier
+  = {terms: 1,035, types: 1,445, coercions: 4}
+!!! Simplifier [Text.HTML.TagSoup.Tree]: finished in 22.00 milliseconds, allocated 12.053 megabytes
+*** Float inwards [Text.HTML.TagSoup.Tree]:
+Result size of Float inwards
+  = {terms: 1,035, types: 1,445, coercions: 4}
+!!! Float inwards [Text.HTML.TagSoup.Tree]: finished in 2.00 milliseconds, allocated 1.757 megabytes
+*** Called arity analysis [Text.HTML.TagSoup.Tree]:
+Result size of Called arity analysis
+  = {terms: 1,035, types: 1,445, coercions: 4}
+!!! Called arity analysis [Text.HTML.TagSoup.Tree]: finished in 2.00 milliseconds, allocated 1.150 megabytes
+*** Simplifier [Text.HTML.TagSoup.Tree]:
+Result size of Simplifier iteration=1
+  = {terms: 1,028, types: 1,422, coercions: 4}
+Result size of Simplifier
+  = {terms: 1,028, types: 1,422, coercions: 4}
+!!! Simplifier [Text.HTML.TagSoup.Tree]: finished in 15.00 milliseconds, allocated 7.896 megabytes
+*** Demand analysis [Text.HTML.TagSoup.Tree]:
+Result size of Demand analysis
+  = {terms: 1,028, types: 1,422, coercions: 4}
+!!! Demand analysis [Text.HTML.TagSoup.Tree]: finished in 7.00 milliseconds, allocated 5.745 megabytes
+*** Worker Wrapper binds [Text.HTML.TagSoup.Tree]:
+Result size of Worker Wrapper binds
+  = {terms: 1,124, types: 1,615, coercions: 4}
+!!! Worker Wrapper binds [Text.HTML.TagSoup.Tree]: finished in 1.00 milliseconds, allocated 0.468 megabytes
+*** Simplifier [Text.HTML.TagSoup.Tree]:
+Result size of Simplifier iteration=1
+  = {terms: 1,125, types: 1,687, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 1,045, types: 1,544, coercions: 4}
+Result size of Simplifier
+  = {terms: 1,045, types: 1,544, coercions: 4}
+!!! Simplifier [Text.HTML.TagSoup.Tree]: finished in 25.00 milliseconds, allocated 13.648 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Tree]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,075, types: 1,590, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.HTML.TagSoup.Tree]: finished in 11.00 milliseconds, allocated 7.036 megabytes
+*** Common sub-expression [Text.HTML.TagSoup.Tree]:
+Result size of Common sub-expression
+  = {terms: 1,057, types: 1,572, coercions: 4}
+!!! Common sub-expression [Text.HTML.TagSoup.Tree]: finished in 3.00 milliseconds, allocated 1.249 megabytes
+*** Float inwards [Text.HTML.TagSoup.Tree]:
+Result size of Float inwards
+  = {terms: 1,057, types: 1,572, coercions: 4}
+!!! Float inwards [Text.HTML.TagSoup.Tree]: finished in 2.00 milliseconds, allocated 1.728 megabytes
+*** Simplifier [Text.HTML.TagSoup.Tree]:
+Result size of Simplifier iteration=1
+  = {terms: 1,070, types: 1,584, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 1,052, types: 1,534, coercions: 4}
+Result size of Simplifier
+  = {terms: 1,052, types: 1,534, coercions: 4}
+!!! Simplifier [Text.HTML.TagSoup.Tree]: finished in 24.00 milliseconds, allocated 13.102 megabytes
+*** CoreTidy [Text.HTML.TagSoup.Tree]:
+Result size of Tidy Core
+  = {terms: 1,050, types: 1,525, coercions: 4}
+!!! CoreTidy [Text.HTML.TagSoup.Tree]: finished in 3.00 milliseconds, allocated 1.473 megabytes
+writeBinIface: 73 Names
+writeBinIface: 166 dict entries
+writeBinIface: 73 Names
+writeBinIface: 166 dict entries
+*** CorePrep [Text.HTML.TagSoup.Tree]:
+Result size of CorePrep
+  = {terms: 1,292, types: 1,867, coercions: 4}
+!!! CorePrep [Text.HTML.TagSoup.Tree]: finished in 4.00 milliseconds, allocated 2.349 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Tree]:
+!!! CodeGen [Text.HTML.TagSoup.Tree]: finished in 104.00 milliseconds, allocated 70.111 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9091_0/ghc_62.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Tree.o
+*** CorePrep [Text.HTML.TagSoup.Tree]:
+Result size of CorePrep
+  = {terms: 1,292, types: 1,867, coercions: 4}
+!!! CorePrep [Text.HTML.TagSoup.Tree]: finished in 4.00 milliseconds, allocated 2.236 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.HTML.TagSoup.Tree]:
+!!! CodeGen [Text.HTML.TagSoup.Tree]: finished in 106.00 milliseconds, allocated 73.844 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/HTML/TagSoup -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9091_0/ghc_64.s -o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Tree.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc9091_0/ghc_65.c /tmp/ghc9091_0/ghc_64.s /tmp/ghc9091_0/ghc_63.c /tmp/ghc9091_0/ghc_62.s /tmp/ghc9091_0/ghc_61.s
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_65.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_63.c
+Warning: deleting non-existent /tmp/ghc9091_0/ghc_61.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: 
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9091_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -o dist/dist-sandbox-6afc8227/build/libHStagsoup-0.13.10-F3vYg29vce8Eq0q9G8df5X-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHStagsoup-0.13.10-F3vYg29vce8Eq0q9G8df5X-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup.dyn_o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Entity.dyn_o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Match.dyn_o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Tree.dyn_o dist/dist-sandbox-6afc8227/build/Text/StringLike.dyn_o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Generated.dyn_o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Implementation.dyn_o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Manual.dyn_o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Options.dyn_o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Parser.dyn_o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Render.dyn_o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Specification.dyn_o dist/dist-sandbox-6afc8227/build/Text/HTML/TagSoup/Type.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHStext-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs-ghc8.0.1 -lHSbinary-0.8.3.0-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc10591_0
+*** Deleting temp files:
+Deleting: /tmp/ghc10591_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc10591_0
+Creating package registration file:
+/tmp/pkgConf-tagsoup-0.1321033187761597322404.10
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/tagsoup-0.13.10-F3vYg29vce8Eq0q9G8df5X
+Registering tagsoup-0.13.10...
+cabal: Leaving directory '/tmp/cabal-tmp-1030/tagsoup-0.13.10'

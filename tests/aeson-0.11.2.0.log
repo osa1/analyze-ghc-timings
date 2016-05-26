@@ -1,0 +1,2798 @@
+cabal: Entering directory '/tmp/cabal-tmp-1026/aeson-0.11.2.0'
+Configuring aeson-0.11.2.0...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc12508_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/16816927771714636915.c -o /tmp/ghc12508_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc12508_0/ghc_1.s -o /tmp/1957747793424238335.o
+*** Deleting temp files:
+Deleting: /tmp/ghc12508_0/ghc_2.rsp /tmp/ghc12508_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc12508_0
+Building aeson-0.11.2.0...
+Preprocessing library aeson-0.11.2.0...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.Aeson,*Data.Aeson.Encode,*Data.Aeson.Internal,*Data.Aeson.Internal.Time,*Data.Aeson.Parser,*Data.Aeson.Types,*Data.Aeson.TH,*Data.Aeson.Encode.Builder,*Data.Aeson.Encode.Functions,*Data.Aeson.Functions,*Data.Aeson.Parser.Internal,*Data.Aeson.Parser.Time,*Data.Aeson.Types.Class,*Data.Aeson.Types.Generic,*Data.Aeson.Types.Instances,*Data.Aeson.Types.Internal
+Created temporary directory: /tmp/ghc12557_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc12557_0/ghc_2.h -x assembler-with-cpp ./Data/Aeson/Internal/Time.hs -o /tmp/ghc12557_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc12557_0/ghc_4.h -x assembler-with-cpp ./Data/Aeson/TH.hs -o /tmp/ghc12557_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc12557_0/ghc_6.h -x assembler-with-cpp ./Data/Aeson/Encode/Functions.hs -o /tmp/ghc12557_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc12557_0/ghc_8.h -x assembler-with-cpp ./Data/Aeson/Parser/Internal.hs -o /tmp/ghc12557_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc12557_0/ghc_10.h -x assembler-with-cpp ./Data/Aeson/Parser/Time.hs -o /tmp/ghc12557_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc12557_0/ghc_12.h -x assembler-with-cpp ./Data/Aeson/Types/Class.hs -o /tmp/ghc12557_0/ghc_11.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc12557_0/ghc_14.h -x assembler-with-cpp ./Data/Aeson/Types/Generic.hs -o /tmp/ghc12557_0/ghc_13.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc12557_0/ghc_16.h -x assembler-with-cpp ./Data/Aeson/Types/Instances.hs -o /tmp/ghc12557_0/ghc_15.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3/include -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc12557_0/ghc_18.h -x assembler-with-cpp ./Data/Aeson/Types/Internal.hs -o /tmp/ghc12557_0/ghc_17.hscpp
+!!! Chasing dependencies: finished in 64.00 milliseconds, allocated 65.038 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-12 09:34:06 UTC
+         ms_mod = Data.Aeson.Functions,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Map),
+                            (Nothing, Data.HashMap.Strict), (Nothing, Data.Hashable)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-12 09:34:06 UTC
+         ms_mod = Data.Aeson.Internal.Time,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Fixed),
+                            (Nothing, Unsafe.Coerce), (Nothing, Data.Time),
+                            (Nothing, Data.Int), (Nothing, Data.Fixed)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-26 19:21:12 UTC
+         ms_mod = Data.Aeson.Types.Internal,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Language.Haskell.TH.Syntax), (Nothing, Data.Vector),
+                            (Nothing, Data.Scientific), (Nothing, Data.HashMap.Strict),
+                            (Nothing, Data.Vector), (Nothing, Data.Typeable),
+                            (Nothing, Data.Time.Format), (Nothing, Data.Time),
+                            (Nothing, Data.Text), (Nothing, Data.String),
+                            (Nothing, Data.Scientific), (Nothing, Data.Semigroup),
+                            (Nothing, Data.Hashable), (Nothing, Data.HashMap.Strict),
+                            (Nothing, Data.Foldable), (Nothing, Data.Data),
+                            (Nothing, Data.Char), (Nothing, Data.ByteString.Builder),
+                            (Nothing, Control.Monad.Fail), (Nothing, Control.Monad),
+                            (Nothing, Control.DeepSeq), (Nothing, Control.Applicative),
+                            (Nothing, Control.Arrow)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-05 18:11:27 UTC
+         ms_mod = Data.Aeson.Encode.Builder,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Vector),
+                            (Nothing, Data.Text.Encoding), (Nothing, Data.Text),
+                            (Nothing, Data.HashMap.Strict), (Nothing, Data.Word),
+                            (Nothing, Data.Time.LocalTime), (Nothing, Data.Time.Calendar),
+                            (Nothing, Data.Time), (Nothing, Data.Scientific),
+                            (Nothing, Data.Monoid), (Nothing, Data.Char),
+                            (Nothing, Data.ByteString.Builder.Scientific),
+                            (Nothing, Data.ByteString.Builder.Prim),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Data.Aeson.Types.Internal),
+                            (Nothing, Data.Aeson.Internal.Time)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-05 18:11:27 UTC
+         ms_mod = Data.Aeson.Parser.Internal,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Word),
+                            (Nothing, GHC.Base), (Nothing, Data.HashMap.Strict),
+                            (Nothing, Data.ByteString.Unsafe), (Nothing, Data.ByteString.Lazy),
+                            (Nothing, Data.ByteString.Internal), (Nothing, Data.ByteString),
+                            (Nothing, Data.Attoparsec.Zepto), (Nothing, Data.Attoparsec.Lazy),
+                            (Nothing, Data.Attoparsec.ByteString), (Nothing, System.IO.Unsafe),
+                            (Nothing, Foreign.Storable), (Nothing, Foreign.Ptr),
+                            (Nothing, Foreign.Ptr), (Nothing, Foreign.ForeignPtr),
+                            (Nothing, Data.Word), (Nothing, Data.Vector),
+                            (Nothing, Data.Text.Internal.Unsafe.Char),
+                            (Nothing, Data.Text.Internal.Encoding.Utf8),
+                            (Nothing, Data.Text.Encoding), (Nothing, Data.Text),
+                            (Nothing, Data.Char), (Nothing, Data.ByteString.Internal),
+                            (Nothing, Data.Bits), (Nothing, Data.Attoparsec.ByteString.Char8),
+                            (Nothing, Data.Aeson.Types.Internal),
+                            (Nothing, Control.Monad.IO.Class)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-12 09:34:06 UTC
+         ms_mod = Data.Aeson.Parser,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Aeson.Parser.Internal)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-05 18:11:27 UTC
+         ms_mod = Data.Aeson.Parser.Time,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Time.LocalTime), (Nothing, Data.Text),
+                            (Nothing, Data.Aeson.Types.Internal), (Nothing, Data.Time.Clock),
+                            (Nothing, Data.Time.Calendar), (Nothing, Data.Text),
+                            (Nothing, Data.Maybe), (Nothing, Data.Int), (Nothing, Data.Fixed),
+                            (Nothing, Data.Char), (Nothing, Data.Bits),
+                            (Nothing, Data.Attoparsec.Text),
+                            (Nothing, Data.Aeson.Internal.Time), (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-05 18:11:27 UTC
+         ms_mod = Data.Aeson.Types.Class,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Aeson.Encode.Builder), (Nothing, GHC.Generics),
+                            (Nothing, Data.Text), (Nothing, Data.Aeson.Types.Internal)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-05 18:11:27 UTC
+         ms_mod = Data.Aeson.Encode.Functions,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.ByteString.Lazy),
+                            (Nothing, Data.ByteString.Builder), (Nothing, Data.Monoid),
+                            (Nothing, Data.ByteString.Builder.Prim),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Data.Aeson.Types.Internal),
+                            (Nothing, Data.Aeson.Types.Class),
+                            (Nothing, Data.Aeson.Encode.Builder)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-29 16:31:01 UTC
+         ms_mod = Data.Aeson.Types.Instances,
+         ms_textual_imps = [(Nothing, Data.Time.Format),
+                            (Nothing, Data.Vector.Unboxed), (Nothing, Data.Vector.Storable),
+                            (Nothing, Data.Vector.Primitive), (Nothing, Data.Vector.Mutable),
+                            (Nothing, Data.Vector.Generic), (Nothing, Data.Vector),
+                            (Nothing, Data.Tree), (Nothing, Data.Text.Lazy),
+                            (Nothing, Data.Text.Encoding), (Nothing, Data.Text),
+                            (Nothing, Data.Set), (Nothing, Data.Sequence),
+                            (Nothing, Data.Scientific), (Nothing, Data.Map),
+                            (Nothing, Data.IntSet), (Nothing, Data.IntMap),
+                            (Nothing, Data.HashSet), (Nothing, Data.HashMap.Strict),
+                            (Nothing, Data.ByteString.Lazy),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Data.Aeson.Parser.Time),
+                            (Nothing, Data.Aeson.Encode.Builder), (Nothing, Prelude),
+                            (Nothing, Numeric.Natural), (Nothing, Foreign.Storable),
+                            (Nothing, Text.ParserCombinators.ReadP), (Nothing, Data.Version),
+                            (Nothing, Data.Word), (Nothing, Data.Vector),
+                            (Nothing, Data.Traversable), (Nothing, Data.Time.Format),
+                            (Nothing, Data.Time), (Nothing, Data.Text), (Nothing, Data.Tagged),
+                            (Nothing, Data.Scientific), (Nothing, Data.Ratio),
+                            (Nothing, Data.Proxy), (Nothing, Data.Monoid),
+                            (Nothing, Data.Monoid), (Nothing, Data.Maybe),
+                            (Nothing, Data.List.NonEmpty), (Nothing, Data.Int),
+                            (Nothing, Data.Hashable), (Nothing, Data.Functor.Identity),
+                            (Nothing, Data.Foldable), (Nothing, Data.Fixed),
+                            (Nothing, Data.Attoparsec.Number),
+                            (Nothing, Data.Aeson.Types.Internal),
+                            (Nothing, Data.Aeson.Types.Class), (Nothing, Data.Aeson.Functions),
+                            (Nothing, Data.Aeson.Encode.Functions),
+                            (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-05 18:11:27 UTC
+         ms_mod = Data.Aeson.Internal,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Aeson.Types.Internal),
+                            (Nothing, Data.Aeson.Types.Instances)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-26 19:13:11 UTC
+         ms_mod = Data.Aeson.Types.Generic,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Vector.Mutable), (Nothing, Data.Vector),
+                            (Nothing, Data.HashMap.Strict), (Nothing, GHC.Generics),
+                            (Nothing, Data.Text), (Nothing, Data.Monoid),
+                            (Nothing, Data.Maybe), (Nothing, Data.DList),
+                            (Nothing, Data.ByteString.Builder), (Nothing, Data.Bits),
+                            (Nothing, Data.Aeson.Types.Internal),
+                            (Nothing, Data.Aeson.Types.Instances),
+                            (Nothing, Data.Aeson.Encode.Functions),
+                            (Nothing, Data.Aeson.Encode.Builder), (Nothing, Control.Monad.ST),
+                            (Nothing, Control.Monad), (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-26 19:13:31 UTC
+         ms_mod = Data.Aeson.Types,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Aeson.Types.Internal),
+                            (Nothing, Data.Aeson.Types.Instances),
+                            (Nothing, Data.Aeson.Types.Generic),
+                            (Nothing, Data.Aeson.Encode.Functions)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-05 18:11:27 UTC
+         ms_mod = Data.Aeson.Encode,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Vector),
+                            (Nothing, Data.Text), (Nothing, Data.HashMap.Strict),
+                            (Nothing, Numeric), (Nothing, Data.Text.Lazy.Builder.Scientific),
+                            (Nothing, Data.Text.Lazy.Builder), (Nothing, Data.Scientific),
+                            (Nothing, Data.Monoid), (Nothing, Data.Aeson.Types),
+                            (Nothing, Data.Aeson.Encode.Functions),
+                            (Nothing, Data.Aeson.Encode.Builder)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-26 19:13:11 UTC
+         ms_mod = Data.Aeson,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.ByteString.Lazy), (Nothing, Data.ByteString),
+                            (Nothing, Data.Aeson.Types.Internal),
+                            (Nothing, Data.Aeson.Types.Instances), (Nothing, Data.Aeson.Types),
+                            (Nothing, Data.Aeson.Parser.Internal),
+                            (Nothing, Data.Aeson.Encode)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-07 15:14:30 UTC
+         ms_mod = Data.Aeson.TH,
+         ms_textual_imps = [(Nothing, Data.Vector.Mutable),
+                            (Nothing, Data.Vector), (Nothing, Data.Text), (Nothing, Data.Map),
+                            (Nothing, Data.HashMap.Strict),
+                            (Nothing, Data.Aeson.Encode.Functions),
+                            (Nothing, Data.Aeson.Encode.Builder), (Nothing, Data.Aeson),
+                            (Nothing, Text.Show), (Nothing, Text.Printf), (Nothing, Prelude),
+                            (Nothing, Prelude), (Nothing, Language.Haskell.TH.Syntax),
+                            (Nothing, Language.Haskell.TH), (Nothing, Data.Monoid),
+                            (Nothing, Data.Maybe), (Nothing, Data.Map), (Nothing, Data.List),
+                            (Nothing, Data.Int), (Nothing, Data.Functor),
+                            (Nothing, Data.Function), (Nothing, Data.Eq),
+                            (Nothing, Data.Either), (Nothing, Data.Bool),
+                            (Nothing, Control.Monad), (Nothing, Data.Aeson.Types.Internal),
+                            (Nothing, Data.Aeson.Types), (Nothing, Data.Aeson),
+                            (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_18.h /tmp/ghc12557_0/ghc_16.h /tmp/ghc12557_0/ghc_14.h /tmp/ghc12557_0/ghc_12.h /tmp/ghc12557_0/ghc_10.h /tmp/ghc12557_0/ghc_8.h /tmp/ghc12557_0/ghc_6.h /tmp/ghc12557_0/ghc_4.h /tmp/ghc12557_0/ghc_2.h
+compile: input file ./Data/Aeson/Functions.hs
+*** Checking old interface for Data.Aeson.Functions:
+[ 1 of 16] Compiling Data.Aeson.Functions ( Data/Aeson/Functions.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Functions.o )
+*** Parser [Data.Aeson.Functions]:
+!!! Parser [Data.Aeson.Functions]: finished in 1.00 milliseconds, allocated 1.440 megabytes
+*** Renamer/typechecker [Data.Aeson.Functions]:
+!!! Renamer/typechecker [Data.Aeson.Functions]: finished in 192.00 milliseconds, allocated 107.609 megabytes
+*** Desugar [Data.Aeson.Functions]:
+Result size of Desugar (after optimization)
+  = {terms: 70, types: 178, coercions: 0}
+!!! Desugar [Data.Aeson.Functions]: finished in 4.00 milliseconds, allocated 3.009 megabytes
+*** Simplifier [Data.Aeson.Functions]:
+Result size of Simplifier iteration=1
+  = {terms: 80, types: 189, coercions: 0}
+Result size of Simplifier = {terms: 80, types: 189, coercions: 0}
+!!! Simplifier [Data.Aeson.Functions]: finished in 5.00 milliseconds, allocated 3.570 megabytes
+*** Specialise [Data.Aeson.Functions]:
+Result size of Specialise = {terms: 80, types: 189, coercions: 0}
+!!! Specialise [Data.Aeson.Functions]: finished in 0.00 milliseconds, allocated 0.141 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Functions]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 80, types: 189, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Functions]: finished in 1.00 milliseconds, allocated 0.729 megabytes
+*** Simplifier [Data.Aeson.Functions]:
+Result size of Simplifier iteration=1
+  = {terms: 574, types: 743, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 509, types: 666, coercions: 0}
+Result size of Simplifier = {terms: 509, types: 666, coercions: 0}
+!!! Simplifier [Data.Aeson.Functions]: finished in 19.00 milliseconds, allocated 14.313 megabytes
+*** Simplifier [Data.Aeson.Functions]:
+Result size of Simplifier iteration=1
+  = {terms: 581, types: 789, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 581, types: 789, coercions: 0}
+Result size of Simplifier = {terms: 581, types: 789, coercions: 0}
+!!! Simplifier [Data.Aeson.Functions]: finished in 17.00 milliseconds, allocated 10.364 megabytes
+*** Simplifier [Data.Aeson.Functions]:
+Result size of Simplifier = {terms: 581, types: 789, coercions: 0}
+!!! Simplifier [Data.Aeson.Functions]: finished in 3.00 milliseconds, allocated 3.407 megabytes
+*** Float inwards [Data.Aeson.Functions]:
+Result size of Float inwards
+  = {terms: 581, types: 789, coercions: 0}
+!!! Float inwards [Data.Aeson.Functions]: finished in 1.00 milliseconds, allocated 0.937 megabytes
+*** Called arity analysis [Data.Aeson.Functions]:
+Result size of Called arity analysis
+  = {terms: 581, types: 789, coercions: 0}
+!!! Called arity analysis [Data.Aeson.Functions]: finished in 1.00 milliseconds, allocated 0.899 megabytes
+*** Simplifier [Data.Aeson.Functions]:
+Result size of Simplifier = {terms: 581, types: 789, coercions: 0}
+!!! Simplifier [Data.Aeson.Functions]: finished in 3.00 milliseconds, allocated 3.407 megabytes
+*** Demand analysis [Data.Aeson.Functions]:
+Result size of Demand analysis
+  = {terms: 581, types: 789, coercions: 0}
+!!! Demand analysis [Data.Aeson.Functions]: finished in 4.00 milliseconds, allocated 4.784 megabytes
+*** Worker Wrapper binds [Data.Aeson.Functions]:
+Result size of Worker Wrapper binds
+  = {terms: 851, types: 1,113, coercions: 0}
+!!! Worker Wrapper binds [Data.Aeson.Functions]: finished in 1.00 milliseconds, allocated 0.350 megabytes
+*** Simplifier [Data.Aeson.Functions]:
+Result size of Simplifier iteration=1
+  = {terms: 671, types: 987, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 500, types: 753, coercions: 0}
+Result size of Simplifier = {terms: 500, types: 753, coercions: 0}
+!!! Simplifier [Data.Aeson.Functions]: finished in 13.00 milliseconds, allocated 11.480 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Functions]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 500, types: 753, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Functions]: finished in 3.00 milliseconds, allocated 4.232 megabytes
+*** Common sub-expression [Data.Aeson.Functions]:
+Result size of Common sub-expression
+  = {terms: 500, types: 753, coercions: 0}
+!!! Common sub-expression [Data.Aeson.Functions]: finished in 1.00 milliseconds, allocated 1.132 megabytes
+*** Float inwards [Data.Aeson.Functions]:
+Result size of Float inwards
+  = {terms: 500, types: 753, coercions: 0}
+!!! Float inwards [Data.Aeson.Functions]: finished in 0.00 milliseconds, allocated 1.370 megabytes
+*** Liberate case [Data.Aeson.Functions]:
+Result size of Liberate case
+  = {terms: 500, types: 753, coercions: 0}
+!!! Liberate case [Data.Aeson.Functions]: finished in 0.00 milliseconds, allocated 0.296 megabytes
+*** Simplifier [Data.Aeson.Functions]:
+Result size of Simplifier iteration=1
+  = {terms: 500, types: 753, coercions: 0}
+Result size of Simplifier = {terms: 500, types: 753, coercions: 0}
+!!! Simplifier [Data.Aeson.Functions]: finished in 8.00 milliseconds, allocated 6.223 megabytes
+*** SpecConstr [Data.Aeson.Functions]:
+Result size of SpecConstr
+  = {terms: 779, types: 1,109, coercions: 0}
+!!! SpecConstr [Data.Aeson.Functions]: finished in 1.00 milliseconds, allocated 1.381 megabytes
+*** Simplifier [Data.Aeson.Functions]:
+Result size of Simplifier iteration=1
+  = {terms: 761, types: 1,055, coercions: 0}
+Result size of Simplifier = {terms: 464, types: 654, coercions: 0}
+!!! Simplifier [Data.Aeson.Functions]: finished in 9.00 milliseconds, allocated 8.872 megabytes
+*** CoreTidy [Data.Aeson.Functions]:
+Result size of Tidy Core = {terms: 464, types: 654, coercions: 0}
+!!! CoreTidy [Data.Aeson.Functions]: finished in 6.00 milliseconds, allocated 4.648 megabytes
+writeBinIface: 32 Names
+writeBinIface: 122 dict entries
+writeBinIface: 32 Names
+writeBinIface: 122 dict entries
+*** CorePrep [Data.Aeson.Functions]:
+Result size of CorePrep = {terms: 599, types: 721, coercions: 0}
+!!! CorePrep [Data.Aeson.Functions]: finished in 1.00 milliseconds, allocated 1.122 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Functions]:
+!!! CodeGen [Data.Aeson.Functions]: finished in 22.00 milliseconds, allocated 20.137 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_20.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Functions.o
+*** CorePrep [Data.Aeson.Functions]:
+Result size of CorePrep = {terms: 599, types: 721, coercions: 0}
+!!! CorePrep [Data.Aeson.Functions]: finished in 1.00 milliseconds, allocated 1.070 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Functions]:
+!!! CodeGen [Data.Aeson.Functions]: finished in 19.00 milliseconds, allocated 20.544 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_22.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Functions.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_23.c /tmp/ghc12557_0/ghc_22.s /tmp/ghc12557_0/ghc_21.c /tmp/ghc12557_0/ghc_20.s /tmp/ghc12557_0/ghc_19.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_23.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_21.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_19.s
+compile: input file /tmp/ghc12557_0/ghc_1.hscpp
+*** Checking old interface for Data.Aeson.Internal.Time:
+[ 2 of 16] Compiling Data.Aeson.Internal.Time ( Data/Aeson/Internal/Time.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Internal/Time.o )
+*** Parser [Data.Aeson.Internal.Time]:
+!!! Parser [Data.Aeson.Internal.Time]: finished in 1.00 milliseconds, allocated 1.844 megabytes
+*** Renamer/typechecker [Data.Aeson.Internal.Time]:
+!!! Renamer/typechecker [Data.Aeson.Internal.Time]: finished in 50.00 milliseconds, allocated 39.184 megabytes
+*** Desugar [Data.Aeson.Internal.Time]:
+Result size of Desugar (after optimization)
+  = {terms: 109, types: 94, coercions: 5}
+!!! Desugar [Data.Aeson.Internal.Time]: finished in 2.00 milliseconds, allocated 0.734 megabytes
+*** Simplifier [Data.Aeson.Internal.Time]:
+Result size of Simplifier iteration=1
+  = {terms: 117, types: 86, coercions: 10}
+Result size of Simplifier iteration=2
+  = {terms: 101, types: 72, coercions: 10}
+Result size of Simplifier = {terms: 101, types: 72, coercions: 10}
+!!! Simplifier [Data.Aeson.Internal.Time]: finished in 2.00 milliseconds, allocated 2.174 megabytes
+*** Specialise [Data.Aeson.Internal.Time]:
+Result size of Specialise = {terms: 108, types: 77, coercions: 10}
+!!! Specialise [Data.Aeson.Internal.Time]: finished in 1.00 milliseconds, allocated 0.194 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Internal.Time]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 116, types: 81, coercions: 10}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Internal.Time]: finished in 0.00 milliseconds, allocated 0.440 megabytes
+*** Simplifier [Data.Aeson.Internal.Time]:
+Result size of Simplifier iteration=1
+  = {terms: 106, types: 73, coercions: 16}
+Result size of Simplifier iteration=2
+  = {terms: 101, types: 65, coercions: 16}
+Result size of Simplifier iteration=3
+  = {terms: 99, types: 62, coercions: 16}
+Result size of Simplifier = {terms: 99, types: 62, coercions: 16}
+!!! Simplifier [Data.Aeson.Internal.Time]: finished in 3.00 milliseconds, allocated 1.789 megabytes
+*** Simplifier [Data.Aeson.Internal.Time]:
+Result size of Simplifier iteration=1
+  = {terms: 95, types: 56, coercions: 16}
+Result size of Simplifier = {terms: 95, types: 56, coercions: 16}
+!!! Simplifier [Data.Aeson.Internal.Time]: finished in 0.00 milliseconds, allocated 0.790 megabytes
+*** Simplifier [Data.Aeson.Internal.Time]:
+Result size of Simplifier iteration=1
+  = {terms: 85, types: 54, coercions: 16}
+Result size of Simplifier = {terms: 79, types: 52, coercions: 16}
+!!! Simplifier [Data.Aeson.Internal.Time]: finished in 0.00 milliseconds, allocated 0.753 megabytes
+*** Float inwards [Data.Aeson.Internal.Time]:
+Result size of Float inwards
+  = {terms: 79, types: 52, coercions: 16}
+!!! Float inwards [Data.Aeson.Internal.Time]: finished in 1.00 milliseconds, allocated 0.110 megabytes
+*** Called arity analysis [Data.Aeson.Internal.Time]:
+Result size of Called arity analysis
+  = {terms: 79, types: 52, coercions: 16}
+!!! Called arity analysis [Data.Aeson.Internal.Time]: finished in 0.00 milliseconds, allocated 0.117 megabytes
+*** Simplifier [Data.Aeson.Internal.Time]:
+Result size of Simplifier = {terms: 79, types: 52, coercions: 16}
+!!! Simplifier [Data.Aeson.Internal.Time]: finished in 0.00 milliseconds, allocated 0.309 megabytes
+*** Demand analysis [Data.Aeson.Internal.Time]:
+Result size of Demand analysis
+  = {terms: 79, types: 52, coercions: 16}
+!!! Demand analysis [Data.Aeson.Internal.Time]: finished in 0.00 milliseconds, allocated 0.268 megabytes
+*** Worker Wrapper binds [Data.Aeson.Internal.Time]:
+Result size of Worker Wrapper binds
+  = {terms: 79, types: 52, coercions: 16}
+!!! Worker Wrapper binds [Data.Aeson.Internal.Time]: finished in 1.00 milliseconds, allocated 0.074 megabytes
+*** Simplifier [Data.Aeson.Internal.Time]:
+Result size of Simplifier = {terms: 79, types: 52, coercions: 16}
+!!! Simplifier [Data.Aeson.Internal.Time]: finished in 3.00 milliseconds, allocated 0.457 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Internal.Time]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 79, types: 52, coercions: 16}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Internal.Time]: finished in 1.00 milliseconds, allocated 0.252 megabytes
+*** Common sub-expression [Data.Aeson.Internal.Time]:
+Result size of Common sub-expression
+  = {terms: 79, types: 52, coercions: 16}
+!!! Common sub-expression [Data.Aeson.Internal.Time]: finished in 0.00 milliseconds, allocated 0.167 megabytes
+*** Float inwards [Data.Aeson.Internal.Time]:
+Result size of Float inwards
+  = {terms: 79, types: 52, coercions: 16}
+!!! Float inwards [Data.Aeson.Internal.Time]: finished in 0.00 milliseconds, allocated 0.109 megabytes
+*** Liberate case [Data.Aeson.Internal.Time]:
+Result size of Liberate case
+  = {terms: 79, types: 52, coercions: 16}
+!!! Liberate case [Data.Aeson.Internal.Time]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Data.Aeson.Internal.Time]:
+Result size of Simplifier = {terms: 79, types: 52, coercions: 16}
+!!! Simplifier [Data.Aeson.Internal.Time]: finished in 1.00 milliseconds, allocated 0.440 megabytes
+*** SpecConstr [Data.Aeson.Internal.Time]:
+Result size of SpecConstr = {terms: 79, types: 52, coercions: 16}
+!!! SpecConstr [Data.Aeson.Internal.Time]: finished in 0.00 milliseconds, allocated 0.111 megabytes
+*** Simplifier [Data.Aeson.Internal.Time]:
+Result size of Simplifier = {terms: 79, types: 52, coercions: 16}
+!!! Simplifier [Data.Aeson.Internal.Time]: finished in 1.00 milliseconds, allocated 0.469 megabytes
+*** CoreTidy [Data.Aeson.Internal.Time]:
+Result size of Tidy Core = {terms: 94, types: 63, coercions: 16}
+!!! CoreTidy [Data.Aeson.Internal.Time]: finished in 0.00 milliseconds, allocated 0.203 megabytes
+writeBinIface: 24 Names
+writeBinIface: 80 dict entries
+writeBinIface: 24 Names
+writeBinIface: 80 dict entries
+*** CorePrep [Data.Aeson.Internal.Time]:
+Result size of CorePrep = {terms: 106, types: 73, coercions: 16}
+!!! CorePrep [Data.Aeson.Internal.Time]: finished in 0.00 milliseconds, allocated 0.201 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Internal.Time]:
+!!! CodeGen [Data.Aeson.Internal.Time]: finished in 6.00 milliseconds, allocated 4.611 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Internal -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_25.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Internal/Time.o
+*** CorePrep [Data.Aeson.Internal.Time]:
+Result size of CorePrep = {terms: 106, types: 73, coercions: 16}
+!!! CorePrep [Data.Aeson.Internal.Time]: finished in 0.00 milliseconds, allocated 0.199 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Internal.Time]:
+!!! CodeGen [Data.Aeson.Internal.Time]: finished in 7.00 milliseconds, allocated 4.700 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Internal -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_27.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Internal/Time.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_28.c /tmp/ghc12557_0/ghc_27.s /tmp/ghc12557_0/ghc_26.c /tmp/ghc12557_0/ghc_25.s /tmp/ghc12557_0/ghc_24.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_28.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_26.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_24.s
+compile: input file /tmp/ghc12557_0/ghc_17.hscpp
+*** Checking old interface for Data.Aeson.Types.Internal:
+[ 3 of 16] Compiling Data.Aeson.Types.Internal ( Data/Aeson/Types/Internal.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Internal.o )
+*** Parser [Data.Aeson.Types.Internal]:
+!!! Parser [Data.Aeson.Types.Internal]: finished in 14.00 milliseconds, allocated 20.082 megabytes
+*** Renamer/typechecker [Data.Aeson.Types.Internal]:
+!!! Renamer/typechecker [Data.Aeson.Types.Internal]: finished in 860.00 milliseconds, allocated 464.815 megabytes
+*** Desugar [Data.Aeson.Types.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 3,443, types: 4,199, coercions: 181}
+!!! Desugar [Data.Aeson.Types.Internal]: finished in 64.00 milliseconds, allocated 39.525 megabytes
+*** Simplifier [Data.Aeson.Types.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 3,575, types: 4,378, coercions: 326}
+Result size of Simplifier iteration=2
+  = {terms: 3,468, types: 4,305, coercions: 326}
+Result size of Simplifier
+  = {terms: 3,468, types: 4,305, coercions: 326}
+!!! Simplifier [Data.Aeson.Types.Internal]: finished in 88.00 milliseconds, allocated 75.214 megabytes
+*** Specialise [Data.Aeson.Types.Internal]:
+Result size of Specialise
+  = {terms: 6,943, types: 10,630, coercions: 1,166}
+!!! Specialise [Data.Aeson.Types.Internal]: finished in 47.00 milliseconds, allocated 30.799 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Types.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 8,117, types: 13,582, coercions: 1,166}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Types.Internal]: finished in 45.00 milliseconds, allocated 42.382 megabytes
+*** Simplifier [Data.Aeson.Types.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 12,762, types: 18,654, coercions: 3,138}
+Result size of Simplifier iteration=2
+  = {terms: 10,895, types: 15,427, coercions: 2,518}
+Result size of Simplifier iteration=3
+  = {terms: 10,504, types: 14,914, coercions: 2,318}
+Result size of Simplifier iteration=4
+  = {terms: 10,456, types: 14,819, coercions: 2,234}
+Result size of Simplifier
+  = {terms: 10,456, types: 14,819, coercions: 2,234}
+!!! Simplifier [Data.Aeson.Types.Internal]: finished in 643.00 milliseconds, allocated 321.085 megabytes
+*** Simplifier [Data.Aeson.Types.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 12,489, types: 17,989, coercions: 3,512}
+Result size of Simplifier iteration=2
+  = {terms: 11,319, types: 16,138, coercions: 2,692}
+Result size of Simplifier iteration=3
+  = {terms: 11,127, types: 15,805, coercions: 2,519}
+Result size of Simplifier
+  = {terms: 11,100, types: 15,748, coercions: 2,493}
+!!! Simplifier [Data.Aeson.Types.Internal]: finished in 356.00 milliseconds, allocated 267.799 megabytes
+*** Simplifier [Data.Aeson.Types.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 13,578, types: 17,690, coercions: 2,779}
+Result size of Simplifier iteration=2
+  = {terms: 12,112, types: 16,055, coercions: 2,504}
+Result size of Simplifier iteration=3
+  = {terms: 12,116, types: 16,107, coercions: 2,508}
+Result size of Simplifier iteration=4
+  = {terms: 12,094, types: 16,060, coercions: 2,494}
+Result size of Simplifier
+  = {terms: 12,094, types: 16,060, coercions: 2,494}
+!!! Simplifier [Data.Aeson.Types.Internal]: finished in 347.00 milliseconds, allocated 259.437 megabytes
+*** Float inwards [Data.Aeson.Types.Internal]:
+Result size of Float inwards
+  = {terms: 12,094, types: 16,060, coercions: 2,494}
+!!! Float inwards [Data.Aeson.Types.Internal]: finished in 15.00 milliseconds, allocated 18.975 megabytes
+*** Called arity analysis [Data.Aeson.Types.Internal]:
+Result size of Called arity analysis
+  = {terms: 12,094, types: 16,060, coercions: 2,494}
+!!! Called arity analysis [Data.Aeson.Types.Internal]: finished in 20.00 milliseconds, allocated 25.425 megabytes
+*** Simplifier [Data.Aeson.Types.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 12,076, types: 16,032, coercions: 2,494}
+Result size of Simplifier
+  = {terms: 12,076, types: 16,032, coercions: 2,494}
+!!! Simplifier [Data.Aeson.Types.Internal]: finished in 178.00 milliseconds, allocated 117.223 megabytes
+*** Demand analysis [Data.Aeson.Types.Internal]:
+Result size of Demand analysis
+  = {terms: 12,076, types: 16,032, coercions: 2,494}
+!!! Demand analysis [Data.Aeson.Types.Internal]: finished in 94.00 milliseconds, allocated 67.319 megabytes
+*** Worker Wrapper binds [Data.Aeson.Types.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 13,164, types: 17,540, coercions: 2,494}
+!!! Worker Wrapper binds [Data.Aeson.Types.Internal]: finished in 7.00 milliseconds, allocated 4.776 megabytes
+*** Simplifier [Data.Aeson.Types.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 12,562, types: 16,904, coercions: 2,495}
+Result size of Simplifier iteration=2
+  = {terms: 12,209, types: 16,420, coercions: 2,494}
+Result size of Simplifier
+  = {terms: 12,209, types: 16,420, coercions: 2,494}
+!!! Simplifier [Data.Aeson.Types.Internal]: finished in 255.00 milliseconds, allocated 199.094 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Types.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 12,570, types: 16,835, coercions: 2,494}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Types.Internal]: finished in 65.00 milliseconds, allocated 60.128 megabytes
+*** Common sub-expression [Data.Aeson.Types.Internal]:
+Result size of Common sub-expression
+  = {terms: 11,445, types: 15,382, coercions: 2,184}
+!!! Common sub-expression [Data.Aeson.Types.Internal]: finished in 22.00 milliseconds, allocated 20.474 megabytes
+*** Float inwards [Data.Aeson.Types.Internal]:
+Result size of Float inwards
+  = {terms: 11,445, types: 15,382, coercions: 2,184}
+!!! Float inwards [Data.Aeson.Types.Internal]: finished in 28.00 milliseconds, allocated 18.451 megabytes
+*** Liberate case [Data.Aeson.Types.Internal]:
+Result size of Liberate case
+  = {terms: 11,875, types: 15,660, coercions: 2,184}
+!!! Liberate case [Data.Aeson.Types.Internal]: finished in 6.00 milliseconds, allocated 6.117 megabytes
+*** Simplifier [Data.Aeson.Types.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 11,682, types: 15,495, coercions: 2,231}
+Result size of Simplifier iteration=2
+  = {terms: 11,570, types: 15,307, coercions: 2,231}
+Result size of Simplifier
+  = {terms: 11,570, types: 15,307, coercions: 2,231}
+!!! Simplifier [Data.Aeson.Types.Internal]: finished in 233.00 milliseconds, allocated 184.230 megabytes
+*** SpecConstr [Data.Aeson.Types.Internal]:
+Result size of SpecConstr
+  = {terms: 13,177, types: 17,397, coercions: 2,492}
+!!! SpecConstr [Data.Aeson.Types.Internal]: finished in 43.00 milliseconds, allocated 23.118 megabytes
+*** Simplifier [Data.Aeson.Types.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 13,055, types: 17,093, coercions: 2,475}
+Result size of Simplifier iteration=2
+  = {terms: 12,013, types: 15,717, coercions: 2,241}
+Result size of Simplifier
+  = {terms: 12,013, types: 15,717, coercions: 2,241}
+!!! Simplifier [Data.Aeson.Types.Internal]: finished in 265.00 milliseconds, allocated 200.327 megabytes
+*** CoreTidy [Data.Aeson.Types.Internal]:
+Result size of Tidy Core
+  = {terms: 10,343, types: 12,589, coercions: 1,667}
+!!! CoreTidy [Data.Aeson.Types.Internal]: finished in 22.00 milliseconds, allocated 20.121 megabytes
+writeBinIface: 688 Names
+writeBinIface: 972 dict entries
+writeBinIface: 688 Names
+writeBinIface: 972 dict entries
+*** CorePrep [Data.Aeson.Types.Internal]:
+Result size of CorePrep
+  = {terms: 13,616, types: 15,686, coercions: 1,698}
+!!! CorePrep [Data.Aeson.Types.Internal]: finished in 21.00 milliseconds, allocated 23.070 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Types.Internal]:
+!!! CodeGen [Data.Aeson.Types.Internal]: finished in 582.00 milliseconds, allocated 555.087 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_30.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Internal.o
+*** CorePrep [Data.Aeson.Types.Internal]:
+Result size of CorePrep
+  = {terms: 13,616, types: 15,686, coercions: 1,698}
+!!! CorePrep [Data.Aeson.Types.Internal]: finished in 27.00 milliseconds, allocated 22.077 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Types.Internal]:
+!!! CodeGen [Data.Aeson.Types.Internal]: finished in 577.00 milliseconds, allocated 581.748 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_32.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_33.c /tmp/ghc12557_0/ghc_32.s /tmp/ghc12557_0/ghc_31.c /tmp/ghc12557_0/ghc_30.s /tmp/ghc12557_0/ghc_29.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_33.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_31.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_29.s
+compile: input file ./Data/Aeson/Encode/Builder.hs
+*** Checking old interface for Data.Aeson.Encode.Builder:
+[ 4 of 16] Compiling Data.Aeson.Encode.Builder ( Data/Aeson/Encode/Builder.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Encode/Builder.o )
+*** Parser [Data.Aeson.Encode.Builder]:
+!!! Parser [Data.Aeson.Encode.Builder]: finished in 4.00 milliseconds, allocated 9.081 megabytes
+*** Renamer/typechecker [Data.Aeson.Encode.Builder]:
+!!! Renamer/typechecker [Data.Aeson.Encode.Builder]: finished in 57.00 milliseconds, allocated 51.441 megabytes
+*** Desugar [Data.Aeson.Encode.Builder]:
+Result size of Desugar (after optimization)
+  = {terms: 1,413, types: 1,796, coercions: 15}
+!!! Desugar [Data.Aeson.Encode.Builder]: finished in 20.00 milliseconds, allocated 12.077 megabytes
+*** Simplifier [Data.Aeson.Encode.Builder]:
+Result size of Simplifier iteration=1
+  = {terms: 1,287, types: 1,489, coercions: 8}
+Result size of Simplifier iteration=2
+  = {terms: 1,126, types: 1,274, coercions: 8}
+Result size of Simplifier iteration=3
+  = {terms: 1,110, types: 1,251, coercions: 8}
+Result size of Simplifier
+  = {terms: 1,110, types: 1,251, coercions: 8}
+!!! Simplifier [Data.Aeson.Encode.Builder]: finished in 77.00 milliseconds, allocated 69.748 megabytes
+*** Specialise [Data.Aeson.Encode.Builder]:
+Result size of Specialise
+  = {terms: 1,133, types: 1,324, coercions: 16}
+!!! Specialise [Data.Aeson.Encode.Builder]: finished in 1.00 milliseconds, allocated 1.754 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Encode.Builder]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,579, types: 1,934, coercions: 16}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Encode.Builder]: finished in 4.00 milliseconds, allocated 5.938 megabytes
+*** Simplifier [Data.Aeson.Encode.Builder]:
+Result size of Simplifier iteration=1
+  = {terms: 37,024, types: 35,649, coercions: 3,341}
+Result size of Simplifier iteration=2
+  = {terms: 7,856, types: 4,990, coercions: 558}
+Result size of Simplifier iteration=3
+  = {terms: 7,288, types: 4,258, coercions: 486}
+Result size of Simplifier
+  = {terms: 7,288, types: 4,258, coercions: 486}
+!!! Simplifier [Data.Aeson.Encode.Builder]: finished in 490.00 milliseconds, allocated 393.501 megabytes
+*** Simplifier [Data.Aeson.Encode.Builder]:
+Result size of Simplifier iteration=1
+  = {terms: 13,476, types: 8,910, coercions: 1,963}
+Result size of Simplifier iteration=2
+  = {terms: 9,794, types: 5,535, coercions: 1,228}
+Result size of Simplifier iteration=3
+  = {terms: 9,804, types: 5,365, coercions: 1,222}
+Result size of Simplifier iteration=4
+  = {terms: 9,752, types: 5,343, coercions: 1,222}
+Result size of Simplifier
+  = {terms: 9,752, types: 5,343, coercions: 1,222}
+!!! Simplifier [Data.Aeson.Encode.Builder]: finished in 311.00 milliseconds, allocated 237.037 megabytes
+*** Simplifier [Data.Aeson.Encode.Builder]:
+Result size of Simplifier iteration=1
+  = {terms: 10,808, types: 6,110, coercions: 1,222}
+Result size of Simplifier iteration=2
+  = {terms: 10,608, types: 5,983, coercions: 1,222}
+Result size of Simplifier iteration=3
+  = {terms: 10,600, types: 5,979, coercions: 1,222}
+Result size of Simplifier
+  = {terms: 10,600, types: 5,979, coercions: 1,222}
+!!! Simplifier [Data.Aeson.Encode.Builder]: finished in 215.00 milliseconds, allocated 168.403 megabytes
+*** Float inwards [Data.Aeson.Encode.Builder]:
+Result size of Float inwards
+  = {terms: 10,600, types: 5,979, coercions: 1,222}
+!!! Float inwards [Data.Aeson.Encode.Builder]: finished in 21.00 milliseconds, allocated 19.774 megabytes
+*** Called arity analysis [Data.Aeson.Encode.Builder]:
+Result size of Called arity analysis
+  = {terms: 10,600, types: 5,979, coercions: 1,222}
+!!! Called arity analysis [Data.Aeson.Encode.Builder]: finished in 8.00 milliseconds, allocated 9.884 megabytes
+*** Simplifier [Data.Aeson.Encode.Builder]:
+Result size of Simplifier iteration=1
+  = {terms: 10,568, types: 5,919, coercions: 1,222}
+Result size of Simplifier
+  = {terms: 10,548, types: 5,891, coercions: 1,222}
+!!! Simplifier [Data.Aeson.Encode.Builder]: finished in 111.00 milliseconds, allocated 81.873 megabytes
+*** Demand analysis [Data.Aeson.Encode.Builder]:
+Result size of Demand analysis
+  = {terms: 10,548, types: 5,891, coercions: 1,222}
+!!! Demand analysis [Data.Aeson.Encode.Builder]: finished in 73.00 milliseconds, allocated 56.142 megabytes
+*** Worker Wrapper binds [Data.Aeson.Encode.Builder]:
+Result size of Worker Wrapper binds
+  = {terms: 11,638, types: 7,211, coercions: 1,222}
+!!! Worker Wrapper binds [Data.Aeson.Encode.Builder]: finished in 5.00 milliseconds, allocated 3.330 megabytes
+*** Simplifier [Data.Aeson.Encode.Builder]:
+Result size of Simplifier iteration=1
+  = {terms: 12,300, types: 6,888, coercions: 1,222}
+Result size of Simplifier iteration=2
+  = {terms: 11,384, types: 5,949, coercions: 1,222}
+Result size of Simplifier iteration=3
+  = {terms: 11,384, types: 5,949, coercions: 1,222}
+Result size of Simplifier
+  = {terms: 11,384, types: 5,949, coercions: 1,222}
+!!! Simplifier [Data.Aeson.Encode.Builder]: finished in 277.00 milliseconds, allocated 185.897 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Encode.Builder]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 11,536, types: 6,252, coercions: 1,222}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Encode.Builder]: finished in 202.00 milliseconds, allocated 30.944 megabytes
+*** Common sub-expression [Data.Aeson.Encode.Builder]:
+Result size of Common sub-expression
+  = {terms: 11,420, types: 6,218, coercions: 1,204}
+!!! Common sub-expression [Data.Aeson.Encode.Builder]: finished in 13.00 milliseconds, allocated 13.756 megabytes
+*** Float inwards [Data.Aeson.Encode.Builder]:
+Result size of Float inwards
+  = {terms: 11,420, types: 6,218, coercions: 1,204}
+!!! Float inwards [Data.Aeson.Encode.Builder]: finished in 12.00 milliseconds, allocated 19.856 megabytes
+*** Liberate case [Data.Aeson.Encode.Builder]:
+Result size of Liberate case
+  = {terms: 12,364, types: 6,511, coercions: 1,215}
+!!! Liberate case [Data.Aeson.Encode.Builder]: finished in 6.00 milliseconds, allocated 4.623 megabytes
+*** Simplifier [Data.Aeson.Encode.Builder]:
+Result size of Simplifier iteration=1
+  = {terms: 12,311, types: 6,433, coercions: 1,237}
+Result size of Simplifier iteration=2
+  = {terms: 12,274, types: 6,404, coercions: 1,228}
+Result size of Simplifier
+  = {terms: 12,274, types: 6,404, coercions: 1,228}
+!!! Simplifier [Data.Aeson.Encode.Builder]: finished in 174.00 milliseconds, allocated 138.707 megabytes
+*** SpecConstr [Data.Aeson.Encode.Builder]:
+Result size of SpecConstr
+  = {terms: 12,360, types: 6,463, coercions: 1,281}
+!!! SpecConstr [Data.Aeson.Encode.Builder]: finished in 13.00 milliseconds, allocated 17.527 megabytes
+*** Simplifier [Data.Aeson.Encode.Builder]:
+Result size of Simplifier iteration=1
+  = {terms: 12,357, types: 6,463, coercions: 1,281}
+Result size of Simplifier
+  = {terms: 12,268, types: 6,401, coercions: 1,228}
+!!! Simplifier [Data.Aeson.Encode.Builder]: finished in 115.00 milliseconds, allocated 94.019 megabytes
+*** CoreTidy [Data.Aeson.Encode.Builder]:
+Result size of Tidy Core
+  = {terms: 12,278, types: 6,408, coercions: 1,228}
+!!! CoreTidy [Data.Aeson.Encode.Builder]: finished in 14.00 milliseconds, allocated 12.719 megabytes
+writeBinIface: 146 Names
+writeBinIface: 348 dict entries
+writeBinIface: 146 Names
+writeBinIface: 348 dict entries
+*** CorePrep [Data.Aeson.Encode.Builder]:
+Result size of CorePrep
+  = {terms: 18,210, types: 8,946, coercions: 1,238}
+!!! CorePrep [Data.Aeson.Encode.Builder]: finished in 22.00 milliseconds, allocated 27.519 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Encode.Builder]:
+!!! CodeGen [Data.Aeson.Encode.Builder]: finished in 251.00 milliseconds, allocated 277.301 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Encode -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_35.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Encode/Builder.o
+*** CorePrep [Data.Aeson.Encode.Builder]:
+Result size of CorePrep
+  = {terms: 18,210, types: 8,946, coercions: 1,238}
+!!! CorePrep [Data.Aeson.Encode.Builder]: finished in 18.00 milliseconds, allocated 26.491 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Encode.Builder]:
+!!! CodeGen [Data.Aeson.Encode.Builder]: finished in 270.00 milliseconds, allocated 286.101 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Encode -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_37.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Encode/Builder.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_38.c /tmp/ghc12557_0/ghc_37.s /tmp/ghc12557_0/ghc_36.c /tmp/ghc12557_0/ghc_35.s /tmp/ghc12557_0/ghc_34.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_38.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_36.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_34.s
+compile: input file /tmp/ghc12557_0/ghc_7.hscpp
+*** Checking old interface for Data.Aeson.Parser.Internal:
+[ 5 of 16] Compiling Data.Aeson.Parser.Internal ( Data/Aeson/Parser/Internal.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Parser/Internal.o )
+*** Parser [Data.Aeson.Parser.Internal]:
+!!! Parser [Data.Aeson.Parser.Internal]: finished in 6.00 milliseconds, allocated 12.116 megabytes
+*** Renamer/typechecker [Data.Aeson.Parser.Internal]:
+!!! Renamer/typechecker [Data.Aeson.Parser.Internal]: finished in 92.00 milliseconds, allocated 70.799 megabytes
+*** Desugar [Data.Aeson.Parser.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 1,640, types: 1,749, coercions: 0}
+!!! Desugar [Data.Aeson.Parser.Internal]: finished in 21.00 milliseconds, allocated 17.376 megabytes
+*** Simplifier [Data.Aeson.Parser.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 1,479, types: 1,517, coercions: 63}
+Result size of Simplifier iteration=2
+  = {terms: 1,413, types: 1,495, coercions: 95}
+Result size of Simplifier iteration=3
+  = {terms: 1,405, types: 1,477, coercions: 101}
+Result size of Simplifier
+  = {terms: 1,405, types: 1,477, coercions: 101}
+!!! Simplifier [Data.Aeson.Parser.Internal]: finished in 65.00 milliseconds, allocated 62.023 megabytes
+*** Specialise [Data.Aeson.Parser.Internal]:
+Result size of Specialise
+  = {terms: 3,063, types: 4,144, coercions: 629}
+!!! Specialise [Data.Aeson.Parser.Internal]: finished in 7.00 milliseconds, allocated 5.871 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Parser.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 3,788, types: 5,430, coercions: 629}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Parser.Internal]: finished in 14.00 milliseconds, allocated 17.415 megabytes
+*** Simplifier [Data.Aeson.Parser.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 26,463, types: 29,756, coercions: 6,777}
+Result size of Simplifier iteration=2
+  = {terms: 13,102, types: 11,612, coercions: 3,693}
+Result size of Simplifier iteration=3
+  = {terms: 11,665, types: 10,050, coercions: 3,243}
+Result size of Simplifier iteration=4
+  = {terms: 11,582, types: 9,961, coercions: 2,951}
+Result size of Simplifier
+  = {terms: 11,582, types: 9,961, coercions: 2,951}
+!!! Simplifier [Data.Aeson.Parser.Internal]: finished in 799.00 milliseconds, allocated 595.942 megabytes
+*** Simplifier [Data.Aeson.Parser.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 13,876, types: 13,740, coercions: 4,030}
+Result size of Simplifier iteration=2
+  = {terms: 11,655, types: 11,124, coercions: 3,173}
+Result size of Simplifier iteration=3
+  = {terms: 11,660, types: 10,891, coercions: 2,890}
+Result size of Simplifier iteration=4
+  = {terms: 11,409, types: 10,607, coercions: 2,839}
+Result size of Simplifier
+  = {terms: 11,409, types: 10,607, coercions: 2,839}
+!!! Simplifier [Data.Aeson.Parser.Internal]: finished in 313.00 milliseconds, allocated 225.972 megabytes
+*** Simplifier [Data.Aeson.Parser.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 12,967, types: 11,734, coercions: 2,536}
+Result size of Simplifier iteration=2
+  = {terms: 12,148, types: 10,631, coercions: 2,323}
+Result size of Simplifier iteration=3
+  = {terms: 12,126, types: 10,611, coercions: 2,323}
+Result size of Simplifier
+  = {terms: 12,126, types: 10,611, coercions: 2,323}
+!!! Simplifier [Data.Aeson.Parser.Internal]: finished in 274.00 milliseconds, allocated 206.369 megabytes
+*** Float inwards [Data.Aeson.Parser.Internal]:
+Result size of Float inwards
+  = {terms: 12,126, types: 10,611, coercions: 2,323}
+!!! Float inwards [Data.Aeson.Parser.Internal]: finished in 33.00 milliseconds, allocated 25.024 megabytes
+*** Called arity analysis [Data.Aeson.Parser.Internal]:
+Result size of Called arity analysis
+  = {terms: 12,126, types: 10,611, coercions: 2,323}
+!!! Called arity analysis [Data.Aeson.Parser.Internal]: finished in 11.00 milliseconds, allocated 12.840 megabytes
+*** Simplifier [Data.Aeson.Parser.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 12,029, types: 10,460, coercions: 2,345}
+Result size of Simplifier iteration=2
+  = {terms: 11,961, types: 10,397, coercions: 2,338}
+Result size of Simplifier iteration=3
+  = {terms: 11,937, types: 10,352, coercions: 2,289}
+Result size of Simplifier iteration=4
+  = {terms: 11,931, types: 10,319, coercions: 2,283}
+Result size of Simplifier
+  = {terms: 11,931, types: 10,319, coercions: 2,283}
+!!! Simplifier [Data.Aeson.Parser.Internal]: finished in 257.00 milliseconds, allocated 189.106 megabytes
+*** Demand analysis [Data.Aeson.Parser.Internal]:
+Result size of Demand analysis
+  = {terms: 11,931, types: 10,319, coercions: 2,283}
+!!! Demand analysis [Data.Aeson.Parser.Internal]: finished in 117.00 milliseconds, allocated 91.871 megabytes
+*** Worker Wrapper binds [Data.Aeson.Parser.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 15,673, types: 14,822, coercions: 2,679}
+!!! Worker Wrapper binds [Data.Aeson.Parser.Internal]: finished in 8.00 milliseconds, allocated 5.729 megabytes
+*** Simplifier [Data.Aeson.Parser.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 14,914, types: 13,814, coercions: 2,089}
+Result size of Simplifier iteration=2
+  = {terms: 12,970, types: 10,688, coercions: 1,935}
+Result size of Simplifier
+  = {terms: 12,970, types: 10,688, coercions: 1,935}
+!!! Simplifier [Data.Aeson.Parser.Internal]: finished in 258.00 milliseconds, allocated 182.646 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Parser.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 13,303, types: 11,276, coercions: 1,935}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Parser.Internal]: finished in 64.00 milliseconds, allocated 56.118 megabytes
+*** Common sub-expression [Data.Aeson.Parser.Internal]:
+Result size of Common sub-expression
+  = {terms: 13,111, types: 11,092, coercions: 1,900}
+!!! Common sub-expression [Data.Aeson.Parser.Internal]: finished in 16.00 milliseconds, allocated 15.144 megabytes
+*** Float inwards [Data.Aeson.Parser.Internal]:
+Result size of Float inwards
+  = {terms: 13,111, types: 11,092, coercions: 1,900}
+!!! Float inwards [Data.Aeson.Parser.Internal]: finished in 30.00 milliseconds, allocated 27.223 megabytes
+*** Liberate case [Data.Aeson.Parser.Internal]:
+Result size of Liberate case
+  = {terms: 13,111, types: 11,092, coercions: 1,900}
+!!! Liberate case [Data.Aeson.Parser.Internal]: finished in 9.00 milliseconds, allocated 7.351 megabytes
+*** Simplifier [Data.Aeson.Parser.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 13,400, types: 11,466, coercions: 2,200}
+Result size of Simplifier iteration=2
+  = {terms: 12,977, types: 10,969, coercions: 2,053}
+Result size of Simplifier iteration=3
+  = {terms: 12,941, types: 10,855, coercions: 1,990}
+Result size of Simplifier
+  = {terms: 12,936, types: 10,846, coercions: 1,990}
+!!! Simplifier [Data.Aeson.Parser.Internal]: finished in 281.00 milliseconds, allocated 205.086 megabytes
+*** SpecConstr [Data.Aeson.Parser.Internal]:
+Result size of SpecConstr
+  = {terms: 23,661, types: 18,064, coercions: 2,941}
+!!! SpecConstr [Data.Aeson.Parser.Internal]: finished in 60.00 milliseconds, allocated 40.504 megabytes
+*** Simplifier [Data.Aeson.Parser.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 22,316, types: 17,246, coercions: 2,780}
+Result size of Simplifier iteration=2
+  = {terms: 18,356, types: 14,059, coercions: 2,510}
+Result size of Simplifier iteration=3
+  = {terms: 18,091, types: 13,562, coercions: 2,493}
+Result size of Simplifier
+  = {terms: 18,091, types: 13,562, coercions: 2,493}
+!!! Simplifier [Data.Aeson.Parser.Internal]: finished in 585.00 milliseconds, allocated 302.884 megabytes
+*** CoreTidy [Data.Aeson.Parser.Internal]:
+Result size of Tidy Core
+  = {terms: 17,604, types: 12,766, coercions: 2,265}
+!!! CoreTidy [Data.Aeson.Parser.Internal]: finished in 22.00 milliseconds, allocated 17.181 megabytes
+writeBinIface: 75 Names
+writeBinIface: 247 dict entries
+writeBinIface: 75 Names
+writeBinIface: 247 dict entries
+*** CorePrep [Data.Aeson.Parser.Internal]:
+Result size of CorePrep
+  = {terms: 22,568, types: 15,154, coercions: 2,265}
+!!! CorePrep [Data.Aeson.Parser.Internal]: finished in 32.00 milliseconds, allocated 39.702 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Parser.Internal]:
+!!! CodeGen [Data.Aeson.Parser.Internal]: finished in 572.00 milliseconds, allocated 632.539 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Parser -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_40.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Parser/Internal.o
+*** CorePrep [Data.Aeson.Parser.Internal]:
+Result size of CorePrep
+  = {terms: 22,568, types: 15,154, coercions: 2,265}
+!!! CorePrep [Data.Aeson.Parser.Internal]: finished in 36.00 milliseconds, allocated 37.674 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Parser.Internal]:
+!!! CodeGen [Data.Aeson.Parser.Internal]: finished in 594.00 milliseconds, allocated 658.158 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Parser -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_42.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Parser/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_43.c /tmp/ghc12557_0/ghc_42.s /tmp/ghc12557_0/ghc_41.c /tmp/ghc12557_0/ghc_40.s /tmp/ghc12557_0/ghc_39.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_43.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_41.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_39.s
+compile: input file ./Data/Aeson/Parser.hs
+*** Checking old interface for Data.Aeson.Parser:
+[ 6 of 16] Compiling Data.Aeson.Parser ( Data/Aeson/Parser.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Parser.o )
+*** Parser [Data.Aeson.Parser]:
+!!! Parser [Data.Aeson.Parser]: finished in 1.00 milliseconds, allocated 1.010 megabytes
+*** Renamer/typechecker [Data.Aeson.Parser]:
+!!! Renamer/typechecker [Data.Aeson.Parser]: finished in 1.00 milliseconds, allocated 0.936 megabytes
+*** Desugar [Data.Aeson.Parser]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.056 megabytes
+*** Simplifier [Data.Aeson.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.139 megabytes
+*** Specialise [Data.Aeson.Parser]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.Aeson.Parser]: finished in 1.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.091 megabytes
+*** Simplifier [Data.Aeson.Parser]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.073 megabytes
+*** Simplifier [Data.Aeson.Parser]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Simplifier [Data.Aeson.Parser]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Float inwards [Data.Aeson.Parser]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Data.Aeson.Parser]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.Aeson.Parser]: finished in 1.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Data.Aeson.Parser]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.073 megabytes
+*** Demand analysis [Data.Aeson.Parser]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+*** Worker Wrapper binds [Data.Aeson.Parser]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.Aeson.Parser]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Data.Aeson.Parser]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Data.Aeson.Parser]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Liberate case [Data.Aeson.Parser]:
+Result size of Liberate case = {terms: 10, types: 3, coercions: 0}
+!!! Liberate case [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.039 megabytes
+*** Simplifier [Data.Aeson.Parser]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** SpecConstr [Data.Aeson.Parser]:
+Result size of SpecConstr = {terms: 10, types: 3, coercions: 0}
+!!! SpecConstr [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Simplifier [Data.Aeson.Parser]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.073 megabytes
+*** CoreTidy [Data.Aeson.Parser]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 9 Names
+writeBinIface: 75 dict entries
+writeBinIface: 9 Names
+writeBinIface: 75 dict entries
+*** CorePrep [Data.Aeson.Parser]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Parser]:
+!!! CodeGen [Data.Aeson.Parser]: finished in 1.00 milliseconds, allocated 0.289 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_45.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Parser.o
+*** CorePrep [Data.Aeson.Parser]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Parser]:
+!!! CodeGen [Data.Aeson.Parser]: finished in 0.00 milliseconds, allocated 0.287 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_47.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Parser.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_48.c /tmp/ghc12557_0/ghc_47.s /tmp/ghc12557_0/ghc_46.c /tmp/ghc12557_0/ghc_45.s /tmp/ghc12557_0/ghc_44.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_48.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_46.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_44.s
+compile: input file /tmp/ghc12557_0/ghc_9.hscpp
+*** Checking old interface for Data.Aeson.Parser.Time:
+[ 7 of 16] Compiling Data.Aeson.Parser.Time ( Data/Aeson/Parser/Time.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Parser/Time.o )
+*** Parser [Data.Aeson.Parser.Time]:
+!!! Parser [Data.Aeson.Parser.Time]: finished in 2.00 milliseconds, allocated 4.695 megabytes
+*** Renamer/typechecker [Data.Aeson.Parser.Time]:
+!!! Renamer/typechecker [Data.Aeson.Parser.Time]: finished in 31.00 milliseconds, allocated 24.723 megabytes
+*** Desugar [Data.Aeson.Parser.Time]:
+Result size of Desugar (after optimization)
+  = {terms: 596, types: 549, coercions: 0}
+!!! Desugar [Data.Aeson.Parser.Time]: finished in 6.00 milliseconds, allocated 6.061 megabytes
+*** Simplifier [Data.Aeson.Parser.Time]:
+Result size of Simplifier iteration=1
+  = {terms: 601, types: 547, coercions: 54}
+Result size of Simplifier iteration=2
+  = {terms: 581, types: 598, coercions: 68}
+Result size of Simplifier iteration=3
+  = {terms: 577, types: 594, coercions: 68}
+Result size of Simplifier = {terms: 577, types: 594, coercions: 68}
+!!! Simplifier [Data.Aeson.Parser.Time]: finished in 19.00 milliseconds, allocated 11.681 megabytes
+*** Specialise [Data.Aeson.Parser.Time]:
+Result size of Specialise = {terms: 802, types: 737, coercions: 72}
+!!! Specialise [Data.Aeson.Parser.Time]: finished in 1.00 milliseconds, allocated 1.343 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Parser.Time]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,034, types: 1,009, coercions: 72}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Parser.Time]: finished in 3.00 milliseconds, allocated 4.040 megabytes
+*** Simplifier [Data.Aeson.Parser.Time]:
+Result size of Simplifier iteration=1
+  = {terms: 7,082, types: 6,694, coercions: 1,494}
+Result size of Simplifier iteration=2
+  = {terms: 5,188, types: 3,051, coercions: 1,026}
+Result size of Simplifier iteration=3
+  = {terms: 4,665, types: 2,598, coercions: 1,059}
+Result size of Simplifier iteration=4
+  = {terms: 4,584, types: 2,549, coercions: 1,042}
+Result size of Simplifier
+  = {terms: 4,584, types: 2,549, coercions: 1,042}
+!!! Simplifier [Data.Aeson.Parser.Time]: finished in 154.00 milliseconds, allocated 131.531 megabytes
+*** Simplifier [Data.Aeson.Parser.Time]:
+Result size of Simplifier iteration=1
+  = {terms: 4,691, types: 2,669, coercions: 1,018}
+Result size of Simplifier iteration=2
+  = {terms: 4,324, types: 2,305, coercions: 1,002}
+Result size of Simplifier iteration=3
+  = {terms: 4,226, types: 2,264, coercions: 1,003}
+Result size of Simplifier iteration=4
+  = {terms: 4,216, types: 2,254, coercions: 1,003}
+Result size of Simplifier
+  = {terms: 4,216, types: 2,254, coercions: 1,003}
+!!! Simplifier [Data.Aeson.Parser.Time]: finished in 84.00 milliseconds, allocated 72.721 megabytes
+*** Simplifier [Data.Aeson.Parser.Time]:
+Result size of Simplifier iteration=1
+  = {terms: 4,637, types: 2,426, coercions: 939}
+Result size of Simplifier iteration=2
+  = {terms: 4,438, types: 2,332, coercions: 917}
+Result size of Simplifier iteration=3
+  = {terms: 4,436, types: 2,331, coercions: 917}
+Result size of Simplifier
+  = {terms: 4,436, types: 2,331, coercions: 917}
+!!! Simplifier [Data.Aeson.Parser.Time]: finished in 81.00 milliseconds, allocated 68.650 megabytes
+*** Float inwards [Data.Aeson.Parser.Time]:
+Result size of Float inwards
+  = {terms: 4,436, types: 2,331, coercions: 917}
+!!! Float inwards [Data.Aeson.Parser.Time]: finished in 6.00 milliseconds, allocated 8.554 megabytes
+*** Called arity analysis [Data.Aeson.Parser.Time]:
+Result size of Called arity analysis
+  = {terms: 4,436, types: 2,331, coercions: 917}
+!!! Called arity analysis [Data.Aeson.Parser.Time]: finished in 3.00 milliseconds, allocated 3.906 megabytes
+*** Simplifier [Data.Aeson.Parser.Time]:
+Result size of Simplifier iteration=1
+  = {terms: 4,426, types: 2,323, coercions: 917}
+Result size of Simplifier iteration=2
+  = {terms: 4,438, types: 2,328, coercions: 917}
+Result size of Simplifier iteration=3
+  = {terms: 4,426, types: 2,322, coercions: 917}
+Result size of Simplifier
+  = {terms: 4,426, types: 2,322, coercions: 917}
+!!! Simplifier [Data.Aeson.Parser.Time]: finished in 82.00 milliseconds, allocated 65.455 megabytes
+*** Demand analysis [Data.Aeson.Parser.Time]:
+Result size of Demand analysis
+  = {terms: 4,426, types: 2,322, coercions: 917}
+!!! Demand analysis [Data.Aeson.Parser.Time]: finished in 21.00 milliseconds, allocated 24.133 megabytes
+*** Worker Wrapper binds [Data.Aeson.Parser.Time]:
+Result size of Worker Wrapper binds
+  = {terms: 5,980, types: 3,905, coercions: 1,036}
+!!! Worker Wrapper binds [Data.Aeson.Parser.Time]: finished in 4.00 milliseconds, allocated 2.218 megabytes
+*** Simplifier [Data.Aeson.Parser.Time]:
+Result size of Simplifier iteration=1
+  = {terms: 5,202, types: 3,250, coercions: 810}
+Result size of Simplifier iteration=2
+  = {terms: 4,660, types: 2,751, coercions: 844}
+Result size of Simplifier
+  = {terms: 4,660, types: 2,751, coercions: 844}
+!!! Simplifier [Data.Aeson.Parser.Time]: finished in 84.00 milliseconds, allocated 66.387 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Parser.Time]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,764, types: 2,928, coercions: 844}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Parser.Time]: finished in 16.00 milliseconds, allocated 19.933 megabytes
+*** Common sub-expression [Data.Aeson.Parser.Time]:
+Result size of Common sub-expression
+  = {terms: 4,712, types: 2,907, coercions: 844}
+!!! Common sub-expression [Data.Aeson.Parser.Time]: finished in 5.00 milliseconds, allocated 4.852 megabytes
+*** Float inwards [Data.Aeson.Parser.Time]:
+Result size of Float inwards
+  = {terms: 4,712, types: 2,907, coercions: 844}
+!!! Float inwards [Data.Aeson.Parser.Time]: finished in 7.00 milliseconds, allocated 9.709 megabytes
+*** Liberate case [Data.Aeson.Parser.Time]:
+Result size of Liberate case
+  = {terms: 7,052, types: 3,699, coercions: 988}
+!!! Liberate case [Data.Aeson.Parser.Time]: finished in 3.00 milliseconds, allocated 2.523 megabytes
+*** Simplifier [Data.Aeson.Parser.Time]:
+Result size of Simplifier iteration=1
+  = {terms: 7,040, types: 3,465, coercions: 1,098}
+Result size of Simplifier iteration=2
+  = {terms: 6,989, types: 3,439, coercions: 1,051}
+Result size of Simplifier
+  = {terms: 6,989, types: 3,439, coercions: 1,051}
+!!! Simplifier [Data.Aeson.Parser.Time]: finished in 95.00 milliseconds, allocated 77.872 megabytes
+*** SpecConstr [Data.Aeson.Parser.Time]:
+Result size of SpecConstr
+  = {terms: 11,984, types: 5,530, coercions: 1,732}
+!!! SpecConstr [Data.Aeson.Parser.Time]: finished in 15.00 milliseconds, allocated 18.234 megabytes
+*** Simplifier [Data.Aeson.Parser.Time]:
+Result size of Simplifier iteration=1
+  = {terms: 11,936, types: 5,477, coercions: 1,681}
+Result size of Simplifier iteration=2
+  = {terms: 9,721, types: 4,502, coercions: 1,448}
+Result size of Simplifier iteration=3
+  = {terms: 9,729, types: 4,511, coercions: 1,448}
+Result size of Simplifier iteration=4
+  = {terms: 9,727, types: 4,510, coercions: 1,448}
+Result size of Simplifier
+  = {terms: 9,727, types: 4,510, coercions: 1,448}
+!!! Simplifier [Data.Aeson.Parser.Time]: finished in 178.00 milliseconds, allocated 152.787 megabytes
+*** CoreTidy [Data.Aeson.Parser.Time]:
+Result size of Tidy Core
+  = {terms: 9,614, types: 4,399, coercions: 1,370}
+!!! CoreTidy [Data.Aeson.Parser.Time]: finished in 11.00 milliseconds, allocated 8.311 megabytes
+writeBinIface: 84 Names
+writeBinIface: 232 dict entries
+writeBinIface: 84 Names
+writeBinIface: 232 dict entries
+*** CorePrep [Data.Aeson.Parser.Time]:
+Result size of CorePrep
+  = {terms: 13,863, types: 6,104, coercions: 1,370}
+!!! CorePrep [Data.Aeson.Parser.Time]: finished in 17.00 milliseconds, allocated 21.036 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Parser.Time]:
+!!! CodeGen [Data.Aeson.Parser.Time]: finished in 285.00 milliseconds, allocated 323.079 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Parser -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_50.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Parser/Time.o
+*** CorePrep [Data.Aeson.Parser.Time]:
+Result size of CorePrep
+  = {terms: 13,863, types: 6,104, coercions: 1,370}
+!!! CorePrep [Data.Aeson.Parser.Time]: finished in 15.00 milliseconds, allocated 20.214 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Parser.Time]:
+!!! CodeGen [Data.Aeson.Parser.Time]: finished in 299.00 milliseconds, allocated 332.739 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Parser -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_52.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Parser/Time.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_53.c /tmp/ghc12557_0/ghc_52.s /tmp/ghc12557_0/ghc_51.c /tmp/ghc12557_0/ghc_50.s /tmp/ghc12557_0/ghc_49.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_53.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_51.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_49.s
+compile: input file /tmp/ghc12557_0/ghc_11.hscpp
+*** Checking old interface for Data.Aeson.Types.Class:
+[ 8 of 16] Compiling Data.Aeson.Types.Class ( Data/Aeson/Types/Class.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Class.o )
+*** Parser [Data.Aeson.Types.Class]:
+!!! Parser [Data.Aeson.Types.Class]: finished in 3.00 milliseconds, allocated 5.745 megabytes
+*** Renamer/typechecker [Data.Aeson.Types.Class]:
+!!! Renamer/typechecker [Data.Aeson.Types.Class]: finished in 13.00 milliseconds, allocated 10.476 megabytes
+*** Desugar [Data.Aeson.Types.Class]:
+Result size of Desugar (after optimization)
+  = {terms: 187, types: 206, coercions: 0}
+!!! Desugar [Data.Aeson.Types.Class]: finished in 3.00 milliseconds, allocated 2.301 megabytes
+*** Simplifier [Data.Aeson.Types.Class]:
+Result size of Simplifier iteration=1
+  = {terms: 244, types: 266, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 244, types: 266, coercions: 4}
+Result size of Simplifier = {terms: 244, types: 266, coercions: 4}
+!!! Simplifier [Data.Aeson.Types.Class]: finished in 3.00 milliseconds, allocated 3.301 megabytes
+*** Specialise [Data.Aeson.Types.Class]:
+Result size of Specialise = {terms: 244, types: 266, coercions: 4}
+!!! Specialise [Data.Aeson.Types.Class]: finished in 0.00 milliseconds, allocated 0.302 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Types.Class]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 274, types: 336, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Types.Class]: finished in 1.00 milliseconds, allocated 1.094 megabytes
+*** Simplifier [Data.Aeson.Types.Class]:
+Result size of Simplifier iteration=1
+  = {terms: 298, types: 354, coercions: 33}
+Result size of Simplifier = {terms: 295, types: 351, coercions: 33}
+!!! Simplifier [Data.Aeson.Types.Class]: finished in 3.00 milliseconds, allocated 2.548 megabytes
+*** Simplifier [Data.Aeson.Types.Class]:
+Result size of Simplifier iteration=1
+  = {terms: 277, types: 317, coercions: 33}
+Result size of Simplifier = {terms: 261, types: 289, coercions: 33}
+!!! Simplifier [Data.Aeson.Types.Class]: finished in 3.00 milliseconds, allocated 2.515 megabytes
+*** Simplifier [Data.Aeson.Types.Class]:
+Result size of Simplifier = {terms: 261, types: 289, coercions: 33}
+!!! Simplifier [Data.Aeson.Types.Class]: finished in 1.00 milliseconds, allocated 0.980 megabytes
+*** Float inwards [Data.Aeson.Types.Class]:
+Result size of Float inwards
+  = {terms: 261, types: 289, coercions: 33}
+!!! Float inwards [Data.Aeson.Types.Class]: finished in 1.00 milliseconds, allocated 0.386 megabytes
+*** Called arity analysis [Data.Aeson.Types.Class]:
+Result size of Called arity analysis
+  = {terms: 261, types: 289, coercions: 33}
+!!! Called arity analysis [Data.Aeson.Types.Class]: finished in 0.00 milliseconds, allocated 0.363 megabytes
+*** Simplifier [Data.Aeson.Types.Class]:
+Result size of Simplifier = {terms: 261, types: 289, coercions: 33}
+!!! Simplifier [Data.Aeson.Types.Class]: finished in 1.00 milliseconds, allocated 0.979 megabytes
+*** Demand analysis [Data.Aeson.Types.Class]:
+Result size of Demand analysis
+  = {terms: 261, types: 289, coercions: 33}
+!!! Demand analysis [Data.Aeson.Types.Class]: finished in 1.00 milliseconds, allocated 0.980 megabytes
+*** Worker Wrapper binds [Data.Aeson.Types.Class]:
+Result size of Worker Wrapper binds
+  = {terms: 261, types: 289, coercions: 33}
+!!! Worker Wrapper binds [Data.Aeson.Types.Class]: finished in 1.00 milliseconds, allocated 0.171 megabytes
+*** Simplifier [Data.Aeson.Types.Class]:
+Result size of Simplifier = {terms: 261, types: 289, coercions: 33}
+!!! Simplifier [Data.Aeson.Types.Class]: finished in 1.00 milliseconds, allocated 1.117 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Types.Class]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 261, types: 289, coercions: 33}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Types.Class]: finished in 1.00 milliseconds, allocated 1.065 megabytes
+*** Common sub-expression [Data.Aeson.Types.Class]:
+Result size of Common sub-expression
+  = {terms: 261, types: 289, coercions: 33}
+!!! Common sub-expression [Data.Aeson.Types.Class]: finished in 1.00 milliseconds, allocated 0.319 megabytes
+*** Float inwards [Data.Aeson.Types.Class]:
+Result size of Float inwards
+  = {terms: 261, types: 289, coercions: 33}
+!!! Float inwards [Data.Aeson.Types.Class]: finished in 0.00 milliseconds, allocated 0.386 megabytes
+*** Liberate case [Data.Aeson.Types.Class]:
+Result size of Liberate case
+  = {terms: 261, types: 289, coercions: 33}
+!!! Liberate case [Data.Aeson.Types.Class]: finished in 0.00 milliseconds, allocated 0.120 megabytes
+*** Simplifier [Data.Aeson.Types.Class]:
+Result size of Simplifier = {terms: 261, types: 289, coercions: 33}
+!!! Simplifier [Data.Aeson.Types.Class]: finished in 2.00 milliseconds, allocated 1.086 megabytes
+*** SpecConstr [Data.Aeson.Types.Class]:
+Result size of SpecConstr = {terms: 261, types: 289, coercions: 33}
+!!! SpecConstr [Data.Aeson.Types.Class]: finished in 0.00 milliseconds, allocated 0.271 megabytes
+*** Simplifier [Data.Aeson.Types.Class]:
+Result size of Simplifier = {terms: 261, types: 289, coercions: 33}
+!!! Simplifier [Data.Aeson.Types.Class]: finished in 1.00 milliseconds, allocated 1.132 megabytes
+*** CoreTidy [Data.Aeson.Types.Class]:
+Result size of Tidy Core = {terms: 295, types: 402, coercions: 43}
+!!! CoreTidy [Data.Aeson.Types.Class]: finished in 1.00 milliseconds, allocated 0.610 megabytes
+writeBinIface: 68 Names
+writeBinIface: 175 dict entries
+writeBinIface: 68 Names
+writeBinIface: 175 dict entries
+*** CorePrep [Data.Aeson.Types.Class]:
+Result size of CorePrep = {terms: 340, types: 495, coercions: 43}
+!!! CorePrep [Data.Aeson.Types.Class]: finished in 1.00 milliseconds, allocated 0.572 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Types.Class]:
+!!! CodeGen [Data.Aeson.Types.Class]: finished in 17.00 milliseconds, allocated 15.326 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_55.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Class.o
+*** CorePrep [Data.Aeson.Types.Class]:
+Result size of CorePrep = {terms: 340, types: 495, coercions: 43}
+!!! CorePrep [Data.Aeson.Types.Class]: finished in 0.00 milliseconds, allocated 0.556 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Types.Class]:
+!!! CodeGen [Data.Aeson.Types.Class]: finished in 20.00 milliseconds, allocated 15.906 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_57.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Class.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_58.c /tmp/ghc12557_0/ghc_57.s /tmp/ghc12557_0/ghc_56.c /tmp/ghc12557_0/ghc_55.s /tmp/ghc12557_0/ghc_54.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_58.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_56.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_54.s
+compile: input file /tmp/ghc12557_0/ghc_5.hscpp
+*** Checking old interface for Data.Aeson.Encode.Functions:
+[ 9 of 16] Compiling Data.Aeson.Encode.Functions ( Data/Aeson/Encode/Functions.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Encode/Functions.o )
+*** Parser [Data.Aeson.Encode.Functions]:
+!!! Parser [Data.Aeson.Encode.Functions]: finished in 1.00 milliseconds, allocated 2.443 megabytes
+*** Renamer/typechecker [Data.Aeson.Encode.Functions]:
+!!! Renamer/typechecker [Data.Aeson.Encode.Functions]: finished in 6.00 milliseconds, allocated 4.774 megabytes
+*** Desugar [Data.Aeson.Encode.Functions]:
+Result size of Desugar (after optimization)
+  = {terms: 116, types: 118, coercions: 2}
+!!! Desugar [Data.Aeson.Encode.Functions]: finished in 1.00 milliseconds, allocated 0.901 megabytes
+*** Simplifier [Data.Aeson.Encode.Functions]:
+Result size of Simplifier iteration=1
+  = {terms: 124, types: 122, coercions: 10}
+Result size of Simplifier iteration=2
+  = {terms: 124, types: 122, coercions: 10}
+Result size of Simplifier = {terms: 124, types: 122, coercions: 10}
+!!! Simplifier [Data.Aeson.Encode.Functions]: finished in 2.00 milliseconds, allocated 2.495 megabytes
+*** Specialise [Data.Aeson.Encode.Functions]:
+Result size of Specialise = {terms: 124, types: 122, coercions: 10}
+!!! Specialise [Data.Aeson.Encode.Functions]: finished in 1.00 milliseconds, allocated 0.198 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Encode.Functions]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 150, types: 138, coercions: 10}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Encode.Functions]: finished in 0.00 milliseconds, allocated 0.784 megabytes
+*** Simplifier [Data.Aeson.Encode.Functions]:
+Result size of Simplifier iteration=1
+  = {terms: 328, types: 304, coercions: 46}
+Result size of Simplifier iteration=2
+  = {terms: 400, types: 400, coercions: 73}
+Result size of Simplifier iteration=3
+  = {terms: 280, types: 253, coercions: 73}
+Result size of Simplifier = {terms: 280, types: 253, coercions: 73}
+!!! Simplifier [Data.Aeson.Encode.Functions]: finished in 10.00 milliseconds, allocated 8.505 megabytes
+*** Simplifier [Data.Aeson.Encode.Functions]:
+Result size of Simplifier iteration=1
+  = {terms: 877, types: 793, coercions: 316}
+Result size of Simplifier iteration=2
+  = {terms: 518, types: 356, coercions: 196}
+Result size of Simplifier iteration=3
+  = {terms: 515, types: 339, coercions: 196}
+Result size of Simplifier
+  = {terms: 515, types: 339, coercions: 196}
+!!! Simplifier [Data.Aeson.Encode.Functions]: finished in 17.00 milliseconds, allocated 14.939 megabytes
+*** Simplifier [Data.Aeson.Encode.Functions]:
+Result size of Simplifier iteration=1
+  = {terms: 524, types: 354, coercions: 196}
+Result size of Simplifier
+  = {terms: 524, types: 354, coercions: 196}
+!!! Simplifier [Data.Aeson.Encode.Functions]: finished in 5.00 milliseconds, allocated 4.632 megabytes
+*** Float inwards [Data.Aeson.Encode.Functions]:
+Result size of Float inwards
+  = {terms: 524, types: 354, coercions: 196}
+!!! Float inwards [Data.Aeson.Encode.Functions]: finished in 1.00 milliseconds, allocated 0.890 megabytes
+*** Called arity analysis [Data.Aeson.Encode.Functions]:
+Result size of Called arity analysis
+  = {terms: 524, types: 354, coercions: 196}
+!!! Called arity analysis [Data.Aeson.Encode.Functions]: finished in 0.00 milliseconds, allocated 0.597 megabytes
+*** Simplifier [Data.Aeson.Encode.Functions]:
+Result size of Simplifier
+  = {terms: 524, types: 354, coercions: 196}
+!!! Simplifier [Data.Aeson.Encode.Functions]: finished in 3.00 milliseconds, allocated 2.320 megabytes
+*** Demand analysis [Data.Aeson.Encode.Functions]:
+Result size of Demand analysis
+  = {terms: 524, types: 354, coercions: 196}
+!!! Demand analysis [Data.Aeson.Encode.Functions]: finished in 2.00 milliseconds, allocated 2.379 megabytes
+*** Worker Wrapper binds [Data.Aeson.Encode.Functions]:
+Result size of Worker Wrapper binds
+  = {terms: 524, types: 354, coercions: 196}
+!!! Worker Wrapper binds [Data.Aeson.Encode.Functions]: finished in 0.00 milliseconds, allocated 0.168 megabytes
+*** Simplifier [Data.Aeson.Encode.Functions]:
+Result size of Simplifier iteration=1
+  = {terms: 524, types: 354, coercions: 196}
+Result size of Simplifier
+  = {terms: 524, types: 354, coercions: 196}
+!!! Simplifier [Data.Aeson.Encode.Functions]: finished in 6.00 milliseconds, allocated 4.826 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Encode.Functions]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 536, types: 414, coercions: 196}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Encode.Functions]: finished in 2.00 milliseconds, allocated 1.994 megabytes
+*** Common sub-expression [Data.Aeson.Encode.Functions]:
+Result size of Common sub-expression
+  = {terms: 536, types: 414, coercions: 196}
+!!! Common sub-expression [Data.Aeson.Encode.Functions]: finished in 1.00 milliseconds, allocated 0.646 megabytes
+*** Float inwards [Data.Aeson.Encode.Functions]:
+Result size of Float inwards
+  = {terms: 536, types: 414, coercions: 196}
+!!! Float inwards [Data.Aeson.Encode.Functions]: finished in 0.00 milliseconds, allocated 1.086 megabytes
+*** Liberate case [Data.Aeson.Encode.Functions]:
+Result size of Liberate case
+  = {terms: 536, types: 414, coercions: 196}
+!!! Liberate case [Data.Aeson.Encode.Functions]: finished in 1.00 milliseconds, allocated 0.249 megabytes
+*** Simplifier [Data.Aeson.Encode.Functions]:
+Result size of Simplifier
+  = {terms: 536, types: 414, coercions: 196}
+!!! Simplifier [Data.Aeson.Encode.Functions]: finished in 3.00 milliseconds, allocated 2.408 megabytes
+*** SpecConstr [Data.Aeson.Encode.Functions]:
+Result size of SpecConstr
+  = {terms: 536, types: 414, coercions: 196}
+!!! SpecConstr [Data.Aeson.Encode.Functions]: finished in 0.00 milliseconds, allocated 0.767 megabytes
+*** Simplifier [Data.Aeson.Encode.Functions]:
+Result size of Simplifier
+  = {terms: 536, types: 414, coercions: 196}
+!!! Simplifier [Data.Aeson.Encode.Functions]: finished in 3.00 milliseconds, allocated 2.479 megabytes
+*** CoreTidy [Data.Aeson.Encode.Functions]:
+Result size of Tidy Core = {terms: 536, types: 414, coercions: 196}
+!!! CoreTidy [Data.Aeson.Encode.Functions]: finished in 1.00 milliseconds, allocated 0.796 megabytes
+writeBinIface: 40 Names
+writeBinIface: 146 dict entries
+writeBinIface: 40 Names
+writeBinIface: 146 dict entries
+*** CorePrep [Data.Aeson.Encode.Functions]:
+Result size of CorePrep = {terms: 798, types: 610, coercions: 196}
+!!! CorePrep [Data.Aeson.Encode.Functions]: finished in 1.00 milliseconds, allocated 1.338 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Encode.Functions]:
+!!! CodeGen [Data.Aeson.Encode.Functions]: finished in 23.00 milliseconds, allocated 23.975 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Encode -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_60.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Encode/Functions.o
+*** CorePrep [Data.Aeson.Encode.Functions]:
+Result size of CorePrep = {terms: 798, types: 610, coercions: 196}
+!!! CorePrep [Data.Aeson.Encode.Functions]: finished in 1.00 milliseconds, allocated 1.304 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Encode.Functions]:
+!!! CodeGen [Data.Aeson.Encode.Functions]: finished in 23.00 milliseconds, allocated 25.083 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Encode -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_62.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Encode/Functions.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_63.c /tmp/ghc12557_0/ghc_62.s /tmp/ghc12557_0/ghc_61.c /tmp/ghc12557_0/ghc_60.s /tmp/ghc12557_0/ghc_59.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_63.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_61.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_59.s
+compile: input file /tmp/ghc12557_0/ghc_15.hscpp
+*** Checking old interface for Data.Aeson.Types.Instances:
+[10 of 16] Compiling Data.Aeson.Types.Instances ( Data/Aeson/Types/Instances.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Instances.o )
+*** Parser [Data.Aeson.Types.Instances]:
+!!! Parser [Data.Aeson.Types.Instances]: finished in 38.00 milliseconds, allocated 67.038 megabytes
+*** Renamer/typechecker [Data.Aeson.Types.Instances]:
+!!! Renamer/typechecker [Data.Aeson.Types.Instances]: finished in 271.00 milliseconds, allocated 215.316 megabytes
+*** Desugar [Data.Aeson.Types.Instances]:
+Result size of Desugar (after optimization)
+  = {terms: 8,358, types: 17,754, coercions: 1,134}
+!!! Desugar [Data.Aeson.Types.Instances]: finished in 88.00 milliseconds, allocated 71.146 megabytes
+*** Simplifier [Data.Aeson.Types.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 7,846, types: 16,670, coercions: 2,204}
+Result size of Simplifier iteration=2
+  = {terms: 7,761, types: 16,623, coercions: 2,208}
+Result size of Simplifier iteration=3
+  = {terms: 7,761, types: 16,623, coercions: 2,208}
+Result size of Simplifier
+  = {terms: 7,761, types: 16,623, coercions: 2,208}
+!!! Simplifier [Data.Aeson.Types.Instances]: finished in 863.00 milliseconds, allocated 648.152 megabytes
+*** Specialise [Data.Aeson.Types.Instances]:
+Result size of Specialise
+  = {terms: 16,589, types: 27,002, coercions: 3,175}
+!!! Specialise [Data.Aeson.Types.Instances]: finished in 41.00 milliseconds, allocated 29.399 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Types.Instances]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 19,508, types: 31,871, coercions: 3,175}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Types.Instances]: finished in 125.00 milliseconds, allocated 135.570 megabytes
+*** Simplifier [Data.Aeson.Types.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 44,640, types: 67,633, coercions: 10,472}
+Result size of Simplifier iteration=2
+  = {terms: 30,235, types: 36,712, coercions: 6,046}
+Result size of Simplifier iteration=3
+  = {terms: 29,244, types: 35,302, coercions: 5,854}
+Result size of Simplifier iteration=4
+  = {terms: 29,196, types: 35,113, coercions: 5,688}
+Result size of Simplifier
+  = {terms: 29,196, types: 35,113, coercions: 5,688}
+!!! Simplifier [Data.Aeson.Types.Instances]: finished in 2098.00 milliseconds, allocated 1330.602 megabytes
+*** Simplifier [Data.Aeson.Types.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 69,451, types: 88,110, coercions: 21,013}
+Result size of Simplifier iteration=2
+  = {terms: 47,914, types: 56,753, coercions: 12,142}
+Result size of Simplifier iteration=3
+  = {terms: 46,882, types: 54,312, coercions: 11,128}
+Result size of Simplifier iteration=4
+  = {terms: 46,729, types: 53,998, coercions: 10,929}
+Result size of Simplifier
+  = {terms: 46,729, types: 53,998, coercions: 10,929}
+!!! Simplifier [Data.Aeson.Types.Instances]: finished in 3091.00 milliseconds, allocated 2179.020 megabytes
+*** Simplifier [Data.Aeson.Types.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 57,069, types: 62,513, coercions: 12,541}
+Result size of Simplifier iteration=2
+  = {terms: 50,122, types: 54,263, coercions: 11,207}
+Result size of Simplifier iteration=3
+  = {terms: 50,145, types: 54,486, coercions: 11,241}
+Result size of Simplifier iteration=4
+  = {terms: 50,036, types: 54,257, coercions: 11,171}
+Result size of Simplifier
+  = {terms: 50,036, types: 54,257, coercions: 11,171}
+!!! Simplifier [Data.Aeson.Types.Instances]: finished in 1734.00 milliseconds, allocated 1309.044 megabytes
+*** Float inwards [Data.Aeson.Types.Instances]:
+Result size of Float inwards
+  = {terms: 50,036, types: 54,257, coercions: 11,171}
+!!! Float inwards [Data.Aeson.Types.Instances]: finished in 83.00 milliseconds, allocated 107.153 megabytes
+*** Called arity analysis [Data.Aeson.Types.Instances]:
+Result size of Called arity analysis
+  = {terms: 50,036, types: 54,257, coercions: 11,171}
+!!! Called arity analysis [Data.Aeson.Types.Instances]: finished in 81.00 milliseconds, allocated 73.857 megabytes
+*** Simplifier [Data.Aeson.Types.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 50,314, types: 54,197, coercions: 11,219}
+Result size of Simplifier iteration=2
+  = {terms: 50,123, types: 53,893, coercions: 11,219}
+Result size of Simplifier iteration=3
+  = {terms: 49,968, types: 53,838, coercions: 11,219}
+Result size of Simplifier
+  = {terms: 49,968, types: 53,838, coercions: 11,219}
+!!! Simplifier [Data.Aeson.Types.Instances]: finished in 1612.00 milliseconds, allocated 1162.673 megabytes
+*** Demand analysis [Data.Aeson.Types.Instances]:
+Result size of Demand analysis
+  = {terms: 49,968, types: 53,838, coercions: 11,219}
+!!! Demand analysis [Data.Aeson.Types.Instances]: finished in 306.00 milliseconds, allocated 283.809 megabytes
+*** Worker Wrapper binds [Data.Aeson.Types.Instances]:
+Result size of Worker Wrapper binds
+  = {terms: 55,713, types: 59,430, coercions: 11,219}
+!!! Worker Wrapper binds [Data.Aeson.Types.Instances]: finished in 55.00 milliseconds, allocated 16.348 megabytes
+*** Simplifier [Data.Aeson.Types.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 52,677, types: 57,916, coercions: 11,309}
+Result size of Simplifier iteration=2
+  = {terms: 49,488, types: 54,287, coercions: 11,287}
+Result size of Simplifier iteration=3
+  = {terms: 49,496, types: 54,291, coercions: 11,287}
+Result size of Simplifier iteration=4
+  = {terms: 49,496, types: 54,291, coercions: 11,287}
+Result size of Simplifier
+  = {terms: 49,496, types: 54,291, coercions: 11,287}
+!!! Simplifier [Data.Aeson.Types.Instances]: finished in 1671.00 milliseconds, allocated 1269.552 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Types.Instances]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 50,735, types: 57,271, coercions: 11,287}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Types.Instances]: finished in 234.00 milliseconds, allocated 237.082 megabytes
+*** Common sub-expression [Data.Aeson.Types.Instances]:
+Result size of Common sub-expression
+  = {terms: 49,864, types: 56,306, coercions: 11,287}
+!!! Common sub-expression [Data.Aeson.Types.Instances]: finished in 137.00 milliseconds, allocated 91.158 megabytes
+*** Float inwards [Data.Aeson.Types.Instances]:
+Result size of Float inwards
+  = {terms: 49,864, types: 56,306, coercions: 11,287}
+!!! Float inwards [Data.Aeson.Types.Instances]: finished in 67.00 milliseconds, allocated 102.480 megabytes
+*** Liberate case [Data.Aeson.Types.Instances]:
+Result size of Liberate case
+  = {terms: 52,500, types: 58,020, coercions: 11,289}
+!!! Liberate case [Data.Aeson.Types.Instances]: finished in 35.00 milliseconds, allocated 24.220 megabytes
+*** Simplifier [Data.Aeson.Types.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 51,777, types: 56,333, coercions: 11,470}
+Result size of Simplifier iteration=2
+  = {terms: 50,168, types: 53,658, coercions: 10,845}
+Result size of Simplifier
+  = {terms: 50,136, types: 53,610, coercions: 10,817}
+!!! Simplifier [Data.Aeson.Types.Instances]: finished in 1001.00 milliseconds, allocated 895.367 megabytes
+*** SpecConstr [Data.Aeson.Types.Instances]:
+Result size of SpecConstr
+  = {terms: 55,940, types: 61,403, coercions: 11,785}
+!!! SpecConstr [Data.Aeson.Types.Instances]: finished in 107.00 milliseconds, allocated 93.235 megabytes
+*** Simplifier [Data.Aeson.Types.Instances]:
+Result size of Simplifier iteration=1
+  = {terms: 55,470, types: 60,220, coercions: 11,689}
+Result size of Simplifier iteration=2
+  = {terms: 50,480, types: 53,789, coercions: 10,938}
+Result size of Simplifier iteration=3
+  = {terms: 50,411, types: 53,609, coercions: 10,928}
+Result size of Simplifier
+  = {terms: 50,411, types: 53,609, coercions: 10,928}
+!!! Simplifier [Data.Aeson.Types.Instances]: finished in 1597.00 milliseconds, allocated 1245.641 megabytes
+*** CoreTidy [Data.Aeson.Types.Instances]:
+Result size of Tidy Core
+  = {terms: 45,552, types: 48,549, coercions: 10,353}
+!!! CoreTidy [Data.Aeson.Types.Instances]: finished in 111.00 milliseconds, allocated 77.213 megabytes
+writeBinIface: 964 Names
+writeBinIface: 1368 dict entries
+writeBinIface: 964 Names
+writeBinIface: 1368 dict entries
+*** CorePrep [Data.Aeson.Types.Instances]:
+Result size of CorePrep
+  = {terms: 61,615, types: 62,588, coercions: 10,568}
+!!! CorePrep [Data.Aeson.Types.Instances]: finished in 154.00 milliseconds, allocated 112.168 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Types.Instances]:
+!!! CodeGen [Data.Aeson.Types.Instances]: finished in 1507.00 milliseconds, allocated 2140.606 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_65.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Instances.o
+*** CorePrep [Data.Aeson.Types.Instances]:
+Result size of CorePrep
+  = {terms: 61,615, types: 62,588, coercions: 10,568}
+!!! CorePrep [Data.Aeson.Types.Instances]: finished in 135.00 milliseconds, allocated 106.248 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Types.Instances]:
+!!! CodeGen [Data.Aeson.Types.Instances]: finished in 1649.00 milliseconds, allocated 2241.946 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_67.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Instances.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_68.c /tmp/ghc12557_0/ghc_67.s /tmp/ghc12557_0/ghc_66.c /tmp/ghc12557_0/ghc_65.s /tmp/ghc12557_0/ghc_64.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_68.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_66.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_64.s
+compile: input file ./Data/Aeson/Internal.hs
+*** Checking old interface for Data.Aeson.Internal:
+[11 of 16] Compiling Data.Aeson.Internal ( Data/Aeson/Internal.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Internal.o )
+*** Parser [Data.Aeson.Internal]:
+!!! Parser [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.366 megabytes
+*** Renamer/typechecker [Data.Aeson.Internal]:
+!!! Renamer/typechecker [Data.Aeson.Internal]: finished in 2.00 milliseconds, allocated 1.627 megabytes
+*** Desugar [Data.Aeson.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.059 megabytes
+*** Simplifier [Data.Aeson.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Internal]: finished in 1.00 milliseconds, allocated 0.158 megabytes
+*** Specialise [Data.Aeson.Internal]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Data.Aeson.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** Simplifier [Data.Aeson.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Internal]: finished in 1.00 milliseconds, allocated 0.073 megabytes
+*** Simplifier [Data.Aeson.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** Float inwards [Data.Aeson.Internal]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Data.Aeson.Internal]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Data.Aeson.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** Demand analysis [Data.Aeson.Internal]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+*** Worker Wrapper binds [Data.Aeson.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.Aeson.Internal]: finished in 1.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.Aeson.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.075 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Data.Aeson.Internal]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Data.Aeson.Internal]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Liberate case [Data.Aeson.Internal]:
+Result size of Liberate case = {terms: 10, types: 3, coercions: 0}
+!!! Liberate case [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.039 megabytes
+*** Simplifier [Data.Aeson.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** SpecConstr [Data.Aeson.Internal]:
+Result size of SpecConstr = {terms: 10, types: 3, coercions: 0}
+!!! SpecConstr [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [Data.Aeson.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.075 megabytes
+*** CoreTidy [Data.Aeson.Internal]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 15 Names
+writeBinIface: 94 dict entries
+writeBinIface: 15 Names
+writeBinIface: 94 dict entries
+*** CorePrep [Data.Aeson.Internal]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Internal]:
+!!! CodeGen [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.292 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_70.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Internal.o
+*** CorePrep [Data.Aeson.Internal]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Internal]:
+!!! CodeGen [Data.Aeson.Internal]: finished in 0.00 milliseconds, allocated 0.289 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_72.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_73.c /tmp/ghc12557_0/ghc_72.s /tmp/ghc12557_0/ghc_71.c /tmp/ghc12557_0/ghc_70.s /tmp/ghc12557_0/ghc_69.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_73.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_71.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_69.s
+compile: input file /tmp/ghc12557_0/ghc_13.hscpp
+*** Checking old interface for Data.Aeson.Types.Generic:
+[12 of 16] Compiling Data.Aeson.Types.Generic ( Data/Aeson/Types/Generic.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Generic.o )
+*** Parser [Data.Aeson.Types.Generic]:
+!!! Parser [Data.Aeson.Types.Generic]: finished in 16.00 milliseconds, allocated 25.982 megabytes
+*** Renamer/typechecker [Data.Aeson.Types.Generic]:
+!!! Renamer/typechecker [Data.Aeson.Types.Generic]: finished in 104.00 milliseconds, allocated 78.285 megabytes
+*** Desugar [Data.Aeson.Types.Generic]:
+Result size of Desugar (after optimization)
+  = {terms: 3,575, types: 7,717, coercions: 798}
+!!! Desugar [Data.Aeson.Types.Generic]: finished in 36.00 milliseconds, allocated 19.668 megabytes
+
+Data/Aeson/Types/Generic.hs:81:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: AllNullary (a :+: b) allNullary
+    • In the instance declaration for ‘GToJSON (a :+: b)’
+
+Data/Aeson/Types/Generic.hs:116:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: AllNullary (a :+: b) allNullary
+    • In the instance declaration for ‘GToEncoding (a :+: b)’
+
+Data/Aeson/Types/Generic.hs:510:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: AllNullary (a :+: b) allNullary
+    • In the instance declaration for ‘GFromJSON (a :+: b)’
+
+Data/Aeson/Types/Generic.hs:616:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: IsRecord f isRecord
+    • In the instance declaration for ‘FromTaggedObject' f’
+
+Data/Aeson/Types/Generic.hs:739:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: IsRecord f isRecord
+    • In the instance declaration for ‘IsRecord (f :*: g) isRecord’
+
+Data/Aeson/Types/Generic.hs:746:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: IsRecord f isRecord
+    • In the instance declaration for ‘IsRecord (M1 S c f) isRecord’
+
+Data/Aeson/Types/Generic.hs:755:10: warning: [-Wredundant-constraints]
+    • Redundant constraints: (AllNullary a allNullaryL,
+                              AllNullary b allNullaryR,
+                              And allNullaryL allNullaryR allNullary)
+    • In the instance declaration for ‘AllNullary (a :+: b) allNullary’
+
+Data/Aeson/Types/Generic.hs:759:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: AllNullary a allNullary
+    • In the instance declaration for
+        ‘AllNullary (M1 i c a) allNullary’
+*** Simplifier [Data.Aeson.Types.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 3,395, types: 7,162, coercions: 1,909}
+Result size of Simplifier iteration=2
+  = {terms: 3,362, types: 7,115, coercions: 1,941}
+Result size of Simplifier
+  = {terms: 3,362, types: 7,115, coercions: 1,941}
+!!! Simplifier [Data.Aeson.Types.Generic]: finished in 291.00 milliseconds, allocated 46.251 megabytes
+*** Specialise [Data.Aeson.Types.Generic]:
+Result size of Specialise
+  = {terms: 3,517, types: 7,314, coercions: 1,947}
+!!! Specialise [Data.Aeson.Types.Generic]: finished in 4.00 milliseconds, allocated 4.805 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Types.Generic]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 4,359, types: 9,342, coercions: 1,947}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Types.Generic]: finished in 15.00 milliseconds, allocated 22.634 megabytes
+*** Simplifier [Data.Aeson.Types.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 5,934, types: 11,130, coercions: 3,523}
+Result size of Simplifier iteration=2
+  = {terms: 6,098, types: 10,028, coercions: 3,275}
+Result size of Simplifier iteration=3
+  = {terms: 5,228, types: 9,098, coercions: 3,255}
+Result size of Simplifier
+  = {terms: 5,228, types: 9,098, coercions: 3,255}
+!!! Simplifier [Data.Aeson.Types.Generic]: finished in 151.00 milliseconds, allocated 133.737 megabytes
+*** Simplifier [Data.Aeson.Types.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 6,661, types: 10,710, coercions: 4,117}
+Result size of Simplifier iteration=2
+  = {terms: 5,601, types: 9,093, coercions: 3,459}
+Result size of Simplifier iteration=3
+  = {terms: 5,420, types: 8,922, coercions: 3,435}
+Result size of Simplifier
+  = {terms: 5,420, types: 8,922, coercions: 3,435}
+!!! Simplifier [Data.Aeson.Types.Generic]: finished in 122.00 milliseconds, allocated 124.575 megabytes
+*** Simplifier [Data.Aeson.Types.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 12,386, types: 13,430, coercions: 4,443}
+Result size of Simplifier iteration=2
+  = {terms: 10,915, types: 13,290, coercions: 4,091}
+Result size of Simplifier iteration=3
+  = {terms: 10,291, types: 12,234, coercions: 3,435}
+Result size of Simplifier iteration=4
+  = {terms: 10,307, types: 12,330, coercions: 3,435}
+Result size of Simplifier
+  = {terms: 10,307, types: 12,330, coercions: 3,435}
+!!! Simplifier [Data.Aeson.Types.Generic]: finished in 183.00 milliseconds, allocated 187.975 megabytes
+*** Float inwards [Data.Aeson.Types.Generic]:
+Result size of Float inwards
+  = {terms: 10,307, types: 12,330, coercions: 3,435}
+!!! Float inwards [Data.Aeson.Types.Generic]: finished in 21.00 milliseconds, allocated 17.583 megabytes
+*** Called arity analysis [Data.Aeson.Types.Generic]:
+Result size of Called arity analysis
+  = {terms: 10,307, types: 12,330, coercions: 3,435}
+!!! Called arity analysis [Data.Aeson.Types.Generic]: finished in 7.00 milliseconds, allocated 11.135 megabytes
+*** Simplifier [Data.Aeson.Types.Generic]:
+Result size of Simplifier
+  = {terms: 10,307, types: 12,330, coercions: 3,435}
+!!! Simplifier [Data.Aeson.Types.Generic]: finished in 36.00 milliseconds, allocated 40.847 megabytes
+*** Demand analysis [Data.Aeson.Types.Generic]:
+Result size of Demand analysis
+  = {terms: 10,307, types: 12,330, coercions: 3,435}
+!!! Demand analysis [Data.Aeson.Types.Generic]: finished in 43.00 milliseconds, allocated 75.091 megabytes
+*** Worker Wrapper binds [Data.Aeson.Types.Generic]:
+Result size of Worker Wrapper binds
+  = {terms: 12,368, types: 15,316, coercions: 3,461}
+!!! Worker Wrapper binds [Data.Aeson.Types.Generic]: finished in 7.00 milliseconds, allocated 4.549 megabytes
+*** Simplifier [Data.Aeson.Types.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 11,324, types: 14,346, coercions: 3,467}
+Result size of Simplifier iteration=2
+  = {terms: 10,668, types: 13,290, coercions: 3,435}
+Result size of Simplifier iteration=3
+  = {terms: 10,668, types: 13,290, coercions: 3,435}
+Result size of Simplifier
+  = {terms: 10,668, types: 13,290, coercions: 3,435}
+!!! Simplifier [Data.Aeson.Types.Generic]: finished in 215.00 milliseconds, allocated 198.758 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Types.Generic]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 11,094, types: 13,813, coercions: 3,435}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Types.Generic]: finished in 27.00 milliseconds, allocated 44.787 megabytes
+*** Common sub-expression [Data.Aeson.Types.Generic]:
+Result size of Common sub-expression
+  = {terms: 10,962, types: 13,749, coercions: 3,435}
+!!! Common sub-expression [Data.Aeson.Types.Generic]: finished in 14.00 milliseconds, allocated 12.864 megabytes
+*** Float inwards [Data.Aeson.Types.Generic]:
+Result size of Float inwards
+  = {terms: 10,962, types: 13,749, coercions: 3,435}
+!!! Float inwards [Data.Aeson.Types.Generic]: finished in 10.00 milliseconds, allocated 17.590 megabytes
+*** Liberate case [Data.Aeson.Types.Generic]:
+Result size of Liberate case
+  = {terms: 17,842, types: 18,197, coercions: 3,435}
+!!! Liberate case [Data.Aeson.Types.Generic]: finished in 8.00 milliseconds, allocated 7.187 megabytes
+*** Simplifier [Data.Aeson.Types.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 17,153, types: 17,268, coercions: 3,532}
+Result size of Simplifier
+  = {terms: 16,960, types: 17,039, coercions: 3,447}
+!!! Simplifier [Data.Aeson.Types.Generic]: finished in 139.00 milliseconds, allocated 140.211 megabytes
+*** SpecConstr [Data.Aeson.Types.Generic]:
+Result size of SpecConstr
+  = {terms: 17,049, types: 17,169, coercions: 3,447}
+!!! SpecConstr [Data.Aeson.Types.Generic]: finished in 20.00 milliseconds, allocated 25.813 megabytes
+*** Simplifier [Data.Aeson.Types.Generic]:
+Result size of Simplifier iteration=1
+  = {terms: 17,043, types: 17,151, coercions: 3,447}
+Result size of Simplifier
+  = {terms: 16,948, types: 17,006, coercions: 3,447}
+!!! Simplifier [Data.Aeson.Types.Generic]: finished in 143.00 milliseconds, allocated 138.075 megabytes
+*** CoreTidy [Data.Aeson.Types.Generic]:
+Result size of Tidy Core
+  = {terms: 16,804, types: 17,371, coercions: 3,471}
+!!! CoreTidy [Data.Aeson.Types.Generic]: finished in 23.00 milliseconds, allocated 21.545 megabytes
+writeBinIface: 501 Names
+writeBinIface: 903 dict entries
+writeBinIface: 501 Names
+writeBinIface: 903 dict entries
+*** CorePrep [Data.Aeson.Types.Generic]:
+Result size of CorePrep
+  = {terms: 23,295, types: 22,064, coercions: 3,471}
+!!! CorePrep [Data.Aeson.Types.Generic]: finished in 25.00 milliseconds, allocated 36.921 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Types.Generic]:
+!!! CodeGen [Data.Aeson.Types.Generic]: finished in 384.00 milliseconds, allocated 570.468 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_75.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Generic.o
+*** CorePrep [Data.Aeson.Types.Generic]:
+Result size of CorePrep
+  = {terms: 23,295, types: 22,064, coercions: 3,471}
+!!! CorePrep [Data.Aeson.Types.Generic]: finished in 27.00 milliseconds, allocated 35.437 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Types.Generic]:
+!!! CodeGen [Data.Aeson.Types.Generic]: finished in 385.00 milliseconds, allocated 590.407 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_77.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Generic.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_78.c /tmp/ghc12557_0/ghc_77.s /tmp/ghc12557_0/ghc_76.c /tmp/ghc12557_0/ghc_75.s /tmp/ghc12557_0/ghc_74.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_78.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_76.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_74.s
+compile: input file ./Data/Aeson/Types.hs
+*** Checking old interface for Data.Aeson.Types:
+[13 of 16] Compiling Data.Aeson.Types ( Data/Aeson/Types.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Types.o )
+*** Parser [Data.Aeson.Types]:
+!!! Parser [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 1.110 megabytes
+*** Renamer/typechecker [Data.Aeson.Types]:
+!!! Renamer/typechecker [Data.Aeson.Types]: finished in 3.00 milliseconds, allocated 2.511 megabytes
+*** Desugar [Data.Aeson.Types]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.114 megabytes
+*** Simplifier [Data.Aeson.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.158 megabytes
+*** Specialise [Data.Aeson.Types]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Types]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Data.Aeson.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.073 megabytes
+*** Simplifier [Data.Aeson.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** Simplifier [Data.Aeson.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** Float inwards [Data.Aeson.Types]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Data.Aeson.Types]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.Aeson.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** Demand analysis [Data.Aeson.Types]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Data.Aeson.Types]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [Data.Aeson.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Types]: finished in 1.00 milliseconds, allocated 0.074 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Types]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [Data.Aeson.Types]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Data.Aeson.Types]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Liberate case [Data.Aeson.Types]:
+Result size of Liberate case = {terms: 10, types: 3, coercions: 0}
+!!! Liberate case [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.039 megabytes
+*** Simplifier [Data.Aeson.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** SpecConstr [Data.Aeson.Types]:
+Result size of SpecConstr = {terms: 10, types: 3, coercions: 0}
+!!! SpecConstr [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [Data.Aeson.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** CoreTidy [Data.Aeson.Types]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 80 Names
+writeBinIface: 158 dict entries
+writeBinIface: 80 Names
+writeBinIface: 158 dict entries
+*** CorePrep [Data.Aeson.Types]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Types]:
+!!! CodeGen [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.288 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_80.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types.o
+*** CorePrep [Data.Aeson.Types]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Types]:
+!!! CodeGen [Data.Aeson.Types]: finished in 0.00 milliseconds, allocated 0.286 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_82.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_83.c /tmp/ghc12557_0/ghc_82.s /tmp/ghc12557_0/ghc_81.c /tmp/ghc12557_0/ghc_80.s /tmp/ghc12557_0/ghc_79.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_83.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_81.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_79.s
+compile: input file ./Data/Aeson/Encode.hs
+*** Checking old interface for Data.Aeson.Encode:
+[14 of 16] Compiling Data.Aeson.Encode ( Data/Aeson/Encode.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/Encode.o )
+*** Parser [Data.Aeson.Encode]:
+!!! Parser [Data.Aeson.Encode]: finished in 1.00 milliseconds, allocated 2.986 megabytes
+*** Renamer/typechecker [Data.Aeson.Encode]:
+!!! Renamer/typechecker [Data.Aeson.Encode]: finished in 12.00 milliseconds, allocated 10.234 megabytes
+*** Desugar [Data.Aeson.Encode]:
+Result size of Desugar (after optimization)
+  = {terms: 335, types: 218, coercions: 0}
+!!! Desugar [Data.Aeson.Encode]: finished in 3.00 milliseconds, allocated 2.310 megabytes
+*** Simplifier [Data.Aeson.Encode]:
+Result size of Simplifier iteration=1
+  = {terms: 330, types: 232, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 317, types: 220, coercions: 0}
+Result size of Simplifier = {terms: 317, types: 220, coercions: 0}
+!!! Simplifier [Data.Aeson.Encode]: finished in 4.00 milliseconds, allocated 4.655 megabytes
+*** Specialise [Data.Aeson.Encode]:
+Result size of Specialise = {terms: 319, types: 222, coercions: 2}
+!!! Specialise [Data.Aeson.Encode]: finished in 0.00 milliseconds, allocated 0.447 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Encode]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 445, types: 374, coercions: 2}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.Encode]: finished in 1.00 milliseconds, allocated 1.617 megabytes
+*** Simplifier [Data.Aeson.Encode]:
+Result size of Simplifier iteration=1
+  = {terms: 4,240, types: 3,326, coercions: 1,023}
+Result size of Simplifier iteration=2
+  = {terms: 3,468, types: 2,588, coercions: 406}
+Result size of Simplifier iteration=3
+  = {terms: 3,478, types: 2,601, coercions: 406}
+Result size of Simplifier
+  = {terms: 3,478, types: 2,601, coercions: 406}
+!!! Simplifier [Data.Aeson.Encode]: finished in 73.00 milliseconds, allocated 85.026 megabytes
+*** Simplifier [Data.Aeson.Encode]:
+Result size of Simplifier iteration=1
+  = {terms: 3,349, types: 2,686, coercions: 463}
+Result size of Simplifier iteration=2
+  = {terms: 3,042, types: 2,372, coercions: 405}
+Result size of Simplifier iteration=3
+  = {terms: 3,087, types: 2,375, coercions: 405}
+Result size of Simplifier iteration=4
+  = {terms: 3,054, types: 2,362, coercions: 405}
+Result size of Simplifier
+  = {terms: 3,054, types: 2,362, coercions: 405}
+!!! Simplifier [Data.Aeson.Encode]: finished in 41.00 milliseconds, allocated 46.578 megabytes
+*** Simplifier [Data.Aeson.Encode]:
+Result size of Simplifier iteration=1
+  = {terms: 4,530, types: 4,115, coercions: 1,061}
+Result size of Simplifier iteration=2
+  = {terms: 4,032, types: 3,304, coercions: 710}
+Result size of Simplifier iteration=3
+  = {terms: 4,013, types: 3,227, coercions: 706}
+Result size of Simplifier
+  = {terms: 4,013, types: 3,227, coercions: 706}
+!!! Simplifier [Data.Aeson.Encode]: finished in 64.00 milliseconds, allocated 65.668 megabytes
+*** Float inwards [Data.Aeson.Encode]:
+Result size of Float inwards
+  = {terms: 4,013, types: 3,227, coercions: 706}
+!!! Float inwards [Data.Aeson.Encode]: finished in 4.00 milliseconds, allocated 7.121 megabytes
+*** Called arity analysis [Data.Aeson.Encode]:
+Result size of Called arity analysis
+  = {terms: 4,013, types: 3,227, coercions: 706}
+!!! Called arity analysis [Data.Aeson.Encode]: finished in 2.00 milliseconds, allocated 3.728 megabytes
+*** Simplifier [Data.Aeson.Encode]:
+Result size of Simplifier iteration=1
+  = {terms: 3,996, types: 3,213, coercions: 706}
+Result size of Simplifier
+  = {terms: 3,993, types: 3,210, coercions: 706}
+!!! Simplifier [Data.Aeson.Encode]: finished in 24.00 milliseconds, allocated 27.157 megabytes
+*** Demand analysis [Data.Aeson.Encode]:
+Result size of Demand analysis
+  = {terms: 3,993, types: 3,210, coercions: 706}
+!!! Demand analysis [Data.Aeson.Encode]: finished in 14.00 milliseconds, allocated 24.324 megabytes
+*** Worker Wrapper binds [Data.Aeson.Encode]:
+Result size of Worker Wrapper binds
+  = {terms: 5,190, types: 4,855, coercions: 706}
+!!! Worker Wrapper binds [Data.Aeson.Encode]: finished in 2.00 milliseconds, allocated 1.823 megabytes
+*** Simplifier [Data.Aeson.Encode]:
+Result size of Simplifier iteration=1
+  = {terms: 4,544, types: 4,335, coercions: 698}
+Result size of Simplifier iteration=2
+  = {terms: 3,989, types: 3,663, coercions: 698}
+Result size of Simplifier
+  = {terms: 3,989, types: 3,663, coercions: 698}
+!!! Simplifier [Data.Aeson.Encode]: finished in 55.00 milliseconds, allocated 51.179 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Encode]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 3,997, types: 3,668, coercions: 698}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.Encode]: finished in 9.00 milliseconds, allocated 13.306 megabytes
+*** Common sub-expression [Data.Aeson.Encode]:
+Result size of Common sub-expression
+  = {terms: 3,990, types: 3,667, coercions: 698}
+!!! Common sub-expression [Data.Aeson.Encode]: finished in 3.00 milliseconds, allocated 3.702 megabytes
+*** Float inwards [Data.Aeson.Encode]:
+Result size of Float inwards
+  = {terms: 3,990, types: 3,667, coercions: 698}
+!!! Float inwards [Data.Aeson.Encode]: finished in 3.00 milliseconds, allocated 6.937 megabytes
+*** Liberate case [Data.Aeson.Encode]:
+Result size of Liberate case
+  = {terms: 3,990, types: 3,667, coercions: 698}
+!!! Liberate case [Data.Aeson.Encode]: finished in 2.00 milliseconds, allocated 1.958 megabytes
+*** Simplifier [Data.Aeson.Encode]:
+Result size of Simplifier iteration=1
+  = {terms: 4,037, types: 3,753, coercions: 761}
+Result size of Simplifier iteration=2
+  = {terms: 4,035, types: 3,750, coercions: 761}
+Result size of Simplifier
+  = {terms: 4,035, types: 3,750, coercions: 761}
+!!! Simplifier [Data.Aeson.Encode]: finished in 37.00 milliseconds, allocated 43.010 megabytes
+*** SpecConstr [Data.Aeson.Encode]:
+Result size of SpecConstr
+  = {terms: 5,738, types: 5,001, coercions: 881}
+!!! SpecConstr [Data.Aeson.Encode]: finished in 6.00 milliseconds, allocated 8.796 megabytes
+*** Simplifier [Data.Aeson.Encode]:
+Result size of Simplifier iteration=1
+  = {terms: 5,747, types: 4,993, coercions: 889}
+Result size of Simplifier iteration=2
+  = {terms: 5,525, types: 4,774, coercions: 804}
+Result size of Simplifier
+  = {terms: 5,525, types: 4,774, coercions: 804}
+!!! Simplifier [Data.Aeson.Encode]: finished in 67.00 milliseconds, allocated 63.476 megabytes
+*** CoreTidy [Data.Aeson.Encode]:
+Result size of Tidy Core
+  = {terms: 5,523, types: 4,772, coercions: 804}
+!!! CoreTidy [Data.Aeson.Encode]: finished in 5.00 milliseconds, allocated 4.872 megabytes
+writeBinIface: 10 Names
+writeBinIface: 115 dict entries
+writeBinIface: 10 Names
+writeBinIface: 115 dict entries
+*** CorePrep [Data.Aeson.Encode]:
+Result size of CorePrep
+  = {terms: 7,718, types: 6,021, coercions: 804}
+!!! CorePrep [Data.Aeson.Encode]: finished in 8.00 milliseconds, allocated 12.591 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Encode]:
+!!! CodeGen [Data.Aeson.Encode]: finished in 124.00 milliseconds, allocated 179.159 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_85.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Encode.o
+*** CorePrep [Data.Aeson.Encode]:
+Result size of CorePrep
+  = {terms: 7,718, types: 6,021, coercions: 804}
+!!! CorePrep [Data.Aeson.Encode]: finished in 8.00 milliseconds, allocated 11.989 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.Encode]:
+!!! CodeGen [Data.Aeson.Encode]: finished in 129.00 milliseconds, allocated 185.697 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_87.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/Encode.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_88.c /tmp/ghc12557_0/ghc_87.s /tmp/ghc12557_0/ghc_86.c /tmp/ghc12557_0/ghc_85.s /tmp/ghc12557_0/ghc_84.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_88.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_86.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_84.s
+compile: input file ./Data/Aeson.hs
+*** Checking old interface for Data.Aeson:
+[15 of 16] Compiling Data.Aeson       ( Data/Aeson.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson.o )
+*** Parser [Data.Aeson]:
+!!! Parser [Data.Aeson]: finished in 2.00 milliseconds, allocated 7.421 megabytes
+*** Renamer/typechecker [Data.Aeson]:
+!!! Renamer/typechecker [Data.Aeson]: finished in 6.00 milliseconds, allocated 5.933 megabytes
+*** Desugar [Data.Aeson]:
+Result size of Desugar (after optimization)
+  = {terms: 78, types: 187, coercions: 0}
+!!! Desugar [Data.Aeson]: finished in 1.00 milliseconds, allocated 0.651 megabytes
+*** Simplifier [Data.Aeson]:
+Result size of Simplifier iteration=1
+  = {terms: 103, types: 213, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 103, types: 213, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 103, types: 213, coercions: 0}
+Result size of Simplifier = {terms: 103, types: 213, coercions: 0}
+!!! Simplifier [Data.Aeson]: finished in 6.00 milliseconds, allocated 8.055 megabytes
+*** Specialise [Data.Aeson]:
+Result size of Specialise = {terms: 103, types: 213, coercions: 0}
+!!! Specialise [Data.Aeson]: finished in 0.00 milliseconds, allocated 0.176 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 103, types: 213, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson]: finished in 0.00 milliseconds, allocated 0.646 megabytes
+*** Simplifier [Data.Aeson]:
+Result size of Simplifier iteration=1
+  = {terms: 968, types: 1,125, coercions: 404}
+Result size of Simplifier iteration=2
+  = {terms: 646, types: 715, coercions: 396}
+Result size of Simplifier
+  = {terms: 612, types: 669, coercions: 388}
+!!! Simplifier [Data.Aeson]: finished in 14.00 milliseconds, allocated 17.240 megabytes
+*** Simplifier [Data.Aeson]:
+Result size of Simplifier iteration=1
+  = {terms: 544, types: 549, coercions: 388}
+Result size of Simplifier
+  = {terms: 544, types: 549, coercions: 388}
+!!! Simplifier [Data.Aeson]: finished in 8.00 milliseconds, allocated 10.280 megabytes
+*** Simplifier [Data.Aeson]:
+Result size of Simplifier iteration=1
+  = {terms: 584, types: 569, coercions: 328}
+Result size of Simplifier
+  = {terms: 584, types: 569, coercions: 328}
+!!! Simplifier [Data.Aeson]: finished in 10.00 milliseconds, allocated 9.844 megabytes
+*** Float inwards [Data.Aeson]:
+Result size of Float inwards
+  = {terms: 584, types: 569, coercions: 328}
+!!! Float inwards [Data.Aeson]: finished in 0.00 milliseconds, allocated 0.833 megabytes
+*** Called arity analysis [Data.Aeson]:
+Result size of Called arity analysis
+  = {terms: 584, types: 569, coercions: 328}
+!!! Called arity analysis [Data.Aeson]: finished in 0.00 milliseconds, allocated 0.503 megabytes
+*** Simplifier [Data.Aeson]:
+Result size of Simplifier
+  = {terms: 584, types: 569, coercions: 328}
+!!! Simplifier [Data.Aeson]: finished in 3.00 milliseconds, allocated 4.697 megabytes
+*** Demand analysis [Data.Aeson]:
+Result size of Demand analysis
+  = {terms: 584, types: 569, coercions: 328}
+!!! Demand analysis [Data.Aeson]: finished in 2.00 milliseconds, allocated 2.409 megabytes
+*** Worker Wrapper binds [Data.Aeson]:
+Result size of Worker Wrapper binds
+  = {terms: 584, types: 569, coercions: 328}
+!!! Worker Wrapper binds [Data.Aeson]: finished in 0.00 milliseconds, allocated 0.190 megabytes
+*** Simplifier [Data.Aeson]:
+Result size of Simplifier
+  = {terms: 584, types: 569, coercions: 328}
+!!! Simplifier [Data.Aeson]: finished in 4.00 milliseconds, allocated 4.759 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 718, types: 723, coercions: 328}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson]: finished in 2.00 milliseconds, allocated 3.066 megabytes
+*** Common sub-expression [Data.Aeson]:
+Result size of Common sub-expression
+  = {terms: 611, types: 678, coercions: 272}
+!!! Common sub-expression [Data.Aeson]: finished in 1.00 milliseconds, allocated 1.695 megabytes
+*** Float inwards [Data.Aeson]:
+Result size of Float inwards
+  = {terms: 611, types: 678, coercions: 272}
+!!! Float inwards [Data.Aeson]: finished in 1.00 milliseconds, allocated 0.739 megabytes
+*** Liberate case [Data.Aeson]:
+Result size of Liberate case
+  = {terms: 611, types: 678, coercions: 272}
+!!! Liberate case [Data.Aeson]: finished in 0.00 milliseconds, allocated 0.302 megabytes
+*** Simplifier [Data.Aeson]:
+Result size of Simplifier
+  = {terms: 517, types: 578, coercions: 272}
+!!! Simplifier [Data.Aeson]: finished in 4.00 milliseconds, allocated 4.388 megabytes
+*** SpecConstr [Data.Aeson]:
+Result size of SpecConstr
+  = {terms: 517, types: 578, coercions: 272}
+!!! SpecConstr [Data.Aeson]: finished in 0.00 milliseconds, allocated 0.682 megabytes
+*** Simplifier [Data.Aeson]:
+Result size of Simplifier
+  = {terms: 517, types: 578, coercions: 272}
+!!! Simplifier [Data.Aeson]: finished in 4.00 milliseconds, allocated 4.855 megabytes
+*** CoreTidy [Data.Aeson]:
+Result size of Tidy Core = {terms: 517, types: 578, coercions: 272}
+!!! CoreTidy [Data.Aeson]: finished in 1.00 milliseconds, allocated 1.246 megabytes
+writeBinIface: 110 Names
+writeBinIface: 222 dict entries
+writeBinIface: 110 Names
+writeBinIface: 222 dict entries
+*** CorePrep [Data.Aeson]:
+Result size of CorePrep = {terms: 575, types: 634, coercions: 272}
+!!! CorePrep [Data.Aeson]: finished in 1.00 milliseconds, allocated 1.194 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson]:
+!!! CodeGen [Data.Aeson]: finished in 23.00 milliseconds, allocated 32.798 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_90.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson.o
+*** CorePrep [Data.Aeson]:
+Result size of CorePrep = {terms: 575, types: 634, coercions: 272}
+!!! CorePrep [Data.Aeson]: finished in 1.00 milliseconds, allocated 1.129 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson]:
+!!! CodeGen [Data.Aeson]: finished in 25.00 milliseconds, allocated 35.682 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_92.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_93.c /tmp/ghc12557_0/ghc_92.s /tmp/ghc12557_0/ghc_91.c /tmp/ghc12557_0/ghc_90.s /tmp/ghc12557_0/ghc_89.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_93.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_91.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_89.s
+compile: input file /tmp/ghc12557_0/ghc_3.hscpp
+*** Checking old interface for Data.Aeson.TH:
+[16 of 16] Compiling Data.Aeson.TH    ( Data/Aeson/TH.hs, dist/dist-sandbox-6afc8227/build/Data/Aeson/TH.o )
+*** Parser [Data.Aeson.TH]:
+!!! Parser [Data.Aeson.TH]: finished in 14.00 milliseconds, allocated 38.835 megabytes
+*** Renamer/typechecker [Data.Aeson.TH]:
+!!! Renamer/typechecker [Data.Aeson.TH]: finished in 71.00 milliseconds, allocated 69.158 megabytes
+*** Desugar [Data.Aeson.TH]:
+Result size of Desugar (after optimization)
+  = {terms: 5,322, types: 4,435, coercions: 110}
+!!! Desugar [Data.Aeson.TH]: finished in 22.00 milliseconds, allocated 23.987 megabytes
+*** Simplifier [Data.Aeson.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 6,437, types: 6,684, coercions: 56}
+Result size of Simplifier iteration=2
+  = {terms: 6,335, types: 6,490, coercions: 58}
+Result size of Simplifier iteration=3
+  = {terms: 6,340, types: 6,488, coercions: 58}
+Result size of Simplifier iteration=4
+  = {terms: 6,344, types: 6,487, coercions: 58}
+Result size of Simplifier
+  = {terms: 6,344, types: 6,487, coercions: 58}
+!!! Simplifier [Data.Aeson.TH]: finished in 94.00 milliseconds, allocated 105.732 megabytes
+*** Specialise [Data.Aeson.TH]:
+Result size of Specialise
+  = {terms: 6,888, types: 7,327, coercions: 78}
+!!! Specialise [Data.Aeson.TH]: finished in 8.00 milliseconds, allocated 9.545 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.TH]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10,239, types: 13,162, coercions: 78}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Aeson.TH]: finished in 28.00 milliseconds, allocated 45.827 megabytes
+*** Simplifier [Data.Aeson.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 13,181, types: 16,292, coercions: 4,326}
+Result size of Simplifier iteration=2
+  = {terms: 11,218, types: 13,259, coercions: 3,402}
+Result size of Simplifier iteration=3
+  = {terms: 11,164, types: 13,167, coercions: 3,323}
+Result size of Simplifier
+  = {terms: 11,164, types: 13,167, coercions: 3,323}
+!!! Simplifier [Data.Aeson.TH]: finished in 253.00 milliseconds, allocated 255.437 megabytes
+*** Simplifier [Data.Aeson.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 9,610, types: 10,450, coercions: 3,323}
+Result size of Simplifier iteration=2
+  = {terms: 9,543, types: 10,322, coercions: 3,323}
+Result size of Simplifier
+  = {terms: 9,543, types: 10,322, coercions: 3,323}
+!!! Simplifier [Data.Aeson.TH]: finished in 140.00 milliseconds, allocated 148.423 megabytes
+*** Simplifier [Data.Aeson.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 10,875, types: 12,178, coercions: 3,323}
+Result size of Simplifier iteration=2
+  = {terms: 10,577, types: 11,805, coercions: 3,320}
+Result size of Simplifier iteration=3
+  = {terms: 10,576, types: 11,804, coercions: 3,320}
+Result size of Simplifier
+  = {terms: 10,576, types: 11,804, coercions: 3,320}
+!!! Simplifier [Data.Aeson.TH]: finished in 164.00 milliseconds, allocated 175.206 megabytes
+*** Float inwards [Data.Aeson.TH]:
+Result size of Float inwards
+  = {terms: 10,576, types: 11,804, coercions: 3,320}
+!!! Float inwards [Data.Aeson.TH]: finished in 12.00 milliseconds, allocated 22.054 megabytes
+*** Called arity analysis [Data.Aeson.TH]:
+Result size of Called arity analysis
+  = {terms: 10,576, types: 11,804, coercions: 3,320}
+!!! Called arity analysis [Data.Aeson.TH]: finished in 19.00 milliseconds, allocated 17.119 megabytes
+*** Simplifier [Data.Aeson.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 10,531, types: 11,676, coercions: 3,356}
+Result size of Simplifier iteration=2
+  = {terms: 10,524, types: 11,666, coercions: 3,343}
+Result size of Simplifier
+  = {terms: 10,524, types: 11,666, coercions: 3,343}
+!!! Simplifier [Data.Aeson.TH]: finished in 128.00 milliseconds, allocated 128.967 megabytes
+*** Demand analysis [Data.Aeson.TH]:
+Result size of Demand analysis
+  = {terms: 10,524, types: 11,666, coercions: 3,343}
+!!! Demand analysis [Data.Aeson.TH]: finished in 31.00 milliseconds, allocated 51.322 megabytes
+*** Worker Wrapper binds [Data.Aeson.TH]:
+Result size of Worker Wrapper binds
+  = {terms: 11,002, types: 12,829, coercions: 3,343}
+!!! Worker Wrapper binds [Data.Aeson.TH]: finished in 5.00 milliseconds, allocated 4.587 megabytes
+*** Simplifier [Data.Aeson.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 10,880, types: 12,944, coercions: 3,332}
+Result size of Simplifier iteration=2
+  = {terms: 10,639, types: 12,208, coercions: 3,373}
+Result size of Simplifier
+  = {terms: 10,637, types: 12,193, coercions: 3,354}
+!!! Simplifier [Data.Aeson.TH]: finished in 134.00 milliseconds, allocated 141.730 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.TH]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 11,143, types: 12,678, coercions: 3,354}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Aeson.TH]: finished in 45.00 milliseconds, allocated 54.207 megabytes
+*** Common sub-expression [Data.Aeson.TH]:
+Result size of Common sub-expression
+  = {terms: 9,834, types: 12,498, coercions: 2,580}
+!!! Common sub-expression [Data.Aeson.TH]: finished in 11.00 milliseconds, allocated 13.110 megabytes
+*** Float inwards [Data.Aeson.TH]:
+Result size of Float inwards
+  = {terms: 9,834, types: 12,498, coercions: 2,580}
+!!! Float inwards [Data.Aeson.TH]: finished in 19.00 milliseconds, allocated 18.870 megabytes
+*** Liberate case [Data.Aeson.TH]:
+Result size of Liberate case
+  = {terms: 10,150, types: 12,738, coercions: 2,652}
+!!! Liberate case [Data.Aeson.TH]: finished in 3.00 milliseconds, allocated 5.087 megabytes
+*** Simplifier [Data.Aeson.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 8,459, types: 10,587, coercions: 2,626}
+Result size of Simplifier iteration=2
+  = {terms: 8,454, types: 10,572, coercions: 2,626}
+Result size of Simplifier
+  = {terms: 8,454, types: 10,572, coercions: 2,626}
+!!! Simplifier [Data.Aeson.TH]: finished in 101.00 milliseconds, allocated 108.427 megabytes
+*** SpecConstr [Data.Aeson.TH]:
+Result size of SpecConstr
+  = {terms: 9,815, types: 12,298, coercions: 2,901}
+!!! SpecConstr [Data.Aeson.TH]: finished in 13.00 milliseconds, allocated 17.789 megabytes
+*** Simplifier [Data.Aeson.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 9,880, types: 12,288, coercions: 2,901}
+Result size of Simplifier iteration=2
+  = {terms: 9,443, types: 11,565, coercions: 2,834}
+Result size of Simplifier
+  = {terms: 9,443, types: 11,565, coercions: 2,834}
+!!! Simplifier [Data.Aeson.TH]: finished in 126.00 milliseconds, allocated 127.782 megabytes
+*** CoreTidy [Data.Aeson.TH]:
+Result size of Tidy Core
+  = {terms: 9,121, types: 11,115, coercions: 2,780}
+!!! CoreTidy [Data.Aeson.TH]: finished in 14.00 milliseconds, allocated 13.670 megabytes
+writeBinIface: 189 Names
+writeBinIface: 418 dict entries
+writeBinIface: 189 Names
+writeBinIface: 418 dict entries
+*** CorePrep [Data.Aeson.TH]:
+Result size of CorePrep
+  = {terms: 13,018, types: 16,786, coercions: 2,780}
+!!! CorePrep [Data.Aeson.TH]: finished in 21.00 milliseconds, allocated 24.441 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.TH]:
+!!! CodeGen [Data.Aeson.TH]: finished in 489.00 milliseconds, allocated 648.937 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc12557_0/ghc_95.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/TH.o
+*** CorePrep [Data.Aeson.TH]:
+Result size of CorePrep
+  = {terms: 13,018, types: 16,786, coercions: 2,780}
+!!! CorePrep [Data.Aeson.TH]: finished in 26.00 milliseconds, allocated 23.479 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Aeson.TH]:
+!!! CodeGen [Data.Aeson.TH]: finished in 507.00 milliseconds, allocated 689.478 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Aeson -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc12557_0/ghc_97.s -o dist/dist-sandbox-6afc8227/build/Data/Aeson/TH.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_98.c /tmp/ghc12557_0/ghc_97.s /tmp/ghc12557_0/ghc_96.c /tmp/ghc12557_0/ghc_95.s /tmp/ghc12557_0/ghc_94.s
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_98.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_96.c
+Warning: deleting non-existent /tmp/ghc12557_0/ghc_94.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc12557_0/ghc_17.hscpp /tmp/ghc12557_0/ghc_15.hscpp /tmp/ghc12557_0/ghc_13.hscpp /tmp/ghc12557_0/ghc_11.hscpp /tmp/ghc12557_0/ghc_9.hscpp /tmp/ghc12557_0/ghc_7.hscpp /tmp/ghc12557_0/ghc_5.hscpp /tmp/ghc12557_0/ghc_3.hscpp /tmp/ghc12557_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc12557_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/attoparsec-0.13.0.2-4uZxAuiEcXA6meGn8wFOYK -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/dlist-0.7.1.2-LXvO1Bw0RvFzUhQMljfgc -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-boot-th-8.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/pretty-1.1.3.3 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/scientific-0.3.4.6-9fCa1BWCWrnKAuoCGjgPJx -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/syb-0.6-C65vWCsht6A8uLstpQIXyj -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/tagged-0.8.4-9gtrXrOYlY5BIFTjUM7KTh -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/template-haskell-2.11.0.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/unordered-containers-0.2.7.0-KR6jjzMAwuYBKL2QUNYyx5 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3 -o dist/dist-sandbox-6afc8227/build/libHSaeson-0.11.2.0-AvIY675hwnjG9m2dKnIAK4-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSaeson-0.11.2.0-AvIY675hwnjG9m2dKnIAK4-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Data/Aeson.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Encode.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Internal.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Internal/Time.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Parser.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/TH.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Encode/Builder.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Encode/Functions.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Functions.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Parser/Internal.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Parser/Time.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Class.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Generic.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Instances.dyn_o dist/dist-sandbox-6afc8227/build/Data/Aeson/Types/Internal.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/unordered-containers-0.2.7.0-KR6jjzMAwuYBKL2QUNYyx5 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/tagged-0.8.4-9gtrXrOYlY5BIFTjUM7KTh -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/template-haskell-2.11.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/pretty-1.1.3.3 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-boot-th-8.0.1 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/syb-0.6-C65vWCsht6A8uLstpQIXyj -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/dlist-0.7.1.2-LXvO1Bw0RvFzUhQMljfgc -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/attoparsec-0.13.0.2-4uZxAuiEcXA6meGn8wFOYK -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/scientific-0.3.4.6-9fCa1BWCWrnKAuoCGjgPJx -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSunordered-containers-0.2.7.0-KR6jjzMAwuYBKL2QUNYyx5-ghc8.0.1 -lHStime-1.6.0.1-ghc8.0.1 -lHStagged-0.8.4-9gtrXrOYlY5BIFTjUM7KTh-ghc8.0.1 -lHStemplate-haskell-2.11.0.0-ghc8.0.1 -lHSpretty-1.1.3.3-ghc8.0.1 -lHSghc-boot-th-8.0.1-ghc8.0.1 -lHSsyb-0.6-C65vWCsht6A8uLstpQIXyj-ghc8.0.1 -lHSmtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM-ghc8.0.1 -lHSdlist-0.7.1.2-LXvO1Bw0RvFzUhQMljfgc-ghc8.0.1 -lHSattoparsec-0.13.0.2-4uZxAuiEcXA6meGn8wFOYK-ghc8.0.1 -lHSscientific-0.3.4.6-9fCa1BWCWrnKAuoCGjgPJx-ghc8.0.1 -lHSvector-0.11.0.0-6uB77qGCxR6GPLxI2sqsX3-ghc8.0.1 -lHSprimitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa-ghc8.0.1 -lHStransformers-0.5.2.0-ghc8.0.1 -lHShashable-1.2.4.0-Ctl752zbguF6QanxurLOm2-ghc8.0.1 -lHStext-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs-ghc8.0.1 -lHSbinary-0.8.3.0-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc13250_0
+*** Deleting temp files:
+Deleting: /tmp/ghc13250_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc13250_0
+Creating package registration file:
+/tmp/pkgConf-aeson-0.11.214472676051369321801.0
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/aeson-0.11.2.0-AvIY675hwnjG9m2dKnIAK4
+Registering aeson-0.11.2.0...
+cabal: Leaving directory '/tmp/cabal-tmp-1026/aeson-0.11.2.0'

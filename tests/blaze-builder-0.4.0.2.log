@@ -1,0 +1,1542 @@
+cabal: Entering directory '/tmp/cabal-tmp-1025/blaze-builder-0.4.0.2'
+Configuring blaze-builder-0.4.0.2...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc8963_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/7198853861649760492.c -o /tmp/ghc8963_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc8963_0/ghc_1.s -o /tmp/5965166491189641421.o
+*** Deleting temp files:
+Deleting: /tmp/ghc8963_0/ghc_2.rsp /tmp/ghc8963_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8963_0
+Building blaze-builder-0.4.0.2...
+Preprocessing library blaze-builder-0.4.0.2...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Blaze.ByteString.Builder,*Blaze.ByteString.Builder.Int,*Blaze.ByteString.Builder.Word,*Blaze.ByteString.Builder.ByteString,*Blaze.ByteString.Builder.Char.Utf8,*Blaze.ByteString.Builder.Char8,*Blaze.ByteString.Builder.Html.Utf8,*Blaze.ByteString.Builder.HTTP,*Blaze.ByteString.Builder.Compat.Write,*Blaze.ByteString.Builder.Internal.Write
+Created temporary directory: /tmp/ghc9095_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9095_0/ghc_2.h -x assembler-with-cpp ./Blaze/ByteString/Builder.hs -o /tmp/ghc9095_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9095_0/ghc_4.h -x assembler-with-cpp ./Blaze/ByteString/Builder/Html/Utf8.hs -o /tmp/ghc9095_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9095_0/ghc_6.h -x assembler-with-cpp ./Blaze/ByteString/Builder/HTTP.hs -o /tmp/ghc9095_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9095_0/ghc_8.h -x assembler-with-cpp ./Blaze/ByteString/Builder/Internal/Write.hs -o /tmp/ghc9095_0/ghc_7.hscpp
+!!! Chasing dependencies: finished in 42.00 milliseconds, allocated 34.300 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-18 19:47:02 UTC
+         ms_mod = Blaze.ByteString.Builder.Internal.Write,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.ByteString.Builder.Internal),
+                            (Nothing, Control.Monad), (Nothing, Foreign)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-18 19:47:02 UTC
+         ms_mod = Blaze.ByteString.Builder.ByteString,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.ByteString.Lazy),
+                            (Nothing, Data.ByteString.Internal), (Nothing, Data.ByteString),
+                            (Nothing, Data.ByteString.Builder.Extra),
+                            (Nothing, Data.ByteString.Builder), (Nothing, Foreign),
+                            (Nothing, Blaze.ByteString.Builder.Internal.Write)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-18 19:47:02 UTC
+         ms_mod = Blaze.ByteString.Builder.Compat.Write,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Blaze.ByteString.Builder.Internal.Write),
+                            (Nothing, Data.ByteString.Builder.Prim.Internal)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-18 19:47:02 UTC
+         ms_mod = Blaze.ByteString.Builder.Int,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.ByteString.Builder.Prim),
+                            (Nothing, Data.ByteString.Builder.Extra),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Blaze.ByteString.Builder.Compat.Write),
+                            (Nothing, Data.Int)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-18 19:47:02 UTC
+         ms_mod = Blaze.ByteString.Builder.Word,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.ByteString.Builder.Prim),
+                            (Nothing, Data.ByteString.Builder.Extra),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Blaze.ByteString.Builder.Compat.Write),
+                            (Nothing, Data.Word)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-18 19:47:02 UTC
+         ms_mod = Blaze.ByteString.Builder,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, System.IO.Unsafe),
+                            (Nothing, Data.ByteString.Lazy.Internal),
+                            (Nothing, Data.ByteString.Lazy),
+                            (Nothing, Data.ByteString.Internal), (Nothing, Data.ByteString),
+                            (Nothing, Data.ByteString.Builder.Extra),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Blaze.ByteString.Builder.Int),
+                            (Nothing, Blaze.ByteString.Builder.Word),
+                            (Nothing, Blaze.ByteString.Builder.ByteString),
+                            (Nothing, Blaze.ByteString.Builder.Internal.Write),
+                            (Nothing, Foreign.ForeignPtr.Unsafe), (Nothing, Foreign),
+                            (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-18 19:47:02 UTC
+         ms_mod = Blaze.ByteString.Builder.Char.Utf8,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Text.Lazy),
+                            (Nothing, Data.Text), (Nothing, Data.ByteString.Builder.Prim),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Blaze.ByteString.Builder.Compat.Write)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-18 19:47:02 UTC
+         ms_mod = Blaze.ByteString.Builder.Char8,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Text.Lazy),
+                            (Nothing, Data.Text), (Nothing, Data.ByteString.Builder.Prim),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Blaze.ByteString.Builder.Compat.Write)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-18 19:47:02 UTC
+         ms_mod = Blaze.ByteString.Builder.HTTP,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Blaze.ByteString.Builder.Char8),
+                            (Nothing, Blaze.ByteString.Builder.ByteString),
+                            (Nothing, Data.ByteString.Builder.Internal),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Blaze.ByteString.Builder.Internal.Write),
+                            (Nothing, Data.ByteString.Char8), (Nothing, Data.ByteString),
+                            (Nothing, Foreign), (Nothing, GHC.Word), (Nothing, GHC.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-18 19:47:02 UTC
+         ms_mod = Blaze.ByteString.Builder.Html.Utf8,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Blaze.ByteString.Builder.Char.Utf8),
+                            (Nothing, Data.ByteString.Builder.Prim),
+                            (Nothing, Data.ByteString.Builder.Prim),
+                            (Nothing, Data.ByteString.Builder),
+                            (Nothing, Blaze.ByteString.Builder.Compat.Write),
+                            (Nothing, Data.Text.Lazy), (Nothing, Data.Text),
+                            (Nothing, Data.ByteString.Char8)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc9095_0/ghc_8.h /tmp/ghc9095_0/ghc_6.h /tmp/ghc9095_0/ghc_4.h /tmp/ghc9095_0/ghc_2.h
+compile: input file /tmp/ghc9095_0/ghc_7.hscpp
+*** Checking old interface for Blaze.ByteString.Builder.Internal.Write:
+[ 1 of 10] Compiling Blaze.ByteString.Builder.Internal.Write ( Blaze/ByteString/Builder/Internal/Write.hs, dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Internal/Write.o )
+*** Parser [Blaze.ByteString.Builder.Internal.Write]:
+!!! Parser [Blaze.ByteString.Builder.Internal.Write]: finished in 5.00 milliseconds, allocated 8.946 megabytes
+*** Renamer/typechecker [Blaze.ByteString.Builder.Internal.Write]:
+!!! Renamer/typechecker [Blaze.ByteString.Builder.Internal.Write]: finished in 311.00 milliseconds, allocated 137.024 megabytes
+*** Desugar [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Desugar (after optimization)
+  = {terms: 624, types: 725, coercions: 14}
+!!! Desugar [Blaze.ByteString.Builder.Internal.Write]: finished in 16.00 milliseconds, allocated 7.696 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Simplifier iteration=1
+  = {terms: 601, types: 700, coercions: 48}
+Result size of Simplifier iteration=2
+  = {terms: 558, types: 653, coercions: 51}
+Result size of Simplifier iteration=3
+  = {terms: 552, types: 647, coercions: 51}
+Result size of Simplifier = {terms: 552, types: 647, coercions: 51}
+!!! Simplifier [Blaze.ByteString.Builder.Internal.Write]: finished in 42.00 milliseconds, allocated 21.949 megabytes
+*** Specialise [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Specialise = {terms: 564, types: 678, coercions: 51}
+!!! Specialise [Blaze.ByteString.Builder.Internal.Write]: finished in 1.00 milliseconds, allocated 0.741 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 613, types: 783, coercions: 51}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Internal.Write]: finished in 4.00 milliseconds, allocated 3.502 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Simplifier iteration=1
+  = {terms: 1,083, types: 1,288, coercions: 404}
+Result size of Simplifier iteration=2
+  = {terms: 933, types: 1,167, coercions: 420}
+Result size of Simplifier iteration=3
+  = {terms: 949, types: 1,190, coercions: 368}
+Result size of Simplifier iteration=4
+  = {terms: 888, types: 1,071, coercions: 320}
+Result size of Simplifier
+  = {terms: 888, types: 1,071, coercions: 320}
+!!! Simplifier [Blaze.ByteString.Builder.Internal.Write]: finished in 58.00 milliseconds, allocated 29.313 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Simplifier iteration=1
+  = {terms: 846, types: 1,009, coercions: 320}
+Result size of Simplifier
+  = {terms: 846, types: 1,009, coercions: 320}
+!!! Simplifier [Blaze.ByteString.Builder.Internal.Write]: finished in 24.00 milliseconds, allocated 11.838 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Simplifier iteration=1
+  = {terms: 897, types: 1,059, coercions: 363}
+Result size of Simplifier iteration=2
+  = {terms: 895, types: 1,086, coercions: 358}
+Result size of Simplifier iteration=3
+  = {terms: 893, types: 1,083, coercions: 367}
+Result size of Simplifier
+  = {terms: 893, types: 1,083, coercions: 337}
+!!! Simplifier [Blaze.ByteString.Builder.Internal.Write]: finished in 44.00 milliseconds, allocated 22.570 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Float inwards
+  = {terms: 893, types: 1,083, coercions: 337}
+!!! Float inwards [Blaze.ByteString.Builder.Internal.Write]: finished in 2.00 milliseconds, allocated 1.084 megabytes
+*** Called arity analysis [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Called arity analysis
+  = {terms: 893, types: 1,083, coercions: 337}
+!!! Called arity analysis [Blaze.ByteString.Builder.Internal.Write]: finished in 1.00 milliseconds, allocated 1.251 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Simplifier iteration=1
+  = {terms: 895, types: 1,098, coercions: 345}
+Result size of Simplifier
+  = {terms: 895, types: 1,098, coercions: 345}
+!!! Simplifier [Blaze.ByteString.Builder.Internal.Write]: finished in 23.00 milliseconds, allocated 11.112 megabytes
+*** Demand analysis [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Demand analysis
+  = {terms: 895, types: 1,098, coercions: 345}
+!!! Demand analysis [Blaze.ByteString.Builder.Internal.Write]: finished in 6.00 milliseconds, allocated 4.759 megabytes
+*** Worker Wrapper binds [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Worker Wrapper binds
+  = {terms: 1,307, types: 1,709, coercions: 345}
+!!! Worker Wrapper binds [Blaze.ByteString.Builder.Internal.Write]: finished in 1.00 milliseconds, allocated 0.659 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Simplifier iteration=1
+  = {terms: 1,182, types: 1,590, coercions: 345}
+Result size of Simplifier iteration=2
+  = {terms: 1,031, types: 1,396, coercions: 345}
+Result size of Simplifier
+  = {terms: 1,031, types: 1,396, coercions: 345}
+!!! Simplifier [Blaze.ByteString.Builder.Internal.Write]: finished in 42.00 milliseconds, allocated 21.852 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,069, types: 1,433, coercions: 345}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Internal.Write]: finished in 10.00 milliseconds, allocated 4.223 megabytes
+*** Common sub-expression [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Common sub-expression
+  = {terms: 1,040, types: 1,433, coercions: 345}
+!!! Common sub-expression [Blaze.ByteString.Builder.Internal.Write]: finished in 4.00 milliseconds, allocated 2.111 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Float inwards
+  = {terms: 1,040, types: 1,433, coercions: 345}
+!!! Float inwards [Blaze.ByteString.Builder.Internal.Write]: finished in 1.00 milliseconds, allocated 1.267 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Simplifier iteration=1
+  = {terms: 1,067, types: 1,395, coercions: 345}
+Result size of Simplifier iteration=2
+  = {terms: 1,073, types: 1,361, coercions: 345}
+Result size of Simplifier iteration=3
+  = {terms: 1,030, types: 1,336, coercions: 345}
+Result size of Simplifier
+  = {terms: 1,030, types: 1,336, coercions: 345}
+!!! Simplifier [Blaze.ByteString.Builder.Internal.Write]: finished in 54.00 milliseconds, allocated 26.264 megabytes
+*** CoreTidy [Blaze.ByteString.Builder.Internal.Write]:
+Result size of Tidy Core
+  = {terms: 1,039, types: 1,343, coercions: 345}
+!!! CoreTidy [Blaze.ByteString.Builder.Internal.Write]: finished in 3.00 milliseconds, allocated 2.138 megabytes
+writeBinIface: 77 Names
+writeBinIface: 202 dict entries
+writeBinIface: 77 Names
+writeBinIface: 202 dict entries
+*** CorePrep [Blaze.ByteString.Builder.Internal.Write]:
+Result size of CorePrep
+  = {terms: 1,316, types: 1,564, coercions: 365}
+!!! CorePrep [Blaze.ByteString.Builder.Internal.Write]: finished in 4.00 milliseconds, allocated 2.389 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Internal.Write]:
+!!! CodeGen [Blaze.ByteString.Builder.Internal.Write]: finished in 85.00 milliseconds, allocated 53.649 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder/Internal -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9095_0/ghc_10.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Internal/Write.o
+*** CorePrep [Blaze.ByteString.Builder.Internal.Write]:
+Result size of CorePrep
+  = {terms: 1,316, types: 1,564, coercions: 365}
+!!! CorePrep [Blaze.ByteString.Builder.Internal.Write]: finished in 3.00 milliseconds, allocated 2.284 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Internal.Write]:
+!!! CodeGen [Blaze.ByteString.Builder.Internal.Write]: finished in 95.00 milliseconds, allocated 55.682 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder/Internal -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9095_0/ghc_12.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Internal/Write.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9095_0/ghc_13.c /tmp/ghc9095_0/ghc_12.s /tmp/ghc9095_0/ghc_11.c /tmp/ghc9095_0/ghc_10.s /tmp/ghc9095_0/ghc_9.s
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_13.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_11.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_9.s
+compile: input file ./Blaze/ByteString/Builder/ByteString.hs
+*** Checking old interface for Blaze.ByteString.Builder.ByteString:
+[ 2 of 10] Compiling Blaze.ByteString.Builder.ByteString ( Blaze/ByteString/Builder/ByteString.hs, dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/ByteString.o )
+*** Parser [Blaze.ByteString.Builder.ByteString]:
+!!! Parser [Blaze.ByteString.Builder.ByteString]: finished in 2.00 milliseconds, allocated 3.436 megabytes
+*** Renamer/typechecker [Blaze.ByteString.Builder.ByteString]:
+!!! Renamer/typechecker [Blaze.ByteString.Builder.ByteString]: finished in 27.00 milliseconds, allocated 14.836 megabytes
+*** Desugar [Blaze.ByteString.Builder.ByteString]:
+Result size of Desugar (after optimization)
+  = {terms: 76, types: 117, coercions: 0}
+!!! Desugar [Blaze.ByteString.Builder.ByteString]: finished in 2.00 milliseconds, allocated 0.745 megabytes
+*** Simplifier [Blaze.ByteString.Builder.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 64, types: 85, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 59, types: 76, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 59, types: 76, coercions: 0}
+Result size of Simplifier = {terms: 59, types: 76, coercions: 0}
+!!! Simplifier [Blaze.ByteString.Builder.ByteString]: finished in 4.00 milliseconds, allocated 2.708 megabytes
+*** Specialise [Blaze.ByteString.Builder.ByteString]:
+Result size of Specialise = {terms: 59, types: 76, coercions: 0}
+!!! Specialise [Blaze.ByteString.Builder.ByteString]: finished in 0.00 milliseconds, allocated 0.118 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.ByteString]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 61, types: 82, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.ByteString]: finished in 0.00 milliseconds, allocated 0.287 megabytes
+*** Simplifier [Blaze.ByteString.Builder.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 108, types: 132, coercions: 10}
+Result size of Simplifier iteration=2
+  = {terms: 85, types: 94, coercions: 10}
+Result size of Simplifier iteration=3
+  = {terms: 80, types: 83, coercions: 10}
+Result size of Simplifier iteration=4
+  = {terms: 59, types: 56, coercions: 10}
+Result size of Simplifier = {terms: 59, types: 56, coercions: 10}
+!!! Simplifier [Blaze.ByteString.Builder.ByteString]: finished in 5.00 milliseconds, allocated 3.124 megabytes
+*** Simplifier [Blaze.ByteString.Builder.ByteString]:
+Result size of Simplifier = {terms: 59, types: 56, coercions: 10}
+!!! Simplifier [Blaze.ByteString.Builder.ByteString]: finished in 0.00 milliseconds, allocated 0.435 megabytes
+*** Simplifier [Blaze.ByteString.Builder.ByteString]:
+Result size of Simplifier = {terms: 59, types: 56, coercions: 10}
+!!! Simplifier [Blaze.ByteString.Builder.ByteString]: finished in 1.00 milliseconds, allocated 0.438 megabytes
+*** Float inwards [Blaze.ByteString.Builder.ByteString]:
+Result size of Float inwards
+  = {terms: 59, types: 56, coercions: 10}
+!!! Float inwards [Blaze.ByteString.Builder.ByteString]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Called arity analysis [Blaze.ByteString.Builder.ByteString]:
+Result size of Called arity analysis
+  = {terms: 59, types: 56, coercions: 10}
+!!! Called arity analysis [Blaze.ByteString.Builder.ByteString]: finished in 0.00 milliseconds, allocated 0.156 megabytes
+*** Simplifier [Blaze.ByteString.Builder.ByteString]:
+Result size of Simplifier = {terms: 59, types: 56, coercions: 10}
+!!! Simplifier [Blaze.ByteString.Builder.ByteString]: finished in 1.00 milliseconds, allocated 0.438 megabytes
+*** Demand analysis [Blaze.ByteString.Builder.ByteString]:
+Result size of Demand analysis
+  = {terms: 59, types: 56, coercions: 10}
+!!! Demand analysis [Blaze.ByteString.Builder.ByteString]: finished in 0.00 milliseconds, allocated 0.221 megabytes
+*** Worker Wrapper binds [Blaze.ByteString.Builder.ByteString]:
+Result size of Worker Wrapper binds
+  = {terms: 59, types: 56, coercions: 10}
+!!! Worker Wrapper binds [Blaze.ByteString.Builder.ByteString]: finished in 0.00 milliseconds, allocated 0.060 megabytes
+*** Simplifier [Blaze.ByteString.Builder.ByteString]:
+Result size of Simplifier = {terms: 59, types: 56, coercions: 10}
+!!! Simplifier [Blaze.ByteString.Builder.ByteString]: finished in 0.00 milliseconds, allocated 0.445 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.ByteString]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 59, types: 56, coercions: 10}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.ByteString]: finished in 1.00 milliseconds, allocated 0.624 megabytes
+*** Common sub-expression [Blaze.ByteString.Builder.ByteString]:
+Result size of Common sub-expression
+  = {terms: 59, types: 56, coercions: 10}
+!!! Common sub-expression [Blaze.ByteString.Builder.ByteString]: finished in 0.00 milliseconds, allocated 0.171 megabytes
+*** Float inwards [Blaze.ByteString.Builder.ByteString]:
+Result size of Float inwards
+  = {terms: 59, types: 56, coercions: 10}
+!!! Float inwards [Blaze.ByteString.Builder.ByteString]: finished in 0.00 milliseconds, allocated 0.092 megabytes
+*** Simplifier [Blaze.ByteString.Builder.ByteString]:
+Result size of Simplifier = {terms: 59, types: 56, coercions: 10}
+!!! Simplifier [Blaze.ByteString.Builder.ByteString]: finished in 0.00 milliseconds, allocated 0.424 megabytes
+*** CoreTidy [Blaze.ByteString.Builder.ByteString]:
+Result size of Tidy Core = {terms: 59, types: 56, coercions: 10}
+!!! CoreTidy [Blaze.ByteString.Builder.ByteString]: finished in 0.00 milliseconds, allocated 0.159 megabytes
+writeBinIface: 35 Names
+writeBinIface: 89 dict entries
+writeBinIface: 35 Names
+writeBinIface: 89 dict entries
+*** CorePrep [Blaze.ByteString.Builder.ByteString]:
+Result size of CorePrep = {terms: 148, types: 136, coercions: 90}
+!!! CorePrep [Blaze.ByteString.Builder.ByteString]: finished in 0.00 milliseconds, allocated 0.285 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.ByteString]:
+!!! CodeGen [Blaze.ByteString.Builder.ByteString]: finished in 6.00 milliseconds, allocated 3.525 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9095_0/ghc_15.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/ByteString.o
+*** CorePrep [Blaze.ByteString.Builder.ByteString]:
+Result size of CorePrep = {terms: 148, types: 136, coercions: 90}
+!!! CorePrep [Blaze.ByteString.Builder.ByteString]: finished in 1.00 milliseconds, allocated 0.281 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.ByteString]:
+!!! CodeGen [Blaze.ByteString.Builder.ByteString]: finished in 6.00 milliseconds, allocated 3.571 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9095_0/ghc_17.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/ByteString.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9095_0/ghc_18.c /tmp/ghc9095_0/ghc_17.s /tmp/ghc9095_0/ghc_16.c /tmp/ghc9095_0/ghc_15.s /tmp/ghc9095_0/ghc_14.s
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_18.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_16.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_14.s
+compile: input file ./Blaze/ByteString/Builder/Compat/Write.hs
+*** Checking old interface for Blaze.ByteString.Builder.Compat.Write:
+[ 3 of 10] Compiling Blaze.ByteString.Builder.Compat.Write ( Blaze/ByteString/Builder/Compat/Write.hs, dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Compat/Write.o )
+*** Parser [Blaze.ByteString.Builder.Compat.Write]:
+!!! Parser [Blaze.ByteString.Builder.Compat.Write]: finished in 1.00 milliseconds, allocated 0.892 megabytes
+*** Renamer/typechecker [Blaze.ByteString.Builder.Compat.Write]:
+!!! Renamer/typechecker [Blaze.ByteString.Builder.Compat.Write]: finished in 4.00 milliseconds, allocated 1.844 megabytes
+*** Desugar [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Desugar (after optimization)
+  = {terms: 26, types: 27, coercions: 2}
+!!! Desugar [Blaze.ByteString.Builder.Compat.Write]: finished in 1.00 milliseconds, allocated 0.225 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Simplifier iteration=1
+  = {terms: 30, types: 29, coercions: 2}
+Result size of Simplifier = {terms: 30, types: 29, coercions: 2}
+!!! Simplifier [Blaze.ByteString.Builder.Compat.Write]: finished in 1.00 milliseconds, allocated 0.547 megabytes
+*** Specialise [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Specialise = {terms: 30, types: 29, coercions: 2}
+!!! Specialise [Blaze.ByteString.Builder.Compat.Write]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 30, types: 29, coercions: 2}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Compat.Write]: finished in 1.00 milliseconds, allocated 0.227 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Simplifier iteration=1
+  = {terms: 59, types: 81, coercions: 14}
+Result size of Simplifier iteration=2
+  = {terms: 52, types: 77, coercions: 14}
+Result size of Simplifier = {terms: 52, types: 77, coercions: 14}
+!!! Simplifier [Blaze.ByteString.Builder.Compat.Write]: finished in 3.00 milliseconds, allocated 1.300 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Simplifier = {terms: 52, types: 77, coercions: 14}
+!!! Simplifier [Blaze.ByteString.Builder.Compat.Write]: finished in 1.00 milliseconds, allocated 0.345 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Simplifier = {terms: 52, types: 77, coercions: 14}
+!!! Simplifier [Blaze.ByteString.Builder.Compat.Write]: finished in 0.00 milliseconds, allocated 0.344 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Float inwards
+  = {terms: 52, types: 77, coercions: 14}
+!!! Float inwards [Blaze.ByteString.Builder.Compat.Write]: finished in 1.00 milliseconds, allocated 0.112 megabytes
+*** Called arity analysis [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Called arity analysis
+  = {terms: 52, types: 77, coercions: 14}
+!!! Called arity analysis [Blaze.ByteString.Builder.Compat.Write]: finished in 0.00 milliseconds, allocated 0.084 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Simplifier iteration=1
+  = {terms: 49, types: 69, coercions: 14}
+Result size of Simplifier = {terms: 49, types: 69, coercions: 14}
+!!! Simplifier [Blaze.ByteString.Builder.Compat.Write]: finished in 1.00 milliseconds, allocated 0.677 megabytes
+*** Demand analysis [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Demand analysis
+  = {terms: 49, types: 69, coercions: 14}
+!!! Demand analysis [Blaze.ByteString.Builder.Compat.Write]: finished in 0.00 milliseconds, allocated 0.217 megabytes
+*** Worker Wrapper binds [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Worker Wrapper binds
+  = {terms: 49, types: 69, coercions: 14}
+!!! Worker Wrapper binds [Blaze.ByteString.Builder.Compat.Write]: finished in 0.00 milliseconds, allocated 0.057 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Simplifier = {terms: 49, types: 69, coercions: 14}
+!!! Simplifier [Blaze.ByteString.Builder.Compat.Write]: finished in 1.00 milliseconds, allocated 0.347 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 49, types: 69, coercions: 14}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Compat.Write]: finished in 1.00 milliseconds, allocated 0.248 megabytes
+*** Common sub-expression [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Common sub-expression
+  = {terms: 49, types: 69, coercions: 14}
+!!! Common sub-expression [Blaze.ByteString.Builder.Compat.Write]: finished in 0.00 milliseconds, allocated 0.135 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Float inwards
+  = {terms: 49, types: 69, coercions: 14}
+!!! Float inwards [Blaze.ByteString.Builder.Compat.Write]: finished in 0.00 milliseconds, allocated 0.105 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Simplifier = {terms: 49, types: 69, coercions: 14}
+!!! Simplifier [Blaze.ByteString.Builder.Compat.Write]: finished in 1.00 milliseconds, allocated 0.325 megabytes
+*** CoreTidy [Blaze.ByteString.Builder.Compat.Write]:
+Result size of Tidy Core = {terms: 49, types: 69, coercions: 14}
+!!! CoreTidy [Blaze.ByteString.Builder.Compat.Write]: finished in 1.00 milliseconds, allocated 0.131 megabytes
+writeBinIface: 16 Names
+writeBinIface: 60 dict entries
+writeBinIface: 16 Names
+writeBinIface: 60 dict entries
+*** CorePrep [Blaze.ByteString.Builder.Compat.Write]:
+Result size of CorePrep = {terms: 58, types: 74, coercions: 14}
+!!! CorePrep [Blaze.ByteString.Builder.Compat.Write]: finished in 1.00 milliseconds, allocated 0.149 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Compat.Write]:
+!!! CodeGen [Blaze.ByteString.Builder.Compat.Write]: finished in 4.00 milliseconds, allocated 2.499 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder/Compat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9095_0/ghc_20.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Compat/Write.o
+*** CorePrep [Blaze.ByteString.Builder.Compat.Write]:
+Result size of CorePrep = {terms: 58, types: 74, coercions: 14}
+!!! CorePrep [Blaze.ByteString.Builder.Compat.Write]: finished in 0.00 milliseconds, allocated 0.145 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Compat.Write]:
+!!! CodeGen [Blaze.ByteString.Builder.Compat.Write]: finished in 5.00 milliseconds, allocated 2.609 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder/Compat -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9095_0/ghc_22.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Compat/Write.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9095_0/ghc_23.c /tmp/ghc9095_0/ghc_22.s /tmp/ghc9095_0/ghc_21.c /tmp/ghc9095_0/ghc_20.s /tmp/ghc9095_0/ghc_19.s
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_23.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_21.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_19.s
+compile: input file ./Blaze/ByteString/Builder/Int.hs
+*** Checking old interface for Blaze.ByteString.Builder.Int:
+[ 4 of 10] Compiling Blaze.ByteString.Builder.Int ( Blaze/ByteString/Builder/Int.hs, dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Int.o )
+*** Parser [Blaze.ByteString.Builder.Int]:
+!!! Parser [Blaze.ByteString.Builder.Int]: finished in 6.00 milliseconds, allocated 7.773 megabytes
+*** Renamer/typechecker [Blaze.ByteString.Builder.Int]:
+!!! Renamer/typechecker [Blaze.ByteString.Builder.Int]: finished in 21.00 milliseconds, allocated 13.275 megabytes
+*** Desugar [Blaze.ByteString.Builder.Int]:
+Result size of Desugar (after optimization)
+  = {terms: 94, types: 100, coercions: 0}
+!!! Desugar [Blaze.ByteString.Builder.Int]: finished in 1.00 milliseconds, allocated 0.697 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Int]:
+Result size of Simplifier iteration=1
+  = {terms: 98, types: 102, coercions: 0}
+Result size of Simplifier = {terms: 98, types: 102, coercions: 0}
+!!! Simplifier [Blaze.ByteString.Builder.Int]: finished in 3.00 milliseconds, allocated 1.903 megabytes
+*** Specialise [Blaze.ByteString.Builder.Int]:
+Result size of Specialise = {terms: 98, types: 102, coercions: 0}
+!!! Specialise [Blaze.ByteString.Builder.Int]: finished in 0.00 milliseconds, allocated 0.162 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Int]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 98, types: 102, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Int]: finished in 0.00 milliseconds, allocated 0.248 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Int]:
+Result size of Simplifier iteration=1
+  = {terms: 131, types: 135, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,177, types: 1,054, coercions: 218}
+Result size of Simplifier iteration=3
+  = {terms: 548, types: 523, coercions: 148}
+Result size of Simplifier
+  = {terms: 548, types: 523, coercions: 148}
+!!! Simplifier [Blaze.ByteString.Builder.Int]: finished in 37.00 milliseconds, allocated 16.078 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Int]:
+Result size of Simplifier
+  = {terms: 548, types: 523, coercions: 148}
+!!! Simplifier [Blaze.ByteString.Builder.Int]: finished in 3.00 milliseconds, allocated 1.913 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Int]:
+Result size of Simplifier
+  = {terms: 548, types: 523, coercions: 148}
+!!! Simplifier [Blaze.ByteString.Builder.Int]: finished in 5.00 milliseconds, allocated 1.912 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Int]:
+Result size of Float inwards
+  = {terms: 548, types: 523, coercions: 148}
+!!! Float inwards [Blaze.ByteString.Builder.Int]: finished in 1.00 milliseconds, allocated 0.710 megabytes
+*** Called arity analysis [Blaze.ByteString.Builder.Int]:
+Result size of Called arity analysis
+  = {terms: 548, types: 523, coercions: 148}
+!!! Called arity analysis [Blaze.ByteString.Builder.Int]: finished in 1.00 milliseconds, allocated 0.730 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Int]:
+Result size of Simplifier
+  = {terms: 548, types: 523, coercions: 148}
+!!! Simplifier [Blaze.ByteString.Builder.Int]: finished in 3.00 milliseconds, allocated 1.915 megabytes
+*** Demand analysis [Blaze.ByteString.Builder.Int]:
+Result size of Demand analysis
+  = {terms: 548, types: 523, coercions: 148}
+!!! Demand analysis [Blaze.ByteString.Builder.Int]: finished in 2.00 milliseconds, allocated 1.938 megabytes
+*** Worker Wrapper binds [Blaze.ByteString.Builder.Int]:
+Result size of Worker Wrapper binds
+  = {terms: 548, types: 523, coercions: 148}
+!!! Worker Wrapper binds [Blaze.ByteString.Builder.Int]: finished in 1.00 milliseconds, allocated 0.206 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Int]:
+Result size of Simplifier
+  = {terms: 548, types: 523, coercions: 148}
+!!! Simplifier [Blaze.ByteString.Builder.Int]: finished in 4.00 milliseconds, allocated 2.949 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Int]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 548, types: 523, coercions: 148}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Int]: finished in 4.00 milliseconds, allocated 1.216 megabytes
+*** Common sub-expression [Blaze.ByteString.Builder.Int]:
+Result size of Common sub-expression
+  = {terms: 548, types: 523, coercions: 148}
+!!! Common sub-expression [Blaze.ByteString.Builder.Int]: finished in 1.00 milliseconds, allocated 1.000 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Int]:
+Result size of Float inwards
+  = {terms: 548, types: 523, coercions: 148}
+!!! Float inwards [Blaze.ByteString.Builder.Int]: finished in 1.00 milliseconds, allocated 0.710 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Int]:
+Result size of Simplifier
+  = {terms: 548, types: 523, coercions: 148}
+!!! Simplifier [Blaze.ByteString.Builder.Int]: finished in 5.00 milliseconds, allocated 2.768 megabytes
+*** CoreTidy [Blaze.ByteString.Builder.Int]:
+Result size of Tidy Core = {terms: 548, types: 523, coercions: 148}
+!!! CoreTidy [Blaze.ByteString.Builder.Int]: finished in 1.00 milliseconds, allocated 0.873 megabytes
+writeBinIface: 64 Names
+writeBinIface: 91 dict entries
+writeBinIface: 64 Names
+writeBinIface: 91 dict entries
+*** CorePrep [Blaze.ByteString.Builder.Int]:
+Result size of CorePrep = {terms: 961, types: 821, coercions: 368}
+!!! CorePrep [Blaze.ByteString.Builder.Int]: finished in 2.00 milliseconds, allocated 1.567 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Int]:
+!!! CodeGen [Blaze.ByteString.Builder.Int]: finished in 30.00 milliseconds, allocated 17.672 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9095_0/ghc_25.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Int.o
+*** CorePrep [Blaze.ByteString.Builder.Int]:
+Result size of CorePrep = {terms: 961, types: 821, coercions: 368}
+!!! CorePrep [Blaze.ByteString.Builder.Int]: finished in 2.00 milliseconds, allocated 1.543 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Int]:
+!!! CodeGen [Blaze.ByteString.Builder.Int]: finished in 32.00 milliseconds, allocated 18.139 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9095_0/ghc_27.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Int.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9095_0/ghc_28.c /tmp/ghc9095_0/ghc_27.s /tmp/ghc9095_0/ghc_26.c /tmp/ghc9095_0/ghc_25.s /tmp/ghc9095_0/ghc_24.s
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_28.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_26.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_24.s
+compile: input file ./Blaze/ByteString/Builder/Word.hs
+*** Checking old interface for Blaze.ByteString.Builder.Word:
+[ 5 of 10] Compiling Blaze.ByteString.Builder.Word ( Blaze/ByteString/Builder/Word.hs, dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Word.o )
+*** Parser [Blaze.ByteString.Builder.Word]:
+!!! Parser [Blaze.ByteString.Builder.Word]: finished in 7.00 milliseconds, allocated 8.137 megabytes
+*** Renamer/typechecker [Blaze.ByteString.Builder.Word]:
+!!! Renamer/typechecker [Blaze.ByteString.Builder.Word]: finished in 9.00 milliseconds, allocated 5.227 megabytes
+*** Desugar [Blaze.ByteString.Builder.Word]:
+Result size of Desugar (after optimization)
+  = {terms: 94, types: 100, coercions: 0}
+!!! Desugar [Blaze.ByteString.Builder.Word]: finished in 1.00 milliseconds, allocated 0.641 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Word]:
+Result size of Simplifier iteration=1
+  = {terms: 98, types: 102, coercions: 0}
+Result size of Simplifier = {terms: 98, types: 102, coercions: 0}
+!!! Simplifier [Blaze.ByteString.Builder.Word]: finished in 4.00 milliseconds, allocated 2.246 megabytes
+*** Specialise [Blaze.ByteString.Builder.Word]:
+Result size of Specialise = {terms: 98, types: 102, coercions: 0}
+!!! Specialise [Blaze.ByteString.Builder.Word]: finished in 0.00 milliseconds, allocated 0.161 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Word]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 98, types: 102, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Word]: finished in 0.00 milliseconds, allocated 0.245 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Word]:
+Result size of Simplifier iteration=1
+  = {terms: 242, types: 255, coercions: 69}
+Result size of Simplifier iteration=2
+  = {terms: 821, types: 752, coercions: 176}
+Result size of Simplifier iteration=3
+  = {terms: 530, types: 520, coercions: 148}
+Result size of Simplifier
+  = {terms: 530, types: 520, coercions: 148}
+!!! Simplifier [Blaze.ByteString.Builder.Word]: finished in 24.00 milliseconds, allocated 15.026 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Word]:
+Result size of Simplifier
+  = {terms: 530, types: 520, coercions: 148}
+!!! Simplifier [Blaze.ByteString.Builder.Word]: finished in 3.00 milliseconds, allocated 2.224 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Word]:
+Result size of Simplifier
+  = {terms: 530, types: 520, coercions: 148}
+!!! Simplifier [Blaze.ByteString.Builder.Word]: finished in 4.00 milliseconds, allocated 2.226 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Word]:
+Result size of Float inwards
+  = {terms: 530, types: 520, coercions: 148}
+!!! Float inwards [Blaze.ByteString.Builder.Word]: finished in 0.00 milliseconds, allocated 0.607 megabytes
+*** Called arity analysis [Blaze.ByteString.Builder.Word]:
+Result size of Called arity analysis
+  = {terms: 530, types: 520, coercions: 148}
+!!! Called arity analysis [Blaze.ByteString.Builder.Word]: finished in 1.00 milliseconds, allocated 0.710 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Word]:
+Result size of Simplifier
+  = {terms: 530, types: 520, coercions: 148}
+!!! Simplifier [Blaze.ByteString.Builder.Word]: finished in 4.00 milliseconds, allocated 2.227 megabytes
+*** Demand analysis [Blaze.ByteString.Builder.Word]:
+Result size of Demand analysis
+  = {terms: 530, types: 520, coercions: 148}
+!!! Demand analysis [Blaze.ByteString.Builder.Word]: finished in 2.00 milliseconds, allocated 1.815 megabytes
+*** Worker Wrapper binds [Blaze.ByteString.Builder.Word]:
+Result size of Worker Wrapper binds
+  = {terms: 530, types: 520, coercions: 148}
+!!! Worker Wrapper binds [Blaze.ByteString.Builder.Word]: finished in 0.00 milliseconds, allocated 0.203 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Word]:
+Result size of Simplifier
+  = {terms: 530, types: 520, coercions: 148}
+!!! Simplifier [Blaze.ByteString.Builder.Word]: finished in 7.00 milliseconds, allocated 3.208 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Word]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 530, types: 520, coercions: 148}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Word]: finished in 2.00 milliseconds, allocated 1.179 megabytes
+*** Common sub-expression [Blaze.ByteString.Builder.Word]:
+Result size of Common sub-expression
+  = {terms: 458, types: 454, coercions: 100}
+!!! Common sub-expression [Blaze.ByteString.Builder.Word]: finished in 2.00 milliseconds, allocated 1.117 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Word]:
+Result size of Float inwards
+  = {terms: 458, types: 454, coercions: 100}
+!!! Float inwards [Blaze.ByteString.Builder.Word]: finished in 1.00 milliseconds, allocated 0.512 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Word]:
+Result size of Simplifier
+  = {terms: 446, types: 412, coercions: 100}
+!!! Simplifier [Blaze.ByteString.Builder.Word]: finished in 4.00 milliseconds, allocated 2.529 megabytes
+*** CoreTidy [Blaze.ByteString.Builder.Word]:
+Result size of Tidy Core = {terms: 446, types: 412, coercions: 100}
+!!! CoreTidy [Blaze.ByteString.Builder.Word]: finished in 1.00 milliseconds, allocated 0.805 megabytes
+writeBinIface: 79 Names
+writeBinIface: 121 dict entries
+writeBinIface: 79 Names
+writeBinIface: 121 dict entries
+*** CorePrep [Blaze.ByteString.Builder.Word]:
+Result size of CorePrep = {terms: 814, types: 692, coercions: 320}
+!!! CorePrep [Blaze.ByteString.Builder.Word]: finished in 1.00 milliseconds, allocated 1.321 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Word]:
+!!! CodeGen [Blaze.ByteString.Builder.Word]: finished in 24.00 milliseconds, allocated 14.750 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9095_0/ghc_30.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Word.o
+*** CorePrep [Blaze.ByteString.Builder.Word]:
+Result size of CorePrep = {terms: 814, types: 692, coercions: 320}
+!!! CorePrep [Blaze.ByteString.Builder.Word]: finished in 1.00 milliseconds, allocated 1.301 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Word]:
+!!! CodeGen [Blaze.ByteString.Builder.Word]: finished in 21.00 milliseconds, allocated 15.125 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9095_0/ghc_32.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Word.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9095_0/ghc_33.c /tmp/ghc9095_0/ghc_32.s /tmp/ghc9095_0/ghc_31.c /tmp/ghc9095_0/ghc_30.s /tmp/ghc9095_0/ghc_29.s
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_33.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_31.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_29.s
+compile: input file /tmp/ghc9095_0/ghc_1.hscpp
+*** Checking old interface for Blaze.ByteString.Builder:
+[ 6 of 10] Compiling Blaze.ByteString.Builder ( Blaze/ByteString/Builder.hs, dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder.o )
+*** Parser [Blaze.ByteString.Builder]:
+!!! Parser [Blaze.ByteString.Builder]: finished in 3.00 milliseconds, allocated 6.333 megabytes
+*** Renamer/typechecker [Blaze.ByteString.Builder]:
+!!! Renamer/typechecker [Blaze.ByteString.Builder]: finished in 23.00 milliseconds, allocated 14.116 megabytes
+*** Desugar [Blaze.ByteString.Builder]:
+Result size of Desugar (after optimization)
+  = {terms: 310, types: 306, coercions: 11}
+!!! Desugar [Blaze.ByteString.Builder]: finished in 3.00 milliseconds, allocated 2.292 megabytes
+*** Simplifier [Blaze.ByteString.Builder]:
+Result size of Simplifier iteration=1
+  = {terms: 295, types: 279, coercions: 16}
+Result size of Simplifier iteration=2
+  = {terms: 286, types: 278, coercions: 29}
+Result size of Simplifier iteration=3
+  = {terms: 282, types: 270, coercions: 30}
+Result size of Simplifier = {terms: 282, types: 270, coercions: 30}
+!!! Simplifier [Blaze.ByteString.Builder]: finished in 17.00 milliseconds, allocated 9.971 megabytes
+*** Specialise [Blaze.ByteString.Builder]:
+Result size of Specialise = {terms: 282, types: 270, coercions: 30}
+!!! Specialise [Blaze.ByteString.Builder]: finished in 1.00 milliseconds, allocated 0.366 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 340, types: 333, coercions: 30}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder]: finished in 2.00 milliseconds, allocated 1.532 megabytes
+*** Simplifier [Blaze.ByteString.Builder]:
+Result size of Simplifier iteration=1
+  = {terms: 1,234, types: 1,306, coercions: 220}
+Result size of Simplifier iteration=2
+  = {terms: 974, types: 1,045, coercions: 182}
+Result size of Simplifier iteration=3
+  = {terms: 956, types: 1,029, coercions: 160}
+Result size of Simplifier iteration=4
+  = {terms: 926, types: 998, coercions: 155}
+Result size of Simplifier
+  = {terms: 926, types: 998, coercions: 155}
+!!! Simplifier [Blaze.ByteString.Builder]: finished in 44.00 milliseconds, allocated 29.385 megabytes
+*** Simplifier [Blaze.ByteString.Builder]:
+Result size of Simplifier iteration=1
+  = {terms: 980, types: 1,102, coercions: 159}
+Result size of Simplifier iteration=2
+  = {terms: 942, types: 1,027, coercions: 159}
+Result size of Simplifier iteration=3
+  = {terms: 938, types: 1,025, coercions: 159}
+Result size of Simplifier
+  = {terms: 938, types: 1,025, coercions: 159}
+!!! Simplifier [Blaze.ByteString.Builder]: finished in 28.00 milliseconds, allocated 14.922 megabytes
+*** Simplifier [Blaze.ByteString.Builder]:
+Result size of Simplifier
+  = {terms: 938, types: 1,025, coercions: 159}
+!!! Simplifier [Blaze.ByteString.Builder]: finished in 8.00 milliseconds, allocated 3.631 megabytes
+*** Float inwards [Blaze.ByteString.Builder]:
+Result size of Float inwards
+  = {terms: 938, types: 1,025, coercions: 159}
+!!! Float inwards [Blaze.ByteString.Builder]: finished in 3.00 milliseconds, allocated 1.838 megabytes
+*** Called arity analysis [Blaze.ByteString.Builder]:
+Result size of Called arity analysis
+  = {terms: 938, types: 1,025, coercions: 159}
+!!! Called arity analysis [Blaze.ByteString.Builder]: finished in 2.00 milliseconds, allocated 1.037 megabytes
+*** Simplifier [Blaze.ByteString.Builder]:
+Result size of Simplifier
+  = {terms: 938, types: 1,025, coercions: 159}
+!!! Simplifier [Blaze.ByteString.Builder]: finished in 6.00 milliseconds, allocated 3.604 megabytes
+*** Demand analysis [Blaze.ByteString.Builder]:
+Result size of Demand analysis
+  = {terms: 938, types: 1,025, coercions: 159}
+!!! Demand analysis [Blaze.ByteString.Builder]: finished in 11.00 milliseconds, allocated 5.441 megabytes
+*** Worker Wrapper binds [Blaze.ByteString.Builder]:
+Result size of Worker Wrapper binds
+  = {terms: 1,119, types: 1,236, coercions: 159}
+!!! Worker Wrapper binds [Blaze.ByteString.Builder]: finished in 1.00 milliseconds, allocated 0.509 megabytes
+*** Simplifier [Blaze.ByteString.Builder]:
+Result size of Simplifier iteration=1
+  = {terms: 1,104, types: 1,195, coercions: 159}
+Result size of Simplifier iteration=2
+  = {terms: 1,020, types: 1,076, coercions: 159}
+Result size of Simplifier
+  = {terms: 1,020, types: 1,076, coercions: 159}
+!!! Simplifier [Blaze.ByteString.Builder]: finished in 29.00 milliseconds, allocated 13.867 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,028, types: 1,084, coercions: 159}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder]: finished in 6.00 milliseconds, allocated 3.910 megabytes
+*** Common sub-expression [Blaze.ByteString.Builder]:
+Result size of Common sub-expression
+  = {terms: 1,009, types: 1,075, coercions: 159}
+!!! Common sub-expression [Blaze.ByteString.Builder]: finished in 3.00 milliseconds, allocated 1.440 megabytes
+*** Float inwards [Blaze.ByteString.Builder]:
+Result size of Float inwards
+  = {terms: 1,009, types: 1,075, coercions: 159}
+!!! Float inwards [Blaze.ByteString.Builder]: finished in 2.00 milliseconds, allocated 2.042 megabytes
+*** Simplifier [Blaze.ByteString.Builder]:
+Result size of Simplifier iteration=1
+  = {terms: 1,010, types: 1,077, coercions: 169}
+Result size of Simplifier
+  = {terms: 995, types: 1,055, coercions: 164}
+!!! Simplifier [Blaze.ByteString.Builder]: finished in 14.00 milliseconds, allocated 7.929 megabytes
+*** CoreTidy [Blaze.ByteString.Builder]:
+Result size of Tidy Core
+  = {terms: 995, types: 1,055, coercions: 164}
+!!! CoreTidy [Blaze.ByteString.Builder]: finished in 1.00 milliseconds, allocated 1.246 megabytes
+writeBinIface: 116 Names
+writeBinIface: 198 dict entries
+writeBinIface: 116 Names
+writeBinIface: 198 dict entries
+*** CorePrep [Blaze.ByteString.Builder]:
+Result size of CorePrep
+  = {terms: 1,250, types: 1,196, coercions: 164}
+!!! CorePrep [Blaze.ByteString.Builder]: finished in 5.00 milliseconds, allocated 2.349 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder]:
+!!! CodeGen [Blaze.ByteString.Builder]: finished in 153.00 milliseconds, allocated 39.837 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9095_0/ghc_35.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder.o
+*** CorePrep [Blaze.ByteString.Builder]:
+Result size of CorePrep
+  = {terms: 1,250, types: 1,196, coercions: 164}
+!!! CorePrep [Blaze.ByteString.Builder]: finished in 6.00 milliseconds, allocated 2.241 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder]:
+!!! CodeGen [Blaze.ByteString.Builder]: finished in 62.00 milliseconds, allocated 41.623 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9095_0/ghc_37.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9095_0/ghc_38.c /tmp/ghc9095_0/ghc_37.s /tmp/ghc9095_0/ghc_36.c /tmp/ghc9095_0/ghc_35.s /tmp/ghc9095_0/ghc_34.s
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_38.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_36.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_34.s
+compile: input file ./Blaze/ByteString/Builder/Char/Utf8.hs
+*** Checking old interface for Blaze.ByteString.Builder.Char.Utf8:
+[ 7 of 10] Compiling Blaze.ByteString.Builder.Char.Utf8 ( Blaze/ByteString/Builder/Char/Utf8.hs, dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Char/Utf8.o )
+*** Parser [Blaze.ByteString.Builder.Char.Utf8]:
+!!! Parser [Blaze.ByteString.Builder.Char.Utf8]: finished in 2.00 milliseconds, allocated 1.648 megabytes
+*** Renamer/typechecker [Blaze.ByteString.Builder.Char.Utf8]:
+!!! Renamer/typechecker [Blaze.ByteString.Builder.Char.Utf8]: finished in 162.00 milliseconds, allocated 101.932 megabytes
+*** Desugar [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Desugar (after optimization)
+  = {terms: 28, types: 32, coercions: 0}
+!!! Desugar [Blaze.ByteString.Builder.Char.Utf8]: finished in 1.00 milliseconds, allocated 0.229 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Simplifier iteration=1
+  = {terms: 34, types: 35, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 34, types: 35, coercions: 0}
+Result size of Simplifier = {terms: 34, types: 35, coercions: 0}
+!!! Simplifier [Blaze.ByteString.Builder.Char.Utf8]: finished in 28.00 milliseconds, allocated 16.109 megabytes
+*** Specialise [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Specialise = {terms: 34, types: 35, coercions: 0}
+!!! Specialise [Blaze.ByteString.Builder.Char.Utf8]: finished in 0.00 milliseconds, allocated 0.081 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 34, types: 35, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Char.Utf8]: finished in 0.00 milliseconds, allocated 0.180 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Simplifier iteration=1
+  = {terms: 2,075, types: 1,765, coercions: 132}
+Result size of Simplifier iteration=2
+  = {terms: 899, types: 455, coercions: 78}
+Result size of Simplifier = {terms: 899, types: 455, coercions: 78}
+!!! Simplifier [Blaze.ByteString.Builder.Char.Utf8]: finished in 62.00 milliseconds, allocated 49.421 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Simplifier iteration=1
+  = {terms: 873, types: 447, coercions: 78}
+Result size of Simplifier iteration=2
+  = {terms: 870, types: 444, coercions: 78}
+Result size of Simplifier = {terms: 870, types: 444, coercions: 78}
+!!! Simplifier [Blaze.ByteString.Builder.Char.Utf8]: finished in 27.00 milliseconds, allocated 18.854 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Simplifier iteration=1
+  = {terms: 986, types: 465, coercions: 78}
+Result size of Simplifier iteration=2
+  = {terms: 876, types: 427, coercions: 78}
+Result size of Simplifier = {terms: 876, types: 427, coercions: 78}
+!!! Simplifier [Blaze.ByteString.Builder.Char.Utf8]: finished in 20.00 milliseconds, allocated 17.807 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Float inwards
+  = {terms: 876, types: 427, coercions: 78}
+!!! Float inwards [Blaze.ByteString.Builder.Char.Utf8]: finished in 1.00 milliseconds, allocated 1.451 megabytes
+*** Called arity analysis [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Called arity analysis
+  = {terms: 876, types: 427, coercions: 78}
+!!! Called arity analysis [Blaze.ByteString.Builder.Char.Utf8]: finished in 1.00 milliseconds, allocated 1.367 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Simplifier = {terms: 876, types: 427, coercions: 78}
+!!! Simplifier [Blaze.ByteString.Builder.Char.Utf8]: finished in 5.00 milliseconds, allocated 5.567 megabytes
+*** Demand analysis [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Demand analysis
+  = {terms: 876, types: 427, coercions: 78}
+!!! Demand analysis [Blaze.ByteString.Builder.Char.Utf8]: finished in 7.00 milliseconds, allocated 6.590 megabytes
+*** Worker Wrapper binds [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Worker Wrapper binds
+  = {terms: 1,029, types: 642, coercions: 78}
+!!! Worker Wrapper binds [Blaze.ByteString.Builder.Char.Utf8]: finished in 0.00 milliseconds, allocated 0.335 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,102, types: 689, coercions: 78}
+Result size of Simplifier iteration=2
+  = {terms: 1,016, types: 524, coercions: 78}
+Result size of Simplifier
+  = {terms: 1,016, types: 524, coercions: 78}
+!!! Simplifier [Blaze.ByteString.Builder.Char.Utf8]: finished in 23.00 milliseconds, allocated 19.693 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,023, types: 544, coercions: 78}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Char.Utf8]: finished in 2.00 milliseconds, allocated 2.855 megabytes
+*** Common sub-expression [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Common sub-expression
+  = {terms: 1,022, types: 544, coercions: 78}
+!!! Common sub-expression [Blaze.ByteString.Builder.Char.Utf8]: finished in 5.00 milliseconds, allocated 1.791 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Float inwards
+  = {terms: 1,022, types: 544, coercions: 78}
+!!! Float inwards [Blaze.ByteString.Builder.Char.Utf8]: finished in 1.00 milliseconds, allocated 1.641 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Simplifier iteration=1
+  = {terms: 1,020, types: 543, coercions: 78}
+Result size of Simplifier
+  = {terms: 1,020, types: 543, coercions: 78}
+!!! Simplifier [Blaze.ByteString.Builder.Char.Utf8]: finished in 14.00 milliseconds, allocated 11.527 megabytes
+*** CoreTidy [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of Tidy Core
+  = {terms: 1,020, types: 543, coercions: 78}
+!!! CoreTidy [Blaze.ByteString.Builder.Char.Utf8]: finished in 2.00 milliseconds, allocated 1.494 megabytes
+writeBinIface: 39 Names
+writeBinIface: 124 dict entries
+writeBinIface: 39 Names
+writeBinIface: 124 dict entries
+*** CorePrep [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of CorePrep = {terms: 1,732, types: 865, coercions: 98}
+!!! CorePrep [Blaze.ByteString.Builder.Char.Utf8]: finished in 3.00 milliseconds, allocated 2.458 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Char.Utf8]:
+!!! CodeGen [Blaze.ByteString.Builder.Char.Utf8]: finished in 32.00 milliseconds, allocated 27.049 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder/Char -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9095_0/ghc_40.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Char/Utf8.o
+*** CorePrep [Blaze.ByteString.Builder.Char.Utf8]:
+Result size of CorePrep = {terms: 1,732, types: 865, coercions: 98}
+!!! CorePrep [Blaze.ByteString.Builder.Char.Utf8]: finished in 2.00 milliseconds, allocated 2.405 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Char.Utf8]:
+!!! CodeGen [Blaze.ByteString.Builder.Char.Utf8]: finished in 30.00 milliseconds, allocated 27.915 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder/Char -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9095_0/ghc_42.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Char/Utf8.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9095_0/ghc_43.c /tmp/ghc9095_0/ghc_42.s /tmp/ghc9095_0/ghc_41.c /tmp/ghc9095_0/ghc_40.s /tmp/ghc9095_0/ghc_39.s
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_43.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_41.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_39.s
+compile: input file ./Blaze/ByteString/Builder/Char8.hs
+*** Checking old interface for Blaze.ByteString.Builder.Char8:
+[ 8 of 10] Compiling Blaze.ByteString.Builder.Char8 ( Blaze/ByteString/Builder/Char8.hs, dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Char8.o )
+*** Parser [Blaze.ByteString.Builder.Char8]:
+!!! Parser [Blaze.ByteString.Builder.Char8]: finished in 2.00 milliseconds, allocated 1.761 megabytes
+*** Renamer/typechecker [Blaze.ByteString.Builder.Char8]:
+!!! Renamer/typechecker [Blaze.ByteString.Builder.Char8]: finished in 4.00 milliseconds, allocated 2.324 megabytes
+*** Desugar [Blaze.ByteString.Builder.Char8]:
+Result size of Desugar (after optimization)
+  = {terms: 29, types: 33, coercions: 0}
+!!! Desugar [Blaze.ByteString.Builder.Char8]: finished in 1.00 milliseconds, allocated 0.232 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char8]:
+Result size of Simplifier iteration=1
+  = {terms: 35, types: 36, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 35, types: 36, coercions: 0}
+Result size of Simplifier = {terms: 35, types: 36, coercions: 0}
+!!! Simplifier [Blaze.ByteString.Builder.Char8]: finished in 8.00 milliseconds, allocated 3.514 megabytes
+*** Specialise [Blaze.ByteString.Builder.Char8]:
+Result size of Specialise = {terms: 35, types: 36, coercions: 0}
+!!! Specialise [Blaze.ByteString.Builder.Char8]: finished in 0.00 milliseconds, allocated 0.082 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Char8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 35, types: 36, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Char8]: finished in 0.00 milliseconds, allocated 0.184 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char8]:
+Result size of Simplifier iteration=1
+  = {terms: 489, types: 578, coercions: 132}
+Result size of Simplifier iteration=2
+  = {terms: 320, types: 378, coercions: 87}
+Result size of Simplifier iteration=3
+  = {terms: 282, types: 329, coercions: 87}
+Result size of Simplifier = {terms: 282, types: 329, coercions: 87}
+!!! Simplifier [Blaze.ByteString.Builder.Char8]: finished in 22.00 milliseconds, allocated 12.447 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char8]:
+Result size of Simplifier iteration=1
+  = {terms: 283, types: 330, coercions: 87}
+Result size of Simplifier = {terms: 283, types: 330, coercions: 87}
+!!! Simplifier [Blaze.ByteString.Builder.Char8]: finished in 9.00 milliseconds, allocated 4.233 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char8]:
+Result size of Simplifier iteration=1
+  = {terms: 471, types: 387, coercions: 87}
+Result size of Simplifier iteration=2
+  = {terms: 370, types: 352, coercions: 87}
+Result size of Simplifier = {terms: 370, types: 352, coercions: 87}
+!!! Simplifier [Blaze.ByteString.Builder.Char8]: finished in 12.00 milliseconds, allocated 7.457 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Char8]:
+Result size of Float inwards
+  = {terms: 370, types: 352, coercions: 87}
+!!! Float inwards [Blaze.ByteString.Builder.Char8]: finished in 0.00 milliseconds, allocated 0.554 megabytes
+*** Called arity analysis [Blaze.ByteString.Builder.Char8]:
+Result size of Called arity analysis
+  = {terms: 370, types: 352, coercions: 87}
+!!! Called arity analysis [Blaze.ByteString.Builder.Char8]: finished in 0.00 milliseconds, allocated 0.576 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char8]:
+Result size of Simplifier = {terms: 370, types: 352, coercions: 87}
+!!! Simplifier [Blaze.ByteString.Builder.Char8]: finished in 6.00 milliseconds, allocated 2.375 megabytes
+*** Demand analysis [Blaze.ByteString.Builder.Char8]:
+Result size of Demand analysis
+  = {terms: 370, types: 352, coercions: 87}
+!!! Demand analysis [Blaze.ByteString.Builder.Char8]: finished in 3.00 milliseconds, allocated 2.400 megabytes
+*** Worker Wrapper binds [Blaze.ByteString.Builder.Char8]:
+Result size of Worker Wrapper binds
+  = {terms: 523, types: 567, coercions: 87}
+!!! Worker Wrapper binds [Blaze.ByteString.Builder.Char8]: finished in 1.00 milliseconds, allocated 0.239 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char8]:
+Result size of Simplifier iteration=1
+  = {terms: 605, types: 623, coercions: 87}
+Result size of Simplifier iteration=2
+  = {terms: 519, types: 458, coercions: 87}
+Result size of Simplifier = {terms: 519, types: 458, coercions: 87}
+!!! Simplifier [Blaze.ByteString.Builder.Char8]: finished in 17.00 milliseconds, allocated 9.997 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Char8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 526, types: 478, coercions: 87}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Char8]: finished in 4.00 milliseconds, allocated 1.849 megabytes
+*** Common sub-expression [Blaze.ByteString.Builder.Char8]:
+Result size of Common sub-expression
+  = {terms: 525, types: 478, coercions: 87}
+!!! Common sub-expression [Blaze.ByteString.Builder.Char8]: finished in 1.00 milliseconds, allocated 0.932 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Char8]:
+Result size of Float inwards
+  = {terms: 525, types: 478, coercions: 87}
+!!! Float inwards [Blaze.ByteString.Builder.Char8]: finished in 1.00 milliseconds, allocated 0.768 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Char8]:
+Result size of Simplifier iteration=1
+  = {terms: 523, types: 477, coercions: 87}
+Result size of Simplifier = {terms: 523, types: 477, coercions: 87}
+!!! Simplifier [Blaze.ByteString.Builder.Char8]: finished in 11.00 milliseconds, allocated 5.690 megabytes
+*** CoreTidy [Blaze.ByteString.Builder.Char8]:
+Result size of Tidy Core = {terms: 523, types: 477, coercions: 87}
+!!! CoreTidy [Blaze.ByteString.Builder.Char8]: finished in 1.00 milliseconds, allocated 0.825 megabytes
+writeBinIface: 42 Names
+writeBinIface: 117 dict entries
+writeBinIface: 42 Names
+writeBinIface: 117 dict entries
+*** CorePrep [Blaze.ByteString.Builder.Char8]:
+Result size of CorePrep = {terms: 796, types: 656, coercions: 107}
+!!! CorePrep [Blaze.ByteString.Builder.Char8]: finished in 2.00 milliseconds, allocated 1.325 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Char8]:
+!!! CodeGen [Blaze.ByteString.Builder.Char8]: finished in 36.00 milliseconds, allocated 21.077 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9095_0/ghc_45.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Char8.o
+*** CorePrep [Blaze.ByteString.Builder.Char8]:
+Result size of CorePrep = {terms: 796, types: 656, coercions: 107}
+!!! CorePrep [Blaze.ByteString.Builder.Char8]: finished in 1.00 milliseconds, allocated 1.277 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Char8]:
+!!! CodeGen [Blaze.ByteString.Builder.Char8]: finished in 26.00 milliseconds, allocated 21.956 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9095_0/ghc_47.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Char8.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9095_0/ghc_48.c /tmp/ghc9095_0/ghc_47.s /tmp/ghc9095_0/ghc_46.c /tmp/ghc9095_0/ghc_45.s /tmp/ghc9095_0/ghc_44.s
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_48.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_46.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_44.s
+compile: input file /tmp/ghc9095_0/ghc_5.hscpp
+*** Checking old interface for Blaze.ByteString.Builder.HTTP:
+[ 9 of 10] Compiling Blaze.ByteString.Builder.HTTP ( Blaze/ByteString/Builder/HTTP.hs, dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/HTTP.o )
+*** Parser [Blaze.ByteString.Builder.HTTP]:
+!!! Parser [Blaze.ByteString.Builder.HTTP]: finished in 5.00 milliseconds, allocated 6.976 megabytes
+*** Renamer/typechecker [Blaze.ByteString.Builder.HTTP]:
+!!! Renamer/typechecker [Blaze.ByteString.Builder.HTTP]: finished in 36.00 milliseconds, allocated 21.553 megabytes
+*** Desugar [Blaze.ByteString.Builder.HTTP]:
+Result size of Desugar (after optimization)
+  = {terms: 551, types: 537, coercions: 22}
+!!! Desugar [Blaze.ByteString.Builder.HTTP]: finished in 7.00 milliseconds, allocated 3.373 megabytes
+*** Simplifier [Blaze.ByteString.Builder.HTTP]:
+Result size of Simplifier iteration=1
+  = {terms: 545, types: 485, coercions: 35}
+Result size of Simplifier iteration=2
+  = {terms: 532, types: 488, coercions: 57}
+Result size of Simplifier iteration=3
+  = {terms: 526, types: 475, coercions: 69}
+Result size of Simplifier = {terms: 526, types: 475, coercions: 69}
+!!! Simplifier [Blaze.ByteString.Builder.HTTP]: finished in 25.00 milliseconds, allocated 17.858 megabytes
+*** Specialise [Blaze.ByteString.Builder.HTTP]:
+Result size of Specialise = {terms: 573, types: 507, coercions: 71}
+!!! Specialise [Blaze.ByteString.Builder.HTTP]: finished in 1.00 milliseconds, allocated 0.738 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.HTTP]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 746, types: 705, coercions: 71}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.HTTP]: finished in 3.00 milliseconds, allocated 3.639 megabytes
+*** Simplifier [Blaze.ByteString.Builder.HTTP]:
+Result size of Simplifier iteration=1
+  = {terms: 4,558, types: 4,927, coercions: 305}
+Result size of Simplifier iteration=2
+  = {terms: 1,054, types: 668, coercions: 109}
+Result size of Simplifier iteration=3
+  = {terms: 976, types: 566, coercions: 86}
+Result size of Simplifier iteration=4
+  = {terms: 969, types: 569, coercions: 86}
+Result size of Simplifier = {terms: 969, types: 569, coercions: 86}
+!!! Simplifier [Blaze.ByteString.Builder.HTTP]: finished in 133.00 milliseconds, allocated 90.031 megabytes
+*** Simplifier [Blaze.ByteString.Builder.HTTP]:
+Result size of Simplifier iteration=1
+  = {terms: 1,007, types: 611, coercions: 86}
+Result size of Simplifier iteration=2
+  = {terms: 968, types: 596, coercions: 86}
+Result size of Simplifier = {terms: 968, types: 596, coercions: 86}
+!!! Simplifier [Blaze.ByteString.Builder.HTTP]: finished in 131.00 milliseconds, allocated 41.852 megabytes
+*** Simplifier [Blaze.ByteString.Builder.HTTP]:
+Result size of Simplifier = {terms: 968, types: 596, coercions: 86}
+!!! Simplifier [Blaze.ByteString.Builder.HTTP]: finished in 4.00 milliseconds, allocated 3.078 megabytes
+*** Float inwards [Blaze.ByteString.Builder.HTTP]:
+Result size of Float inwards
+  = {terms: 968, types: 596, coercions: 86}
+!!! Float inwards [Blaze.ByteString.Builder.HTTP]: finished in 1.00 milliseconds, allocated 1.913 megabytes
+*** Called arity analysis [Blaze.ByteString.Builder.HTTP]:
+Result size of Called arity analysis
+  = {terms: 968, types: 596, coercions: 86}
+!!! Called arity analysis [Blaze.ByteString.Builder.HTTP]: finished in 2.00 milliseconds, allocated 2.302 megabytes
+*** Simplifier [Blaze.ByteString.Builder.HTTP]:
+Result size of Simplifier iteration=1
+  = {terms: 967, types: 592, coercions: 86}
+Result size of Simplifier = {terms: 967, types: 592, coercions: 86}
+!!! Simplifier [Blaze.ByteString.Builder.HTTP]: finished in 8.00 milliseconds, allocated 6.138 megabytes
+*** Demand analysis [Blaze.ByteString.Builder.HTTP]:
+Result size of Demand analysis
+  = {terms: 967, types: 592, coercions: 86}
+!!! Demand analysis [Blaze.ByteString.Builder.HTTP]: finished in 12.00 milliseconds, allocated 9.033 megabytes
+*** Worker Wrapper binds [Blaze.ByteString.Builder.HTTP]:
+Result size of Worker Wrapper binds
+  = {terms: 1,217, types: 855, coercions: 86}
+!!! Worker Wrapper binds [Blaze.ByteString.Builder.HTTP]: finished in 1.00 milliseconds, allocated 0.540 megabytes
+*** Simplifier [Blaze.ByteString.Builder.HTTP]:
+Result size of Simplifier iteration=1
+  = {terms: 1,026, types: 718, coercions: 86}
+Result size of Simplifier iteration=2
+  = {terms: 899, types: 574, coercions: 86}
+Result size of Simplifier = {terms: 899, types: 574, coercions: 86}
+!!! Simplifier [Blaze.ByteString.Builder.HTTP]: finished in 12.00 milliseconds, allocated 11.134 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.HTTP]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 901, types: 585, coercions: 86}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.HTTP]: finished in 7.00 milliseconds, allocated 2.608 megabytes
+*** Common sub-expression [Blaze.ByteString.Builder.HTTP]:
+Result size of Common sub-expression
+  = {terms: 901, types: 585, coercions: 86}
+!!! Common sub-expression [Blaze.ByteString.Builder.HTTP]: finished in 1.00 milliseconds, allocated 0.751 megabytes
+*** Float inwards [Blaze.ByteString.Builder.HTTP]:
+Result size of Float inwards
+  = {terms: 901, types: 585, coercions: 86}
+!!! Float inwards [Blaze.ByteString.Builder.HTTP]: finished in 1.00 milliseconds, allocated 1.718 megabytes
+*** Simplifier [Blaze.ByteString.Builder.HTTP]:
+Result size of Simplifier iteration=1
+  = {terms: 896, types: 562, coercions: 86}
+Result size of Simplifier = {terms: 896, types: 562, coercions: 86}
+!!! Simplifier [Blaze.ByteString.Builder.HTTP]: finished in 9.00 milliseconds, allocated 5.896 megabytes
+*** CoreTidy [Blaze.ByteString.Builder.HTTP]:
+Result size of Tidy Core = {terms: 894, types: 560, coercions: 86}
+!!! CoreTidy [Blaze.ByteString.Builder.HTTP]: finished in 1.00 milliseconds, allocated 0.874 megabytes
+writeBinIface: 17 Names
+writeBinIface: 93 dict entries
+writeBinIface: 17 Names
+writeBinIface: 93 dict entries
+*** CorePrep [Blaze.ByteString.Builder.HTTP]:
+Result size of CorePrep
+  = {terms: 1,326, types: 753, coercions: 100}
+!!! CorePrep [Blaze.ByteString.Builder.HTTP]: finished in 2.00 milliseconds, allocated 2.115 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.HTTP]:
+!!! CodeGen [Blaze.ByteString.Builder.HTTP]: finished in 29.00 milliseconds, allocated 20.530 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9095_0/ghc_50.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/HTTP.o
+*** CorePrep [Blaze.ByteString.Builder.HTTP]:
+Result size of CorePrep
+  = {terms: 1,326, types: 753, coercions: 100}
+!!! CorePrep [Blaze.ByteString.Builder.HTTP]: finished in 2.00 milliseconds, allocated 2.047 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.HTTP]:
+!!! CodeGen [Blaze.ByteString.Builder.HTTP]: finished in 30.00 milliseconds, allocated 21.178 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9095_0/ghc_52.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/HTTP.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9095_0/ghc_53.c /tmp/ghc9095_0/ghc_52.s /tmp/ghc9095_0/ghc_51.c /tmp/ghc9095_0/ghc_50.s /tmp/ghc9095_0/ghc_49.s
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_53.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_51.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_49.s
+compile: input file /tmp/ghc9095_0/ghc_3.hscpp
+*** Checking old interface for Blaze.ByteString.Builder.Html.Utf8:
+[10 of 10] Compiling Blaze.ByteString.Builder.Html.Utf8 ( Blaze/ByteString/Builder/Html/Utf8.hs, dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Html/Utf8.o )
+*** Parser [Blaze.ByteString.Builder.Html.Utf8]:
+!!! Parser [Blaze.ByteString.Builder.Html.Utf8]: finished in 2.00 milliseconds, allocated 3.889 megabytes
+*** Renamer/typechecker [Blaze.ByteString.Builder.Html.Utf8]:
+!!! Renamer/typechecker [Blaze.ByteString.Builder.Html.Utf8]: finished in 15.00 milliseconds, allocated 6.365 megabytes
+*** Desugar [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Desugar (after optimization)
+  = {terms: 275, types: 461, coercions: 0}
+!!! Desugar [Blaze.ByteString.Builder.Html.Utf8]: finished in 3.00 milliseconds, allocated 1.987 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Simplifier iteration=1
+  = {terms: 264, types: 426, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 264, types: 426, coercions: 0}
+Result size of Simplifier = {terms: 264, types: 426, coercions: 0}
+!!! Simplifier [Blaze.ByteString.Builder.Html.Utf8]: finished in 12.00 milliseconds, allocated 7.528 megabytes
+*** Specialise [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Specialise = {terms: 272, types: 460, coercions: 4}
+!!! Specialise [Blaze.ByteString.Builder.Html.Utf8]: finished in 0.00 milliseconds, allocated 0.444 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 446, types: 757, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Blaze.ByteString.Builder.Html.Utf8]: finished in 1.00 milliseconds, allocated 1.564 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Simplifier iteration=1
+  = {terms: 31,573, types: 29,956, coercions: 1,638}
+Result size of Simplifier iteration=2
+  = {terms: 2,950, types: 1,216, coercions: 96}
+Result size of Simplifier iteration=3
+  = {terms: 2,871, types: 1,149, coercions: 87}
+Result size of Simplifier
+  = {terms: 2,871, types: 1,149, coercions: 87}
+!!! Simplifier [Blaze.ByteString.Builder.Html.Utf8]: finished in 616.00 milliseconds, allocated 331.090 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Simplifier iteration=1
+  = {terms: 4,225, types: 2,222, coercions: 87}
+Result size of Simplifier iteration=2
+  = {terms: 2,686, types: 1,153, coercions: 87}
+Result size of Simplifier iteration=3
+  = {terms: 2,750, types: 1,197, coercions: 87}
+Result size of Simplifier iteration=4
+  = {terms: 2,614, types: 1,129, coercions: 87}
+Result size of Simplifier
+  = {terms: 2,614, types: 1,129, coercions: 87}
+!!! Simplifier [Blaze.ByteString.Builder.Html.Utf8]: finished in 53.00 milliseconds, allocated 40.822 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Simplifier iteration=1
+  = {terms: 2,706, types: 1,138, coercions: 87}
+Result size of Simplifier iteration=2
+  = {terms: 2,593, types: 1,099, coercions: 87}
+Result size of Simplifier
+  = {terms: 2,593, types: 1,099, coercions: 87}
+!!! Simplifier [Blaze.ByteString.Builder.Html.Utf8]: finished in 31.00 milliseconds, allocated 25.876 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Float inwards
+  = {terms: 2,593, types: 1,099, coercions: 87}
+!!! Float inwards [Blaze.ByteString.Builder.Html.Utf8]: finished in 3.00 milliseconds, allocated 3.892 megabytes
+*** Called arity analysis [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Called arity analysis
+  = {terms: 2,593, types: 1,099, coercions: 87}
+!!! Called arity analysis [Blaze.ByteString.Builder.Html.Utf8]: finished in 4.00 milliseconds, allocated 3.527 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Simplifier
+  = {terms: 2,593, types: 1,099, coercions: 87}
+!!! Simplifier [Blaze.ByteString.Builder.Html.Utf8]: finished in 14.00 milliseconds, allocated 8.236 megabytes
+*** Demand analysis [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Demand analysis
+  = {terms: 2,593, types: 1,099, coercions: 87}
+!!! Demand analysis [Blaze.ByteString.Builder.Html.Utf8]: finished in 21.00 milliseconds, allocated 17.703 megabytes
+*** Worker Wrapper binds [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Worker Wrapper binds
+  = {terms: 2,766, types: 1,339, coercions: 87}
+!!! Worker Wrapper binds [Blaze.ByteString.Builder.Html.Utf8]: finished in 1.00 milliseconds, allocated 0.750 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Simplifier iteration=1
+  = {terms: 2,809, types: 1,360, coercions: 87}
+Result size of Simplifier iteration=2
+  = {terms: 2,714, types: 1,186, coercions: 87}
+Result size of Simplifier
+  = {terms: 2,714, types: 1,186, coercions: 87}
+!!! Simplifier [Blaze.ByteString.Builder.Html.Utf8]: finished in 46.00 milliseconds, allocated 27.844 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,721, types: 1,206, coercions: 87}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Blaze.ByteString.Builder.Html.Utf8]: finished in 8.00 milliseconds, allocated 6.489 megabytes
+*** Common sub-expression [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Common sub-expression
+  = {terms: 2,720, types: 1,206, coercions: 87}
+!!! Common sub-expression [Blaze.ByteString.Builder.Html.Utf8]: finished in 3.00 milliseconds, allocated 2.452 megabytes
+*** Float inwards [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Float inwards
+  = {terms: 2,720, types: 1,206, coercions: 87}
+!!! Float inwards [Blaze.ByteString.Builder.Html.Utf8]: finished in 3.00 milliseconds, allocated 4.013 megabytes
+*** Simplifier [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Simplifier iteration=1
+  = {terms: 2,718, types: 1,205, coercions: 87}
+Result size of Simplifier
+  = {terms: 2,718, types: 1,205, coercions: 87}
+!!! Simplifier [Blaze.ByteString.Builder.Html.Utf8]: finished in 32.00 milliseconds, allocated 16.728 megabytes
+*** CoreTidy [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of Tidy Core
+  = {terms: 2,718, types: 1,205, coercions: 87}
+!!! CoreTidy [Blaze.ByteString.Builder.Html.Utf8]: finished in 3.00 milliseconds, allocated 2.063 megabytes
+writeBinIface: 69 Names
+writeBinIface: 165 dict entries
+writeBinIface: 69 Names
+writeBinIface: 165 dict entries
+*** CorePrep [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of CorePrep
+  = {terms: 3,927, types: 1,708, coercions: 107}
+!!! CorePrep [Blaze.ByteString.Builder.Html.Utf8]: finished in 7.00 milliseconds, allocated 5.558 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Html.Utf8]:
+!!! CodeGen [Blaze.ByteString.Builder.Html.Utf8]: finished in 70.00 milliseconds, allocated 51.976 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder/Html -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9095_0/ghc_55.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Html/Utf8.o
+*** CorePrep [Blaze.ByteString.Builder.Html.Utf8]:
+Result size of CorePrep
+  = {terms: 3,927, types: 1,708, coercions: 107}
+!!! CorePrep [Blaze.ByteString.Builder.Html.Utf8]: finished in 4.00 milliseconds, allocated 5.437 megabytes
+*** Stg2Stg:
+*** CodeGen [Blaze.ByteString.Builder.Html.Utf8]:
+!!! CodeGen [Blaze.ByteString.Builder.Html.Utf8]: finished in 66.00 milliseconds, allocated 53.153 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Blaze/ByteString/Builder/Html -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9095_0/ghc_57.s -o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Html/Utf8.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc9095_0/ghc_58.c /tmp/ghc9095_0/ghc_57.s /tmp/ghc9095_0/ghc_56.c /tmp/ghc9095_0/ghc_55.s /tmp/ghc9095_0/ghc_54.s
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_58.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_56.c
+Warning: deleting non-existent /tmp/ghc9095_0/ghc_54.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc9095_0/ghc_7.hscpp /tmp/ghc9095_0/ghc_5.hscpp /tmp/ghc9095_0/ghc_3.hscpp /tmp/ghc9095_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9095_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -o dist/dist-sandbox-6afc8227/build/libHSblaze-builder-0.4.0.2-6Lw6V3wDhf3KDMasjNOEeG-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSblaze-builder-0.4.0.2-6Lw6V3wDhf3KDMasjNOEeG-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder.dyn_o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Int.dyn_o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Word.dyn_o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/ByteString.dyn_o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Char/Utf8.dyn_o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Char8.dyn_o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Html/Utf8.dyn_o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/HTTP.dyn_o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Compat/Write.dyn_o dist/dist-sandbox-6afc8227/build/Blaze/ByteString/Builder/Internal/Write.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHStext-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs-ghc8.0.1 -lHSbinary-0.8.3.0-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc9533_0
+*** Deleting temp files:
+Deleting: /tmp/ghc9533_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9533_0
+Creating package registration file:
+/tmp/pkgConf-blaze-builder-0.4.019607098591760281936.2
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/blaze-builder-0.4.0.2-6Lw6V3wDhf3KDMasjNOEeG
+Registering blaze-builder-0.4.0.2...
+cabal: Leaving directory '/tmp/cabal-tmp-1025/blaze-builder-0.4.0.2'

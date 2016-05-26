@@ -1,0 +1,708 @@
+cabal: Entering directory '/tmp/cabal-tmp-1025/appar-0.1.4'
+Configuring appar-0.1.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc1349_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/16816927771714636915.c -o /tmp/ghc1349_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc1349_0/ghc_1.s -o /tmp/1957747793424238335.o
+*** Deleting temp files:
+Deleting: /tmp/ghc1349_0/ghc_2.rsp /tmp/ghc1349_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1349_0
+Building appar-0.1.4...
+Preprocessing library appar-0.1.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Text.Appar.String,*Text.Appar.ByteString,*Text.Appar.LazyByteString,*Text.Appar.Input,*Text.Appar.Parser
+!!! Chasing dependencies: finished in 6.00 milliseconds, allocated 4.712 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2011-08-30 08:22:36 UTC
+         ms_mod = Text.Appar.Input,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.ByteString.Lazy.Char8),
+                            (Nothing, Data.ByteString.Char8)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2011-08-30 08:22:36 UTC
+         ms_mod = Text.Appar.Parser,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Text.Appar.Input),
+                            (Nothing, Data.Char), (Nothing, Control.Monad),
+                            (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2011-08-30 08:22:36 UTC
+         ms_mod = Text.Appar.String,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.Appar.Parser)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2011-08-30 08:22:36 UTC
+         ms_mod = Text.Appar.ByteString,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.Appar.Parser), (Nothing, Data.ByteString.Char8)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2011-08-30 08:22:36 UTC
+         ms_mod = Text.Appar.LazyByteString,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.Appar.Parser),
+                            (Nothing, Data.ByteString.Lazy.Char8)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: 
+compile: input file ./Text/Appar/Input.hs
+*** Checking old interface for Text.Appar.Input:
+[1 of 5] Compiling Text.Appar.Input ( Text/Appar/Input.hs, dist/dist-sandbox-6afc8227/build/Text/Appar/Input.o )
+*** Parser [Text.Appar.Input]:
+!!! Parser [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.760 megabytes
+*** Renamer/typechecker [Text.Appar.Input]:
+!!! Renamer/typechecker [Text.Appar.Input]: finished in 273.00 milliseconds, allocated 123.198 megabytes
+*** Desugar [Text.Appar.Input]:
+Result size of Desugar (after optimization)
+  = {terms: 47, types: 22, coercions: 0}
+!!! Desugar [Text.Appar.Input]: finished in 51.00 milliseconds, allocated 0.563 megabytes
+*** Simplifier [Text.Appar.Input]:
+Result size of Simplifier iteration=1
+  = {terms: 53, types: 24, coercions: 0}
+Result size of Simplifier = {terms: 53, types: 24, coercions: 0}
+!!! Simplifier [Text.Appar.Input]: finished in 20.00 milliseconds, allocated 13.327 megabytes
+*** Specialise [Text.Appar.Input]:
+Result size of Specialise = {terms: 53, types: 24, coercions: 0}
+!!! Specialise [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.095 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Appar.Input]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 53, types: 24, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.179 megabytes
+*** Simplifier [Text.Appar.Input]:
+Result size of Simplifier iteration=1
+  = {terms: 53, types: 25, coercions: 0}
+Result size of Simplifier = {terms: 53, types: 25, coercions: 0}
+!!! Simplifier [Text.Appar.Input]: finished in 1.00 milliseconds, allocated 0.477 megabytes
+*** Simplifier [Text.Appar.Input]:
+Result size of Simplifier = {terms: 53, types: 25, coercions: 0}
+!!! Simplifier [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.238 megabytes
+*** Simplifier [Text.Appar.Input]:
+Result size of Simplifier = {terms: 53, types: 25, coercions: 0}
+!!! Simplifier [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.236 megabytes
+*** Float inwards [Text.Appar.Input]:
+Result size of Float inwards = {terms: 53, types: 25, coercions: 0}
+!!! Float inwards [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.084 megabytes
+*** Called arity analysis [Text.Appar.Input]:
+Result size of Called arity analysis
+  = {terms: 53, types: 25, coercions: 0}
+!!! Called arity analysis [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.085 megabytes
+*** Simplifier [Text.Appar.Input]:
+Result size of Simplifier = {terms: 53, types: 25, coercions: 0}
+!!! Simplifier [Text.Appar.Input]: finished in 1.00 milliseconds, allocated 0.236 megabytes
+*** Demand analysis [Text.Appar.Input]:
+Result size of Demand analysis
+  = {terms: 53, types: 25, coercions: 0}
+!!! Demand analysis [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.177 megabytes
+*** Worker Wrapper binds [Text.Appar.Input]:
+Result size of Worker Wrapper binds
+  = {terms: 53, types: 25, coercions: 0}
+!!! Worker Wrapper binds [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.062 megabytes
+*** Simplifier [Text.Appar.Input]:
+Result size of Simplifier = {terms: 53, types: 25, coercions: 0}
+!!! Simplifier [Text.Appar.Input]: finished in 1.00 milliseconds, allocated 0.248 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Appar.Input]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 53, types: 25, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.177 megabytes
+*** Common sub-expression [Text.Appar.Input]:
+Result size of Common sub-expression
+  = {terms: 53, types: 25, coercions: 0}
+!!! Common sub-expression [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.082 megabytes
+*** Float inwards [Text.Appar.Input]:
+Result size of Float inwards = {terms: 53, types: 25, coercions: 0}
+!!! Float inwards [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.084 megabytes
+*** Simplifier [Text.Appar.Input]:
+Result size of Simplifier = {terms: 53, types: 25, coercions: 0}
+!!! Simplifier [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.246 megabytes
+*** CoreTidy [Text.Appar.Input]:
+Result size of Tidy Core = {terms: 88, types: 129, coercions: 0}
+!!! CoreTidy [Text.Appar.Input]: finished in 7.00 milliseconds, allocated 3.948 megabytes
+writeBinIface: 35 Names
+writeBinIface: 67 dict entries
+writeBinIface: 35 Names
+writeBinIface: 67 dict entries
+Created temporary directory: /tmp/ghc1558_0
+*** CorePrep [Text.Appar.Input]:
+Result size of CorePrep = {terms: 103, types: 156, coercions: 0}
+!!! CorePrep [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.208 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Appar.Input]:
+!!! CodeGen [Text.Appar.Input]: finished in 8.00 milliseconds, allocated 3.796 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/Appar -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1558_0/ghc_2.s -o dist/dist-sandbox-6afc8227/build/Text/Appar/Input.o
+*** CorePrep [Text.Appar.Input]:
+Result size of CorePrep = {terms: 103, types: 156, coercions: 0}
+!!! CorePrep [Text.Appar.Input]: finished in 0.00 milliseconds, allocated 0.207 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Appar.Input]:
+!!! CodeGen [Text.Appar.Input]: finished in 8.00 milliseconds, allocated 3.763 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/Appar -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1558_0/ghc_4.s -o dist/dist-sandbox-6afc8227/build/Text/Appar/Input.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1558_0/ghc_5.c /tmp/ghc1558_0/ghc_4.s /tmp/ghc1558_0/ghc_3.c /tmp/ghc1558_0/ghc_2.s /tmp/ghc1558_0/ghc_1.s
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_5.c
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_3.c
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_1.s
+compile: input file ./Text/Appar/Parser.hs
+*** Checking old interface for Text.Appar.Parser:
+[2 of 5] Compiling Text.Appar.Parser ( Text/Appar/Parser.hs, dist/dist-sandbox-6afc8227/build/Text/Appar/Parser.o )
+*** Parser [Text.Appar.Parser]:
+!!! Parser [Text.Appar.Parser]: finished in 3.00 milliseconds, allocated 4.173 megabytes
+*** Renamer/typechecker [Text.Appar.Parser]:
+!!! Renamer/typechecker [Text.Appar.Parser]: finished in 68.00 milliseconds, allocated 35.754 megabytes
+*** Desugar [Text.Appar.Parser]:
+Result size of Desugar (after optimization)
+  = {terms: 449, types: 1,036, coercions: 0}
+!!! Desugar [Text.Appar.Parser]: finished in 6.00 milliseconds, allocated 3.287 megabytes
+
+Text/Appar/Parser.hs:99:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Input inp
+    • In the type signature for:
+           parse :: Input inp => MkParser inp a -> inp -> Maybe a
+*** Simplifier [Text.Appar.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 420, types: 970, coercions: 0}
+Result size of Simplifier = {terms: 420, types: 970, coercions: 0}
+!!! Simplifier [Text.Appar.Parser]: finished in 14.00 milliseconds, allocated 4.013 megabytes
+*** Specialise [Text.Appar.Parser]:
+Result size of Specialise = {terms: 435, types: 983, coercions: 0}
+!!! Specialise [Text.Appar.Parser]: finished in 2.00 milliseconds, allocated 0.696 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Appar.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 456, types: 1,042, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Appar.Parser]: finished in 4.00 milliseconds, allocated 3.422 megabytes
+*** Simplifier [Text.Appar.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 646, types: 1,371, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 700, types: 1,542, coercions: 0}
+Result size of Simplifier
+  = {terms: 700, types: 1,542, coercions: 0}
+!!! Simplifier [Text.Appar.Parser]: finished in 20.00 milliseconds, allocated 8.950 megabytes
+*** Simplifier [Text.Appar.Parser]:
+Result size of Simplifier
+  = {terms: 700, types: 1,542, coercions: 0}
+!!! Simplifier [Text.Appar.Parser]: finished in 5.00 milliseconds, allocated 2.956 megabytes
+*** Simplifier [Text.Appar.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 711, types: 1,562, coercions: 0}
+Result size of Simplifier
+  = {terms: 711, types: 1,562, coercions: 0}
+!!! Simplifier [Text.Appar.Parser]: finished in 10.00 milliseconds, allocated 5.387 megabytes
+*** Float inwards [Text.Appar.Parser]:
+Result size of Float inwards
+  = {terms: 711, types: 1,562, coercions: 0}
+!!! Float inwards [Text.Appar.Parser]: finished in 1.00 milliseconds, allocated 1.373 megabytes
+*** Called arity analysis [Text.Appar.Parser]:
+Result size of Called arity analysis
+  = {terms: 711, types: 1,562, coercions: 0}
+!!! Called arity analysis [Text.Appar.Parser]: finished in 1.00 milliseconds, allocated 1.140 megabytes
+*** Simplifier [Text.Appar.Parser]:
+Result size of Simplifier
+  = {terms: 711, types: 1,562, coercions: 0}
+!!! Simplifier [Text.Appar.Parser]: finished in 7.00 milliseconds, allocated 2.690 megabytes
+*** Demand analysis [Text.Appar.Parser]:
+Result size of Demand analysis
+  = {terms: 711, types: 1,562, coercions: 0}
+!!! Demand analysis [Text.Appar.Parser]: finished in 4.00 milliseconds, allocated 2.870 megabytes
+*** Worker Wrapper binds [Text.Appar.Parser]:
+Result size of Worker Wrapper binds
+  = {terms: 1,057, types: 2,663, coercions: 0}
+!!! Worker Wrapper binds [Text.Appar.Parser]: finished in 2.00 milliseconds, allocated 0.717 megabytes
+*** Simplifier [Text.Appar.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 1,076, types: 2,834, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,030, types: 2,707, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 1,001, types: 2,638, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,001, types: 2,638, coercions: 0}
+!!! Simplifier [Text.Appar.Parser]: finished in 42.00 milliseconds, allocated 20.751 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Appar.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,079, types: 2,986, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Appar.Parser]: finished in 7.00 milliseconds, allocated 7.133 megabytes
+*** Common sub-expression [Text.Appar.Parser]:
+Result size of Common sub-expression
+  = {terms: 1,011, types: 2,812, coercions: 0}
+!!! Common sub-expression [Text.Appar.Parser]: finished in 4.00 milliseconds, allocated 1.763 megabytes
+*** Float inwards [Text.Appar.Parser]:
+Result size of Float inwards
+  = {terms: 1,011, types: 2,812, coercions: 0}
+!!! Float inwards [Text.Appar.Parser]: finished in 1.00 milliseconds, allocated 1.509 megabytes
+*** Simplifier [Text.Appar.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 995, types: 2,724, coercions: 0}
+Result size of Simplifier
+  = {terms: 954, types: 2,566, coercions: 0}
+!!! Simplifier [Text.Appar.Parser]: finished in 19.00 milliseconds, allocated 9.507 megabytes
+*** CoreTidy [Text.Appar.Parser]:
+Result size of Tidy Core = {terms: 942, types: 2,557, coercions: 0}
+!!! CoreTidy [Text.Appar.Parser]: finished in 4.00 milliseconds, allocated 2.246 megabytes
+writeBinIface: 100 Names
+writeBinIface: 177 dict entries
+writeBinIface: 100 Names
+writeBinIface: 177 dict entries
+*** CorePrep [Text.Appar.Parser]:
+Result size of CorePrep
+  = {terms: 1,038, types: 2,757, coercions: 0}
+!!! CorePrep [Text.Appar.Parser]: finished in 3.00 milliseconds, allocated 1.994 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Appar.Parser]:
+!!! CodeGen [Text.Appar.Parser]: finished in 83.00 milliseconds, allocated 50.681 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/Appar -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1558_0/ghc_7.s -o dist/dist-sandbox-6afc8227/build/Text/Appar/Parser.o
+*** CorePrep [Text.Appar.Parser]:
+Result size of CorePrep
+  = {terms: 1,038, types: 2,757, coercions: 0}
+!!! CorePrep [Text.Appar.Parser]: finished in 3.00 milliseconds, allocated 1.928 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Appar.Parser]:
+!!! CodeGen [Text.Appar.Parser]: finished in 91.00 milliseconds, allocated 53.160 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/Appar -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1558_0/ghc_9.s -o dist/dist-sandbox-6afc8227/build/Text/Appar/Parser.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1558_0/ghc_10.c /tmp/ghc1558_0/ghc_9.s /tmp/ghc1558_0/ghc_8.c /tmp/ghc1558_0/ghc_7.s /tmp/ghc1558_0/ghc_6.s
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_10.c
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_8.c
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_6.s
+compile: input file ./Text/Appar/String.hs
+*** Checking old interface for Text.Appar.String:
+[3 of 5] Compiling Text.Appar.String ( Text/Appar/String.hs, dist/dist-sandbox-6afc8227/build/Text/Appar/String.o )
+*** Parser [Text.Appar.String]:
+!!! Parser [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.213 megabytes
+*** Renamer/typechecker [Text.Appar.String]:
+!!! Renamer/typechecker [Text.Appar.String]: finished in 2.00 milliseconds, allocated 0.704 megabytes
+*** Desugar [Text.Appar.String]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.082 megabytes
+*** Simplifier [Text.Appar.String]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.String]: finished in 1.00 milliseconds, allocated 0.129 megabytes
+*** Specialise [Text.Appar.String]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Appar.String]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Text.Appar.String]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Text.Appar.String]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.String]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Text.Appar.String]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Text.Appar.String]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Text.Appar.String]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Text.Appar.String]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Demand analysis [Text.Appar.String]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Text.Appar.String]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Text.Appar.String]: finished in 1.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [Text.Appar.String]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Appar.String]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Appar.String]: finished in 1.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Text.Appar.String]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [Text.Appar.String]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.042 megabytes
+*** Simplifier [Text.Appar.String]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** CoreTidy [Text.Appar.String]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.062 megabytes
+writeBinIface: 40 Names
+writeBinIface: 71 dict entries
+writeBinIface: 40 Names
+writeBinIface: 71 dict entries
+*** CorePrep [Text.Appar.String]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Appar.String]:
+!!! CodeGen [Text.Appar.String]: finished in 1.00 milliseconds, allocated 0.287 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/Appar -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1558_0/ghc_12.s -o dist/dist-sandbox-6afc8227/build/Text/Appar/String.o
+*** CorePrep [Text.Appar.String]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Text.Appar.String]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Appar.String]:
+!!! CodeGen [Text.Appar.String]: finished in 1.00 milliseconds, allocated 0.284 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/Appar -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1558_0/ghc_14.s -o dist/dist-sandbox-6afc8227/build/Text/Appar/String.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1558_0/ghc_15.c /tmp/ghc1558_0/ghc_14.s /tmp/ghc1558_0/ghc_13.c /tmp/ghc1558_0/ghc_12.s /tmp/ghc1558_0/ghc_11.s
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_13.c
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_11.s
+compile: input file ./Text/Appar/ByteString.hs
+*** Checking old interface for Text.Appar.ByteString:
+[4 of 5] Compiling Text.Appar.ByteString ( Text/Appar/ByteString.hs, dist/dist-sandbox-6afc8227/build/Text/Appar/ByteString.o )
+*** Parser [Text.Appar.ByteString]:
+!!! Parser [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.254 megabytes
+*** Renamer/typechecker [Text.Appar.ByteString]:
+!!! Renamer/typechecker [Text.Appar.ByteString]: finished in 2.00 milliseconds, allocated 0.786 megabytes
+*** Desugar [Text.Appar.ByteString]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.081 megabytes
+*** Simplifier [Text.Appar.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.129 megabytes
+*** Specialise [Text.Appar.ByteString]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Appar.ByteString]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Text.Appar.ByteString]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Text.Appar.ByteString]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.ByteString]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Text.Appar.ByteString]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Text.Appar.ByteString]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Text.Appar.ByteString]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Text.Appar.ByteString]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Text.Appar.ByteString]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Text.Appar.ByteString]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Text.Appar.ByteString]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Appar.ByteString]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Text.Appar.ByteString]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Text.Appar.ByteString]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Text.Appar.ByteString]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** CoreTidy [Text.Appar.ByteString]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 40 Names
+writeBinIface: 73 dict entries
+writeBinIface: 40 Names
+writeBinIface: 73 dict entries
+*** CorePrep [Text.Appar.ByteString]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Text.Appar.ByteString]: finished in 1.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Appar.ByteString]:
+!!! CodeGen [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.292 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/Appar -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1558_0/ghc_17.s -o dist/dist-sandbox-6afc8227/build/Text/Appar/ByteString.o
+*** CorePrep [Text.Appar.ByteString]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Text.Appar.ByteString]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Appar.ByteString]:
+!!! CodeGen [Text.Appar.ByteString]: finished in 1.00 milliseconds, allocated 0.288 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/Appar -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1558_0/ghc_19.s -o dist/dist-sandbox-6afc8227/build/Text/Appar/ByteString.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1558_0/ghc_20.c /tmp/ghc1558_0/ghc_19.s /tmp/ghc1558_0/ghc_18.c /tmp/ghc1558_0/ghc_17.s /tmp/ghc1558_0/ghc_16.s
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_18.c
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_16.s
+compile: input file ./Text/Appar/LazyByteString.hs
+*** Checking old interface for Text.Appar.LazyByteString:
+[5 of 5] Compiling Text.Appar.LazyByteString ( Text/Appar/LazyByteString.hs, dist/dist-sandbox-6afc8227/build/Text/Appar/LazyByteString.o )
+*** Parser [Text.Appar.LazyByteString]:
+!!! Parser [Text.Appar.LazyByteString]: finished in 1.00 milliseconds, allocated 0.255 megabytes
+*** Renamer/typechecker [Text.Appar.LazyByteString]:
+!!! Renamer/typechecker [Text.Appar.LazyByteString]: finished in 1.00 milliseconds, allocated 0.783 megabytes
+*** Desugar [Text.Appar.LazyByteString]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Text.Appar.LazyByteString]: finished in 1.00 milliseconds, allocated 0.081 megabytes
+*** Simplifier [Text.Appar.LazyByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.130 megabytes
+*** Specialise [Text.Appar.LazyByteString]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Appar.LazyByteString]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Appar.LazyByteString]: finished in 1.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Text.Appar.LazyByteString]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.068 megabytes
+*** Simplifier [Text.Appar.LazyByteString]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Text.Appar.LazyByteString]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Float inwards [Text.Appar.LazyByteString]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Called arity analysis [Text.Appar.LazyByteString]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Text.Appar.LazyByteString]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Text.Appar.LazyByteString]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Text.Appar.LazyByteString]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Text.Appar.LazyByteString]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Appar.LazyByteString]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Appar.LazyByteString]: finished in 1.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [Text.Appar.LazyByteString]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Float inwards [Text.Appar.LazyByteString]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Simplifier [Text.Appar.LazyByteString]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Text.Appar.LazyByteString]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 40 Names
+writeBinIface: 73 dict entries
+writeBinIface: 40 Names
+writeBinIface: 73 dict entries
+*** CorePrep [Text.Appar.LazyByteString]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Appar.LazyByteString]:
+!!! CodeGen [Text.Appar.LazyByteString]: finished in 1.00 milliseconds, allocated 0.297 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/Appar -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1558_0/ghc_22.s -o dist/dist-sandbox-6afc8227/build/Text/Appar/LazyByteString.o
+*** CorePrep [Text.Appar.LazyByteString]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Text.Appar.LazyByteString]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Appar.LazyByteString]:
+!!! CodeGen [Text.Appar.LazyByteString]: finished in 1.00 milliseconds, allocated 0.293 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Text/Appar -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1558_0/ghc_24.s -o dist/dist-sandbox-6afc8227/build/Text/Appar/LazyByteString.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc1558_0/ghc_25.c /tmp/ghc1558_0/ghc_24.s /tmp/ghc1558_0/ghc_23.c /tmp/ghc1558_0/ghc_22.s /tmp/ghc1558_0/ghc_21.s
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_25.c
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_23.c
+Warning: deleting non-existent /tmp/ghc1558_0/ghc_21.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: 
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1558_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -o dist/dist-sandbox-6afc8227/build/libHSappar-0.1.4-1in4Ewd8JBkAYDZSWXLSe0-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSappar-0.1.4-1in4Ewd8JBkAYDZSWXLSe0-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Text/Appar/String.dyn_o dist/dist-sandbox-6afc8227/build/Text/Appar/ByteString.dyn_o dist/dist-sandbox-6afc8227/build/Text/Appar/LazyByteString.dyn_o dist/dist-sandbox-6afc8227/build/Text/Appar/Input.dyn_o dist/dist-sandbox-6afc8227/build/Text/Appar/Parser.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc1885_0
+*** Deleting temp files:
+Deleting: /tmp/ghc1885_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1885_0
+Creating package registration file:
+/tmp/pkgConf-appar-0.15117023052084420925.4
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/appar-0.1.4-1in4Ewd8JBkAYDZSWXLSe0
+Registering appar-0.1.4...
+cabal: Leaving directory '/tmp/cabal-tmp-1025/appar-0.1.4'

@@ -1,0 +1,1304 @@
+cabal: Entering directory '/tmp/cabal-tmp-1026/lifted-base-0.2.3.6'
+Configuring lifted-base-0.2.3.6...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc8037_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc8037_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc8037_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc8037_0/ghc_2.rsp /tmp/ghc8037_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8037_0
+Building lifted-base-0.2.3.6...
+Preprocessing library lifted-base-0.2.3.6...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Control.Exception.Lifted,*Control.Concurrent.MVar.Lifted,*Control.Concurrent.Chan.Lifted,*Control.Concurrent.QSem.Lifted,*Control.Concurrent.QSemN.Lifted,*Control.Concurrent.Lifted,*Data.IORef.Lifted,*Foreign.Marshal.Utils.Lifted,*System.Timeout.Lifted
+Created temporary directory: /tmp/ghc8076_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8076_0/ghc_2.h -x assembler-with-cpp ./Control/Exception/Lifted.hs -o /tmp/ghc8076_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8076_0/ghc_4.h -x assembler-with-cpp ./Control/Concurrent/MVar/Lifted.hs -o /tmp/ghc8076_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8076_0/ghc_6.h -x assembler-with-cpp ./Control/Concurrent/Chan/Lifted.hs -o /tmp/ghc8076_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8076_0/ghc_8.h -x assembler-with-cpp ./Control/Concurrent/QSem/Lifted.hs -o /tmp/ghc8076_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8076_0/ghc_10.h -x assembler-with-cpp ./Control/Concurrent/QSemN/Lifted.hs -o /tmp/ghc8076_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8076_0/ghc_12.h -x assembler-with-cpp ./Control/Concurrent/Lifted.hs -o /tmp/ghc8076_0/ghc_11.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8076_0/ghc_14.h -x assembler-with-cpp ./Data/IORef/Lifted.hs -o /tmp/ghc8076_0/ghc_13.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8076_0/ghc_16.h -x assembler-with-cpp ./Foreign/Marshal/Utils/Lifted.hs -o /tmp/ghc8076_0/ghc_15.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8076_0/ghc_18.h -x assembler-with-cpp ./System/Timeout/Lifted.hs -o /tmp/ghc8076_0/ghc_17.hscpp
+!!! Chasing dependencies: finished in 64.00 milliseconds, allocated 37.587 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2015-02-13 19:59:16 UTC
+         ms_mod = Foreign.Marshal.Utils.Lifted,
+         ms_textual_imps = [(Nothing, Control.Monad.Trans.Control),
+                            (Nothing, Prelude), (Nothing, System.IO), (Nothing, Foreign)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-02-13 19:59:16 UTC
+         ms_mod = Data.IORef.Lifted,
+         ms_textual_imps = [(Nothing, Control.Monad.Trans.Control),
+                            (Nothing, Control.Monad.Base), (Nothing, Prelude),
+                            (Nothing, System.Mem.Weak), (Nothing, System.IO),
+                            (Nothing, Data.IORef), (Nothing, Data.IORef)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-02-13 19:59:16 UTC
+         ms_mod = Control.Concurrent.QSemN.Lifted,
+         ms_textual_imps = [(Nothing, Control.Monad.Base),
+                            (Nothing, Prelude), (Nothing, System.IO), (Nothing, Data.Int),
+                            (Nothing, Control.Concurrent.QSemN),
+                            (Nothing, Control.Concurrent.QSemN)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-02-13 19:59:16 UTC
+         ms_mod = Control.Concurrent.QSem.Lifted,
+         ms_textual_imps = [(Nothing, Control.Monad.Base),
+                            (Nothing, Prelude), (Nothing, System.IO), (Nothing, Data.Int),
+                            (Nothing, Control.Concurrent.QSem),
+                            (Nothing, Control.Concurrent.QSem)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-02-13 19:59:16 UTC
+         ms_mod = Control.Concurrent.Chan.Lifted,
+         ms_textual_imps = [(Nothing, Control.Monad.Base),
+                            (Nothing, Prelude), (Nothing, System.IO),
+                            (Nothing, Control.Concurrent.Chan),
+                            (Nothing, Control.Concurrent.Chan)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-02-13 19:59:16 UTC
+         ms_mod = Control.Concurrent.MVar.Lifted,
+         ms_textual_imps = [(Nothing, Control.Monad.Trans.Control),
+                            (Nothing, Control.Monad.Base), (Nothing, System.Mem.Weak),
+                            (Nothing, Control.Exception), (Nothing, Control.Concurrent.MVar),
+                            (Nothing, Control.Concurrent.MVar), (Nothing, System.IO),
+                            (Nothing, Control.Monad), (Nothing, Data.Maybe),
+                            (Nothing, Data.IORef), (Nothing, Data.Functor),
+                            (Nothing, Data.Function), (Nothing, Data.Bool), (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-02-13 19:59:16 UTC
+         ms_mod = Control.Exception.Lifted,
+         ms_textual_imps = [(Nothing, Control.Monad.Trans.Control),
+                            (Nothing, Control.Monad.Base), (Nothing, Control.Concurrent),
+                            (Nothing, Control.Concurrent), (Nothing, Control.Exception),
+                            (Nothing, Control.Exception), (Nothing, System.IO),
+                            (Nothing, System.IO.Error), (Nothing, Control.Monad),
+                            (Nothing, Data.Maybe), (Nothing, Data.Either),
+                            (Nothing, Data.Function), (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-02-13 19:59:16 UTC
+         ms_mod = Control.Concurrent.Lifted,
+         ms_textual_imps = [(Nothing, Control.Exception.Lifted),
+                            (Nothing, Control.Concurrent.QSemN.Lifted),
+                            (Nothing, Control.Concurrent.QSem.Lifted),
+                            (Nothing, Control.Concurrent.Chan.Lifted),
+                            (Nothing, Control.Concurrent.MVar.Lifted),
+                            (Nothing, Control.Monad), (Nothing, Control.Monad.Trans.Control),
+                            (Nothing, Control.Monad.Trans.Control),
+                            (Nothing, Control.Monad.Base), (Nothing, Control.Concurrent),
+                            (Nothing, Control.Concurrent), (Nothing, System.Mem.Weak),
+                            (Nothing, Data.Either), (Nothing, Control.Monad),
+                            (Nothing, System.Posix.Types), (Nothing, System.IO),
+                            (Nothing, Data.Function), (Nothing, Data.Int),
+                            (Nothing, Data.Bool), (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-02-13 19:59:16 UTC
+         ms_mod = System.Timeout.Lifted,
+         ms_textual_imps = [(Nothing, Control.Monad.Trans.Control),
+                            (Nothing, System.Timeout), (Nothing, System.IO),
+                            (Nothing, Control.Monad), (Nothing, Data.Maybe),
+                            (Nothing, Data.Int), (Nothing, Prelude)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc8076_0/ghc_18.h /tmp/ghc8076_0/ghc_16.h /tmp/ghc8076_0/ghc_14.h /tmp/ghc8076_0/ghc_12.h /tmp/ghc8076_0/ghc_10.h /tmp/ghc8076_0/ghc_8.h /tmp/ghc8076_0/ghc_6.h /tmp/ghc8076_0/ghc_4.h /tmp/ghc8076_0/ghc_2.h
+compile: input file /tmp/ghc8076_0/ghc_15.hscpp
+*** Checking old interface for Foreign.Marshal.Utils.Lifted:
+[1 of 9] Compiling Foreign.Marshal.Utils.Lifted ( Foreign/Marshal/Utils/Lifted.hs, dist/dist-sandbox-6afc8227/build/Foreign/Marshal/Utils/Lifted.o )
+*** Parser [Foreign.Marshal.Utils.Lifted]:
+!!! Parser [Foreign.Marshal.Utils.Lifted]: finished in 2.00 milliseconds, allocated 1.513 megabytes
+*** Renamer/typechecker [Foreign.Marshal.Utils.Lifted]:
+!!! Renamer/typechecker [Foreign.Marshal.Utils.Lifted]: finished in 358.00 milliseconds, allocated 159.869 megabytes
+*** Desugar [Foreign.Marshal.Utils.Lifted]:
+Result size of Desugar (after optimization)
+  = {terms: 17, types: 61, coercions: 0}
+!!! Desugar [Foreign.Marshal.Utils.Lifted]: finished in 2.00 milliseconds, allocated 0.611 megabytes
+
+Foreign/Marshal/Utils/Lifted.hs:6:14: warning: [-Wtrustworthy-safe]
+    ‘Foreign.Marshal.Utils.Lifted’ is marked as Trustworthy but has been inferred as safe!
+*** Simplifier [Foreign.Marshal.Utils.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 23, types: 64, coercions: 0}
+Result size of Simplifier = {terms: 23, types: 64, coercions: 0}
+!!! Simplifier [Foreign.Marshal.Utils.Lifted]: finished in 1.00 milliseconds, allocated 0.311 megabytes
+*** Specialise [Foreign.Marshal.Utils.Lifted]:
+Result size of Specialise = {terms: 23, types: 64, coercions: 0}
+!!! Specialise [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.075 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Foreign.Marshal.Utils.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 23, types: 64, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Foreign.Marshal.Utils.Lifted]: finished in 1.00 milliseconds, allocated 0.200 megabytes
+*** Simplifier [Foreign.Marshal.Utils.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 24, types: 51, coercions: 12}
+Result size of Simplifier = {terms: 24, types: 51, coercions: 12}
+!!! Simplifier [Foreign.Marshal.Utils.Lifted]: finished in 1.00 milliseconds, allocated 0.458 megabytes
+*** Simplifier [Foreign.Marshal.Utils.Lifted]:
+Result size of Simplifier = {terms: 24, types: 51, coercions: 12}
+!!! Simplifier [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.146 megabytes
+*** Simplifier [Foreign.Marshal.Utils.Lifted]:
+Result size of Simplifier = {terms: 24, types: 51, coercions: 12}
+!!! Simplifier [Foreign.Marshal.Utils.Lifted]: finished in 1.00 milliseconds, allocated 0.148 megabytes
+*** Float inwards [Foreign.Marshal.Utils.Lifted]:
+Result size of Float inwards
+  = {terms: 24, types: 51, coercions: 12}
+!!! Float inwards [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.068 megabytes
+*** Called arity analysis [Foreign.Marshal.Utils.Lifted]:
+Result size of Called arity analysis
+  = {terms: 24, types: 51, coercions: 12}
+!!! Called arity analysis [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.062 megabytes
+*** Simplifier [Foreign.Marshal.Utils.Lifted]:
+Result size of Simplifier = {terms: 24, types: 51, coercions: 12}
+!!! Simplifier [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.148 megabytes
+*** Demand analysis [Foreign.Marshal.Utils.Lifted]:
+Result size of Demand analysis
+  = {terms: 24, types: 51, coercions: 12}
+!!! Demand analysis [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.115 megabytes
+*** Worker Wrapper binds [Foreign.Marshal.Utils.Lifted]:
+Result size of Worker Wrapper binds
+  = {terms: 24, types: 51, coercions: 12}
+!!! Worker Wrapper binds [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.054 megabytes
+*** Simplifier [Foreign.Marshal.Utils.Lifted]:
+Result size of Simplifier = {terms: 24, types: 51, coercions: 12}
+!!! Simplifier [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.174 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Foreign.Marshal.Utils.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 24, types: 51, coercions: 12}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.212 megabytes
+*** Common sub-expression [Foreign.Marshal.Utils.Lifted]:
+Result size of Common sub-expression
+  = {terms: 24, types: 51, coercions: 12}
+!!! Common sub-expression [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Float inwards [Foreign.Marshal.Utils.Lifted]:
+Result size of Float inwards
+  = {terms: 24, types: 51, coercions: 12}
+!!! Float inwards [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.066 megabytes
+*** Simplifier [Foreign.Marshal.Utils.Lifted]:
+Result size of Simplifier = {terms: 24, types: 51, coercions: 12}
+!!! Simplifier [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.145 megabytes
+*** CoreTidy [Foreign.Marshal.Utils.Lifted]:
+Result size of Tidy Core = {terms: 24, types: 51, coercions: 12}
+!!! CoreTidy [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.091 megabytes
+writeBinIface: 10 Names
+writeBinIface: 52 dict entries
+writeBinIface: 10 Names
+writeBinIface: 52 dict entries
+*** CorePrep [Foreign.Marshal.Utils.Lifted]:
+Result size of CorePrep = {terms: 30, types: 69, coercions: 12}
+!!! CorePrep [Foreign.Marshal.Utils.Lifted]: finished in 1.00 milliseconds, allocated 0.101 megabytes
+*** Stg2Stg:
+*** CodeGen [Foreign.Marshal.Utils.Lifted]:
+!!! CodeGen [Foreign.Marshal.Utils.Lifted]: finished in 2.00 milliseconds, allocated 0.968 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Foreign/Marshal/Utils -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc8076_0/ghc_20.s -o dist/dist-sandbox-6afc8227/build/Foreign/Marshal/Utils/Lifted.o
+*** CorePrep [Foreign.Marshal.Utils.Lifted]:
+Result size of CorePrep = {terms: 30, types: 69, coercions: 12}
+!!! CorePrep [Foreign.Marshal.Utils.Lifted]: finished in 0.00 milliseconds, allocated 0.100 megabytes
+*** Stg2Stg:
+*** CodeGen [Foreign.Marshal.Utils.Lifted]:
+!!! CodeGen [Foreign.Marshal.Utils.Lifted]: finished in 2.00 milliseconds, allocated 0.933 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Foreign/Marshal/Utils -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8076_0/ghc_22.s -o dist/dist-sandbox-6afc8227/build/Foreign/Marshal/Utils/Lifted.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8076_0/ghc_23.c /tmp/ghc8076_0/ghc_22.s /tmp/ghc8076_0/ghc_21.c /tmp/ghc8076_0/ghc_20.s /tmp/ghc8076_0/ghc_19.s
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_23.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_21.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_19.s
+compile: input file /tmp/ghc8076_0/ghc_13.hscpp
+*** Checking old interface for Data.IORef.Lifted:
+[2 of 9] Compiling Data.IORef.Lifted ( Data/IORef/Lifted.hs, dist/dist-sandbox-6afc8227/build/Data/IORef/Lifted.o )
+*** Parser [Data.IORef.Lifted]:
+!!! Parser [Data.IORef.Lifted]: finished in 2.00 milliseconds, allocated 3.542 megabytes
+*** Renamer/typechecker [Data.IORef.Lifted]:
+!!! Renamer/typechecker [Data.IORef.Lifted]: finished in 20.00 milliseconds, allocated 12.307 megabytes
+*** Desugar [Data.IORef.Lifted]:
+Result size of Desugar (after optimization)
+  = {terms: 92, types: 343, coercions: 0}
+!!! Desugar [Data.IORef.Lifted]: finished in 8.00 milliseconds, allocated 3.460 megabytes
+
+Data/IORef/Lifted.hs:6:14: warning: [-Wtrustworthy-safe]
+    ‘Data.IORef.Lifted’ is marked as Trustworthy but has been inferred as safe!
+*** Simplifier [Data.IORef.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 114, types: 364, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 114, types: 364, coercions: 0}
+Result size of Simplifier = {terms: 114, types: 364, coercions: 0}
+!!! Simplifier [Data.IORef.Lifted]: finished in 3.00 milliseconds, allocated 1.892 megabytes
+*** Specialise [Data.IORef.Lifted]:
+Result size of Specialise = {terms: 114, types: 364, coercions: 0}
+!!! Specialise [Data.IORef.Lifted]: finished in 0.00 milliseconds, allocated 0.195 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IORef.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 114, types: 364, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IORef.Lifted]: finished in 1.00 milliseconds, allocated 0.857 megabytes
+*** Simplifier [Data.IORef.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 107, types: 303, coercions: 41}
+Result size of Simplifier = {terms: 107, types: 303, coercions: 37}
+!!! Simplifier [Data.IORef.Lifted]: finished in 5.00 milliseconds, allocated 1.649 megabytes
+*** Simplifier [Data.IORef.Lifted]:
+Result size of Simplifier = {terms: 107, types: 303, coercions: 37}
+!!! Simplifier [Data.IORef.Lifted]: finished in 1.00 milliseconds, allocated 0.569 megabytes
+*** Simplifier [Data.IORef.Lifted]:
+Result size of Simplifier = {terms: 107, types: 303, coercions: 37}
+!!! Simplifier [Data.IORef.Lifted]: finished in 1.00 milliseconds, allocated 0.568 megabytes
+*** Float inwards [Data.IORef.Lifted]:
+Result size of Float inwards
+  = {terms: 107, types: 303, coercions: 37}
+!!! Float inwards [Data.IORef.Lifted]: finished in 0.00 milliseconds, allocated 0.168 megabytes
+*** Called arity analysis [Data.IORef.Lifted]:
+Result size of Called arity analysis
+  = {terms: 107, types: 303, coercions: 37}
+!!! Called arity analysis [Data.IORef.Lifted]: finished in 0.00 milliseconds, allocated 0.142 megabytes
+*** Simplifier [Data.IORef.Lifted]:
+Result size of Simplifier = {terms: 107, types: 303, coercions: 37}
+!!! Simplifier [Data.IORef.Lifted]: finished in 1.00 milliseconds, allocated 0.566 megabytes
+*** Demand analysis [Data.IORef.Lifted]:
+Result size of Demand analysis
+  = {terms: 107, types: 303, coercions: 37}
+!!! Demand analysis [Data.IORef.Lifted]: finished in 1.00 milliseconds, allocated 0.432 megabytes
+*** Worker Wrapper binds [Data.IORef.Lifted]:
+Result size of Worker Wrapper binds
+  = {terms: 107, types: 303, coercions: 37}
+!!! Worker Wrapper binds [Data.IORef.Lifted]: finished in 0.00 milliseconds, allocated 0.078 megabytes
+*** Simplifier [Data.IORef.Lifted]:
+Result size of Simplifier = {terms: 107, types: 303, coercions: 37}
+!!! Simplifier [Data.IORef.Lifted]: finished in 1.00 milliseconds, allocated 0.660 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IORef.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 107, types: 303, coercions: 37}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IORef.Lifted]: finished in 1.00 milliseconds, allocated 0.785 megabytes
+*** Common sub-expression [Data.IORef.Lifted]:
+Result size of Common sub-expression
+  = {terms: 107, types: 303, coercions: 37}
+!!! Common sub-expression [Data.IORef.Lifted]: finished in 1.00 milliseconds, allocated 0.267 megabytes
+*** Float inwards [Data.IORef.Lifted]:
+Result size of Float inwards
+  = {terms: 107, types: 303, coercions: 37}
+!!! Float inwards [Data.IORef.Lifted]: finished in 0.00 milliseconds, allocated 0.168 megabytes
+*** Simplifier [Data.IORef.Lifted]:
+Result size of Simplifier = {terms: 107, types: 303, coercions: 37}
+!!! Simplifier [Data.IORef.Lifted]: finished in 1.00 milliseconds, allocated 0.589 megabytes
+*** CoreTidy [Data.IORef.Lifted]:
+Result size of Tidy Core = {terms: 107, types: 303, coercions: 37}
+!!! CoreTidy [Data.IORef.Lifted]: finished in 1.00 milliseconds, allocated 0.232 megabytes
+writeBinIface: 29 Names
+writeBinIface: 66 dict entries
+writeBinIface: 29 Names
+writeBinIface: 66 dict entries
+*** CorePrep [Data.IORef.Lifted]:
+Result size of CorePrep = {terms: 145, types: 346, coercions: 37}
+!!! CorePrep [Data.IORef.Lifted]: finished in 1.00 milliseconds, allocated 0.334 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IORef.Lifted]:
+!!! CodeGen [Data.IORef.Lifted]: finished in 9.00 milliseconds, allocated 5.914 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IORef -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc8076_0/ghc_25.s -o dist/dist-sandbox-6afc8227/build/Data/IORef/Lifted.o
+*** CorePrep [Data.IORef.Lifted]:
+Result size of CorePrep = {terms: 145, types: 346, coercions: 37}
+!!! CorePrep [Data.IORef.Lifted]: finished in 1.00 milliseconds, allocated 0.325 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IORef.Lifted]:
+!!! CodeGen [Data.IORef.Lifted]: finished in 10.00 milliseconds, allocated 6.115 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/IORef -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8076_0/ghc_27.s -o dist/dist-sandbox-6afc8227/build/Data/IORef/Lifted.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8076_0/ghc_28.c /tmp/ghc8076_0/ghc_27.s /tmp/ghc8076_0/ghc_26.c /tmp/ghc8076_0/ghc_25.s /tmp/ghc8076_0/ghc_24.s
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_28.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_26.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_24.s
+compile: input file /tmp/ghc8076_0/ghc_9.hscpp
+*** Checking old interface for Control.Concurrent.QSemN.Lifted:
+[3 of 9] Compiling Control.Concurrent.QSemN.Lifted ( Control/Concurrent/QSemN/Lifted.hs, dist/dist-sandbox-6afc8227/build/Control/Concurrent/QSemN/Lifted.o )
+*** Parser [Control.Concurrent.QSemN.Lifted]:
+!!! Parser [Control.Concurrent.QSemN.Lifted]: finished in 1.00 milliseconds, allocated 2.175 megabytes
+*** Renamer/typechecker [Control.Concurrent.QSemN.Lifted]:
+!!! Renamer/typechecker [Control.Concurrent.QSemN.Lifted]: finished in 5.00 milliseconds, allocated 3.213 megabytes
+*** Desugar [Control.Concurrent.QSemN.Lifted]:
+Result size of Desugar (after optimization)
+  = {terms: 31, types: 80, coercions: 0}
+!!! Desugar [Control.Concurrent.QSemN.Lifted]: finished in 1.00 milliseconds, allocated 1.012 megabytes
+
+Control/Concurrent/QSemN/Lifted.hs:7:14: warning: [-Wtrustworthy-safe]
+    ‘Control.Concurrent.QSemN.Lifted’ is marked as Trustworthy but has been inferred as safe!
+*** Simplifier [Control.Concurrent.QSemN.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 41, types: 85, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 41, types: 85, coercions: 0}
+Result size of Simplifier = {terms: 41, types: 85, coercions: 0}
+!!! Simplifier [Control.Concurrent.QSemN.Lifted]: finished in 1.00 milliseconds, allocated 0.760 megabytes
+*** Specialise [Control.Concurrent.QSemN.Lifted]:
+Result size of Specialise = {terms: 41, types: 85, coercions: 0}
+!!! Specialise [Control.Concurrent.QSemN.Lifted]: finished in 0.00 milliseconds, allocated 0.094 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.QSemN.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 41, types: 85, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.QSemN.Lifted]: finished in 1.00 milliseconds, allocated 0.779 megabytes
+*** Simplifier [Control.Concurrent.QSemN.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 38, types: 70, coercions: 9}
+Result size of Simplifier = {terms: 38, types: 70, coercions: 9}
+!!! Simplifier [Control.Concurrent.QSemN.Lifted]: finished in 2.00 milliseconds, allocated 0.739 megabytes
+*** Simplifier [Control.Concurrent.QSemN.Lifted]:
+Result size of Simplifier = {terms: 38, types: 70, coercions: 9}
+!!! Simplifier [Control.Concurrent.QSemN.Lifted]: finished in 0.00 milliseconds, allocated 0.222 megabytes
+*** Simplifier [Control.Concurrent.QSemN.Lifted]:
+Result size of Simplifier = {terms: 38, types: 70, coercions: 9}
+!!! Simplifier [Control.Concurrent.QSemN.Lifted]: finished in 0.00 milliseconds, allocated 0.225 megabytes
+*** Float inwards [Control.Concurrent.QSemN.Lifted]:
+Result size of Float inwards = {terms: 38, types: 70, coercions: 9}
+!!! Float inwards [Control.Concurrent.QSemN.Lifted]: finished in 0.00 milliseconds, allocated 0.077 megabytes
+*** Called arity analysis [Control.Concurrent.QSemN.Lifted]:
+Result size of Called arity analysis
+  = {terms: 38, types: 70, coercions: 9}
+!!! Called arity analysis [Control.Concurrent.QSemN.Lifted]: finished in 0.00 milliseconds, allocated 0.077 megabytes
+*** Simplifier [Control.Concurrent.QSemN.Lifted]:
+Result size of Simplifier = {terms: 38, types: 70, coercions: 9}
+!!! Simplifier [Control.Concurrent.QSemN.Lifted]: finished in 0.00 milliseconds, allocated 0.225 megabytes
+*** Demand analysis [Control.Concurrent.QSemN.Lifted]:
+Result size of Demand analysis
+  = {terms: 38, types: 70, coercions: 9}
+!!! Demand analysis [Control.Concurrent.QSemN.Lifted]: finished in 1.00 milliseconds, allocated 0.180 megabytes
+*** Worker Wrapper binds [Control.Concurrent.QSemN.Lifted]:
+Result size of Worker Wrapper binds
+  = {terms: 38, types: 70, coercions: 9}
+!!! Worker Wrapper binds [Control.Concurrent.QSemN.Lifted]: finished in 0.00 milliseconds, allocated 0.056 megabytes
+*** Simplifier [Control.Concurrent.QSemN.Lifted]:
+Result size of Simplifier = {terms: 38, types: 70, coercions: 9}
+!!! Simplifier [Control.Concurrent.QSemN.Lifted]: finished in 0.00 milliseconds, allocated 0.247 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.QSemN.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 38, types: 70, coercions: 9}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.QSemN.Lifted]: finished in 0.00 milliseconds, allocated 0.236 megabytes
+*** Common sub-expression [Control.Concurrent.QSemN.Lifted]:
+Result size of Common sub-expression
+  = {terms: 38, types: 70, coercions: 9}
+!!! Common sub-expression [Control.Concurrent.QSemN.Lifted]: finished in 0.00 milliseconds, allocated 0.104 megabytes
+*** Float inwards [Control.Concurrent.QSemN.Lifted]:
+Result size of Float inwards = {terms: 38, types: 70, coercions: 9}
+!!! Float inwards [Control.Concurrent.QSemN.Lifted]: finished in 0.00 milliseconds, allocated 0.076 megabytes
+*** Simplifier [Control.Concurrent.QSemN.Lifted]:
+Result size of Simplifier = {terms: 38, types: 70, coercions: 9}
+!!! Simplifier [Control.Concurrent.QSemN.Lifted]: finished in 1.00 milliseconds, allocated 0.221 megabytes
+*** CoreTidy [Control.Concurrent.QSemN.Lifted]:
+Result size of Tidy Core = {terms: 38, types: 70, coercions: 9}
+!!! CoreTidy [Control.Concurrent.QSemN.Lifted]: finished in 0.00 milliseconds, allocated 0.107 megabytes
+writeBinIface: 13 Names
+writeBinIface: 47 dict entries
+writeBinIface: 13 Names
+writeBinIface: 47 dict entries
+*** CorePrep [Control.Concurrent.QSemN.Lifted]:
+Result size of CorePrep = {terms: 50, types: 82, coercions: 9}
+!!! CorePrep [Control.Concurrent.QSemN.Lifted]: finished in 1.00 milliseconds, allocated 0.135 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.QSemN.Lifted]:
+!!! CodeGen [Control.Concurrent.QSemN.Lifted]: finished in 4.00 milliseconds, allocated 2.235 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/QSemN -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc8076_0/ghc_30.s -o dist/dist-sandbox-6afc8227/build/Control/Concurrent/QSemN/Lifted.o
+*** CorePrep [Control.Concurrent.QSemN.Lifted]:
+Result size of CorePrep = {terms: 50, types: 82, coercions: 9}
+!!! CorePrep [Control.Concurrent.QSemN.Lifted]: finished in 0.00 milliseconds, allocated 0.131 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.QSemN.Lifted]:
+!!! CodeGen [Control.Concurrent.QSemN.Lifted]: finished in 5.00 milliseconds, allocated 2.306 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/QSemN -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8076_0/ghc_32.s -o dist/dist-sandbox-6afc8227/build/Control/Concurrent/QSemN/Lifted.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8076_0/ghc_33.c /tmp/ghc8076_0/ghc_32.s /tmp/ghc8076_0/ghc_31.c /tmp/ghc8076_0/ghc_30.s /tmp/ghc8076_0/ghc_29.s
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_33.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_31.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_29.s
+compile: input file /tmp/ghc8076_0/ghc_7.hscpp
+*** Checking old interface for Control.Concurrent.QSem.Lifted:
+[4 of 9] Compiling Control.Concurrent.QSem.Lifted ( Control/Concurrent/QSem/Lifted.hs, dist/dist-sandbox-6afc8227/build/Control/Concurrent/QSem/Lifted.o )
+*** Parser [Control.Concurrent.QSem.Lifted]:
+!!! Parser [Control.Concurrent.QSem.Lifted]: finished in 2.00 milliseconds, allocated 2.113 megabytes
+*** Renamer/typechecker [Control.Concurrent.QSem.Lifted]:
+!!! Renamer/typechecker [Control.Concurrent.QSem.Lifted]: finished in 6.00 milliseconds, allocated 2.961 megabytes
+*** Desugar [Control.Concurrent.QSem.Lifted]:
+Result size of Desugar (after optimization)
+  = {terms: 27, types: 76, coercions: 0}
+!!! Desugar [Control.Concurrent.QSem.Lifted]: finished in 2.00 milliseconds, allocated 0.913 megabytes
+
+Control/Concurrent/QSem/Lifted.hs:7:14: warning: [-Wtrustworthy-safe]
+    ‘Control.Concurrent.QSem.Lifted’ is marked as Trustworthy but has been inferred as safe!
+*** Simplifier [Control.Concurrent.QSem.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 37, types: 81, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 37, types: 81, coercions: 0}
+Result size of Simplifier = {terms: 37, types: 81, coercions: 0}
+!!! Simplifier [Control.Concurrent.QSem.Lifted]: finished in 2.00 milliseconds, allocated 0.733 megabytes
+*** Specialise [Control.Concurrent.QSem.Lifted]:
+Result size of Specialise = {terms: 37, types: 81, coercions: 0}
+!!! Specialise [Control.Concurrent.QSem.Lifted]: finished in 0.00 milliseconds, allocated 0.091 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.QSem.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 37, types: 81, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.QSem.Lifted]: finished in 1.00 milliseconds, allocated 0.255 megabytes
+*** Simplifier [Control.Concurrent.QSem.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 34, types: 66, coercions: 9}
+Result size of Simplifier = {terms: 34, types: 66, coercions: 9}
+!!! Simplifier [Control.Concurrent.QSem.Lifted]: finished in 1.00 milliseconds, allocated 0.667 megabytes
+*** Simplifier [Control.Concurrent.QSem.Lifted]:
+Result size of Simplifier = {terms: 34, types: 66, coercions: 9}
+!!! Simplifier [Control.Concurrent.QSem.Lifted]: finished in 1.00 milliseconds, allocated 0.208 megabytes
+*** Simplifier [Control.Concurrent.QSem.Lifted]:
+Result size of Simplifier = {terms: 34, types: 66, coercions: 9}
+!!! Simplifier [Control.Concurrent.QSem.Lifted]: finished in 0.00 milliseconds, allocated 0.208 megabytes
+*** Float inwards [Control.Concurrent.QSem.Lifted]:
+Result size of Float inwards = {terms: 34, types: 66, coercions: 9}
+!!! Float inwards [Control.Concurrent.QSem.Lifted]: finished in 1.00 milliseconds, allocated 0.073 megabytes
+*** Called arity analysis [Control.Concurrent.QSem.Lifted]:
+Result size of Called arity analysis
+  = {terms: 34, types: 66, coercions: 9}
+!!! Called arity analysis [Control.Concurrent.QSem.Lifted]: finished in 1.00 milliseconds, allocated 0.075 megabytes
+*** Simplifier [Control.Concurrent.QSem.Lifted]:
+Result size of Simplifier = {terms: 34, types: 66, coercions: 9}
+!!! Simplifier [Control.Concurrent.QSem.Lifted]: finished in 0.00 milliseconds, allocated 0.205 megabytes
+*** Demand analysis [Control.Concurrent.QSem.Lifted]:
+Result size of Demand analysis
+  = {terms: 34, types: 66, coercions: 9}
+!!! Demand analysis [Control.Concurrent.QSem.Lifted]: finished in 0.00 milliseconds, allocated 0.162 megabytes
+*** Worker Wrapper binds [Control.Concurrent.QSem.Lifted]:
+Result size of Worker Wrapper binds
+  = {terms: 34, types: 66, coercions: 9}
+!!! Worker Wrapper binds [Control.Concurrent.QSem.Lifted]: finished in 0.00 milliseconds, allocated 0.054 megabytes
+*** Simplifier [Control.Concurrent.QSem.Lifted]:
+Result size of Simplifier = {terms: 34, types: 66, coercions: 9}
+!!! Simplifier [Control.Concurrent.QSem.Lifted]: finished in 0.00 milliseconds, allocated 0.227 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.QSem.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 34, types: 66, coercions: 9}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.QSem.Lifted]: finished in 1.00 milliseconds, allocated 0.217 megabytes
+*** Common sub-expression [Control.Concurrent.QSem.Lifted]:
+Result size of Common sub-expression
+  = {terms: 34, types: 66, coercions: 9}
+!!! Common sub-expression [Control.Concurrent.QSem.Lifted]: finished in 0.00 milliseconds, allocated 0.098 megabytes
+*** Float inwards [Control.Concurrent.QSem.Lifted]:
+Result size of Float inwards = {terms: 34, types: 66, coercions: 9}
+!!! Float inwards [Control.Concurrent.QSem.Lifted]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** Simplifier [Control.Concurrent.QSem.Lifted]:
+Result size of Simplifier = {terms: 34, types: 66, coercions: 9}
+!!! Simplifier [Control.Concurrent.QSem.Lifted]: finished in 1.00 milliseconds, allocated 0.204 megabytes
+*** CoreTidy [Control.Concurrent.QSem.Lifted]:
+Result size of Tidy Core = {terms: 34, types: 66, coercions: 9}
+!!! CoreTidy [Control.Concurrent.QSem.Lifted]: finished in 0.00 milliseconds, allocated 0.101 megabytes
+writeBinIface: 13 Names
+writeBinIface: 46 dict entries
+writeBinIface: 13 Names
+writeBinIface: 46 dict entries
+*** CorePrep [Control.Concurrent.QSem.Lifted]:
+Result size of CorePrep = {terms: 46, types: 78, coercions: 9}
+!!! CorePrep [Control.Concurrent.QSem.Lifted]: finished in 0.00 milliseconds, allocated 0.125 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.QSem.Lifted]:
+!!! CodeGen [Control.Concurrent.QSem.Lifted]: finished in 3.00 milliseconds, allocated 2.120 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/QSem -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc8076_0/ghc_35.s -o dist/dist-sandbox-6afc8227/build/Control/Concurrent/QSem/Lifted.o
+*** CorePrep [Control.Concurrent.QSem.Lifted]:
+Result size of CorePrep = {terms: 46, types: 78, coercions: 9}
+!!! CorePrep [Control.Concurrent.QSem.Lifted]: finished in 0.00 milliseconds, allocated 0.124 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.QSem.Lifted]:
+!!! CodeGen [Control.Concurrent.QSem.Lifted]: finished in 3.00 milliseconds, allocated 2.191 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/QSem -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8076_0/ghc_37.s -o dist/dist-sandbox-6afc8227/build/Control/Concurrent/QSem/Lifted.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8076_0/ghc_38.c /tmp/ghc8076_0/ghc_37.s /tmp/ghc8076_0/ghc_36.c /tmp/ghc8076_0/ghc_35.s /tmp/ghc8076_0/ghc_34.s
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_38.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_36.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_34.s
+compile: input file /tmp/ghc8076_0/ghc_5.hscpp
+*** Checking old interface for Control.Concurrent.Chan.Lifted:
+[5 of 9] Compiling Control.Concurrent.Chan.Lifted ( Control/Concurrent/Chan/Lifted.hs, dist/dist-sandbox-6afc8227/build/Control/Concurrent/Chan/Lifted.o )
+*** Parser [Control.Concurrent.Chan.Lifted]:
+!!! Parser [Control.Concurrent.Chan.Lifted]: finished in 2.00 milliseconds, allocated 2.713 megabytes
+*** Renamer/typechecker [Control.Concurrent.Chan.Lifted]:
+!!! Renamer/typechecker [Control.Concurrent.Chan.Lifted]: finished in 9.00 milliseconds, allocated 5.560 megabytes
+*** Desugar [Control.Concurrent.Chan.Lifted]:
+Result size of Desugar (after optimization)
+  = {terms: 57, types: 201, coercions: 0}
+!!! Desugar [Control.Concurrent.Chan.Lifted]: finished in 4.00 milliseconds, allocated 1.904 megabytes
+
+Control/Concurrent/Chan/Lifted.hs:6:14: warning: [-Wtrustworthy-safe]
+    ‘Control.Concurrent.Chan.Lifted’ is marked as Trustworthy but has been inferred as safe!
+*** Simplifier [Control.Concurrent.Chan.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 71, types: 212, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 71, types: 212, coercions: 0}
+Result size of Simplifier = {terms: 71, types: 212, coercions: 0}
+!!! Simplifier [Control.Concurrent.Chan.Lifted]: finished in 1.00 milliseconds, allocated 1.239 megabytes
+*** Specialise [Control.Concurrent.Chan.Lifted]:
+Result size of Specialise = {terms: 71, types: 212, coercions: 0}
+!!! Specialise [Control.Concurrent.Chan.Lifted]: finished in 0.00 milliseconds, allocated 0.138 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.Chan.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 71, types: 212, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.Chan.Lifted]: finished in 1.00 milliseconds, allocated 0.522 megabytes
+*** Simplifier [Control.Concurrent.Chan.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 66, types: 179, coercions: 21}
+Result size of Simplifier = {terms: 66, types: 179, coercions: 21}
+!!! Simplifier [Control.Concurrent.Chan.Lifted]: finished in 3.00 milliseconds, allocated 1.506 megabytes
+*** Simplifier [Control.Concurrent.Chan.Lifted]:
+Result size of Simplifier = {terms: 66, types: 179, coercions: 21}
+!!! Simplifier [Control.Concurrent.Chan.Lifted]: finished in 0.00 milliseconds, allocated 0.376 megabytes
+*** Simplifier [Control.Concurrent.Chan.Lifted]:
+Result size of Simplifier = {terms: 66, types: 179, coercions: 21}
+!!! Simplifier [Control.Concurrent.Chan.Lifted]: finished in 1.00 milliseconds, allocated 0.379 megabytes
+*** Float inwards [Control.Concurrent.Chan.Lifted]:
+Result size of Float inwards
+  = {terms: 66, types: 179, coercions: 21}
+!!! Float inwards [Control.Concurrent.Chan.Lifted]: finished in 0.00 milliseconds, allocated 0.120 megabytes
+*** Called arity analysis [Control.Concurrent.Chan.Lifted]:
+Result size of Called arity analysis
+  = {terms: 66, types: 179, coercions: 21}
+!!! Called arity analysis [Control.Concurrent.Chan.Lifted]: finished in 0.00 milliseconds, allocated 0.104 megabytes
+*** Simplifier [Control.Concurrent.Chan.Lifted]:
+Result size of Simplifier = {terms: 66, types: 179, coercions: 21}
+!!! Simplifier [Control.Concurrent.Chan.Lifted]: finished in 1.00 milliseconds, allocated 0.379 megabytes
+*** Demand analysis [Control.Concurrent.Chan.Lifted]:
+Result size of Demand analysis
+  = {terms: 66, types: 179, coercions: 21}
+!!! Demand analysis [Control.Concurrent.Chan.Lifted]: finished in 0.00 milliseconds, allocated 0.276 megabytes
+*** Worker Wrapper binds [Control.Concurrent.Chan.Lifted]:
+Result size of Worker Wrapper binds
+  = {terms: 66, types: 179, coercions: 21}
+!!! Worker Wrapper binds [Control.Concurrent.Chan.Lifted]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Simplifier [Control.Concurrent.Chan.Lifted]:
+Result size of Simplifier = {terms: 66, types: 179, coercions: 21}
+!!! Simplifier [Control.Concurrent.Chan.Lifted]: finished in 1.00 milliseconds, allocated 0.421 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.Chan.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 66, types: 179, coercions: 21}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.Chan.Lifted]: finished in 1.00 milliseconds, allocated 0.467 megabytes
+*** Common sub-expression [Control.Concurrent.Chan.Lifted]:
+Result size of Common sub-expression
+  = {terms: 66, types: 179, coercions: 21}
+!!! Common sub-expression [Control.Concurrent.Chan.Lifted]: finished in 0.00 milliseconds, allocated 0.173 megabytes
+*** Float inwards [Control.Concurrent.Chan.Lifted]:
+Result size of Float inwards
+  = {terms: 66, types: 179, coercions: 21}
+!!! Float inwards [Control.Concurrent.Chan.Lifted]: finished in 0.00 milliseconds, allocated 0.119 megabytes
+*** Simplifier [Control.Concurrent.Chan.Lifted]:
+Result size of Simplifier = {terms: 66, types: 179, coercions: 21}
+!!! Simplifier [Control.Concurrent.Chan.Lifted]: finished in 0.00 milliseconds, allocated 0.376 megabytes
+*** CoreTidy [Control.Concurrent.Chan.Lifted]:
+Result size of Tidy Core = {terms: 66, types: 179, coercions: 21}
+!!! CoreTidy [Control.Concurrent.Chan.Lifted]: finished in 0.00 milliseconds, allocated 0.161 megabytes
+writeBinIface: 19 Names
+writeBinIface: 50 dict entries
+writeBinIface: 19 Names
+writeBinIface: 50 dict entries
+*** CorePrep [Control.Concurrent.Chan.Lifted]:
+Result size of CorePrep = {terms: 86, types: 201, coercions: 21}
+!!! CorePrep [Control.Concurrent.Chan.Lifted]: finished in 0.00 milliseconds, allocated 0.206 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.Chan.Lifted]:
+!!! CodeGen [Control.Concurrent.Chan.Lifted]: finished in 5.00 milliseconds, allocated 3.672 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/Chan -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc8076_0/ghc_40.s -o dist/dist-sandbox-6afc8227/build/Control/Concurrent/Chan/Lifted.o
+*** CorePrep [Control.Concurrent.Chan.Lifted]:
+Result size of CorePrep = {terms: 86, types: 201, coercions: 21}
+!!! CorePrep [Control.Concurrent.Chan.Lifted]: finished in 0.00 milliseconds, allocated 0.204 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.Chan.Lifted]:
+!!! CodeGen [Control.Concurrent.Chan.Lifted]: finished in 6.00 milliseconds, allocated 3.829 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/Chan -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8076_0/ghc_42.s -o dist/dist-sandbox-6afc8227/build/Control/Concurrent/Chan/Lifted.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8076_0/ghc_43.c /tmp/ghc8076_0/ghc_42.s /tmp/ghc8076_0/ghc_41.c /tmp/ghc8076_0/ghc_40.s /tmp/ghc8076_0/ghc_39.s
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_43.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_41.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_39.s
+compile: input file /tmp/ghc8076_0/ghc_3.hscpp
+*** Checking old interface for Control.Concurrent.MVar.Lifted:
+[6 of 9] Compiling Control.Concurrent.MVar.Lifted ( Control/Concurrent/MVar/Lifted.hs, dist/dist-sandbox-6afc8227/build/Control/Concurrent/MVar/Lifted.o )
+*** Parser [Control.Concurrent.MVar.Lifted]:
+!!! Parser [Control.Concurrent.MVar.Lifted]: finished in 5.00 milliseconds, allocated 6.346 megabytes
+*** Renamer/typechecker [Control.Concurrent.MVar.Lifted]:
+!!! Renamer/typechecker [Control.Concurrent.MVar.Lifted]: finished in 64.00 milliseconds, allocated 33.831 megabytes
+*** Desugar [Control.Concurrent.MVar.Lifted]:
+Result size of Desugar (after optimization)
+  = {terms: 341, types: 975, coercions: 0}
+!!! Desugar [Control.Concurrent.MVar.Lifted]: finished in 19.00 milliseconds, allocated 10.446 megabytes
+
+Control/Concurrent/MVar/Lifted.hs:7:14: warning: [-Wtrustworthy-safe]
+    ‘Control.Concurrent.MVar.Lifted’ is marked as Trustworthy but has been inferred as safe!
+*** Simplifier [Control.Concurrent.MVar.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 351, types: 982, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 345, types: 974, coercions: 0}
+Result size of Simplifier = {terms: 345, types: 974, coercions: 0}
+!!! Simplifier [Control.Concurrent.MVar.Lifted]: finished in 18.00 milliseconds, allocated 8.328 megabytes
+*** Specialise [Control.Concurrent.MVar.Lifted]:
+Result size of Specialise = {terms: 345, types: 974, coercions: 0}
+!!! Specialise [Control.Concurrent.MVar.Lifted]: finished in 1.00 milliseconds, allocated 0.544 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.MVar.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 383, types: 1,040, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.MVar.Lifted]: finished in 5.00 milliseconds, allocated 3.682 megabytes
+*** Simplifier [Control.Concurrent.MVar.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 885, types: 1,719, coercions: 346}
+Result size of Simplifier iteration=2
+  = {terms: 825, types: 1,593, coercions: 310}
+Result size of Simplifier
+  = {terms: 825, types: 1,593, coercions: 310}
+!!! Simplifier [Control.Concurrent.MVar.Lifted]: finished in 44.00 milliseconds, allocated 20.870 megabytes
+*** Simplifier [Control.Concurrent.MVar.Lifted]:
+Result size of Simplifier
+  = {terms: 825, types: 1,593, coercions: 310}
+!!! Simplifier [Control.Concurrent.MVar.Lifted]: finished in 11.00 milliseconds, allocated 4.710 megabytes
+*** Simplifier [Control.Concurrent.MVar.Lifted]:
+Result size of Simplifier
+  = {terms: 825, types: 1,593, coercions: 310}
+!!! Simplifier [Control.Concurrent.MVar.Lifted]: finished in 10.00 milliseconds, allocated 4.710 megabytes
+*** Float inwards [Control.Concurrent.MVar.Lifted]:
+Result size of Float inwards
+  = {terms: 825, types: 1,593, coercions: 310}
+!!! Float inwards [Control.Concurrent.MVar.Lifted]: finished in 4.00 milliseconds, allocated 2.516 megabytes
+*** Called arity analysis [Control.Concurrent.MVar.Lifted]:
+Result size of Called arity analysis
+  = {terms: 825, types: 1,593, coercions: 310}
+!!! Called arity analysis [Control.Concurrent.MVar.Lifted]: finished in 2.00 milliseconds, allocated 0.823 megabytes
+*** Simplifier [Control.Concurrent.MVar.Lifted]:
+Result size of Simplifier
+  = {terms: 825, types: 1,593, coercions: 310}
+!!! Simplifier [Control.Concurrent.MVar.Lifted]: finished in 12.00 milliseconds, allocated 4.712 megabytes
+*** Demand analysis [Control.Concurrent.MVar.Lifted]:
+Result size of Demand analysis
+  = {terms: 825, types: 1,593, coercions: 310}
+!!! Demand analysis [Control.Concurrent.MVar.Lifted]: finished in 14.00 milliseconds, allocated 4.815 megabytes
+*** Worker Wrapper binds [Control.Concurrent.MVar.Lifted]:
+Result size of Worker Wrapper binds
+  = {terms: 855, types: 1,631, coercions: 310}
+!!! Worker Wrapper binds [Control.Concurrent.MVar.Lifted]: finished in 1.00 milliseconds, allocated 0.338 megabytes
+*** Simplifier [Control.Concurrent.MVar.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 837, types: 1,605, coercions: 310}
+Result size of Simplifier
+  = {terms: 837, types: 1,605, coercions: 310}
+!!! Simplifier [Control.Concurrent.MVar.Lifted]: finished in 95.00 milliseconds, allocated 10.260 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.MVar.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 865, types: 1,687, coercions: 310}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.MVar.Lifted]: finished in 8.00 milliseconds, allocated 6.585 megabytes
+*** Common sub-expression [Control.Concurrent.MVar.Lifted]:
+Result size of Common sub-expression
+  = {terms: 832, types: 1,603, coercions: 301}
+!!! Common sub-expression [Control.Concurrent.MVar.Lifted]: finished in 3.00 milliseconds, allocated 1.580 megabytes
+*** Float inwards [Control.Concurrent.MVar.Lifted]:
+Result size of Float inwards
+  = {terms: 832, types: 1,603, coercions: 301}
+!!! Float inwards [Control.Concurrent.MVar.Lifted]: finished in 4.00 milliseconds, allocated 2.634 megabytes
+*** Simplifier [Control.Concurrent.MVar.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 828, types: 1,576, coercions: 301}
+Result size of Simplifier
+  = {terms: 828, types: 1,576, coercions: 301}
+!!! Simplifier [Control.Concurrent.MVar.Lifted]: finished in 21.00 milliseconds, allocated 9.570 megabytes
+*** CoreTidy [Control.Concurrent.MVar.Lifted]:
+Result size of Tidy Core
+  = {terms: 828, types: 1,576, coercions: 301}
+!!! CoreTidy [Control.Concurrent.MVar.Lifted]: finished in 3.00 milliseconds, allocated 1.389 megabytes
+writeBinIface: 58 Names
+writeBinIface: 115 dict entries
+writeBinIface: 58 Names
+writeBinIface: 115 dict entries
+*** CorePrep [Control.Concurrent.MVar.Lifted]:
+Result size of CorePrep
+  = {terms: 1,110, types: 2,151, coercions: 319}
+!!! CorePrep [Control.Concurrent.MVar.Lifted]: finished in 4.00 milliseconds, allocated 2.541 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.MVar.Lifted]:
+!!! CodeGen [Control.Concurrent.MVar.Lifted]: finished in 88.00 milliseconds, allocated 67.051 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/MVar -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc8076_0/ghc_45.s -o dist/dist-sandbox-6afc8227/build/Control/Concurrent/MVar/Lifted.o
+*** CorePrep [Control.Concurrent.MVar.Lifted]:
+Result size of CorePrep
+  = {terms: 1,110, types: 2,151, coercions: 319}
+!!! CorePrep [Control.Concurrent.MVar.Lifted]: finished in 3.00 milliseconds, allocated 2.427 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.MVar.Lifted]:
+!!! CodeGen [Control.Concurrent.MVar.Lifted]: finished in 89.00 milliseconds, allocated 71.038 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent/MVar -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8076_0/ghc_47.s -o dist/dist-sandbox-6afc8227/build/Control/Concurrent/MVar/Lifted.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8076_0/ghc_48.c /tmp/ghc8076_0/ghc_47.s /tmp/ghc8076_0/ghc_46.c /tmp/ghc8076_0/ghc_45.s /tmp/ghc8076_0/ghc_44.s
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_48.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_46.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_44.s
+compile: input file /tmp/ghc8076_0/ghc_1.hscpp
+*** Checking old interface for Control.Exception.Lifted:
+[7 of 9] Compiling Control.Exception.Lifted ( Control/Exception/Lifted.hs, dist/dist-sandbox-6afc8227/build/Control/Exception/Lifted.o )
+*** Parser [Control.Exception.Lifted]:
+!!! Parser [Control.Exception.Lifted]: finished in 5.00 milliseconds, allocated 11.011 megabytes
+*** Renamer/typechecker [Control.Exception.Lifted]:
+!!! Renamer/typechecker [Control.Exception.Lifted]: finished in 58.00 milliseconds, allocated 40.878 megabytes
+*** Desugar [Control.Exception.Lifted]:
+Result size of Desugar (after optimization)
+  = {terms: 446, types: 1,446, coercions: 0}
+!!! Desugar [Control.Exception.Lifted]: finished in 15.00 milliseconds, allocated 17.071 megabytes
+
+Control/Exception/Lifted.hs:11:14: warning: [-Wtrustworthy-safe]
+    ‘Control.Exception.Lifted’ is marked as Trustworthy but has been inferred as safe!
+*** Simplifier [Control.Exception.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 468, types: 1,464, coercions: 35}
+Result size of Simplifier iteration=2
+  = {terms: 468, types: 1,464, coercions: 47}
+Result size of Simplifier
+  = {terms: 468, types: 1,464, coercions: 47}
+!!! Simplifier [Control.Exception.Lifted]: finished in 14.00 milliseconds, allocated 9.859 megabytes
+*** Specialise [Control.Exception.Lifted]:
+Result size of Specialise
+  = {terms: 468, types: 1,464, coercions: 47}
+!!! Specialise [Control.Exception.Lifted]: finished in 0.00 milliseconds, allocated 0.779 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Exception.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 468, types: 1,464, coercions: 47}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Exception.Lifted]: finished in 38.00 milliseconds, allocated 40.587 megabytes
+*** Simplifier [Control.Exception.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 738, types: 1,816, coercions: 322}
+Result size of Simplifier iteration=2
+  = {terms: 653, types: 1,534, coercions: 298}
+Result size of Simplifier
+  = {terms: 653, types: 1,534, coercions: 298}
+!!! Simplifier [Control.Exception.Lifted]: finished in 21.00 milliseconds, allocated 14.942 megabytes
+*** Simplifier [Control.Exception.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 649, types: 1,537, coercions: 298}
+Result size of Simplifier
+  = {terms: 649, types: 1,537, coercions: 298}
+!!! Simplifier [Control.Exception.Lifted]: finished in 8.00 milliseconds, allocated 8.108 megabytes
+*** Simplifier [Control.Exception.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 654, types: 1,545, coercions: 298}
+Result size of Simplifier
+  = {terms: 654, types: 1,545, coercions: 298}
+!!! Simplifier [Control.Exception.Lifted]: finished in 10.00 milliseconds, allocated 7.903 megabytes
+*** Float inwards [Control.Exception.Lifted]:
+Result size of Float inwards
+  = {terms: 654, types: 1,545, coercions: 298}
+!!! Float inwards [Control.Exception.Lifted]: finished in 1.00 milliseconds, allocated 1.471 megabytes
+*** Called arity analysis [Control.Exception.Lifted]:
+Result size of Called arity analysis
+  = {terms: 654, types: 1,545, coercions: 298}
+!!! Called arity analysis [Control.Exception.Lifted]: finished in 1.00 milliseconds, allocated 0.658 megabytes
+*** Simplifier [Control.Exception.Lifted]:
+Result size of Simplifier
+  = {terms: 654, types: 1,545, coercions: 298}
+!!! Simplifier [Control.Exception.Lifted]: finished in 4.00 milliseconds, allocated 3.946 megabytes
+*** Demand analysis [Control.Exception.Lifted]:
+Result size of Demand analysis
+  = {terms: 654, types: 1,545, coercions: 298}
+!!! Demand analysis [Control.Exception.Lifted]: finished in 3.00 milliseconds, allocated 3.625 megabytes
+*** Worker Wrapper binds [Control.Exception.Lifted]:
+Result size of Worker Wrapper binds
+  = {terms: 654, types: 1,545, coercions: 298}
+!!! Worker Wrapper binds [Control.Exception.Lifted]: finished in 0.00 milliseconds, allocated 0.270 megabytes
+*** Simplifier [Control.Exception.Lifted]:
+Result size of Simplifier
+  = {terms: 654, types: 1,545, coercions: 298}
+!!! Simplifier [Control.Exception.Lifted]: finished in 5.00 milliseconds, allocated 4.434 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Exception.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 670, types: 1,567, coercions: 298}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Exception.Lifted]: finished in 6.00 milliseconds, allocated 6.746 megabytes
+*** Common sub-expression [Control.Exception.Lifted]:
+Result size of Common sub-expression
+  = {terms: 666, types: 1,559, coercions: 298}
+!!! Common sub-expression [Control.Exception.Lifted]: finished in 1.00 milliseconds, allocated 1.348 megabytes
+*** Float inwards [Control.Exception.Lifted]:
+Result size of Float inwards
+  = {terms: 666, types: 1,559, coercions: 298}
+!!! Float inwards [Control.Exception.Lifted]: finished in 1.00 milliseconds, allocated 1.813 megabytes
+*** Simplifier [Control.Exception.Lifted]:
+Result size of Simplifier
+  = {terms: 666, types: 1,559, coercions: 298}
+!!! Simplifier [Control.Exception.Lifted]: finished in 5.00 milliseconds, allocated 3.886 megabytes
+*** CoreTidy [Control.Exception.Lifted]:
+Result size of Tidy Core
+  = {terms: 666, types: 1,559, coercions: 298}
+!!! CoreTidy [Control.Exception.Lifted]: finished in 1.00 milliseconds, allocated 1.093 megabytes
+writeBinIface: 136 Names
+writeBinIface: 174 dict entries
+writeBinIface: 136 Names
+writeBinIface: 174 dict entries
+*** CorePrep [Control.Exception.Lifted]:
+Result size of CorePrep
+  = {terms: 1,012, types: 2,363, coercions: 298}
+!!! CorePrep [Control.Exception.Lifted]: finished in 2.00 milliseconds, allocated 2.203 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Exception.Lifted]:
+!!! CodeGen [Control.Exception.Lifted]: finished in 53.00 milliseconds, allocated 57.219 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Exception -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc8076_0/ghc_50.s -o dist/dist-sandbox-6afc8227/build/Control/Exception/Lifted.o
+*** CorePrep [Control.Exception.Lifted]:
+Result size of CorePrep
+  = {terms: 1,012, types: 2,363, coercions: 298}
+!!! CorePrep [Control.Exception.Lifted]: finished in 3.00 milliseconds, allocated 2.145 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Exception.Lifted]:
+!!! CodeGen [Control.Exception.Lifted]: finished in 69.00 milliseconds, allocated 61.063 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Exception -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8076_0/ghc_52.s -o dist/dist-sandbox-6afc8227/build/Control/Exception/Lifted.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8076_0/ghc_53.c /tmp/ghc8076_0/ghc_52.s /tmp/ghc8076_0/ghc_51.c /tmp/ghc8076_0/ghc_50.s /tmp/ghc8076_0/ghc_49.s
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_53.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_51.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_49.s
+compile: input file /tmp/ghc8076_0/ghc_11.hscpp
+*** Checking old interface for Control.Concurrent.Lifted:
+[8 of 9] Compiling Control.Concurrent.Lifted ( Control/Concurrent/Lifted.hs, dist/dist-sandbox-6afc8227/build/Control/Concurrent/Lifted.o )
+*** Parser [Control.Concurrent.Lifted]:
+!!! Parser [Control.Concurrent.Lifted]: finished in 5.00 milliseconds, allocated 7.192 megabytes
+*** Renamer/typechecker [Control.Concurrent.Lifted]:
+!!! Renamer/typechecker [Control.Concurrent.Lifted]: finished in 53.00 milliseconds, allocated 34.146 megabytes
+*** Desugar [Control.Concurrent.Lifted]:
+Result size of Desugar (after optimization)
+  = {terms: 193, types: 685, coercions: 0}
+!!! Desugar [Control.Concurrent.Lifted]: finished in 10.00 milliseconds, allocated 7.325 megabytes
+
+Control/Concurrent/Lifted.hs:4:14: warning: [-Wtrustworthy-safe]
+    ‘Control.Concurrent.Lifted’ is marked as Trustworthy but has been inferred as safe!
+*** Simplifier [Control.Concurrent.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 223, types: 708, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 223, types: 708, coercions: 0}
+Result size of Simplifier = {terms: 223, types: 708, coercions: 0}
+!!! Simplifier [Control.Concurrent.Lifted]: finished in 10.00 milliseconds, allocated 5.069 megabytes
+*** Specialise [Control.Concurrent.Lifted]:
+Result size of Specialise = {terms: 223, types: 708, coercions: 0}
+!!! Specialise [Control.Concurrent.Lifted]: finished in 0.00 milliseconds, allocated 0.412 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 231, types: 734, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Concurrent.Lifted]: finished in 2.00 milliseconds, allocated 1.676 megabytes
+*** Simplifier [Control.Concurrent.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 350, types: 874, coercions: 220}
+Result size of Simplifier iteration=2
+  = {terms: 323, types: 794, coercions: 208}
+Result size of Simplifier
+  = {terms: 323, types: 794, coercions: 208}
+!!! Simplifier [Control.Concurrent.Lifted]: finished in 30.00 milliseconds, allocated 17.413 megabytes
+*** Simplifier [Control.Concurrent.Lifted]:
+Result size of Simplifier
+  = {terms: 323, types: 794, coercions: 208}
+!!! Simplifier [Control.Concurrent.Lifted]: finished in 3.00 milliseconds, allocated 2.053 megabytes
+*** Simplifier [Control.Concurrent.Lifted]:
+Result size of Simplifier
+  = {terms: 323, types: 794, coercions: 208}
+!!! Simplifier [Control.Concurrent.Lifted]: finished in 3.00 milliseconds, allocated 2.052 megabytes
+*** Float inwards [Control.Concurrent.Lifted]:
+Result size of Float inwards
+  = {terms: 323, types: 794, coercions: 208}
+!!! Float inwards [Control.Concurrent.Lifted]: finished in 1.00 milliseconds, allocated 0.927 megabytes
+*** Called arity analysis [Control.Concurrent.Lifted]:
+Result size of Called arity analysis
+  = {terms: 323, types: 794, coercions: 208}
+!!! Called arity analysis [Control.Concurrent.Lifted]: finished in 1.00 milliseconds, allocated 0.365 megabytes
+*** Simplifier [Control.Concurrent.Lifted]:
+Result size of Simplifier
+  = {terms: 323, types: 794, coercions: 208}
+!!! Simplifier [Control.Concurrent.Lifted]: finished in 7.00 milliseconds, allocated 2.055 megabytes
+*** Demand analysis [Control.Concurrent.Lifted]:
+Result size of Demand analysis
+  = {terms: 323, types: 794, coercions: 208}
+!!! Demand analysis [Control.Concurrent.Lifted]: finished in 2.00 milliseconds, allocated 1.729 megabytes
+*** Worker Wrapper binds [Control.Concurrent.Lifted]:
+Result size of Worker Wrapper binds
+  = {terms: 323, types: 794, coercions: 208}
+!!! Worker Wrapper binds [Control.Concurrent.Lifted]: finished in 0.00 milliseconds, allocated 0.166 megabytes
+*** Simplifier [Control.Concurrent.Lifted]:
+Result size of Simplifier
+  = {terms: 323, types: 794, coercions: 208}
+!!! Simplifier [Control.Concurrent.Lifted]: finished in 4.00 milliseconds, allocated 2.299 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 343, types: 847, coercions: 208}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Concurrent.Lifted]: finished in 3.00 milliseconds, allocated 2.430 megabytes
+*** Common sub-expression [Control.Concurrent.Lifted]:
+Result size of Common sub-expression
+  = {terms: 339, types: 839, coercions: 208}
+!!! Common sub-expression [Control.Concurrent.Lifted]: finished in 1.00 milliseconds, allocated 0.705 megabytes
+*** Float inwards [Control.Concurrent.Lifted]:
+Result size of Float inwards
+  = {terms: 339, types: 839, coercions: 208}
+!!! Float inwards [Control.Concurrent.Lifted]: finished in 2.00 milliseconds, allocated 1.078 megabytes
+*** Simplifier [Control.Concurrent.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 337, types: 837, coercions: 208}
+Result size of Simplifier
+  = {terms: 337, types: 837, coercions: 208}
+!!! Simplifier [Control.Concurrent.Lifted]: finished in 6.00 milliseconds, allocated 4.131 megabytes
+*** CoreTidy [Control.Concurrent.Lifted]:
+Result size of Tidy Core = {terms: 337, types: 837, coercions: 208}
+!!! CoreTidy [Control.Concurrent.Lifted]: finished in 2.00 milliseconds, allocated 0.657 megabytes
+writeBinIface: 102 Names
+writeBinIface: 160 dict entries
+writeBinIface: 102 Names
+writeBinIface: 160 dict entries
+*** CorePrep [Control.Concurrent.Lifted]:
+Result size of CorePrep
+  = {terms: 469, types: 1,125, coercions: 208}
+!!! CorePrep [Control.Concurrent.Lifted]: finished in 2.00 milliseconds, allocated 1.130 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.Lifted]:
+!!! CodeGen [Control.Concurrent.Lifted]: finished in 36.00 milliseconds, allocated 26.109 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc8076_0/ghc_55.s -o dist/dist-sandbox-6afc8227/build/Control/Concurrent/Lifted.o
+*** CorePrep [Control.Concurrent.Lifted]:
+Result size of CorePrep
+  = {terms: 469, types: 1,125, coercions: 208}
+!!! CorePrep [Control.Concurrent.Lifted]: finished in 3.00 milliseconds, allocated 1.100 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Concurrent.Lifted]:
+!!! CodeGen [Control.Concurrent.Lifted]: finished in 38.00 milliseconds, allocated 27.863 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Concurrent -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8076_0/ghc_57.s -o dist/dist-sandbox-6afc8227/build/Control/Concurrent/Lifted.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8076_0/ghc_58.c /tmp/ghc8076_0/ghc_57.s /tmp/ghc8076_0/ghc_56.c /tmp/ghc8076_0/ghc_55.s /tmp/ghc8076_0/ghc_54.s
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_58.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_56.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_54.s
+compile: input file /tmp/ghc8076_0/ghc_17.hscpp
+*** Checking old interface for System.Timeout.Lifted:
+[9 of 9] Compiling System.Timeout.Lifted ( System/Timeout/Lifted.hs, dist/dist-sandbox-6afc8227/build/System/Timeout/Lifted.o )
+*** Parser [System.Timeout.Lifted]:
+!!! Parser [System.Timeout.Lifted]: finished in 2.00 milliseconds, allocated 1.718 megabytes
+*** Renamer/typechecker [System.Timeout.Lifted]:
+!!! Renamer/typechecker [System.Timeout.Lifted]: finished in 5.00 milliseconds, allocated 2.965 megabytes
+*** Desugar [System.Timeout.Lifted]:
+Result size of Desugar (after optimization)
+  = {terms: 37, types: 83, coercions: 0}
+!!! Desugar [System.Timeout.Lifted]: finished in 1.00 milliseconds, allocated 0.936 megabytes
+
+System/Timeout/Lifted.hs:4:14: warning: [-Wtrustworthy-safe]
+    ‘System.Timeout.Lifted’ is marked as Trustworthy but has been inferred as safe!
+*** Simplifier [System.Timeout.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 43, types: 87, coercions: 11}
+Result size of Simplifier = {terms: 43, types: 87, coercions: 15}
+!!! Simplifier [System.Timeout.Lifted]: finished in 1.00 milliseconds, allocated 0.666 megabytes
+*** Specialise [System.Timeout.Lifted]:
+Result size of Specialise = {terms: 43, types: 87, coercions: 15}
+!!! Specialise [System.Timeout.Lifted]: finished in 1.00 milliseconds, allocated 0.111 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Timeout.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 43, types: 87, coercions: 15}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Timeout.Lifted]: finished in 0.00 milliseconds, allocated 0.391 megabytes
+*** Simplifier [System.Timeout.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 69, types: 121, coercions: 10}
+Result size of Simplifier iteration=2
+  = {terms: 55, types: 96, coercions: 10}
+Result size of Simplifier = {terms: 55, types: 96, coercions: 10}
+!!! Simplifier [System.Timeout.Lifted]: finished in 3.00 milliseconds, allocated 1.268 megabytes
+*** Simplifier [System.Timeout.Lifted]:
+Result size of Simplifier = {terms: 55, types: 96, coercions: 10}
+!!! Simplifier [System.Timeout.Lifted]: finished in 0.00 milliseconds, allocated 0.377 megabytes
+*** Simplifier [System.Timeout.Lifted]:
+Result size of Simplifier iteration=1
+  = {terms: 58, types: 98, coercions: 10}
+Result size of Simplifier = {terms: 58, types: 98, coercions: 10}
+!!! Simplifier [System.Timeout.Lifted]: finished in 2.00 milliseconds, allocated 0.776 megabytes
+*** Float inwards [System.Timeout.Lifted]:
+Result size of Float inwards
+  = {terms: 58, types: 98, coercions: 10}
+!!! Float inwards [System.Timeout.Lifted]: finished in 0.00 milliseconds, allocated 0.213 megabytes
+*** Called arity analysis [System.Timeout.Lifted]:
+Result size of Called arity analysis
+  = {terms: 58, types: 98, coercions: 10}
+!!! Called arity analysis [System.Timeout.Lifted]: finished in 0.00 milliseconds, allocated 0.088 megabytes
+*** Simplifier [System.Timeout.Lifted]:
+Result size of Simplifier = {terms: 58, types: 98, coercions: 10}
+!!! Simplifier [System.Timeout.Lifted]: finished in 1.00 milliseconds, allocated 0.385 megabytes
+*** Demand analysis [System.Timeout.Lifted]:
+Result size of Demand analysis
+  = {terms: 58, types: 98, coercions: 10}
+!!! Demand analysis [System.Timeout.Lifted]: finished in 1.00 milliseconds, allocated 0.338 megabytes
+*** Worker Wrapper binds [System.Timeout.Lifted]:
+Result size of Worker Wrapper binds
+  = {terms: 58, types: 98, coercions: 10}
+!!! Worker Wrapper binds [System.Timeout.Lifted]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Simplifier [System.Timeout.Lifted]:
+Result size of Simplifier = {terms: 58, types: 98, coercions: 10}
+!!! Simplifier [System.Timeout.Lifted]: finished in 1.00 milliseconds, allocated 0.406 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Timeout.Lifted]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 60, types: 102, coercions: 10}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Timeout.Lifted]: finished in 1.00 milliseconds, allocated 0.503 megabytes
+*** Common sub-expression [System.Timeout.Lifted]:
+Result size of Common sub-expression
+  = {terms: 60, types: 102, coercions: 10}
+!!! Common sub-expression [System.Timeout.Lifted]: finished in 0.00 milliseconds, allocated 0.135 megabytes
+*** Float inwards [System.Timeout.Lifted]:
+Result size of Float inwards
+  = {terms: 60, types: 102, coercions: 10}
+!!! Float inwards [System.Timeout.Lifted]: finished in 0.00 milliseconds, allocated 0.235 megabytes
+*** Simplifier [System.Timeout.Lifted]:
+Result size of Simplifier = {terms: 60, types: 102, coercions: 10}
+!!! Simplifier [System.Timeout.Lifted]: finished in 1.00 milliseconds, allocated 0.380 megabytes
+*** CoreTidy [System.Timeout.Lifted]:
+Result size of Tidy Core = {terms: 60, types: 102, coercions: 10}
+!!! CoreTidy [System.Timeout.Lifted]: finished in 1.00 milliseconds, allocated 0.132 megabytes
+writeBinIface: 17 Names
+writeBinIface: 64 dict entries
+writeBinIface: 17 Names
+writeBinIface: 64 dict entries
+*** CorePrep [System.Timeout.Lifted]:
+Result size of CorePrep = {terms: 74, types: 130, coercions: 10}
+!!! CorePrep [System.Timeout.Lifted]: finished in 0.00 milliseconds, allocated 0.185 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Timeout.Lifted]:
+!!! CodeGen [System.Timeout.Lifted]: finished in 5.00 milliseconds, allocated 4.308 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./System/Timeout -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc8076_0/ghc_60.s -o dist/dist-sandbox-6afc8227/build/System/Timeout/Lifted.o
+*** CorePrep [System.Timeout.Lifted]:
+Result size of CorePrep = {terms: 74, types: 130, coercions: 10}
+!!! CorePrep [System.Timeout.Lifted]: finished in 0.00 milliseconds, allocated 0.180 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Timeout.Lifted]:
+!!! CodeGen [System.Timeout.Lifted]: finished in 6.00 milliseconds, allocated 4.589 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./System/Timeout -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8076_0/ghc_62.s -o dist/dist-sandbox-6afc8227/build/System/Timeout/Lifted.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc8076_0/ghc_63.c /tmp/ghc8076_0/ghc_62.s /tmp/ghc8076_0/ghc_61.c /tmp/ghc8076_0/ghc_60.s /tmp/ghc8076_0/ghc_59.s
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_63.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_61.c
+Warning: deleting non-existent /tmp/ghc8076_0/ghc_59.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc8076_0/ghc_17.hscpp /tmp/ghc8076_0/ghc_15.hscpp /tmp/ghc8076_0/ghc_13.hscpp /tmp/ghc8076_0/ghc_11.hscpp /tmp/ghc8076_0/ghc_9.hscpp /tmp/ghc8076_0/ghc_7.hscpp /tmp/ghc8076_0/ghc_5.hscpp /tmp/ghc8076_0/ghc_3.hscpp /tmp/ghc8076_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8076_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/monad-control-1.0.1.0-1xoC3YihUKYHLar1SsWtYe -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-base-0.4.4-FMTbgPqmqMsCiOz3biyAGx -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N -o dist/dist-sandbox-6afc8227/build/libHSlifted-base-0.2.3.6-G0aReckQITxDDhhKYmTW5H-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSlifted-base-0.2.3.6-G0aReckQITxDDhhKYmTW5H-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Control/Exception/Lifted.dyn_o dist/dist-sandbox-6afc8227/build/Control/Concurrent/MVar/Lifted.dyn_o dist/dist-sandbox-6afc8227/build/Control/Concurrent/Chan/Lifted.dyn_o dist/dist-sandbox-6afc8227/build/Control/Concurrent/QSem/Lifted.dyn_o dist/dist-sandbox-6afc8227/build/Control/Concurrent/QSemN/Lifted.dyn_o dist/dist-sandbox-6afc8227/build/Control/Concurrent/Lifted.dyn_o dist/dist-sandbox-6afc8227/build/Data/IORef/Lifted.dyn_o dist/dist-sandbox-6afc8227/build/Foreign/Marshal/Utils/Lifted.dyn_o dist/dist-sandbox-6afc8227/build/System/Timeout/Lifted.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/monad-control-1.0.1.0-1xoC3YihUKYHLar1SsWtYe -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-base-0.4.4-FMTbgPqmqMsCiOz3biyAGx -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSmonad-control-1.0.1.0-1xoC3YihUKYHLar1SsWtYe-ghc8.0.1 -lHStransformers-base-0.4.4-FMTbgPqmqMsCiOz3biyAGx-ghc8.0.1 -lHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N-ghc8.0.1 -lHStransformers-0.5.2.0-ghc8.0.1 -lHSstm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc8176_0
+*** Deleting temp files:
+Deleting: /tmp/ghc8176_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8176_0
+Creating package registration file:
+/tmp/pkgConf-lifted-base-0.2.3378409503515530019.6
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/lifted-base-0.2.3.6-G0aReckQITxDDhhKYmTW5H
+Registering lifted-base-0.2.3.6...
+cabal: Leaving directory '/tmp/cabal-tmp-1026/lifted-base-0.2.3.6'

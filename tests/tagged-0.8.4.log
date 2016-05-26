@@ -1,0 +1,398 @@
+cabal: Entering directory '/tmp/cabal-tmp-1043/tagged-0.8.4'
+Configuring tagged-0.8.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc3664_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc3664_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc3664_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc3664_0/ghc_2.rsp /tmp/ghc3664_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc3664_0
+Building tagged-0.8.4...
+Preprocessing library tagged-0.8.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.Tagged,*Data.Proxy.TH
+Created temporary directory: /tmp/ghc3772_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -DLANGUAGE_DeriveDataTypeable -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc3772_0/ghc_2.h -x assembler-with-cpp src/Data/Tagged.hs -o /tmp/ghc3772_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -DLANGUAGE_DeriveDataTypeable -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc3772_0/ghc_4.h -x assembler-with-cpp src/Data/Proxy/TH.hs -o /tmp/ghc3772_0/ghc_3.hscpp
+!!! Chasing dependencies: finished in 11.00 milliseconds, allocated 7.429 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-23 19:48:24 UTC
+         ms_mod = Data.Tagged,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Generics),
+                            (Nothing, GHC.Generics), (Nothing, Foreign.Storable),
+                            (Nothing, Foreign.Ptr), (Nothing, Data.String),
+                            (Nothing, Data.Semigroup), (Nothing, Data.Ix),
+                            (Nothing, Data.Data), (Nothing, Data.Bifunctor),
+                            (Nothing, Control.Monad), (Nothing, Control.DeepSeq),
+                            (Nothing, Data.Foldable), (Nothing, Data.Bits),
+                            (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-23 19:48:24 UTC
+         ms_mod = Data.Proxy.TH,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Language.Haskell.TH.Syntax),
+                            (Nothing, Language.Haskell.TH.Quote),
+                            (Nothing, Language.Haskell.TH), (Nothing, Data.Char)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc3772_0/ghc_4.h /tmp/ghc3772_0/ghc_2.h
+compile: input file /tmp/ghc3772_0/ghc_1.hscpp
+*** Checking old interface for Data.Tagged:
+[1 of 2] Compiling Data.Tagged      ( src/Data/Tagged.hs, dist/dist-sandbox-6afc8227/build/Data/Tagged.o )
+*** Parser [Data.Tagged]:
+!!! Parser [Data.Tagged]: finished in 23.00 milliseconds, allocated 12.662 megabytes
+*** Renamer/typechecker [Data.Tagged]:
+!!! Renamer/typechecker [Data.Tagged]: finished in 793.00 milliseconds, allocated 378.738 megabytes
+*** Desugar [Data.Tagged]:
+Result size of Desugar (after optimization)
+  = {terms: 2,930, types: 8,250, coercions: 1,301}
+!!! Desugar [Data.Tagged]: finished in 186.00 milliseconds, allocated 27.484 megabytes
+*** Simplifier [Data.Tagged]:
+Result size of Simplifier iteration=1
+  = {terms: 3,014, types: 8,818, coercions: 2,199}
+Result size of Simplifier iteration=2
+  = {terms: 2,984, types: 8,789, coercions: 2,186}
+Result size of Simplifier
+  = {terms: 2,984, types: 8,789, coercions: 2,186}
+!!! Simplifier [Data.Tagged]: finished in 86.00 milliseconds, allocated 50.385 megabytes
+*** Specialise [Data.Tagged]:
+Result size of Specialise
+  = {terms: 3,025, types: 8,945, coercions: 2,236}
+!!! Specialise [Data.Tagged]: finished in 10.00 milliseconds, allocated 5.763 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Tagged]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 3,261, types: 9,389, coercions: 2,236}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Tagged]: finished in 21.00 milliseconds, allocated 26.446 megabytes
+*** Simplifier [Data.Tagged]:
+Result size of Simplifier iteration=1
+  = {terms: 4,330, types: 11,109, coercions: 5,598}
+Result size of Simplifier iteration=2
+  = {terms: 4,069, types: 10,811, coercions: 5,654}
+Result size of Simplifier iteration=3
+  = {terms: 4,058, types: 10,767, coercions: 5,539}
+Result size of Simplifier
+  = {terms: 4,058, types: 10,767, coercions: 5,539}
+!!! Simplifier [Data.Tagged]: finished in 212.00 milliseconds, allocated 117.269 megabytes
+*** Simplifier [Data.Tagged]:
+Result size of Simplifier iteration=1
+  = {terms: 3,993, types: 10,713, coercions: 5,736}
+Result size of Simplifier iteration=2
+  = {terms: 3,966, types: 10,685, coercions: 5,784}
+Result size of Simplifier
+  = {terms: 3,964, types: 10,672, coercions: 5,754}
+!!! Simplifier [Data.Tagged]: finished in 138.00 milliseconds, allocated 72.359 megabytes
+*** Simplifier [Data.Tagged]:
+Result size of Simplifier iteration=1
+  = {terms: 4,013, types: 10,776, coercions: 5,757}
+Result size of Simplifier
+  = {terms: 3,995, types: 10,715, coercions: 5,744}
+!!! Simplifier [Data.Tagged]: finished in 88.00 milliseconds, allocated 46.545 megabytes
+*** Float inwards [Data.Tagged]:
+Result size of Float inwards
+  = {terms: 3,995, types: 10,715, coercions: 5,744}
+!!! Float inwards [Data.Tagged]: finished in 7.00 milliseconds, allocated 5.139 megabytes
+*** Called arity analysis [Data.Tagged]:
+Result size of Called arity analysis
+  = {terms: 3,995, types: 10,715, coercions: 5,744}
+!!! Called arity analysis [Data.Tagged]: finished in 9.00 milliseconds, allocated 6.600 megabytes
+*** Simplifier [Data.Tagged]:
+Result size of Simplifier
+  = {terms: 3,995, types: 10,715, coercions: 5,744}
+!!! Simplifier [Data.Tagged]: finished in 33.00 milliseconds, allocated 23.110 megabytes
+*** Demand analysis [Data.Tagged]:
+Result size of Demand analysis
+  = {terms: 3,995, types: 10,715, coercions: 5,744}
+!!! Demand analysis [Data.Tagged]: finished in 29.00 milliseconds, allocated 17.436 megabytes
+*** Worker Wrapper binds [Data.Tagged]:
+Result size of Worker Wrapper binds
+  = {terms: 4,226, types: 11,312, coercions: 5,744}
+!!! Worker Wrapper binds [Data.Tagged]: finished in 5.00 milliseconds, allocated 1.559 megabytes
+*** Simplifier [Data.Tagged]:
+Result size of Simplifier iteration=1
+  = {terms: 4,110, types: 11,131, coercions: 5,744}
+Result size of Simplifier iteration=2
+  = {terms: 4,110, types: 11,131, coercions: 5,744}
+Result size of Simplifier
+  = {terms: 4,110, types: 11,131, coercions: 5,744}
+!!! Simplifier [Data.Tagged]: finished in 163.00 milliseconds, allocated 97.741 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Tagged]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,242, types: 11,290, coercions: 5,744}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Tagged]: finished in 45.00 milliseconds, allocated 33.688 megabytes
+*** Common sub-expression [Data.Tagged]:
+Result size of Common sub-expression
+  = {terms: 4,055, types: 11,088, coercions: 5,616}
+!!! Common sub-expression [Data.Tagged]: finished in 16.00 milliseconds, allocated 10.210 megabytes
+*** Float inwards [Data.Tagged]:
+Result size of Float inwards
+  = {terms: 4,055, types: 11,088, coercions: 5,616}
+!!! Float inwards [Data.Tagged]: finished in 7.00 milliseconds, allocated 5.594 megabytes
+*** Simplifier [Data.Tagged]:
+Result size of Simplifier iteration=1
+  = {terms: 3,957, types: 10,835, coercions: 5,633}
+Result size of Simplifier
+  = {terms: 3,957, types: 10,835, coercions: 5,633}
+!!! Simplifier [Data.Tagged]: finished in 113.00 milliseconds, allocated 62.562 megabytes
+*** CoreTidy [Data.Tagged]:
+Result size of Tidy Core
+  = {terms: 3,923, types: 10,689, coercions: 5,591}
+!!! CoreTidy [Data.Tagged]: finished in 28.00 milliseconds, allocated 11.050 megabytes
+writeBinIface: 551 Names
+writeBinIface: 720 dict entries
+writeBinIface: 551 Names
+writeBinIface: 720 dict entries
+*** CorePrep [Data.Tagged]:
+Result size of CorePrep
+  = {terms: 5,405, types: 14,435, coercions: 5,591}
+!!! CorePrep [Data.Tagged]: finished in 14.00 milliseconds, allocated 9.300 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Tagged]:
+!!! CodeGen [Data.Tagged]: finished in 285.00 milliseconds, allocated 193.689 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc3772_0/ghc_6.s -o dist/dist-sandbox-6afc8227/build/Data/Tagged.o
+*** CorePrep [Data.Tagged]:
+Result size of CorePrep
+  = {terms: 5,405, types: 14,435, coercions: 5,591}
+!!! CorePrep [Data.Tagged]: finished in 12.00 milliseconds, allocated 8.878 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Tagged]:
+!!! CodeGen [Data.Tagged]: finished in 283.00 milliseconds, allocated 203.292 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc3772_0/ghc_8.s -o dist/dist-sandbox-6afc8227/build/Data/Tagged.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc3772_0/ghc_9.c /tmp/ghc3772_0/ghc_8.s /tmp/ghc3772_0/ghc_7.c /tmp/ghc3772_0/ghc_6.s /tmp/ghc3772_0/ghc_5.s
+Warning: deleting non-existent /tmp/ghc3772_0/ghc_9.c
+Warning: deleting non-existent /tmp/ghc3772_0/ghc_7.c
+Warning: deleting non-existent /tmp/ghc3772_0/ghc_5.s
+compile: input file /tmp/ghc3772_0/ghc_3.hscpp
+*** Checking old interface for Data.Proxy.TH:
+[2 of 2] Compiling Data.Proxy.TH    ( src/Data/Proxy/TH.hs, dist/dist-sandbox-6afc8227/build/Data/Proxy/TH.o )
+*** Parser [Data.Proxy.TH]:
+!!! Parser [Data.Proxy.TH]: finished in 1.00 milliseconds, allocated 2.570 megabytes
+*** Renamer/typechecker [Data.Proxy.TH]:
+!!! Renamer/typechecker [Data.Proxy.TH]: finished in 144.00 milliseconds, allocated 84.521 megabytes
+*** Desugar [Data.Proxy.TH]:
+Result size of Desugar (after optimization)
+  = {terms: 309, types: 275, coercions: 33}
+!!! Desugar [Data.Proxy.TH]: finished in 4.00 milliseconds, allocated 1.756 megabytes
+*** Simplifier [Data.Proxy.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 360, types: 371, coercions: 27}
+Result size of Simplifier iteration=2
+  = {terms: 361, types: 394, coercions: 33}
+Result size of Simplifier = {terms: 361, types: 394, coercions: 33}
+!!! Simplifier [Data.Proxy.TH]: finished in 19.00 milliseconds, allocated 10.233 megabytes
+*** Specialise [Data.Proxy.TH]:
+Result size of Specialise = {terms: 366, types: 411, coercions: 33}
+!!! Specialise [Data.Proxy.TH]: finished in 1.00 milliseconds, allocated 0.500 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Proxy.TH]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 499, types: 634, coercions: 33}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Proxy.TH]: finished in 2.00 milliseconds, allocated 1.853 megabytes
+*** Simplifier [Data.Proxy.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 552, types: 599, coercions: 165}
+Result size of Simplifier iteration=2
+  = {terms: 451, types: 494, coercions: 125}
+Result size of Simplifier
+  = {terms: 451, types: 494, coercions: 125}
+!!! Simplifier [Data.Proxy.TH]: finished in 21.00 milliseconds, allocated 7.999 megabytes
+*** Simplifier [Data.Proxy.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 400, types: 393, coercions: 125}
+Result size of Simplifier
+  = {terms: 397, types: 392, coercions: 125}
+!!! Simplifier [Data.Proxy.TH]: finished in 8.00 milliseconds, allocated 4.024 megabytes
+*** Simplifier [Data.Proxy.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 567, types: 519, coercions: 133}
+Result size of Simplifier
+  = {terms: 559, types: 514, coercions: 133}
+!!! Simplifier [Data.Proxy.TH]: finished in 8.00 milliseconds, allocated 4.458 megabytes
+*** Float inwards [Data.Proxy.TH]:
+Result size of Float inwards
+  = {terms: 559, types: 514, coercions: 133}
+!!! Float inwards [Data.Proxy.TH]: finished in 1.00 milliseconds, allocated 0.800 megabytes
+*** Called arity analysis [Data.Proxy.TH]:
+Result size of Called arity analysis
+  = {terms: 559, types: 514, coercions: 133}
+!!! Called arity analysis [Data.Proxy.TH]: finished in 1.00 milliseconds, allocated 0.694 megabytes
+*** Simplifier [Data.Proxy.TH]:
+Result size of Simplifier
+  = {terms: 559, types: 514, coercions: 133}
+!!! Simplifier [Data.Proxy.TH]: finished in 4.00 milliseconds, allocated 2.043 megabytes
+*** Demand analysis [Data.Proxy.TH]:
+Result size of Demand analysis
+  = {terms: 559, types: 514, coercions: 133}
+!!! Demand analysis [Data.Proxy.TH]: finished in 6.00 milliseconds, allocated 2.172 megabytes
+*** Worker Wrapper binds [Data.Proxy.TH]:
+Result size of Worker Wrapper binds
+  = {terms: 571, types: 521, coercions: 133}
+!!! Worker Wrapper binds [Data.Proxy.TH]: finished in 0.00 milliseconds, allocated 0.259 megabytes
+*** Simplifier [Data.Proxy.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 563, types: 517, coercions: 133}
+Result size of Simplifier
+  = {terms: 563, types: 517, coercions: 133}
+!!! Simplifier [Data.Proxy.TH]: finished in 9.00 milliseconds, allocated 4.625 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Proxy.TH]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 637, types: 567, coercions: 133}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Proxy.TH]: finished in 3.00 milliseconds, allocated 2.273 megabytes
+*** Common sub-expression [Data.Proxy.TH]:
+Result size of Common sub-expression
+  = {terms: 618, types: 564, coercions: 127}
+!!! Common sub-expression [Data.Proxy.TH]: finished in 2.00 milliseconds, allocated 0.789 megabytes
+*** Float inwards [Data.Proxy.TH]:
+Result size of Float inwards
+  = {terms: 618, types: 564, coercions: 127}
+!!! Float inwards [Data.Proxy.TH]: finished in 0.00 milliseconds, allocated 0.763 megabytes
+*** Simplifier [Data.Proxy.TH]:
+Result size of Simplifier iteration=1
+  = {terms: 587, types: 536, coercions: 127}
+Result size of Simplifier iteration=2
+  = {terms: 585, types: 534, coercions: 127}
+Result size of Simplifier
+  = {terms: 585, types: 534, coercions: 127}
+!!! Simplifier [Data.Proxy.TH]: finished in 15.00 milliseconds, allocated 7.074 megabytes
+*** CoreTidy [Data.Proxy.TH]:
+Result size of Tidy Core = {terms: 583, types: 524, coercions: 112}
+!!! CoreTidy [Data.Proxy.TH]: finished in 1.00 milliseconds, allocated 1.056 megabytes
+writeBinIface: 79 Names
+writeBinIface: 159 dict entries
+writeBinIface: 79 Names
+writeBinIface: 159 dict entries
+*** CorePrep [Data.Proxy.TH]:
+Result size of CorePrep = {terms: 736, types: 715, coercions: 112}
+!!! CorePrep [Data.Proxy.TH]: finished in 2.00 milliseconds, allocated 1.245 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Proxy.TH]:
+!!! CodeGen [Data.Proxy.TH]: finished in 50.00 milliseconds, allocated 30.738 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Proxy -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc3772_0/ghc_11.s -o dist/dist-sandbox-6afc8227/build/Data/Proxy/TH.o
+*** CorePrep [Data.Proxy.TH]:
+Result size of CorePrep = {terms: 736, types: 715, coercions: 112}
+!!! CorePrep [Data.Proxy.TH]: finished in 2.00 milliseconds, allocated 1.221 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Proxy.TH]:
+!!! CodeGen [Data.Proxy.TH]: finished in 50.00 milliseconds, allocated 32.487 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/Proxy -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc3772_0/ghc_13.s -o dist/dist-sandbox-6afc8227/build/Data/Proxy/TH.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc3772_0/ghc_14.c /tmp/ghc3772_0/ghc_13.s /tmp/ghc3772_0/ghc_12.c /tmp/ghc3772_0/ghc_11.s /tmp/ghc3772_0/ghc_10.s
+Warning: deleting non-existent /tmp/ghc3772_0/ghc_14.c
+Warning: deleting non-existent /tmp/ghc3772_0/ghc_12.c
+Warning: deleting non-existent /tmp/ghc3772_0/ghc_10.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc3772_0/ghc_3.hscpp /tmp/ghc3772_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc3772_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-boot-th-8.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/pretty-1.1.3.3 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/template-haskell-2.11.0.0 -o dist/dist-sandbox-6afc8227/build/libHStagged-0.8.4-9gtrXrOYlY5BIFTjUM7KTh-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHStagged-0.8.4-9gtrXrOYlY5BIFTjUM7KTh-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Data/Tagged.dyn_o dist/dist-sandbox-6afc8227/build/Data/Proxy/TH.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/template-haskell-2.11.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/pretty-1.1.3.3 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-boot-th-8.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHStemplate-haskell-2.11.0.0-ghc8.0.1 -lHSpretty-1.1.3.3-ghc8.0.1 -lHSghc-boot-th-8.0.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc4868_0
+*** Deleting temp files:
+Deleting: /tmp/ghc4868_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc4868_0
+Creating package registration file:
+/tmp/pkgConf-tagged-0.81780695788709393584.4
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/tagged-0.8.4-9gtrXrOYlY5BIFTjUM7KTh
+Registering tagged-0.8.4...
+cabal: Leaving directory '/tmp/cabal-tmp-1043/tagged-0.8.4'

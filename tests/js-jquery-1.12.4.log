@@ -1,0 +1,358 @@
+cabal: Entering directory '/tmp/cabal-tmp-1034/js-jquery-1.12.4'
+Configuring js-jquery-1.12.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc1908_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc1908_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc1908_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc1908_0/ghc_2.rsp /tmp/ghc1908_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1908_0
+Building js-jquery-1.12.4...
+Preprocessing library js-jquery-1.12.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Language.Javascript.JQuery,*Paths_js_jquery
+Created temporary directory: /tmp/ghc1967_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc1967_0/ghc_2.h -x assembler-with-cpp dist/dist-sandbox-6afc8227/build/autogen/Paths_js_jquery.hs -o /tmp/ghc1967_0/ghc_1.hscpp
+!!! Chasing dependencies: finished in 7.00 milliseconds, allocated 4.326 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-26 19:20:52.381686565 UTC
+         ms_mod = Paths_js_jquery,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Environment), (Nothing, Data.Version),
+                            (Nothing, Control.Exception)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-22 19:43:11 UTC
+         ms_mod = Language.Javascript.JQuery,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Version),
+                            (Nothing, Data.List), (Nothing, Paths_js_jquery)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc1967_0/ghc_2.h
+compile: input file /tmp/ghc1967_0/ghc_1.hscpp
+*** Checking old interface for Paths_js_jquery:
+[1 of 2] Compiling Paths_js_jquery  ( dist/dist-sandbox-6afc8227/build/autogen/Paths_js_jquery.hs, dist/dist-sandbox-6afc8227/build/Paths_js_jquery.o )
+*** Parser [Paths_js_jquery]:
+!!! Parser [Paths_js_jquery]: finished in 2.00 milliseconds, allocated 2.124 megabytes
+*** Renamer/typechecker [Paths_js_jquery]:
+!!! Renamer/typechecker [Paths_js_jquery]: finished in 209.00 milliseconds, allocated 84.623 megabytes
+*** Desugar [Paths_js_jquery]:
+Result size of Desugar (after optimization)
+  = {terms: 101, types: 71, coercions: 0}
+!!! Desugar [Paths_js_jquery]: finished in 5.00 milliseconds, allocated 0.955 megabytes
+*** Simplifier [Paths_js_jquery]:
+Result size of Simplifier iteration=1
+  = {terms: 145, types: 137, coercions: 37}
+Result size of Simplifier iteration=2
+  = {terms: 147, types: 146, coercions: 51}
+Result size of Simplifier = {terms: 147, types: 146, coercions: 51}
+!!! Simplifier [Paths_js_jquery]: finished in 14.00 milliseconds, allocated 8.629 megabytes
+*** Specialise [Paths_js_jquery]:
+Result size of Specialise = {terms: 147, types: 146, coercions: 51}
+!!! Specialise [Paths_js_jquery]: finished in 0.00 milliseconds, allocated 0.219 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Paths_js_jquery]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 207, types: 298, coercions: 51}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Paths_js_jquery]: finished in 3.00 milliseconds, allocated 0.761 megabytes
+*** Simplifier [Paths_js_jquery]:
+Result size of Simplifier iteration=1
+  = {terms: 187, types: 227, coercions: 66}
+Result size of Simplifier iteration=2
+  = {terms: 187, types: 227, coercions: 66}
+Result size of Simplifier = {terms: 187, types: 227, coercions: 66}
+!!! Simplifier [Paths_js_jquery]: finished in 125.00 milliseconds, allocated 48.494 megabytes
+*** Simplifier [Paths_js_jquery]:
+Result size of Simplifier iteration=1
+  = {terms: 167, types: 182, coercions: 66}
+Result size of Simplifier = {terms: 159, types: 168, coercions: 66}
+!!! Simplifier [Paths_js_jquery]: finished in 3.00 milliseconds, allocated 1.896 megabytes
+*** Simplifier [Paths_js_jquery]:
+Result size of Simplifier = {terms: 159, types: 168, coercions: 66}
+!!! Simplifier [Paths_js_jquery]: finished in 1.00 milliseconds, allocated 0.670 megabytes
+*** Float inwards [Paths_js_jquery]:
+Result size of Float inwards
+  = {terms: 159, types: 168, coercions: 66}
+!!! Float inwards [Paths_js_jquery]: finished in 1.00 milliseconds, allocated 0.281 megabytes
+*** Called arity analysis [Paths_js_jquery]:
+Result size of Called arity analysis
+  = {terms: 159, types: 168, coercions: 66}
+!!! Called arity analysis [Paths_js_jquery]: finished in 5.00 milliseconds, allocated 0.260 megabytes
+*** Simplifier [Paths_js_jquery]:
+Result size of Simplifier iteration=1
+  = {terms: 161, types: 171, coercions: 66}
+Result size of Simplifier iteration=2
+  = {terms: 339, types: 416, coercions: 90}
+Result size of Simplifier = {terms: 296, types: 344, coercions: 65}
+!!! Simplifier [Paths_js_jquery]: finished in 5.00 milliseconds, allocated 3.675 megabytes
+*** Demand analysis [Paths_js_jquery]:
+Result size of Demand analysis
+  = {terms: 296, types: 344, coercions: 65}
+!!! Demand analysis [Paths_js_jquery]: finished in 1.00 milliseconds, allocated 1.195 megabytes
+*** Worker Wrapper binds [Paths_js_jquery]:
+Result size of Worker Wrapper binds
+  = {terms: 296, types: 344, coercions: 65}
+!!! Worker Wrapper binds [Paths_js_jquery]: finished in 1.00 milliseconds, allocated 0.146 megabytes
+*** Simplifier [Paths_js_jquery]:
+Result size of Simplifier = {terms: 296, types: 344, coercions: 65}
+!!! Simplifier [Paths_js_jquery]: finished in 2.00 milliseconds, allocated 1.322 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Paths_js_jquery]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 336, types: 449, coercions: 65}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Paths_js_jquery]: finished in 1.00 milliseconds, allocated 1.209 megabytes
+*** Common sub-expression [Paths_js_jquery]:
+Result size of Common sub-expression
+  = {terms: 336, types: 449, coercions: 65}
+!!! Common sub-expression [Paths_js_jquery]: finished in 1.00 milliseconds, allocated 0.668 megabytes
+*** Float inwards [Paths_js_jquery]:
+Result size of Float inwards
+  = {terms: 336, types: 449, coercions: 65}
+!!! Float inwards [Paths_js_jquery]: finished in 1.00 milliseconds, allocated 0.409 megabytes
+*** Simplifier [Paths_js_jquery]:
+Result size of Simplifier iteration=1
+  = {terms: 338, types: 451, coercions: 67}
+Result size of Simplifier = {terms: 338, types: 451, coercions: 67}
+!!! Simplifier [Paths_js_jquery]: finished in 4.00 milliseconds, allocated 2.897 megabytes
+*** CoreTidy [Paths_js_jquery]:
+Result size of Tidy Core = {terms: 338, types: 451, coercions: 67}
+!!! CoreTidy [Paths_js_jquery]: finished in 7.00 milliseconds, allocated 4.799 megabytes
+writeBinIface: 61 Names
+writeBinIface: 109 dict entries
+writeBinIface: 61 Names
+writeBinIface: 109 dict entries
+*** CorePrep [Paths_js_jquery]:
+Result size of CorePrep = {terms: 391, types: 478, coercions: 67}
+!!! CorePrep [Paths_js_jquery]: finished in 0.00 milliseconds, allocated 0.722 megabytes
+*** Stg2Stg:
+*** CodeGen [Paths_js_jquery]:
+!!! CodeGen [Paths_js_jquery]: finished in 0.00 milliseconds, allocated 15.188 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1967_0/ghc_4.s -o dist/dist-sandbox-6afc8227/build/Paths_js_jquery.o
+*** CorePrep [Paths_js_jquery]:
+Result size of CorePrep = {terms: 391, types: 478, coercions: 67}
+!!! CorePrep [Paths_js_jquery]: finished in 0.00 milliseconds, allocated 0.718 megabytes
+*** Stg2Stg:
+*** CodeGen [Paths_js_jquery]:
+!!! CodeGen [Paths_js_jquery]: finished in 0.00 milliseconds, allocated 15.609 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1967_0/ghc_6.s -o dist/dist-sandbox-6afc8227/build/Paths_js_jquery.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc1967_0/ghc_7.c /tmp/ghc1967_0/ghc_6.s /tmp/ghc1967_0/ghc_5.c /tmp/ghc1967_0/ghc_4.s /tmp/ghc1967_0/ghc_3.s
+Warning: deleting non-existent /tmp/ghc1967_0/ghc_7.c
+Warning: deleting non-existent /tmp/ghc1967_0/ghc_5.c
+Warning: deleting non-existent /tmp/ghc1967_0/ghc_3.s
+compile: input file ./Language/Javascript/JQuery.hs
+*** Checking old interface for Language.Javascript.JQuery:
+[2 of 2] Compiling Language.Javascript.JQuery ( Language/Javascript/JQuery.hs, dist/dist-sandbox-6afc8227/build/Language/Javascript/JQuery.o )
+*** Parser [Language.Javascript.JQuery]:
+!!! Parser [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.732 megabytes
+*** Renamer/typechecker [Language.Javascript.JQuery]:
+!!! Renamer/typechecker [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 7.862 megabytes
+*** Desugar [Language.Javascript.JQuery]:
+Result size of Desugar (after optimization)
+  = {terms: 39, types: 27, coercions: 0}
+!!! Desugar [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.284 megabytes
+*** Simplifier [Language.Javascript.JQuery]:
+Result size of Simplifier iteration=1
+  = {terms: 62, types: 52, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 58, types: 50, coercions: 0}
+Result size of Simplifier = {terms: 58, types: 50, coercions: 0}
+!!! Simplifier [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 34.599 megabytes
+*** Specialise [Language.Javascript.JQuery]:
+Result size of Specialise = {terms: 58, types: 50, coercions: 0}
+!!! Specialise [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.106 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Language.Javascript.JQuery]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 80, types: 91, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.362 megabytes
+*** Simplifier [Language.Javascript.JQuery]:
+Result size of Simplifier iteration=1
+  = {terms: 91, types: 85, coercions: 3}
+Result size of Simplifier = {terms: 91, types: 85, coercions: 3}
+!!! Simplifier [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 1.332 megabytes
+*** Simplifier [Language.Javascript.JQuery]:
+Result size of Simplifier iteration=1
+  = {terms: 50, types: 37, coercions: 3}
+Result size of Simplifier iteration=2
+  = {terms: 48, types: 36, coercions: 3}
+Result size of Simplifier = {terms: 48, types: 36, coercions: 3}
+!!! Simplifier [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 1.153 megabytes
+*** Simplifier [Language.Javascript.JQuery]:
+Result size of Simplifier iteration=1
+  = {terms: 47, types: 36, coercions: 3}
+Result size of Simplifier = {terms: 47, types: 36, coercions: 3}
+!!! Simplifier [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.406 megabytes
+*** Float inwards [Language.Javascript.JQuery]:
+Result size of Float inwards = {terms: 47, types: 36, coercions: 3}
+!!! Float inwards [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.083 megabytes
+*** Called arity analysis [Language.Javascript.JQuery]:
+Result size of Called arity analysis
+  = {terms: 47, types: 36, coercions: 3}
+!!! Called arity analysis [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.081 megabytes
+*** Simplifier [Language.Javascript.JQuery]:
+Result size of Simplifier = {terms: 47, types: 36, coercions: 3}
+!!! Simplifier [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.198 megabytes
+*** Demand analysis [Language.Javascript.JQuery]:
+Result size of Demand analysis
+  = {terms: 47, types: 36, coercions: 3}
+!!! Demand analysis [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.170 megabytes
+*** Worker Wrapper binds [Language.Javascript.JQuery]:
+Result size of Worker Wrapper binds
+  = {terms: 47, types: 36, coercions: 3}
+!!! Worker Wrapper binds [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+*** Simplifier [Language.Javascript.JQuery]:
+Result size of Simplifier = {terms: 47, types: 36, coercions: 3}
+!!! Simplifier [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.204 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Language.Javascript.JQuery]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 53, types: 42, coercions: 3}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.211 megabytes
+*** Common sub-expression [Language.Javascript.JQuery]:
+Result size of Common sub-expression
+  = {terms: 52, types: 42, coercions: 3}
+!!! Common sub-expression [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.087 megabytes
+*** Float inwards [Language.Javascript.JQuery]:
+Result size of Float inwards = {terms: 52, types: 42, coercions: 3}
+!!! Float inwards [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.083 megabytes
+*** Simplifier [Language.Javascript.JQuery]:
+Result size of Simplifier = {terms: 52, types: 42, coercions: 3}
+!!! Simplifier [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.228 megabytes
+*** CoreTidy [Language.Javascript.JQuery]:
+Result size of Tidy Core = {terms: 52, types: 42, coercions: 3}
+!!! CoreTidy [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.149 megabytes
+writeBinIface: 25 Names
+writeBinIface: 54 dict entries
+writeBinIface: 25 Names
+writeBinIface: 54 dict entries
+*** CorePrep [Language.Javascript.JQuery]:
+Result size of CorePrep = {terms: 61, types: 51, coercions: 3}
+!!! CorePrep [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.123 megabytes
+*** Stg2Stg:
+*** CodeGen [Language.Javascript.JQuery]:
+!!! CodeGen [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 4.154 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Language/Javascript -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc1967_0/ghc_9.s -o dist/dist-sandbox-6afc8227/build/Language/Javascript/JQuery.o
+*** CorePrep [Language.Javascript.JQuery]:
+Result size of CorePrep = {terms: 61, types: 51, coercions: 3}
+!!! CorePrep [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 0.123 megabytes
+*** Stg2Stg:
+*** CodeGen [Language.Javascript.JQuery]:
+!!! CodeGen [Language.Javascript.JQuery]: finished in 0.00 milliseconds, allocated 4.333 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Language/Javascript -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc1967_0/ghc_11.s -o dist/dist-sandbox-6afc8227/build/Language/Javascript/JQuery.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc1967_0/ghc_12.c /tmp/ghc1967_0/ghc_11.s /tmp/ghc1967_0/ghc_10.c /tmp/ghc1967_0/ghc_9.s /tmp/ghc1967_0/ghc_8.s
+Warning: deleting non-existent /tmp/ghc1967_0/ghc_12.c
+Warning: deleting non-existent /tmp/ghc1967_0/ghc_10.c
+Warning: deleting non-existent /tmp/ghc1967_0/ghc_8.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc1967_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc1967_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -o dist/dist-sandbox-6afc8227/build/libHSjs-jquery-1.12.4-D0yTOaJiDqhZgfFCEw0KI-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSjs-jquery-1.12.4-D0yTOaJiDqhZgfFCEw0KI-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Language/Javascript/JQuery.dyn_o dist/dist-sandbox-6afc8227/build/Paths_js_jquery.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc2138_0
+*** Deleting temp files:
+Deleting: /tmp/ghc2138_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc2138_0
+Creating package registration file:
+/tmp/pkgConf-js-jquery-1.1211006613131433925857.4
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/js-jquery-1.12.4-D0yTOaJiDqhZgfFCEw0KI
+Registering js-jquery-1.12.4...
+cabal: Leaving directory '/tmp/cabal-tmp-1034/js-jquery-1.12.4'

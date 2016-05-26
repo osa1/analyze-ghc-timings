@@ -1,0 +1,2818 @@
+cabal: Entering directory '/tmp/cabal-tmp-1029/polyparse-1.12'
+Configuring polyparse-1.12...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc8941_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc8941_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc8941_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc8941_0/ghc_2.rsp /tmp/ghc8941_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8941_0
+Building polyparse-1.12...
+Preprocessing library polyparse-1.12...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Text.ParserCombinators.HuttonMeijer,*Text.ParserCombinators.HuttonMeijerWallace,*Text.ParserCombinators.Poly,*Text.ParserCombinators.Poly.Base,*Text.ParserCombinators.Poly.Result,*Text.ParserCombinators.Poly.Parser,*Text.ParserCombinators.Poly.Plain,*Text.ParserCombinators.Poly.Lazy,*Text.ParserCombinators.Poly.StateParser,*Text.ParserCombinators.Poly.State,*Text.ParserCombinators.Poly.StateLazy,*Text.ParserCombinators.Poly.Lex,*Text.Parse,*Text.ParserCombinators.Poly.ByteString,*Text.ParserCombinators.Poly.ByteStringChar,*Text.Parse.ByteString,*Text.ParserCombinators.Poly.Text,*Text.ParserCombinators.Poly.StateText
+Created temporary directory: /tmp/ghc9071_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_2.h -x assembler-with-cpp src/Text/ParserCombinators/HuttonMeijer.hs -o /tmp/ghc9071_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_4.h -x assembler-with-cpp src/Text/ParserCombinators/HuttonMeijerWallace.hs -o /tmp/ghc9071_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_6.h -x assembler-with-cpp src/Text/ParserCombinators/Poly.hs -o /tmp/ghc9071_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_8.h -x assembler-with-cpp src/Text/ParserCombinators/Poly/Base.hs -o /tmp/ghc9071_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_10.h -x assembler-with-cpp src/Text/ParserCombinators/Poly/Result.hs -o /tmp/ghc9071_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_12.h -x assembler-with-cpp src/Text/ParserCombinators/Poly/Parser.hs -o /tmp/ghc9071_0/ghc_11.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_14.h -x assembler-with-cpp src/Text/ParserCombinators/Poly/Plain.hs -o /tmp/ghc9071_0/ghc_13.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_16.h -x assembler-with-cpp src/Text/ParserCombinators/Poly/Lazy.hs -o /tmp/ghc9071_0/ghc_15.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_18.h -x assembler-with-cpp src/Text/ParserCombinators/Poly/StateParser.hs -o /tmp/ghc9071_0/ghc_17.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_20.h -x assembler-with-cpp src/Text/ParserCombinators/Poly/State.hs -o /tmp/ghc9071_0/ghc_19.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_22.h -x assembler-with-cpp src/Text/ParserCombinators/Poly/StateLazy.hs -o /tmp/ghc9071_0/ghc_21.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_24.h -x assembler-with-cpp src/Text/ParserCombinators/Poly/Lex.hs -o /tmp/ghc9071_0/ghc_23.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_26.h -x assembler-with-cpp src/Text/Parse.hs -o /tmp/ghc9071_0/ghc_25.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_28.h -x assembler-with-cpp src/Text/ParserCombinators/Poly/ByteString.hs -o /tmp/ghc9071_0/ghc_27.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_30.h -x assembler-with-cpp src/Text/ParserCombinators/Poly/ByteStringChar.hs -o /tmp/ghc9071_0/ghc_29.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_32.h -x assembler-with-cpp src/Text/Parse/ByteString.hs -o /tmp/ghc9071_0/ghc_31.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_34.h -x assembler-with-cpp src/Text/ParserCombinators/Poly/Text.hs -o /tmp/ghc9071_0/ghc_33.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional '-DVERSION="1.12"' -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9071_0/ghc_36.h -x assembler-with-cpp src/Text/ParserCombinators/Poly/StateText.hs -o /tmp/ghc9071_0/ghc_35.hscpp
+!!! Chasing dependencies: finished in 64.00 milliseconds, allocated 50.820 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly.Result,
+         ms_textual_imps = [(Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly.Base,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly.Parser,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Applicative),
+                            (Nothing, Text.ParserCombinators.Poly.Result),
+                            (Nothing, Text.ParserCombinators.Poly.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly.Plain,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Applicative),
+                            (Nothing, Text.ParserCombinators.Poly.Parser),
+                            (Nothing, Text.ParserCombinators.Poly.Result),
+                            (Nothing, Text.ParserCombinators.Poly.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly.Lazy,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Exception), (Nothing, Control.Applicative),
+                            (Nothing, Text.ParserCombinators.Poly.Parser),
+                            (Nothing, Text.ParserCombinators.Poly.Result),
+                            (Nothing, Text.ParserCombinators.Poly.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly.StateParser,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Applicative),
+                            (Nothing, Text.ParserCombinators.Poly.Result),
+                            (Nothing, Text.ParserCombinators.Poly.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly.State,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Applicative),
+                            (Nothing, Text.ParserCombinators.Poly.StateParser),
+                            (Nothing, Text.ParserCombinators.Poly.Result),
+                            (Nothing, Text.ParserCombinators.Poly.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly.StateLazy,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Exception), (Nothing, Control.Applicative),
+                            (Nothing, Text.ParserCombinators.Poly.StateParser),
+                            (Nothing, Text.ParserCombinators.Poly.Result),
+                            (Nothing, Text.ParserCombinators.Poly.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly.Lex,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Applicative),
+                            (Nothing, Text.ParserCombinators.Poly.Result),
+                            (Nothing, Text.ParserCombinators.Poly.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly.ByteString,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Word),
+                            (Nothing, Control.Applicative), (Nothing, Data.ByteString.Lazy),
+                            (Nothing, Data.ByteString.Lazy),
+                            (Nothing, Text.ParserCombinators.Poly.Result),
+                            (Nothing, Text.ParserCombinators.Poly.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly.ByteStringChar,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Applicative),
+                            (Nothing, Data.ByteString.Lazy.Char8),
+                            (Nothing, Data.ByteString.Lazy.Char8),
+                            (Nothing, Text.ParserCombinators.Poly.Result),
+                            (Nothing, Text.ParserCombinators.Poly.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.Parse.ByteString,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.ParserCombinators.Poly.ByteStringChar),
+                            (Nothing, Data.ByteString.Lazy.Char8),
+                            (Nothing, Data.ByteString.Lazy.Char8), (Nothing, Data.Ratio),
+                            (Nothing, Data.List), (Nothing, Data.Char)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly.Text,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Applicative), (Nothing, Data.Text.Lazy),
+                            (Nothing, Data.Text.Lazy),
+                            (Nothing, Text.ParserCombinators.Poly.Result),
+                            (Nothing, Text.ParserCombinators.Poly.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.ParserCombinators.Poly.Plain)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.Parse,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Text.ParserCombinators.Poly), (Nothing, Data.Ratio),
+                            (Nothing, Data.List), (Nothing, Data.Char)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.HuttonMeijerWallace,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Control.Monad),
+                            (Nothing, Control.Applicative), (Nothing, Data.Char)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.HuttonMeijer,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Control.Monad),
+                            (Nothing, Control.Applicative), (Nothing, Data.Char)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-12 17:10:33 UTC
+         ms_mod = Text.ParserCombinators.Poly.StateText,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Applicative), (Nothing, Data.Text.Lazy),
+                            (Nothing, Data.Text.Lazy),
+                            (Nothing, Text.ParserCombinators.Poly.Result),
+                            (Nothing, Text.ParserCombinators.Poly.Base)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_36.h /tmp/ghc9071_0/ghc_34.h /tmp/ghc9071_0/ghc_32.h /tmp/ghc9071_0/ghc_30.h /tmp/ghc9071_0/ghc_28.h /tmp/ghc9071_0/ghc_26.h /tmp/ghc9071_0/ghc_24.h /tmp/ghc9071_0/ghc_22.h /tmp/ghc9071_0/ghc_20.h /tmp/ghc9071_0/ghc_18.h /tmp/ghc9071_0/ghc_16.h /tmp/ghc9071_0/ghc_14.h /tmp/ghc9071_0/ghc_12.h /tmp/ghc9071_0/ghc_10.h /tmp/ghc9071_0/ghc_8.h /tmp/ghc9071_0/ghc_6.h /tmp/ghc9071_0/ghc_4.h /tmp/ghc9071_0/ghc_2.h
+compile: input file /tmp/ghc9071_0/ghc_9.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly.Result:
+[ 1 of 18] Compiling Text.ParserCombinators.Poly.Result ( src/Text/ParserCombinators/Poly/Result.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Result.o )
+*** Parser [Text.ParserCombinators.Poly.Result]:
+!!! Parser [Text.ParserCombinators.Poly.Result]: finished in 1.00 milliseconds, allocated 1.398 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly.Result]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly.Result]: finished in 70.00 milliseconds, allocated 23.800 megabytes
+*** Desugar [Text.ParserCombinators.Poly.Result]:
+Result size of Desugar (after optimization)
+  = {terms: 85, types: 123, coercions: 0}
+!!! Desugar [Text.ParserCombinators.Poly.Result]: finished in 1.00 milliseconds, allocated 0.545 megabytes
+
+src/Text/ParserCombinators/Poly/Result.hs:3:15: warning: [-Wtabs]
+    Tab character found here.
+    Please use spaces instead.
+*** Simplifier [Text.ParserCombinators.Poly.Result]:
+Result size of Simplifier iteration=1
+  = {terms: 96, types: 127, coercions: 0}
+Result size of Simplifier = {terms: 96, types: 127, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly.Result]: finished in 3.00 milliseconds, allocated 0.731 megabytes
+*** Specialise [Text.ParserCombinators.Poly.Result]:
+Result size of Specialise = {terms: 96, types: 127, coercions: 0}
+!!! Specialise [Text.ParserCombinators.Poly.Result]: finished in 1.00 milliseconds, allocated 0.158 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Result]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 96, types: 127, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Result]: finished in 1.00 milliseconds, allocated 0.591 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Result]:
+Result size of Simplifier iteration=1
+  = {terms: 102, types: 136, coercions: 0}
+Result size of Simplifier = {terms: 102, types: 136, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly.Result]: finished in 2.00 milliseconds, allocated 0.806 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Result]:
+Result size of Simplifier = {terms: 102, types: 136, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly.Result]: finished in 0.00 milliseconds, allocated 0.376 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Result]:
+Result size of Simplifier = {terms: 102, types: 136, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly.Result]: finished in 1.00 milliseconds, allocated 0.379 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Result]:
+Result size of Float inwards
+  = {terms: 102, types: 136, coercions: 0}
+!!! Float inwards [Text.ParserCombinators.Poly.Result]: finished in 0.00 milliseconds, allocated 0.141 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly.Result]:
+Result size of Called arity analysis
+  = {terms: 102, types: 136, coercions: 0}
+!!! Called arity analysis [Text.ParserCombinators.Poly.Result]: finished in 1.00 milliseconds, allocated 0.146 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Result]:
+Result size of Simplifier = {terms: 102, types: 136, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly.Result]: finished in 1.00 milliseconds, allocated 0.377 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly.Result]:
+Result size of Demand analysis
+  = {terms: 102, types: 136, coercions: 0}
+!!! Demand analysis [Text.ParserCombinators.Poly.Result]: finished in 1.00 milliseconds, allocated 0.337 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly.Result]:
+Result size of Worker Wrapper binds
+  = {terms: 122, types: 198, coercions: 0}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly.Result]: finished in 0.00 milliseconds, allocated 0.131 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Result]:
+Result size of Simplifier iteration=1
+  = {terms: 117, types: 184, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 113, types: 178, coercions: 0}
+Result size of Simplifier = {terms: 113, types: 178, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly.Result]: finished in 3.00 milliseconds, allocated 1.533 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Result]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 113, types: 178, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Result]: finished in 1.00 milliseconds, allocated 0.652 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly.Result]:
+Result size of Common sub-expression
+  = {terms: 113, types: 178, coercions: 0}
+!!! Common sub-expression [Text.ParserCombinators.Poly.Result]: finished in 1.00 milliseconds, allocated 0.172 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Result]:
+Result size of Float inwards
+  = {terms: 113, types: 178, coercions: 0}
+!!! Float inwards [Text.ParserCombinators.Poly.Result]: finished in 0.00 milliseconds, allocated 0.157 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Result]:
+Result size of Simplifier = {terms: 113, types: 178, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly.Result]: finished in 1.00 milliseconds, allocated 0.481 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly.Result]:
+Result size of Tidy Core = {terms: 113, types: 178, coercions: 0}
+!!! CoreTidy [Text.ParserCombinators.Poly.Result]: finished in 6.00 milliseconds, allocated 4.033 megabytes
+writeBinIface: 20 Names
+writeBinIface: 51 dict entries
+writeBinIface: 20 Names
+writeBinIface: 51 dict entries
+*** CorePrep [Text.ParserCombinators.Poly.Result]:
+Result size of CorePrep = {terms: 145, types: 243, coercions: 0}
+!!! CorePrep [Text.ParserCombinators.Poly.Result]: finished in 0.00 milliseconds, allocated 0.285 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Result]:
+!!! CodeGen [Text.ParserCombinators.Poly.Result]: finished in 15.00 milliseconds, allocated 6.617 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_38.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Result.o
+*** CorePrep [Text.ParserCombinators.Poly.Result]:
+Result size of CorePrep = {terms: 145, types: 243, coercions: 0}
+!!! CorePrep [Text.ParserCombinators.Poly.Result]: finished in 1.00 milliseconds, allocated 0.275 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Result]:
+!!! CodeGen [Text.ParserCombinators.Poly.Result]: finished in 14.00 milliseconds, allocated 6.710 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_40.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Result.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_41.c /tmp/ghc9071_0/ghc_40.s /tmp/ghc9071_0/ghc_39.c /tmp/ghc9071_0/ghc_38.s /tmp/ghc9071_0/ghc_37.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_41.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_39.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_37.s
+compile: input file /tmp/ghc9071_0/ghc_7.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly.Base:
+[ 2 of 18] Compiling Text.ParserCombinators.Poly.Base ( src/Text/ParserCombinators/Poly/Base.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Base.o )
+*** Parser [Text.ParserCombinators.Poly.Base]:
+!!! Parser [Text.ParserCombinators.Poly.Base]: finished in 5.00 milliseconds, allocated 6.580 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly.Base]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly.Base]: finished in 163.00 milliseconds, allocated 67.578 megabytes
+*** Desugar [Text.ParserCombinators.Poly.Base]:
+Result size of Desugar (after optimization)
+  = {terms: 587, types: 893, coercions: 11}
+!!! Desugar [Text.ParserCombinators.Poly.Base]: finished in 16.00 milliseconds, allocated 6.443 megabytes
+
+src/Text/ParserCombinators/Poly/Base.hs:3:19: warning: [-Wtabs]
+    Tab character found here, and in 14 further locations.
+    Please use spaces instead.
+*** Simplifier [Text.ParserCombinators.Poly.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 646, types: 979, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 606, types: 942, coercions: 4}
+Result size of Simplifier = {terms: 606, types: 942, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.Base]: finished in 65.00 milliseconds, allocated 7.969 megabytes
+*** Specialise [Text.ParserCombinators.Poly.Base]:
+Result size of Specialise = {terms: 606, types: 942, coercions: 4}
+!!! Specialise [Text.ParserCombinators.Poly.Base]: finished in 1.00 milliseconds, allocated 0.789 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Base]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 725, types: 1,156, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Base]: finished in 8.00 milliseconds, allocated 5.674 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 749, types: 1,075, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 716, types: 1,050, coercions: 4}
+Result size of Simplifier
+  = {terms: 716, types: 1,050, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.Base]: finished in 17.00 milliseconds, allocated 8.471 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 646, types: 944, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 646, types: 944, coercions: 4}
+Result size of Simplifier = {terms: 646, types: 944, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.Base]: finished in 13.00 milliseconds, allocated 7.724 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 666, types: 955, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 666, types: 955, coercions: 4}
+Result size of Simplifier = {terms: 666, types: 955, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.Base]: finished in 14.00 milliseconds, allocated 6.964 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Base]:
+Result size of Float inwards
+  = {terms: 666, types: 955, coercions: 4}
+!!! Float inwards [Text.ParserCombinators.Poly.Base]: finished in 2.00 milliseconds, allocated 1.794 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly.Base]:
+Result size of Called arity analysis
+  = {terms: 666, types: 955, coercions: 4}
+!!! Called arity analysis [Text.ParserCombinators.Poly.Base]: finished in 1.00 milliseconds, allocated 0.737 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 663, types: 953, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 663, types: 953, coercions: 4}
+Result size of Simplifier = {terms: 663, types: 953, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.Base]: finished in 11.00 milliseconds, allocated 6.780 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly.Base]:
+Result size of Demand analysis
+  = {terms: 663, types: 953, coercions: 4}
+!!! Demand analysis [Text.ParserCombinators.Poly.Base]: finished in 5.00 milliseconds, allocated 3.895 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly.Base]:
+Result size of Worker Wrapper binds
+  = {terms: 723, types: 1,047, coercions: 4}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly.Base]: finished in 1.00 milliseconds, allocated 0.517 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 684, types: 1,011, coercions: 4}
+Result size of Simplifier
+  = {terms: 677, types: 1,005, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.Base]: finished in 13.00 milliseconds, allocated 5.478 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Base]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 715, types: 1,035, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Base]: finished in 7.00 milliseconds, allocated 5.266 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly.Base]:
+Result size of Common sub-expression
+  = {terms: 711, types: 1,033, coercions: 4}
+!!! Common sub-expression [Text.ParserCombinators.Poly.Base]: finished in 2.00 milliseconds, allocated 0.718 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Base]:
+Result size of Float inwards
+  = {terms: 711, types: 1,033, coercions: 4}
+!!! Float inwards [Text.ParserCombinators.Poly.Base]: finished in 2.00 milliseconds, allocated 1.800 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 711, types: 1,032, coercions: 4}
+Result size of Simplifier
+  = {terms: 711, types: 1,032, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.Base]: finished in 12.00 milliseconds, allocated 5.350 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly.Base]:
+Result size of Tidy Core = {terms: 767, types: 1,296, coercions: 4}
+!!! CoreTidy [Text.ParserCombinators.Poly.Base]: finished in 2.00 milliseconds, allocated 1.240 megabytes
+writeBinIface: 59 Names
+writeBinIface: 118 dict entries
+writeBinIface: 59 Names
+writeBinIface: 118 dict entries
+*** CorePrep [Text.ParserCombinators.Poly.Base]:
+Result size of CorePrep
+  = {terms: 1,069, types: 1,702, coercions: 4}
+!!! CorePrep [Text.ParserCombinators.Poly.Base]: finished in 3.00 milliseconds, allocated 1.927 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Base]:
+!!! CodeGen [Text.ParserCombinators.Poly.Base]: finished in 123.00 milliseconds, allocated 64.848 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_43.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Base.o
+*** CorePrep [Text.ParserCombinators.Poly.Base]:
+Result size of CorePrep
+  = {terms: 1,069, types: 1,702, coercions: 4}
+!!! CorePrep [Text.ParserCombinators.Poly.Base]: finished in 4.00 milliseconds, allocated 1.901 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Base]:
+!!! CodeGen [Text.ParserCombinators.Poly.Base]: finished in 107.00 milliseconds, allocated 68.948 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_45.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Base.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_46.c /tmp/ghc9071_0/ghc_45.s /tmp/ghc9071_0/ghc_44.c /tmp/ghc9071_0/ghc_43.s /tmp/ghc9071_0/ghc_42.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_46.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_44.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_42.s
+compile: input file /tmp/ghc9071_0/ghc_11.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly.Parser:
+[ 3 of 18] Compiling Text.ParserCombinators.Poly.Parser ( src/Text/ParserCombinators/Poly/Parser.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Parser.o )
+*** Parser [Text.ParserCombinators.Poly.Parser]:
+!!! Parser [Text.ParserCombinators.Poly.Parser]: finished in 3.00 milliseconds, allocated 4.545 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly.Parser]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly.Parser]: finished in 98.00 milliseconds, allocated 56.076 megabytes
+*** Desugar [Text.ParserCombinators.Poly.Parser]:
+Result size of Desugar (after optimization)
+  = {terms: 416, types: 924, coercions: 71}
+!!! Desugar [Text.ParserCombinators.Poly.Parser]: finished in 9.00 milliseconds, allocated 2.976 megabytes
+
+src/Text/ParserCombinators/Poly/Parser.hs:7:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+*** Simplifier [Text.ParserCombinators.Poly.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 465, types: 1,071, coercions: 198}
+Result size of Simplifier iteration=2
+  = {terms: 461, types: 1,102, coercions: 236}
+Result size of Simplifier
+  = {terms: 461, types: 1,102, coercions: 236}
+!!! Simplifier [Text.ParserCombinators.Poly.Parser]: finished in 15.00 milliseconds, allocated 8.521 megabytes
+*** Specialise [Text.ParserCombinators.Poly.Parser]:
+Result size of Specialise
+  = {terms: 481, types: 1,136, coercions: 236}
+!!! Specialise [Text.ParserCombinators.Poly.Parser]: finished in 2.00 milliseconds, allocated 0.726 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 520, types: 1,246, coercions: 236}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Parser]: finished in 4.00 milliseconds, allocated 3.743 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 719, types: 1,615, coercions: 536}
+Result size of Simplifier iteration=2
+  = {terms: 664, types: 1,532, coercions: 613}
+Result size of Simplifier iteration=3
+  = {terms: 657, types: 1,526, coercions: 637}
+Result size of Simplifier
+  = {terms: 653, types: 1,514, coercions: 625}
+!!! Simplifier [Text.ParserCombinators.Poly.Parser]: finished in 37.00 milliseconds, allocated 18.203 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 603, types: 1,442, coercions: 625}
+Result size of Simplifier iteration=2
+  = {terms: 595, types: 1,425, coercions: 625}
+Result size of Simplifier
+  = {terms: 595, types: 1,425, coercions: 625}
+!!! Simplifier [Text.ParserCombinators.Poly.Parser]: finished in 21.00 milliseconds, allocated 10.753 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 605, types: 1,444, coercions: 625}
+Result size of Simplifier
+  = {terms: 605, types: 1,444, coercions: 625}
+!!! Simplifier [Text.ParserCombinators.Poly.Parser]: finished in 15.00 milliseconds, allocated 6.383 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Parser]:
+Result size of Float inwards
+  = {terms: 605, types: 1,444, coercions: 625}
+!!! Float inwards [Text.ParserCombinators.Poly.Parser]: finished in 1.00 milliseconds, allocated 0.938 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly.Parser]:
+Result size of Called arity analysis
+  = {terms: 605, types: 1,444, coercions: 625}
+!!! Called arity analysis [Text.ParserCombinators.Poly.Parser]: finished in 3.00 milliseconds, allocated 0.995 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Parser]:
+Result size of Simplifier
+  = {terms: 605, types: 1,444, coercions: 625}
+!!! Simplifier [Text.ParserCombinators.Poly.Parser]: finished in 8.00 milliseconds, allocated 3.186 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly.Parser]:
+Result size of Demand analysis
+  = {terms: 605, types: 1,444, coercions: 625}
+!!! Demand analysis [Text.ParserCombinators.Poly.Parser]: finished in 5.00 milliseconds, allocated 2.709 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly.Parser]:
+Result size of Worker Wrapper binds
+  = {terms: 605, types: 1,444, coercions: 625}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly.Parser]: finished in 0.00 milliseconds, allocated 0.323 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 605, types: 1,444, coercions: 625}
+Result size of Simplifier
+  = {terms: 605, types: 1,444, coercions: 625}
+!!! Simplifier [Text.ParserCombinators.Poly.Parser]: finished in 19.00 milliseconds, allocated 7.872 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Parser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 619, types: 1,471, coercions: 625}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Parser]: finished in 8.00 milliseconds, allocated 4.585 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly.Parser]:
+Result size of Common sub-expression
+  = {terms: 609, types: 1,458, coercions: 595}
+!!! Common sub-expression [Text.ParserCombinators.Poly.Parser]: finished in 4.00 milliseconds, allocated 1.005 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Parser]:
+Result size of Float inwards
+  = {terms: 609, types: 1,458, coercions: 595}
+!!! Float inwards [Text.ParserCombinators.Poly.Parser]: finished in 1.00 milliseconds, allocated 0.901 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Parser]:
+Result size of Simplifier iteration=1
+  = {terms: 601, types: 1,431, coercions: 595}
+Result size of Simplifier
+  = {terms: 601, types: 1,431, coercions: 595}
+!!! Simplifier [Text.ParserCombinators.Poly.Parser]: finished in 20.00 milliseconds, allocated 7.675 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly.Parser]:
+Result size of Tidy Core
+  = {terms: 582, types: 1,398, coercions: 595}
+!!! CoreTidy [Text.ParserCombinators.Poly.Parser]: finished in 4.00 milliseconds, allocated 1.651 megabytes
+writeBinIface: 83 Names
+writeBinIface: 146 dict entries
+writeBinIface: 83 Names
+writeBinIface: 146 dict entries
+*** CorePrep [Text.ParserCombinators.Poly.Parser]:
+Result size of CorePrep
+  = {terms: 830, types: 1,783, coercions: 595}
+!!! CorePrep [Text.ParserCombinators.Poly.Parser]: finished in 3.00 milliseconds, allocated 1.508 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Parser]:
+!!! CodeGen [Text.ParserCombinators.Poly.Parser]: finished in 61.00 milliseconds, allocated 37.998 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_48.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Parser.o
+*** CorePrep [Text.ParserCombinators.Poly.Parser]:
+Result size of CorePrep
+  = {terms: 830, types: 1,783, coercions: 595}
+!!! CorePrep [Text.ParserCombinators.Poly.Parser]: finished in 2.00 milliseconds, allocated 1.476 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Parser]:
+!!! CodeGen [Text.ParserCombinators.Poly.Parser]: finished in 65.00 milliseconds, allocated 39.532 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_50.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Parser.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_51.c /tmp/ghc9071_0/ghc_50.s /tmp/ghc9071_0/ghc_49.c /tmp/ghc9071_0/ghc_48.s /tmp/ghc9071_0/ghc_47.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_51.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_49.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_47.s
+compile: input file /tmp/ghc9071_0/ghc_13.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly.Plain:
+[ 4 of 18] Compiling Text.ParserCombinators.Poly.Plain ( src/Text/ParserCombinators/Poly/Plain.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Plain.o )
+*** Parser [Text.ParserCombinators.Poly.Plain]:
+!!! Parser [Text.ParserCombinators.Poly.Plain]: finished in 1.00 milliseconds, allocated 1.296 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly.Plain]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly.Plain]: finished in 2.00 milliseconds, allocated 0.851 megabytes
+*** Desugar [Text.ParserCombinators.Poly.Plain]:
+Result size of Desugar (after optimization)
+  = {terms: 13, types: 38, coercions: 3}
+!!! Desugar [Text.ParserCombinators.Poly.Plain]: finished in 1.00 milliseconds, allocated 0.276 megabytes
+
+src/Text/ParserCombinators/Poly/Plain.hs:3:14: warning: [-Wtabs]
+    Tab character found here, and in 9 further locations.
+    Please use spaces instead.
+*** Simplifier [Text.ParserCombinators.Poly.Plain]:
+Result size of Simplifier iteration=1
+  = {terms: 17, types: 40, coercions: 3}
+Result size of Simplifier = {terms: 17, types: 40, coercions: 3}
+!!! Simplifier [Text.ParserCombinators.Poly.Plain]: finished in 1.00 milliseconds, allocated 0.180 megabytes
+*** Specialise [Text.ParserCombinators.Poly.Plain]:
+Result size of Specialise = {terms: 17, types: 40, coercions: 3}
+!!! Specialise [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.061 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Plain]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 17, types: 40, coercions: 3}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Plain]: finished in 1.00 milliseconds, allocated 0.145 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Plain]:
+Result size of Simplifier iteration=1
+  = {terms: 18, types: 30, coercions: 3}
+Result size of Simplifier = {terms: 18, types: 30, coercions: 3}
+!!! Simplifier [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.207 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Plain]:
+Result size of Simplifier = {terms: 18, types: 30, coercions: 3}
+!!! Simplifier [Text.ParserCombinators.Poly.Plain]: finished in 1.00 milliseconds, allocated 0.095 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Plain]:
+Result size of Simplifier iteration=1
+  = {terms: 23, types: 48, coercions: 3}
+Result size of Simplifier = {terms: 23, types: 48, coercions: 3}
+!!! Simplifier [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.232 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Plain]:
+Result size of Float inwards = {terms: 23, types: 48, coercions: 3}
+!!! Float inwards [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.060 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly.Plain]:
+Result size of Called arity analysis
+  = {terms: 23, types: 48, coercions: 3}
+!!! Called arity analysis [Text.ParserCombinators.Poly.Plain]: finished in 1.00 milliseconds, allocated 0.060 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Plain]:
+Result size of Simplifier = {terms: 23, types: 48, coercions: 3}
+!!! Simplifier [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.115 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly.Plain]:
+Result size of Demand analysis
+  = {terms: 23, types: 48, coercions: 3}
+!!! Demand analysis [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.111 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly.Plain]:
+Result size of Worker Wrapper binds
+  = {terms: 23, types: 48, coercions: 3}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.053 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Plain]:
+Result size of Simplifier = {terms: 23, types: 48, coercions: 3}
+!!! Simplifier [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.160 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Plain]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 23, types: 48, coercions: 3}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.174 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly.Plain]:
+Result size of Common sub-expression
+  = {terms: 23, types: 48, coercions: 3}
+!!! Common sub-expression [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.083 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Plain]:
+Result size of Float inwards = {terms: 23, types: 48, coercions: 3}
+!!! Float inwards [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.060 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Plain]:
+Result size of Simplifier = {terms: 23, types: 48, coercions: 3}
+!!! Simplifier [Text.ParserCombinators.Poly.Plain]: finished in 1.00 milliseconds, allocated 0.158 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly.Plain]:
+Result size of Tidy Core = {terms: 23, types: 48, coercions: 3}
+!!! CoreTidy [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.087 megabytes
+writeBinIface: 65 Names
+writeBinIface: 93 dict entries
+writeBinIface: 65 Names
+writeBinIface: 93 dict entries
+*** CorePrep [Text.ParserCombinators.Poly.Plain]:
+Result size of CorePrep = {terms: 26, types: 52, coercions: 3}
+!!! CorePrep [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.085 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Plain]:
+!!! CodeGen [Text.ParserCombinators.Poly.Plain]: finished in 2.00 milliseconds, allocated 0.984 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_53.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Plain.o
+*** CorePrep [Text.ParserCombinators.Poly.Plain]:
+Result size of CorePrep = {terms: 26, types: 52, coercions: 3}
+!!! CorePrep [Text.ParserCombinators.Poly.Plain]: finished in 0.00 milliseconds, allocated 0.079 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Plain]:
+!!! CodeGen [Text.ParserCombinators.Poly.Plain]: finished in 1.00 milliseconds, allocated 1.018 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_55.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Plain.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_56.c /tmp/ghc9071_0/ghc_55.s /tmp/ghc9071_0/ghc_54.c /tmp/ghc9071_0/ghc_53.s /tmp/ghc9071_0/ghc_52.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_56.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_54.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_52.s
+compile: input file /tmp/ghc9071_0/ghc_15.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly.Lazy:
+[ 5 of 18] Compiling Text.ParserCombinators.Poly.Lazy ( src/Text/ParserCombinators/Poly/Lazy.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Lazy.o )
+*** Parser [Text.ParserCombinators.Poly.Lazy]:
+!!! Parser [Text.ParserCombinators.Poly.Lazy]: finished in 3.00 milliseconds, allocated 3.382 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly.Lazy]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly.Lazy]: finished in 28.00 milliseconds, allocated 14.558 megabytes
+*** Desugar [Text.ParserCombinators.Poly.Lazy]:
+Result size of Desugar (after optimization)
+  = {terms: 266, types: 708, coercions: 164}
+!!! Desugar [Text.ParserCombinators.Poly.Lazy]: finished in 5.00 milliseconds, allocated 2.571 megabytes
+
+src/Text/ParserCombinators/Poly/Lazy.hs:4:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+*** Simplifier [Text.ParserCombinators.Poly.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 220, types: 605, coercions: 332}
+Result size of Simplifier iteration=2
+  = {terms: 212, types: 595, coercions: 296}
+Result size of Simplifier
+  = {terms: 212, types: 595, coercions: 296}
+!!! Simplifier [Text.ParserCombinators.Poly.Lazy]: finished in 10.00 milliseconds, allocated 5.501 megabytes
+*** Specialise [Text.ParserCombinators.Poly.Lazy]:
+Result size of Specialise
+  = {terms: 212, types: 595, coercions: 296}
+!!! Specialise [Text.ParserCombinators.Poly.Lazy]: finished in 1.00 milliseconds, allocated 0.360 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Lazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 220, types: 617, coercions: 296}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Lazy]: finished in 2.00 milliseconds, allocated 1.558 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 307, types: 810, coercions: 1,017}
+Result size of Simplifier iteration=2
+  = {terms: 284, types: 766, coercions: 935}
+Result size of Simplifier iteration=3
+  = {terms: 288, types: 776, coercions: 987}
+Result size of Simplifier
+  = {terms: 284, types: 764, coercions: 961}
+!!! Simplifier [Text.ParserCombinators.Poly.Lazy]: finished in 26.00 milliseconds, allocated 10.720 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 282, types: 760, coercions: 961}
+Result size of Simplifier
+  = {terms: 282, types: 760, coercions: 961}
+!!! Simplifier [Text.ParserCombinators.Poly.Lazy]: finished in 9.00 milliseconds, allocated 4.436 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Lazy]:
+Result size of Simplifier
+  = {terms: 282, types: 760, coercions: 961}
+!!! Simplifier [Text.ParserCombinators.Poly.Lazy]: finished in 5.00 milliseconds, allocated 2.201 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Lazy]:
+Result size of Float inwards
+  = {terms: 282, types: 760, coercions: 961}
+!!! Float inwards [Text.ParserCombinators.Poly.Lazy]: finished in 1.00 milliseconds, allocated 0.520 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly.Lazy]:
+Result size of Called arity analysis
+  = {terms: 282, types: 760, coercions: 961}
+!!! Called arity analysis [Text.ParserCombinators.Poly.Lazy]: finished in 1.00 milliseconds, allocated 0.565 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Lazy]:
+Result size of Simplifier
+  = {terms: 282, types: 760, coercions: 961}
+!!! Simplifier [Text.ParserCombinators.Poly.Lazy]: finished in 4.00 milliseconds, allocated 2.203 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly.Lazy]:
+Result size of Demand analysis
+  = {terms: 282, types: 760, coercions: 961}
+!!! Demand analysis [Text.ParserCombinators.Poly.Lazy]: finished in 2.00 milliseconds, allocated 1.076 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly.Lazy]:
+Result size of Worker Wrapper binds
+  = {terms: 302, types: 808, coercions: 961}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly.Lazy]: finished in 1.00 milliseconds, allocated 0.232 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 304, types: 819, coercions: 961}
+Result size of Simplifier
+  = {terms: 304, types: 819, coercions: 961}
+!!! Simplifier [Text.ParserCombinators.Poly.Lazy]: finished in 8.00 milliseconds, allocated 6.086 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Lazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 314, types: 847, coercions: 961}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Lazy]: finished in 4.00 milliseconds, allocated 2.284 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly.Lazy]:
+Result size of Common sub-expression
+  = {terms: 314, types: 847, coercions: 919}
+!!! Common sub-expression [Text.ParserCombinators.Poly.Lazy]: finished in 0.00 milliseconds, allocated 0.559 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Lazy]:
+Result size of Float inwards
+  = {terms: 314, types: 847, coercions: 919}
+!!! Float inwards [Text.ParserCombinators.Poly.Lazy]: finished in 1.00 milliseconds, allocated 0.557 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 308, types: 832, coercions: 944}
+Result size of Simplifier
+  = {terms: 306, types: 824, coercions: 944}
+!!! Simplifier [Text.ParserCombinators.Poly.Lazy]: finished in 7.00 milliseconds, allocated 5.872 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly.Lazy]:
+Result size of Tidy Core = {terms: 306, types: 824, coercions: 944}
+!!! CoreTidy [Text.ParserCombinators.Poly.Lazy]: finished in 1.00 milliseconds, allocated 1.019 megabytes
+writeBinIface: 122 Names
+writeBinIface: 167 dict entries
+writeBinIface: 122 Names
+writeBinIface: 167 dict entries
+*** CorePrep [Text.ParserCombinators.Poly.Lazy]:
+Result size of CorePrep
+  = {terms: 489, types: 1,132, coercions: 944}
+!!! CorePrep [Text.ParserCombinators.Poly.Lazy]: finished in 1.00 milliseconds, allocated 0.878 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Lazy]:
+!!! CodeGen [Text.ParserCombinators.Poly.Lazy]: finished in 27.00 milliseconds, allocated 15.916 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_58.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Lazy.o
+*** CorePrep [Text.ParserCombinators.Poly.Lazy]:
+Result size of CorePrep
+  = {terms: 489, types: 1,132, coercions: 944}
+!!! CorePrep [Text.ParserCombinators.Poly.Lazy]: finished in 1.00 milliseconds, allocated 0.855 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Lazy]:
+!!! CodeGen [Text.ParserCombinators.Poly.Lazy]: finished in 29.00 milliseconds, allocated 16.567 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_60.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Lazy.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_61.c /tmp/ghc9071_0/ghc_60.s /tmp/ghc9071_0/ghc_59.c /tmp/ghc9071_0/ghc_58.s /tmp/ghc9071_0/ghc_57.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_61.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_59.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_57.s
+compile: input file /tmp/ghc9071_0/ghc_17.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly.StateParser:
+[ 6 of 18] Compiling Text.ParserCombinators.Poly.StateParser ( src/Text/ParserCombinators/Poly/StateParser.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/StateParser.o )
+*** Parser [Text.ParserCombinators.Poly.StateParser]:
+!!! Parser [Text.ParserCombinators.Poly.StateParser]: finished in 3.00 milliseconds, allocated 4.967 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly.StateParser]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly.StateParser]: finished in 22.00 milliseconds, allocated 9.695 megabytes
+*** Desugar [Text.ParserCombinators.Poly.StateParser]:
+Result size of Desugar (after optimization)
+  = {terms: 491, types: 1,374, coercions: 106}
+!!! Desugar [Text.ParserCombinators.Poly.StateParser]: finished in 6.00 milliseconds, allocated 3.114 megabytes
+
+src/Text/ParserCombinators/Poly/StateParser.hs:7:14: warning: [-Wtabs]
+    Tab character found here, and in 7 further locations.
+    Please use spaces instead.
+*** Simplifier [Text.ParserCombinators.Poly.StateParser]:
+Result size of Simplifier iteration=1
+  = {terms: 517, types: 1,493, coercions: 272}
+Result size of Simplifier iteration=2
+  = {terms: 519, types: 1,586, coercions: 331}
+Result size of Simplifier
+  = {terms: 519, types: 1,586, coercions: 331}
+!!! Simplifier [Text.ParserCombinators.Poly.StateParser]: finished in 16.00 milliseconds, allocated 8.230 megabytes
+*** Specialise [Text.ParserCombinators.Poly.StateParser]:
+Result size of Specialise
+  = {terms: 539, types: 1,620, coercions: 331}
+!!! Specialise [Text.ParserCombinators.Poly.StateParser]: finished in 1.00 milliseconds, allocated 0.813 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.StateParser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 567, types: 1,690, coercions: 331}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.StateParser]: finished in 4.00 milliseconds, allocated 4.541 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateParser]:
+Result size of Simplifier iteration=1
+  = {terms: 838, types: 2,309, coercions: 702}
+Result size of Simplifier iteration=2
+  = {terms: 770, types: 2,204, coercions: 789}
+Result size of Simplifier iteration=3
+  = {terms: 762, types: 2,193, coercions: 817}
+Result size of Simplifier
+  = {terms: 758, types: 2,177, coercions: 803}
+!!! Simplifier [Text.ParserCombinators.Poly.StateParser]: finished in 39.00 milliseconds, allocated 21.386 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateParser]:
+Result size of Simplifier iteration=1
+  = {terms: 718, types: 2,117, coercions: 803}
+Result size of Simplifier iteration=2
+  = {terms: 710, types: 2,100, coercions: 803}
+Result size of Simplifier
+  = {terms: 710, types: 2,100, coercions: 803}
+!!! Simplifier [Text.ParserCombinators.Poly.StateParser]: finished in 24.00 milliseconds, allocated 12.669 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateParser]:
+Result size of Simplifier iteration=1
+  = {terms: 720, types: 2,119, coercions: 803}
+Result size of Simplifier
+  = {terms: 720, types: 2,119, coercions: 803}
+!!! Simplifier [Text.ParserCombinators.Poly.StateParser]: finished in 14.00 milliseconds, allocated 7.854 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.StateParser]:
+Result size of Float inwards
+  = {terms: 720, types: 2,119, coercions: 803}
+!!! Float inwards [Text.ParserCombinators.Poly.StateParser]: finished in 1.00 milliseconds, allocated 1.224 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly.StateParser]:
+Result size of Called arity analysis
+  = {terms: 720, types: 2,119, coercions: 803}
+!!! Called arity analysis [Text.ParserCombinators.Poly.StateParser]: finished in 2.00 milliseconds, allocated 1.182 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateParser]:
+Result size of Simplifier
+  = {terms: 720, types: 2,119, coercions: 803}
+!!! Simplifier [Text.ParserCombinators.Poly.StateParser]: finished in 7.00 milliseconds, allocated 3.928 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly.StateParser]:
+Result size of Demand analysis
+  = {terms: 720, types: 2,119, coercions: 803}
+!!! Demand analysis [Text.ParserCombinators.Poly.StateParser]: finished in 4.00 milliseconds, allocated 3.263 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly.StateParser]:
+Result size of Worker Wrapper binds
+  = {terms: 720, types: 2,119, coercions: 803}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly.StateParser]: finished in 1.00 milliseconds, allocated 0.364 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateParser]:
+Result size of Simplifier iteration=1
+  = {terms: 729, types: 2,136, coercions: 807}
+Result size of Simplifier
+  = {terms: 729, types: 2,136, coercions: 807}
+!!! Simplifier [Text.ParserCombinators.Poly.StateParser]: finished in 21.00 milliseconds, allocated 10.308 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.StateParser]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 739, types: 2,158, coercions: 807}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.StateParser]: finished in 7.00 milliseconds, allocated 6.433 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly.StateParser]:
+Result size of Common sub-expression
+  = {terms: 727, types: 2,138, coercions: 767}
+!!! Common sub-expression [Text.ParserCombinators.Poly.StateParser]: finished in 2.00 milliseconds, allocated 1.271 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.StateParser]:
+Result size of Float inwards
+  = {terms: 727, types: 2,138, coercions: 767}
+!!! Float inwards [Text.ParserCombinators.Poly.StateParser]: finished in 2.00 milliseconds, allocated 1.366 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateParser]:
+Result size of Simplifier iteration=1
+  = {terms: 719, types: 2,103, coercions: 767}
+Result size of Simplifier
+  = {terms: 719, types: 2,103, coercions: 767}
+!!! Simplifier [Text.ParserCombinators.Poly.StateParser]: finished in 24.00 milliseconds, allocated 9.983 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly.StateParser]:
+Result size of Tidy Core
+  = {terms: 700, types: 2,070, coercions: 767}
+!!! CoreTidy [Text.ParserCombinators.Poly.StateParser]: finished in 4.00 milliseconds, allocated 1.947 megabytes
+writeBinIface: 81 Names
+writeBinIface: 150 dict entries
+writeBinIface: 81 Names
+writeBinIface: 150 dict entries
+*** CorePrep [Text.ParserCombinators.Poly.StateParser]:
+Result size of CorePrep
+  = {terms: 1,034, types: 2,720, coercions: 767}
+!!! CorePrep [Text.ParserCombinators.Poly.StateParser]: finished in 3.00 milliseconds, allocated 1.894 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.StateParser]:
+!!! CodeGen [Text.ParserCombinators.Poly.StateParser]: finished in 74.00 milliseconds, allocated 40.309 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_63.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/StateParser.o
+*** CorePrep [Text.ParserCombinators.Poly.StateParser]:
+Result size of CorePrep
+  = {terms: 1,034, types: 2,720, coercions: 767}
+!!! CorePrep [Text.ParserCombinators.Poly.StateParser]: finished in 3.00 milliseconds, allocated 1.841 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.StateParser]:
+!!! CodeGen [Text.ParserCombinators.Poly.StateParser]: finished in 74.00 milliseconds, allocated 42.373 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_65.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/StateParser.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_66.c /tmp/ghc9071_0/ghc_65.s /tmp/ghc9071_0/ghc_64.c /tmp/ghc9071_0/ghc_63.s /tmp/ghc9071_0/ghc_62.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_66.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_64.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_62.s
+compile: input file /tmp/ghc9071_0/ghc_19.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly.State:
+[ 7 of 18] Compiling Text.ParserCombinators.Poly.State ( src/Text/ParserCombinators/Poly/State.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/State.o )
+*** Parser [Text.ParserCombinators.Poly.State]:
+!!! Parser [Text.ParserCombinators.Poly.State]: finished in 1.00 milliseconds, allocated 1.479 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly.State]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly.State]: finished in 3.00 milliseconds, allocated 1.207 megabytes
+*** Desugar [Text.ParserCombinators.Poly.State]:
+Result size of Desugar (after optimization)
+  = {terms: 33, types: 119, coercions: 4}
+!!! Desugar [Text.ParserCombinators.Poly.State]: finished in 1.00 milliseconds, allocated 0.387 megabytes
+
+src/Text/ParserCombinators/Poly/State.hs:3:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+*** Simplifier [Text.ParserCombinators.Poly.State]:
+Result size of Simplifier iteration=1
+  = {terms: 37, types: 121, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 32, types: 108, coercions: 4}
+Result size of Simplifier = {terms: 32, types: 108, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.State]: finished in 1.00 milliseconds, allocated 0.467 megabytes
+*** Specialise [Text.ParserCombinators.Poly.State]:
+Result size of Specialise = {terms: 32, types: 108, coercions: 4}
+!!! Specialise [Text.ParserCombinators.Poly.State]: finished in 0.00 milliseconds, allocated 0.084 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.State]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 37, types: 138, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.State]: finished in 1.00 milliseconds, allocated 0.341 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.State]:
+Result size of Simplifier iteration=1
+  = {terms: 47, types: 140, coercions: 4}
+Result size of Simplifier = {terms: 32, types: 77, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.State]: finished in 1.00 milliseconds, allocated 0.406 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.State]:
+Result size of Simplifier = {terms: 32, types: 77, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.State]: finished in 0.00 milliseconds, allocated 0.155 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.State]:
+Result size of Simplifier iteration=1
+  = {terms: 32, types: 79, coercions: 4}
+Result size of Simplifier = {terms: 32, types: 79, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.State]: finished in 1.00 milliseconds, allocated 0.330 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.State]:
+Result size of Float inwards = {terms: 32, types: 79, coercions: 4}
+!!! Float inwards [Text.ParserCombinators.Poly.State]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly.State]:
+Result size of Called arity analysis
+  = {terms: 32, types: 79, coercions: 4}
+!!! Called arity analysis [Text.ParserCombinators.Poly.State]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.State]:
+Result size of Simplifier = {terms: 32, types: 79, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.State]: finished in 0.00 milliseconds, allocated 0.159 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly.State]:
+Result size of Demand analysis
+  = {terms: 32, types: 79, coercions: 4}
+!!! Demand analysis [Text.ParserCombinators.Poly.State]: finished in 0.00 milliseconds, allocated 0.152 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly.State]:
+Result size of Worker Wrapper binds
+  = {terms: 32, types: 79, coercions: 4}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly.State]: finished in 0.00 milliseconds, allocated 0.062 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.State]:
+Result size of Simplifier = {terms: 32, types: 79, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.State]: finished in 1.00 milliseconds, allocated 0.162 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.State]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 32, types: 79, coercions: 4}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.State]: finished in 1.00 milliseconds, allocated 0.261 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly.State]:
+Result size of Common sub-expression
+  = {terms: 32, types: 79, coercions: 4}
+!!! Common sub-expression [Text.ParserCombinators.Poly.State]: finished in 0.00 milliseconds, allocated 0.073 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.State]:
+Result size of Float inwards = {terms: 32, types: 79, coercions: 4}
+!!! Float inwards [Text.ParserCombinators.Poly.State]: finished in 1.00 milliseconds, allocated 0.067 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.State]:
+Result size of Simplifier = {terms: 32, types: 79, coercions: 4}
+!!! Simplifier [Text.ParserCombinators.Poly.State]: finished in 0.00 milliseconds, allocated 0.157 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly.State]:
+Result size of Tidy Core = {terms: 32, types: 79, coercions: 4}
+!!! CoreTidy [Text.ParserCombinators.Poly.State]: finished in 0.00 milliseconds, allocated 0.109 megabytes
+writeBinIface: 67 Names
+writeBinIface: 101 dict entries
+writeBinIface: 67 Names
+writeBinIface: 101 dict entries
+*** CorePrep [Text.ParserCombinators.Poly.State]:
+Result size of CorePrep = {terms: 37, types: 94, coercions: 4}
+!!! CorePrep [Text.ParserCombinators.Poly.State]: finished in 0.00 milliseconds, allocated 0.098 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.State]:
+!!! CodeGen [Text.ParserCombinators.Poly.State]: finished in 3.00 milliseconds, allocated 1.524 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_68.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/State.o
+*** CorePrep [Text.ParserCombinators.Poly.State]:
+Result size of CorePrep = {terms: 37, types: 94, coercions: 4}
+!!! CorePrep [Text.ParserCombinators.Poly.State]: finished in 0.00 milliseconds, allocated 0.098 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.State]:
+!!! CodeGen [Text.ParserCombinators.Poly.State]: finished in 3.00 milliseconds, allocated 1.590 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_70.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/State.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_71.c /tmp/ghc9071_0/ghc_70.s /tmp/ghc9071_0/ghc_69.c /tmp/ghc9071_0/ghc_68.s /tmp/ghc9071_0/ghc_67.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_71.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_69.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_67.s
+compile: input file /tmp/ghc9071_0/ghc_21.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly.StateLazy:
+[ 8 of 18] Compiling Text.ParserCombinators.Poly.StateLazy ( src/Text/ParserCombinators/Poly/StateLazy.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/StateLazy.o )
+*** Parser [Text.ParserCombinators.Poly.StateLazy]:
+!!! Parser [Text.ParserCombinators.Poly.StateLazy]: finished in 3.00 milliseconds, allocated 4.281 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly.StateLazy]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly.StateLazy]: finished in 30.00 milliseconds, allocated 14.829 megabytes
+*** Desugar [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Desugar (after optimization)
+  = {terms: 384, types: 1,269, coercions: 196}
+!!! Desugar [Text.ParserCombinators.Poly.StateLazy]: finished in 6.00 milliseconds, allocated 3.206 megabytes
+
+src/Text/ParserCombinators/Poly/StateLazy.hs:4:14: warning: [-Wtabs]
+    Tab character found here, and in 8 further locations.
+    Please use spaces instead.
+*** Simplifier [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Simplifier iteration=1
+  = {terms: 309, types: 1,043, coercions: 398}
+Result size of Simplifier iteration=2
+  = {terms: 298, types: 1,055, coercions: 377}
+Result size of Simplifier
+  = {terms: 298, types: 1,055, coercions: 377}
+!!! Simplifier [Text.ParserCombinators.Poly.StateLazy]: finished in 9.00 milliseconds, allocated 5.594 megabytes
+*** Specialise [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Specialise
+  = {terms: 298, types: 1,055, coercions: 377}
+!!! Specialise [Text.ParserCombinators.Poly.StateLazy]: finished in 1.00 milliseconds, allocated 0.527 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 332, types: 1,166, coercions: 377}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.StateLazy]: finished in 4.00 milliseconds, allocated 3.158 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Simplifier iteration=1
+  = {terms: 648, types: 2,000, coercions: 1,463}
+Result size of Simplifier iteration=2
+  = {terms: 519, types: 1,648, coercions: 1,287}
+Result size of Simplifier iteration=3
+  = {terms: 519, types: 1,644, coercions: 1,347}
+Result size of Simplifier
+  = {terms: 515, types: 1,628, coercions: 1,317}
+!!! Simplifier [Text.ParserCombinators.Poly.StateLazy]: finished in 40.00 milliseconds, allocated 21.131 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Simplifier iteration=1
+  = {terms: 505, types: 1,618, coercions: 1,317}
+Result size of Simplifier
+  = {terms: 505, types: 1,618, coercions: 1,317}
+!!! Simplifier [Text.ParserCombinators.Poly.StateLazy]: finished in 15.00 milliseconds, allocated 7.543 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Simplifier
+  = {terms: 505, types: 1,618, coercions: 1,317}
+!!! Simplifier [Text.ParserCombinators.Poly.StateLazy]: finished in 9.00 milliseconds, allocated 3.697 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Float inwards
+  = {terms: 505, types: 1,618, coercions: 1,317}
+!!! Float inwards [Text.ParserCombinators.Poly.StateLazy]: finished in 1.00 milliseconds, allocated 1.433 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Called arity analysis
+  = {terms: 505, types: 1,618, coercions: 1,317}
+!!! Called arity analysis [Text.ParserCombinators.Poly.StateLazy]: finished in 1.00 milliseconds, allocated 0.918 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Simplifier
+  = {terms: 505, types: 1,618, coercions: 1,317}
+!!! Simplifier [Text.ParserCombinators.Poly.StateLazy]: finished in 7.00 milliseconds, allocated 3.695 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Demand analysis
+  = {terms: 505, types: 1,618, coercions: 1,317}
+!!! Demand analysis [Text.ParserCombinators.Poly.StateLazy]: finished in 3.00 milliseconds, allocated 2.307 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Worker Wrapper binds
+  = {terms: 529, types: 1,690, coercions: 1,317}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly.StateLazy]: finished in 1.00 milliseconds, allocated 0.372 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Simplifier iteration=1
+  = {terms: 531, types: 1,702, coercions: 1,317}
+Result size of Simplifier
+  = {terms: 531, types: 1,702, coercions: 1,317}
+!!! Simplifier [Text.ParserCombinators.Poly.StateLazy]: finished in 18.00 milliseconds, allocated 9.666 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 551, types: 1,799, coercions: 1,317}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.StateLazy]: finished in 9.00 milliseconds, allocated 5.467 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Common sub-expression
+  = {terms: 545, types: 1,790, coercions: 1,263}
+!!! Common sub-expression [Text.ParserCombinators.Poly.StateLazy]: finished in 2.00 milliseconds, allocated 0.933 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Float inwards
+  = {terms: 545, types: 1,790, coercions: 1,263}
+!!! Float inwards [Text.ParserCombinators.Poly.StateLazy]: finished in 1.00 milliseconds, allocated 1.360 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Simplifier iteration=1
+  = {terms: 536, types: 1,751, coercions: 1,263}
+Result size of Simplifier
+  = {terms: 534, types: 1,740, coercions: 1,263}
+!!! Simplifier [Text.ParserCombinators.Poly.StateLazy]: finished in 18.00 milliseconds, allocated 9.201 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly.StateLazy]:
+Result size of Tidy Core
+  = {terms: 534, types: 1,740, coercions: 1,263}
+!!! CoreTidy [Text.ParserCombinators.Poly.StateLazy]: finished in 3.00 milliseconds, allocated 1.513 megabytes
+writeBinIface: 125 Names
+writeBinIface: 177 dict entries
+writeBinIface: 125 Names
+writeBinIface: 177 dict entries
+*** CorePrep [Text.ParserCombinators.Poly.StateLazy]:
+Result size of CorePrep
+  = {terms: 831, types: 2,361, coercions: 1,263}
+!!! CorePrep [Text.ParserCombinators.Poly.StateLazy]: finished in 2.00 milliseconds, allocated 1.616 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.StateLazy]:
+!!! CodeGen [Text.ParserCombinators.Poly.StateLazy]: finished in 57.00 milliseconds, allocated 31.125 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_73.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/StateLazy.o
+*** CorePrep [Text.ParserCombinators.Poly.StateLazy]:
+Result size of CorePrep
+  = {terms: 831, types: 2,361, coercions: 1,263}
+!!! CorePrep [Text.ParserCombinators.Poly.StateLazy]: finished in 3.00 milliseconds, allocated 1.558 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.StateLazy]:
+!!! CodeGen [Text.ParserCombinators.Poly.StateLazy]: finished in 53.00 milliseconds, allocated 32.783 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_75.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/StateLazy.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_76.c /tmp/ghc9071_0/ghc_75.s /tmp/ghc9071_0/ghc_74.c /tmp/ghc9071_0/ghc_73.s /tmp/ghc9071_0/ghc_72.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_76.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_74.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_72.s
+compile: input file /tmp/ghc9071_0/ghc_23.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly.Lex:
+[ 9 of 18] Compiling Text.ParserCombinators.Poly.Lex ( src/Text/ParserCombinators/Poly/Lex.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Lex.o )
+*** Parser [Text.ParserCombinators.Poly.Lex]:
+!!! Parser [Text.ParserCombinators.Poly.Lex]: finished in 4.00 milliseconds, allocated 4.843 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly.Lex]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly.Lex]: finished in 17.00 milliseconds, allocated 8.808 megabytes
+*** Desugar [Text.ParserCombinators.Poly.Lex]:
+Result size of Desugar (after optimization)
+  = {terms: 451, types: 1,043, coercions: 74}
+!!! Desugar [Text.ParserCombinators.Poly.Lex]: finished in 6.00 milliseconds, allocated 3.101 megabytes
+
+src/Text/ParserCombinators/Poly/Lex.hs:89:18: warning: [-Wtabs]
+    Tab character found here.
+    Please use spaces instead.
+*** Simplifier [Text.ParserCombinators.Poly.Lex]:
+Result size of Simplifier iteration=1
+  = {terms: 480, types: 1,153, coercions: 196}
+Result size of Simplifier iteration=2
+  = {terms: 482, types: 1,183, coercions: 221}
+Result size of Simplifier
+  = {terms: 482, types: 1,183, coercions: 221}
+!!! Simplifier [Text.ParserCombinators.Poly.Lex]: finished in 16.00 milliseconds, allocated 7.162 megabytes
+*** Specialise [Text.ParserCombinators.Poly.Lex]:
+Result size of Specialise
+  = {terms: 482, types: 1,183, coercions: 221}
+!!! Specialise [Text.ParserCombinators.Poly.Lex]: finished in 1.00 milliseconds, allocated 0.694 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Lex]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 529, types: 1,327, coercions: 221}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Lex]: finished in 5.00 milliseconds, allocated 3.514 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Lex]:
+Result size of Simplifier iteration=1
+  = {terms: 718, types: 1,660, coercions: 524}
+Result size of Simplifier iteration=2
+  = {terms: 636, types: 1,473, coercions: 601}
+Result size of Simplifier iteration=3
+  = {terms: 639, types: 1,482, coercions: 625}
+Result size of Simplifier
+  = {terms: 635, types: 1,470, coercions: 613}
+!!! Simplifier [Text.ParserCombinators.Poly.Lex]: finished in 31.00 milliseconds, allocated 15.202 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Lex]:
+Result size of Simplifier iteration=1
+  = {terms: 607, types: 1,419, coercions: 613}
+Result size of Simplifier iteration=2
+  = {terms: 591, types: 1,388, coercions: 613}
+Result size of Simplifier
+  = {terms: 591, types: 1,388, coercions: 613}
+!!! Simplifier [Text.ParserCombinators.Poly.Lex]: finished in 17.00 milliseconds, allocated 9.341 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Lex]:
+Result size of Simplifier iteration=1
+  = {terms: 591, types: 1,390, coercions: 613}
+Result size of Simplifier
+  = {terms: 591, types: 1,390, coercions: 613}
+!!! Simplifier [Text.ParserCombinators.Poly.Lex]: finished in 12.00 milliseconds, allocated 5.906 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Lex]:
+Result size of Float inwards
+  = {terms: 591, types: 1,390, coercions: 613}
+!!! Float inwards [Text.ParserCombinators.Poly.Lex]: finished in 1.00 milliseconds, allocated 0.874 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly.Lex]:
+Result size of Called arity analysis
+  = {terms: 591, types: 1,390, coercions: 613}
+!!! Called arity analysis [Text.ParserCombinators.Poly.Lex]: finished in 1.00 milliseconds, allocated 0.977 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Lex]:
+Result size of Simplifier
+  = {terms: 591, types: 1,390, coercions: 613}
+!!! Simplifier [Text.ParserCombinators.Poly.Lex]: finished in 6.00 milliseconds, allocated 2.951 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly.Lex]:
+Result size of Demand analysis
+  = {terms: 591, types: 1,390, coercions: 613}
+!!! Demand analysis [Text.ParserCombinators.Poly.Lex]: finished in 5.00 milliseconds, allocated 2.443 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly.Lex]:
+Result size of Worker Wrapper binds
+  = {terms: 606, types: 1,416, coercions: 613}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly.Lex]: finished in 1.00 milliseconds, allocated 0.337 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Lex]:
+Result size of Simplifier iteration=1
+  = {terms: 597, types: 1,398, coercions: 613}
+Result size of Simplifier
+  = {terms: 597, types: 1,398, coercions: 613}
+!!! Simplifier [Text.ParserCombinators.Poly.Lex]: finished in 14.00 milliseconds, allocated 7.453 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Lex]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 613, types: 1,436, coercions: 613}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Lex]: finished in 5.00 milliseconds, allocated 4.337 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly.Lex]:
+Result size of Common sub-expression
+  = {terms: 609, types: 1,430, coercions: 583}
+!!! Common sub-expression [Text.ParserCombinators.Poly.Lex]: finished in 3.00 milliseconds, allocated 0.993 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Lex]:
+Result size of Float inwards
+  = {terms: 609, types: 1,430, coercions: 583}
+!!! Float inwards [Text.ParserCombinators.Poly.Lex]: finished in 2.00 milliseconds, allocated 0.882 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Lex]:
+Result size of Simplifier iteration=1
+  = {terms: 605, types: 1,409, coercions: 583}
+Result size of Simplifier
+  = {terms: 605, types: 1,409, coercions: 583}
+!!! Simplifier [Text.ParserCombinators.Poly.Lex]: finished in 15.00 milliseconds, allocated 7.322 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly.Lex]:
+Result size of Tidy Core
+  = {terms: 605, types: 1,409, coercions: 583}
+!!! CoreTidy [Text.ParserCombinators.Poly.Lex]: finished in 3.00 milliseconds, allocated 1.655 megabytes
+writeBinIface: 128 Names
+writeBinIface: 188 dict entries
+writeBinIface: 128 Names
+writeBinIface: 188 dict entries
+*** CorePrep [Text.ParserCombinators.Poly.Lex]:
+Result size of CorePrep
+  = {terms: 839, types: 1,792, coercions: 583}
+!!! CorePrep [Text.ParserCombinators.Poly.Lex]: finished in 3.00 milliseconds, allocated 1.531 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Lex]:
+!!! CodeGen [Text.ParserCombinators.Poly.Lex]: finished in 67.00 milliseconds, allocated 36.908 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_78.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Lex.o
+*** CorePrep [Text.ParserCombinators.Poly.Lex]:
+Result size of CorePrep
+  = {terms: 839, types: 1,792, coercions: 583}
+!!! CorePrep [Text.ParserCombinators.Poly.Lex]: finished in 2.00 milliseconds, allocated 1.493 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Lex]:
+!!! CodeGen [Text.ParserCombinators.Poly.Lex]: finished in 68.00 milliseconds, allocated 38.501 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_80.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Lex.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_81.c /tmp/ghc9071_0/ghc_80.s /tmp/ghc9071_0/ghc_79.c /tmp/ghc9071_0/ghc_78.s /tmp/ghc9071_0/ghc_77.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_81.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_79.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_77.s
+compile: input file /tmp/ghc9071_0/ghc_27.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly.ByteString:
+[10 of 18] Compiling Text.ParserCombinators.Poly.ByteString ( src/Text/ParserCombinators/Poly/ByteString.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/ByteString.o )
+*** Parser [Text.ParserCombinators.Poly.ByteString]:
+!!! Parser [Text.ParserCombinators.Poly.ByteString]: finished in 3.00 milliseconds, allocated 4.575 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly.ByteString]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly.ByteString]: finished in 32.00 milliseconds, allocated 18.477 megabytes
+*** Desugar [Text.ParserCombinators.Poly.ByteString]:
+Result size of Desugar (after optimization)
+  = {terms: 413, types: 648, coercions: 56}
+!!! Desugar [Text.ParserCombinators.Poly.ByteString]: finished in 21.00 milliseconds, allocated 11.895 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 440, types: 730, coercions: 140}
+Result size of Simplifier iteration=2
+  = {terms: 436, types: 743, coercions: 162}
+Result size of Simplifier
+  = {terms: 436, types: 743, coercions: 162}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteString]: finished in 11.00 milliseconds, allocated 6.218 megabytes
+*** Specialise [Text.ParserCombinators.Poly.ByteString]:
+Result size of Specialise
+  = {terms: 554, types: 979, coercions: 162}
+!!! Specialise [Text.ParserCombinators.Poly.ByteString]: finished in 2.00 milliseconds, allocated 1.051 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.ByteString]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 606, types: 1,089, coercions: 162}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.ByteString]: finished in 4.00 milliseconds, allocated 3.280 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 958, types: 1,591, coercions: 577}
+Result size of Simplifier iteration=2
+  = {terms: 817, types: 1,427, coercions: 607}
+Result size of Simplifier iteration=3
+  = {terms: 813, types: 1,426, coercions: 647}
+Result size of Simplifier
+  = {terms: 805, types: 1,408, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteString]: finished in 49.00 milliseconds, allocated 22.538 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 777, types: 1,355, coercions: 627}
+Result size of Simplifier iteration=2
+  = {terms: 757, types: 1,335, coercions: 627}
+Result size of Simplifier
+  = {terms: 757, types: 1,335, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteString]: finished in 26.00 milliseconds, allocated 13.250 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 777, types: 1,378, coercions: 627}
+Result size of Simplifier
+  = {terms: 777, types: 1,378, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteString]: finished in 18.00 milliseconds, allocated 8.501 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.ByteString]:
+Result size of Float inwards
+  = {terms: 777, types: 1,378, coercions: 627}
+!!! Float inwards [Text.ParserCombinators.Poly.ByteString]: finished in 1.00 milliseconds, allocated 1.118 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly.ByteString]:
+Result size of Called arity analysis
+  = {terms: 777, types: 1,378, coercions: 627}
+!!! Called arity analysis [Text.ParserCombinators.Poly.ByteString]: finished in 2.00 milliseconds, allocated 1.271 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteString]:
+Result size of Simplifier
+  = {terms: 777, types: 1,378, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteString]: finished in 9.00 milliseconds, allocated 4.150 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly.ByteString]:
+Result size of Demand analysis
+  = {terms: 777, types: 1,378, coercions: 627}
+!!! Demand analysis [Text.ParserCombinators.Poly.ByteString]: finished in 8.00 milliseconds, allocated 3.426 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly.ByteString]:
+Result size of Worker Wrapper binds
+  = {terms: 797, types: 1,410, coercions: 627}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly.ByteString]: finished in 1.00 milliseconds, allocated 0.409 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 805, types: 1,417, coercions: 627}
+Result size of Simplifier
+  = {terms: 777, types: 1,378, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteString]: finished in 15.00 milliseconds, allocated 10.132 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.ByteString]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 797, types: 1,422, coercions: 627}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.ByteString]: finished in 4.00 milliseconds, allocated 4.849 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly.ByteString]:
+Result size of Common sub-expression
+  = {terms: 750, types: 1,359, coercions: 549}
+!!! Common sub-expression [Text.ParserCombinators.Poly.ByteString]: finished in 5.00 milliseconds, allocated 1.479 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.ByteString]:
+Result size of Float inwards
+  = {terms: 750, types: 1,359, coercions: 549}
+!!! Float inwards [Text.ParserCombinators.Poly.ByteString]: finished in 1.00 milliseconds, allocated 1.023 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 734, types: 1,298, coercions: 593}
+Result size of Simplifier
+  = {terms: 734, types: 1,298, coercions: 593}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteString]: finished in 17.00 milliseconds, allocated 9.287 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly.ByteString]:
+Result size of Tidy Core
+  = {terms: 609, types: 1,013, coercions: 448}
+!!! CoreTidy [Text.ParserCombinators.Poly.ByteString]: finished in 2.00 milliseconds, allocated 1.717 megabytes
+writeBinIface: 110 Names
+writeBinIface: 194 dict entries
+writeBinIface: 110 Names
+writeBinIface: 194 dict entries
+*** CorePrep [Text.ParserCombinators.Poly.ByteString]:
+Result size of CorePrep
+  = {terms: 849, types: 1,279, coercions: 448}
+!!! CorePrep [Text.ParserCombinators.Poly.ByteString]: finished in 2.00 milliseconds, allocated 1.538 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.ByteString]:
+!!! CodeGen [Text.ParserCombinators.Poly.ByteString]: finished in 76.00 milliseconds, allocated 39.791 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_83.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/ByteString.o
+*** CorePrep [Text.ParserCombinators.Poly.ByteString]:
+Result size of CorePrep
+  = {terms: 849, types: 1,279, coercions: 448}
+!!! CorePrep [Text.ParserCombinators.Poly.ByteString]: finished in 2.00 milliseconds, allocated 1.502 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.ByteString]:
+!!! CodeGen [Text.ParserCombinators.Poly.ByteString]: finished in 73.00 milliseconds, allocated 41.615 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_85.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/ByteString.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_86.c /tmp/ghc9071_0/ghc_85.s /tmp/ghc9071_0/ghc_84.c /tmp/ghc9071_0/ghc_83.s /tmp/ghc9071_0/ghc_82.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_86.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_84.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_82.s
+compile: input file /tmp/ghc9071_0/ghc_29.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly.ByteStringChar:
+[11 of 18] Compiling Text.ParserCombinators.Poly.ByteStringChar ( src/Text/ParserCombinators/Poly/ByteStringChar.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/ByteStringChar.o )
+*** Parser [Text.ParserCombinators.Poly.ByteStringChar]:
+!!! Parser [Text.ParserCombinators.Poly.ByteStringChar]: finished in 3.00 milliseconds, allocated 4.570 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly.ByteStringChar]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly.ByteStringChar]: finished in 22.00 milliseconds, allocated 9.551 megabytes
+*** Desugar [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Desugar (after optimization)
+  = {terms: 413, types: 648, coercions: 56}
+!!! Desugar [Text.ParserCombinators.Poly.ByteStringChar]: finished in 6.00 milliseconds, allocated 2.959 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Simplifier iteration=1
+  = {terms: 440, types: 730, coercions: 140}
+Result size of Simplifier iteration=2
+  = {terms: 436, types: 743, coercions: 162}
+Result size of Simplifier
+  = {terms: 436, types: 743, coercions: 162}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteStringChar]: finished in 12.00 milliseconds, allocated 6.216 megabytes
+*** Specialise [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Specialise
+  = {terms: 554, types: 979, coercions: 162}
+!!! Specialise [Text.ParserCombinators.Poly.ByteStringChar]: finished in 2.00 milliseconds, allocated 1.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 606, types: 1,089, coercions: 162}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.ByteStringChar]: finished in 8.00 milliseconds, allocated 3.282 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Simplifier iteration=1
+  = {terms: 966, types: 1,593, coercions: 577}
+Result size of Simplifier iteration=2
+  = {terms: 825, types: 1,429, coercions: 607}
+Result size of Simplifier iteration=3
+  = {terms: 821, types: 1,428, coercions: 647}
+Result size of Simplifier
+  = {terms: 813, types: 1,410, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteStringChar]: finished in 48.00 milliseconds, allocated 22.247 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Simplifier iteration=1
+  = {terms: 785, types: 1,357, coercions: 627}
+Result size of Simplifier iteration=2
+  = {terms: 765, types: 1,337, coercions: 627}
+Result size of Simplifier
+  = {terms: 765, types: 1,337, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteStringChar]: finished in 33.00 milliseconds, allocated 13.334 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Simplifier iteration=1
+  = {terms: 785, types: 1,380, coercions: 627}
+Result size of Simplifier
+  = {terms: 785, types: 1,380, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteStringChar]: finished in 17.00 milliseconds, allocated 8.367 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Float inwards
+  = {terms: 785, types: 1,380, coercions: 627}
+!!! Float inwards [Text.ParserCombinators.Poly.ByteStringChar]: finished in 2.00 milliseconds, allocated 1.127 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Called arity analysis
+  = {terms: 785, types: 1,380, coercions: 627}
+!!! Called arity analysis [Text.ParserCombinators.Poly.ByteStringChar]: finished in 5.00 milliseconds, allocated 1.276 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Simplifier
+  = {terms: 785, types: 1,380, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteStringChar]: finished in 9.00 milliseconds, allocated 4.180 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Demand analysis
+  = {terms: 785, types: 1,380, coercions: 627}
+!!! Demand analysis [Text.ParserCombinators.Poly.ByteStringChar]: finished in 5.00 milliseconds, allocated 3.458 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Worker Wrapper binds
+  = {terms: 805, types: 1,412, coercions: 627}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly.ByteStringChar]: finished in 1.00 milliseconds, allocated 0.410 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Simplifier iteration=1
+  = {terms: 796, types: 1,402, coercions: 627}
+Result size of Simplifier
+  = {terms: 796, types: 1,402, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteStringChar]: finished in 22.00 milliseconds, allocated 10.005 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 816, types: 1,446, coercions: 627}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.ByteStringChar]: finished in 7.00 milliseconds, allocated 4.528 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Common sub-expression
+  = {terms: 769, types: 1,383, coercions: 549}
+!!! Common sub-expression [Text.ParserCombinators.Poly.ByteStringChar]: finished in 3.00 milliseconds, allocated 1.485 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Float inwards
+  = {terms: 769, types: 1,383, coercions: 549}
+!!! Float inwards [Text.ParserCombinators.Poly.ByteStringChar]: finished in 2.00 milliseconds, allocated 1.047 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Simplifier iteration=1
+  = {terms: 753, types: 1,322, coercions: 593}
+Result size of Simplifier
+  = {terms: 753, types: 1,322, coercions: 593}
+!!! Simplifier [Text.ParserCombinators.Poly.ByteStringChar]: finished in 21.00 milliseconds, allocated 9.342 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of Tidy Core
+  = {terms: 628, types: 1,037, coercions: 448}
+!!! CoreTidy [Text.ParserCombinators.Poly.ByteStringChar]: finished in 3.00 milliseconds, allocated 1.768 megabytes
+writeBinIface: 111 Names
+writeBinIface: 196 dict entries
+writeBinIface: 111 Names
+writeBinIface: 196 dict entries
+*** CorePrep [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of CorePrep
+  = {terms: 882, types: 1,308, coercions: 448}
+!!! CorePrep [Text.ParserCombinators.Poly.ByteStringChar]: finished in 3.00 milliseconds, allocated 1.589 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.ByteStringChar]:
+!!! CodeGen [Text.ParserCombinators.Poly.ByteStringChar]: finished in 76.00 milliseconds, allocated 41.052 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_88.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/ByteStringChar.o
+*** CorePrep [Text.ParserCombinators.Poly.ByteStringChar]:
+Result size of CorePrep
+  = {terms: 882, types: 1,308, coercions: 448}
+!!! CorePrep [Text.ParserCombinators.Poly.ByteStringChar]: finished in 3.00 milliseconds, allocated 1.555 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.ByteStringChar]:
+!!! CodeGen [Text.ParserCombinators.Poly.ByteStringChar]: finished in 81.00 milliseconds, allocated 42.949 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_90.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/ByteStringChar.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_91.c /tmp/ghc9071_0/ghc_90.s /tmp/ghc9071_0/ghc_89.c /tmp/ghc9071_0/ghc_88.s /tmp/ghc9071_0/ghc_87.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_91.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_89.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_87.s
+compile: input file /tmp/ghc9071_0/ghc_31.hscpp
+*** Checking old interface for Text.Parse.ByteString:
+[12 of 18] Compiling Text.Parse.ByteString ( src/Text/Parse/ByteString.hs, dist/dist-sandbox-6afc8227/build/Text/Parse/ByteString.o )
+*** Parser [Text.Parse.ByteString]:
+!!! Parser [Text.Parse.ByteString]: finished in 18.00 milliseconds, allocated 18.436 megabytes
+*** Renamer/typechecker [Text.Parse.ByteString]:
+!!! Renamer/typechecker [Text.Parse.ByteString]: finished in 156.00 milliseconds, allocated 70.059 megabytes
+*** Desugar [Text.Parse.ByteString]:
+Result size of Desugar (after optimization)
+  = {terms: 3,623, types: 3,321, coercions: 41}
+!!! Desugar [Text.Parse.ByteString]: finished in 57.00 milliseconds, allocated 20.121 megabytes
+
+src/Text/Parse/ByteString.hs:5:15: warning: [-Wtabs]
+    Tab character found here, and in 13 further locations.
+    Please use spaces instead.
+*** Simplifier [Text.Parse.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 4,675, types: 4,990, coercions: 871}
+Result size of Simplifier iteration=2
+  = {terms: 4,555, types: 4,951, coercions: 884}
+Result size of Simplifier iteration=3
+  = {terms: 4,555, types: 4,951, coercions: 884}
+Result size of Simplifier iteration=4
+  = {terms: 4,555, types: 4,951, coercions: 884}
+Result size of Simplifier
+  = {terms: 4,555, types: 4,951, coercions: 884}
+!!! Simplifier [Text.Parse.ByteString]: finished in 287.00 milliseconds, allocated 86.011 megabytes
+*** Specialise [Text.Parse.ByteString]:
+Result size of Specialise
+  = {terms: 5,070, types: 5,503, coercions: 884}
+!!! Specialise [Text.Parse.ByteString]: finished in 11.00 milliseconds, allocated 6.622 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Parse.ByteString]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 7,311, types: 9,765, coercions: 884}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Parse.ByteString]: finished in 52.00 milliseconds, allocated 31.470 megabytes
+*** Simplifier [Text.Parse.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 13,544, types: 17,114, coercions: 2,582}
+Result size of Simplifier iteration=2
+  = {terms: 9,553, types: 11,333, coercions: 676}
+Result size of Simplifier iteration=3
+  = {terms: 9,386, types: 11,097, coercions: 678}
+Result size of Simplifier iteration=4
+  = {terms: 9,408, types: 11,096, coercions: 668}
+Result size of Simplifier
+  = {terms: 9,408, types: 11,096, coercions: 668}
+!!! Simplifier [Text.Parse.ByteString]: finished in 575.00 milliseconds, allocated 252.654 megabytes
+*** Simplifier [Text.Parse.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 8,645, types: 9,671, coercions: 678}
+Result size of Simplifier iteration=2
+  = {terms: 8,389, types: 9,341, coercions: 678}
+Result size of Simplifier iteration=3
+  = {terms: 8,389, types: 9,341, coercions: 678}
+Result size of Simplifier iteration=4
+  = {terms: 8,389, types: 9,341, coercions: 678}
+Result size of Simplifier
+  = {terms: 8,389, types: 9,341, coercions: 678}
+!!! Simplifier [Text.Parse.ByteString]: finished in 360.00 milliseconds, allocated 158.021 megabytes
+*** Simplifier [Text.Parse.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 9,051, types: 9,968, coercions: 678}
+Result size of Simplifier iteration=2
+  = {terms: 9,055, types: 9,966, coercions: 678}
+Result size of Simplifier iteration=3
+  = {terms: 9,052, types: 9,965, coercions: 678}
+Result size of Simplifier iteration=4
+  = {terms: 9,052, types: 9,965, coercions: 678}
+Result size of Simplifier
+  = {terms: 9,052, types: 9,965, coercions: 678}
+!!! Simplifier [Text.Parse.ByteString]: finished in 299.00 milliseconds, allocated 144.404 megabytes
+*** Float inwards [Text.Parse.ByteString]:
+Result size of Float inwards
+  = {terms: 9,052, types: 9,965, coercions: 678}
+!!! Float inwards [Text.Parse.ByteString]: finished in 25.00 milliseconds, allocated 16.900 megabytes
+*** Called arity analysis [Text.Parse.ByteString]:
+Result size of Called arity analysis
+  = {terms: 9,052, types: 9,965, coercions: 678}
+!!! Called arity analysis [Text.Parse.ByteString]: finished in 19.00 milliseconds, allocated 17.356 megabytes
+*** Simplifier [Text.Parse.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 9,070, types: 9,976, coercions: 714}
+Result size of Simplifier iteration=2
+  = {terms: 9,034, types: 9,951, coercions: 671}
+Result size of Simplifier iteration=3
+  = {terms: 9,034, types: 9,951, coercions: 671}
+Result size of Simplifier iteration=4
+  = {terms: 9,034, types: 9,951, coercions: 671}
+Result size of Simplifier
+  = {terms: 9,034, types: 9,951, coercions: 671}
+!!! Simplifier [Text.Parse.ByteString]: finished in 1224.00 milliseconds, allocated 143.324 megabytes
+*** Demand analysis [Text.Parse.ByteString]:
+Result size of Demand analysis
+  = {terms: 9,034, types: 9,951, coercions: 671}
+!!! Demand analysis [Text.Parse.ByteString]: finished in 0.00 milliseconds, allocated 50.787 megabytes
+*** Worker Wrapper binds [Text.Parse.ByteString]:
+Result size of Worker Wrapper binds
+  = {terms: 9,209, types: 10,183, coercions: 671}
+!!! Worker Wrapper binds [Text.Parse.ByteString]: finished in 0.00 milliseconds, allocated 3.015 megabytes
+*** Simplifier [Text.Parse.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 9,083, types: 10,005, coercions: 671}
+Result size of Simplifier iteration=2
+  = {terms: 9,014, types: 9,942, coercions: 671}
+Result size of Simplifier iteration=3
+  = {terms: 9,014, types: 9,942, coercions: 671}
+Result size of Simplifier iteration=4
+  = {terms: 9,014, types: 9,942, coercions: 671}
+Result size of Simplifier
+  = {terms: 9,014, types: 9,942, coercions: 671}
+!!! Simplifier [Text.Parse.ByteString]: finished in 0.00 milliseconds, allocated 147.738 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Parse.ByteString]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 9,379, types: 10,612, coercions: 671}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Parse.ByteString]: finished in 0.00 milliseconds, allocated 46.767 megabytes
+*** Common sub-expression [Text.Parse.ByteString]:
+Result size of Common sub-expression
+  = {terms: 8,862, types: 10,411, coercions: 656}
+!!! Common sub-expression [Text.Parse.ByteString]: finished in 0.00 milliseconds, allocated 12.195 megabytes
+*** Float inwards [Text.Parse.ByteString]:
+Result size of Float inwards
+  = {terms: 8,862, types: 10,411, coercions: 656}
+!!! Float inwards [Text.Parse.ByteString]: finished in 0.00 milliseconds, allocated 12.006 megabytes
+*** Simplifier [Text.Parse.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 8,543, types: 10,013, coercions: 663}
+Result size of Simplifier iteration=2
+  = {terms: 8,539, types: 10,004, coercions: 656}
+Result size of Simplifier iteration=3
+  = {terms: 8,539, types: 10,004, coercions: 656}
+Result size of Simplifier iteration=4
+  = {terms: 8,539, types: 10,004, coercions: 656}
+Result size of Simplifier
+  = {terms: 8,539, types: 10,004, coercions: 656}
+!!! Simplifier [Text.Parse.ByteString]: finished in 150.00 milliseconds, allocated 139.128 megabytes
+*** CoreTidy [Text.Parse.ByteString]:
+Result size of Tidy Core
+  = {terms: 8,484, types: 9,953, coercions: 644}
+!!! CoreTidy [Text.Parse.ByteString]: finished in 33.00 milliseconds, allocated 13.991 megabytes
+writeBinIface: 340 Names
+writeBinIface: 492 dict entries
+writeBinIface: 340 Names
+writeBinIface: 492 dict entries
+*** CorePrep [Text.Parse.ByteString]:
+Result size of CorePrep
+  = {terms: 10,787, types: 12,216, coercions: 644}
+!!! CorePrep [Text.Parse.ByteString]: finished in 28.00 milliseconds, allocated 19.373 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Parse.ByteString]:
+!!! CodeGen [Text.Parse.ByteString]: finished in 1038.00 milliseconds, allocated 624.734 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/Parse -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_93.s -o dist/dist-sandbox-6afc8227/build/Text/Parse/ByteString.o
+*** CorePrep [Text.Parse.ByteString]:
+Result size of CorePrep
+  = {terms: 10,787, types: 12,216, coercions: 644}
+!!! CorePrep [Text.Parse.ByteString]: finished in 27.00 milliseconds, allocated 18.582 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Parse.ByteString]:
+!!! CodeGen [Text.Parse.ByteString]: finished in 1024.00 milliseconds, allocated 658.363 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/Parse -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_95.s -o dist/dist-sandbox-6afc8227/build/Text/Parse/ByteString.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_96.c /tmp/ghc9071_0/ghc_95.s /tmp/ghc9071_0/ghc_94.c /tmp/ghc9071_0/ghc_93.s /tmp/ghc9071_0/ghc_92.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_96.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_94.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_92.s
+compile: input file /tmp/ghc9071_0/ghc_33.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly.Text:
+[13 of 18] Compiling Text.ParserCombinators.Poly.Text ( src/Text/ParserCombinators/Poly/Text.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Text.o )
+*** Parser [Text.ParserCombinators.Poly.Text]:
+!!! Parser [Text.ParserCombinators.Poly.Text]: finished in 4.00 milliseconds, allocated 4.539 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly.Text]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly.Text]: finished in 172.00 milliseconds, allocated 99.536 megabytes
+*** Desugar [Text.ParserCombinators.Poly.Text]:
+Result size of Desugar (after optimization)
+  = {terms: 413, types: 648, coercions: 56}
+!!! Desugar [Text.ParserCombinators.Poly.Text]: finished in 7.00 milliseconds, allocated 4.816 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 445, types: 730, coercions: 140}
+Result size of Simplifier iteration=2
+  = {terms: 441, types: 743, coercions: 162}
+Result size of Simplifier
+  = {terms: 441, types: 743, coercions: 162}
+!!! Simplifier [Text.ParserCombinators.Poly.Text]: finished in 20.00 milliseconds, allocated 11.680 megabytes
+*** Specialise [Text.ParserCombinators.Poly.Text]:
+Result size of Specialise
+  = {terms: 559, types: 979, coercions: 162}
+!!! Specialise [Text.ParserCombinators.Poly.Text]: finished in 2.00 milliseconds, allocated 1.048 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Text]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 611, types: 1,089, coercions: 162}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.Text]: finished in 3.00 milliseconds, allocated 3.302 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 1,046, types: 1,567, coercions: 565}
+Result size of Simplifier iteration=2
+  = {terms: 916, types: 1,419, coercions: 607}
+Result size of Simplifier iteration=3
+  = {terms: 897, types: 1,412, coercions: 647}
+Result size of Simplifier
+  = {terms: 889, types: 1,394, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.Text]: finished in 45.00 milliseconds, allocated 23.668 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 855, types: 1,353, coercions: 627}
+Result size of Simplifier iteration=2
+  = {terms: 835, types: 1,330, coercions: 627}
+Result size of Simplifier
+  = {terms: 835, types: 1,330, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.Text]: finished in 27.00 milliseconds, allocated 14.147 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 1,190, types: 1,473, coercions: 627}
+Result size of Simplifier iteration=2
+  = {terms: 1,002, types: 1,412, coercions: 627}
+Result size of Simplifier
+  = {terms: 1,002, types: 1,412, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.Text]: finished in 29.00 milliseconds, allocated 15.309 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Text]:
+Result size of Float inwards
+  = {terms: 1,002, types: 1,412, coercions: 627}
+!!! Float inwards [Text.ParserCombinators.Poly.Text]: finished in 1.00 milliseconds, allocated 1.509 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly.Text]:
+Result size of Called arity analysis
+  = {terms: 1,002, types: 1,412, coercions: 627}
+!!! Called arity analysis [Text.ParserCombinators.Poly.Text]: finished in 2.00 milliseconds, allocated 1.443 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Text]:
+Result size of Simplifier
+  = {terms: 1,002, types: 1,412, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.Text]: finished in 7.00 milliseconds, allocated 4.773 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly.Text]:
+Result size of Demand analysis
+  = {terms: 1,002, types: 1,412, coercions: 627}
+!!! Demand analysis [Text.ParserCombinators.Poly.Text]: finished in 4.00 milliseconds, allocated 4.375 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly.Text]:
+Result size of Worker Wrapper binds
+  = {terms: 1,044, types: 1,457, coercions: 627}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly.Text]: finished in 3.00 milliseconds, allocated 0.471 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 1,028, types: 1,456, coercions: 627}
+Result size of Simplifier
+  = {terms: 988, types: 1,408, coercions: 627}
+!!! Simplifier [Text.ParserCombinators.Poly.Text]: finished in 22.00 milliseconds, allocated 11.554 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Text]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,008, types: 1,452, coercions: 627}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.Text]: finished in 5.00 milliseconds, allocated 4.974 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly.Text]:
+Result size of Common sub-expression
+  = {terms: 961, types: 1,389, coercions: 549}
+!!! Common sub-expression [Text.ParserCombinators.Poly.Text]: finished in 4.00 milliseconds, allocated 1.630 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.Text]:
+Result size of Float inwards
+  = {terms: 961, types: 1,389, coercions: 549}
+!!! Float inwards [Text.ParserCombinators.Poly.Text]: finished in 1.00 milliseconds, allocated 1.350 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.Text]:
+Result size of Simplifier iteration=1
+  = {terms: 945, types: 1,328, coercions: 593}
+Result size of Simplifier
+  = {terms: 945, types: 1,328, coercions: 593}
+!!! Simplifier [Text.ParserCombinators.Poly.Text]: finished in 21.00 milliseconds, allocated 10.453 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly.Text]:
+Result size of Tidy Core
+  = {terms: 820, types: 1,043, coercions: 448}
+!!! CoreTidy [Text.ParserCombinators.Poly.Text]: finished in 3.00 milliseconds, allocated 1.796 megabytes
+writeBinIface: 132 Names
+writeBinIface: 221 dict entries
+writeBinIface: 132 Names
+writeBinIface: 221 dict entries
+*** CorePrep [Text.ParserCombinators.Poly.Text]:
+Result size of CorePrep
+  = {terms: 1,167, types: 1,344, coercions: 448}
+!!! CorePrep [Text.ParserCombinators.Poly.Text]: finished in 3.00 milliseconds, allocated 1.942 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Text]:
+!!! CodeGen [Text.ParserCombinators.Poly.Text]: finished in 84.00 milliseconds, allocated 44.283 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_98.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Text.o
+*** CorePrep [Text.ParserCombinators.Poly.Text]:
+Result size of CorePrep
+  = {terms: 1,167, types: 1,344, coercions: 448}
+!!! CorePrep [Text.ParserCombinators.Poly.Text]: finished in 2.00 milliseconds, allocated 1.896 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.Text]:
+!!! CodeGen [Text.ParserCombinators.Poly.Text]: finished in 72.00 milliseconds, allocated 46.235 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_100.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Text.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_101.c /tmp/ghc9071_0/ghc_100.s /tmp/ghc9071_0/ghc_99.c /tmp/ghc9071_0/ghc_98.s /tmp/ghc9071_0/ghc_97.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_101.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_99.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_97.s
+compile: input file /tmp/ghc9071_0/ghc_5.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly:
+[14 of 18] Compiling Text.ParserCombinators.Poly ( src/Text/ParserCombinators/Poly.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly.o )
+*** Parser [Text.ParserCombinators.Poly]:
+!!! Parser [Text.ParserCombinators.Poly]: finished in 1.00 milliseconds, allocated 0.658 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly]: finished in 1.00 milliseconds, allocated 0.411 megabytes
+*** Desugar [Text.ParserCombinators.Poly]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.238 megabytes
+*** Simplifier [Text.ParserCombinators.Poly]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly]: finished in 1.00 milliseconds, allocated 0.130 megabytes
+*** Specialise [Text.ParserCombinators.Poly]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Text.ParserCombinators.Poly]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly]: finished in 1.00 milliseconds, allocated 0.071 megabytes
+*** Simplifier [Text.ParserCombinators.Poly]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.068 megabytes
+*** Simplifier [Text.ParserCombinators.Poly]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Text.ParserCombinators.Poly]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Text.ParserCombinators.Poly]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Text.ParserCombinators.Poly]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [Text.ParserCombinators.Poly]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Text.ParserCombinators.Poly]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+writeBinIface: 62 Names
+writeBinIface: 83 dict entries
+writeBinIface: 62 Names
+writeBinIface: 83 dict entries
+*** CorePrep [Text.ParserCombinators.Poly]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly]:
+!!! CodeGen [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.310 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_103.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly.o
+*** CorePrep [Text.ParserCombinators.Poly]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly]:
+!!! CodeGen [Text.ParserCombinators.Poly]: finished in 0.00 milliseconds, allocated 0.305 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_105.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_106.c /tmp/ghc9071_0/ghc_105.s /tmp/ghc9071_0/ghc_104.c /tmp/ghc9071_0/ghc_103.s /tmp/ghc9071_0/ghc_102.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_106.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_104.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_102.s
+compile: input file /tmp/ghc9071_0/ghc_25.hscpp
+*** Checking old interface for Text.Parse:
+[15 of 18] Compiling Text.Parse       ( src/Text/Parse.hs, dist/dist-sandbox-6afc8227/build/Text/Parse.o )
+*** Parser [Text.Parse]:
+!!! Parser [Text.Parse]: finished in 14.00 milliseconds, allocated 17.221 megabytes
+*** Renamer/typechecker [Text.Parse]:
+!!! Renamer/typechecker [Text.Parse]: finished in 216.00 milliseconds, allocated 40.730 megabytes
+*** Desugar [Text.Parse]:
+Result size of Desugar (after optimization)
+  = {terms: 3,456, types: 4,193, coercions: 23}
+!!! Desugar [Text.Parse]: finished in 24.00 milliseconds, allocated 18.349 megabytes
+
+src/Text/Parse.hs:4:15: warning: [-Wtabs]
+    Tab character found here, and in 12 further locations.
+    Please use spaces instead.
+*** Simplifier [Text.Parse]:
+Result size of Simplifier iteration=1
+  = {terms: 4,479, types: 5,740, coercions: 1,062}
+Result size of Simplifier iteration=2
+  = {terms: 4,388, types: 5,696, coercions: 1,076}
+Result size of Simplifier iteration=3
+  = {terms: 4,396, types: 5,725, coercions: 1,077}
+Result size of Simplifier iteration=4
+  = {terms: 4,396, types: 5,725, coercions: 1,077}
+Result size of Simplifier
+  = {terms: 4,396, types: 5,725, coercions: 1,077}
+!!! Simplifier [Text.Parse]: finished in 129.00 milliseconds, allocated 85.818 megabytes
+*** Specialise [Text.Parse]:
+Result size of Specialise
+  = {terms: 5,253, types: 6,736, coercions: 1,117}
+!!! Specialise [Text.Parse]: finished in 7.00 milliseconds, allocated 7.244 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Parse]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 7,704, types: 11,768, coercions: 1,117}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.Parse]: finished in 33.00 milliseconds, allocated 34.724 megabytes
+*** Simplifier [Text.Parse]:
+Result size of Simplifier iteration=1
+  = {terms: 14,307, types: 23,803, coercions: 4,147}
+Result size of Simplifier iteration=2
+  = {terms: 9,751, types: 15,033, coercions: 902}
+Result size of Simplifier iteration=3
+  = {terms: 9,554, types: 14,654, coercions: 902}
+Result size of Simplifier iteration=4
+  = {terms: 9,550, types: 14,646, coercions: 890}
+Result size of Simplifier
+  = {terms: 9,550, types: 14,646, coercions: 890}
+!!! Simplifier [Text.Parse]: finished in 502.00 milliseconds, allocated 269.459 megabytes
+*** Simplifier [Text.Parse]:
+Result size of Simplifier iteration=1
+  = {terms: 8,572, types: 13,097, coercions: 890}
+Result size of Simplifier iteration=2
+  = {terms: 8,359, types: 12,727, coercions: 890}
+Result size of Simplifier iteration=3
+  = {terms: 8,359, types: 12,727, coercions: 890}
+Result size of Simplifier iteration=4
+  = {terms: 8,359, types: 12,727, coercions: 890}
+Result size of Simplifier
+  = {terms: 8,359, types: 12,727, coercions: 890}
+!!! Simplifier [Text.Parse]: finished in 231.00 milliseconds, allocated 161.148 megabytes
+*** Simplifier [Text.Parse]:
+Result size of Simplifier iteration=1
+  = {terms: 8,974, types: 13,262, coercions: 890}
+Result size of Simplifier iteration=2
+  = {terms: 8,969, types: 13,257, coercions: 890}
+Result size of Simplifier iteration=3
+  = {terms: 8,969, types: 13,257, coercions: 890}
+Result size of Simplifier iteration=4
+  = {terms: 8,969, types: 13,257, coercions: 890}
+Result size of Simplifier
+  = {terms: 8,969, types: 13,257, coercions: 890}
+!!! Simplifier [Text.Parse]: finished in 263.00 milliseconds, allocated 146.421 megabytes
+*** Float inwards [Text.Parse]:
+Result size of Float inwards
+  = {terms: 8,969, types: 13,257, coercions: 890}
+!!! Float inwards [Text.Parse]: finished in 14.00 milliseconds, allocated 16.861 megabytes
+*** Called arity analysis [Text.Parse]:
+Result size of Called arity analysis
+  = {terms: 8,969, types: 13,257, coercions: 890}
+!!! Called arity analysis [Text.Parse]: finished in 26.00 milliseconds, allocated 17.829 megabytes
+*** Simplifier [Text.Parse]:
+Result size of Simplifier iteration=1
+  = {terms: 8,986, types: 13,275, coercions: 940}
+Result size of Simplifier iteration=2
+  = {terms: 8,952, types: 13,239, coercions: 880}
+Result size of Simplifier iteration=3
+  = {terms: 8,952, types: 13,239, coercions: 880}
+Result size of Simplifier iteration=4
+  = {terms: 8,952, types: 13,239, coercions: 880}
+Result size of Simplifier
+  = {terms: 8,952, types: 13,239, coercions: 880}
+!!! Simplifier [Text.Parse]: finished in 240.00 milliseconds, allocated 146.008 megabytes
+*** Demand analysis [Text.Parse]:
+Result size of Demand analysis
+  = {terms: 8,952, types: 13,239, coercions: 880}
+!!! Demand analysis [Text.Parse]: finished in 85.00 milliseconds, allocated 53.104 megabytes
+*** Worker Wrapper binds [Text.Parse]:
+Result size of Worker Wrapper binds
+  = {terms: 9,057, types: 13,425, coercions: 880}
+!!! Worker Wrapper binds [Text.Parse]: finished in 5.00 milliseconds, allocated 3.107 megabytes
+*** Simplifier [Text.Parse]:
+Result size of Simplifier iteration=1
+  = {terms: 8,995, types: 13,314, coercions: 880}
+Result size of Simplifier iteration=2
+  = {terms: 8,969, types: 13,281, coercions: 880}
+Result size of Simplifier iteration=3
+  = {terms: 8,969, types: 13,281, coercions: 880}
+Result size of Simplifier iteration=4
+  = {terms: 8,969, types: 13,281, coercions: 880}
+Result size of Simplifier
+  = {terms: 8,969, types: 13,281, coercions: 880}
+!!! Simplifier [Text.Parse]: finished in 314.00 milliseconds, allocated 150.471 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Parse]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 9,242, types: 13,908, coercions: 880}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.Parse]: finished in 72.00 milliseconds, allocated 48.684 megabytes
+*** Common sub-expression [Text.Parse]:
+Result size of Common sub-expression
+  = {terms: 8,919, types: 13,703, coercions: 860}
+!!! Common sub-expression [Text.Parse]: finished in 16.00 milliseconds, allocated 12.980 megabytes
+*** Float inwards [Text.Parse]:
+Result size of Float inwards
+  = {terms: 8,919, types: 13,703, coercions: 860}
+!!! Float inwards [Text.Parse]: finished in 16.00 milliseconds, allocated 12.230 megabytes
+*** Simplifier [Text.Parse]:
+Result size of Simplifier iteration=1
+  = {terms: 8,530, types: 13,208, coercions: 868}
+Result size of Simplifier iteration=2
+  = {terms: 8,526, types: 13,196, coercions: 860}
+Result size of Simplifier iteration=3
+  = {terms: 8,526, types: 13,196, coercions: 860}
+Result size of Simplifier iteration=4
+  = {terms: 8,526, types: 13,196, coercions: 860}
+Result size of Simplifier
+  = {terms: 8,526, types: 13,196, coercions: 860}
+!!! Simplifier [Text.Parse]: finished in 232.00 milliseconds, allocated 142.120 megabytes
+*** CoreTidy [Text.Parse]:
+Result size of Tidy Core
+  = {terms: 8,490, types: 13,157, coercions: 838}
+!!! CoreTidy [Text.Parse]: finished in 14.00 milliseconds, allocated 14.181 megabytes
+writeBinIface: 357 Names
+writeBinIface: 485 dict entries
+writeBinIface: 357 Names
+writeBinIface: 485 dict entries
+*** CorePrep [Text.Parse]:
+Result size of CorePrep
+  = {terms: 10,686, types: 16,085, coercions: 838}
+!!! CorePrep [Text.Parse]: finished in 35.00 milliseconds, allocated 19.683 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Parse]:
+!!! CodeGen [Text.Parse]: finished in 1091.00 milliseconds, allocated 647.863 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_108.s -o dist/dist-sandbox-6afc8227/build/Text/Parse.o
+*** CorePrep [Text.Parse]:
+Result size of CorePrep
+  = {terms: 10,686, types: 16,085, coercions: 838}
+!!! CorePrep [Text.Parse]: finished in 35.00 milliseconds, allocated 18.875 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.Parse]:
+!!! CodeGen [Text.Parse]: finished in 1011.00 milliseconds, allocated 684.277 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_110.s -o dist/dist-sandbox-6afc8227/build/Text/Parse.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_111.c /tmp/ghc9071_0/ghc_110.s /tmp/ghc9071_0/ghc_109.c /tmp/ghc9071_0/ghc_108.s /tmp/ghc9071_0/ghc_107.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_111.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_109.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_107.s
+compile: input file /tmp/ghc9071_0/ghc_3.hscpp
+*** Checking old interface for Text.ParserCombinators.HuttonMeijerWallace:
+[16 of 18] Compiling Text.ParserCombinators.HuttonMeijerWallace ( src/Text/ParserCombinators/HuttonMeijerWallace.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/HuttonMeijerWallace.o )
+*** Parser [Text.ParserCombinators.HuttonMeijerWallace]:
+!!! Parser [Text.ParserCombinators.HuttonMeijerWallace]: finished in 11.00 milliseconds, allocated 9.663 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.HuttonMeijerWallace]:
+!!! Renamer/typechecker [Text.ParserCombinators.HuttonMeijerWallace]: finished in 46.00 milliseconds, allocated 21.118 megabytes
+*** Desugar [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Desugar (after optimization)
+  = {terms: 905, types: 3,280, coercions: 136}
+!!! Desugar [Text.ParserCombinators.HuttonMeijerWallace]: finished in 14.00 milliseconds, allocated 5.137 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Simplifier iteration=1
+  = {terms: 995, types: 3,506, coercions: 543}
+Result size of Simplifier iteration=2
+  = {terms: 1,019, types: 3,864, coercions: 861}
+Result size of Simplifier iteration=3
+  = {terms: 1,023, types: 3,887, coercions: 891}
+Result size of Simplifier
+  = {terms: 1,023, types: 3,887, coercions: 893}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijerWallace]: finished in 48.00 milliseconds, allocated 23.792 megabytes
+*** Specialise [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Specialise
+  = {terms: 1,023, types: 3,887, coercions: 893}
+!!! Specialise [Text.ParserCombinators.HuttonMeijerWallace]: finished in 2.00 milliseconds, allocated 1.458 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,123, types: 4,240, coercions: 893}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.HuttonMeijerWallace]: finished in 14.00 milliseconds, allocated 11.440 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Simplifier iteration=1
+  = {terms: 2,067, types: 8,597, coercions: 1,414}
+Result size of Simplifier iteration=2
+  = {terms: 1,961, types: 8,479, coercions: 1,607}
+Result size of Simplifier iteration=3
+  = {terms: 1,951, types: 8,382, coercions: 1,620}
+Result size of Simplifier iteration=4
+  = {terms: 1,941, types: 8,354, coercions: 1,604}
+Result size of Simplifier
+  = {terms: 1,941, types: 8,354, coercions: 1,604}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijerWallace]: finished in 151.00 milliseconds, allocated 68.444 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Simplifier iteration=1
+  = {terms: 1,861, types: 8,653, coercions: 1,581}
+Result size of Simplifier iteration=2
+  = {terms: 1,747, types: 8,283, coercions: 1,581}
+Result size of Simplifier
+  = {terms: 1,747, types: 8,283, coercions: 1,581}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijerWallace]: finished in 95.00 milliseconds, allocated 38.897 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Simplifier iteration=1
+  = {terms: 2,315, types: 11,075, coercions: 1,557}
+Result size of Simplifier iteration=2
+  = {terms: 2,173, types: 10,257, coercions: 1,557}
+Result size of Simplifier
+  = {terms: 2,173, types: 10,257, coercions: 1,557}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijerWallace]: finished in 85.00 milliseconds, allocated 33.515 megabytes
+*** Float inwards [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Float inwards
+  = {terms: 2,173, types: 10,257, coercions: 1,557}
+!!! Float inwards [Text.ParserCombinators.HuttonMeijerWallace]: finished in 8.00 milliseconds, allocated 5.565 megabytes
+*** Called arity analysis [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Called arity analysis
+  = {terms: 2,173, types: 10,257, coercions: 1,557}
+!!! Called arity analysis [Text.ParserCombinators.HuttonMeijerWallace]: finished in 6.00 milliseconds, allocated 3.501 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Simplifier
+  = {terms: 2,173, types: 10,257, coercions: 1,557}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijerWallace]: finished in 31.00 milliseconds, allocated 10.691 megabytes
+*** Demand analysis [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Demand analysis
+  = {terms: 2,173, types: 10,257, coercions: 1,557}
+!!! Demand analysis [Text.ParserCombinators.HuttonMeijerWallace]: finished in 199.00 milliseconds, allocated 12.066 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Worker Wrapper binds
+  = {terms: 2,219, types: 10,418, coercions: 1,557}
+!!! Worker Wrapper binds [Text.ParserCombinators.HuttonMeijerWallace]: finished in 2.00 milliseconds, allocated 1.081 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Simplifier iteration=1
+  = {terms: 2,192, types: 10,355, coercions: 1,557}
+Result size of Simplifier
+  = {terms: 2,192, types: 10,355, coercions: 1,557}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijerWallace]: finished in 41.00 milliseconds, allocated 25.297 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,237, types: 10,573, coercions: 1,557}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.HuttonMeijerWallace]: finished in 36.00 milliseconds, allocated 30.363 megabytes
+*** Common sub-expression [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Common sub-expression
+  = {terms: 2,174, types: 10,157, coercions: 1,489}
+!!! Common sub-expression [Text.ParserCombinators.HuttonMeijerWallace]: finished in 7.00 milliseconds, allocated 3.791 megabytes
+*** Float inwards [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Float inwards
+  = {terms: 2,174, types: 10,157, coercions: 1,489}
+!!! Float inwards [Text.ParserCombinators.HuttonMeijerWallace]: finished in 6.00 milliseconds, allocated 5.322 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Simplifier iteration=1
+  = {terms: 2,158, types: 10,028, coercions: 1,489}
+Result size of Simplifier
+  = {terms: 2,158, types: 10,028, coercions: 1,489}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijerWallace]: finished in 44.00 milliseconds, allocated 24.237 megabytes
+*** CoreTidy [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of Tidy Core
+  = {terms: 2,158, types: 10,028, coercions: 1,489}
+!!! CoreTidy [Text.ParserCombinators.HuttonMeijerWallace]: finished in 10.00 milliseconds, allocated 5.507 megabytes
+writeBinIface: 122 Names
+writeBinIface: 221 dict entries
+writeBinIface: 122 Names
+writeBinIface: 221 dict entries
+*** CorePrep [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of CorePrep
+  = {terms: 2,903, types: 12,156, coercions: 1,489}
+!!! CorePrep [Text.ParserCombinators.HuttonMeijerWallace]: finished in 8.00 milliseconds, allocated 5.519 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.HuttonMeijerWallace]:
+!!! CodeGen [Text.ParserCombinators.HuttonMeijerWallace]: finished in 200.00 milliseconds, allocated 141.078 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_113.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/HuttonMeijerWallace.o
+*** CorePrep [Text.ParserCombinators.HuttonMeijerWallace]:
+Result size of CorePrep
+  = {terms: 2,903, types: 12,156, coercions: 1,489}
+!!! CorePrep [Text.ParserCombinators.HuttonMeijerWallace]: finished in 9.00 milliseconds, allocated 5.352 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.HuttonMeijerWallace]:
+!!! CodeGen [Text.ParserCombinators.HuttonMeijerWallace]: finished in 262.00 milliseconds, allocated 148.373 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_115.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/HuttonMeijerWallace.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_116.c /tmp/ghc9071_0/ghc_115.s /tmp/ghc9071_0/ghc_114.c /tmp/ghc9071_0/ghc_113.s /tmp/ghc9071_0/ghc_112.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_116.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_114.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_112.s
+compile: input file /tmp/ghc9071_0/ghc_1.hscpp
+*** Checking old interface for Text.ParserCombinators.HuttonMeijer:
+[17 of 18] Compiling Text.ParserCombinators.HuttonMeijer ( src/Text/ParserCombinators/HuttonMeijer.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/HuttonMeijer.o )
+*** Parser [Text.ParserCombinators.HuttonMeijer]:
+!!! Parser [Text.ParserCombinators.HuttonMeijer]: finished in 6.00 milliseconds, allocated 7.008 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.HuttonMeijer]:
+!!! Renamer/typechecker [Text.ParserCombinators.HuttonMeijer]: finished in 26.00 milliseconds, allocated 12.059 megabytes
+*** Desugar [Text.ParserCombinators.HuttonMeijer]:
+Result size of Desugar (after optimization)
+  = {terms: 641, types: 981, coercions: 36}
+!!! Desugar [Text.ParserCombinators.HuttonMeijer]: finished in 7.00 milliseconds, allocated 3.767 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijer]:
+Result size of Simplifier iteration=1
+  = {terms: 648, types: 1,066, coercions: 196}
+Result size of Simplifier iteration=2
+  = {terms: 680, types: 1,236, coercions: 333}
+Result size of Simplifier iteration=3
+  = {terms: 684, types: 1,255, coercions: 350}
+Result size of Simplifier
+  = {terms: 684, types: 1,255, coercions: 352}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijer]: finished in 26.00 milliseconds, allocated 13.291 megabytes
+*** Specialise [Text.ParserCombinators.HuttonMeijer]:
+Result size of Specialise
+  = {terms: 816, types: 1,517, coercions: 352}
+!!! Specialise [Text.ParserCombinators.HuttonMeijer]: finished in 3.00 milliseconds, allocated 1.375 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.HuttonMeijer]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 897, types: 1,638, coercions: 352}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.HuttonMeijer]: finished in 7.00 milliseconds, allocated 5.552 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijer]:
+Result size of Simplifier iteration=1
+  = {terms: 1,950, types: 3,888, coercions: 1,159}
+Result size of Simplifier iteration=2
+  = {terms: 2,425, types: 5,088, coercions: 1,037}
+Result size of Simplifier iteration=3
+  = {terms: 2,079, types: 4,339, coercions: 1,013}
+Result size of Simplifier iteration=4
+  = {terms: 1,977, types: 4,148, coercions: 987}
+Result size of Simplifier
+  = {terms: 1,977, types: 4,148, coercions: 987}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijer]: finished in 146.00 milliseconds, allocated 69.514 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijer]:
+Result size of Simplifier iteration=1
+  = {terms: 1,929, types: 5,082, coercions: 992}
+Result size of Simplifier iteration=2
+  = {terms: 1,812, types: 4,720, coercions: 982}
+Result size of Simplifier
+  = {terms: 1,812, types: 4,720, coercions: 982}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijer]: finished in 79.00 milliseconds, allocated 38.628 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijer]:
+Result size of Simplifier iteration=1
+  = {terms: 2,132, types: 5,349, coercions: 980}
+Result size of Simplifier iteration=2
+  = {terms: 2,132, types: 5,349, coercions: 980}
+Result size of Simplifier
+  = {terms: 2,132, types: 5,349, coercions: 980}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijer]: finished in 56.00 milliseconds, allocated 28.949 megabytes
+*** Float inwards [Text.ParserCombinators.HuttonMeijer]:
+Result size of Float inwards
+  = {terms: 2,132, types: 5,349, coercions: 980}
+!!! Float inwards [Text.ParserCombinators.HuttonMeijer]: finished in 5.00 milliseconds, allocated 3.509 megabytes
+*** Called arity analysis [Text.ParserCombinators.HuttonMeijer]:
+Result size of Called arity analysis
+  = {terms: 2,132, types: 5,349, coercions: 980}
+!!! Called arity analysis [Text.ParserCombinators.HuttonMeijer]: finished in 6.00 milliseconds, allocated 3.583 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijer]:
+Result size of Simplifier iteration=1
+  = {terms: 2,132, types: 5,349, coercions: 980}
+Result size of Simplifier
+  = {terms: 2,132, types: 5,349, coercions: 980}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijer]: finished in 44.00 milliseconds, allocated 19.213 megabytes
+*** Demand analysis [Text.ParserCombinators.HuttonMeijer]:
+Result size of Demand analysis
+  = {terms: 2,132, types: 5,349, coercions: 980}
+!!! Demand analysis [Text.ParserCombinators.HuttonMeijer]: finished in 14.00 milliseconds, allocated 10.612 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.HuttonMeijer]:
+Result size of Worker Wrapper binds
+  = {terms: 2,132, types: 5,349, coercions: 980}
+!!! Worker Wrapper binds [Text.ParserCombinators.HuttonMeijer]: finished in 3.00 milliseconds, allocated 0.965 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijer]:
+Result size of Simplifier iteration=1
+  = {terms: 2,132, types: 5,349, coercions: 980}
+Result size of Simplifier
+  = {terms: 2,132, types: 5,349, coercions: 980}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijer]: finished in 46.00 milliseconds, allocated 21.730 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.HuttonMeijer]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,152, types: 5,442, coercions: 980}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.HuttonMeijer]: finished in 16.00 milliseconds, allocated 12.641 megabytes
+*** Common sub-expression [Text.ParserCombinators.HuttonMeijer]:
+Result size of Common sub-expression
+  = {terms: 2,115, types: 5,366, coercions: 919}
+!!! Common sub-expression [Text.ParserCombinators.HuttonMeijer]: finished in 12.00 milliseconds, allocated 3.451 megabytes
+*** Float inwards [Text.ParserCombinators.HuttonMeijer]:
+Result size of Float inwards
+  = {terms: 2,115, types: 5,366, coercions: 919}
+!!! Float inwards [Text.ParserCombinators.HuttonMeijer]: finished in 4.00 milliseconds, allocated 3.275 megabytes
+*** Simplifier [Text.ParserCombinators.HuttonMeijer]:
+Result size of Simplifier iteration=1
+  = {terms: 2,101, types: 5,314, coercions: 948}
+Result size of Simplifier
+  = {terms: 2,101, types: 5,314, coercions: 948}
+!!! Simplifier [Text.ParserCombinators.HuttonMeijer]: finished in 40.00 milliseconds, allocated 20.969 megabytes
+*** CoreTidy [Text.ParserCombinators.HuttonMeijer]:
+Result size of Tidy Core
+  = {terms: 1,872, types: 4,611, coercions: 778}
+!!! CoreTidy [Text.ParserCombinators.HuttonMeijer]: finished in 7.00 milliseconds, allocated 4.433 megabytes
+writeBinIface: 138 Names
+writeBinIface: 228 dict entries
+writeBinIface: 138 Names
+writeBinIface: 228 dict entries
+*** CorePrep [Text.ParserCombinators.HuttonMeijer]:
+Result size of CorePrep
+  = {terms: 2,615, types: 5,851, coercions: 778}
+!!! CorePrep [Text.ParserCombinators.HuttonMeijer]: finished in 7.00 milliseconds, allocated 4.639 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.HuttonMeijer]:
+!!! CodeGen [Text.ParserCombinators.HuttonMeijer]: finished in 181.00 milliseconds, allocated 118.575 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_118.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/HuttonMeijer.o
+*** CorePrep [Text.ParserCombinators.HuttonMeijer]:
+Result size of CorePrep
+  = {terms: 2,615, types: 5,851, coercions: 778}
+!!! CorePrep [Text.ParserCombinators.HuttonMeijer]: finished in 5.00 milliseconds, allocated 4.555 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.HuttonMeijer]:
+!!! CodeGen [Text.ParserCombinators.HuttonMeijer]: finished in 190.00 milliseconds, allocated 125.960 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_120.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/HuttonMeijer.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_121.c /tmp/ghc9071_0/ghc_120.s /tmp/ghc9071_0/ghc_119.c /tmp/ghc9071_0/ghc_118.s /tmp/ghc9071_0/ghc_117.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_121.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_119.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_117.s
+compile: input file /tmp/ghc9071_0/ghc_35.hscpp
+*** Checking old interface for Text.ParserCombinators.Poly.StateText:
+[18 of 18] Compiling Text.ParserCombinators.Poly.StateText ( src/Text/ParserCombinators/Poly/StateText.hs, dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/StateText.o )
+*** Parser [Text.ParserCombinators.Poly.StateText]:
+!!! Parser [Text.ParserCombinators.Poly.StateText]: finished in 3.00 milliseconds, allocated 5.460 megabytes
+*** Renamer/typechecker [Text.ParserCombinators.Poly.StateText]:
+!!! Renamer/typechecker [Text.ParserCombinators.Poly.StateText]: finished in 18.00 milliseconds, allocated 10.671 megabytes
+*** Desugar [Text.ParserCombinators.Poly.StateText]:
+Result size of Desugar (after optimization)
+  = {terms: 544, types: 1,205, coercions: 90}
+!!! Desugar [Text.ParserCombinators.Poly.StateText]: finished in 6.00 milliseconds, allocated 3.508 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateText]:
+Result size of Simplifier iteration=1
+  = {terms: 568, types: 1,296, coercions: 223}
+Result size of Simplifier iteration=2
+  = {terms: 559, types: 1,351, coercions: 273}
+Result size of Simplifier
+  = {terms: 559, types: 1,351, coercions: 273}
+!!! Simplifier [Text.ParserCombinators.Poly.StateText]: finished in 13.00 milliseconds, allocated 8.211 megabytes
+*** Specialise [Text.ParserCombinators.Poly.StateText]:
+Result size of Specialise
+  = {terms: 579, types: 1,385, coercions: 273}
+!!! Specialise [Text.ParserCombinators.Poly.StateText]: finished in 1.00 milliseconds, allocated 0.837 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.StateText]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 620, types: 1,497, coercions: 273}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Text.ParserCombinators.Poly.StateText]: finished in 5.00 milliseconds, allocated 4.216 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateText]:
+Result size of Simplifier iteration=1
+  = {terms: 1,101, types: 2,121, coercions: 588}
+Result size of Simplifier iteration=2
+  = {terms: 962, types: 1,901, coercions: 647}
+Result size of Simplifier iteration=3
+  = {terms: 939, types: 1,884, coercions: 671}
+Result size of Simplifier
+  = {terms: 935, types: 1,871, coercions: 659}
+!!! Simplifier [Text.ParserCombinators.Poly.StateText]: finished in 40.00 milliseconds, allocated 22.129 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateText]:
+Result size of Simplifier iteration=1
+  = {terms: 901, types: 1,830, coercions: 659}
+Result size of Simplifier iteration=2
+  = {terms: 881, types: 1,807, coercions: 659}
+Result size of Simplifier
+  = {terms: 881, types: 1,807, coercions: 659}
+!!! Simplifier [Text.ParserCombinators.Poly.StateText]: finished in 22.00 milliseconds, allocated 13.679 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateText]:
+Result size of Simplifier iteration=1
+  = {terms: 1,231, types: 1,937, coercions: 659}
+Result size of Simplifier iteration=2
+  = {terms: 1,043, types: 1,876, coercions: 659}
+Result size of Simplifier
+  = {terms: 1,043, types: 1,876, coercions: 659}
+!!! Simplifier [Text.ParserCombinators.Poly.StateText]: finished in 23.00 milliseconds, allocated 14.769 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.StateText]:
+Result size of Float inwards
+  = {terms: 1,043, types: 1,876, coercions: 659}
+!!! Float inwards [Text.ParserCombinators.Poly.StateText]: finished in 2.00 milliseconds, allocated 1.650 megabytes
+*** Called arity analysis [Text.ParserCombinators.Poly.StateText]:
+Result size of Called arity analysis
+  = {terms: 1,043, types: 1,876, coercions: 659}
+!!! Called arity analysis [Text.ParserCombinators.Poly.StateText]: finished in 2.00 milliseconds, allocated 1.449 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateText]:
+Result size of Simplifier
+  = {terms: 1,043, types: 1,876, coercions: 659}
+!!! Simplifier [Text.ParserCombinators.Poly.StateText]: finished in 8.00 milliseconds, allocated 4.656 megabytes
+*** Demand analysis [Text.ParserCombinators.Poly.StateText]:
+Result size of Demand analysis
+  = {terms: 1,043, types: 1,876, coercions: 659}
+!!! Demand analysis [Text.ParserCombinators.Poly.StateText]: finished in 5.00 milliseconds, allocated 4.669 megabytes
+*** Worker Wrapper binds [Text.ParserCombinators.Poly.StateText]:
+Result size of Worker Wrapper binds
+  = {terms: 1,091, types: 1,946, coercions: 659}
+!!! Worker Wrapper binds [Text.ParserCombinators.Poly.StateText]: finished in 1.00 milliseconds, allocated 0.487 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateText]:
+Result size of Simplifier iteration=1
+  = {terms: 1,066, types: 1,933, coercions: 662}
+Result size of Simplifier iteration=2
+  = {terms: 1,072, types: 1,938, coercions: 662}
+Result size of Simplifier iteration=3
+  = {terms: 1,038, types: 1,886, coercions: 662}
+Result size of Simplifier
+  = {terms: 1,038, types: 1,886, coercions: 662}
+!!! Simplifier [Text.ParserCombinators.Poly.StateText]: finished in 39.00 milliseconds, allocated 23.031 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.StateText]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,049, types: 1,914, coercions: 662}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Text.ParserCombinators.Poly.StateText]: finished in 6.00 milliseconds, allocated 6.445 megabytes
+*** Common sub-expression [Text.ParserCombinators.Poly.StateText]:
+Result size of Common sub-expression
+  = {terms: 1,029, types: 1,887, coercions: 632}
+!!! Common sub-expression [Text.ParserCombinators.Poly.StateText]: finished in 2.00 milliseconds, allocated 1.516 megabytes
+*** Float inwards [Text.ParserCombinators.Poly.StateText]:
+Result size of Float inwards
+  = {terms: 1,029, types: 1,887, coercions: 632}
+!!! Float inwards [Text.ParserCombinators.Poly.StateText]: finished in 2.00 milliseconds, allocated 1.662 megabytes
+*** Simplifier [Text.ParserCombinators.Poly.StateText]:
+Result size of Simplifier iteration=1
+  = {terms: 1,021, types: 1,860, coercions: 632}
+Result size of Simplifier
+  = {terms: 1,021, types: 1,860, coercions: 632}
+!!! Simplifier [Text.ParserCombinators.Poly.StateText]: finished in 17.00 milliseconds, allocated 10.990 megabytes
+*** CoreTidy [Text.ParserCombinators.Poly.StateText]:
+Result size of Tidy Core
+  = {terms: 1,002, types: 1,827, coercions: 632}
+!!! CoreTidy [Text.ParserCombinators.Poly.StateText]: finished in 4.00 milliseconds, allocated 2.114 megabytes
+writeBinIface: 137 Names
+writeBinIface: 236 dict entries
+writeBinIface: 137 Names
+writeBinIface: 236 dict entries
+*** CorePrep [Text.ParserCombinators.Poly.StateText]:
+Result size of CorePrep
+  = {terms: 1,467, types: 2,408, coercions: 632}
+!!! CorePrep [Text.ParserCombinators.Poly.StateText]: finished in 3.00 milliseconds, allocated 2.498 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.StateText]:
+!!! CodeGen [Text.ParserCombinators.Poly.StateText]: finished in 73.00 milliseconds, allocated 52.378 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9071_0/ghc_123.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/StateText.o
+*** CorePrep [Text.ParserCombinators.Poly.StateText]:
+Result size of CorePrep
+  = {terms: 1,467, types: 2,408, coercions: 632}
+!!! CorePrep [Text.ParserCombinators.Poly.StateText]: finished in 4.00 milliseconds, allocated 2.425 megabytes
+*** Stg2Stg:
+*** CodeGen [Text.ParserCombinators.Poly.StateText]:
+!!! CodeGen [Text.ParserCombinators.Poly.StateText]: finished in 83.00 milliseconds, allocated 54.979 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Text/ParserCombinators/Poly -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9071_0/ghc_125.s -o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/StateText.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_126.c /tmp/ghc9071_0/ghc_125.s /tmp/ghc9071_0/ghc_124.c /tmp/ghc9071_0/ghc_123.s /tmp/ghc9071_0/ghc_122.s
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_126.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_124.c
+Warning: deleting non-existent /tmp/ghc9071_0/ghc_122.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc9071_0/ghc_35.hscpp /tmp/ghc9071_0/ghc_33.hscpp /tmp/ghc9071_0/ghc_31.hscpp /tmp/ghc9071_0/ghc_29.hscpp /tmp/ghc9071_0/ghc_27.hscpp /tmp/ghc9071_0/ghc_25.hscpp /tmp/ghc9071_0/ghc_23.hscpp /tmp/ghc9071_0/ghc_21.hscpp /tmp/ghc9071_0/ghc_19.hscpp /tmp/ghc9071_0/ghc_17.hscpp /tmp/ghc9071_0/ghc_15.hscpp /tmp/ghc9071_0/ghc_13.hscpp /tmp/ghc9071_0/ghc_11.hscpp /tmp/ghc9071_0/ghc_9.hscpp /tmp/ghc9071_0/ghc_7.hscpp /tmp/ghc9071_0/ghc_5.hscpp /tmp/ghc9071_0/ghc_3.hscpp /tmp/ghc9071_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9071_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -o dist/dist-sandbox-6afc8227/build/libHSpolyparse-1.12-FkXEOA8o2Io9i7TJcmDT44-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSpolyparse-1.12-FkXEOA8o2Io9i7TJcmDT44-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/HuttonMeijer.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/HuttonMeijerWallace.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Base.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Result.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Parser.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Plain.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Lazy.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/StateParser.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/State.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/StateLazy.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Lex.dyn_o dist/dist-sandbox-6afc8227/build/Text/Parse.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/ByteString.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/ByteStringChar.dyn_o dist/dist-sandbox-6afc8227/build/Text/Parse/ByteString.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/Text.dyn_o dist/dist-sandbox-6afc8227/build/Text/ParserCombinators/Poly/StateText.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHStext-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs-ghc8.0.1 -lHSbinary-0.8.3.0-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc10210_0
+*** Deleting temp files:
+Deleting: /tmp/ghc10210_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc10210_0
+Creating package registration file:
+/tmp/pkgConf-polyparse-112390360291884661237.12
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/polyparse-1.12-FkXEOA8o2Io9i7TJcmDT44
+Registering polyparse-1.12...
+cabal: Leaving directory '/tmp/cabal-tmp-1029/polyparse-1.12'

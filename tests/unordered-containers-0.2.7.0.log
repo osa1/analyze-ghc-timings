@@ -1,0 +1,1274 @@
+cabal: Entering directory '/tmp/cabal-tmp-1032/unordered-containers-0.2.7.0'
+Configuring unordered-containers-0.2.7.0...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc9539_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc9539_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc9539_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc9539_0/ghc_2.rsp /tmp/ghc9539_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9539_0
+Building unordered-containers-0.2.7.0...
+Preprocessing library unordered-containers-0.2.7.0...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.HashMap.Lazy,*Data.HashMap.Strict,*Data.HashSet,*Data.HashMap.Array,*Data.HashMap.Base,*Data.HashMap.PopCount,*Data.HashMap.Unsafe,*Data.HashMap.UnsafeShift
+Created temporary directory: /tmp/ghc9589_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9589_0/ghc_2.h -x assembler-with-cpp ./Data/HashMap/Lazy.hs -o /tmp/ghc9589_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9589_0/ghc_4.h -x assembler-with-cpp ./Data/HashMap/Strict.hs -o /tmp/ghc9589_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9589_0/ghc_6.h -x assembler-with-cpp ./Data/HashSet.hs -o /tmp/ghc9589_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9589_0/ghc_8.h -x assembler-with-cpp ./Data/HashMap/Array.hs -o /tmp/ghc9589_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9589_0/ghc_10.h -x assembler-with-cpp ./Data/HashMap/Base.hs -o /tmp/ghc9589_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9589_0/ghc_12.h -x assembler-with-cpp ./Data/HashMap/PopCount.hs -o /tmp/ghc9589_0/ghc_11.hscpp
+!!! Chasing dependencies: finished in 61.00 milliseconds, allocated 29.577 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-16 19:05:25 UTC
+         ms_mod = Data.HashMap.Unsafe,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.ST),
+                            (Nothing, GHC.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-16 19:05:25 UTC
+         ms_mod = Data.HashMap.PopCount,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Bits)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-16 19:05:25 UTC
+         ms_mod = Data.HashMap.Array,
+         ms_textual_imps = [(Nothing, Data.HashMap.Unsafe),
+                            (Nothing, GHC.Exts), (Nothing, Prelude), (Nothing, GHC.ST),
+                            (Nothing, GHC.Exts), (Nothing, Control.DeepSeq),
+                            (Nothing, Data.Traversable)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-16 19:05:25 UTC
+         ms_mod = Data.HashMap.UnsafeShift,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Exts)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-16 19:05:25 UTC
+         ms_mod = Data.HashMap.Base,
+         ms_textual_imps = [(Nothing, GHC.Exts), (Nothing, GHC.Exts),
+                            (Nothing, Data.Typeable), (Nothing, Data.HashMap.UnsafeShift),
+                            (Nothing, Data.HashMap.Unsafe), (Nothing, Data.HashMap.PopCount),
+                            (Nothing, Data.Hashable), (Nothing, Data.Hashable),
+                            (Nothing, Data.HashMap.Array), (Nothing, Text.Read),
+                            (Nothing, Prelude), (Nothing, GHC.Exts), (Nothing, Data.List),
+                            (Nothing, Data.Foldable), (Nothing, Data.Data),
+                            (Nothing, Data.Bits), (Nothing, Control.Monad.ST),
+                            (Nothing, Control.DeepSeq), (Nothing, Data.Semigroup)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-16 19:05:25 UTC
+         ms_mod = Data.HashMap.Lazy,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.HashMap.Base)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-16 19:05:25 UTC
+         ms_mod = Data.HashMap.Strict,
+         ms_textual_imps = [(Nothing, Data.HashMap.Unsafe),
+                            (Nothing, Data.HashMap.Base), (Nothing, Data.HashMap.Base),
+                            (Nothing, Data.HashMap.Array), (Nothing, Prelude),
+                            (Nothing, Data.Hashable), (Nothing, Data.List),
+                            (Nothing, Data.Bits)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-02-16 19:05:25 UTC
+         ms_mod = Data.HashSet,
+         ms_textual_imps = [(Nothing, GHC.Exts), (Nothing, Text.Read),
+                            (Nothing, Data.Typeable), (Nothing, Data.List),
+                            (Nothing, Data.HashMap.Lazy), (Nothing, Data.Foldable),
+                            (Nothing, Prelude), (Nothing, GHC.Exts), (Nothing, Data.Semigroup),
+                            (Nothing, Data.Hashable), (Nothing, Data.HashMap.Base),
+                            (Nothing, Data.Data), (Nothing, Control.DeepSeq)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc9589_0/ghc_12.h /tmp/ghc9589_0/ghc_10.h /tmp/ghc9589_0/ghc_8.h /tmp/ghc9589_0/ghc_6.h /tmp/ghc9589_0/ghc_4.h /tmp/ghc9589_0/ghc_2.h
+compile: input file ./Data/HashMap/Unsafe.hs
+*** Checking old interface for Data.HashMap.Unsafe:
+[1 of 8] Compiling Data.HashMap.Unsafe ( Data/HashMap/Unsafe.hs, dist/dist-sandbox-6afc8227/build/Data/HashMap/Unsafe.o )
+*** Parser [Data.HashMap.Unsafe]:
+!!! Parser [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.773 megabytes
+*** Renamer/typechecker [Data.HashMap.Unsafe]:
+!!! Renamer/typechecker [Data.HashMap.Unsafe]: finished in 80.00 milliseconds, allocated 24.209 megabytes
+*** Desugar [Data.HashMap.Unsafe]:
+Result size of Desugar (after optimization)
+  = {terms: 23, types: 51, coercions: 3}
+!!! Desugar [Data.HashMap.Unsafe]: finished in 1.00 milliseconds, allocated 0.227 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier iteration=1
+  = {terms: 20, types: 36, coercions: 12}
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 1.00 milliseconds, allocated 0.369 megabytes
+*** Specialise [Data.HashMap.Unsafe]:
+Result size of Specialise = {terms: 20, types: 36, coercions: 14}
+!!! Specialise [Data.HashMap.Unsafe]: finished in 1.00 milliseconds, allocated 0.068 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.Unsafe]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 20, types: 36, coercions: 14}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.115 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 1.00 milliseconds, allocated 0.169 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.166 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 1.00 milliseconds, allocated 0.165 megabytes
+*** Float inwards [Data.HashMap.Unsafe]:
+Result size of Float inwards
+  = {terms: 20, types: 36, coercions: 14}
+!!! Float inwards [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.059 megabytes
+*** Called arity analysis [Data.HashMap.Unsafe]:
+Result size of Called arity analysis
+  = {terms: 20, types: 36, coercions: 14}
+!!! Called arity analysis [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.058 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.165 megabytes
+*** Demand analysis [Data.HashMap.Unsafe]:
+Result size of Demand analysis
+  = {terms: 20, types: 36, coercions: 14}
+!!! Demand analysis [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.088 megabytes
+*** Worker Wrapper binds [Data.HashMap.Unsafe]:
+Result size of Worker Wrapper binds
+  = {terms: 20, types: 36, coercions: 14}
+!!! Worker Wrapper binds [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 1.00 milliseconds, allocated 0.170 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.Unsafe]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 20, types: 36, coercions: 14}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.115 megabytes
+*** Common sub-expression [Data.HashMap.Unsafe]:
+Result size of Common sub-expression
+  = {terms: 20, types: 36, coercions: 14}
+!!! Common sub-expression [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.066 megabytes
+*** Float inwards [Data.HashMap.Unsafe]:
+Result size of Float inwards
+  = {terms: 20, types: 36, coercions: 14}
+!!! Float inwards [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.056 megabytes
+*** Liberate case [Data.HashMap.Unsafe]:
+Result size of Liberate case
+  = {terms: 20, types: 36, coercions: 14}
+!!! Liberate case [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.165 megabytes
+*** SpecConstr [Data.HashMap.Unsafe]:
+Result size of SpecConstr = {terms: 20, types: 36, coercions: 14}
+!!! SpecConstr [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.055 megabytes
+*** Simplifier [Data.HashMap.Unsafe]:
+Result size of Simplifier = {terms: 20, types: 36, coercions: 14}
+!!! Simplifier [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.170 megabytes
+*** CoreTidy [Data.HashMap.Unsafe]:
+Result size of Tidy Core = {terms: 20, types: 36, coercions: 14}
+!!! CoreTidy [Data.HashMap.Unsafe]: finished in 1.00 milliseconds, allocated 0.090 megabytes
+writeBinIface: 9 Names
+writeBinIface: 34 dict entries
+writeBinIface: 9 Names
+writeBinIface: 34 dict entries
+*** CorePrep [Data.HashMap.Unsafe]:
+Result size of CorePrep = {terms: 23, types: 44, coercions: 14}
+!!! CorePrep [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Unsafe]:
+!!! CodeGen [Data.HashMap.Unsafe]: finished in 2.00 milliseconds, allocated 0.844 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9589_0/ghc_14.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/Unsafe.o
+*** CorePrep [Data.HashMap.Unsafe]:
+Result size of CorePrep = {terms: 23, types: 44, coercions: 14}
+!!! CorePrep [Data.HashMap.Unsafe]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Unsafe]:
+!!! CodeGen [Data.HashMap.Unsafe]: finished in 2.00 milliseconds, allocated 0.820 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9589_0/ghc_16.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/Unsafe.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9589_0/ghc_17.c /tmp/ghc9589_0/ghc_16.s /tmp/ghc9589_0/ghc_15.c /tmp/ghc9589_0/ghc_14.s /tmp/ghc9589_0/ghc_13.s
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_17.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_13.s
+compile: input file /tmp/ghc9589_0/ghc_11.hscpp
+*** Checking old interface for Data.HashMap.PopCount:
+[2 of 8] Compiling Data.HashMap.PopCount ( Data/HashMap/PopCount.hs, dist/dist-sandbox-6afc8227/build/Data/HashMap/PopCount.o )
+*** Parser [Data.HashMap.PopCount]:
+!!! Parser [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.697 megabytes
+*** Renamer/typechecker [Data.HashMap.PopCount]:
+!!! Renamer/typechecker [Data.HashMap.PopCount]: finished in 4.00 milliseconds, allocated 2.507 megabytes
+*** Desugar [Data.HashMap.PopCount]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.131 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 1.00 milliseconds, allocated 0.128 megabytes
+*** Specialise [Data.HashMap.PopCount]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.PopCount]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Data.HashMap.PopCount]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Data.HashMap.PopCount]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.HashMap.PopCount]: finished in 1.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Demand analysis [Data.HashMap.PopCount]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Data.HashMap.PopCount]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 2.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.PopCount]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.091 megabytes
+*** Common sub-expression [Data.HashMap.PopCount]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Data.HashMap.PopCount]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Liberate case [Data.HashMap.PopCount]:
+Result size of Liberate case = {terms: 10, types: 3, coercions: 0}
+!!! Liberate case [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.039 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** SpecConstr [Data.HashMap.PopCount]:
+Result size of SpecConstr = {terms: 10, types: 3, coercions: 0}
+!!! SpecConstr [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [Data.HashMap.PopCount]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Data.HashMap.PopCount]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.HashMap.PopCount]: finished in 1.00 milliseconds, allocated 0.062 megabytes
+writeBinIface: 6 Names
+writeBinIface: 25 dict entries
+writeBinIface: 6 Names
+writeBinIface: 25 dict entries
+*** CorePrep [Data.HashMap.PopCount]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.PopCount]:
+!!! CodeGen [Data.HashMap.PopCount]: finished in 1.00 milliseconds, allocated 0.309 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9589_0/ghc_19.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/PopCount.o
+*** CorePrep [Data.HashMap.PopCount]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.HashMap.PopCount]: finished in 1.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.PopCount]:
+!!! CodeGen [Data.HashMap.PopCount]: finished in 0.00 milliseconds, allocated 0.305 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9589_0/ghc_21.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/PopCount.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9589_0/ghc_22.c /tmp/ghc9589_0/ghc_21.s /tmp/ghc9589_0/ghc_20.c /tmp/ghc9589_0/ghc_19.s /tmp/ghc9589_0/ghc_18.s
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_22.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_18.s
+compile: input file /tmp/ghc9589_0/ghc_7.hscpp
+*** Checking old interface for Data.HashMap.Array:
+[3 of 8] Compiling Data.HashMap.Array ( Data/HashMap/Array.hs, dist/dist-sandbox-6afc8227/build/Data/HashMap/Array.o )
+*** Parser [Data.HashMap.Array]:
+!!! Parser [Data.HashMap.Array]: finished in 13.00 milliseconds, allocated 12.512 megabytes
+*** Renamer/typechecker [Data.HashMap.Array]:
+!!! Renamer/typechecker [Data.HashMap.Array]: finished in 1118.00 milliseconds, allocated 233.403 megabytes
+*** Desugar [Data.HashMap.Array]:
+Result size of Desugar (after optimization)
+  = {terms: 1,322, types: 2,147, coercions: 54}
+!!! Desugar [Data.HashMap.Array]: finished in 0.00 milliseconds, allocated 8.598 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,210, types: 1,924, coercions: 237}
+Result size of Simplifier iteration=2
+  = {terms: 1,189, types: 1,969, coercions: 329}
+Result size of Simplifier iteration=3
+  = {terms: 1,179, types: 1,909, coercions: 245}
+Result size of Simplifier
+  = {terms: 1,179, types: 1,909, coercions: 245}
+!!! Simplifier [Data.HashMap.Array]: finished in 0.00 milliseconds, allocated 45.898 megabytes
+*** Specialise [Data.HashMap.Array]:
+Result size of Specialise
+  = {terms: 1,179, types: 1,909, coercions: 245}
+!!! Specialise [Data.HashMap.Array]: finished in 0.00 milliseconds, allocated 1.467 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,564, types: 2,458, coercions: 440}
+Result size of Simplifier iteration=2
+  = {terms: 1,456, types: 2,473, coercions: 315}
+Result size of Simplifier iteration=3
+  = {terms: 1,419, types: 2,433, coercions: 315}
+Result size of Simplifier iteration=4
+  = {terms: 1,413, types: 2,430, coercions: 315}
+Result size of Simplifier
+  = {terms: 1,413, types: 2,430, coercions: 315}
+!!! Simplifier [Data.HashMap.Array]: finished in 119.00 milliseconds, allocated 48.550 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,438, types: 2,444, coercions: 315}
+Result size of Simplifier iteration=2
+  = {terms: 1,438, types: 2,444, coercions: 315}
+Result size of Simplifier
+  = {terms: 1,438, types: 2,444, coercions: 315}
+!!! Simplifier [Data.HashMap.Array]: finished in 38.00 milliseconds, allocated 28.214 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,578, types: 2,557, coercions: 271}
+Result size of Simplifier iteration=2
+  = {terms: 1,548, types: 2,514, coercions: 271}
+Result size of Simplifier iteration=3
+  = {terms: 1,526, types: 2,492, coercions: 271}
+Result size of Simplifier
+  = {terms: 1,526, types: 2,492, coercions: 271}
+!!! Simplifier [Data.HashMap.Array]: finished in 61.00 milliseconds, allocated 41.275 megabytes
+*** Float inwards [Data.HashMap.Array]:
+Result size of Float inwards
+  = {terms: 1,526, types: 2,492, coercions: 271}
+!!! Float inwards [Data.HashMap.Array]: finished in 2.00 milliseconds, allocated 2.620 megabytes
+*** Called arity analysis [Data.HashMap.Array]:
+Result size of Called arity analysis
+  = {terms: 1,526, types: 2,492, coercions: 271}
+!!! Called arity analysis [Data.HashMap.Array]: finished in 2.00 milliseconds, allocated 1.681 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,523, types: 2,490, coercions: 271}
+Result size of Simplifier
+  = {terms: 1,523, types: 2,490, coercions: 271}
+!!! Simplifier [Data.HashMap.Array]: finished in 44.00 milliseconds, allocated 18.838 megabytes
+*** Demand analysis [Data.HashMap.Array]:
+Result size of Demand analysis
+  = {terms: 1,523, types: 2,490, coercions: 271}
+!!! Demand analysis [Data.HashMap.Array]: finished in 8.00 milliseconds, allocated 7.176 megabytes
+*** Worker Wrapper binds [Data.HashMap.Array]:
+Result size of Worker Wrapper binds
+  = {terms: 1,836, types: 2,853, coercions: 271}
+!!! Worker Wrapper binds [Data.HashMap.Array]: finished in 2.00 milliseconds, allocated 0.663 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,669, types: 2,745, coercions: 271}
+Result size of Simplifier iteration=2
+  = {terms: 1,493, types: 2,509, coercions: 271}
+Result size of Simplifier
+  = {terms: 1,493, types: 2,509, coercions: 271}
+!!! Simplifier [Data.HashMap.Array]: finished in 81.00 milliseconds, allocated 34.884 megabytes
+*** Common sub-expression [Data.HashMap.Array]:
+Result size of Common sub-expression
+  = {terms: 1,493, types: 2,509, coercions: 271}
+!!! Common sub-expression [Data.HashMap.Array]: finished in 3.00 milliseconds, allocated 1.867 megabytes
+*** Float inwards [Data.HashMap.Array]:
+Result size of Float inwards
+  = {terms: 1,493, types: 2,509, coercions: 271}
+!!! Float inwards [Data.HashMap.Array]: finished in 10.00 milliseconds, allocated 2.487 megabytes
+*** Liberate case [Data.HashMap.Array]:
+Result size of Liberate case
+  = {terms: 1,493, types: 2,509, coercions: 271}
+!!! Liberate case [Data.HashMap.Array]: finished in 1.00 milliseconds, allocated 0.746 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,493, types: 2,509, coercions: 271}
+Result size of Simplifier
+  = {terms: 1,493, types: 2,509, coercions: 271}
+!!! Simplifier [Data.HashMap.Array]: finished in 45.00 milliseconds, allocated 22.356 megabytes
+*** SpecConstr [Data.HashMap.Array]:
+Result size of SpecConstr
+  = {terms: 1,750, types: 2,761, coercions: 271}
+!!! SpecConstr [Data.HashMap.Array]: finished in 4.00 milliseconds, allocated 2.484 megabytes
+*** Simplifier [Data.HashMap.Array]:
+Result size of Simplifier iteration=1
+  = {terms: 1,735, types: 2,732, coercions: 271}
+Result size of Simplifier
+  = {terms: 1,459, types: 2,441, coercions: 271}
+!!! Simplifier [Data.HashMap.Array]: finished in 46.00 milliseconds, allocated 23.980 megabytes
+*** CoreTidy [Data.HashMap.Array]:
+Result size of Tidy Core
+  = {terms: 1,476, types: 2,476, coercions: 271}
+!!! CoreTidy [Data.HashMap.Array]: finished in 10.00 milliseconds, allocated 3.272 megabytes
+writeBinIface: 85 Names
+writeBinIface: 203 dict entries
+writeBinIface: 85 Names
+writeBinIface: 203 dict entries
+*** CorePrep [Data.HashMap.Array]:
+Result size of CorePrep
+  = {terms: 1,876, types: 2,844, coercions: 282}
+!!! CorePrep [Data.HashMap.Array]: finished in 5.00 milliseconds, allocated 3.324 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Array]:
+!!! CodeGen [Data.HashMap.Array]: finished in 104.00 milliseconds, allocated 63.438 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9589_0/ghc_24.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/Array.o
+*** CorePrep [Data.HashMap.Array]:
+Result size of CorePrep
+  = {terms: 1,876, types: 2,844, coercions: 282}
+!!! CorePrep [Data.HashMap.Array]: finished in 5.00 milliseconds, allocated 3.178 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Array]:
+!!! CodeGen [Data.HashMap.Array]: finished in 109.00 milliseconds, allocated 66.385 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9589_0/ghc_26.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/Array.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9589_0/ghc_27.c /tmp/ghc9589_0/ghc_26.s /tmp/ghc9589_0/ghc_25.c /tmp/ghc9589_0/ghc_24.s /tmp/ghc9589_0/ghc_23.s
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_27.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_25.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_23.s
+compile: input file ./Data/HashMap/UnsafeShift.hs
+*** Checking old interface for Data.HashMap.UnsafeShift:
+[4 of 8] Compiling Data.HashMap.UnsafeShift ( Data/HashMap/UnsafeShift.hs, dist/dist-sandbox-6afc8227/build/Data/HashMap/UnsafeShift.o )
+*** Parser [Data.HashMap.UnsafeShift]:
+!!! Parser [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.640 megabytes
+*** Renamer/typechecker [Data.HashMap.UnsafeShift]:
+!!! Renamer/typechecker [Data.HashMap.UnsafeShift]: finished in 12.00 milliseconds, allocated 6.929 megabytes
+*** Desugar [Data.HashMap.UnsafeShift]:
+Result size of Desugar (after optimization)
+  = {terms: 32, types: 19, coercions: 0}
+!!! Desugar [Data.HashMap.UnsafeShift]: finished in 1.00 milliseconds, allocated 0.223 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier iteration=1
+  = {terms: 36, types: 21, coercions: 0}
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 1.00 milliseconds, allocated 0.416 megabytes
+*** Specialise [Data.HashMap.UnsafeShift]:
+Result size of Specialise = {terms: 36, types: 21, coercions: 0}
+!!! Specialise [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.079 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.UnsafeShift]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 36, types: 21, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.159 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 1.00 milliseconds, allocated 0.227 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.217 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.216 megabytes
+*** Float inwards [Data.HashMap.UnsafeShift]:
+Result size of Float inwards = {terms: 36, types: 21, coercions: 0}
+!!! Float inwards [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+*** Called arity analysis [Data.HashMap.UnsafeShift]:
+Result size of Called arity analysis
+  = {terms: 36, types: 21, coercions: 0}
+!!! Called arity analysis [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.067 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 1.00 milliseconds, allocated 0.216 megabytes
+*** Demand analysis [Data.HashMap.UnsafeShift]:
+Result size of Demand analysis
+  = {terms: 36, types: 21, coercions: 0}
+!!! Demand analysis [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.148 megabytes
+*** Worker Wrapper binds [Data.HashMap.UnsafeShift]:
+Result size of Worker Wrapper binds
+  = {terms: 36, types: 21, coercions: 0}
+!!! Worker Wrapper binds [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.053 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.222 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.UnsafeShift]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 36, types: 21, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.UnsafeShift]: finished in 1.00 milliseconds, allocated 0.160 megabytes
+*** Common sub-expression [Data.HashMap.UnsafeShift]:
+Result size of Common sub-expression
+  = {terms: 36, types: 21, coercions: 0}
+!!! Common sub-expression [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.111 megabytes
+*** Float inwards [Data.HashMap.UnsafeShift]:
+Result size of Float inwards = {terms: 36, types: 21, coercions: 0}
+!!! Float inwards [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+*** Liberate case [Data.HashMap.UnsafeShift]:
+Result size of Liberate case = {terms: 36, types: 21, coercions: 0}
+!!! Liberate case [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.211 megabytes
+*** SpecConstr [Data.HashMap.UnsafeShift]:
+Result size of SpecConstr = {terms: 36, types: 21, coercions: 0}
+!!! SpecConstr [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Simplifier [Data.HashMap.UnsafeShift]:
+Result size of Simplifier = {terms: 36, types: 21, coercions: 0}
+!!! Simplifier [Data.HashMap.UnsafeShift]: finished in 1.00 milliseconds, allocated 0.228 megabytes
+*** CoreTidy [Data.HashMap.UnsafeShift]:
+Result size of Tidy Core = {terms: 36, types: 21, coercions: 0}
+!!! CoreTidy [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.099 megabytes
+writeBinIface: 6 Names
+writeBinIface: 32 dict entries
+writeBinIface: 6 Names
+writeBinIface: 32 dict entries
+*** CorePrep [Data.HashMap.UnsafeShift]:
+Result size of CorePrep = {terms: 42, types: 23, coercions: 0}
+!!! CorePrep [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.101 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.UnsafeShift]:
+!!! CodeGen [Data.HashMap.UnsafeShift]: finished in 3.00 milliseconds, allocated 1.917 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9589_0/ghc_29.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/UnsafeShift.o
+*** CorePrep [Data.HashMap.UnsafeShift]:
+Result size of CorePrep = {terms: 42, types: 23, coercions: 0}
+!!! CorePrep [Data.HashMap.UnsafeShift]: finished in 0.00 milliseconds, allocated 0.098 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.UnsafeShift]:
+!!! CodeGen [Data.HashMap.UnsafeShift]: finished in 4.00 milliseconds, allocated 1.973 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9589_0/ghc_31.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/UnsafeShift.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9589_0/ghc_32.c /tmp/ghc9589_0/ghc_31.s /tmp/ghc9589_0/ghc_30.c /tmp/ghc9589_0/ghc_29.s /tmp/ghc9589_0/ghc_28.s
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_32.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_30.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_28.s
+compile: input file /tmp/ghc9589_0/ghc_9.hscpp
+*** Checking old interface for Data.HashMap.Base:
+[5 of 8] Compiling Data.HashMap.Base ( Data/HashMap/Base.hs, dist/dist-sandbox-6afc8227/build/Data/HashMap/Base.o )
+*** Parser [Data.HashMap.Base]:
+!!! Parser [Data.HashMap.Base]: finished in 46.00 milliseconds, allocated 44.976 megabytes
+*** Renamer/typechecker [Data.HashMap.Base]:
+!!! Renamer/typechecker [Data.HashMap.Base]: finished in 529.00 milliseconds, allocated 186.180 megabytes
+*** Desugar [Data.HashMap.Base]:
+Result size of Desugar (after optimization)
+  = {terms: 5,780, types: 9,095, coercions: 96}
+!!! Desugar [Data.HashMap.Base]: finished in 106.00 milliseconds, allocated 47.070 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 5,440, types: 8,823, coercions: 526}
+Result size of Simplifier iteration=2
+  = {terms: 5,387, types: 8,871, coercions: 709}
+Result size of Simplifier iteration=3
+  = {terms: 5,375, types: 8,793, coercions: 665}
+Result size of Simplifier
+  = {terms: 5,375, types: 8,793, coercions: 665}
+!!! Simplifier [Data.HashMap.Base]: finished in 787.00 milliseconds, allocated 312.576 megabytes
+*** Specialise [Data.HashMap.Base]:
+Result size of Specialise
+  = {terms: 5,386, types: 8,826, coercions: 682}
+!!! Specialise [Data.HashMap.Base]: finished in 11.00 milliseconds, allocated 6.813 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 20,519, types: 29,626, coercions: 4,911}
+Result size of Simplifier iteration=2
+  = {terms: 18,297, types: 26,162, coercions: 2,297}
+Result size of Simplifier iteration=3
+  = {terms: 18,086, types: 25,438, coercions: 1,139}
+Result size of Simplifier iteration=4
+  = {terms: 18,072, types: 25,414, coercions: 1,110}
+Result size of Simplifier
+  = {terms: 18,072, types: 25,414, coercions: 1,110}
+!!! Simplifier [Data.HashMap.Base]: finished in 1680.00 milliseconds, allocated 620.799 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 18,700, types: 27,069, coercions: 1,110}
+Result size of Simplifier iteration=2
+  = {terms: 17,741, types: 25,817, coercions: 1,110}
+Result size of Simplifier iteration=3
+  = {terms: 17,741, types: 25,817, coercions: 1,110}
+Result size of Simplifier
+  = {terms: 17,741, types: 25,817, coercions: 1,110}
+!!! Simplifier [Data.HashMap.Base]: finished in 874.00 milliseconds, allocated 475.861 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 17,297, types: 24,280, coercions: 927}
+Result size of Simplifier iteration=2
+  = {terms: 17,279, types: 24,252, coercions: 927}
+Result size of Simplifier
+  = {terms: 17,279, types: 24,252, coercions: 927}
+!!! Simplifier [Data.HashMap.Base]: finished in 1089.00 milliseconds, allocated 346.804 megabytes
+*** Float inwards [Data.HashMap.Base]:
+Result size of Float inwards
+  = {terms: 17,279, types: 24,252, coercions: 927}
+!!! Float inwards [Data.HashMap.Base]: finished in 65.00 milliseconds, allocated 42.267 megabytes
+*** Called arity analysis [Data.HashMap.Base]:
+Result size of Called arity analysis
+  = {terms: 17,279, types: 24,252, coercions: 927}
+!!! Called arity analysis [Data.HashMap.Base]: finished in 31.00 milliseconds, allocated 23.624 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 17,215, types: 24,116, coercions: 927}
+Result size of Simplifier
+  = {terms: 17,191, types: 24,060, coercions: 927}
+!!! Simplifier [Data.HashMap.Base]: finished in 469.00 milliseconds, allocated 227.565 megabytes
+*** Demand analysis [Data.HashMap.Base]:
+Result size of Demand analysis
+  = {terms: 17,191, types: 24,060, coercions: 927}
+!!! Demand analysis [Data.HashMap.Base]: finished in 241.00 milliseconds, allocated 128.527 megabytes
+*** Worker Wrapper binds [Data.HashMap.Base]:
+Result size of Worker Wrapper binds
+  = {terms: 21,857, types: 29,996, coercions: 927}
+!!! Worker Wrapper binds [Data.HashMap.Base]: finished in 18.00 milliseconds, allocated 7.932 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 18,606, types: 27,126, coercions: 929}
+Result size of Simplifier iteration=2
+  = {terms: 16,140, types: 24,061, coercions: 929}
+Result size of Simplifier iteration=3
+  = {terms: 15,924, types: 23,659, coercions: 929}
+Result size of Simplifier
+  = {terms: 15,924, types: 23,659, coercions: 929}
+!!! Simplifier [Data.HashMap.Base]: finished in 1337.00 milliseconds, allocated 510.979 megabytes
+*** Common sub-expression [Data.HashMap.Base]:
+Result size of Common sub-expression
+  = {terms: 15,834, types: 23,541, coercions: 929}
+!!! Common sub-expression [Data.HashMap.Base]: finished in 27.00 milliseconds, allocated 16.860 megabytes
+*** Float inwards [Data.HashMap.Base]:
+Result size of Float inwards
+  = {terms: 15,834, types: 23,541, coercions: 929}
+!!! Float inwards [Data.HashMap.Base]: finished in 72.00 milliseconds, allocated 39.451 megabytes
+*** Liberate case [Data.HashMap.Base]:
+Result size of Liberate case
+  = {terms: 16,110, types: 23,695, coercions: 929}
+!!! Liberate case [Data.HashMap.Base]: finished in 16.00 milliseconds, allocated 8.921 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 15,892, types: 23,540, coercions: 929}
+Result size of Simplifier
+  = {terms: 15,886, types: 23,537, coercions: 929}
+!!! Simplifier [Data.HashMap.Base]: finished in 443.00 milliseconds, allocated 225.843 megabytes
+*** SpecConstr [Data.HashMap.Base]:
+Result size of SpecConstr
+  = {terms: 18,619, types: 27,490, coercions: 929}
+!!! SpecConstr [Data.HashMap.Base]: finished in 75.00 milliseconds, allocated 31.953 megabytes
+*** Simplifier [Data.HashMap.Base]:
+Result size of Simplifier iteration=1
+  = {terms: 18,476, types: 27,020, coercions: 929}
+Result size of Simplifier
+  = {terms: 16,168, types: 23,505, coercions: 929}
+!!! Simplifier [Data.HashMap.Base]: finished in 552.00 milliseconds, allocated 247.081 megabytes
+*** CoreTidy [Data.HashMap.Base]:
+Result size of Tidy Core
+  = {terms: 16,219, types: 23,605, coercions: 920}
+!!! CoreTidy [Data.HashMap.Base]: finished in 82.00 milliseconds, allocated 32.622 megabytes
+writeBinIface: 357 Names
+writeBinIface: 675 dict entries
+writeBinIface: 357 Names
+writeBinIface: 675 dict entries
+*** CorePrep [Data.HashMap.Base]:
+Result size of CorePrep
+  = {terms: 20,572, types: 27,034, coercions: 920}
+!!! CorePrep [Data.HashMap.Base]: finished in 73.00 milliseconds, allocated 36.539 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Base]:
+!!! CodeGen [Data.HashMap.Base]: finished in 921.00 milliseconds, allocated 648.593 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9589_0/ghc_34.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/Base.o
+*** CorePrep [Data.HashMap.Base]:
+Result size of CorePrep
+  = {terms: 20,572, types: 27,034, coercions: 920}
+!!! CorePrep [Data.HashMap.Base]: finished in 293.00 milliseconds, allocated 34.988 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Base]:
+!!! CodeGen [Data.HashMap.Base]: finished in 788.00 milliseconds, allocated 676.183 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9589_0/ghc_36.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/Base.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9589_0/ghc_37.c /tmp/ghc9589_0/ghc_36.s /tmp/ghc9589_0/ghc_35.c /tmp/ghc9589_0/ghc_34.s /tmp/ghc9589_0/ghc_33.s
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_37.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_35.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_33.s
+compile: input file /tmp/ghc9589_0/ghc_1.hscpp
+*** Checking old interface for Data.HashMap.Lazy:
+[6 of 8] Compiling Data.HashMap.Lazy ( Data/HashMap/Lazy.hs, dist/dist-sandbox-6afc8227/build/Data/HashMap/Lazy.o )
+*** Parser [Data.HashMap.Lazy]:
+!!! Parser [Data.HashMap.Lazy]: finished in 1.00 milliseconds, allocated 1.795 megabytes
+*** Renamer/typechecker [Data.HashMap.Lazy]:
+!!! Renamer/typechecker [Data.HashMap.Lazy]: finished in 36.00 milliseconds, allocated 28.839 megabytes
+*** Desugar [Data.HashMap.Lazy]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.HashMap.Lazy]: finished in 2.00 milliseconds, allocated 0.143 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 1.00 milliseconds, allocated 0.130 megabytes
+*** Specialise [Data.HashMap.Lazy]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.Lazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Data.HashMap.Lazy]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Called arity analysis [Data.HashMap.Lazy]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Data.HashMap.Lazy]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Data.HashMap.Lazy]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.Lazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.Lazy]: finished in 1.00 milliseconds, allocated 0.090 megabytes
+*** Common sub-expression [Data.HashMap.Lazy]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Float inwards [Data.HashMap.Lazy]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Liberate case [Data.HashMap.Lazy]:
+Result size of Liberate case = {terms: 10, types: 3, coercions: 0}
+!!! Liberate case [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.039 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** SpecConstr [Data.HashMap.Lazy]:
+Result size of SpecConstr = {terms: 10, types: 3, coercions: 0}
+!!! SpecConstr [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [Data.HashMap.Lazy]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashMap.Lazy]: finished in 1.00 milliseconds, allocated 0.071 megabytes
+*** CoreTidy [Data.HashMap.Lazy]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.061 megabytes
+writeBinIface: 43 Names
+writeBinIface: 91 dict entries
+writeBinIface: 43 Names
+writeBinIface: 91 dict entries
+*** CorePrep [Data.HashMap.Lazy]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Lazy]:
+!!! CodeGen [Data.HashMap.Lazy]: finished in 1.00 milliseconds, allocated 0.303 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9589_0/ghc_39.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/Lazy.o
+*** CorePrep [Data.HashMap.Lazy]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.HashMap.Lazy]: finished in 1.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Lazy]:
+!!! CodeGen [Data.HashMap.Lazy]: finished in 0.00 milliseconds, allocated 0.300 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9589_0/ghc_41.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/Lazy.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9589_0/ghc_42.c /tmp/ghc9589_0/ghc_41.s /tmp/ghc9589_0/ghc_40.c /tmp/ghc9589_0/ghc_39.s /tmp/ghc9589_0/ghc_38.s
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_42.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_40.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_38.s
+compile: input file /tmp/ghc9589_0/ghc_3.hscpp
+*** Checking old interface for Data.HashMap.Strict:
+[7 of 8] Compiling Data.HashMap.Strict ( Data/HashMap/Strict.hs, dist/dist-sandbox-6afc8227/build/Data/HashMap/Strict.o )
+*** Parser [Data.HashMap.Strict]:
+!!! Parser [Data.HashMap.Strict]: finished in 11.00 milliseconds, allocated 17.344 megabytes
+*** Renamer/typechecker [Data.HashMap.Strict]:
+!!! Renamer/typechecker [Data.HashMap.Strict]: finished in 97.00 milliseconds, allocated 58.074 megabytes
+*** Desugar [Data.HashMap.Strict]:
+Result size of Desugar (after optimization)
+  = {terms: 1,778, types: 2,428, coercions: 11}
+!!! Desugar [Data.HashMap.Strict]: finished in 37.00 milliseconds, allocated 16.409 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 1,648, types: 2,237, coercions: 92}
+Result size of Simplifier iteration=2
+  = {terms: 1,582, types: 2,148, coercions: 118}
+Result size of Simplifier iteration=3
+  = {terms: 1,572, types: 2,126, coercions: 128}
+Result size of Simplifier
+  = {terms: 1,572, types: 2,126, coercions: 128}
+!!! Simplifier [Data.HashMap.Strict]: finished in 217.00 milliseconds, allocated 124.497 megabytes
+*** Specialise [Data.HashMap.Strict]:
+Result size of Specialise
+  = {terms: 1,572, types: 2,126, coercions: 128}
+!!! Specialise [Data.HashMap.Strict]: finished in 3.00 milliseconds, allocated 1.802 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.Strict]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,664, types: 2,264, coercions: 128}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashMap.Strict]: finished in 15.00 milliseconds, allocated 14.050 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 8,467, types: 11,768, coercions: 2,342}
+Result size of Simplifier iteration=2
+  = {terms: 7,358, types: 10,099, coercions: 819}
+Result size of Simplifier iteration=3
+  = {terms: 7,268, types: 9,727, coercions: 132}
+Result size of Simplifier iteration=4
+  = {terms: 7,264, types: 9,725, coercions: 132}
+Result size of Simplifier
+  = {terms: 7,264, types: 9,725, coercions: 132}
+!!! Simplifier [Data.HashMap.Strict]: finished in 475.00 milliseconds, allocated 270.486 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 7,505, types: 10,383, coercions: 132}
+Result size of Simplifier iteration=2
+  = {terms: 6,974, types: 9,696, coercions: 132}
+Result size of Simplifier iteration=3
+  = {terms: 6,974, types: 9,696, coercions: 132}
+Result size of Simplifier
+  = {terms: 6,974, types: 9,696, coercions: 132}
+!!! Simplifier [Data.HashMap.Strict]: finished in 353.00 milliseconds, allocated 200.288 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 6,612, types: 8,598, coercions: 16}
+Result size of Simplifier iteration=2
+  = {terms: 6,610, types: 8,592, coercions: 16}
+Result size of Simplifier
+  = {terms: 6,610, types: 8,592, coercions: 16}
+!!! Simplifier [Data.HashMap.Strict]: finished in 296.00 milliseconds, allocated 143.758 megabytes
+*** Float inwards [Data.HashMap.Strict]:
+Result size of Float inwards
+  = {terms: 6,610, types: 8,592, coercions: 16}
+!!! Float inwards [Data.HashMap.Strict]: finished in 17.00 milliseconds, allocated 17.340 megabytes
+*** Called arity analysis [Data.HashMap.Strict]:
+Result size of Called arity analysis
+  = {terms: 6,610, types: 8,592, coercions: 16}
+!!! Called arity analysis [Data.HashMap.Strict]: finished in 12.00 milliseconds, allocated 8.766 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier
+  = {terms: 6,610, types: 8,592, coercions: 16}
+!!! Simplifier [Data.HashMap.Strict]: finished in 85.00 milliseconds, allocated 47.201 megabytes
+*** Demand analysis [Data.HashMap.Strict]:
+Result size of Demand analysis
+  = {terms: 6,610, types: 8,592, coercions: 16}
+!!! Demand analysis [Data.HashMap.Strict]: finished in 86.00 milliseconds, allocated 51.130 megabytes
+*** Worker Wrapper binds [Data.HashMap.Strict]:
+Result size of Worker Wrapper binds
+  = {terms: 8,268, types: 10,729, coercions: 16}
+!!! Worker Wrapper binds [Data.HashMap.Strict]: finished in 7.00 milliseconds, allocated 2.926 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 7,045, types: 9,627, coercions: 16}
+Result size of Simplifier iteration=2
+  = {terms: 6,236, types: 8,686, coercions: 16}
+Result size of Simplifier iteration=3
+  = {terms: 6,092, types: 8,418, coercions: 16}
+Result size of Simplifier
+  = {terms: 6,092, types: 8,418, coercions: 16}
+!!! Simplifier [Data.HashMap.Strict]: finished in 338.00 milliseconds, allocated 197.120 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.Strict]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 6,140, types: 8,492, coercions: 16}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashMap.Strict]: finished in 40.00 milliseconds, allocated 31.751 megabytes
+*** Common sub-expression [Data.HashMap.Strict]:
+Result size of Common sub-expression
+  = {terms: 6,089, types: 8,450, coercions: 4}
+!!! Common sub-expression [Data.HashMap.Strict]: finished in 18.00 milliseconds, allocated 14.392 megabytes
+*** Float inwards [Data.HashMap.Strict]:
+Result size of Float inwards
+  = {terms: 6,089, types: 8,450, coercions: 4}
+!!! Float inwards [Data.HashMap.Strict]: finished in 26.00 milliseconds, allocated 15.995 megabytes
+*** Liberate case [Data.HashMap.Strict]:
+Result size of Liberate case
+  = {terms: 6,089, types: 8,450, coercions: 4}
+!!! Liberate case [Data.HashMap.Strict]: finished in 6.00 milliseconds, allocated 3.275 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 5,945, types: 8,349, coercions: 4}
+Result size of Simplifier iteration=2
+  = {terms: 5,941, types: 8,347, coercions: 4}
+Result size of Simplifier iteration=3
+  = {terms: 5,941, types: 8,347, coercions: 4}
+Result size of Simplifier
+  = {terms: 5,941, types: 8,347, coercions: 4}
+!!! Simplifier [Data.HashMap.Strict]: finished in 333.00 milliseconds, allocated 176.294 megabytes
+*** SpecConstr [Data.HashMap.Strict]:
+Result size of SpecConstr
+  = {terms: 6,933, types: 9,918, coercions: 4}
+!!! SpecConstr [Data.HashMap.Strict]: finished in 10.00 milliseconds, allocated 11.860 megabytes
+*** Simplifier [Data.HashMap.Strict]:
+Result size of Simplifier iteration=1
+  = {terms: 6,889, types: 9,758, coercions: 4}
+Result size of Simplifier
+  = {terms: 6,139, types: 8,474, coercions: 4}
+!!! Simplifier [Data.HashMap.Strict]: finished in 145.00 milliseconds, allocated 99.813 megabytes
+*** CoreTidy [Data.HashMap.Strict]:
+Result size of Tidy Core
+  = {terms: 6,139, types: 8,474, coercions: 4}
+!!! CoreTidy [Data.HashMap.Strict]: finished in 19.00 milliseconds, allocated 12.343 megabytes
+writeBinIface: 141 Names
+writeBinIface: 339 dict entries
+writeBinIface: 141 Names
+writeBinIface: 339 dict entries
+*** CorePrep [Data.HashMap.Strict]:
+Result size of CorePrep
+  = {terms: 7,648, types: 9,113, coercions: 4}
+!!! CorePrep [Data.HashMap.Strict]: finished in 10.00 milliseconds, allocated 13.354 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Strict]:
+!!! CodeGen [Data.HashMap.Strict]: finished in 244.00 milliseconds, allocated 207.654 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9589_0/ghc_44.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/Strict.o
+*** CorePrep [Data.HashMap.Strict]:
+Result size of CorePrep
+  = {terms: 7,648, types: 9,113, coercions: 4}
+!!! CorePrep [Data.HashMap.Strict]: finished in 23.00 milliseconds, allocated 12.762 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashMap.Strict]:
+!!! CodeGen [Data.HashMap.Strict]: finished in 266.00 milliseconds, allocated 216.189 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/HashMap -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9589_0/ghc_46.s -o dist/dist-sandbox-6afc8227/build/Data/HashMap/Strict.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9589_0/ghc_47.c /tmp/ghc9589_0/ghc_46.s /tmp/ghc9589_0/ghc_45.c /tmp/ghc9589_0/ghc_44.s /tmp/ghc9589_0/ghc_43.s
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_47.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_45.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_43.s
+compile: input file /tmp/ghc9589_0/ghc_5.hscpp
+*** Checking old interface for Data.HashSet:
+[8 of 8] Compiling Data.HashSet     ( Data/HashSet.hs, dist/dist-sandbox-6afc8227/build/Data/HashSet.o )
+*** Parser [Data.HashSet]:
+!!! Parser [Data.HashSet]: finished in 5.00 milliseconds, allocated 8.491 megabytes
+*** Renamer/typechecker [Data.HashSet]:
+!!! Renamer/typechecker [Data.HashSet]: finished in 21.00 milliseconds, allocated 16.834 megabytes
+*** Desugar [Data.HashSet]:
+Result size of Desugar (after optimization)
+  = {terms: 1,005, types: 2,103, coercions: 91}
+!!! Desugar [Data.HashSet]: finished in 7.00 milliseconds, allocated 6.672 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 1,001, types: 2,134, coercions: 182}
+Result size of Simplifier iteration=2
+  = {terms: 994, types: 2,124, coercions: 182}
+Result size of Simplifier
+  = {terms: 994, types: 2,124, coercions: 182}
+!!! Simplifier [Data.HashSet]: finished in 41.00 milliseconds, allocated 32.469 megabytes
+*** Specialise [Data.HashSet]:
+Result size of Specialise
+  = {terms: 1,215, types: 2,483, coercions: 211}
+!!! Specialise [Data.HashSet]: finished in 3.00 milliseconds, allocated 2.570 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashSet]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,351, types: 2,799, coercions: 211}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashSet]: finished in 7.00 milliseconds, allocated 9.234 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 6,568, types: 8,758, coercions: 1,182}
+Result size of Simplifier iteration=2
+  = {terms: 6,017, types: 7,857, coercions: 1,071}
+Result size of Simplifier iteration=3
+  = {terms: 5,995, types: 7,827, coercions: 1,063}
+Result size of Simplifier iteration=4
+  = {terms: 5,993, types: 7,826, coercions: 1,063}
+Result size of Simplifier
+  = {terms: 5,993, types: 7,826, coercions: 1,063}
+!!! Simplifier [Data.HashSet]: finished in 285.00 milliseconds, allocated 148.123 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 6,554, types: 8,843, coercions: 1,063}
+Result size of Simplifier iteration=2
+  = {terms: 6,543, types: 8,822, coercions: 1,063}
+Result size of Simplifier
+  = {terms: 6,543, types: 8,822, coercions: 1,063}
+!!! Simplifier [Data.HashSet]: finished in 206.00 milliseconds, allocated 104.589 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 6,622, types: 8,890, coercions: 1,072}
+Result size of Simplifier iteration=2
+  = {terms: 6,602, types: 8,845, coercions: 1,072}
+Result size of Simplifier
+  = {terms: 6,602, types: 8,845, coercions: 1,072}
+!!! Simplifier [Data.HashSet]: finished in 199.00 milliseconds, allocated 101.850 megabytes
+*** Float inwards [Data.HashSet]:
+Result size of Float inwards
+  = {terms: 6,602, types: 8,845, coercions: 1,072}
+!!! Float inwards [Data.HashSet]: finished in 13.00 milliseconds, allocated 11.371 megabytes
+*** Called arity analysis [Data.HashSet]:
+Result size of Called arity analysis
+  = {terms: 6,602, types: 8,845, coercions: 1,072}
+!!! Called arity analysis [Data.HashSet]: finished in 24.00 milliseconds, allocated 10.072 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier
+  = {terms: 6,602, types: 8,845, coercions: 1,072}
+!!! Simplifier [Data.HashSet]: finished in 69.00 milliseconds, allocated 33.814 megabytes
+*** Demand analysis [Data.HashSet]:
+Result size of Demand analysis
+  = {terms: 6,602, types: 8,845, coercions: 1,072}
+!!! Demand analysis [Data.HashSet]: finished in 73.00 milliseconds, allocated 51.100 megabytes
+*** Worker Wrapper binds [Data.HashSet]:
+Result size of Worker Wrapper binds
+  = {terms: 9,199, types: 11,761, coercions: 1,077}
+!!! Worker Wrapper binds [Data.HashSet]: finished in 5.00 milliseconds, allocated 3.569 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 7,492, types: 10,547, coercions: 1,064}
+Result size of Simplifier iteration=2
+  = {terms: 5,897, types: 8,574, coercions: 1,064}
+Result size of Simplifier
+  = {terms: 5,897, types: 8,574, coercions: 1,064}
+!!! Simplifier [Data.HashSet]: finished in 241.00 milliseconds, allocated 117.388 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashSet]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 6,049, types: 8,932, coercions: 1,064}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashSet]: finished in 57.00 milliseconds, allocated 36.390 megabytes
+*** Common sub-expression [Data.HashSet]:
+Result size of Common sub-expression
+  = {terms: 5,439, types: 8,212, coercions: 980}
+!!! Common sub-expression [Data.HashSet]: finished in 24.00 milliseconds, allocated 10.774 megabytes
+*** Float inwards [Data.HashSet]:
+Result size of Float inwards
+  = {terms: 5,439, types: 8,212, coercions: 980}
+!!! Float inwards [Data.HashSet]: finished in 18.00 milliseconds, allocated 10.959 megabytes
+*** Liberate case [Data.HashSet]:
+Result size of Liberate case
+  = {terms: 5,439, types: 8,212, coercions: 980}
+!!! Liberate case [Data.HashSet]: finished in 5.00 milliseconds, allocated 2.729 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 5,384, types: 8,163, coercions: 990}
+Result size of Simplifier iteration=2
+  = {terms: 5,380, types: 8,150, coercions: 990}
+Result size of Simplifier
+  = {terms: 5,380, types: 8,150, coercions: 990}
+!!! Simplifier [Data.HashSet]: finished in 148.00 milliseconds, allocated 92.441 megabytes
+*** SpecConstr [Data.HashSet]:
+Result size of SpecConstr
+  = {terms: 7,590, types: 10,885, coercions: 1,078}
+!!! SpecConstr [Data.HashSet]: finished in 17.00 milliseconds, allocated 13.317 megabytes
+*** Simplifier [Data.HashSet]:
+Result size of Simplifier iteration=1
+  = {terms: 7,412, types: 10,430, coercions: 1,058}
+Result size of Simplifier
+  = {terms: 5,238, types: 7,613, coercions: 1,006}
+!!! Simplifier [Data.HashSet]: finished in 126.00 milliseconds, allocated 82.534 megabytes
+*** CoreTidy [Data.HashSet]:
+Result size of Tidy Core
+  = {terms: 4,324, types: 6,434, coercions: 954}
+!!! CoreTidy [Data.HashSet]: finished in 18.00 milliseconds, allocated 9.147 megabytes
+writeBinIface: 266 Names
+writeBinIface: 458 dict entries
+writeBinIface: 266 Names
+writeBinIface: 458 dict entries
+*** CorePrep [Data.HashSet]:
+Result size of CorePrep
+  = {terms: 5,518, types: 7,823, coercions: 954}
+!!! CorePrep [Data.HashSet]: finished in 9.00 milliseconds, allocated 10.081 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashSet]:
+!!! CodeGen [Data.HashSet]: finished in 226.00 milliseconds, allocated 225.180 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9589_0/ghc_49.s -o dist/dist-sandbox-6afc8227/build/Data/HashSet.o
+*** CorePrep [Data.HashSet]:
+Result size of CorePrep
+  = {terms: 5,518, types: 7,823, coercions: 954}
+!!! CorePrep [Data.HashSet]: finished in 9.00 milliseconds, allocated 9.707 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashSet]:
+!!! CodeGen [Data.HashSet]: finished in 232.00 milliseconds, allocated 234.130 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9589_0/ghc_51.s -o dist/dist-sandbox-6afc8227/build/Data/HashSet.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc9589_0/ghc_52.c /tmp/ghc9589_0/ghc_51.s /tmp/ghc9589_0/ghc_50.c /tmp/ghc9589_0/ghc_49.s /tmp/ghc9589_0/ghc_48.s
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_52.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_50.c
+Warning: deleting non-existent /tmp/ghc9589_0/ghc_48.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc9589_0/ghc_11.hscpp /tmp/ghc9589_0/ghc_9.hscpp /tmp/ghc9589_0/ghc_7.hscpp /tmp/ghc9589_0/ghc_5.hscpp /tmp/ghc9589_0/ghc_3.hscpp /tmp/ghc9589_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9589_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -o dist/dist-sandbox-6afc8227/build/libHSunordered-containers-0.2.7.0-KR6jjzMAwuYBKL2QUNYyx5-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSunordered-containers-0.2.7.0-KR6jjzMAwuYBKL2QUNYyx5-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Data/HashMap/Lazy.dyn_o dist/dist-sandbox-6afc8227/build/Data/HashMap/Strict.dyn_o dist/dist-sandbox-6afc8227/build/Data/HashSet.dyn_o dist/dist-sandbox-6afc8227/build/Data/HashMap/Array.dyn_o dist/dist-sandbox-6afc8227/build/Data/HashMap/Base.dyn_o dist/dist-sandbox-6afc8227/build/Data/HashMap/PopCount.dyn_o dist/dist-sandbox-6afc8227/build/Data/HashMap/Unsafe.dyn_o dist/dist-sandbox-6afc8227/build/Data/HashMap/UnsafeShift.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHShashable-1.2.4.0-Ctl752zbguF6QanxurLOm2-ghc8.0.1 -lHStext-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs-ghc8.0.1 -lHSbinary-0.8.3.0-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc10697_0
+*** Deleting temp files:
+Deleting: /tmp/ghc10697_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc10697_0
+Creating package registration file:
+/tmp/pkgConf-unordered-containers-0.2.719399644432112255763.0
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/unordered-containers-0.2.7.0-KR6jjzMAwuYBKL2QUNYyx5
+Registering unordered-containers-0.2.7.0...
+cabal: Leaving directory '/tmp/cabal-tmp-1032/unordered-containers-0.2.7.0'

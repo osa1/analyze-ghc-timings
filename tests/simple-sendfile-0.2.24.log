@@ -1,0 +1,621 @@
+cabal: Entering directory '/tmp/cabal-tmp-1030/simple-sendfile-0.2.24'
+Configuring simple-sendfile-0.2.24...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc7627_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc7627_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc7627_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc7627_0/ghc_2.rsp /tmp/ghc7627_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7627_0
+Building simple-sendfile-0.2.24...
+Preprocessing library simple-sendfile-0.2.24...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Network.Sendfile,*System.Linux.Sendfile,*Network.Sendfile.Types,*Network.Sendfile.Linux
+Created temporary directory: /tmp/ghc7748_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -DOS_Linux -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/network-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc7748_0/ghc_2.h -x assembler-with-cpp ./Network/Sendfile.hs -o /tmp/ghc7748_0/ghc_1.hscpp
+!!! Chasing dependencies: finished in 10.00 milliseconds, allocated 6.783 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-24 01:02:09 UTC
+         ms_mod = Network.Sendfile.Types,
+         ms_textual_imps = [(Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-26 19:21:18.521686186 UTC
+         ms_mod = Network.Sendfile.Linux,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Posix.Types),
+                            (Nothing, System.Posix.IO.ByteString), (Nothing, System.Posix.IO),
+                            (Nothing, System.Posix.Files), (Nothing, Network.Socket),
+                            (Nothing, Network.Sendfile.Types), (Nothing, GHC.Conc),
+                            (Nothing, Foreign.Storable), (Nothing, Foreign.ForeignPtr),
+                            (Nothing, Foreign.Ptr), (Nothing, Foreign.Marshal),
+                            (Nothing, Foreign.C.Types), (Nothing, Foreign.C.Error),
+                            (Nothing, Data.Int), (Nothing, Data.ByteString.Internal),
+                            (Nothing, Data.ByteString), (Nothing, Control.Monad),
+                            (Nothing, Control.Exception), (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-24 01:02:09 UTC
+         ms_mod = Network.Sendfile,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Network.Sendfile.Linux),
+                            (Nothing, Network.Sendfile.Types)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-24 01:02:09 UTC
+         ms_mod = System.Linux.Sendfile,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, System.Posix.Types), (Nothing, Network.Sendfile.Types),
+                            (Nothing, Network.Sendfile.Linux), (Nothing, Data.ByteString)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc7748_0/ghc_2.h
+compile: input file ./Network/Sendfile/Types.hs
+*** Checking old interface for Network.Sendfile.Types:
+[1 of 4] Compiling Network.Sendfile.Types ( Network/Sendfile/Types.hs, dist/dist-sandbox-6afc8227/build/Network/Sendfile/Types.o )
+*** Parser [Network.Sendfile.Types]:
+!!! Parser [Network.Sendfile.Types]: finished in 1.00 milliseconds, allocated 0.164 megabytes
+*** Renamer/typechecker [Network.Sendfile.Types]:
+!!! Renamer/typechecker [Network.Sendfile.Types]: finished in 82.00 milliseconds, allocated 22.408 megabytes
+*** Desugar [Network.Sendfile.Types]:
+Result size of Desugar (after optimization)
+  = {terms: 49, types: 22, coercions: 0}
+!!! Desugar [Network.Sendfile.Types]: finished in 0.00 milliseconds, allocated 0.182 megabytes
+*** Simplifier [Network.Sendfile.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 55, types: 25, coercions: 0}
+Result size of Simplifier = {terms: 55, types: 25, coercions: 0}
+!!! Simplifier [Network.Sendfile.Types]: finished in 1.00 milliseconds, allocated 0.385 megabytes
+*** Specialise [Network.Sendfile.Types]:
+Result size of Specialise = {terms: 55, types: 25, coercions: 0}
+!!! Specialise [Network.Sendfile.Types]: finished in 0.00 milliseconds, allocated 0.097 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Sendfile.Types]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 59, types: 27, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Sendfile.Types]: finished in 0.00 milliseconds, allocated 0.203 megabytes
+*** Simplifier [Network.Sendfile.Types]:
+Result size of Simplifier = {terms: 59, types: 27, coercions: 0}
+!!! Simplifier [Network.Sendfile.Types]: finished in 1.00 milliseconds, allocated 0.214 megabytes
+*** Simplifier [Network.Sendfile.Types]:
+Result size of Simplifier = {terms: 59, types: 27, coercions: 0}
+!!! Simplifier [Network.Sendfile.Types]: finished in 0.00 milliseconds, allocated 0.215 megabytes
+*** Simplifier [Network.Sendfile.Types]:
+Result size of Simplifier = {terms: 59, types: 27, coercions: 0}
+!!! Simplifier [Network.Sendfile.Types]: finished in 0.00 milliseconds, allocated 0.213 megabytes
+*** Float inwards [Network.Sendfile.Types]:
+Result size of Float inwards = {terms: 59, types: 27, coercions: 0}
+!!! Float inwards [Network.Sendfile.Types]: finished in 1.00 milliseconds, allocated 0.079 megabytes
+*** Called arity analysis [Network.Sendfile.Types]:
+Result size of Called arity analysis
+  = {terms: 59, types: 27, coercions: 0}
+!!! Called arity analysis [Network.Sendfile.Types]: finished in 0.00 milliseconds, allocated 0.095 megabytes
+*** Simplifier [Network.Sendfile.Types]:
+Result size of Simplifier = {terms: 59, types: 27, coercions: 0}
+!!! Simplifier [Network.Sendfile.Types]: finished in 0.00 milliseconds, allocated 0.212 megabytes
+*** Demand analysis [Network.Sendfile.Types]:
+Result size of Demand analysis
+  = {terms: 59, types: 27, coercions: 0}
+!!! Demand analysis [Network.Sendfile.Types]: finished in 1.00 milliseconds, allocated 0.183 megabytes
+*** Worker Wrapper binds [Network.Sendfile.Types]:
+Result size of Worker Wrapper binds
+  = {terms: 59, types: 27, coercions: 0}
+!!! Worker Wrapper binds [Network.Sendfile.Types]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Simplifier [Network.Sendfile.Types]:
+Result size of Simplifier = {terms: 59, types: 27, coercions: 0}
+!!! Simplifier [Network.Sendfile.Types]: finished in 0.00 milliseconds, allocated 0.258 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Sendfile.Types]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 59, types: 27, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Sendfile.Types]: finished in 2.00 milliseconds, allocated 0.196 megabytes
+*** Common sub-expression [Network.Sendfile.Types]:
+Result size of Common sub-expression
+  = {terms: 59, types: 27, coercions: 0}
+!!! Common sub-expression [Network.Sendfile.Types]: finished in 0.00 milliseconds, allocated 0.106 megabytes
+*** Float inwards [Network.Sendfile.Types]:
+Result size of Float inwards = {terms: 59, types: 27, coercions: 0}
+!!! Float inwards [Network.Sendfile.Types]: finished in 0.00 milliseconds, allocated 0.080 megabytes
+*** Simplifier [Network.Sendfile.Types]:
+Result size of Simplifier = {terms: 59, types: 27, coercions: 0}
+!!! Simplifier [Network.Sendfile.Types]: finished in 1.00 milliseconds, allocated 0.255 megabytes
+*** CoreTidy [Network.Sendfile.Types]:
+Result size of Tidy Core = {terms: 59, types: 27, coercions: 0}
+!!! CoreTidy [Network.Sendfile.Types]: finished in 0.00 milliseconds, allocated 0.166 megabytes
+writeBinIface: 16 Names
+writeBinIface: 41 dict entries
+writeBinIface: 16 Names
+writeBinIface: 41 dict entries
+*** CorePrep [Network.Sendfile.Types]:
+Result size of CorePrep = {terms: 67, types: 33, coercions: 0}
+!!! CorePrep [Network.Sendfile.Types]: finished in 0.00 milliseconds, allocated 0.129 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Sendfile.Types]:
+!!! CodeGen [Network.Sendfile.Types]: finished in 8.00 milliseconds, allocated 3.608 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/Sendfile -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7748_0/ghc_4.s -o dist/dist-sandbox-6afc8227/build/Network/Sendfile/Types.o
+*** CorePrep [Network.Sendfile.Types]:
+Result size of CorePrep = {terms: 67, types: 33, coercions: 0}
+!!! CorePrep [Network.Sendfile.Types]: finished in 1.00 milliseconds, allocated 0.128 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Sendfile.Types]:
+!!! CodeGen [Network.Sendfile.Types]: finished in 6.00 milliseconds, allocated 3.600 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/Sendfile -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7748_0/ghc_6.s -o dist/dist-sandbox-6afc8227/build/Network/Sendfile/Types.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7748_0/ghc_7.c /tmp/ghc7748_0/ghc_6.s /tmp/ghc7748_0/ghc_5.c /tmp/ghc7748_0/ghc_4.s /tmp/ghc7748_0/ghc_3.s
+Warning: deleting non-existent /tmp/ghc7748_0/ghc_7.c
+Warning: deleting non-existent /tmp/ghc7748_0/ghc_5.c
+Warning: deleting non-existent /tmp/ghc7748_0/ghc_3.s
+compile: input file dist/dist-sandbox-6afc8227/build/Network/Sendfile/Linux.hs
+*** Checking old interface for Network.Sendfile.Linux:
+[2 of 4] Compiling Network.Sendfile.Linux ( dist/dist-sandbox-6afc8227/build/Network/Sendfile/Linux.hs, dist/dist-sandbox-6afc8227/build/Network/Sendfile/Linux.o )
+*** Parser [Network.Sendfile.Linux]:
+!!! Parser [Network.Sendfile.Linux]: finished in 5.00 milliseconds, allocated 5.744 megabytes
+*** Renamer/typechecker [Network.Sendfile.Linux]:
+!!! Renamer/typechecker [Network.Sendfile.Linux]: finished in 384.00 milliseconds, allocated 180.738 megabytes
+*** Desugar [Network.Sendfile.Linux]:
+Result size of Desugar (after optimization)
+  = {terms: 530, types: 489, coercions: 69}
+!!! Desugar [Network.Sendfile.Linux]: finished in 15.00 milliseconds, allocated 5.788 megabytes
+
+Network/Sendfile/Linux.hsc:12:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Network/Sendfile/Linux.hsc:17:1: warning: [-Wunused-imports]
+    The import of ‘Data.Int’ is redundant
+      except perhaps to import instances from ‘Data.Int’
+    To import instances alone, use: import Data.Int()
+*** Simplifier [Network.Sendfile.Linux]:
+Result size of Simplifier iteration=1
+  = {terms: 519, types: 463, coercions: 137}
+Result size of Simplifier iteration=2
+  = {terms: 510, types: 484, coercions: 154}
+Result size of Simplifier
+  = {terms: 510, types: 484, coercions: 154}
+!!! Simplifier [Network.Sendfile.Linux]: finished in 110.00 milliseconds, allocated 15.797 megabytes
+*** Specialise [Network.Sendfile.Linux]:
+Result size of Specialise
+  = {terms: 796, types: 676, coercions: 162}
+!!! Specialise [Network.Sendfile.Linux]: finished in 2.00 milliseconds, allocated 1.429 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Sendfile.Linux]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 948, types: 802, coercions: 162}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Sendfile.Linux]: finished in 3.00 milliseconds, allocated 4.130 megabytes
+*** Simplifier [Network.Sendfile.Linux]:
+Result size of Simplifier iteration=1
+  = {terms: 1,172, types: 1,204, coercions: 436}
+Result size of Simplifier iteration=2
+  = {terms: 945, types: 970, coercions: 336}
+Result size of Simplifier iteration=3
+  = {terms: 891, types: 882, coercions: 309}
+Result size of Simplifier
+  = {terms: 891, types: 882, coercions: 309}
+!!! Simplifier [Network.Sendfile.Linux]: finished in 75.00 milliseconds, allocated 45.595 megabytes
+*** Simplifier [Network.Sendfile.Linux]:
+Result size of Simplifier iteration=1
+  = {terms: 920, types: 970, coercions: 312}
+Result size of Simplifier iteration=2
+  = {terms: 768, types: 766, coercions: 263}
+Result size of Simplifier iteration=3
+  = {terms: 759, types: 762, coercions: 297}
+Result size of Simplifier iteration=4
+  = {terms: 753, types: 759, coercions: 297}
+Result size of Simplifier
+  = {terms: 753, types: 759, coercions: 297}
+!!! Simplifier [Network.Sendfile.Linux]: finished in 22.00 milliseconds, allocated 15.544 megabytes
+*** Simplifier [Network.Sendfile.Linux]:
+Result size of Simplifier iteration=1
+  = {terms: 829, types: 838, coercions: 309}
+Result size of Simplifier iteration=2
+  = {terms: 805, types: 826, coercions: 314}
+Result size of Simplifier
+  = {terms: 805, types: 826, coercions: 314}
+!!! Simplifier [Network.Sendfile.Linux]: finished in 13.00 milliseconds, allocated 10.689 megabytes
+*** Float inwards [Network.Sendfile.Linux]:
+Result size of Float inwards
+  = {terms: 805, types: 826, coercions: 314}
+!!! Float inwards [Network.Sendfile.Linux]: finished in 0.00 milliseconds, allocated 1.117 megabytes
+*** Called arity analysis [Network.Sendfile.Linux]:
+Result size of Called arity analysis
+  = {terms: 805, types: 826, coercions: 314}
+!!! Called arity analysis [Network.Sendfile.Linux]: finished in 0.00 milliseconds, allocated 0.784 megabytes
+*** Simplifier [Network.Sendfile.Linux]:
+Result size of Simplifier
+  = {terms: 805, types: 826, coercions: 314}
+!!! Simplifier [Network.Sendfile.Linux]: finished in 4.00 milliseconds, allocated 3.337 megabytes
+*** Demand analysis [Network.Sendfile.Linux]:
+Result size of Demand analysis
+  = {terms: 805, types: 826, coercions: 314}
+!!! Demand analysis [Network.Sendfile.Linux]: finished in 4.00 milliseconds, allocated 3.826 megabytes
+*** Worker Wrapper binds [Network.Sendfile.Linux]:
+Result size of Worker Wrapper binds
+  = {terms: 1,207, types: 1,202, coercions: 375}
+!!! Worker Wrapper binds [Network.Sendfile.Linux]: finished in 1.00 milliseconds, allocated 0.590 megabytes
+*** Simplifier [Network.Sendfile.Linux]:
+Result size of Simplifier iteration=1
+  = {terms: 1,007, types: 1,027, coercions: 224}
+Result size of Simplifier iteration=2
+  = {terms: 836, types: 878, coercions: 205}
+Result size of Simplifier
+  = {terms: 836, types: 878, coercions: 205}
+!!! Simplifier [Network.Sendfile.Linux]: finished in 26.00 milliseconds, allocated 14.168 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Sendfile.Linux]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 846, types: 885, coercions: 205}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Sendfile.Linux]: finished in 3.00 milliseconds, allocated 2.104 megabytes
+*** Common sub-expression [Network.Sendfile.Linux]:
+Result size of Common sub-expression
+  = {terms: 841, types: 885, coercions: 205}
+!!! Common sub-expression [Network.Sendfile.Linux]: finished in 2.00 milliseconds, allocated 1.170 megabytes
+*** Float inwards [Network.Sendfile.Linux]:
+Result size of Float inwards
+  = {terms: 841, types: 885, coercions: 205}
+!!! Float inwards [Network.Sendfile.Linux]: finished in 1.00 milliseconds, allocated 1.018 megabytes
+*** Simplifier [Network.Sendfile.Linux]:
+Result size of Simplifier iteration=1
+  = {terms: 839, types: 884, coercions: 205}
+Result size of Simplifier
+  = {terms: 839, types: 884, coercions: 205}
+!!! Simplifier [Network.Sendfile.Linux]: finished in 13.00 milliseconds, allocated 7.591 megabytes
+*** CoreTidy [Network.Sendfile.Linux]:
+Result size of Tidy Core = {terms: 710, types: 749, coercions: 158}
+!!! CoreTidy [Network.Sendfile.Linux]: finished in 2.00 milliseconds, allocated 1.382 megabytes
+writeBinIface: 68 Names
+writeBinIface: 187 dict entries
+writeBinIface: 68 Names
+writeBinIface: 187 dict entries
+*** CorePrep [Network.Sendfile.Linux]:
+Result size of CorePrep = {terms: 867, types: 833, coercions: 158}
+!!! CorePrep [Network.Sendfile.Linux]: finished in 1.00 milliseconds, allocated 1.491 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Sendfile.Linux]:
+!!! CodeGen [Network.Sendfile.Linux]: finished in 39.00 milliseconds, allocated 26.328 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network/Sendfile -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7748_0/ghc_9.s -o dist/dist-sandbox-6afc8227/build/Network/Sendfile/Linux.o
+*** CorePrep [Network.Sendfile.Linux]:
+Result size of CorePrep = {terms: 867, types: 833, coercions: 158}
+!!! CorePrep [Network.Sendfile.Linux]: finished in 1.00 milliseconds, allocated 1.451 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Sendfile.Linux]:
+!!! CodeGen [Network.Sendfile.Linux]: finished in 44.00 milliseconds, allocated 27.075 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network/Sendfile -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7748_0/ghc_11.s -o dist/dist-sandbox-6afc8227/build/Network/Sendfile/Linux.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7748_0/ghc_12.c /tmp/ghc7748_0/ghc_11.s /tmp/ghc7748_0/ghc_10.c /tmp/ghc7748_0/ghc_9.s /tmp/ghc7748_0/ghc_8.s
+Warning: deleting non-existent /tmp/ghc7748_0/ghc_12.c
+Warning: deleting non-existent /tmp/ghc7748_0/ghc_10.c
+Warning: deleting non-existent /tmp/ghc7748_0/ghc_8.s
+compile: input file /tmp/ghc7748_0/ghc_1.hscpp
+*** Checking old interface for Network.Sendfile:
+[3 of 4] Compiling Network.Sendfile ( Network/Sendfile.hs, dist/dist-sandbox-6afc8227/build/Network/Sendfile.o )
+*** Parser [Network.Sendfile]:
+!!! Parser [Network.Sendfile]: finished in 1.00 milliseconds, allocated 0.801 megabytes
+*** Renamer/typechecker [Network.Sendfile]:
+!!! Renamer/typechecker [Network.Sendfile]: finished in 1.00 milliseconds, allocated 0.564 megabytes
+*** Desugar [Network.Sendfile]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.134 megabytes
+*** Simplifier [Network.Sendfile]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.Sendfile]: finished in 1.00 milliseconds, allocated 0.129 megabytes
+*** Specialise [Network.Sendfile]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Sendfile]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Network.Sendfile]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.Sendfile]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Network.Sendfile]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Network.Sendfile]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Float inwards [Network.Sendfile]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Network.Sendfile]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Network.Sendfile]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Demand analysis [Network.Sendfile]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Network.Sendfile]: finished in 1.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Network.Sendfile]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Network.Sendfile]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Sendfile]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Network.Sendfile]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Network.Sendfile]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Network.Sendfile]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Network.Sendfile]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 13 Names
+writeBinIface: 48 dict entries
+writeBinIface: 13 Names
+writeBinIface: 48 dict entries
+*** CorePrep [Network.Sendfile]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Sendfile]:
+!!! CodeGen [Network.Sendfile]: finished in 1.00 milliseconds, allocated 0.291 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7748_0/ghc_14.s -o dist/dist-sandbox-6afc8227/build/Network/Sendfile.o
+*** CorePrep [Network.Sendfile]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Network.Sendfile]: finished in 1.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Sendfile]:
+!!! CodeGen [Network.Sendfile]: finished in 0.00 milliseconds, allocated 0.288 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7748_0/ghc_16.s -o dist/dist-sandbox-6afc8227/build/Network/Sendfile.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7748_0/ghc_17.c /tmp/ghc7748_0/ghc_16.s /tmp/ghc7748_0/ghc_15.c /tmp/ghc7748_0/ghc_14.s /tmp/ghc7748_0/ghc_13.s
+Warning: deleting non-existent /tmp/ghc7748_0/ghc_17.c
+Warning: deleting non-existent /tmp/ghc7748_0/ghc_15.c
+Warning: deleting non-existent /tmp/ghc7748_0/ghc_13.s
+compile: input file ./System/Linux/Sendfile.hs
+*** Checking old interface for System.Linux.Sendfile:
+[4 of 4] Compiling System.Linux.Sendfile ( System/Linux/Sendfile.hs, dist/dist-sandbox-6afc8227/build/System/Linux/Sendfile.o )
+*** Parser [System.Linux.Sendfile]:
+!!! Parser [System.Linux.Sendfile]: finished in 1.00 milliseconds, allocated 0.862 megabytes
+*** Renamer/typechecker [System.Linux.Sendfile]:
+!!! Renamer/typechecker [System.Linux.Sendfile]: finished in 2.00 milliseconds, allocated 1.070 megabytes
+*** Desugar [System.Linux.Sendfile]:
+Result size of Desugar (after optimization)
+  = {terms: 10, types: 15, coercions: 0}
+!!! Desugar [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [System.Linux.Sendfile]:
+Result size of Simplifier iteration=1
+  = {terms: 14, types: 17, coercions: 0}
+Result size of Simplifier = {terms: 14, types: 17, coercions: 0}
+!!! Simplifier [System.Linux.Sendfile]: finished in 1.00 milliseconds, allocated 0.154 megabytes
+*** Specialise [System.Linux.Sendfile]:
+Result size of Specialise = {terms: 14, types: 17, coercions: 0}
+!!! Specialise [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.057 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Linux.Sendfile]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 14, types: 17, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.095 megabytes
+*** Simplifier [System.Linux.Sendfile]:
+Result size of Simplifier iteration=1
+  = {terms: 14, types: 17, coercions: 24}
+Result size of Simplifier = {terms: 14, types: 17, coercions: 24}
+!!! Simplifier [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.217 megabytes
+*** Simplifier [System.Linux.Sendfile]:
+Result size of Simplifier = {terms: 14, types: 17, coercions: 24}
+!!! Simplifier [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.108 megabytes
+*** Simplifier [System.Linux.Sendfile]:
+Result size of Simplifier = {terms: 14, types: 17, coercions: 24}
+!!! Simplifier [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.108 megabytes
+*** Float inwards [System.Linux.Sendfile]:
+Result size of Float inwards
+  = {terms: 14, types: 17, coercions: 24}
+!!! Float inwards [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.051 megabytes
+*** Called arity analysis [System.Linux.Sendfile]:
+Result size of Called arity analysis
+  = {terms: 14, types: 17, coercions: 24}
+!!! Called arity analysis [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.067 megabytes
+*** Simplifier [System.Linux.Sendfile]:
+Result size of Simplifier = {terms: 14, types: 17, coercions: 24}
+!!! Simplifier [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.108 megabytes
+*** Demand analysis [System.Linux.Sendfile]:
+Result size of Demand analysis
+  = {terms: 14, types: 17, coercions: 24}
+!!! Demand analysis [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.068 megabytes
+*** Worker Wrapper binds [System.Linux.Sendfile]:
+Result size of Worker Wrapper binds
+  = {terms: 14, types: 17, coercions: 24}
+!!! Worker Wrapper binds [System.Linux.Sendfile]: finished in 1.00 milliseconds, allocated 0.049 megabytes
+*** Simplifier [System.Linux.Sendfile]:
+Result size of Simplifier = {terms: 14, types: 17, coercions: 24}
+!!! Simplifier [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.127 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Linux.Sendfile]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 14, types: 17, coercions: 24}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.096 megabytes
+*** Common sub-expression [System.Linux.Sendfile]:
+Result size of Common sub-expression
+  = {terms: 14, types: 17, coercions: 24}
+!!! Common sub-expression [System.Linux.Sendfile]: finished in 1.00 milliseconds, allocated 0.062 megabytes
+*** Float inwards [System.Linux.Sendfile]:
+Result size of Float inwards
+  = {terms: 14, types: 17, coercions: 24}
+!!! Float inwards [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Simplifier [System.Linux.Sendfile]:
+Result size of Simplifier = {terms: 14, types: 17, coercions: 24}
+!!! Simplifier [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.127 megabytes
+*** CoreTidy [System.Linux.Sendfile]:
+Result size of Tidy Core = {terms: 14, types: 17, coercions: 24}
+!!! CoreTidy [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.075 megabytes
+writeBinIface: 16 Names
+writeBinIface: 56 dict entries
+writeBinIface: 16 Names
+writeBinIface: 56 dict entries
+*** CorePrep [System.Linux.Sendfile]:
+Result size of CorePrep = {terms: 34, types: 31, coercions: 24}
+!!! CorePrep [System.Linux.Sendfile]: finished in 1.00 milliseconds, allocated 0.075 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Linux.Sendfile]:
+!!! CodeGen [System.Linux.Sendfile]: finished in 1.00 milliseconds, allocated 0.726 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./System/Linux -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc7748_0/ghc_19.s -o dist/dist-sandbox-6afc8227/build/System/Linux/Sendfile.o
+*** CorePrep [System.Linux.Sendfile]:
+Result size of CorePrep = {terms: 34, types: 31, coercions: 24}
+!!! CorePrep [System.Linux.Sendfile]: finished in 0.00 milliseconds, allocated 0.077 megabytes
+*** Stg2Stg:
+*** CodeGen [System.Linux.Sendfile]:
+!!! CodeGen [System.Linux.Sendfile]: finished in 2.00 milliseconds, allocated 0.732 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./System/Linux -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7748_0/ghc_21.s -o dist/dist-sandbox-6afc8227/build/System/Linux/Sendfile.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc7748_0/ghc_22.c /tmp/ghc7748_0/ghc_21.s /tmp/ghc7748_0/ghc_20.c /tmp/ghc7748_0/ghc_19.s /tmp/ghc7748_0/ghc_18.s
+Warning: deleting non-existent /tmp/ghc7748_0/ghc_22.c
+Warning: deleting non-existent /tmp/ghc7748_0/ghc_20.c
+Warning: deleting non-existent /tmp/ghc7748_0/ghc_18.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc7748_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7748_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/network-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0 -o dist/dist-sandbox-6afc8227/build/libHSsimple-sendfile-0.2.24-DnmtNGT4B8K5xXaZHBkgBy-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSsimple-sendfile-0.2.24-DnmtNGT4B8K5xXaZHBkgBy-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Network/Sendfile.dyn_o dist/dist-sandbox-6afc8227/build/System/Linux/Sendfile.dyn_o dist/dist-sandbox-6afc8227/build/Network/Sendfile/Types.dyn_o dist/dist-sandbox-6afc8227/build/Network/Sendfile/Linux.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/network-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSnetwork-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL-ghc8.0.1 -lHSunix-2.7.2.0-ghc8.0.1 -lHStime-1.6.0.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lrt -lutil -ldl -lpthread -lgmp
+Created temporary directory: /tmp/ghc7906_0
+*** Deleting temp files:
+Deleting: /tmp/ghc7906_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7906_0
+Creating package registration file:
+/tmp/pkgConf-simple-sendfile-0.21128057321120048829.24
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/simple-sendfile-0.2.24-DnmtNGT4B8K5xXaZHBkgBy
+Registering simple-sendfile-0.2.24...
+cabal: Leaving directory '/tmp/cabal-tmp-1030/simple-sendfile-0.2.24'

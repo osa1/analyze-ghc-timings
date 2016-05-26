@@ -1,0 +1,804 @@
+cabal: Entering directory '/tmp/cabal-tmp-1049/zlib-0.6.1.1'
+Configuring zlib-0.6.1.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc5647_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc5647_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc5647_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc5647_0/ghc_2.rsp /tmp/ghc5647_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc5647_0
+Building zlib-0.6.1.1...
+Preprocessing library zlib-0.6.1.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Codec.Compression.GZip,*Codec.Compression.Zlib,*Codec.Compression.Zlib.Raw,*Codec.Compression.Zlib.Internal,*Codec.Compression.Zlib.Stream
+Created temporary directory: /tmp/ghc5716_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5716_0/ghc_2.h -x assembler-with-cpp ./Codec/Compression/Zlib/Internal.hs -o /tmp/ghc5716_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc5716_0/ghc_4.h -x assembler-with-cpp dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Stream.hs -o /tmp/ghc5716_0/ghc_3.hscpp
+!!! Chasing dependencies: finished in 17.00 milliseconds, allocated 17.337 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-26 19:21:05.709686372 UTC
+         ms_mod = Codec.Compression.Zlib.Stream,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Generics),
+                            (Nothing, Data.Typeable), (Nothing, Control.Exception),
+                            (Nothing, Control.Monad.ST.Unsafe),
+                            (Nothing, Control.Monad.ST.Strict), (Nothing, Control.Monad),
+                            (Nothing, Data.ByteString), (Nothing, Data.ByteString.Unsafe),
+                            (Nothing, Data.ByteString.Internal), (Nothing, Foreign.C),
+                            (Nothing, Foreign), (Nothing, System.IO.Unsafe),
+                            (Nothing, Foreign.ForeignPtr.Unsafe), (Nothing, Foreign)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-05-16 13:12:10 UTC
+         ms_mod = Codec.Compression.Zlib.Internal,
+         ms_textual_imps = [(Nothing, Codec.Compression.Zlib.Stream),
+                            (Nothing, Codec.Compression.Zlib.Stream), (Nothing, Data.Word),
+                            (Nothing, Data.ByteString.Internal), (Nothing, Data.ByteString),
+                            (Nothing, Data.ByteString.Lazy.Internal),
+                            (Nothing, Data.ByteString.Lazy), (Nothing, Data.Typeable),
+                            (Nothing, Control.Monad.ST.Strict),
+                            (Nothing, Control.Monad.ST.Lazy), (Nothing, Control.Exception),
+                            (Nothing, Control.Monad), (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-05-16 13:12:10 UTC
+         ms_mod = Codec.Compression.GZip,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Codec.Compression.Zlib.Internal),
+                            (Nothing, Codec.Compression.Zlib.Internal),
+                            (Nothing, Data.ByteString.Lazy)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-05-16 13:12:10 UTC
+         ms_mod = Codec.Compression.Zlib,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Codec.Compression.Zlib.Internal),
+                            (Nothing, Codec.Compression.Zlib.Internal),
+                            (Nothing, Data.ByteString.Lazy)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-05-16 13:12:10 UTC
+         ms_mod = Codec.Compression.Zlib.Raw,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Codec.Compression.Zlib.Internal),
+                            (Nothing, Codec.Compression.Zlib.Internal),
+                            (Nothing, Data.ByteString.Lazy)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc5716_0/ghc_4.h /tmp/ghc5716_0/ghc_2.h
+compile: input file /tmp/ghc5716_0/ghc_3.hscpp
+*** Checking old interface for Codec.Compression.Zlib.Stream:
+[1 of 5] Compiling Codec.Compression.Zlib.Stream ( dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Stream.hs, dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Stream.o )
+*** Parser [Codec.Compression.Zlib.Stream]:
+!!! Parser [Codec.Compression.Zlib.Stream]: finished in 39.00 milliseconds, allocated 28.815 megabytes
+*** Renamer/typechecker [Codec.Compression.Zlib.Stream]:
+!!! Renamer/typechecker [Codec.Compression.Zlib.Stream]: finished in 596.00 milliseconds, allocated 265.125 megabytes
+*** Desugar [Codec.Compression.Zlib.Stream]:
+Result size of Desugar (after optimization)
+  = {terms: 4,523, types: 5,456, coercions: 1,969}
+!!! Desugar [Codec.Compression.Zlib.Stream]: finished in 54.00 milliseconds, allocated 25.395 megabytes
+*** Simplifier [Codec.Compression.Zlib.Stream]:
+Result size of Simplifier iteration=1
+  = {terms: 4,724, types: 5,962, coercions: 2,412}
+Result size of Simplifier iteration=2
+  = {terms: 4,710, types: 6,042, coercions: 2,599}
+Result size of Simplifier
+  = {terms: 4,710, types: 6,042, coercions: 2,599}
+!!! Simplifier [Codec.Compression.Zlib.Stream]: finished in 119.00 milliseconds, allocated 62.730 megabytes
+*** Specialise [Codec.Compression.Zlib.Stream]:
+Result size of Specialise
+  = {terms: 5,144, types: 6,514, coercions: 2,605}
+!!! Specialise [Codec.Compression.Zlib.Stream]: finished in 10.00 milliseconds, allocated 8.263 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Compression.Zlib.Stream]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 6,521, types: 9,618, coercions: 2,605}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Compression.Zlib.Stream]: finished in 29.00 milliseconds, allocated 23.531 megabytes
+*** Simplifier [Codec.Compression.Zlib.Stream]:
+Result size of Simplifier iteration=1
+  = {terms: 12,959, types: 18,307, coercions: 6,671}
+Result size of Simplifier iteration=2
+  = {terms: 13,439, types: 19,197, coercions: 7,986}
+Result size of Simplifier iteration=3
+  = {terms: 13,094, types: 17,131, coercions: 3,649}
+Result size of Simplifier iteration=4
+  = {terms: 11,578, types: 13,976, coercions: 3,634}
+Result size of Simplifier
+  = {terms: 11,578, types: 13,976, coercions: 3,634}
+!!! Simplifier [Codec.Compression.Zlib.Stream]: finished in 721.00 milliseconds, allocated 332.393 megabytes
+*** Simplifier [Codec.Compression.Zlib.Stream]:
+Result size of Simplifier iteration=1
+  = {terms: 11,459, types: 15,259, coercions: 3,610}
+Result size of Simplifier iteration=2
+  = {terms: 10,660, types: 13,244, coercions: 3,610}
+Result size of Simplifier iteration=3
+  = {terms: 11,088, types: 13,496, coercions: 3,610}
+Result size of Simplifier iteration=4
+  = {terms: 10,472, types: 13,188, coercions: 3,610}
+Result size of Simplifier
+  = {terms: 10,472, types: 13,188, coercions: 3,610}
+!!! Simplifier [Codec.Compression.Zlib.Stream]: finished in 341.00 milliseconds, allocated 177.490 megabytes
+*** Simplifier [Codec.Compression.Zlib.Stream]:
+Result size of Simplifier iteration=1
+  = {terms: 15,205, types: 20,107, coercions: 3,610}
+Result size of Simplifier iteration=2
+  = {terms: 14,644, types: 19,112, coercions: 3,610}
+Result size of Simplifier
+  = {terms: 14,644, types: 19,112, coercions: 3,610}
+!!! Simplifier [Codec.Compression.Zlib.Stream]: finished in 267.00 milliseconds, allocated 165.591 megabytes
+*** Float inwards [Codec.Compression.Zlib.Stream]:
+Result size of Float inwards
+  = {terms: 14,644, types: 19,112, coercions: 3,610}
+!!! Float inwards [Codec.Compression.Zlib.Stream]: finished in 22.00 milliseconds, allocated 20.249 megabytes
+*** Called arity analysis [Codec.Compression.Zlib.Stream]:
+Result size of Called arity analysis
+  = {terms: 14,644, types: 19,112, coercions: 3,610}
+!!! Called arity analysis [Codec.Compression.Zlib.Stream]: finished in 19.00 milliseconds, allocated 14.307 megabytes
+*** Simplifier [Codec.Compression.Zlib.Stream]:
+Result size of Simplifier
+  = {terms: 14,644, types: 19,112, coercions: 3,610}
+!!! Simplifier [Codec.Compression.Zlib.Stream]: finished in 90.00 milliseconds, allocated 53.385 megabytes
+*** Demand analysis [Codec.Compression.Zlib.Stream]:
+Result size of Demand analysis
+  = {terms: 14,644, types: 19,112, coercions: 3,610}
+!!! Demand analysis [Codec.Compression.Zlib.Stream]: finished in 89.00 milliseconds, allocated 58.306 megabytes
+*** Worker Wrapper binds [Codec.Compression.Zlib.Stream]:
+Result size of Worker Wrapper binds
+  = {terms: 15,446, types: 20,236, coercions: 3,632}
+!!! Worker Wrapper binds [Codec.Compression.Zlib.Stream]: finished in 8.00 milliseconds, allocated 4.826 megabytes
+*** Simplifier [Codec.Compression.Zlib.Stream]:
+Result size of Simplifier iteration=1
+  = {terms: 14,977, types: 19,374, coercions: 3,609}
+Result size of Simplifier iteration=2
+  = {terms: 14,685, types: 18,868, coercions: 3,576}
+Result size of Simplifier
+  = {terms: 14,685, types: 18,868, coercions: 3,576}
+!!! Simplifier [Codec.Compression.Zlib.Stream]: finished in 460.00 milliseconds, allocated 188.554 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Compression.Zlib.Stream]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 15,589, types: 19,500, coercions: 3,576}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Compression.Zlib.Stream]: finished in 9.00 milliseconds, allocated 53.719 megabytes
+*** Common sub-expression [Codec.Compression.Zlib.Stream]:
+Result size of Common sub-expression
+  = {terms: 14,108, types: 18,247, coercions: 3,271}
+!!! Common sub-expression [Codec.Compression.Zlib.Stream]: finished in 35.00 milliseconds, allocated 19.893 megabytes
+*** Float inwards [Codec.Compression.Zlib.Stream]:
+Result size of Float inwards
+  = {terms: 14,108, types: 18,247, coercions: 3,271}
+!!! Float inwards [Codec.Compression.Zlib.Stream]: finished in 21.00 milliseconds, allocated 17.605 megabytes
+*** Simplifier [Codec.Compression.Zlib.Stream]:
+Result size of Simplifier iteration=1
+  = {terms: 13,286, types: 17,492, coercions: 3,466}
+Result size of Simplifier
+  = {terms: 13,256, types: 17,454, coercions: 3,466}
+!!! Simplifier [Codec.Compression.Zlib.Stream]: finished in 160.00 milliseconds, allocated 110.359 megabytes
+*** CoreTidy [Codec.Compression.Zlib.Stream]:
+Result size of Tidy Core
+  = {terms: 12,555, types: 16,915, coercions: 3,187}
+!!! CoreTidy [Codec.Compression.Zlib.Stream]: finished in 23.00 milliseconds, allocated 21.117 megabytes
+writeBinIface: 584 Names
+writeBinIface: 790 dict entries
+writeBinIface: 584 Names
+writeBinIface: 790 dict entries
+*** CorePrep [Codec.Compression.Zlib.Stream]:
+Result size of CorePrep
+  = {terms: 15,572, types: 19,293, coercions: 3,211}
+!!! CorePrep [Codec.Compression.Zlib.Stream]: finished in 39.00 milliseconds, allocated 26.995 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Compression.Zlib.Stream]:
+!!! CodeGen [Codec.Compression.Zlib.Stream]: finished in 687.00 milliseconds, allocated 551.778 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc5716_0/ghc_6.s -o dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Stream.o
+*** CorePrep [Codec.Compression.Zlib.Stream]:
+Result size of CorePrep
+  = {terms: 15,572, types: 19,293, coercions: 3,211}
+!!! CorePrep [Codec.Compression.Zlib.Stream]: finished in 49.00 milliseconds, allocated 26.094 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Compression.Zlib.Stream]:
+!!! CodeGen [Codec.Compression.Zlib.Stream]: finished in 949.00 milliseconds, allocated 587.198 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5716_0/ghc_8.s -o dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Stream.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5716_0/ghc_9.c /tmp/ghc5716_0/ghc_8.s /tmp/ghc5716_0/ghc_7.c /tmp/ghc5716_0/ghc_6.s /tmp/ghc5716_0/ghc_5.s
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_9.c
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_7.c
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_5.s
+compile: input file /tmp/ghc5716_0/ghc_1.hscpp
+*** Checking old interface for Codec.Compression.Zlib.Internal:
+[2 of 5] Compiling Codec.Compression.Zlib.Internal ( Codec/Compression/Zlib/Internal.hs, dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Internal.o )
+*** Parser [Codec.Compression.Zlib.Internal]:
+!!! Parser [Codec.Compression.Zlib.Internal]: finished in 14.00 milliseconds, allocated 25.208 megabytes
+*** Renamer/typechecker [Codec.Compression.Zlib.Internal]:
+!!! Renamer/typechecker [Codec.Compression.Zlib.Internal]: finished in 192.00 milliseconds, allocated 111.781 megabytes
+*** Desugar [Codec.Compression.Zlib.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 2,614, types: 3,277, coercions: 5}
+!!! Desugar [Codec.Compression.Zlib.Internal]: finished in 26.00 milliseconds, allocated 15.033 megabytes
+*** Simplifier [Codec.Compression.Zlib.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,657, types: 3,281, coercions: 579}
+Result size of Simplifier iteration=2
+  = {terms: 2,695, types: 3,451, coercions: 1,273}
+Result size of Simplifier iteration=3
+  = {terms: 2,691, types: 3,443, coercions: 1,424}
+Result size of Simplifier
+  = {terms: 2,691, types: 3,443, coercions: 1,338}
+!!! Simplifier [Codec.Compression.Zlib.Internal]: finished in 77.00 milliseconds, allocated 43.945 megabytes
+*** Specialise [Codec.Compression.Zlib.Internal]:
+Result size of Specialise
+  = {terms: 2,805, types: 3,587, coercions: 1,351}
+!!! Specialise [Codec.Compression.Zlib.Internal]: finished in 11.00 milliseconds, allocated 3.728 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Compression.Zlib.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 3,339, types: 4,721, coercions: 1,351}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Compression.Zlib.Internal]: finished in 20.00 milliseconds, allocated 16.270 megabytes
+*** Simplifier [Codec.Compression.Zlib.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 8,788, types: 13,607, coercions: 3,997}
+Result size of Simplifier iteration=2
+  = {terms: 5,844, types: 7,702, coercions: 2,079}
+Result size of Simplifier iteration=3
+  = {terms: 5,566, types: 7,070, coercions: 1,682}
+Result size of Simplifier iteration=4
+  = {terms: 5,492, types: 6,877, coercions: 1,682}
+Result size of Simplifier
+  = {terms: 5,492, types: 6,877, coercions: 1,682}
+!!! Simplifier [Codec.Compression.Zlib.Internal]: finished in 341.00 milliseconds, allocated 191.273 megabytes
+*** Simplifier [Codec.Compression.Zlib.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 5,631, types: 7,130, coercions: 1,975}
+Result size of Simplifier iteration=2
+  = {terms: 5,264, types: 6,693, coercions: 1,785}
+Result size of Simplifier iteration=3
+  = {terms: 5,256, types: 6,641, coercions: 1,754}
+Result size of Simplifier
+  = {terms: 5,256, types: 6,641, coercions: 1,754}
+!!! Simplifier [Codec.Compression.Zlib.Internal]: finished in 160.00 milliseconds, allocated 97.683 megabytes
+*** Simplifier [Codec.Compression.Zlib.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 7,781, types: 10,416, coercions: 2,689}
+Result size of Simplifier iteration=2
+  = {terms: 10,592, types: 15,133, coercions: 1,964}
+Result size of Simplifier iteration=3
+  = {terms: 8,468, types: 11,809, coercions: 1,924}
+Result size of Simplifier
+  = {terms: 8,468, types: 11,809, coercions: 1,924}
+!!! Simplifier [Codec.Compression.Zlib.Internal]: finished in 277.00 milliseconds, allocated 145.080 megabytes
+*** Float inwards [Codec.Compression.Zlib.Internal]:
+Result size of Float inwards
+  = {terms: 8,468, types: 11,809, coercions: 1,924}
+!!! Float inwards [Codec.Compression.Zlib.Internal]: finished in 14.00 milliseconds, allocated 14.698 megabytes
+*** Called arity analysis [Codec.Compression.Zlib.Internal]:
+Result size of Called arity analysis
+  = {terms: 8,468, types: 11,809, coercions: 1,924}
+!!! Called arity analysis [Codec.Compression.Zlib.Internal]: finished in 10.00 milliseconds, allocated 7.811 megabytes
+*** Simplifier [Codec.Compression.Zlib.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 8,506, types: 11,819, coercions: 2,152}
+Result size of Simplifier iteration=2
+  = {terms: 8,428, types: 11,842, coercions: 1,762}
+Result size of Simplifier iteration=3
+  = {terms: 8,387, types: 11,680, coercions: 1,594}
+Result size of Simplifier
+  = {terms: 8,387, types: 11,680, coercions: 1,594}
+!!! Simplifier [Codec.Compression.Zlib.Internal]: finished in 270.00 milliseconds, allocated 133.642 megabytes
+*** Demand analysis [Codec.Compression.Zlib.Internal]:
+Result size of Demand analysis
+  = {terms: 8,387, types: 11,680, coercions: 1,594}
+!!! Demand analysis [Codec.Compression.Zlib.Internal]: finished in 191.00 milliseconds, allocated 49.935 megabytes
+*** Worker Wrapper binds [Codec.Compression.Zlib.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 9,418, types: 13,445, coercions: 1,594}
+!!! Worker Wrapper binds [Codec.Compression.Zlib.Internal]: finished in 6.00 milliseconds, allocated 3.167 megabytes
+*** Simplifier [Codec.Compression.Zlib.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 9,219, types: 13,138, coercions: 1,594}
+Result size of Simplifier iteration=2
+  = {terms: 8,742, types: 12,009, coercions: 1,584}
+Result size of Simplifier
+  = {terms: 8,742, types: 12,009, coercions: 1,584}
+!!! Simplifier [Codec.Compression.Zlib.Internal]: finished in 202.00 milliseconds, allocated 114.162 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Compression.Zlib.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 8,913, types: 12,241, coercions: 1,584}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Compression.Zlib.Internal]: finished in 65.00 milliseconds, allocated 37.559 megabytes
+*** Common sub-expression [Codec.Compression.Zlib.Internal]:
+Result size of Common sub-expression
+  = {terms: 8,661, types: 12,056, coercions: 1,576}
+!!! Common sub-expression [Codec.Compression.Zlib.Internal]: finished in 18.00 milliseconds, allocated 11.531 megabytes
+*** Float inwards [Codec.Compression.Zlib.Internal]:
+Result size of Float inwards
+  = {terms: 8,661, types: 12,056, coercions: 1,576}
+!!! Float inwards [Codec.Compression.Zlib.Internal]: finished in 15.00 milliseconds, allocated 14.133 megabytes
+*** Simplifier [Codec.Compression.Zlib.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 8,516, types: 11,916, coercions: 1,576}
+Result size of Simplifier
+  = {terms: 8,513, types: 11,915, coercions: 1,576}
+!!! Simplifier [Codec.Compression.Zlib.Internal]: finished in 125.00 milliseconds, allocated 67.851 megabytes
+*** CoreTidy [Codec.Compression.Zlib.Internal]:
+Result size of Tidy Core
+  = {terms: 8,540, types: 11,911, coercions: 1,549}
+!!! CoreTidy [Codec.Compression.Zlib.Internal]: finished in 22.00 milliseconds, allocated 12.958 megabytes
+writeBinIface: 241 Names
+writeBinIface: 416 dict entries
+writeBinIface: 241 Names
+writeBinIface: 416 dict entries
+*** CorePrep [Codec.Compression.Zlib.Internal]:
+Result size of CorePrep
+  = {terms: 10,058, types: 13,546, coercions: 1,577}
+!!! CorePrep [Codec.Compression.Zlib.Internal]: finished in 28.00 milliseconds, allocated 20.328 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Compression.Zlib.Internal]:
+!!! CodeGen [Codec.Compression.Zlib.Internal]: finished in 625.00 milliseconds, allocated 416.641 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Codec/Compression/Zlib -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc5716_0/ghc_11.s -o dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Internal.o
+*** CorePrep [Codec.Compression.Zlib.Internal]:
+Result size of CorePrep
+  = {terms: 10,058, types: 13,546, coercions: 1,577}
+!!! CorePrep [Codec.Compression.Zlib.Internal]: finished in 33.00 milliseconds, allocated 19.110 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Compression.Zlib.Internal]:
+!!! CodeGen [Codec.Compression.Zlib.Internal]: finished in 597.00 milliseconds, allocated 437.983 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Codec/Compression/Zlib -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5716_0/ghc_13.s -o dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5716_0/ghc_14.c /tmp/ghc5716_0/ghc_13.s /tmp/ghc5716_0/ghc_12.c /tmp/ghc5716_0/ghc_11.s /tmp/ghc5716_0/ghc_10.s
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_14.c
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_12.c
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_10.s
+compile: input file ./Codec/Compression/GZip.hs
+*** Checking old interface for Codec.Compression.GZip:
+[3 of 5] Compiling Codec.Compression.GZip ( Codec/Compression/GZip.hs, dist/dist-sandbox-6afc8227/build/Codec/Compression/GZip.o )
+*** Parser [Codec.Compression.GZip]:
+!!! Parser [Codec.Compression.GZip]: finished in 1.00 milliseconds, allocated 2.047 megabytes
+*** Renamer/typechecker [Codec.Compression.GZip]:
+!!! Renamer/typechecker [Codec.Compression.GZip]: finished in 3.00 milliseconds, allocated 1.416 megabytes
+*** Desugar [Codec.Compression.GZip]:
+Result size of Desugar (after optimization)
+  = {terms: 18, types: 11, coercions: 0}
+!!! Desugar [Codec.Compression.GZip]: finished in 1.00 milliseconds, allocated 0.161 megabytes
+*** Simplifier [Codec.Compression.GZip]:
+Result size of Simplifier iteration=1
+  = {terms: 22, types: 13, coercions: 0}
+Result size of Simplifier = {terms: 22, types: 13, coercions: 0}
+!!! Simplifier [Codec.Compression.GZip]: finished in 0.00 milliseconds, allocated 0.209 megabytes
+*** Specialise [Codec.Compression.GZip]:
+Result size of Specialise = {terms: 22, types: 13, coercions: 0}
+!!! Specialise [Codec.Compression.GZip]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Compression.GZip]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 22, types: 13, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Compression.GZip]: finished in 1.00 milliseconds, allocated 0.108 megabytes
+*** Simplifier [Codec.Compression.GZip]:
+Result size of Simplifier iteration=1
+  = {terms: 50, types: 41, coercions: 0}
+Result size of Simplifier = {terms: 50, types: 41, coercions: 0}
+!!! Simplifier [Codec.Compression.GZip]: finished in 1.00 milliseconds, allocated 0.416 megabytes
+*** Simplifier [Codec.Compression.GZip]:
+Result size of Simplifier = {terms: 50, types: 41, coercions: 0}
+!!! Simplifier [Codec.Compression.GZip]: finished in 0.00 milliseconds, allocated 0.194 megabytes
+*** Simplifier [Codec.Compression.GZip]:
+Result size of Simplifier iteration=1
+  = {terms: 66, types: 105, coercions: 0}
+Result size of Simplifier = {terms: 66, types: 105, coercions: 0}
+!!! Simplifier [Codec.Compression.GZip]: finished in 1.00 milliseconds, allocated 0.525 megabytes
+*** Float inwards [Codec.Compression.GZip]:
+Result size of Float inwards
+  = {terms: 66, types: 105, coercions: 0}
+!!! Float inwards [Codec.Compression.GZip]: finished in 0.00 milliseconds, allocated 0.109 megabytes
+*** Called arity analysis [Codec.Compression.GZip]:
+Result size of Called arity analysis
+  = {terms: 66, types: 105, coercions: 0}
+!!! Called arity analysis [Codec.Compression.GZip]: finished in 0.00 milliseconds, allocated 0.100 megabytes
+*** Simplifier [Codec.Compression.GZip]:
+Result size of Simplifier = {terms: 66, types: 105, coercions: 0}
+!!! Simplifier [Codec.Compression.GZip]: finished in 1.00 milliseconds, allocated 0.250 megabytes
+*** Demand analysis [Codec.Compression.GZip]:
+Result size of Demand analysis
+  = {terms: 66, types: 105, coercions: 0}
+!!! Demand analysis [Codec.Compression.GZip]: finished in 0.00 milliseconds, allocated 0.238 megabytes
+*** Worker Wrapper binds [Codec.Compression.GZip]:
+Result size of Worker Wrapper binds
+  = {terms: 66, types: 105, coercions: 0}
+!!! Worker Wrapper binds [Codec.Compression.GZip]: finished in 1.00 milliseconds, allocated 0.078 megabytes
+*** Simplifier [Codec.Compression.GZip]:
+Result size of Simplifier = {terms: 66, types: 105, coercions: 0}
+!!! Simplifier [Codec.Compression.GZip]: finished in 0.00 milliseconds, allocated 0.257 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Compression.GZip]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 66, types: 105, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Compression.GZip]: finished in 1.00 milliseconds, allocated 0.301 megabytes
+*** Common sub-expression [Codec.Compression.GZip]:
+Result size of Common sub-expression
+  = {terms: 66, types: 105, coercions: 0}
+!!! Common sub-expression [Codec.Compression.GZip]: finished in 0.00 milliseconds, allocated 0.106 megabytes
+*** Float inwards [Codec.Compression.GZip]:
+Result size of Float inwards
+  = {terms: 66, types: 105, coercions: 0}
+!!! Float inwards [Codec.Compression.GZip]: finished in 0.00 milliseconds, allocated 0.107 megabytes
+*** Simplifier [Codec.Compression.GZip]:
+Result size of Simplifier = {terms: 66, types: 105, coercions: 0}
+!!! Simplifier [Codec.Compression.GZip]: finished in 0.00 milliseconds, allocated 0.251 megabytes
+*** CoreTidy [Codec.Compression.GZip]:
+Result size of Tidy Core = {terms: 66, types: 105, coercions: 0}
+!!! CoreTidy [Codec.Compression.GZip]: finished in 0.00 milliseconds, allocated 0.160 megabytes
+writeBinIface: 77 Names
+writeBinIface: 109 dict entries
+writeBinIface: 77 Names
+writeBinIface: 109 dict entries
+*** CorePrep [Codec.Compression.GZip]:
+Result size of CorePrep = {terms: 74, types: 117, coercions: 0}
+!!! CorePrep [Codec.Compression.GZip]: finished in 1.00 milliseconds, allocated 0.155 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Compression.GZip]:
+!!! CodeGen [Codec.Compression.GZip]: finished in 7.00 milliseconds, allocated 4.002 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Codec/Compression -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc5716_0/ghc_16.s -o dist/dist-sandbox-6afc8227/build/Codec/Compression/GZip.o
+*** CorePrep [Codec.Compression.GZip]:
+Result size of CorePrep = {terms: 74, types: 117, coercions: 0}
+!!! CorePrep [Codec.Compression.GZip]: finished in 1.00 milliseconds, allocated 0.155 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Compression.GZip]:
+!!! CodeGen [Codec.Compression.GZip]: finished in 7.00 milliseconds, allocated 4.444 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Codec/Compression -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5716_0/ghc_18.s -o dist/dist-sandbox-6afc8227/build/Codec/Compression/GZip.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5716_0/ghc_19.c /tmp/ghc5716_0/ghc_18.s /tmp/ghc5716_0/ghc_17.c /tmp/ghc5716_0/ghc_16.s /tmp/ghc5716_0/ghc_15.s
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_19.c
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_17.c
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_15.s
+compile: input file ./Codec/Compression/Zlib.hs
+*** Checking old interface for Codec.Compression.Zlib:
+[4 of 5] Compiling Codec.Compression.Zlib ( Codec/Compression/Zlib.hs, dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib.o )
+*** Parser [Codec.Compression.Zlib]:
+!!! Parser [Codec.Compression.Zlib]: finished in 1.00 milliseconds, allocated 1.887 megabytes
+*** Renamer/typechecker [Codec.Compression.Zlib]:
+!!! Renamer/typechecker [Codec.Compression.Zlib]: finished in 3.00 milliseconds, allocated 1.415 megabytes
+*** Desugar [Codec.Compression.Zlib]:
+Result size of Desugar (after optimization)
+  = {terms: 18, types: 11, coercions: 0}
+!!! Desugar [Codec.Compression.Zlib]: finished in 0.00 milliseconds, allocated 0.160 megabytes
+*** Simplifier [Codec.Compression.Zlib]:
+Result size of Simplifier iteration=1
+  = {terms: 22, types: 13, coercions: 0}
+Result size of Simplifier = {terms: 22, types: 13, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib]: finished in 0.00 milliseconds, allocated 0.207 megabytes
+*** Specialise [Codec.Compression.Zlib]:
+Result size of Specialise = {terms: 22, types: 13, coercions: 0}
+!!! Specialise [Codec.Compression.Zlib]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Compression.Zlib]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 22, types: 13, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Compression.Zlib]: finished in 1.00 milliseconds, allocated 0.108 megabytes
+*** Simplifier [Codec.Compression.Zlib]:
+Result size of Simplifier iteration=1
+  = {terms: 50, types: 41, coercions: 0}
+Result size of Simplifier = {terms: 50, types: 41, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib]: finished in 1.00 milliseconds, allocated 0.391 megabytes
+*** Simplifier [Codec.Compression.Zlib]:
+Result size of Simplifier = {terms: 50, types: 41, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib]: finished in 0.00 milliseconds, allocated 0.194 megabytes
+*** Simplifier [Codec.Compression.Zlib]:
+Result size of Simplifier iteration=1
+  = {terms: 66, types: 105, coercions: 0}
+Result size of Simplifier = {terms: 66, types: 105, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib]: finished in 1.00 milliseconds, allocated 0.510 megabytes
+*** Float inwards [Codec.Compression.Zlib]:
+Result size of Float inwards
+  = {terms: 66, types: 105, coercions: 0}
+!!! Float inwards [Codec.Compression.Zlib]: finished in 0.00 milliseconds, allocated 0.108 megabytes
+*** Called arity analysis [Codec.Compression.Zlib]:
+Result size of Called arity analysis
+  = {terms: 66, types: 105, coercions: 0}
+!!! Called arity analysis [Codec.Compression.Zlib]: finished in 1.00 milliseconds, allocated 0.099 megabytes
+*** Simplifier [Codec.Compression.Zlib]:
+Result size of Simplifier = {terms: 66, types: 105, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib]: finished in 0.00 milliseconds, allocated 0.251 megabytes
+*** Demand analysis [Codec.Compression.Zlib]:
+Result size of Demand analysis
+  = {terms: 66, types: 105, coercions: 0}
+!!! Demand analysis [Codec.Compression.Zlib]: finished in 0.00 milliseconds, allocated 0.238 megabytes
+*** Worker Wrapper binds [Codec.Compression.Zlib]:
+Result size of Worker Wrapper binds
+  = {terms: 66, types: 105, coercions: 0}
+!!! Worker Wrapper binds [Codec.Compression.Zlib]: finished in 0.00 milliseconds, allocated 0.078 megabytes
+*** Simplifier [Codec.Compression.Zlib]:
+Result size of Simplifier = {terms: 66, types: 105, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib]: finished in 1.00 milliseconds, allocated 0.255 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Compression.Zlib]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 66, types: 105, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Compression.Zlib]: finished in 1.00 milliseconds, allocated 0.302 megabytes
+*** Common sub-expression [Codec.Compression.Zlib]:
+Result size of Common sub-expression
+  = {terms: 66, types: 105, coercions: 0}
+!!! Common sub-expression [Codec.Compression.Zlib]: finished in 0.00 milliseconds, allocated 0.106 megabytes
+*** Float inwards [Codec.Compression.Zlib]:
+Result size of Float inwards
+  = {terms: 66, types: 105, coercions: 0}
+!!! Float inwards [Codec.Compression.Zlib]: finished in 0.00 milliseconds, allocated 0.108 megabytes
+*** Simplifier [Codec.Compression.Zlib]:
+Result size of Simplifier = {terms: 66, types: 105, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib]: finished in 0.00 milliseconds, allocated 0.251 megabytes
+*** CoreTidy [Codec.Compression.Zlib]:
+Result size of Tidy Core = {terms: 66, types: 105, coercions: 0}
+!!! CoreTidy [Codec.Compression.Zlib]: finished in 1.00 milliseconds, allocated 0.159 megabytes
+writeBinIface: 77 Names
+writeBinIface: 109 dict entries
+writeBinIface: 77 Names
+writeBinIface: 109 dict entries
+*** CorePrep [Codec.Compression.Zlib]:
+Result size of CorePrep = {terms: 74, types: 117, coercions: 0}
+!!! CorePrep [Codec.Compression.Zlib]: finished in 0.00 milliseconds, allocated 0.155 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Compression.Zlib]:
+!!! CodeGen [Codec.Compression.Zlib]: finished in 6.00 milliseconds, allocated 4.006 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Codec/Compression -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc5716_0/ghc_21.s -o dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib.o
+*** CorePrep [Codec.Compression.Zlib]:
+Result size of CorePrep = {terms: 74, types: 117, coercions: 0}
+!!! CorePrep [Codec.Compression.Zlib]: finished in 0.00 milliseconds, allocated 0.158 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Compression.Zlib]:
+!!! CodeGen [Codec.Compression.Zlib]: finished in 8.00 milliseconds, allocated 4.441 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Codec/Compression -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5716_0/ghc_23.s -o dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc5716_0/ghc_24.c /tmp/ghc5716_0/ghc_23.s /tmp/ghc5716_0/ghc_22.c /tmp/ghc5716_0/ghc_21.s /tmp/ghc5716_0/ghc_20.s
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_24.c
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_22.c
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_20.s
+compile: input file ./Codec/Compression/Zlib/Raw.hs
+*** Checking old interface for Codec.Compression.Zlib.Raw:
+[5 of 5] Compiling Codec.Compression.Zlib.Raw ( Codec/Compression/Zlib/Raw.hs, dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Raw.o )
+*** Parser [Codec.Compression.Zlib.Raw]:
+!!! Parser [Codec.Compression.Zlib.Raw]: finished in 1.00 milliseconds, allocated 1.176 megabytes
+*** Renamer/typechecker [Codec.Compression.Zlib.Raw]:
+!!! Renamer/typechecker [Codec.Compression.Zlib.Raw]: finished in 2.00 milliseconds, allocated 1.417 megabytes
+*** Desugar [Codec.Compression.Zlib.Raw]:
+Result size of Desugar (after optimization)
+  = {terms: 18, types: 11, coercions: 0}
+!!! Desugar [Codec.Compression.Zlib.Raw]: finished in 1.00 milliseconds, allocated 0.160 megabytes
+*** Simplifier [Codec.Compression.Zlib.Raw]:
+Result size of Simplifier iteration=1
+  = {terms: 22, types: 13, coercions: 0}
+Result size of Simplifier = {terms: 22, types: 13, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib.Raw]: finished in 0.00 milliseconds, allocated 0.208 megabytes
+*** Specialise [Codec.Compression.Zlib.Raw]:
+Result size of Specialise = {terms: 22, types: 13, coercions: 0}
+!!! Specialise [Codec.Compression.Zlib.Raw]: finished in 1.00 milliseconds, allocated 0.064 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Compression.Zlib.Raw]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 22, types: 13, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Codec.Compression.Zlib.Raw]: finished in 0.00 milliseconds, allocated 0.105 megabytes
+*** Simplifier [Codec.Compression.Zlib.Raw]:
+Result size of Simplifier iteration=1
+  = {terms: 50, types: 41, coercions: 0}
+Result size of Simplifier = {terms: 50, types: 41, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib.Raw]: finished in 1.00 milliseconds, allocated 0.394 megabytes
+*** Simplifier [Codec.Compression.Zlib.Raw]:
+Result size of Simplifier = {terms: 50, types: 41, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib.Raw]: finished in 0.00 milliseconds, allocated 0.190 megabytes
+*** Simplifier [Codec.Compression.Zlib.Raw]:
+Result size of Simplifier iteration=1
+  = {terms: 66, types: 105, coercions: 0}
+Result size of Simplifier = {terms: 66, types: 105, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib.Raw]: finished in 1.00 milliseconds, allocated 0.510 megabytes
+*** Float inwards [Codec.Compression.Zlib.Raw]:
+Result size of Float inwards
+  = {terms: 66, types: 105, coercions: 0}
+!!! Float inwards [Codec.Compression.Zlib.Raw]: finished in 0.00 milliseconds, allocated 0.109 megabytes
+*** Called arity analysis [Codec.Compression.Zlib.Raw]:
+Result size of Called arity analysis
+  = {terms: 66, types: 105, coercions: 0}
+!!! Called arity analysis [Codec.Compression.Zlib.Raw]: finished in 0.00 milliseconds, allocated 0.100 megabytes
+*** Simplifier [Codec.Compression.Zlib.Raw]:
+Result size of Simplifier = {terms: 66, types: 105, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib.Raw]: finished in 0.00 milliseconds, allocated 0.250 megabytes
+*** Demand analysis [Codec.Compression.Zlib.Raw]:
+Result size of Demand analysis
+  = {terms: 66, types: 105, coercions: 0}
+!!! Demand analysis [Codec.Compression.Zlib.Raw]: finished in 0.00 milliseconds, allocated 0.239 megabytes
+*** Worker Wrapper binds [Codec.Compression.Zlib.Raw]:
+Result size of Worker Wrapper binds
+  = {terms: 66, types: 105, coercions: 0}
+!!! Worker Wrapper binds [Codec.Compression.Zlib.Raw]: finished in 1.00 milliseconds, allocated 0.078 megabytes
+*** Simplifier [Codec.Compression.Zlib.Raw]:
+Result size of Simplifier = {terms: 66, types: 105, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib.Raw]: finished in 0.00 milliseconds, allocated 0.257 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Compression.Zlib.Raw]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 66, types: 105, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Codec.Compression.Zlib.Raw]: finished in 1.00 milliseconds, allocated 0.301 megabytes
+*** Common sub-expression [Codec.Compression.Zlib.Raw]:
+Result size of Common sub-expression
+  = {terms: 66, types: 105, coercions: 0}
+!!! Common sub-expression [Codec.Compression.Zlib.Raw]: finished in 0.00 milliseconds, allocated 0.109 megabytes
+*** Float inwards [Codec.Compression.Zlib.Raw]:
+Result size of Float inwards
+  = {terms: 66, types: 105, coercions: 0}
+!!! Float inwards [Codec.Compression.Zlib.Raw]: finished in 0.00 milliseconds, allocated 0.107 megabytes
+*** Simplifier [Codec.Compression.Zlib.Raw]:
+Result size of Simplifier = {terms: 66, types: 105, coercions: 0}
+!!! Simplifier [Codec.Compression.Zlib.Raw]: finished in 1.00 milliseconds, allocated 0.251 megabytes
+*** CoreTidy [Codec.Compression.Zlib.Raw]:
+Result size of Tidy Core = {terms: 66, types: 105, coercions: 0}
+!!! CoreTidy [Codec.Compression.Zlib.Raw]: finished in 0.00 milliseconds, allocated 0.158 megabytes
+writeBinIface: 77 Names
+writeBinIface: 109 dict entries
+writeBinIface: 77 Names
+writeBinIface: 109 dict entries
+*** CorePrep [Codec.Compression.Zlib.Raw]:
+Result size of CorePrep = {terms: 74, types: 117, coercions: 0}
+!!! CorePrep [Codec.Compression.Zlib.Raw]: finished in 1.00 milliseconds, allocated 0.156 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Compression.Zlib.Raw]:
+!!! CodeGen [Codec.Compression.Zlib.Raw]: finished in 8.00 milliseconds, allocated 4.011 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Codec/Compression/Zlib -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc5716_0/ghc_26.s -o dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Raw.o
+*** CorePrep [Codec.Compression.Zlib.Raw]:
+Result size of CorePrep = {terms: 74, types: 117, coercions: 0}
+!!! CorePrep [Codec.Compression.Zlib.Raw]: finished in 0.00 milliseconds, allocated 0.157 megabytes
+*** Stg2Stg:
+*** CodeGen [Codec.Compression.Zlib.Raw]:
+!!! CodeGen [Codec.Compression.Zlib.Raw]: finished in 8.00 milliseconds, allocated 4.453 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Codec/Compression/Zlib -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc5716_0/ghc_28.s -o dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Raw.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc5716_0/ghc_29.c /tmp/ghc5716_0/ghc_28.s /tmp/ghc5716_0/ghc_27.c /tmp/ghc5716_0/ghc_26.s /tmp/ghc5716_0/ghc_25.s
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_29.c
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_27.c
+Warning: deleting non-existent /tmp/ghc5716_0/ghc_25.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc5716_0/ghc_3.hscpp /tmp/ghc5716_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc5716_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -o dist/dist-sandbox-6afc8227/build/libHSzlib-0.6.1.1-4cYT5jyS3jw6zZyCUZMz3T-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSzlib-0.6.1.1-4cYT5jyS3jw6zZyCUZMz3T-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Codec/Compression/GZip.dyn_o dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib.dyn_o dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Raw.dyn_o dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Internal.dyn_o dist/dist-sandbox-6afc8227/build/Codec/Compression/Zlib/Stream.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lz -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc7269_0
+*** Deleting temp files:
+Deleting: /tmp/ghc7269_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7269_0
+Creating package registration file:
+/tmp/pkgConf-zlib-0.6.121147380972007905771.1
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/zlib-0.6.1.1-4cYT5jyS3jw6zZyCUZMz3T
+Registering zlib-0.6.1.1...
+cabal: Leaving directory '/tmp/cabal-tmp-1049/zlib-0.6.1.1'

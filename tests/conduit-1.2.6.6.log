@@ -1,0 +1,1445 @@
+cabal: Entering directory '/tmp/cabal-tmp-1025/conduit-1.2.6.6'
+Configuring conduit-1.2.6.6...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc8439_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc8439_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc8439_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc8439_0/ghc_2.rsp /tmp/ghc8439_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8439_0
+Building conduit-1.2.6.6...
+Preprocessing library conduit-1.2.6.6...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.Conduit,*Data.Conduit.List,*Data.Conduit.Internal,*Data.Conduit.Lift,*Data.Conduit.Internal.Fusion,*Data.Conduit.Internal.List.Stream,*Data.Conduit.Internal.Pipe,*Data.Conduit.Internal.Conduit
+Created temporary directory: /tmp/ghc8462_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I . -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8462_0/ghc_2.h -x assembler-with-cpp ./Data/Conduit/List.hs -o /tmp/ghc8462_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I . -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8462_0/ghc_4.h -x assembler-with-cpp ./Data/Conduit/Internal/Pipe.hs -o /tmp/ghc8462_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I . -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8462_0/ghc_6.h -x assembler-with-cpp ./Data/Conduit/Internal/Conduit.hs -o /tmp/ghc8462_0/ghc_5.hscpp
+!!! Chasing dependencies: finished in 36.00 milliseconds, allocated 32.924 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-05 12:29:07 UTC
+         ms_mod = Data.Conduit.Internal.Pipe,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Monad.Catch), (Nothing, Control.Monad.Morph),
+                            (Nothing, GHC.Exts), (Nothing, Control.Monad.Trans.Resource),
+                            (Nothing, Data.Monoid), (Nothing, Data.Void),
+                            (Nothing, Control.Monad.Base), (Nothing, Control.Monad.IO.Class),
+                            (Nothing, Control.Monad.Trans.Class),
+                            (Nothing, Control.Monad.State.Class),
+                            (Nothing, Control.Monad.Writer.Class),
+                            (Nothing, Control.Monad.RWS.Class),
+                            (Nothing, Control.Monad.Reader.Class),
+                            (Nothing, Control.Monad.Error.Class), (Nothing, Control.Monad),
+                            (Nothing, Control.Exception.Lifted),
+                            (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-05 12:29:07 UTC
+         ms_mod = Data.Conduit.Internal.Conduit,
+         ms_textual_imps = [(Nothing, Control.Monad.Catch),
+                            (Nothing, Data.Traversable), (Nothing, Control.Monad),
+                            (Nothing, Data.Conduit.Internal.Pipe),
+                            (Nothing, Data.Conduit.Internal.Pipe),
+                            (Nothing, Control.Monad.Morph), (Nothing, Data.IORef),
+                            (Nothing, Control.Monad.Trans.Resource), (Nothing, Data.Monoid),
+                            (Nothing, Data.Void), (Nothing, Control.Monad.Base),
+                            (Nothing, Control.Monad.IO.Class),
+                            (Nothing, Control.Monad.Trans.Class),
+                            (Nothing, Control.Monad.State.Class),
+                            (Nothing, Control.Monad.Writer.Class),
+                            (Nothing, Control.Monad.RWS.Class),
+                            (Nothing, Control.Monad.Reader.Class),
+                            (Nothing, Control.Monad.Error.Class), (Nothing, Control.Monad),
+                            (Nothing, Control.Exception.Lifted),
+                            (Nothing, Control.Exception.Lifted),
+                            (Nothing, Control.Applicative), (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-05 12:29:07 UTC
+         ms_mod = Data.Conduit,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Conduit.Internal.Conduit)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-05 12:29:07 UTC
+         ms_mod = Data.Conduit.Internal.Fusion,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Void),
+                            (Nothing, Data.Functor.Identity),
+                            (Nothing, Data.Conduit.Internal.Pipe),
+                            (Nothing, Data.Conduit.Internal.Conduit)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-05 12:29:07 UTC
+         ms_mod = Data.Conduit.Internal,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Conduit.Internal.Fusion),
+                            (Nothing, Data.Conduit.Internal.Pipe),
+                            (Nothing, Data.Conduit.Internal.Conduit)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-05 12:29:07 UTC
+         ms_mod = Data.Conduit.Lift,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Control.Monad.Catch.Pure),
+                            (Nothing, Control.Monad.Trans.RWS.Lazy),
+                            (Nothing, Control.Monad.Trans.Writer.Lazy),
+                            (Nothing, Control.Monad.Trans.State.Lazy),
+                            (Nothing, Control.Monad.Trans.RWS.Strict),
+                            (Nothing, Control.Monad.Trans.Writer.Strict),
+                            (Nothing, Control.Monad.Trans.State.Strict),
+                            (Nothing, Control.Monad.Trans.Reader),
+                            (Nothing, Control.Monad.Trans.Maybe),
+                            (Nothing, Control.Monad.Trans.Error), (Nothing, Data.Monoid),
+                            (Nothing, Control.Exception), (Nothing, Control.Monad.Trans.Class),
+                            (Nothing, Control.Monad.Morph), (Nothing, Data.Conduit.Internal),
+                            (Nothing, Data.Conduit)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-05 12:29:07 UTC
+         ms_mod = Data.Conduit.Internal.List.Stream,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Foldable),
+                            (Nothing, Data.Conduit.Internal.Fusion), (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-05 12:29:07 UTC
+         ms_mod = Data.Conduit.List,
+         ms_textual_imps = [(Nothing, Control.Monad.Trans.Class),
+                            (Nothing, Control.Monad), (Nothing, Data.Conduit.Internal),
+                            (Nothing, Data.Conduit.Internal.List.Stream),
+                            (Nothing, Data.Conduit.Internal.Fusion), (Nothing, Data.Conduit),
+                            (Nothing, Data.Foldable), (Nothing, Data.Monoid),
+                            (Nothing, Prelude), (Nothing, Prelude)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc8462_0/ghc_6.h /tmp/ghc8462_0/ghc_4.h /tmp/ghc8462_0/ghc_2.h
+compile: input file /tmp/ghc8462_0/ghc_3.hscpp
+*** Checking old interface for Data.Conduit.Internal.Pipe:
+[1 of 8] Compiling Data.Conduit.Internal.Pipe ( Data/Conduit/Internal/Pipe.hs, dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/Pipe.o )
+*** Parser [Data.Conduit.Internal.Pipe]:
+!!! Parser [Data.Conduit.Internal.Pipe]: finished in 14.00 milliseconds, allocated 22.307 megabytes
+*** Renamer/typechecker [Data.Conduit.Internal.Pipe]:
+!!! Renamer/typechecker [Data.Conduit.Internal.Pipe]: finished in 552.00 milliseconds, allocated 366.681 megabytes
+*** Desugar [Data.Conduit.Internal.Pipe]:
+Result size of Desugar (after optimization)
+  = {terms: 2,498, types: 10,883, coercions: 14}
+!!! Desugar [Data.Conduit.Internal.Pipe]: finished in 42.00 milliseconds, allocated 29.916 megabytes
+
+Data/Conduit/Internal/Pipe.hs:222:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: CI.await >>= maybe" may never fire
+      because ‘maybe’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘maybe’
+
+Data/Conduit/Internal/Pipe.hs:231:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: awaitE >>= either" may never fire
+      because ‘either’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘either’
+
+Data/Conduit/Internal/Pipe.hs:263:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           yieldOr :: Monad m => o -> m () -> Pipe l i o u m ()
+
+Data/Conduit/Internal/Pipe.hs:273:5: warning: [-Winline-rule-shadowing]
+    Rule "lift m >>= CI.yield" may never fire
+      because ‘lift’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘lift’
+
+Data/Conduit/Internal/Pipe.hs:634:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: Pipe: lift x >>= f" may never fire
+      because ‘lift’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘lift’
+
+Data/Conduit/Internal/Pipe.hs:635:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: Pipe: lift x >> f" may never fire
+      because ‘lift’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘lift’
+*** Simplifier [Data.Conduit.Internal.Pipe]:
+Result size of Simplifier iteration=1
+  = {terms: 2,376, types: 10,133, coercions: 38}
+Result size of Simplifier iteration=2
+  = {terms: 2,347, types: 10,015, coercions: 38}
+Result size of Simplifier iteration=3
+  = {terms: 2,345, types: 10,013, coercions: 38}
+Result size of Simplifier
+  = {terms: 2,345, types: 10,013, coercions: 38}
+!!! Simplifier [Data.Conduit.Internal.Pipe]: finished in 77.00 milliseconds, allocated 51.351 megabytes
+*** Specialise [Data.Conduit.Internal.Pipe]:
+Result size of Specialise
+  = {terms: 2,345, types: 10,013, coercions: 38}
+!!! Specialise [Data.Conduit.Internal.Pipe]: finished in 7.00 milliseconds, allocated 4.284 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.Internal.Pipe]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 2,454, types: 10,541, coercions: 38}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.Internal.Pipe]: finished in 31.00 milliseconds, allocated 39.223 megabytes
+*** Simplifier [Data.Conduit.Internal.Pipe]:
+Result size of Simplifier iteration=1
+  = {terms: 2,809, types: 10,652, coercions: 154}
+Result size of Simplifier iteration=2
+  = {terms: 2,639, types: 9,998, coercions: 114}
+Result size of Simplifier
+  = {terms: 2,639, types: 9,998, coercions: 114}
+!!! Simplifier [Data.Conduit.Internal.Pipe]: finished in 73.00 milliseconds, allocated 44.210 megabytes
+*** Simplifier [Data.Conduit.Internal.Pipe]:
+Result size of Simplifier iteration=1
+  = {terms: 2,735, types: 10,310, coercions: 114}
+Result size of Simplifier
+  = {terms: 2,735, types: 10,310, coercions: 114}
+!!! Simplifier [Data.Conduit.Internal.Pipe]: finished in 116.00 milliseconds, allocated 27.386 megabytes
+*** Simplifier [Data.Conduit.Internal.Pipe]:
+Result size of Simplifier iteration=1
+  = {terms: 2,754, types: 10,352, coercions: 124}
+Result size of Simplifier
+  = {terms: 2,754, types: 10,352, coercions: 124}
+!!! Simplifier [Data.Conduit.Internal.Pipe]: finished in 50.00 milliseconds, allocated 35.123 megabytes
+*** Float inwards [Data.Conduit.Internal.Pipe]:
+Result size of Float inwards
+  = {terms: 2,757, types: 10,356, coercions: 124}
+!!! Float inwards [Data.Conduit.Internal.Pipe]: finished in 9.00 milliseconds, allocated 10.251 megabytes
+*** Called arity analysis [Data.Conduit.Internal.Pipe]:
+Result size of Called arity analysis
+  = {terms: 2,757, types: 10,356, coercions: 124}
+!!! Called arity analysis [Data.Conduit.Internal.Pipe]: finished in 6.00 milliseconds, allocated 4.597 megabytes
+*** Simplifier [Data.Conduit.Internal.Pipe]:
+Result size of Simplifier iteration=1
+  = {terms: 2,755, types: 10,354, coercions: 124}
+Result size of Simplifier
+  = {terms: 2,755, types: 10,354, coercions: 124}
+!!! Simplifier [Data.Conduit.Internal.Pipe]: finished in 43.00 milliseconds, allocated 27.353 megabytes
+*** Demand analysis [Data.Conduit.Internal.Pipe]:
+Result size of Demand analysis
+  = {terms: 2,755, types: 10,354, coercions: 124}
+!!! Demand analysis [Data.Conduit.Internal.Pipe]: finished in 14.00 milliseconds, allocated 17.163 megabytes
+*** Worker Wrapper binds [Data.Conduit.Internal.Pipe]:
+Result size of Worker Wrapper binds
+  = {terms: 3,129, types: 12,511, coercions: 124}
+!!! Worker Wrapper binds [Data.Conduit.Internal.Pipe]: finished in 4.00 milliseconds, allocated 1.984 megabytes
+*** Simplifier [Data.Conduit.Internal.Pipe]:
+Result size of Simplifier iteration=1
+  = {terms: 2,982, types: 11,909, coercions: 124}
+Result size of Simplifier iteration=2
+  = {terms: 2,928, types: 11,599, coercions: 124}
+Result size of Simplifier
+  = {terms: 2,928, types: 11,599, coercions: 124}
+!!! Simplifier [Data.Conduit.Internal.Pipe]: finished in 59.00 milliseconds, allocated 48.417 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.Internal.Pipe]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 3,007, types: 12,041, coercions: 124}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.Internal.Pipe]: finished in 36.00 milliseconds, allocated 46.424 megabytes
+*** Common sub-expression [Data.Conduit.Internal.Pipe]:
+Result size of Common sub-expression
+  = {terms: 2,952, types: 11,867, coercions: 124}
+!!! Common sub-expression [Data.Conduit.Internal.Pipe]: finished in 15.00 milliseconds, allocated 5.156 megabytes
+*** Float inwards [Data.Conduit.Internal.Pipe]:
+Result size of Float inwards
+  = {terms: 2,952, types: 11,867, coercions: 124}
+!!! Float inwards [Data.Conduit.Internal.Pipe]: finished in 9.00 milliseconds, allocated 9.240 megabytes
+*** Simplifier [Data.Conduit.Internal.Pipe]:
+Result size of Simplifier iteration=1
+  = {terms: 2,940, types: 11,738, coercions: 124}
+Result size of Simplifier
+  = {terms: 2,940, types: 11,738, coercions: 124}
+!!! Simplifier [Data.Conduit.Internal.Pipe]: finished in 59.00 milliseconds, allocated 31.466 megabytes
+*** CoreTidy [Data.Conduit.Internal.Pipe]:
+Result size of Tidy Core
+  = {terms: 2,940, types: 11,738, coercions: 124}
+!!! CoreTidy [Data.Conduit.Internal.Pipe]: finished in 16.00 milliseconds, allocated 6.644 megabytes
+writeBinIface: 207 Names
+writeBinIface: 381 dict entries
+writeBinIface: 207 Names
+writeBinIface: 381 dict entries
+*** CorePrep [Data.Conduit.Internal.Pipe]:
+Result size of CorePrep
+  = {terms: 3,991, types: 15,523, coercions: 124}
+!!! CorePrep [Data.Conduit.Internal.Pipe]: finished in 11.00 milliseconds, allocated 10.802 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.Internal.Pipe]:
+!!! CodeGen [Data.Conduit.Internal.Pipe]: finished in 244.00 milliseconds, allocated 204.810 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit/Internal -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -x assembler -c /tmp/ghc8462_0/ghc_8.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/Pipe.o
+*** CorePrep [Data.Conduit.Internal.Pipe]:
+Result size of CorePrep
+  = {terms: 3,991, types: 15,523, coercions: 124}
+!!! CorePrep [Data.Conduit.Internal.Pipe]: finished in 14.00 milliseconds, allocated 10.463 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.Internal.Pipe]:
+!!! CodeGen [Data.Conduit.Internal.Pipe]: finished in 222.00 milliseconds, allocated 215.219 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit/Internal -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8462_0/ghc_10.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/Pipe.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8462_0/ghc_11.c /tmp/ghc8462_0/ghc_10.s /tmp/ghc8462_0/ghc_9.c /tmp/ghc8462_0/ghc_8.s /tmp/ghc8462_0/ghc_7.s
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_11.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_9.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_7.s
+compile: input file /tmp/ghc8462_0/ghc_5.hscpp
+*** Checking old interface for Data.Conduit.Internal.Conduit:
+[2 of 8] Compiling Data.Conduit.Internal.Conduit ( Data/Conduit/Internal/Conduit.hs, dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/Conduit.o )
+*** Parser [Data.Conduit.Internal.Conduit]:
+!!! Parser [Data.Conduit.Internal.Conduit]: finished in 26.00 milliseconds, allocated 41.078 megabytes
+*** Renamer/typechecker [Data.Conduit.Internal.Conduit]:
+!!! Renamer/typechecker [Data.Conduit.Internal.Conduit]: finished in 374.00 milliseconds, allocated 214.531 megabytes
+*** Desugar [Data.Conduit.Internal.Conduit]:
+Result size of Desugar (after optimization)
+  = {terms: 4,527, types: 17,870, coercions: 574}
+!!! Desugar [Data.Conduit.Internal.Conduit]: finished in 56.00 milliseconds, allocated 44.071 megabytes
+
+Data/Conduit/Internal/Conduit.hs:88:1: warning: [-Wdodgy-imports]
+    Module ‘Prelude’ does not export ‘catch’
+
+Data/Conduit/Internal/Conduit.hs:248:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the instance declaration for ‘Monoid (ConduitM i o m ())’
+
+Data/Conduit/Internal/Conduit.hs:820:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           await :: Monad m => Consumer i m (Maybe i)
+
+Data/Conduit/Internal/Conduit.hs:824:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           await' :: Monad m =>
+                     ConduitM i o m r -> (i -> ConduitM i o m r) -> ConduitM i o m r
+
+Data/Conduit/Internal/Conduit.hs:832:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: await >>= maybe" may never fire
+      because ‘maybe’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘maybe’
+
+Data/Conduit/Internal/Conduit.hs:923:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           yieldOr :: Monad m => o -> m () -> ConduitM i o m ()
+
+Data/Conduit/Internal/Conduit.hs:937:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           awaitForever :: Monad m =>
+                           (i -> ConduitM i o m r) -> ConduitM i o m ()
+
+Data/Conduit/Internal/Conduit.hs:1107:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the instance declaration for ‘Functor (ZipSink i m)’
+*** Simplifier [Data.Conduit.Internal.Conduit]:
+Result size of Simplifier iteration=1
+  = {terms: 4,335, types: 16,982, coercions: 1,452}
+Result size of Simplifier iteration=2
+  = {terms: 4,307, types: 16,904, coercions: 1,420}
+Result size of Simplifier iteration=3
+  = {terms: 4,307, types: 16,904, coercions: 1,420}
+Result size of Simplifier iteration=4
+  = {terms: 4,307, types: 16,904, coercions: 1,420}
+Result size of Simplifier
+  = {terms: 4,307, types: 16,904, coercions: 1,420}
+!!! Simplifier [Data.Conduit.Internal.Conduit]: finished in 140.00 milliseconds, allocated 90.377 megabytes
+*** Specialise [Data.Conduit.Internal.Conduit]:
+Result size of Specialise
+  = {terms: 4,315, types: 16,923, coercions: 1,420}
+!!! Specialise [Data.Conduit.Internal.Conduit]: finished in 7.00 milliseconds, allocated 6.944 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.Internal.Conduit]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 4,886, types: 20,551, coercions: 1,420}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.Internal.Conduit]: finished in 56.00 milliseconds, allocated 64.109 megabytes
+*** Simplifier [Data.Conduit.Internal.Conduit]:
+Result size of Simplifier iteration=1
+  = {terms: 5,920, types: 21,344, coercions: 2,442}
+Result size of Simplifier iteration=2
+  = {terms: 5,220, types: 17,530, coercions: 2,627}
+Result size of Simplifier iteration=3
+  = {terms: 5,201, types: 17,478, coercions: 2,629}
+Result size of Simplifier iteration=4
+  = {terms: 5,199, types: 17,459, coercions: 2,604}
+Result size of Simplifier
+  = {terms: 5,199, types: 17,459, coercions: 2,604}
+!!! Simplifier [Data.Conduit.Internal.Conduit]: finished in 242.00 milliseconds, allocated 142.719 megabytes
+*** Simplifier [Data.Conduit.Internal.Conduit]:
+Result size of Simplifier iteration=1
+  = {terms: 5,284, types: 17,895, coercions: 2,602}
+Result size of Simplifier iteration=2
+  = {terms: 5,277, types: 17,875, coercions: 2,602}
+Result size of Simplifier iteration=3
+  = {terms: 5,277, types: 17,875, coercions: 2,602}
+Result size of Simplifier iteration=4
+  = {terms: 5,277, types: 17,875, coercions: 2,602}
+Result size of Simplifier
+  = {terms: 5,277, types: 17,875, coercions: 2,602}
+!!! Simplifier [Data.Conduit.Internal.Conduit]: finished in 252.00 milliseconds, allocated 118.508 megabytes
+*** Simplifier [Data.Conduit.Internal.Conduit]:
+Result size of Simplifier iteration=1
+  = {terms: 5,337, types: 18,025, coercions: 2,679}
+Result size of Simplifier iteration=2
+  = {terms: 5,324, types: 18,006, coercions: 2,670}
+Result size of Simplifier iteration=3
+  = {terms: 5,304, types: 17,913, coercions: 2,628}
+Result size of Simplifier iteration=4
+  = {terms: 5,304, types: 17,913, coercions: 2,628}
+Result size of Simplifier
+  = {terms: 5,304, types: 17,913, coercions: 2,628}
+!!! Simplifier [Data.Conduit.Internal.Conduit]: finished in 154.00 milliseconds, allocated 117.135 megabytes
+*** Float inwards [Data.Conduit.Internal.Conduit]:
+Result size of Float inwards
+  = {terms: 5,304, types: 17,913, coercions: 2,628}
+!!! Float inwards [Data.Conduit.Internal.Conduit]: finished in 21.00 milliseconds, allocated 19.730 megabytes
+*** Called arity analysis [Data.Conduit.Internal.Conduit]:
+Result size of Called arity analysis
+  = {terms: 5,304, types: 17,913, coercions: 2,628}
+!!! Called arity analysis [Data.Conduit.Internal.Conduit]: finished in 9.00 milliseconds, allocated 9.785 megabytes
+*** Simplifier [Data.Conduit.Internal.Conduit]:
+Result size of Simplifier iteration=1
+  = {terms: 5,304, types: 17,913, coercions: 2,628}
+Result size of Simplifier iteration=2
+  = {terms: 5,304, types: 17,913, coercions: 2,628}
+Result size of Simplifier iteration=3
+  = {terms: 5,304, types: 17,913, coercions: 2,628}
+Result size of Simplifier iteration=4
+  = {terms: 5,304, types: 17,913, coercions: 2,628}
+Result size of Simplifier
+  = {terms: 5,304, types: 17,913, coercions: 2,628}
+!!! Simplifier [Data.Conduit.Internal.Conduit]: finished in 159.00 milliseconds, allocated 115.950 megabytes
+*** Demand analysis [Data.Conduit.Internal.Conduit]:
+Result size of Demand analysis
+  = {terms: 5,304, types: 17,913, coercions: 2,628}
+!!! Demand analysis [Data.Conduit.Internal.Conduit]: finished in 25.00 milliseconds, allocated 31.769 megabytes
+*** Worker Wrapper binds [Data.Conduit.Internal.Conduit]:
+Result size of Worker Wrapper binds
+  = {terms: 5,682, types: 19,510, coercions: 2,628}
+!!! Worker Wrapper binds [Data.Conduit.Internal.Conduit]: finished in 6.00 milliseconds, allocated 2.936 megabytes
+*** Simplifier [Data.Conduit.Internal.Conduit]:
+Result size of Simplifier iteration=1
+  = {terms: 5,510, types: 19,019, coercions: 2,628}
+Result size of Simplifier iteration=2
+  = {terms: 5,430, types: 18,609, coercions: 2,628}
+Result size of Simplifier iteration=3
+  = {terms: 5,430, types: 18,609, coercions: 2,628}
+Result size of Simplifier iteration=4
+  = {terms: 5,430, types: 18,609, coercions: 2,628}
+Result size of Simplifier
+  = {terms: 5,430, types: 18,609, coercions: 2,628}
+!!! Simplifier [Data.Conduit.Internal.Conduit]: finished in 187.00 milliseconds, allocated 136.574 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.Internal.Conduit]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 5,565, types: 19,364, coercions: 2,628}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.Internal.Conduit]: finished in 59.00 milliseconds, allocated 73.223 megabytes
+*** Common sub-expression [Data.Conduit.Internal.Conduit]:
+Result size of Common sub-expression
+  = {terms: 5,490, types: 19,181, coercions: 2,625}
+!!! Common sub-expression [Data.Conduit.Internal.Conduit]: finished in 12.00 milliseconds, allocated 9.196 megabytes
+*** Float inwards [Data.Conduit.Internal.Conduit]:
+Result size of Float inwards
+  = {terms: 5,490, types: 19,181, coercions: 2,625}
+!!! Float inwards [Data.Conduit.Internal.Conduit]: finished in 14.00 milliseconds, allocated 20.206 megabytes
+*** Simplifier [Data.Conduit.Internal.Conduit]:
+Result size of Simplifier iteration=1
+  = {terms: 5,455, types: 19,011, coercions: 2,625}
+Result size of Simplifier iteration=2
+  = {terms: 5,449, types: 18,996, coercions: 2,625}
+Result size of Simplifier iteration=3
+  = {terms: 5,443, types: 18,973, coercions: 2,625}
+Result size of Simplifier iteration=4
+  = {terms: 5,443, types: 18,973, coercions: 2,625}
+Result size of Simplifier
+  = {terms: 5,443, types: 18,973, coercions: 2,625}
+!!! Simplifier [Data.Conduit.Internal.Conduit]: finished in 187.00 milliseconds, allocated 134.800 megabytes
+*** CoreTidy [Data.Conduit.Internal.Conduit]:
+Result size of Tidy Core
+  = {terms: 5,441, types: 18,964, coercions: 2,625}
+!!! CoreTidy [Data.Conduit.Internal.Conduit]: finished in 18.00 milliseconds, allocated 13.183 megabytes
+writeBinIface: 379 Names
+writeBinIface: 579 dict entries
+writeBinIface: 379 Names
+writeBinIface: 579 dict entries
+*** CorePrep [Data.Conduit.Internal.Conduit]:
+Result size of CorePrep
+  = {terms: 7,505, types: 25,733, coercions: 2,658}
+!!! CorePrep [Data.Conduit.Internal.Conduit]: finished in 27.00 milliseconds, allocated 18.246 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.Internal.Conduit]:
+!!! CodeGen [Data.Conduit.Internal.Conduit]: finished in 436.00 milliseconds, allocated 401.896 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit/Internal -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -x assembler -c /tmp/ghc8462_0/ghc_13.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/Conduit.o
+*** CorePrep [Data.Conduit.Internal.Conduit]:
+Result size of CorePrep
+  = {terms: 7,505, types: 25,733, coercions: 2,658}
+!!! CorePrep [Data.Conduit.Internal.Conduit]: finished in 22.00 milliseconds, allocated 17.656 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.Internal.Conduit]:
+!!! CodeGen [Data.Conduit.Internal.Conduit]: finished in 426.00 milliseconds, allocated 424.009 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit/Internal -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8462_0/ghc_15.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/Conduit.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8462_0/ghc_16.c /tmp/ghc8462_0/ghc_15.s /tmp/ghc8462_0/ghc_14.c /tmp/ghc8462_0/ghc_13.s /tmp/ghc8462_0/ghc_12.s
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_16.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_14.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_12.s
+compile: input file ./Data/Conduit.hs
+*** Checking old interface for Data.Conduit:
+[3 of 8] Compiling Data.Conduit     ( Data/Conduit.hs, dist/dist-sandbox-6afc8227/build/Data/Conduit.o )
+*** Parser [Data.Conduit]:
+!!! Parser [Data.Conduit]: finished in 1.00 milliseconds, allocated 1.691 megabytes
+*** Renamer/typechecker [Data.Conduit]:
+!!! Renamer/typechecker [Data.Conduit]: finished in 3.00 milliseconds, allocated 2.084 megabytes
+*** Desugar [Data.Conduit]:
+Result size of Desugar (after optimization)
+  = {terms: 10, types: 48, coercions: 0}
+!!! Desugar [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.249 megabytes
+*** Simplifier [Data.Conduit]:
+Result size of Simplifier iteration=1
+  = {terms: 14, types: 50, coercions: 0}
+Result size of Simplifier = {terms: 14, types: 50, coercions: 0}
+!!! Simplifier [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.157 megabytes
+*** Specialise [Data.Conduit]:
+Result size of Specialise = {terms: 14, types: 50, coercions: 0}
+!!! Specialise [Data.Conduit]: finished in 1.00 milliseconds, allocated 0.056 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 14, types: 50, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.096 megabytes
+*** Simplifier [Data.Conduit]:
+Result size of Simplifier = {terms: 14, types: 50, coercions: 0}
+!!! Simplifier [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.083 megabytes
+*** Simplifier [Data.Conduit]:
+Result size of Simplifier = {terms: 14, types: 50, coercions: 0}
+!!! Simplifier [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.082 megabytes
+*** Simplifier [Data.Conduit]:
+Result size of Simplifier = {terms: 14, types: 50, coercions: 0}
+!!! Simplifier [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.082 megabytes
+*** Float inwards [Data.Conduit]:
+Result size of Float inwards = {terms: 14, types: 50, coercions: 0}
+!!! Float inwards [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Called arity analysis [Data.Conduit]:
+Result size of Called arity analysis
+  = {terms: 14, types: 50, coercions: 0}
+!!! Called arity analysis [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.067 megabytes
+*** Simplifier [Data.Conduit]:
+Result size of Simplifier = {terms: 14, types: 50, coercions: 0}
+!!! Simplifier [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.082 megabytes
+*** Demand analysis [Data.Conduit]:
+Result size of Demand analysis
+  = {terms: 14, types: 50, coercions: 0}
+!!! Demand analysis [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.068 megabytes
+*** Worker Wrapper binds [Data.Conduit]:
+Result size of Worker Wrapper binds
+  = {terms: 14, types: 50, coercions: 0}
+!!! Worker Wrapper binds [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Simplifier [Data.Conduit]:
+Result size of Simplifier = {terms: 14, types: 50, coercions: 0}
+!!! Simplifier [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.085 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 14, types: 50, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit]: finished in 1.00 milliseconds, allocated 0.095 megabytes
+*** Common sub-expression [Data.Conduit]:
+Result size of Common sub-expression
+  = {terms: 14, types: 50, coercions: 0}
+!!! Common sub-expression [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.054 megabytes
+*** Float inwards [Data.Conduit]:
+Result size of Float inwards = {terms: 14, types: 50, coercions: 0}
+!!! Float inwards [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [Data.Conduit]:
+Result size of Simplifier = {terms: 14, types: 50, coercions: 0}
+!!! Simplifier [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.085 megabytes
+*** CoreTidy [Data.Conduit]:
+Result size of Tidy Core = {terms: 14, types: 50, coercions: 0}
+!!! CoreTidy [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.078 megabytes
+writeBinIface: 70 Names
+writeBinIface: 122 dict entries
+writeBinIface: 70 Names
+writeBinIface: 122 dict entries
+*** CorePrep [Data.Conduit]:
+Result size of CorePrep = {terms: 34, types: 98, coercions: 0}
+!!! CorePrep [Data.Conduit]: finished in 0.00 milliseconds, allocated 0.074 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit]:
+!!! CodeGen [Data.Conduit]: finished in 1.00 milliseconds, allocated 0.662 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -x assembler -c /tmp/ghc8462_0/ghc_18.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit.o
+*** CorePrep [Data.Conduit]:
+Result size of CorePrep = {terms: 34, types: 98, coercions: 0}
+!!! CorePrep [Data.Conduit]: finished in 1.00 milliseconds, allocated 0.076 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit]:
+!!! CodeGen [Data.Conduit]: finished in 1.00 milliseconds, allocated 0.666 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8462_0/ghc_20.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8462_0/ghc_21.c /tmp/ghc8462_0/ghc_20.s /tmp/ghc8462_0/ghc_19.c /tmp/ghc8462_0/ghc_18.s /tmp/ghc8462_0/ghc_17.s
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_21.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_19.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_17.s
+compile: input file ./Data/Conduit/Internal/Fusion.hs
+*** Checking old interface for Data.Conduit.Internal.Fusion:
+[4 of 8] Compiling Data.Conduit.Internal.Fusion ( Data/Conduit/Internal/Fusion.hs, dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/Fusion.o )
+*** Parser [Data.Conduit.Internal.Fusion]:
+!!! Parser [Data.Conduit.Internal.Fusion]: finished in 4.00 milliseconds, allocated 6.428 megabytes
+*** Renamer/typechecker [Data.Conduit.Internal.Fusion]:
+!!! Renamer/typechecker [Data.Conduit.Internal.Fusion]: finished in 39.00 milliseconds, allocated 35.793 megabytes
+*** Desugar [Data.Conduit.Internal.Fusion]:
+Result size of Desugar (after optimization)
+  = {terms: 486, types: 1,396, coercions: 17}
+!!! Desugar [Data.Conduit.Internal.Fusion]: finished in 12.00 milliseconds, allocated 6.209 megabytes
+*** Simplifier [Data.Conduit.Internal.Fusion]:
+Result size of Simplifier iteration=1
+  = {terms: 469, types: 1,314, coercions: 53}
+Result size of Simplifier
+  = {terms: 465, types: 1,307, coercions: 53}
+!!! Simplifier [Data.Conduit.Internal.Fusion]: finished in 8.00 milliseconds, allocated 6.790 megabytes
+*** Specialise [Data.Conduit.Internal.Fusion]:
+Result size of Specialise
+  = {terms: 465, types: 1,307, coercions: 53}
+!!! Specialise [Data.Conduit.Internal.Fusion]: finished in 0.00 milliseconds, allocated 0.684 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.Internal.Fusion]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 509, types: 1,527, coercions: 53}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.Internal.Fusion]: finished in 4.00 milliseconds, allocated 5.046 megabytes
+*** Simplifier [Data.Conduit.Internal.Fusion]:
+Result size of Simplifier iteration=1
+  = {terms: 509, types: 1,300, coercions: 31}
+Result size of Simplifier iteration=2
+  = {terms: 493, types: 1,159, coercions: 31}
+Result size of Simplifier
+  = {terms: 493, types: 1,159, coercions: 31}
+!!! Simplifier [Data.Conduit.Internal.Fusion]: finished in 13.00 milliseconds, allocated 11.022 megabytes
+*** Simplifier [Data.Conduit.Internal.Fusion]:
+Result size of Simplifier
+  = {terms: 493, types: 1,159, coercions: 31}
+!!! Simplifier [Data.Conduit.Internal.Fusion]: finished in 4.00 milliseconds, allocated 3.439 megabytes
+*** Simplifier [Data.Conduit.Internal.Fusion]:
+Result size of Simplifier
+  = {terms: 493, types: 1,159, coercions: 31}
+!!! Simplifier [Data.Conduit.Internal.Fusion]: finished in 5.00 milliseconds, allocated 3.441 megabytes
+*** Float inwards [Data.Conduit.Internal.Fusion]:
+Result size of Float inwards
+  = {terms: 493, types: 1,159, coercions: 31}
+!!! Float inwards [Data.Conduit.Internal.Fusion]: finished in 1.00 milliseconds, allocated 1.527 megabytes
+*** Called arity analysis [Data.Conduit.Internal.Fusion]:
+Result size of Called arity analysis
+  = {terms: 493, types: 1,159, coercions: 31}
+!!! Called arity analysis [Data.Conduit.Internal.Fusion]: finished in 0.00 milliseconds, allocated 0.592 megabytes
+*** Simplifier [Data.Conduit.Internal.Fusion]:
+Result size of Simplifier
+  = {terms: 493, types: 1,159, coercions: 31}
+!!! Simplifier [Data.Conduit.Internal.Fusion]: finished in 4.00 milliseconds, allocated 3.437 megabytes
+*** Demand analysis [Data.Conduit.Internal.Fusion]:
+Result size of Demand analysis
+  = {terms: 493, types: 1,159, coercions: 31}
+!!! Demand analysis [Data.Conduit.Internal.Fusion]: finished in 3.00 milliseconds, allocated 2.816 megabytes
+*** Worker Wrapper binds [Data.Conduit.Internal.Fusion]:
+Result size of Worker Wrapper binds
+  = {terms: 493, types: 1,159, coercions: 31}
+!!! Worker Wrapper binds [Data.Conduit.Internal.Fusion]: finished in 0.00 milliseconds, allocated 0.227 megabytes
+*** Simplifier [Data.Conduit.Internal.Fusion]:
+Result size of Simplifier
+  = {terms: 493, types: 1,159, coercions: 31}
+!!! Simplifier [Data.Conduit.Internal.Fusion]: finished in 5.00 milliseconds, allocated 3.719 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.Internal.Fusion]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 493, types: 1,159, coercions: 31}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.Internal.Fusion]: finished in 7.00 milliseconds, allocated 4.621 megabytes
+*** Common sub-expression [Data.Conduit.Internal.Fusion]:
+Result size of Common sub-expression
+  = {terms: 487, types: 1,137, coercions: 31}
+!!! Common sub-expression [Data.Conduit.Internal.Fusion]: finished in 0.00 milliseconds, allocated 1.106 megabytes
+*** Float inwards [Data.Conduit.Internal.Fusion]:
+Result size of Float inwards
+  = {terms: 487, types: 1,137, coercions: 31}
+!!! Float inwards [Data.Conduit.Internal.Fusion]: finished in 0.00 milliseconds, allocated 1.173 megabytes
+*** Simplifier [Data.Conduit.Internal.Fusion]:
+Result size of Simplifier iteration=1
+  = {terms: 479, types: 1,105, coercions: 31}
+Result size of Simplifier
+  = {terms: 479, types: 1,105, coercions: 31}
+!!! Simplifier [Data.Conduit.Internal.Fusion]: finished in 9.00 milliseconds, allocated 6.913 megabytes
+*** CoreTidy [Data.Conduit.Internal.Fusion]:
+Result size of Tidy Core
+  = {terms: 479, types: 1,105, coercions: 31}
+!!! CoreTidy [Data.Conduit.Internal.Fusion]: finished in 1.00 milliseconds, allocated 1.158 megabytes
+writeBinIface: 67 Names
+writeBinIface: 171 dict entries
+writeBinIface: 67 Names
+writeBinIface: 171 dict entries
+*** CorePrep [Data.Conduit.Internal.Fusion]:
+Result size of CorePrep = {terms: 611, types: 1,488, coercions: 31}
+!!! CorePrep [Data.Conduit.Internal.Fusion]: finished in 2.00 milliseconds, allocated 1.370 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.Internal.Fusion]:
+!!! CodeGen [Data.Conduit.Internal.Fusion]: finished in 30.00 milliseconds, allocated 32.918 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit/Internal -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -x assembler -c /tmp/ghc8462_0/ghc_23.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/Fusion.o
+*** CorePrep [Data.Conduit.Internal.Fusion]:
+Result size of CorePrep = {terms: 611, types: 1,488, coercions: 31}
+!!! CorePrep [Data.Conduit.Internal.Fusion]: finished in 1.00 milliseconds, allocated 1.314 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.Internal.Fusion]:
+!!! CodeGen [Data.Conduit.Internal.Fusion]: finished in 34.00 milliseconds, allocated 34.733 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit/Internal -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8462_0/ghc_25.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/Fusion.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8462_0/ghc_26.c /tmp/ghc8462_0/ghc_25.s /tmp/ghc8462_0/ghc_24.c /tmp/ghc8462_0/ghc_23.s /tmp/ghc8462_0/ghc_22.s
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_26.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_24.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_22.s
+compile: input file ./Data/Conduit/Internal.hs
+*** Checking old interface for Data.Conduit.Internal:
+[5 of 8] Compiling Data.Conduit.Internal ( Data/Conduit/Internal.hs, dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal.o )
+*** Parser [Data.Conduit.Internal]:
+!!! Parser [Data.Conduit.Internal]: finished in 1.00 milliseconds, allocated 0.656 megabytes
+*** Renamer/typechecker [Data.Conduit.Internal]:
+!!! Renamer/typechecker [Data.Conduit.Internal]: finished in 1.00 milliseconds, allocated 1.627 megabytes
+*** Desugar [Data.Conduit.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.134 megabytes
+*** Simplifier [Data.Conduit.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.135 megabytes
+*** Specialise [Data.Conduit.Internal]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Data.Conduit.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.Conduit.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.Conduit.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Float inwards [Data.Conduit.Internal]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Data.Conduit.Internal]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.Conduit.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Data.Conduit.Internal]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Data.Conduit.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.046 megabytes
+*** Simplifier [Data.Conduit.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.088 megabytes
+*** Common sub-expression [Data.Conduit.Internal]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [Data.Conduit.Internal]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Data.Conduit.Internal]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Data.Conduit.Internal]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 120 Names
+writeBinIface: 164 dict entries
+writeBinIface: 120 Names
+writeBinIface: 164 dict entries
+*** CorePrep [Data.Conduit.Internal]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.Internal]:
+!!! CodeGen [Data.Conduit.Internal]: finished in 1.00 milliseconds, allocated 0.297 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -x assembler -c /tmp/ghc8462_0/ghc_28.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal.o
+*** CorePrep [Data.Conduit.Internal]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.Conduit.Internal]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.Internal]:
+!!! CodeGen [Data.Conduit.Internal]: finished in 1.00 milliseconds, allocated 0.293 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8462_0/ghc_30.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8462_0/ghc_31.c /tmp/ghc8462_0/ghc_30.s /tmp/ghc8462_0/ghc_29.c /tmp/ghc8462_0/ghc_28.s /tmp/ghc8462_0/ghc_27.s
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_31.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_29.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_27.s
+compile: input file ./Data/Conduit/Lift.hs
+*** Checking old interface for Data.Conduit.Lift:
+[6 of 8] Compiling Data.Conduit.Lift ( Data/Conduit/Lift.hs, dist/dist-sandbox-6afc8227/build/Data/Conduit/Lift.o )
+*** Parser [Data.Conduit.Lift]:
+!!! Parser [Data.Conduit.Lift]: finished in 7.00 milliseconds, allocated 17.335 megabytes
+*** Renamer/typechecker [Data.Conduit.Lift]:
+!!! Renamer/typechecker [Data.Conduit.Lift]: finished in 92.00 milliseconds, allocated 82.421 megabytes
+*** Desugar [Data.Conduit.Lift]:
+Result size of Desugar (after optimization)
+  = {terms: 1,507, types: 6,192, coercions: 78}
+!!! Desugar [Data.Conduit.Lift]: finished in 32.00 milliseconds, allocated 23.130 megabytes
+
+Data/Conduit/Lift.hs:78:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+
+Data/Conduit/Lift.hs:129:26: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Data/Conduit/Lift.hs:129:56: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Data/Conduit/Lift.hs:131:29: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Data/Conduit/Lift.hs:134:12: warning: [-Wdeprecations]
+    In the use of data constructor ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Data/Conduit/Lift.hs:139:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: E.Error e
+    • In the type signature for:
+           runErrorC :: (Monad m, E.Error e) =>
+                        ConduitM i o (E.ErrorT e m) r -> ConduitM i o m (Either e r)
+
+Data/Conduit/Lift.hs:140:16: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Data/Conduit/Lift.hs:141:20: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Data/Conduit/Lift.hs:146:25: warning: [-Wdeprecations]
+    In the use of ‘runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Data/Conduit/Lift.hs:151:56: warning: [-Wdeprecations]
+    In the use of ‘runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Data/Conduit/Lift.hs:160:16: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Data/Conduit/Lift.hs:161:20: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Data/Conduit/Lift.hs:162:29: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Data/Conduit/Lift.hs:163:23: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Data/Conduit/Lift.hs:168:32: warning: [-Wdeprecations]
+    In the use of ‘runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+*** Simplifier [Data.Conduit.Lift]:
+Result size of Simplifier iteration=1
+  = {terms: 1,415, types: 5,868, coercions: 197}
+Result size of Simplifier iteration=2
+  = {terms: 1,376, types: 5,830, coercions: 197}
+Result size of Simplifier
+  = {terms: 1,376, types: 5,830, coercions: 197}
+!!! Simplifier [Data.Conduit.Lift]: finished in 49.00 milliseconds, allocated 34.233 megabytes
+*** Specialise [Data.Conduit.Lift]:
+Result size of Specialise
+  = {terms: 1,380, types: 5,856, coercions: 201}
+!!! Specialise [Data.Conduit.Lift]: finished in 3.00 milliseconds, allocated 2.265 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.Lift]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,652, types: 7,524, coercions: 201}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.Lift]: finished in 17.00 milliseconds, allocated 24.521 megabytes
+*** Simplifier [Data.Conduit.Lift]:
+Result size of Simplifier iteration=1
+  = {terms: 2,049, types: 8,163, coercions: 1,306}
+Result size of Simplifier iteration=2
+  = {terms: 1,589, types: 5,620, coercions: 732}
+Result size of Simplifier
+  = {terms: 1,589, types: 5,620, coercions: 732}
+!!! Simplifier [Data.Conduit.Lift]: finished in 75.00 milliseconds, allocated 51.575 megabytes
+*** Simplifier [Data.Conduit.Lift]:
+Result size of Simplifier iteration=1
+  = {terms: 1,774, types: 6,508, coercions: 728}
+Result size of Simplifier
+  = {terms: 1,755, types: 6,459, coercions: 728}
+!!! Simplifier [Data.Conduit.Lift]: finished in 30.00 milliseconds, allocated 27.338 megabytes
+*** Simplifier [Data.Conduit.Lift]:
+Result size of Simplifier iteration=1
+  = {terms: 1,783, types: 6,630, coercions: 678}
+Result size of Simplifier iteration=2
+  = {terms: 1,777, types: 6,585, coercions: 678}
+Result size of Simplifier
+  = {terms: 1,777, types: 6,585, coercions: 678}
+!!! Simplifier [Data.Conduit.Lift]: finished in 49.00 milliseconds, allocated 40.469 megabytes
+*** Float inwards [Data.Conduit.Lift]:
+Result size of Float inwards
+  = {terms: 1,777, types: 6,585, coercions: 678}
+!!! Float inwards [Data.Conduit.Lift]: finished in 6.00 milliseconds, allocated 8.617 megabytes
+*** Called arity analysis [Data.Conduit.Lift]:
+Result size of Called arity analysis
+  = {terms: 1,777, types: 6,585, coercions: 678}
+!!! Called arity analysis [Data.Conduit.Lift]: finished in 3.00 milliseconds, allocated 2.500 megabytes
+*** Simplifier [Data.Conduit.Lift]:
+Result size of Simplifier
+  = {terms: 1,777, types: 6,585, coercions: 678}
+!!! Simplifier [Data.Conduit.Lift]: finished in 19.00 milliseconds, allocated 13.360 megabytes
+*** Demand analysis [Data.Conduit.Lift]:
+Result size of Demand analysis
+  = {terms: 1,777, types: 6,585, coercions: 678}
+!!! Demand analysis [Data.Conduit.Lift]: finished in 10.00 milliseconds, allocated 11.245 megabytes
+*** Worker Wrapper binds [Data.Conduit.Lift]:
+Result size of Worker Wrapper binds
+  = {terms: 1,980, types: 7,120, coercions: 678}
+!!! Worker Wrapper binds [Data.Conduit.Lift]: finished in 2.00 milliseconds, allocated 1.449 megabytes
+*** Simplifier [Data.Conduit.Lift]:
+Result size of Simplifier iteration=1
+  = {terms: 1,861, types: 6,897, coercions: 678}
+Result size of Simplifier iteration=2
+  = {terms: 1,849, types: 6,791, coercions: 678}
+Result size of Simplifier
+  = {terms: 1,849, types: 6,791, coercions: 678}
+!!! Simplifier [Data.Conduit.Lift]: finished in 57.00 milliseconds, allocated 45.197 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.Lift]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,908, types: 7,085, coercions: 678}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.Lift]: finished in 25.00 milliseconds, allocated 30.211 megabytes
+*** Common sub-expression [Data.Conduit.Lift]:
+Result size of Common sub-expression
+  = {terms: 1,888, types: 7,037, coercions: 678}
+!!! Common sub-expression [Data.Conduit.Lift]: finished in 5.00 milliseconds, allocated 3.900 megabytes
+*** Float inwards [Data.Conduit.Lift]:
+Result size of Float inwards
+  = {terms: 1,888, types: 7,037, coercions: 678}
+!!! Float inwards [Data.Conduit.Lift]: finished in 6.00 milliseconds, allocated 9.707 megabytes
+*** Simplifier [Data.Conduit.Lift]:
+Result size of Simplifier iteration=1
+  = {terms: 1,891, types: 7,031, coercions: 678}
+Result size of Simplifier iteration=2
+  = {terms: 1,853, types: 6,952, coercions: 678}
+Result size of Simplifier
+  = {terms: 1,853, types: 6,952, coercions: 678}
+!!! Simplifier [Data.Conduit.Lift]: finished in 51.00 milliseconds, allocated 42.494 megabytes
+*** CoreTidy [Data.Conduit.Lift]:
+Result size of Tidy Core
+  = {terms: 1,849, types: 6,926, coercions: 678}
+!!! CoreTidy [Data.Conduit.Lift]: finished in 6.00 milliseconds, allocated 4.277 megabytes
+writeBinIface: 112 Names
+writeBinIface: 232 dict entries
+writeBinIface: 112 Names
+writeBinIface: 232 dict entries
+*** CorePrep [Data.Conduit.Lift]:
+Result size of CorePrep
+  = {terms: 2,456, types: 9,106, coercions: 772}
+!!! CorePrep [Data.Conduit.Lift]: finished in 7.00 milliseconds, allocated 6.571 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.Lift]:
+!!! CodeGen [Data.Conduit.Lift]: finished in 149.00 milliseconds, allocated 149.722 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -x assembler -c /tmp/ghc8462_0/ghc_33.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/Lift.o
+*** CorePrep [Data.Conduit.Lift]:
+Result size of CorePrep
+  = {terms: 2,456, types: 9,106, coercions: 772}
+!!! CorePrep [Data.Conduit.Lift]: finished in 7.00 milliseconds, allocated 6.292 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.Lift]:
+!!! CodeGen [Data.Conduit.Lift]: finished in 153.00 milliseconds, allocated 158.762 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8462_0/ghc_35.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/Lift.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8462_0/ghc_36.c /tmp/ghc8462_0/ghc_35.s /tmp/ghc8462_0/ghc_34.c /tmp/ghc8462_0/ghc_33.s /tmp/ghc8462_0/ghc_32.s
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_36.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_34.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_32.s
+compile: input file ./Data/Conduit/Internal/List/Stream.hs
+*** Checking old interface for Data.Conduit.Internal.List.Stream:
+[7 of 8] Compiling Data.Conduit.Internal.List.Stream ( Data/Conduit/Internal/List/Stream.hs, dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/List/Stream.o )
+*** Parser [Data.Conduit.Internal.List.Stream]:
+!!! Parser [Data.Conduit.Internal.List.Stream]: finished in 9.00 milliseconds, allocated 18.423 megabytes
+*** Renamer/typechecker [Data.Conduit.Internal.List.Stream]:
+!!! Renamer/typechecker [Data.Conduit.Internal.List.Stream]: finished in 126.00 milliseconds, allocated 97.029 megabytes
+*** Desugar [Data.Conduit.Internal.List.Stream]:
+Result size of Desugar (after optimization)
+  = {terms: 1,993, types: 5,382, coercions: 0}
+!!! Desugar [Data.Conduit.Internal.List.Stream]: finished in 36.00 milliseconds, allocated 24.561 megabytes
+*** Simplifier [Data.Conduit.Internal.List.Stream]:
+Result size of Simplifier iteration=1
+  = {terms: 1,866, types: 5,232, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,850, types: 5,215, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,850, types: 5,215, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal.List.Stream]: finished in 52.00 milliseconds, allocated 41.219 megabytes
+*** Specialise [Data.Conduit.Internal.List.Stream]:
+Result size of Specialise
+  = {terms: 1,850, types: 5,215, coercions: 0}
+!!! Specialise [Data.Conduit.Internal.List.Stream]: finished in 2.00 milliseconds, allocated 2.581 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.Internal.List.Stream]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 2,269, types: 6,993, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.Internal.List.Stream]: finished in 21.00 milliseconds, allocated 21.213 megabytes
+*** Simplifier [Data.Conduit.Internal.List.Stream]:
+Result size of Simplifier iteration=1
+  = {terms: 2,525, types: 6,950, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 2,445, types: 6,765, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,445, types: 6,765, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal.List.Stream]: finished in 55.00 milliseconds, allocated 49.911 megabytes
+*** Simplifier [Data.Conduit.Internal.List.Stream]:
+Result size of Simplifier iteration=1
+  = {terms: 2,461, types: 6,777, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 2,446, types: 6,772, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,446, types: 6,772, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal.List.Stream]: finished in 57.00 milliseconds, allocated 48.142 megabytes
+*** Simplifier [Data.Conduit.Internal.List.Stream]:
+Result size of Simplifier
+  = {terms: 2,446, types: 6,772, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal.List.Stream]: finished in 16.00 milliseconds, allocated 16.015 megabytes
+*** Float inwards [Data.Conduit.Internal.List.Stream]:
+Result size of Float inwards
+  = {terms: 2,446, types: 6,772, coercions: 0}
+!!! Float inwards [Data.Conduit.Internal.List.Stream]: finished in 12.00 milliseconds, allocated 9.547 megabytes
+*** Called arity analysis [Data.Conduit.Internal.List.Stream]:
+Result size of Called arity analysis
+  = {terms: 2,446, types: 6,772, coercions: 0}
+!!! Called arity analysis [Data.Conduit.Internal.List.Stream]: finished in 2.00 milliseconds, allocated 2.494 megabytes
+*** Simplifier [Data.Conduit.Internal.List.Stream]:
+Result size of Simplifier iteration=1
+  = {terms: 2,443, types: 6,769, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,443, types: 6,769, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal.List.Stream]: finished in 42.00 milliseconds, allocated 32.047 megabytes
+*** Demand analysis [Data.Conduit.Internal.List.Stream]:
+Result size of Demand analysis
+  = {terms: 2,443, types: 6,769, coercions: 0}
+!!! Demand analysis [Data.Conduit.Internal.List.Stream]: finished in 9.00 milliseconds, allocated 10.480 megabytes
+*** Worker Wrapper binds [Data.Conduit.Internal.List.Stream]:
+Result size of Worker Wrapper binds
+  = {terms: 2,443, types: 6,769, coercions: 0}
+!!! Worker Wrapper binds [Data.Conduit.Internal.List.Stream]: finished in 2.00 milliseconds, allocated 0.883 megabytes
+*** Simplifier [Data.Conduit.Internal.List.Stream]:
+Result size of Simplifier
+  = {terms: 2,443, types: 6,769, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal.List.Stream]: finished in 25.00 milliseconds, allocated 16.745 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.Internal.List.Stream]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,487, types: 6,993, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.Internal.List.Stream]: finished in 24.00 milliseconds, allocated 25.225 megabytes
+*** Common sub-expression [Data.Conduit.Internal.List.Stream]:
+Result size of Common sub-expression
+  = {terms: 2,383, types: 6,659, coercions: 0}
+!!! Common sub-expression [Data.Conduit.Internal.List.Stream]: finished in 6.00 milliseconds, allocated 5.390 megabytes
+*** Float inwards [Data.Conduit.Internal.List.Stream]:
+Result size of Float inwards
+  = {terms: 2,383, types: 6,659, coercions: 0}
+!!! Float inwards [Data.Conduit.Internal.List.Stream]: finished in 6.00 milliseconds, allocated 8.806 megabytes
+*** Simplifier [Data.Conduit.Internal.List.Stream]:
+Result size of Simplifier iteration=1
+  = {terms: 2,317, types: 6,247, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,317, types: 6,247, coercions: 0}
+!!! Simplifier [Data.Conduit.Internal.List.Stream]: finished in 41.00 milliseconds, allocated 30.800 megabytes
+*** CoreTidy [Data.Conduit.Internal.List.Stream]:
+Result size of Tidy Core
+  = {terms: 2,317, types: 6,247, coercions: 0}
+!!! CoreTidy [Data.Conduit.Internal.List.Stream]: finished in 8.00 milliseconds, allocated 5.163 megabytes
+writeBinIface: 83 Names
+writeBinIface: 202 dict entries
+writeBinIface: 83 Names
+writeBinIface: 202 dict entries
+*** CorePrep [Data.Conduit.Internal.List.Stream]:
+Result size of CorePrep
+  = {terms: 2,986, types: 8,052, coercions: 0}
+!!! CorePrep [Data.Conduit.Internal.List.Stream]: finished in 7.00 milliseconds, allocated 6.581 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.Internal.List.Stream]:
+!!! CodeGen [Data.Conduit.Internal.List.Stream]: finished in 179.00 milliseconds, allocated 172.848 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit/Internal/List -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -x assembler -c /tmp/ghc8462_0/ghc_38.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/List/Stream.o
+*** CorePrep [Data.Conduit.Internal.List.Stream]:
+Result size of CorePrep
+  = {terms: 2,986, types: 8,052, coercions: 0}
+!!! CorePrep [Data.Conduit.Internal.List.Stream]: finished in 5.00 milliseconds, allocated 6.298 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.Internal.List.Stream]:
+!!! CodeGen [Data.Conduit.Internal.List.Stream]: finished in 165.00 milliseconds, allocated 184.544 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit/Internal/List -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8462_0/ghc_40.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/List/Stream.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8462_0/ghc_41.c /tmp/ghc8462_0/ghc_40.s /tmp/ghc8462_0/ghc_39.c /tmp/ghc8462_0/ghc_38.s /tmp/ghc8462_0/ghc_37.s
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_41.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_39.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_37.s
+compile: input file /tmp/ghc8462_0/ghc_1.hscpp
+*** Checking old interface for Data.Conduit.List:
+[8 of 8] Compiling Data.Conduit.List ( Data/Conduit/List.hs, dist/dist-sandbox-6afc8227/build/Data/Conduit/List.o )
+*** Parser [Data.Conduit.List]:
+!!! Parser [Data.Conduit.List]: finished in 12.00 milliseconds, allocated 29.252 megabytes
+*** Renamer/typechecker [Data.Conduit.List]:
+!!! Renamer/typechecker [Data.Conduit.List]: finished in 157.00 milliseconds, allocated 161.223 megabytes
+*** Desugar [Data.Conduit.List]:
+Result size of Desugar (after optimization)
+  = {terms: 1,633, types: 4,929, coercions: 31}
+!!! Desugar [Data.Conduit.List]: finished in 28.00 milliseconds, allocated 23.978 megabytes
+
+Data/Conduit/List.hs:761:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           sourceNullC :: Monad m => Producer m a
+*** Simplifier [Data.Conduit.List]:
+Result size of Simplifier iteration=1
+  = {terms: 1,363, types: 4,312, coercions: 191}
+Result size of Simplifier iteration=2
+  = {terms: 1,404, types: 4,675, coercions: 375}
+Result size of Simplifier iteration=3
+  = {terms: 1,398, types: 4,657, coercions: 345}
+Result size of Simplifier
+  = {terms: 1,398, types: 4,657, coercions: 345}
+!!! Simplifier [Data.Conduit.List]: finished in 75.00 milliseconds, allocated 62.439 megabytes
+*** Specialise [Data.Conduit.List]:
+Result size of Specialise
+  = {terms: 1,398, types: 4,657, coercions: 345}
+!!! Specialise [Data.Conduit.List]: finished in 2.00 milliseconds, allocated 2.309 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.List]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,569, types: 5,332, coercions: 345}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Conduit.List]: finished in 15.00 milliseconds, allocated 15.906 megabytes
+*** Simplifier [Data.Conduit.List]:
+Result size of Simplifier iteration=1
+  = {terms: 2,760, types: 9,056, coercions: 1,678}
+Result size of Simplifier iteration=2
+  = {terms: 2,037, types: 6,355, coercions: 1,210}
+Result size of Simplifier iteration=3
+  = {terms: 2,024, types: 6,325, coercions: 1,196}
+Result size of Simplifier
+  = {terms: 2,024, types: 6,325, coercions: 1,196}
+!!! Simplifier [Data.Conduit.List]: finished in 121.00 milliseconds, allocated 99.222 megabytes
+*** Simplifier [Data.Conduit.List]:
+Result size of Simplifier iteration=1
+  = {terms: 2,431, types: 7,709, coercions: 1,243}
+Result size of Simplifier iteration=2
+  = {terms: 2,316, types: 7,530, coercions: 1,204}
+Result size of Simplifier iteration=3
+  = {terms: 2,274, types: 7,333, coercions: 1,143}
+Result size of Simplifier
+  = {terms: 2,274, types: 7,333, coercions: 1,143}
+!!! Simplifier [Data.Conduit.List]: finished in 101.00 milliseconds, allocated 78.558 megabytes
+*** Simplifier [Data.Conduit.List]:
+Result size of Simplifier iteration=1
+  = {terms: 2,343, types: 7,681, coercions: 1,215}
+Result size of Simplifier iteration=2
+  = {terms: 2,243, types: 7,414, coercions: 1,222}
+Result size of Simplifier iteration=3
+  = {terms: 2,245, types: 7,448, coercions: 1,234}
+Result size of Simplifier
+  = {terms: 2,245, types: 7,448, coercions: 1,234}
+!!! Simplifier [Data.Conduit.List]: finished in 100.00 milliseconds, allocated 75.929 megabytes
+*** Float inwards [Data.Conduit.List]:
+Result size of Float inwards
+  = {terms: 2,245, types: 7,448, coercions: 1,234}
+!!! Float inwards [Data.Conduit.List]: finished in 8.00 milliseconds, allocated 6.183 megabytes
+*** Called arity analysis [Data.Conduit.List]:
+Result size of Called arity analysis
+  = {terms: 2,245, types: 7,448, coercions: 1,234}
+!!! Called arity analysis [Data.Conduit.List]: finished in 3.00 milliseconds, allocated 4.758 megabytes
+*** Simplifier [Data.Conduit.List]:
+Result size of Simplifier iteration=1
+  = {terms: 2,283, types: 7,574, coercions: 1,392}
+Result size of Simplifier iteration=2
+  = {terms: 2,245, types: 7,554, coercions: 1,234}
+Result size of Simplifier iteration=3
+  = {terms: 2,213, types: 7,380, coercions: 1,080}
+Result size of Simplifier
+  = {terms: 2,213, types: 7,380, coercions: 1,080}
+!!! Simplifier [Data.Conduit.List]: finished in 99.00 milliseconds, allocated 72.959 megabytes
+*** Demand analysis [Data.Conduit.List]:
+Result size of Demand analysis
+  = {terms: 2,213, types: 7,380, coercions: 1,080}
+!!! Demand analysis [Data.Conduit.List]: finished in 17.00 milliseconds, allocated 15.852 megabytes
+*** Worker Wrapper binds [Data.Conduit.List]:
+Result size of Worker Wrapper binds
+  = {terms: 2,548, types: 8,651, coercions: 1,080}
+!!! Worker Wrapper binds [Data.Conduit.List]: finished in 5.00 milliseconds, allocated 1.436 megabytes
+*** Simplifier [Data.Conduit.List]:
+Result size of Simplifier iteration=1
+  = {terms: 2,367, types: 8,218, coercions: 1,080}
+Result size of Simplifier
+  = {terms: 2,283, types: 7,863, coercions: 1,080}
+!!! Simplifier [Data.Conduit.List]: finished in 61.00 milliseconds, allocated 39.497 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.List]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,439, types: 8,478, coercions: 1,080}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Conduit.List]: finished in 25.00 milliseconds, allocated 27.036 megabytes
+*** Common sub-expression [Data.Conduit.List]:
+Result size of Common sub-expression
+  = {terms: 2,396, types: 8,367, coercions: 959}
+!!! Common sub-expression [Data.Conduit.List]: finished in 8.00 milliseconds, allocated 4.836 megabytes
+*** Float inwards [Data.Conduit.List]:
+Result size of Float inwards
+  = {terms: 2,396, types: 8,367, coercions: 959}
+!!! Float inwards [Data.Conduit.List]: finished in 9.00 milliseconds, allocated 8.793 megabytes
+*** Simplifier [Data.Conduit.List]:
+Result size of Simplifier iteration=1
+  = {terms: 2,382, types: 8,262, coercions: 1,098}
+Result size of Simplifier iteration=2
+  = {terms: 2,369, types: 8,212, coercions: 1,077}
+Result size of Simplifier iteration=3
+  = {terms: 2,367, types: 8,205, coercions: 1,069}
+Result size of Simplifier
+  = {terms: 2,367, types: 8,205, coercions: 1,069}
+!!! Simplifier [Data.Conduit.List]: finished in 127.00 milliseconds, allocated 77.302 megabytes
+*** CoreTidy [Data.Conduit.List]:
+Result size of Tidy Core
+  = {terms: 2,367, types: 8,205, coercions: 1,069}
+!!! CoreTidy [Data.Conduit.List]: finished in 125.00 milliseconds, allocated 6.042 megabytes
+writeBinIface: 180 Names
+writeBinIface: 374 dict entries
+writeBinIface: 180 Names
+writeBinIface: 374 dict entries
+*** CorePrep [Data.Conduit.List]:
+Result size of CorePrep
+  = {terms: 3,481, types: 11,436, coercions: 1,284}
+!!! CorePrep [Data.Conduit.List]: finished in 8.00 milliseconds, allocated 8.285 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.List]:
+!!! CodeGen [Data.Conduit.List]: finished in 152.00 milliseconds, allocated 164.107 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -x assembler -c /tmp/ghc8462_0/ghc_43.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/List.o
+*** CorePrep [Data.Conduit.List]:
+Result size of CorePrep
+  = {terms: 3,481, types: 11,436, coercions: 1,284}
+!!! CorePrep [Data.Conduit.List]: finished in 7.00 milliseconds, allocated 8.043 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Conduit.List]:
+!!! CodeGen [Data.Conduit.List]: finished in 152.00 milliseconds, allocated 173.711 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Conduit -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -I. -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8462_0/ghc_45.s -o dist/dist-sandbox-6afc8227/build/Data/Conduit/List.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc8462_0/ghc_46.c /tmp/ghc8462_0/ghc_45.s /tmp/ghc8462_0/ghc_44.c /tmp/ghc8462_0/ghc_43.s /tmp/ghc8462_0/ghc_42.s
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_46.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_44.c
+Warning: deleting non-existent /tmp/ghc8462_0/ghc_42.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc8462_0/ghc_5.hscpp /tmp/ghc8462_0/ghc_3.hscpp /tmp/ghc8462_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8462_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/exceptions-0.8.2.1-JBQJzRdlubk7otWf6cOKjr -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-boot-th-8.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/lifted-base-0.2.3.6-G0aReckQITxDDhhKYmTW5H -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/mmorph-1.0.6-I6fWQohILlqH1gvA6UibXU -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/monad-control-1.0.1.0-1xoC3YihUKYHLar1SsWtYe -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/pretty-1.1.3.3 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/resourcet-1.1.7.4-EPw5Ucp5s8AERJojCCz0nc -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/template-haskell-2.11.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-base-0.4.4-FMTbgPqmqMsCiOz3biyAGx -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N -o dist/dist-sandbox-6afc8227/build/libHSconduit-1.2.6.6-HkJSccJTkv4I9x8FiXXznB-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSconduit-1.2.6.6-HkJSccJTkv4I9x8FiXXznB-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Data/Conduit.dyn_o dist/dist-sandbox-6afc8227/build/Data/Conduit/List.dyn_o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal.dyn_o dist/dist-sandbox-6afc8227/build/Data/Conduit/Lift.dyn_o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/Fusion.dyn_o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/List/Stream.dyn_o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/Pipe.dyn_o dist/dist-sandbox-6afc8227/build/Data/Conduit/Internal/Conduit.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/resourcet-1.1.7.4-EPw5Ucp5s8AERJojCCz0nc -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/mmorph-1.0.6-I6fWQohILlqH1gvA6UibXU -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/lifted-base-0.2.3.6-G0aReckQITxDDhhKYmTW5H -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/monad-control-1.0.1.0-1xoC3YihUKYHLar1SsWtYe -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-base-0.4.4-FMTbgPqmqMsCiOz3biyAGx -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/exceptions-0.8.2.1-JBQJzRdlubk7otWf6cOKjr -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/template-haskell-2.11.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/pretty-1.1.3.3 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-boot-th-8.0.1 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSresourcet-1.1.7.4-EPw5Ucp5s8AERJojCCz0nc-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSmmorph-1.0.6-I6fWQohILlqH1gvA6UibXU-ghc8.0.1 -lHSlifted-base-0.2.3.6-G0aReckQITxDDhhKYmTW5H-ghc8.0.1 -lHSmonad-control-1.0.1.0-1xoC3YihUKYHLar1SsWtYe-ghc8.0.1 -lHStransformers-base-0.4.4-FMTbgPqmqMsCiOz3biyAGx-ghc8.0.1 -lHSexceptions-0.8.2.1-JBQJzRdlubk7otWf6cOKjr-ghc8.0.1 -lHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N-ghc8.0.1 -lHStemplate-haskell-2.11.0.0-ghc8.0.1 -lHSpretty-1.1.3.3-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSghc-boot-th-8.0.1-ghc8.0.1 -lHSstm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSmtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM-ghc8.0.1 -lHStransformers-0.5.2.0-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc8627_0
+*** Deleting temp files:
+Deleting: /tmp/ghc8627_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8627_0
+Creating package registration file:
+/tmp/pkgConf-conduit-1.2.6150122846439493451.6
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/conduit-1.2.6.6-HkJSccJTkv4I9x8FiXXznB
+Registering conduit-1.2.6.6...
+cabal: Leaving directory '/tmp/cabal-tmp-1025/conduit-1.2.6.6'

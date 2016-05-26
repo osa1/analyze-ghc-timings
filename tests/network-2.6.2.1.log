@@ -1,0 +1,2031 @@
+cabal: Entering directory '/tmp/cabal-tmp-1036/network-2.6.2.1'
+Configuring network-2.6.2.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc2400_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc2400_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc2400_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc2400_0/ghc_2.rsp /tmp/ghc2400_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc2400_0
+configure: WARNING: unrecognized options: --with-compiler
+configure: loading site script /usr/share/site/x86_64-unknown-linux-gnu
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for gcc... /usr/bin/gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/bin/gcc accepts -g... yes
+checking for /usr/bin/gcc option to accept ISO C89... none needed
+checking for an ANSI C-conforming const... yes
+checking how to run the C preprocessor... /usr/bin/gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for stdlib.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking winsock2.h usability... no
+checking winsock2.h presence... no
+checking for winsock2.h... no
+checking ws2tcpip.h usability... no
+checking ws2tcpip.h presence... no
+checking for ws2tcpip.h... no
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking netinet/tcp.h usability... yes
+checking netinet/tcp.h presence... yes
+checking for netinet/tcp.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/uio.h usability... yes
+checking sys/uio.h presence... yes
+checking for sys/uio.h... yes
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking linux/can.h usability... yes
+checking linux/can.h presence... yes
+checking for linux/can.h... yes
+checking linux/tcp.h usability... yes
+checking linux/tcp.h presence... yes
+checking for linux/tcp.h... yes
+checking net/if.h usability... yes
+checking net/if.h presence... yes
+checking for net/if.h... yes
+checking for readlink... yes
+checking for symlink... yes
+checking for if_nametoindex... yes
+checking for struct msghdr.msg_control... yes
+checking for struct msghdr.msg_accrights... no
+checking for struct sockaddr.sa_len... no
+checking for in_addr_t in netinet/in.h... yes
+checking for SO_PEERCRED and struct ucred in sys/socket.h... yes
+checking for getpeereid in unistd.h... checking for getpeereid... no
+checking for _head_libws2_32_a in -lws2_32... no
+checking for getaddrinfo... yes
+checking for gai_strerror... yes
+checking whether AI_ADDRCONFIG is declared... yes
+checking whether AI_ALL is declared... yes
+checking whether AI_NUMERICSERV is declared... yes
+checking whether AI_V4MAPPED is declared... yes
+checking whether IPV6_V6ONLY is declared... yes
+checking whether IPPROTO_IP is declared... yes
+checking whether IPPROTO_TCP is declared... yes
+checking whether IPPROTO_IPV6 is declared... yes
+checking for sendfile in sys/sendfile.h... yes
+checking for sendfile in sys/socket.h... no
+checking for gethostent... yes
+checking for accept4... yes
+configure: creating ./config.status
+config.status: creating network.buildinfo
+config.status: creating include/HsNetworkConfig.h
+configure: WARNING: unrecognized options: --with-compiler
+Building network-2.6.2.1...
+Preprocessing library network-2.6.2.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Network.hs,*Network.BSD,*Network.Socket,*Network.Socket.ByteString,*Network.Socket.ByteString.Lazy,*Network.Socket.Internal,*Network.Socket.ByteString.Internal,*Network.Socket.Types,*Network.Socket.ByteString.IOVec,*Network.Socket.ByteString.Lazy.Posix,*Network.Socket.ByteString.MsgHdr
+Created temporary directory: /tmp/ghc4925_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h '-DCALLCONV=ccall' -D_GNU_SOURCE -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4925_0/ghc_2.h -x assembler-with-cpp Network.hs -o /tmp/ghc4925_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h '-DCALLCONV=ccall' -D_GNU_SOURCE -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4925_0/ghc_4.h -x assembler-with-cpp dist/dist-sandbox-6afc8227/build/Network/BSD.hs -o /tmp/ghc4925_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h '-DCALLCONV=ccall' -D_GNU_SOURCE -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4925_0/ghc_6.h -x assembler-with-cpp dist/dist-sandbox-6afc8227/build/Network/Socket.hs -o /tmp/ghc4925_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h '-DCALLCONV=ccall' -D_GNU_SOURCE -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4925_0/ghc_8.h -x assembler-with-cpp dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString.hs -o /tmp/ghc4925_0/ghc_7.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h '-DCALLCONV=ccall' -D_GNU_SOURCE -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4925_0/ghc_10.h -x assembler-with-cpp ./Network/Socket/ByteString/Lazy.hs -o /tmp/ghc4925_0/ghc_9.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h '-DCALLCONV=ccall' -D_GNU_SOURCE -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4925_0/ghc_12.h -x assembler-with-cpp dist/dist-sandbox-6afc8227/build/Network/Socket/Internal.hs -o /tmp/ghc4925_0/ghc_11.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h '-DCALLCONV=ccall' -D_GNU_SOURCE -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4925_0/ghc_14.h -x assembler-with-cpp ./Network/Socket/ByteString/Internal.hs -o /tmp/ghc4925_0/ghc_13.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h '-DCALLCONV=ccall' -D_GNU_SOURCE -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4925_0/ghc_16.h -x assembler-with-cpp dist/dist-sandbox-6afc8227/build/Network/Socket/Types.hs -o /tmp/ghc4925_0/ghc_15.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h '-DCALLCONV=ccall' -D_GNU_SOURCE -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4925_0/ghc_18.h -x assembler-with-cpp dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/IOVec.hs -o /tmp/ghc4925_0/ghc_17.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h '-DCALLCONV=ccall' -D_GNU_SOURCE -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4925_0/ghc_20.h -x assembler-with-cpp ./Network/Socket/ByteString/Lazy/Posix.hs -o /tmp/ghc4925_0/ghc_19.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h '-DCALLCONV=ccall' -D_GNU_SOURCE -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc4925_0/ghc_22.h -x assembler-with-cpp dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/MsgHdr.hs -o /tmp/ghc4925_0/ghc_21.hscpp
+!!! Chasing dependencies: finished in 80.00 milliseconds, allocated 55.566 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-26 19:21:01.404686434 UTC
+         ms_mod = Network.Socket.ByteString.IOVec,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Foreign.Storable),
+                            (Nothing, Foreign.Ptr), (Nothing, Foreign.C.Types)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-26 19:21:01.270686436 UTC
+         ms_mod = Network.Socket.Types,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Foreign.Storable),
+                            (Nothing, Foreign.Ptr), (Nothing, Foreign.Marshal.Array),
+                            (Nothing, Foreign.Marshal.Alloc), (Nothing, Foreign.C),
+                            (Nothing, Data.Int), (Nothing, Data.Word),
+                            (Nothing, Data.Typeable), (Nothing, Data.Ratio),
+                            (Nothing, Data.Maybe), (Nothing, Data.Bits),
+                            (Nothing, Control.Monad), (Nothing, Control.Concurrent.MVar)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-26 19:21:00.926686441 UTC
+         ms_mod = Network.Socket.Internal,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Network.Socket.Types), (Nothing, GHC.Conc),
+                            (Nothing, Foreign.Ptr), (Nothing, Foreign.C.Types),
+                            (Nothing, Foreign.C.String), (Nothing, Foreign.C.Error)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-26 19:21:00.495686447 UTC
+         ms_mod = Network.Socket,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Network.Socket.Types),
+                            (Nothing, Network.Socket.Internal), (Nothing, GHC.IO.FD),
+                            (Nothing, System.Posix.Internals), (Nothing, GHC.IO),
+                            (Nothing, GHC.IO.Exception), (Nothing, GHC.IO.Handle.FD),
+                            (Nothing, GHC.IO.Device), (Nothing, GHC.Conc), (Nothing, GHC.Conc),
+                            (Nothing, System.IO.Error), (Nothing, Data.Typeable),
+                            (Nothing, Control.Concurrent.MVar), (Nothing, Control.Exception),
+                            (Nothing, Control.Monad), (Nothing, System.IO),
+                            (Nothing, Foreign.Marshal.Utils), (Nothing, Foreign.Marshal.Array),
+                            (Nothing, Foreign.Marshal.Alloc), (Nothing, Foreign.C.Types),
+                            (Nothing, Foreign.C.Types), (Nothing, Foreign.C.String),
+                            (Nothing, Foreign.C.Error), (Nothing, Foreign.Storable),
+                            (Nothing, Foreign.Ptr), (Nothing, Data.Word),
+                            (Nothing, Data.Maybe), (Nothing, Data.List), (Nothing, Data.Bits)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-26 19:21:00.236686451 UTC
+         ms_mod = Network.BSD,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Network.Socket.Internal), (Nothing, Control.Monad),
+                            (Nothing, GHC.IO.Exception), (Nothing, System.IO.Unsafe),
+                            (Nothing, System.IO.Error), (Nothing, Data.Typeable),
+                            (Nothing, Foreign.Marshal.Utils), (Nothing, Foreign.Marshal.Array),
+                            (Nothing, Foreign.Storable), (Nothing, Foreign.Ptr),
+                            (Nothing, Foreign.C.Types), (Nothing, Foreign.C.String),
+                            (Nothing, Control.Exception), (Nothing, Control.Concurrent),
+                            (Nothing, Network.Socket)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-07-07 18:40:52 UTC
+         ms_mod = Network,
+         ms_textual_imps = [(Nothing, Control.Exception),
+                            (Nothing, Prelude), (Nothing, System.IO),
+                            (Nothing, Network.Socket), (Nothing, Network.Socket),
+                            (Nothing, Network.BSD), (Nothing, Data.Maybe),
+                            (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-26 19:21:01.560686432 UTC
+         ms_mod = Network.Socket.ByteString.MsgHdr,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Network.Socket.ByteString.IOVec),
+                            (Nothing, Network.Socket.Internal), (Nothing, Network.Socket),
+                            (Nothing, Foreign.Storable), (Nothing, Foreign.Ptr),
+                            (Nothing, Foreign.C.Types)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-07-07 18:40:52 UTC
+         ms_mod = Network.Socket.ByteString.Internal,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.IO.Exception),
+                            (Nothing, Network.Socket.ByteString.MsgHdr),
+                            (Nothing, Network.Socket.ByteString.IOVec), (Nothing, Foreign.Ptr),
+                            (Nothing, System.Posix.Types), (Nothing, Foreign.C.Types),
+                            (Nothing, System.IO.Error)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-26 19:21:00.753686444 UTC
+         ms_mod = Network.Socket.ByteString,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Network.Socket.ByteString.MsgHdr),
+                            (Nothing, Network.Socket.ByteString.IOVec),
+                            (Nothing, Foreign.Storable), (Nothing, Foreign.Ptr),
+                            (Nothing, Foreign.Marshal.Utils), (Nothing, Foreign.Marshal.Array),
+                            (Nothing, Foreign.C.Types), (Nothing, Foreign.C.Types),
+                            (Nothing, Control.Monad), (Nothing, Network.Socket.Types),
+                            (Nothing, Network.Socket.Internal),
+                            (Nothing, Network.Socket.ByteString.Internal),
+                            (Nothing, Data.ByteString), (Nothing, Network.Socket),
+                            (Nothing, Foreign.Ptr), (Nothing, Foreign.Marshal.Alloc),
+                            (Nothing, Foreign.C.Types), (Nothing, Data.Word),
+                            (Nothing, Data.ByteString.Unsafe),
+                            (Nothing, Data.ByteString.Internal), (Nothing, Data.ByteString),
+                            (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-07-07 18:40:52 UTC
+         ms_mod = Network.Socket.ByteString.Lazy.Posix,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Network.Socket.Internal),
+                            (Nothing, Network.Socket.ByteString.Internal),
+                            (Nothing, Network.Socket.ByteString.IOVec),
+                            (Nothing, Network.Socket), (Nothing, Foreign.Storable),
+                            (Nothing, Foreign.Ptr), (Nothing, Foreign.Marshal.Array),
+                            (Nothing, Data.Int), (Nothing, Data.ByteString.Unsafe),
+                            (Nothing, Data.ByteString.Lazy.Internal),
+                            (Nothing, Data.ByteString.Lazy), (Nothing, Control.Monad),
+                            (Nothing, Control.Monad)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-07-07 18:40:52 UTC
+         ms_mod = Network.Socket.ByteString.Lazy,
+         ms_textual_imps = [(Nothing, Network.Socket.ByteString.Lazy.Posix),
+                            (Nothing, Network.Socket.ByteString), (Nothing, Data.ByteString),
+                            (Nothing, System.IO.Unsafe), (Nothing, Prelude),
+                            (Nothing, Network.Socket), (Nothing, Data.Int),
+                            (Nothing, Data.ByteString.Lazy.Internal), (Nothing, Control.Monad)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc4925_0/ghc_22.h /tmp/ghc4925_0/ghc_20.h /tmp/ghc4925_0/ghc_18.h /tmp/ghc4925_0/ghc_16.h /tmp/ghc4925_0/ghc_14.h /tmp/ghc4925_0/ghc_12.h /tmp/ghc4925_0/ghc_10.h /tmp/ghc4925_0/ghc_8.h /tmp/ghc4925_0/ghc_6.h /tmp/ghc4925_0/ghc_4.h /tmp/ghc4925_0/ghc_2.h
+compile: input file /tmp/ghc4925_0/ghc_17.hscpp
+*** Checking old interface for Network.Socket.ByteString.IOVec:
+[ 1 of 11] Compiling Network.Socket.ByteString.IOVec ( dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/IOVec.hs, dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/IOVec.o )
+*** Parser [Network.Socket.ByteString.IOVec]:
+!!! Parser [Network.Socket.ByteString.IOVec]: finished in 2.00 milliseconds, allocated 1.889 megabytes
+*** Renamer/typechecker [Network.Socket.ByteString.IOVec]:
+!!! Renamer/typechecker [Network.Socket.ByteString.IOVec]: finished in 256.00 milliseconds, allocated 115.851 megabytes
+*** Desugar [Network.Socket.ByteString.IOVec]:
+Result size of Desugar (after optimization)
+  = {terms: 130, types: 108, coercions: 13}
+!!! Desugar [Network.Socket.ByteString.IOVec]: finished in 8.00 milliseconds, allocated 2.787 megabytes
+*** Simplifier [Network.Socket.ByteString.IOVec]:
+Result size of Simplifier iteration=1
+  = {terms: 143, types: 123, coercions: 21}
+Result size of Simplifier iteration=2
+  = {terms: 147, types: 144, coercions: 32}
+Result size of Simplifier = {terms: 147, types: 144, coercions: 32}
+!!! Simplifier [Network.Socket.ByteString.IOVec]: finished in 3.00 milliseconds, allocated 2.384 megabytes
+*** Specialise [Network.Socket.ByteString.IOVec]:
+Result size of Specialise = {terms: 238, types: 232, coercions: 36}
+!!! Specialise [Network.Socket.ByteString.IOVec]: finished in 0.00 milliseconds, allocated 0.523 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.ByteString.IOVec]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 290, types: 313, coercions: 36}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.ByteString.IOVec]: finished in 1.00 milliseconds, allocated 1.093 megabytes
+*** Simplifier [Network.Socket.ByteString.IOVec]:
+Result size of Simplifier iteration=1
+  = {terms: 515, types: 479, coercions: 95}
+Result size of Simplifier iteration=2
+  = {terms: 427, types: 523, coercions: 156}
+Result size of Simplifier
+  = {terms: 427, types: 523, coercions: 156}
+!!! Simplifier [Network.Socket.ByteString.IOVec]: finished in 17.00 milliseconds, allocated 8.156 megabytes
+*** Simplifier [Network.Socket.ByteString.IOVec]:
+Result size of Simplifier
+  = {terms: 427, types: 523, coercions: 156}
+!!! Simplifier [Network.Socket.ByteString.IOVec]: finished in 3.00 milliseconds, allocated 1.872 megabytes
+*** Simplifier [Network.Socket.ByteString.IOVec]:
+Result size of Simplifier
+  = {terms: 427, types: 523, coercions: 156}
+!!! Simplifier [Network.Socket.ByteString.IOVec]: finished in 3.00 milliseconds, allocated 1.871 megabytes
+*** Float inwards [Network.Socket.ByteString.IOVec]:
+Result size of Float inwards
+  = {terms: 427, types: 523, coercions: 156}
+!!! Float inwards [Network.Socket.ByteString.IOVec]: finished in 0.00 milliseconds, allocated 0.558 megabytes
+*** Called arity analysis [Network.Socket.ByteString.IOVec]:
+Result size of Called arity analysis
+  = {terms: 427, types: 523, coercions: 156}
+!!! Called arity analysis [Network.Socket.ByteString.IOVec]: finished in 1.00 milliseconds, allocated 0.497 megabytes
+*** Simplifier [Network.Socket.ByteString.IOVec]:
+Result size of Simplifier
+  = {terms: 427, types: 523, coercions: 156}
+!!! Simplifier [Network.Socket.ByteString.IOVec]: finished in 5.00 milliseconds, allocated 1.876 megabytes
+*** Demand analysis [Network.Socket.ByteString.IOVec]:
+Result size of Demand analysis
+  = {terms: 427, types: 523, coercions: 156}
+!!! Demand analysis [Network.Socket.ByteString.IOVec]: finished in 2.00 milliseconds, allocated 1.604 megabytes
+*** Worker Wrapper binds [Network.Socket.ByteString.IOVec]:
+Result size of Worker Wrapper binds
+  = {terms: 427, types: 523, coercions: 156}
+!!! Worker Wrapper binds [Network.Socket.ByteString.IOVec]: finished in 0.00 milliseconds, allocated 0.163 megabytes
+*** Simplifier [Network.Socket.ByteString.IOVec]:
+Result size of Simplifier
+  = {terms: 427, types: 523, coercions: 156}
+!!! Simplifier [Network.Socket.ByteString.IOVec]: finished in 5.00 milliseconds, allocated 2.964 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.ByteString.IOVec]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 427, types: 523, coercions: 156}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.ByteString.IOVec]: finished in 2.00 milliseconds, allocated 1.082 megabytes
+*** Common sub-expression [Network.Socket.ByteString.IOVec]:
+Result size of Common sub-expression
+  = {terms: 289, types: 395, coercions: 114}
+!!! Common sub-expression [Network.Socket.ByteString.IOVec]: finished in 2.00 milliseconds, allocated 1.047 megabytes
+*** Float inwards [Network.Socket.ByteString.IOVec]:
+Result size of Float inwards
+  = {terms: 289, types: 395, coercions: 114}
+!!! Float inwards [Network.Socket.ByteString.IOVec]: finished in 0.00 milliseconds, allocated 0.355 megabytes
+*** Simplifier [Network.Socket.ByteString.IOVec]:
+Result size of Simplifier iteration=1
+  = {terms: 281, types: 345, coercions: 156}
+Result size of Simplifier
+  = {terms: 281, types: 345, coercions: 156}
+!!! Simplifier [Network.Socket.ByteString.IOVec]: finished in 9.00 milliseconds, allocated 4.039 megabytes
+*** CoreTidy [Network.Socket.ByteString.IOVec]:
+Result size of Tidy Core = {terms: 285, types: 331, coercions: 115}
+!!! CoreTidy [Network.Socket.ByteString.IOVec]: finished in 2.00 milliseconds, allocated 0.727 megabytes
+writeBinIface: 38 Names
+writeBinIface: 86 dict entries
+writeBinIface: 38 Names
+writeBinIface: 86 dict entries
+*** CorePrep [Network.Socket.ByteString.IOVec]:
+Result size of CorePrep = {terms: 365, types: 384, coercions: 115}
+!!! CorePrep [Network.Socket.ByteString.IOVec]: finished in 0.00 milliseconds, allocated 0.644 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.ByteString.IOVec]:
+!!! CodeGen [Network.Socket.ByteString.IOVec]: finished in 16.00 milliseconds, allocated 9.757 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network/Socket/ByteString -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc4925_0/ghc_24.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/IOVec.o
+*** CorePrep [Network.Socket.ByteString.IOVec]:
+Result size of CorePrep = {terms: 365, types: 384, coercions: 115}
+!!! CorePrep [Network.Socket.ByteString.IOVec]: finished in 1.00 milliseconds, allocated 0.616 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.ByteString.IOVec]:
+!!! CodeGen [Network.Socket.ByteString.IOVec]: finished in 15.00 milliseconds, allocated 9.897 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network/Socket/ByteString -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4925_0/ghc_26.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/IOVec.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4925_0/ghc_27.c /tmp/ghc4925_0/ghc_26.s /tmp/ghc4925_0/ghc_25.c /tmp/ghc4925_0/ghc_24.s /tmp/ghc4925_0/ghc_23.s
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_27.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_25.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_23.s
+compile: input file /tmp/ghc4925_0/ghc_15.hscpp
+*** Checking old interface for Network.Socket.Types:
+[ 2 of 11] Compiling Network.Socket.Types ( dist/dist-sandbox-6afc8227/build/Network/Socket/Types.hs, dist/dist-sandbox-6afc8227/build/Network/Socket/Types.o )
+*** Parser [Network.Socket.Types]:
+!!! Parser [Network.Socket.Types]: finished in 20.00 milliseconds, allocated 31.279 megabytes
+*** Renamer/typechecker [Network.Socket.Types]:
+!!! Renamer/typechecker [Network.Socket.Types]: finished in 327.00 milliseconds, allocated 147.130 megabytes
+*** Desugar [Network.Socket.Types]:
+Result size of Desugar (after optimization)
+  = {terms: 4,141, types: 2,659, coercions: 160}
+!!! Desugar [Network.Socket.Types]: finished in 45.00 milliseconds, allocated 22.907 megabytes
+
+Network/Socket/Types.hsc:837:3: warning: [-Woverlapping-patterns]
+    Pattern match is redundant
+    In a case alternative: _ -> ...
+
+Network/Socket/Types.hsc:869:1: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘sizeOfSockAddrByFamily’:
+        Patterns not matched:
+            AF_UNSPEC
+            AF_IMPLINK
+            AF_PUP
+            AF_CHAOS
+            ...
+
+Network/Socket/Types.hsc:951:3: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In a case alternative:
+        Patterns not matched: p where p is not one of {29, 10, 2, 1}
+
+Network/Socket/Types.hsc:1012:1: warning: [-Worphans]
+    Orphan instance: instance Storable HostAddress6
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.
+*** Simplifier [Network.Socket.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 4,941, types: 4,160, coercions: 270}
+Result size of Simplifier iteration=2
+  = {terms: 4,935, types: 4,220, coercions: 343}
+Result size of Simplifier
+  = {terms: 4,935, types: 4,220, coercions: 343}
+!!! Simplifier [Network.Socket.Types]: finished in 98.00 milliseconds, allocated 66.680 megabytes
+*** Specialise [Network.Socket.Types]:
+Result size of Specialise
+  = {terms: 5,655, types: 4,929, coercions: 363}
+!!! Specialise [Network.Socket.Types]: finished in 26.00 milliseconds, allocated 26.807 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.Types]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 7,169, types: 7,164, coercions: 363}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.Types]: finished in 37.00 milliseconds, allocated 22.785 megabytes
+*** Simplifier [Network.Socket.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 9,855, types: 8,715, coercions: 2,668}
+Result size of Simplifier iteration=2
+  = {terms: 9,577, types: 8,887, coercions: 1,732}
+Result size of Simplifier iteration=3
+  = {terms: 8,979, types: 8,477, coercions: 1,645}
+Result size of Simplifier
+  = {terms: 8,979, types: 8,477, coercions: 1,645}
+!!! Simplifier [Network.Socket.Types]: finished in 434.00 milliseconds, allocated 197.025 megabytes
+*** Simplifier [Network.Socket.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 8,303, types: 7,471, coercions: 1,624}
+Result size of Simplifier iteration=2
+  = {terms: 7,953, types: 7,173, coercions: 1,624}
+Result size of Simplifier iteration=3
+  = {terms: 8,663, types: 7,563, coercions: 1,621}
+Result size of Simplifier iteration=4
+  = {terms: 7,879, types: 7,165, coercions: 1,621}
+Result size of Simplifier
+  = {terms: 7,879, types: 7,165, coercions: 1,621}
+!!! Simplifier [Network.Socket.Types]: finished in 235.00 milliseconds, allocated 139.656 megabytes
+*** Simplifier [Network.Socket.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 8,486, types: 7,621, coercions: 1,626}
+Result size of Simplifier iteration=2
+  = {terms: 8,423, types: 7,563, coercions: 1,618}
+Result size of Simplifier
+  = {terms: 8,423, types: 7,563, coercions: 1,618}
+!!! Simplifier [Network.Socket.Types]: finished in 155.00 milliseconds, allocated 96.017 megabytes
+*** Float inwards [Network.Socket.Types]:
+Result size of Float inwards
+  = {terms: 8,423, types: 7,563, coercions: 1,618}
+!!! Float inwards [Network.Socket.Types]: finished in 22.00 milliseconds, allocated 8.436 megabytes
+*** Called arity analysis [Network.Socket.Types]:
+Result size of Called arity analysis
+  = {terms: 8,423, types: 7,563, coercions: 1,618}
+!!! Called arity analysis [Network.Socket.Types]: finished in 11.00 milliseconds, allocated 8.818 megabytes
+*** Simplifier [Network.Socket.Types]:
+Result size of Simplifier
+  = {terms: 8,423, types: 7,563, coercions: 1,618}
+!!! Simplifier [Network.Socket.Types]: finished in 50.00 milliseconds, allocated 31.583 megabytes
+*** Demand analysis [Network.Socket.Types]:
+Result size of Demand analysis
+  = {terms: 8,423, types: 7,563, coercions: 1,618}
+!!! Demand analysis [Network.Socket.Types]: finished in 40.00 milliseconds, allocated 27.182 megabytes
+*** Worker Wrapper binds [Network.Socket.Types]:
+Result size of Worker Wrapper binds
+  = {terms: 9,041, types: 8,135, coercions: 1,708}
+!!! Worker Wrapper binds [Network.Socket.Types]: finished in 7.00 milliseconds, allocated 3.170 megabytes
+*** Simplifier [Network.Socket.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 9,656, types: 8,207, coercions: 1,625}
+Result size of Simplifier iteration=2
+  = {terms: 9,295, types: 7,981, coercions: 1,626}
+Result size of Simplifier iteration=3
+  = {terms: 9,295, types: 7,981, coercions: 1,628}
+Result size of Simplifier
+  = {terms: 9,295, types: 7,981, coercions: 1,628}
+!!! Simplifier [Network.Socket.Types]: finished in 269.00 milliseconds, allocated 158.931 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.Types]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 9,320, types: 8,009, coercions: 1,628}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.Types]: finished in 29.00 milliseconds, allocated 24.577 megabytes
+*** Common sub-expression [Network.Socket.Types]:
+Result size of Common sub-expression
+  = {terms: 8,434, types: 7,607, coercions: 1,496}
+!!! Common sub-expression [Network.Socket.Types]: finished in 30.00 milliseconds, allocated 12.537 megabytes
+*** Float inwards [Network.Socket.Types]:
+Result size of Float inwards
+  = {terms: 8,434, types: 7,607, coercions: 1,496}
+!!! Float inwards [Network.Socket.Types]: finished in 8.00 milliseconds, allocated 8.567 megabytes
+*** Simplifier [Network.Socket.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 8,220, types: 7,316, coercions: 1,580}
+Result size of Simplifier
+  = {terms: 8,218, types: 7,314, coercions: 1,580}
+!!! Simplifier [Network.Socket.Types]: finished in 124.00 milliseconds, allocated 70.638 megabytes
+*** CoreTidy [Network.Socket.Types]:
+Result size of Tidy Core
+  = {terms: 7,514, types: 6,580, coercions: 1,444}
+!!! CoreTidy [Network.Socket.Types]: finished in 31.00 milliseconds, allocated 17.418 megabytes
+writeBinIface: 919 Names
+writeBinIface: 1176 dict entries
+writeBinIface: 919 Names
+writeBinIface: 1176 dict entries
+*** CorePrep [Network.Socket.Types]:
+Result size of CorePrep
+  = {terms: 9,541, types: 7,464, coercions: 1,444}
+!!! CorePrep [Network.Socket.Types]: finished in 22.00 milliseconds, allocated 14.389 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.Types]:
+!!! CodeGen [Network.Socket.Types]: finished in 390.00 milliseconds, allocated 269.979 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network/Socket -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc4925_0/ghc_29.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/Types.o
+*** CorePrep [Network.Socket.Types]:
+Result size of CorePrep
+  = {terms: 9,541, types: 7,464, coercions: 1,444}
+!!! CorePrep [Network.Socket.Types]: finished in 17.00 milliseconds, allocated 14.165 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.Types]:
+!!! CodeGen [Network.Socket.Types]: finished in 418.00 milliseconds, allocated 277.732 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network/Socket -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4925_0/ghc_31.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/Types.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4925_0/ghc_32.c /tmp/ghc4925_0/ghc_31.s /tmp/ghc4925_0/ghc_30.c /tmp/ghc4925_0/ghc_29.s /tmp/ghc4925_0/ghc_28.s
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_32.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_30.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_28.s
+compile: input file /tmp/ghc4925_0/ghc_11.hscpp
+*** Checking old interface for Network.Socket.Internal:
+[ 3 of 11] Compiling Network.Socket.Internal ( dist/dist-sandbox-6afc8227/build/Network/Socket/Internal.hs, dist/dist-sandbox-6afc8227/build/Network/Socket/Internal.o )
+*** Parser [Network.Socket.Internal]:
+!!! Parser [Network.Socket.Internal]: finished in 3.00 milliseconds, allocated 6.090 megabytes
+*** Renamer/typechecker [Network.Socket.Internal]:
+!!! Renamer/typechecker [Network.Socket.Internal]: finished in 30.00 milliseconds, allocated 25.547 megabytes
+*** Desugar [Network.Socket.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 128, types: 217, coercions: 2}
+!!! Desugar [Network.Socket.Internal]: finished in 8.00 milliseconds, allocated 1.176 megabytes
+
+Network/Socket/Internal.hsc:75:1: warning: [-Wunused-imports]
+    The import of ‘Foreign.C.String’ is redundant
+      except perhaps to import instances from ‘Foreign.C.String’
+    To import instances alone, use: import Foreign.C.String()
+
+Network/Socket/Internal.hsc:77:1: warning: [-Wunused-imports]
+    The import of ‘Foreign.Ptr’ is redundant
+      except perhaps to import instances from ‘Foreign.Ptr’
+    To import instances alone, use: import Foreign.Ptr()
+*** Simplifier [Network.Socket.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 140, types: 222, coercions: 9}
+Result size of Simplifier iteration=2
+  = {terms: 142, types: 234, coercions: 16}
+Result size of Simplifier = {terms: 142, types: 234, coercions: 16}
+!!! Simplifier [Network.Socket.Internal]: finished in 4.00 milliseconds, allocated 2.087 megabytes
+*** Specialise [Network.Socket.Internal]:
+Result size of Specialise = {terms: 149, types: 239, coercions: 16}
+!!! Specialise [Network.Socket.Internal]: finished in 0.00 milliseconds, allocated 0.272 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 157, types: 247, coercions: 16}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.Internal]: finished in 2.00 milliseconds, allocated 0.781 megabytes
+*** Simplifier [Network.Socket.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 310, types: 534, coercions: 197}
+Result size of Simplifier iteration=2
+  = {terms: 276, types: 486, coercions: 177}
+Result size of Simplifier
+  = {terms: 276, types: 486, coercions: 177}
+!!! Simplifier [Network.Socket.Internal]: finished in 15.00 milliseconds, allocated 8.158 megabytes
+*** Simplifier [Network.Socket.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 299, types: 525, coercions: 183}
+Result size of Simplifier
+  = {terms: 280, types: 499, coercions: 183}
+!!! Simplifier [Network.Socket.Internal]: finished in 6.00 milliseconds, allocated 2.915 megabytes
+*** Simplifier [Network.Socket.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 283, types: 501, coercions: 187}
+Result size of Simplifier
+  = {terms: 283, types: 501, coercions: 182}
+!!! Simplifier [Network.Socket.Internal]: finished in 9.00 milliseconds, allocated 2.623 megabytes
+*** Float inwards [Network.Socket.Internal]:
+Result size of Float inwards
+  = {terms: 283, types: 501, coercions: 182}
+!!! Float inwards [Network.Socket.Internal]: finished in 0.00 milliseconds, allocated 0.323 megabytes
+*** Called arity analysis [Network.Socket.Internal]:
+Result size of Called arity analysis
+  = {terms: 283, types: 501, coercions: 182}
+!!! Called arity analysis [Network.Socket.Internal]: finished in 1.00 milliseconds, allocated 0.364 megabytes
+*** Simplifier [Network.Socket.Internal]:
+Result size of Simplifier
+  = {terms: 283, types: 501, coercions: 182}
+!!! Simplifier [Network.Socket.Internal]: finished in 2.00 milliseconds, allocated 1.304 megabytes
+*** Demand analysis [Network.Socket.Internal]:
+Result size of Demand analysis
+  = {terms: 283, types: 501, coercions: 182}
+!!! Demand analysis [Network.Socket.Internal]: finished in 2.00 milliseconds, allocated 1.056 megabytes
+*** Worker Wrapper binds [Network.Socket.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 283, types: 501, coercions: 182}
+!!! Worker Wrapper binds [Network.Socket.Internal]: finished in 0.00 milliseconds, allocated 0.160 megabytes
+*** Simplifier [Network.Socket.Internal]:
+Result size of Simplifier
+  = {terms: 283, types: 501, coercions: 182}
+!!! Simplifier [Network.Socket.Internal]: finished in 4.00 milliseconds, allocated 1.759 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 292, types: 510, coercions: 182}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.Internal]: finished in 1.00 milliseconds, allocated 1.119 megabytes
+*** Common sub-expression [Network.Socket.Internal]:
+Result size of Common sub-expression
+  = {terms: 283, types: 506, coercions: 181}
+!!! Common sub-expression [Network.Socket.Internal]: finished in 1.00 milliseconds, allocated 0.508 megabytes
+*** Float inwards [Network.Socket.Internal]:
+Result size of Float inwards
+  = {terms: 283, types: 506, coercions: 181}
+!!! Float inwards [Network.Socket.Internal]: finished in 0.00 milliseconds, allocated 0.324 megabytes
+*** Simplifier [Network.Socket.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 274, types: 497, coercions: 181}
+Result size of Simplifier
+  = {terms: 274, types: 497, coercions: 181}
+!!! Simplifier [Network.Socket.Internal]: finished in 6.00 milliseconds, allocated 3.238 megabytes
+*** CoreTidy [Network.Socket.Internal]:
+Result size of Tidy Core = {terms: 266, types: 492, coercions: 176}
+!!! CoreTidy [Network.Socket.Internal]: finished in 1.00 milliseconds, allocated 0.770 megabytes
+writeBinIface: 134 Names
+writeBinIface: 209 dict entries
+writeBinIface: 134 Names
+writeBinIface: 209 dict entries
+*** CorePrep [Network.Socket.Internal]:
+Result size of CorePrep = {terms: 398, types: 616, coercions: 176}
+!!! CorePrep [Network.Socket.Internal]: finished in 1.00 milliseconds, allocated 0.679 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.Internal]:
+!!! CodeGen [Network.Socket.Internal]: finished in 26.00 milliseconds, allocated 14.086 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network/Socket -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc4925_0/ghc_34.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/Internal.o
+*** CorePrep [Network.Socket.Internal]:
+Result size of CorePrep = {terms: 398, types: 616, coercions: 176}
+!!! CorePrep [Network.Socket.Internal]: finished in 1.00 milliseconds, allocated 0.674 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.Internal]:
+!!! CodeGen [Network.Socket.Internal]: finished in 26.00 milliseconds, allocated 14.669 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network/Socket -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4925_0/ghc_36.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4925_0/ghc_37.c /tmp/ghc4925_0/ghc_36.s /tmp/ghc4925_0/ghc_35.c /tmp/ghc4925_0/ghc_34.s /tmp/ghc4925_0/ghc_33.s
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_37.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_35.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_33.s
+compile: input file /tmp/ghc4925_0/ghc_5.hscpp
+*** Checking old interface for Network.Socket:
+[ 4 of 11] Compiling Network.Socket   ( dist/dist-sandbox-6afc8227/build/Network/Socket.hs, dist/dist-sandbox-6afc8227/build/Network/Socket.o )
+*** Parser [Network.Socket]:
+!!! Parser [Network.Socket]: finished in 33.00 milliseconds, allocated 42.139 megabytes
+*** Renamer/typechecker [Network.Socket]:
+!!! Renamer/typechecker [Network.Socket]: finished in 144.00 milliseconds, allocated 80.094 megabytes
+*** Desugar [Network.Socket]:
+Result size of Desugar (after optimization)
+  = {terms: 4,460, types: 4,367, coercions: 427}
+!!! Desugar [Network.Socket]: finished in 56.00 milliseconds, allocated 31.056 megabytes
+
+Network/Socket.hsc:177:1: warning: [-Wunused-imports]
+    The import of ‘delete’ from module ‘Data.List’ is redundant
+
+Network/Socket.hsc:193:1: warning: [-Wunused-imports]
+    The qualified import of ‘Control.Exception’ is redundant
+      except perhaps to import instances from ‘Control.Exception’
+    To import instances alone, use: import Control.Exception()
+
+Network/Socket.hsc:212:1: warning: [-Wunused-imports]
+    The import of ‘GHC.IO.FD’ is redundant
+      except perhaps to import instances from ‘GHC.IO.FD’
+    To import instances alone, use: import GHC.IO.FD()
+
+Network/Socket.hsc:276:3: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘showsPrec’:
+        Patterns not matched: _ (SockAddrCan _)
+
+Network/Socket.hsc:949:13: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Integral a0)
+          arising from a use of ‘fromIntegral’
+          at Network/Socket.hsc:949:13-29
+        (Num a0)
+          arising from the literal ‘12’ at Network/Socket.hsc:949:27-28
+    • In the expression: (fromIntegral (12))
+      In an equation for ‘sz’: sz = (fromIntegral (12))
+      In the expression:
+        do { let fd = fdSocket sock;
+             let sz = (fromIntegral (12));
+             with sz $ \ ptr_cr -> alloca $ \ ptr_sz -> ... }
+
+Network/Socket.hsc:953:6: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘CInt’
+    Suppress this warning by saying
+      ‘_ <- ($)
+              throwSocketErrorIfMinus1Retry "getPeerCred"
+              c_getsockopt fd (1) (17) ptr_cr ptr_sz’
+
+Network/Socket.hsc:989:3: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘CInt’
+    Suppress this warning by saying
+      ‘_ <- ($)
+              throwSocketErrorWaitWrite sock "sendFd"
+              c_sendFd (fdSocket sock) outfd’
+
+Network/Socket.hsc:1571:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘c_accept’
+*** Simplifier [Network.Socket]:
+Result size of Simplifier iteration=1
+  = {terms: 4,852, types: 4,996, coercions: 1,115}
+Result size of Simplifier iteration=2
+  = {terms: 4,849, types: 5,349, coercions: 1,324}
+Result size of Simplifier
+  = {terms: 4,849, types: 5,349, coercions: 1,324}
+!!! Simplifier [Network.Socket]: finished in 263.00 milliseconds, allocated 68.884 megabytes
+*** Specialise [Network.Socket]:
+Result size of Specialise
+  = {terms: 5,351, types: 5,872, coercions: 1,348}
+!!! Specialise [Network.Socket]: finished in 24.00 milliseconds, allocated 8.034 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 6,971, types: 8,422, coercions: 1,348}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket]: finished in 25.00 milliseconds, allocated 25.459 megabytes
+*** Simplifier [Network.Socket]:
+Result size of Simplifier iteration=1
+  = {terms: 12,192, types: 14,636, coercions: 3,180}
+Result size of Simplifier iteration=2
+  = {terms: 8,476, types: 9,625, coercions: 1,422}
+Result size of Simplifier iteration=3
+  = {terms: 8,271, types: 9,263, coercions: 1,290}
+Result size of Simplifier iteration=4
+  = {terms: 8,265, types: 9,251, coercions: 1,294}
+Result size of Simplifier
+  = {terms: 8,265, types: 9,251, coercions: 1,294}
+!!! Simplifier [Network.Socket]: finished in 396.00 milliseconds, allocated 232.560 megabytes
+*** Simplifier [Network.Socket]:
+Result size of Simplifier iteration=1
+  = {terms: 7,715, types: 8,636, coercions: 1,312}
+Result size of Simplifier iteration=2
+  = {terms: 7,523, types: 8,400, coercions: 1,306}
+Result size of Simplifier iteration=3
+  = {terms: 7,445, types: 8,349, coercions: 1,306}
+Result size of Simplifier iteration=4
+  = {terms: 7,445, types: 8,349, coercions: 1,306}
+Result size of Simplifier
+  = {terms: 7,445, types: 8,349, coercions: 1,306}
+!!! Simplifier [Network.Socket]: finished in 229.00 milliseconds, allocated 134.390 megabytes
+*** Simplifier [Network.Socket]:
+Result size of Simplifier iteration=1
+  = {terms: 7,970, types: 8,924, coercions: 1,378}
+Result size of Simplifier iteration=2
+  = {terms: 7,902, types: 8,849, coercions: 1,384}
+Result size of Simplifier
+  = {terms: 7,902, types: 8,849, coercions: 1,384}
+!!! Simplifier [Network.Socket]: finished in 167.00 milliseconds, allocated 94.617 megabytes
+*** Float inwards [Network.Socket]:
+Result size of Float inwards
+  = {terms: 7,902, types: 8,849, coercions: 1,384}
+!!! Float inwards [Network.Socket]: finished in 10.00 milliseconds, allocated 10.607 megabytes
+*** Called arity analysis [Network.Socket]:
+Result size of Called arity analysis
+  = {terms: 7,902, types: 8,849, coercions: 1,384}
+!!! Called arity analysis [Network.Socket]: finished in 13.00 milliseconds, allocated 8.885 megabytes
+*** Simplifier [Network.Socket]:
+Result size of Simplifier iteration=1
+  = {terms: 7,902, types: 8,849, coercions: 1,384}
+Result size of Simplifier
+  = {terms: 7,902, types: 8,849, coercions: 1,384}
+!!! Simplifier [Network.Socket]: finished in 116.00 milliseconds, allocated 61.412 megabytes
+*** Demand analysis [Network.Socket]:
+Result size of Demand analysis
+  = {terms: 7,902, types: 8,849, coercions: 1,384}
+!!! Demand analysis [Network.Socket]: finished in 34.00 milliseconds, allocated 30.431 megabytes
+*** Worker Wrapper binds [Network.Socket]:
+Result size of Worker Wrapper binds
+  = {terms: 9,182, types: 10,294, coercions: 1,445}
+!!! Worker Wrapper binds [Network.Socket]: finished in 9.00 milliseconds, allocated 3.506 megabytes
+*** Simplifier [Network.Socket]:
+Result size of Simplifier iteration=1
+  = {terms: 8,551, types: 9,784, coercions: 1,360}
+Result size of Simplifier iteration=2
+  = {terms: 8,287, types: 9,486, coercions: 1,350}
+Result size of Simplifier
+  = {terms: 8,287, types: 9,486, coercions: 1,350}
+!!! Simplifier [Network.Socket]: finished in 207.00 milliseconds, allocated 112.435 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 8,546, types: 9,677, coercions: 1,350}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket]: finished in 48.00 milliseconds, allocated 27.256 megabytes
+*** Common sub-expression [Network.Socket]:
+Result size of Common sub-expression
+  = {terms: 8,235, types: 9,491, coercions: 1,228}
+!!! Common sub-expression [Network.Socket]: finished in 22.00 milliseconds, allocated 11.987 megabytes
+*** Float inwards [Network.Socket]:
+Result size of Float inwards
+  = {terms: 8,235, types: 9,491, coercions: 1,228}
+!!! Float inwards [Network.Socket]: finished in 25.00 milliseconds, allocated 10.750 megabytes
+*** Simplifier [Network.Socket]:
+Result size of Simplifier iteration=1
+  = {terms: 8,062, types: 9,309, coercions: 1,312}
+Result size of Simplifier
+  = {terms: 8,062, types: 9,309, coercions: 1,312}
+!!! Simplifier [Network.Socket]: finished in 127.00 milliseconds, allocated 69.677 megabytes
+*** CoreTidy [Network.Socket]:
+Result size of Tidy Core
+  = {terms: 7,765, types: 8,877, coercions: 1,218}
+!!! CoreTidy [Network.Socket]: finished in 22.00 milliseconds, allocated 16.730 megabytes
+writeBinIface: 782 Names
+writeBinIface: 1020 dict entries
+writeBinIface: 782 Names
+writeBinIface: 1020 dict entries
+*** CorePrep [Network.Socket]:
+Result size of CorePrep
+  = {terms: 9,220, types: 10,161, coercions: 1,218}
+!!! CorePrep [Network.Socket]: finished in 19.00 milliseconds, allocated 16.281 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket]:
+!!! CodeGen [Network.Socket]: finished in 539.00 milliseconds, allocated 365.422 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc4925_0/ghc_39.s -o dist/dist-sandbox-6afc8227/build/Network/Socket.o
+*** CorePrep [Network.Socket]:
+Result size of CorePrep
+  = {terms: 9,220, types: 10,161, coercions: 1,218}
+!!! CorePrep [Network.Socket]: finished in 0.00 milliseconds, allocated 15.755 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket]:
+!!! CodeGen [Network.Socket]: finished in 433.00 milliseconds, allocated 382.480 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4925_0/ghc_41.s -o dist/dist-sandbox-6afc8227/build/Network/Socket.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4925_0/ghc_42.c /tmp/ghc4925_0/ghc_41.s /tmp/ghc4925_0/ghc_40.c /tmp/ghc4925_0/ghc_39.s /tmp/ghc4925_0/ghc_38.s
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_42.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_40.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_38.s
+compile: input file /tmp/ghc4925_0/ghc_3.hscpp
+*** Checking old interface for Network.BSD:
+[ 5 of 11] Compiling Network.BSD      ( dist/dist-sandbox-6afc8227/build/Network/BSD.hs, dist/dist-sandbox-6afc8227/build/Network/BSD.o )
+*** Parser [Network.BSD]:
+!!! Parser [Network.BSD]: finished in 10.00 milliseconds, allocated 15.729 megabytes
+*** Renamer/typechecker [Network.BSD]:
+!!! Renamer/typechecker [Network.BSD]: finished in 104.00 milliseconds, allocated 46.477 megabytes
+*** Desugar [Network.BSD]:
+Result size of Desugar (after optimization)
+  = {terms: 2,306, types: 2,474, coercions: 250}
+!!! Desugar [Network.BSD]: finished in 18.00 milliseconds, allocated 12.719 megabytes
+
+Network/BSD.hsc:166:43: warning: [-Wdeprecations]
+    In the use of data constructor ‘PortNum’
+    (imported from Network.Socket, but defined in Network.Socket.Types):
+    Deprecated: "Do not use the PortNum constructor. Use the Num instance. PortNum will be removed in the next release."
+
+Network/BSD.hsc:190:19: warning: [-Wdeprecations]
+    In the use of data constructor ‘PortNum’
+    (imported from Network.Socket, but defined in Network.Socket.Types):
+    Deprecated: "Do not use the PortNum constructor. Use the Num instance. PortNum will be removed in the next release."
+*** Simplifier [Network.BSD]:
+Result size of Simplifier iteration=1
+  = {terms: 2,535, types: 3,000, coercions: 441}
+Result size of Simplifier iteration=2
+  = {terms: 2,543, types: 3,211, coercions: 470}
+Result size of Simplifier
+  = {terms: 2,543, types: 3,211, coercions: 470}
+!!! Simplifier [Network.BSD]: finished in 68.00 milliseconds, allocated 37.175 megabytes
+*** Specialise [Network.BSD]:
+Result size of Specialise
+  = {terms: 3,008, types: 3,669, coercions: 504}
+!!! Specialise [Network.BSD]: finished in 6.00 milliseconds, allocated 4.927 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.BSD]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 4,215, types: 5,646, coercions: 504}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.BSD]: finished in 23.00 milliseconds, allocated 15.443 megabytes
+*** Simplifier [Network.BSD]:
+Result size of Simplifier iteration=1
+  = {terms: 7,800, types: 10,571, coercions: 2,227}
+Result size of Simplifier iteration=2
+  = {terms: 4,476, types: 5,611, coercions: 1,073}
+Result size of Simplifier iteration=3
+  = {terms: 4,417, types: 5,544, coercions: 989}
+Result size of Simplifier
+  = {terms: 4,411, types: 5,535, coercions: 974}
+!!! Simplifier [Network.BSD]: finished in 300.00 milliseconds, allocated 160.896 megabytes
+*** Simplifier [Network.BSD]:
+Result size of Simplifier iteration=1
+  = {terms: 3,981, types: 4,797, coercions: 973}
+Result size of Simplifier iteration=2
+  = {terms: 3,942, types: 4,741, coercions: 973}
+Result size of Simplifier
+  = {terms: 3,942, types: 4,741, coercions: 973}
+!!! Simplifier [Network.BSD]: finished in 102.00 milliseconds, allocated 64.434 megabytes
+*** Simplifier [Network.BSD]:
+Result size of Simplifier iteration=1
+  = {terms: 5,343, types: 6,001, coercions: 1,047}
+Result size of Simplifier iteration=2
+  = {terms: 4,818, types: 5,563, coercions: 1,047}
+Result size of Simplifier
+  = {terms: 4,818, types: 5,563, coercions: 1,047}
+!!! Simplifier [Network.BSD]: finished in 146.00 milliseconds, allocated 68.892 megabytes
+*** Float inwards [Network.BSD]:
+Result size of Float inwards
+  = {terms: 4,818, types: 5,563, coercions: 1,047}
+!!! Float inwards [Network.BSD]: finished in 8.00 milliseconds, allocated 7.377 megabytes
+*** Called arity analysis [Network.BSD]:
+Result size of Called arity analysis
+  = {terms: 4,818, types: 5,563, coercions: 1,047}
+!!! Called arity analysis [Network.BSD]: finished in 16.00 milliseconds, allocated 8.666 megabytes
+*** Simplifier [Network.BSD]:
+Result size of Simplifier
+  = {terms: 4,818, types: 5,563, coercions: 1,047}
+!!! Simplifier [Network.BSD]: finished in 46.00 milliseconds, allocated 20.960 megabytes
+*** Demand analysis [Network.BSD]:
+Result size of Demand analysis
+  = {terms: 4,818, types: 5,563, coercions: 1,047}
+!!! Demand analysis [Network.BSD]: finished in 32.00 milliseconds, allocated 19.004 megabytes
+*** Worker Wrapper binds [Network.BSD]:
+Result size of Worker Wrapper binds
+  = {terms: 5,117, types: 5,891, coercions: 1,047}
+!!! Worker Wrapper binds [Network.BSD]: finished in 12.00 milliseconds, allocated 1.733 megabytes
+*** Simplifier [Network.BSD]:
+Result size of Simplifier iteration=1
+  = {terms: 5,021, types: 5,828, coercions: 1,047}
+Result size of Simplifier
+  = {terms: 5,009, types: 5,824, coercions: 1,047}
+!!! Simplifier [Network.BSD]: finished in 115.00 milliseconds, allocated 51.627 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.BSD]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 5,170, types: 5,958, coercions: 1,047}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.BSD]: finished in 35.00 milliseconds, allocated 20.424 megabytes
+*** Common sub-expression [Network.BSD]:
+Result size of Common sub-expression
+  = {terms: 4,851, types: 5,715, coercions: 914}
+!!! Common sub-expression [Network.BSD]: finished in 25.00 milliseconds, allocated 7.620 megabytes
+*** Float inwards [Network.BSD]:
+Result size of Float inwards
+  = {terms: 4,851, types: 5,715, coercions: 914}
+!!! Float inwards [Network.BSD]: finished in 9.00 milliseconds, allocated 7.258 megabytes
+*** Simplifier [Network.BSD]:
+Result size of Simplifier iteration=1
+  = {terms: 4,685, types: 5,470, coercions: 990}
+Result size of Simplifier
+  = {terms: 4,685, types: 5,470, coercions: 990}
+!!! Simplifier [Network.BSD]: finished in 106.00 milliseconds, allocated 47.082 megabytes
+*** CoreTidy [Network.BSD]:
+Result size of Tidy Core
+  = {terms: 4,570, types: 5,245, coercions: 895}
+!!! CoreTidy [Network.BSD]: finished in 179.00 milliseconds, allocated 9.802 megabytes
+writeBinIface: 361 Names
+writeBinIface: 551 dict entries
+writeBinIface: 361 Names
+writeBinIface: 551 dict entries
+*** CorePrep [Network.BSD]:
+Result size of CorePrep
+  = {terms: 5,539, types: 6,145, coercions: 895}
+!!! CorePrep [Network.BSD]: finished in 15.00 milliseconds, allocated 10.035 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.BSD]:
+!!! CodeGen [Network.BSD]: finished in 432.00 milliseconds, allocated 275.666 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc4925_0/ghc_44.s -o dist/dist-sandbox-6afc8227/build/Network/BSD.o
+*** CorePrep [Network.BSD]:
+Result size of CorePrep
+  = {terms: 5,539, types: 6,145, coercions: 895}
+!!! CorePrep [Network.BSD]: finished in 13.00 milliseconds, allocated 9.620 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.BSD]:
+!!! CodeGen [Network.BSD]: finished in 421.00 milliseconds, allocated 289.313 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4925_0/ghc_46.s -o dist/dist-sandbox-6afc8227/build/Network/BSD.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4925_0/ghc_47.c /tmp/ghc4925_0/ghc_46.s /tmp/ghc4925_0/ghc_45.c /tmp/ghc4925_0/ghc_44.s /tmp/ghc4925_0/ghc_43.s
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_47.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_45.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_43.s
+compile: input file /tmp/ghc4925_0/ghc_1.hscpp
+*** Checking old interface for Network:
+[ 6 of 11] Compiling Network          ( Network.hs, dist/dist-sandbox-6afc8227/build/Network.o )
+*** Parser [Network]:
+!!! Parser [Network]: finished in 5.00 milliseconds, allocated 9.044 megabytes
+*** Renamer/typechecker [Network]:
+!!! Renamer/typechecker [Network]: finished in 28.00 milliseconds, allocated 13.713 megabytes
+*** Desugar [Network]:
+Result size of Desugar (after optimization)
+  = {terms: 888, types: 780, coercions: 22}
+!!! Desugar [Network]: finished in 12.00 milliseconds, allocated 5.969 megabytes
+
+Network.hs:292:16: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In a case alternative: Patterns not matched: (SockAddrCan _)
+
+Network.hs:401:5: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In a case alternative: Patterns not matched: (SockAddrCan _)
+*** Simplifier [Network]:
+Result size of Simplifier iteration=1
+  = {terms: 908, types: 839, coercions: 185}
+Result size of Simplifier iteration=2
+  = {terms: 892, types: 853, coercions: 234}
+Result size of Simplifier
+  = {terms: 892, types: 853, coercions: 234}
+!!! Simplifier [Network]: finished in 21.00 milliseconds, allocated 11.611 megabytes
+*** Specialise [Network]:
+Result size of Specialise
+  = {terms: 956, types: 957, coercions: 234}
+!!! Specialise [Network]: finished in 3.00 milliseconds, allocated 1.465 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,148, types: 1,275, coercions: 234}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network]: finished in 6.00 milliseconds, allocated 4.642 megabytes
+*** Simplifier [Network]:
+Result size of Simplifier iteration=1
+  = {terms: 1,548, types: 1,907, coercions: 371}
+Result size of Simplifier iteration=2
+  = {terms: 1,320, types: 1,576, coercions: 223}
+Result size of Simplifier iteration=3
+  = {terms: 1,312, types: 1,567, coercions: 219}
+Result size of Simplifier
+  = {terms: 1,310, types: 1,558, coercions: 206}
+!!! Simplifier [Network]: finished in 49.00 milliseconds, allocated 35.876 megabytes
+*** Simplifier [Network]:
+Result size of Simplifier iteration=1
+  = {terms: 1,259, types: 1,444, coercions: 206}
+Result size of Simplifier iteration=2
+  = {terms: 1,246, types: 1,439, coercions: 206}
+Result size of Simplifier
+  = {terms: 1,246, types: 1,439, coercions: 206}
+!!! Simplifier [Network]: finished in 23.00 milliseconds, allocated 17.063 megabytes
+*** Simplifier [Network]:
+Result size of Simplifier iteration=1
+  = {terms: 1,885, types: 2,132, coercions: 218}
+Result size of Simplifier iteration=2
+  = {terms: 1,867, types: 2,122, coercions: 230}
+Result size of Simplifier
+  = {terms: 1,867, types: 2,122, coercions: 230}
+!!! Simplifier [Network]: finished in 32.00 milliseconds, allocated 23.756 megabytes
+*** Float inwards [Network]:
+Result size of Float inwards
+  = {terms: 1,867, types: 2,122, coercions: 230}
+!!! Float inwards [Network]: finished in 2.00 milliseconds, allocated 2.345 megabytes
+*** Called arity analysis [Network]:
+Result size of Called arity analysis
+  = {terms: 1,867, types: 2,122, coercions: 230}
+!!! Called arity analysis [Network]: finished in 2.00 milliseconds, allocated 1.612 megabytes
+*** Simplifier [Network]:
+Result size of Simplifier iteration=1
+  = {terms: 1,972, types: 2,255, coercions: 234}
+Result size of Simplifier
+  = {terms: 1,917, types: 2,164, coercions: 210}
+!!! Simplifier [Network]: finished in 20.00 milliseconds, allocated 16.123 megabytes
+*** Demand analysis [Network]:
+Result size of Demand analysis
+  = {terms: 1,917, types: 2,164, coercions: 210}
+!!! Demand analysis [Network]: finished in 7.00 milliseconds, allocated 8.125 megabytes
+*** Worker Wrapper binds [Network]:
+Result size of Worker Wrapper binds
+  = {terms: 2,182, types: 2,467, coercions: 225}
+!!! Worker Wrapper binds [Network]: finished in 1.00 milliseconds, allocated 0.802 megabytes
+*** Simplifier [Network]:
+Result size of Simplifier iteration=1
+  = {terms: 2,074, types: 2,368, coercions: 215}
+Result size of Simplifier
+  = {terms: 1,970, types: 2,258, coercions: 210}
+!!! Simplifier [Network]: finished in 26.00 milliseconds, allocated 17.882 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,013, types: 2,312, coercions: 210}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network]: finished in 6.00 milliseconds, allocated 7.009 megabytes
+*** Common sub-expression [Network]:
+Result size of Common sub-expression
+  = {terms: 1,989, types: 2,303, coercions: 210}
+!!! Common sub-expression [Network]: finished in 4.00 milliseconds, allocated 2.911 megabytes
+*** Float inwards [Network]:
+Result size of Float inwards
+  = {terms: 1,989, types: 2,303, coercions: 210}
+!!! Float inwards [Network]: finished in 2.00 milliseconds, allocated 2.331 megabytes
+*** Simplifier [Network]:
+Result size of Simplifier iteration=1
+  = {terms: 1,986, types: 2,297, coercions: 213}
+Result size of Simplifier
+  = {terms: 1,986, types: 2,297, coercions: 213}
+!!! Simplifier [Network]: finished in 23.00 milliseconds, allocated 16.615 megabytes
+*** CoreTidy [Network]:
+Result size of Tidy Core
+  = {terms: 1,788, types: 2,080, coercions: 213}
+!!! CoreTidy [Network]: finished in 4.00 milliseconds, allocated 3.220 megabytes
+writeBinIface: 117 Names
+writeBinIface: 251 dict entries
+writeBinIface: 117 Names
+writeBinIface: 251 dict entries
+*** CorePrep [Network]:
+Result size of CorePrep
+  = {terms: 2,105, types: 2,338, coercions: 213}
+!!! CorePrep [Network]: finished in 4.00 milliseconds, allocated 4.131 megabytes
+*** Stg2Stg:
+*** CodeGen [Network]:
+!!! CodeGen [Network]: finished in 95.00 milliseconds, allocated 88.742 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I. -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc4925_0/ghc_49.s -o dist/dist-sandbox-6afc8227/build/Network.o
+*** CorePrep [Network]:
+Result size of CorePrep
+  = {terms: 2,105, types: 2,338, coercions: 213}
+!!! CorePrep [Network]: finished in 4.00 milliseconds, allocated 3.891 megabytes
+*** Stg2Stg:
+*** CodeGen [Network]:
+!!! CodeGen [Network]: finished in 123.00 milliseconds, allocated 93.629 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I. -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4925_0/ghc_51.s -o dist/dist-sandbox-6afc8227/build/Network.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4925_0/ghc_52.c /tmp/ghc4925_0/ghc_51.s /tmp/ghc4925_0/ghc_50.c /tmp/ghc4925_0/ghc_49.s /tmp/ghc4925_0/ghc_48.s
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_52.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_50.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_48.s
+compile: input file /tmp/ghc4925_0/ghc_21.hscpp
+*** Checking old interface for Network.Socket.ByteString.MsgHdr:
+[ 7 of 11] Compiling Network.Socket.ByteString.MsgHdr ( dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/MsgHdr.hs, dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/MsgHdr.o )
+*** Parser [Network.Socket.ByteString.MsgHdr]:
+!!! Parser [Network.Socket.ByteString.MsgHdr]: finished in 2.00 milliseconds, allocated 2.795 megabytes
+*** Renamer/typechecker [Network.Socket.ByteString.MsgHdr]:
+!!! Renamer/typechecker [Network.Socket.ByteString.MsgHdr]: finished in 4.00 milliseconds, allocated 2.903 megabytes
+*** Desugar [Network.Socket.ByteString.MsgHdr]:
+Result size of Desugar (after optimization)
+  = {terms: 187, types: 163, coercions: 15}
+!!! Desugar [Network.Socket.ByteString.MsgHdr]: finished in 1.00 milliseconds, allocated 1.132 megabytes
+*** Simplifier [Network.Socket.ByteString.MsgHdr]:
+Result size of Simplifier iteration=1
+  = {terms: 192, types: 168, coercions: 28}
+Result size of Simplifier iteration=2
+  = {terms: 194, types: 178, coercions: 39}
+Result size of Simplifier = {terms: 194, types: 178, coercions: 39}
+!!! Simplifier [Network.Socket.ByteString.MsgHdr]: finished in 3.00 milliseconds, allocated 2.465 megabytes
+*** Specialise [Network.Socket.ByteString.MsgHdr]:
+Result size of Specialise = {terms: 285, types: 266, coercions: 43}
+!!! Specialise [Network.Socket.ByteString.MsgHdr]: finished in 1.00 milliseconds, allocated 0.499 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.ByteString.MsgHdr]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 349, types: 353, coercions: 43}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.ByteString.MsgHdr]: finished in 1.00 milliseconds, allocated 1.382 megabytes
+*** Simplifier [Network.Socket.ByteString.MsgHdr]:
+Result size of Simplifier iteration=1
+  = {terms: 611, types: 523, coercions: 99}
+Result size of Simplifier iteration=2
+  = {terms: 656, types: 715, coercions: 158}
+Result size of Simplifier
+  = {terms: 656, types: 715, coercions: 158}
+!!! Simplifier [Network.Socket.ByteString.MsgHdr]: finished in 14.00 milliseconds, allocated 10.803 megabytes
+*** Simplifier [Network.Socket.ByteString.MsgHdr]:
+Result size of Simplifier
+  = {terms: 656, types: 715, coercions: 158}
+!!! Simplifier [Network.Socket.ByteString.MsgHdr]: finished in 5.00 milliseconds, allocated 2.567 megabytes
+*** Simplifier [Network.Socket.ByteString.MsgHdr]:
+Result size of Simplifier
+  = {terms: 656, types: 715, coercions: 158}
+!!! Simplifier [Network.Socket.ByteString.MsgHdr]: finished in 4.00 milliseconds, allocated 2.566 megabytes
+*** Float inwards [Network.Socket.ByteString.MsgHdr]:
+Result size of Float inwards
+  = {terms: 656, types: 715, coercions: 158}
+!!! Float inwards [Network.Socket.ByteString.MsgHdr]: finished in 0.00 milliseconds, allocated 0.890 megabytes
+*** Called arity analysis [Network.Socket.ByteString.MsgHdr]:
+Result size of Called arity analysis
+  = {terms: 656, types: 715, coercions: 158}
+!!! Called arity analysis [Network.Socket.ByteString.MsgHdr]: finished in 0.00 milliseconds, allocated 0.670 megabytes
+*** Simplifier [Network.Socket.ByteString.MsgHdr]:
+Result size of Simplifier
+  = {terms: 656, types: 715, coercions: 158}
+!!! Simplifier [Network.Socket.ByteString.MsgHdr]: finished in 5.00 milliseconds, allocated 2.568 megabytes
+*** Demand analysis [Network.Socket.ByteString.MsgHdr]:
+Result size of Demand analysis
+  = {terms: 656, types: 715, coercions: 158}
+!!! Demand analysis [Network.Socket.ByteString.MsgHdr]: finished in 3.00 milliseconds, allocated 2.668 megabytes
+*** Worker Wrapper binds [Network.Socket.ByteString.MsgHdr]:
+Result size of Worker Wrapper binds
+  = {terms: 656, types: 715, coercions: 158}
+!!! Worker Wrapper binds [Network.Socket.ByteString.MsgHdr]: finished in 0.00 milliseconds, allocated 0.209 megabytes
+*** Simplifier [Network.Socket.ByteString.MsgHdr]:
+Result size of Simplifier
+  = {terms: 656, types: 715, coercions: 158}
+!!! Simplifier [Network.Socket.ByteString.MsgHdr]: finished in 7.00 milliseconds, allocated 4.276 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.ByteString.MsgHdr]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 656, types: 715, coercions: 158}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.ByteString.MsgHdr]: finished in 2.00 milliseconds, allocated 1.509 megabytes
+*** Common sub-expression [Network.Socket.ByteString.MsgHdr]:
+Result size of Common sub-expression
+  = {terms: 432, types: 519, coercions: 116}
+!!! Common sub-expression [Network.Socket.ByteString.MsgHdr]: finished in 3.00 milliseconds, allocated 1.519 megabytes
+*** Float inwards [Network.Socket.ByteString.MsgHdr]:
+Result size of Float inwards
+  = {terms: 432, types: 519, coercions: 116}
+!!! Float inwards [Network.Socket.ByteString.MsgHdr]: finished in 0.00 milliseconds, allocated 0.555 megabytes
+*** Simplifier [Network.Socket.ByteString.MsgHdr]:
+Result size of Simplifier iteration=1
+  = {terms: 424, types: 469, coercions: 158}
+Result size of Simplifier
+  = {terms: 424, types: 469, coercions: 158}
+!!! Simplifier [Network.Socket.ByteString.MsgHdr]: finished in 11.00 milliseconds, allocated 5.643 megabytes
+*** CoreTidy [Network.Socket.ByteString.MsgHdr]:
+Result size of Tidy Core = {terms: 438, types: 466, coercions: 118}
+!!! CoreTidy [Network.Socket.ByteString.MsgHdr]: finished in 1.00 milliseconds, allocated 1.009 megabytes
+writeBinIface: 44 Names
+writeBinIface: 110 dict entries
+writeBinIface: 44 Names
+writeBinIface: 110 dict entries
+*** CorePrep [Network.Socket.ByteString.MsgHdr]:
+Result size of CorePrep = {terms: 558, types: 535, coercions: 118}
+!!! CorePrep [Network.Socket.ByteString.MsgHdr]: finished in 0.00 milliseconds, allocated 0.970 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.ByteString.MsgHdr]:
+!!! CodeGen [Network.Socket.ByteString.MsgHdr]: finished in 21.00 milliseconds, allocated 12.865 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network/Socket/ByteString -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc4925_0/ghc_54.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/MsgHdr.o
+*** CorePrep [Network.Socket.ByteString.MsgHdr]:
+Result size of CorePrep = {terms: 558, types: 535, coercions: 118}
+!!! CorePrep [Network.Socket.ByteString.MsgHdr]: finished in 1.00 milliseconds, allocated 0.928 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.ByteString.MsgHdr]:
+!!! CodeGen [Network.Socket.ByteString.MsgHdr]: finished in 24.00 milliseconds, allocated 13.131 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network/Socket/ByteString -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4925_0/ghc_56.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/MsgHdr.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4925_0/ghc_57.c /tmp/ghc4925_0/ghc_56.s /tmp/ghc4925_0/ghc_55.c /tmp/ghc4925_0/ghc_54.s /tmp/ghc4925_0/ghc_53.s
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_57.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_55.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_53.s
+compile: input file /tmp/ghc4925_0/ghc_13.hscpp
+*** Checking old interface for Network.Socket.ByteString.Internal:
+[ 8 of 11] Compiling Network.Socket.ByteString.Internal ( Network/Socket/ByteString/Internal.hs, dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/Internal.o )
+*** Parser [Network.Socket.ByteString.Internal]:
+!!! Parser [Network.Socket.ByteString.Internal]: finished in 1.00 milliseconds, allocated 1.424 megabytes
+*** Renamer/typechecker [Network.Socket.ByteString.Internal]:
+!!! Renamer/typechecker [Network.Socket.ByteString.Internal]: finished in 2.00 milliseconds, allocated 1.060 megabytes
+*** Desugar [Network.Socket.ByteString.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 66, types: 72, coercions: 30}
+!!! Desugar [Network.Socket.ByteString.Internal]: finished in 1.00 milliseconds, allocated 0.642 megabytes
+*** Simplifier [Network.Socket.ByteString.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 80, types: 94, coercions: 42}
+Result size of Simplifier iteration=2
+  = {terms: 80, types: 114, coercions: 44}
+Result size of Simplifier = {terms: 80, types: 114, coercions: 44}
+!!! Simplifier [Network.Socket.ByteString.Internal]: finished in 3.00 milliseconds, allocated 1.654 megabytes
+*** Specialise [Network.Socket.ByteString.Internal]:
+Result size of Specialise = {terms: 80, types: 114, coercions: 44}
+!!! Specialise [Network.Socket.ByteString.Internal]: finished in 0.00 milliseconds, allocated 0.133 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.ByteString.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 84, types: 123, coercions: 44}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.ByteString.Internal]: finished in 0.00 milliseconds, allocated 0.288 megabytes
+*** Simplifier [Network.Socket.ByteString.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 82, types: 117, coercions: 66}
+Result size of Simplifier = {terms: 78, types: 105, coercions: 24}
+!!! Simplifier [Network.Socket.ByteString.Internal]: finished in 2.00 milliseconds, allocated 1.077 megabytes
+*** Simplifier [Network.Socket.ByteString.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 76, types: 101, coercions: 24}
+Result size of Simplifier = {terms: 76, types: 101, coercions: 24}
+!!! Simplifier [Network.Socket.ByteString.Internal]: finished in 2.00 milliseconds, allocated 0.968 megabytes
+*** Simplifier [Network.Socket.ByteString.Internal]:
+Result size of Simplifier = {terms: 76, types: 101, coercions: 24}
+!!! Simplifier [Network.Socket.ByteString.Internal]: finished in 0.00 milliseconds, allocated 0.466 megabytes
+*** Float inwards [Network.Socket.ByteString.Internal]:
+Result size of Float inwards
+  = {terms: 76, types: 101, coercions: 24}
+!!! Float inwards [Network.Socket.ByteString.Internal]: finished in 1.00 milliseconds, allocated 0.112 megabytes
+*** Called arity analysis [Network.Socket.ByteString.Internal]:
+Result size of Called arity analysis
+  = {terms: 76, types: 101, coercions: 24}
+!!! Called arity analysis [Network.Socket.ByteString.Internal]: finished in 0.00 milliseconds, allocated 0.111 megabytes
+*** Simplifier [Network.Socket.ByteString.Internal]:
+Result size of Simplifier = {terms: 76, types: 101, coercions: 24}
+!!! Simplifier [Network.Socket.ByteString.Internal]: finished in 1.00 milliseconds, allocated 0.469 megabytes
+*** Demand analysis [Network.Socket.ByteString.Internal]:
+Result size of Demand analysis
+  = {terms: 76, types: 101, coercions: 24}
+!!! Demand analysis [Network.Socket.ByteString.Internal]: finished in 0.00 milliseconds, allocated 0.294 megabytes
+*** Worker Wrapper binds [Network.Socket.ByteString.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 76, types: 101, coercions: 24}
+!!! Worker Wrapper binds [Network.Socket.ByteString.Internal]: finished in 0.00 milliseconds, allocated 0.066 megabytes
+*** Simplifier [Network.Socket.ByteString.Internal]:
+Result size of Simplifier = {terms: 76, types: 101, coercions: 24}
+!!! Simplifier [Network.Socket.ByteString.Internal]: finished in 1.00 milliseconds, allocated 0.643 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.ByteString.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 76, types: 101, coercions: 24}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.ByteString.Internal]: finished in 0.00 milliseconds, allocated 0.261 megabytes
+*** Common sub-expression [Network.Socket.ByteString.Internal]:
+Result size of Common sub-expression
+  = {terms: 76, types: 101, coercions: 24}
+!!! Common sub-expression [Network.Socket.ByteString.Internal]: finished in 1.00 milliseconds, allocated 0.250 megabytes
+*** Float inwards [Network.Socket.ByteString.Internal]:
+Result size of Float inwards
+  = {terms: 76, types: 101, coercions: 24}
+!!! Float inwards [Network.Socket.ByteString.Internal]: finished in 0.00 milliseconds, allocated 0.114 megabytes
+*** Simplifier [Network.Socket.ByteString.Internal]:
+Result size of Simplifier = {terms: 76, types: 101, coercions: 24}
+!!! Simplifier [Network.Socket.ByteString.Internal]: finished in 1.00 milliseconds, allocated 0.613 megabytes
+*** CoreTidy [Network.Socket.ByteString.Internal]:
+Result size of Tidy Core = {terms: 76, types: 101, coercions: 24}
+!!! CoreTidy [Network.Socket.ByteString.Internal]: finished in 1.00 milliseconds, allocated 0.247 megabytes
+writeBinIface: 24 Names
+writeBinIface: 70 dict entries
+writeBinIface: 24 Names
+writeBinIface: 70 dict entries
+*** CorePrep [Network.Socket.ByteString.Internal]:
+Result size of CorePrep = {terms: 96, types: 115, coercions: 24}
+!!! CorePrep [Network.Socket.ByteString.Internal]: finished in 1.00 milliseconds, allocated 0.208 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.ByteString.Internal]:
+!!! CodeGen [Network.Socket.ByteString.Internal]: finished in 7.00 milliseconds, allocated 3.674 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/Socket/ByteString -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc4925_0/ghc_59.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/Internal.o
+*** CorePrep [Network.Socket.ByteString.Internal]:
+Result size of CorePrep = {terms: 96, types: 115, coercions: 24}
+!!! CorePrep [Network.Socket.ByteString.Internal]: finished in 0.00 milliseconds, allocated 0.201 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.ByteString.Internal]:
+!!! CodeGen [Network.Socket.ByteString.Internal]: finished in 8.00 milliseconds, allocated 3.857 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/Socket/ByteString -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4925_0/ghc_61.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4925_0/ghc_62.c /tmp/ghc4925_0/ghc_61.s /tmp/ghc4925_0/ghc_60.c /tmp/ghc4925_0/ghc_59.s /tmp/ghc4925_0/ghc_58.s
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_62.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_60.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_58.s
+compile: input file /tmp/ghc4925_0/ghc_7.hscpp
+*** Checking old interface for Network.Socket.ByteString:
+[ 9 of 11] Compiling Network.Socket.ByteString ( dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString.hs, dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString.o )
+*** Parser [Network.Socket.ByteString]:
+!!! Parser [Network.Socket.ByteString]: finished in 5.00 milliseconds, allocated 8.758 megabytes
+*** Renamer/typechecker [Network.Socket.ByteString]:
+!!! Renamer/typechecker [Network.Socket.ByteString]: finished in 38.00 milliseconds, allocated 19.334 megabytes
+*** Desugar [Network.Socket.ByteString]:
+Result size of Desugar (after optimization)
+  = {terms: 507, types: 618, coercions: 52}
+!!! Desugar [Network.Socket.ByteString]: finished in 7.00 milliseconds, allocated 3.951 megabytes
+*** Simplifier [Network.Socket.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 555, types: 676, coercions: 109}
+Result size of Simplifier iteration=2
+  = {terms: 553, types: 699, coercions: 132}
+Result size of Simplifier
+  = {terms: 553, types: 699, coercions: 132}
+!!! Simplifier [Network.Socket.ByteString]: finished in 14.00 milliseconds, allocated 8.502 megabytes
+*** Specialise [Network.Socket.ByteString]:
+Result size of Specialise
+  = {terms: 597, types: 781, coercions: 132}
+!!! Specialise [Network.Socket.ByteString]: finished in 2.00 milliseconds, allocated 1.025 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.ByteString]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 720, types: 959, coercions: 132}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.ByteString]: finished in 4.00 milliseconds, allocated 3.310 megabytes
+*** Simplifier [Network.Socket.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 1,322, types: 1,664, coercions: 340}
+Result size of Simplifier iteration=2
+  = {terms: 901, types: 1,104, coercions: 195}
+Result size of Simplifier iteration=3
+  = {terms: 882, types: 1,070, coercions: 167}
+Result size of Simplifier
+  = {terms: 882, types: 1,070, coercions: 167}
+!!! Simplifier [Network.Socket.ByteString]: finished in 45.00 milliseconds, allocated 26.775 megabytes
+*** Simplifier [Network.Socket.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 951, types: 1,087, coercions: 169}
+Result size of Simplifier iteration=2
+  = {terms: 918, types: 1,068, coercions: 169}
+Result size of Simplifier iteration=3
+  = {terms: 914, types: 1,066, coercions: 169}
+Result size of Simplifier
+  = {terms: 914, types: 1,066, coercions: 169}
+!!! Simplifier [Network.Socket.ByteString]: finished in 35.00 milliseconds, allocated 15.449 megabytes
+*** Simplifier [Network.Socket.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 1,093, types: 1,256, coercions: 180}
+Result size of Simplifier iteration=2
+  = {terms: 978, types: 1,176, coercions: 186}
+Result size of Simplifier iteration=3
+  = {terms: 957, types: 1,136, coercions: 160}
+Result size of Simplifier iteration=4
+  = {terms: 955, types: 1,130, coercions: 147}
+Result size of Simplifier
+  = {terms: 955, types: 1,130, coercions: 147}
+!!! Simplifier [Network.Socket.ByteString]: finished in 25.00 milliseconds, allocated 16.639 megabytes
+*** Float inwards [Network.Socket.ByteString]:
+Result size of Float inwards
+  = {terms: 955, types: 1,130, coercions: 147}
+!!! Float inwards [Network.Socket.ByteString]: finished in 1.00 milliseconds, allocated 1.396 megabytes
+*** Called arity analysis [Network.Socket.ByteString]:
+Result size of Called arity analysis
+  = {terms: 955, types: 1,130, coercions: 147}
+!!! Called arity analysis [Network.Socket.ByteString]: finished in 1.00 milliseconds, allocated 1.118 megabytes
+*** Simplifier [Network.Socket.ByteString]:
+Result size of Simplifier
+  = {terms: 955, types: 1,130, coercions: 147}
+!!! Simplifier [Network.Socket.ByteString]: finished in 5.00 milliseconds, allocated 3.696 megabytes
+*** Demand analysis [Network.Socket.ByteString]:
+Result size of Demand analysis
+  = {terms: 955, types: 1,130, coercions: 147}
+!!! Demand analysis [Network.Socket.ByteString]: finished in 4.00 milliseconds, allocated 4.401 megabytes
+*** Worker Wrapper binds [Network.Socket.ByteString]:
+Result size of Worker Wrapper binds
+  = {terms: 1,284, types: 1,468, coercions: 147}
+!!! Worker Wrapper binds [Network.Socket.ByteString]: finished in 1.00 milliseconds, allocated 0.546 megabytes
+*** Simplifier [Network.Socket.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 1,197, types: 1,361, coercions: 147}
+Result size of Simplifier iteration=2
+  = {terms: 1,085, types: 1,290, coercions: 147}
+Result size of Simplifier
+  = {terms: 1,085, types: 1,290, coercions: 147}
+!!! Simplifier [Network.Socket.ByteString]: finished in 23.00 milliseconds, allocated 15.235 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.ByteString]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,116, types: 1,315, coercions: 147}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.ByteString]: finished in 3.00 milliseconds, allocated 3.350 megabytes
+*** Common sub-expression [Network.Socket.ByteString]:
+Result size of Common sub-expression
+  = {terms: 1,113, types: 1,314, coercions: 147}
+!!! Common sub-expression [Network.Socket.ByteString]: finished in 3.00 milliseconds, allocated 1.586 megabytes
+*** Float inwards [Network.Socket.ByteString]:
+Result size of Float inwards
+  = {terms: 1,113, types: 1,314, coercions: 147}
+!!! Float inwards [Network.Socket.ByteString]: finished in 1.00 milliseconds, allocated 1.446 megabytes
+*** Simplifier [Network.Socket.ByteString]:
+Result size of Simplifier iteration=1
+  = {terms: 1,148, types: 1,340, coercions: 136}
+Result size of Simplifier iteration=2
+  = {terms: 1,088, types: 1,243, coercions: 134}
+Result size of Simplifier
+  = {terms: 1,088, types: 1,243, coercions: 134}
+!!! Simplifier [Network.Socket.ByteString]: finished in 27.00 milliseconds, allocated 14.239 megabytes
+*** CoreTidy [Network.Socket.ByteString]:
+Result size of Tidy Core
+  = {terms: 1,005, types: 1,060, coercions: 96}
+!!! CoreTidy [Network.Socket.ByteString]: finished in 3.00 milliseconds, allocated 1.639 megabytes
+writeBinIface: 73 Names
+writeBinIface: 196 dict entries
+writeBinIface: 73 Names
+writeBinIface: 196 dict entries
+*** CorePrep [Network.Socket.ByteString]:
+Result size of CorePrep
+  = {terms: 1,259, types: 1,185, coercions: 96}
+!!! CorePrep [Network.Socket.ByteString]: finished in 2.00 milliseconds, allocated 2.256 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.ByteString]:
+!!! CodeGen [Network.Socket.ByteString]: finished in 61.00 milliseconds, allocated 41.291 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network/Socket -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc4925_0/ghc_64.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString.o
+*** CorePrep [Network.Socket.ByteString]:
+Result size of CorePrep
+  = {terms: 1,259, types: 1,185, coercions: 96}
+!!! CorePrep [Network.Socket.ByteString]: finished in 2.00 milliseconds, allocated 2.164 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.ByteString]:
+!!! CodeGen [Network.Socket.ByteString]: finished in 73.00 milliseconds, allocated 43.076 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/Network/Socket -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4925_0/ghc_66.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4925_0/ghc_67.c /tmp/ghc4925_0/ghc_66.s /tmp/ghc4925_0/ghc_65.c /tmp/ghc4925_0/ghc_64.s /tmp/ghc4925_0/ghc_63.s
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_67.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_65.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_63.s
+compile: input file /tmp/ghc4925_0/ghc_19.hscpp
+*** Checking old interface for Network.Socket.ByteString.Lazy.Posix:
+[10 of 11] Compiling Network.Socket.ByteString.Lazy.Posix ( Network/Socket/ByteString/Lazy/Posix.hs, dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/Lazy/Posix.o )
+*** Parser [Network.Socket.ByteString.Lazy.Posix]:
+!!! Parser [Network.Socket.ByteString.Lazy.Posix]: finished in 1.00 milliseconds, allocated 2.331 megabytes
+*** Renamer/typechecker [Network.Socket.ByteString.Lazy.Posix]:
+!!! Renamer/typechecker [Network.Socket.ByteString.Lazy.Posix]: finished in 16.00 milliseconds, allocated 10.049 megabytes
+*** Desugar [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Desugar (after optimization)
+  = {terms: 178, types: 173, coercions: 11}
+!!! Desugar [Network.Socket.ByteString.Lazy.Posix]: finished in 2.00 milliseconds, allocated 1.144 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Simplifier iteration=1
+  = {terms: 197, types: 175, coercions: 14}
+Result size of Simplifier = {terms: 197, types: 175, coercions: 14}
+!!! Simplifier [Network.Socket.ByteString.Lazy.Posix]: finished in 4.00 milliseconds, allocated 2.149 megabytes
+*** Specialise [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Specialise = {terms: 204, types: 180, coercions: 14}
+!!! Specialise [Network.Socket.ByteString.Lazy.Posix]: finished in 1.00 milliseconds, allocated 0.322 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 270, types: 261, coercions: 14}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.ByteString.Lazy.Posix]: finished in 2.00 milliseconds, allocated 1.178 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Simplifier iteration=1
+  = {terms: 372, types: 365, coercions: 66}
+Result size of Simplifier iteration=2
+  = {terms: 267, types: 262, coercions: 27}
+Result size of Simplifier = {terms: 267, types: 262, coercions: 27}
+!!! Simplifier [Network.Socket.ByteString.Lazy.Posix]: finished in 12.00 milliseconds, allocated 6.227 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Simplifier iteration=1
+  = {terms: 240, types: 239, coercions: 28}
+Result size of Simplifier = {terms: 235, types: 237, coercions: 28}
+!!! Simplifier [Network.Socket.ByteString.Lazy.Posix]: finished in 4.00 milliseconds, allocated 2.168 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Simplifier iteration=1
+  = {terms: 235, types: 236, coercions: 28}
+Result size of Simplifier = {terms: 229, types: 234, coercions: 28}
+!!! Simplifier [Network.Socket.ByteString.Lazy.Posix]: finished in 3.00 milliseconds, allocated 1.862 megabytes
+*** Float inwards [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Float inwards
+  = {terms: 229, types: 234, coercions: 28}
+!!! Float inwards [Network.Socket.ByteString.Lazy.Posix]: finished in 0.00 milliseconds, allocated 0.409 megabytes
+*** Called arity analysis [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Called arity analysis
+  = {terms: 229, types: 234, coercions: 28}
+!!! Called arity analysis [Network.Socket.ByteString.Lazy.Posix]: finished in 0.00 milliseconds, allocated 0.269 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Simplifier iteration=1
+  = {terms: 231, types: 236, coercions: 28}
+Result size of Simplifier = {terms: 231, types: 236, coercions: 28}
+!!! Simplifier [Network.Socket.ByteString.Lazy.Posix]: finished in 3.00 milliseconds, allocated 1.816 megabytes
+*** Demand analysis [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Demand analysis
+  = {terms: 231, types: 236, coercions: 28}
+!!! Demand analysis [Network.Socket.ByteString.Lazy.Posix]: finished in 2.00 milliseconds, allocated 1.289 megabytes
+*** Worker Wrapper binds [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Worker Wrapper binds
+  = {terms: 303, types: 316, coercions: 28}
+!!! Worker Wrapper binds [Network.Socket.ByteString.Lazy.Posix]: finished in 0.00 milliseconds, allocated 0.157 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Simplifier iteration=1
+  = {terms: 288, types: 301, coercions: 28}
+Result size of Simplifier = {terms: 269, types: 286, coercions: 28}
+!!! Simplifier [Network.Socket.ByteString.Lazy.Posix]: finished in 5.00 milliseconds, allocated 2.444 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 269, types: 286, coercions: 28}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.ByteString.Lazy.Posix]: finished in 1.00 milliseconds, allocated 0.886 megabytes
+*** Common sub-expression [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Common sub-expression
+  = {terms: 269, types: 286, coercions: 28}
+!!! Common sub-expression [Network.Socket.ByteString.Lazy.Posix]: finished in 1.00 milliseconds, allocated 0.371 megabytes
+*** Float inwards [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Float inwards
+  = {terms: 269, types: 286, coercions: 28}
+!!! Float inwards [Network.Socket.ByteString.Lazy.Posix]: finished in 0.00 milliseconds, allocated 0.485 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Simplifier iteration=1
+  = {terms: 269, types: 286, coercions: 28}
+Result size of Simplifier = {terms: 269, types: 286, coercions: 28}
+!!! Simplifier [Network.Socket.ByteString.Lazy.Posix]: finished in 3.00 milliseconds, allocated 2.248 megabytes
+*** CoreTidy [Network.Socket.ByteString.Lazy.Posix]:
+Result size of Tidy Core = {terms: 262, types: 281, coercions: 27}
+!!! CoreTidy [Network.Socket.ByteString.Lazy.Posix]: finished in 1.00 milliseconds, allocated 0.553 megabytes
+writeBinIface: 46 Names
+writeBinIface: 153 dict entries
+writeBinIface: 46 Names
+writeBinIface: 153 dict entries
+*** CorePrep [Network.Socket.ByteString.Lazy.Posix]:
+Result size of CorePrep = {terms: 321, types: 310, coercions: 27}
+!!! CorePrep [Network.Socket.ByteString.Lazy.Posix]: finished in 1.00 milliseconds, allocated 0.603 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.ByteString.Lazy.Posix]:
+!!! CodeGen [Network.Socket.ByteString.Lazy.Posix]: finished in 20.00 milliseconds, allocated 11.081 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/Socket/ByteString/Lazy -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc4925_0/ghc_69.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/Lazy/Posix.o
+*** CorePrep [Network.Socket.ByteString.Lazy.Posix]:
+Result size of CorePrep = {terms: 321, types: 310, coercions: 27}
+!!! CorePrep [Network.Socket.ByteString.Lazy.Posix]: finished in 1.00 milliseconds, allocated 0.590 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.ByteString.Lazy.Posix]:
+!!! CodeGen [Network.Socket.ByteString.Lazy.Posix]: finished in 17.00 milliseconds, allocated 11.559 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/Socket/ByteString/Lazy -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4925_0/ghc_71.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/Lazy/Posix.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc4925_0/ghc_72.c /tmp/ghc4925_0/ghc_71.s /tmp/ghc4925_0/ghc_70.c /tmp/ghc4925_0/ghc_69.s /tmp/ghc4925_0/ghc_68.s
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_72.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_70.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_68.s
+compile: input file /tmp/ghc4925_0/ghc_9.hscpp
+*** Checking old interface for Network.Socket.ByteString.Lazy:
+[11 of 11] Compiling Network.Socket.ByteString.Lazy ( Network/Socket/ByteString/Lazy.hs, dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/Lazy.o )
+*** Parser [Network.Socket.ByteString.Lazy]:
+!!! Parser [Network.Socket.ByteString.Lazy]: finished in 1.00 milliseconds, allocated 2.285 megabytes
+*** Renamer/typechecker [Network.Socket.ByteString.Lazy]:
+!!! Renamer/typechecker [Network.Socket.ByteString.Lazy]: finished in 4.00 milliseconds, allocated 2.029 megabytes
+*** Desugar [Network.Socket.ByteString.Lazy]:
+Result size of Desugar (after optimization)
+  = {terms: 59, types: 40, coercions: 0}
+!!! Desugar [Network.Socket.ByteString.Lazy]: finished in 1.00 milliseconds, allocated 0.420 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 63, types: 41, coercions: 12}
+Result size of Simplifier iteration=2
+  = {terms: 65, types: 51, coercions: 18}
+Result size of Simplifier = {terms: 65, types: 51, coercions: 18}
+!!! Simplifier [Network.Socket.ByteString.Lazy]: finished in 2.00 milliseconds, allocated 1.035 megabytes
+*** Specialise [Network.Socket.ByteString.Lazy]:
+Result size of Specialise = {terms: 65, types: 51, coercions: 18}
+!!! Specialise [Network.Socket.ByteString.Lazy]: finished in 0.00 milliseconds, allocated 0.111 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.ByteString.Lazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 69, types: 55, coercions: 18}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Socket.ByteString.Lazy]: finished in 1.00 milliseconds, allocated 0.293 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 115, types: 131, coercions: 25}
+Result size of Simplifier iteration=2
+  = {terms: 100, types: 116, coercions: 17}
+Result size of Simplifier = {terms: 100, types: 116, coercions: 17}
+!!! Simplifier [Network.Socket.ByteString.Lazy]: finished in 4.00 milliseconds, allocated 2.119 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 98, types: 118, coercions: 17}
+Result size of Simplifier = {terms: 98, types: 118, coercions: 17}
+!!! Simplifier [Network.Socket.ByteString.Lazy]: finished in 2.00 milliseconds, allocated 0.838 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy]:
+Result size of Simplifier iteration=1
+  = {terms: 115, types: 144, coercions: 21}
+Result size of Simplifier = {terms: 115, types: 144, coercions: 21}
+!!! Simplifier [Network.Socket.ByteString.Lazy]: finished in 2.00 milliseconds, allocated 1.023 megabytes
+*** Float inwards [Network.Socket.ByteString.Lazy]:
+Result size of Float inwards
+  = {terms: 115, types: 144, coercions: 21}
+!!! Float inwards [Network.Socket.ByteString.Lazy]: finished in 0.00 milliseconds, allocated 0.169 megabytes
+*** Called arity analysis [Network.Socket.ByteString.Lazy]:
+Result size of Called arity analysis
+  = {terms: 115, types: 144, coercions: 21}
+!!! Called arity analysis [Network.Socket.ByteString.Lazy]: finished in 0.00 milliseconds, allocated 0.181 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy]:
+Result size of Simplifier = {terms: 115, types: 144, coercions: 21}
+!!! Simplifier [Network.Socket.ByteString.Lazy]: finished in 1.00 milliseconds, allocated 0.484 megabytes
+*** Demand analysis [Network.Socket.ByteString.Lazy]:
+Result size of Demand analysis
+  = {terms: 115, types: 144, coercions: 21}
+!!! Demand analysis [Network.Socket.ByteString.Lazy]: finished in 1.00 milliseconds, allocated 0.659 megabytes
+*** Worker Wrapper binds [Network.Socket.ByteString.Lazy]:
+Result size of Worker Wrapper binds
+  = {terms: 115, types: 144, coercions: 21}
+!!! Worker Wrapper binds [Network.Socket.ByteString.Lazy]: finished in 1.00 milliseconds, allocated 0.079 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy]:
+Result size of Simplifier = {terms: 115, types: 144, coercions: 21}
+!!! Simplifier [Network.Socket.ByteString.Lazy]: finished in 1.00 milliseconds, allocated 0.591 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.ByteString.Lazy]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 115, types: 144, coercions: 21}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Socket.ByteString.Lazy]: finished in 1.00 milliseconds, allocated 0.429 megabytes
+*** Common sub-expression [Network.Socket.ByteString.Lazy]:
+Result size of Common sub-expression
+  = {terms: 115, types: 144, coercions: 21}
+!!! Common sub-expression [Network.Socket.ByteString.Lazy]: finished in 0.00 milliseconds, allocated 0.215 megabytes
+*** Float inwards [Network.Socket.ByteString.Lazy]:
+Result size of Float inwards
+  = {terms: 115, types: 144, coercions: 21}
+!!! Float inwards [Network.Socket.ByteString.Lazy]: finished in 0.00 milliseconds, allocated 0.168 megabytes
+*** Simplifier [Network.Socket.ByteString.Lazy]:
+Result size of Simplifier = {terms: 115, types: 144, coercions: 21}
+!!! Simplifier [Network.Socket.ByteString.Lazy]: finished in 1.00 milliseconds, allocated 0.575 megabytes
+*** CoreTidy [Network.Socket.ByteString.Lazy]:
+Result size of Tidy Core = {terms: 115, types: 144, coercions: 21}
+!!! CoreTidy [Network.Socket.ByteString.Lazy]: finished in 0.00 milliseconds, allocated 0.283 megabytes
+writeBinIface: 27 Names
+writeBinIface: 106 dict entries
+writeBinIface: 27 Names
+writeBinIface: 106 dict entries
+*** CorePrep [Network.Socket.ByteString.Lazy]:
+Result size of CorePrep = {terms: 144, types: 161, coercions: 21}
+!!! CorePrep [Network.Socket.ByteString.Lazy]: finished in 0.00 milliseconds, allocated 0.322 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.ByteString.Lazy]:
+!!! CodeGen [Network.Socket.ByteString.Lazy]: finished in 9.00 milliseconds, allocated 5.214 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/Socket/ByteString -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -x assembler -c /tmp/ghc4925_0/ghc_74.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/Lazy.o
+*** CorePrep [Network.Socket.ByteString.Lazy]:
+Result size of CorePrep = {terms: 144, types: 161, coercions: 21}
+!!! CorePrep [Network.Socket.ByteString.Lazy]: finished in 1.00 milliseconds, allocated 0.315 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Socket.ByteString.Lazy]:
+!!! CodeGen [Network.Socket.ByteString.Lazy]: finished in 9.00 milliseconds, allocated 5.464 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/Socket/ByteString -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc4925_0/ghc_76.s -o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/Lazy.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc4925_0/ghc_77.c /tmp/ghc4925_0/ghc_76.s /tmp/ghc4925_0/ghc_75.c /tmp/ghc4925_0/ghc_74.s /tmp/ghc4925_0/ghc_73.s
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_77.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_75.c
+Warning: deleting non-existent /tmp/ghc4925_0/ghc_73.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc4925_0/ghc_21.hscpp /tmp/ghc4925_0/ghc_19.hscpp /tmp/ghc4925_0/ghc_17.hscpp /tmp/ghc4925_0/ghc_15.hscpp /tmp/ghc4925_0/ghc_13.hscpp /tmp/ghc4925_0/ghc_11.hscpp /tmp/ghc4925_0/ghc_9.hscpp /tmp/ghc4925_0/ghc_7.hscpp /tmp/ghc4925_0/ghc_5.hscpp /tmp/ghc4925_0/ghc_3.hscpp /tmp/ghc4925_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc4925_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc7080_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -O2 '-DCALLCONV=ccall' -D_GNU_SOURCE -x c cbits/HsNet.c -o /tmp/ghc7080_0/ghc_1.s -fPIC -U__PIC__ -D__PIC__ -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7080_0/ghc_1.s -o dist/dist-sandbox-6afc8227/build/cbits/HsNet.o
+*** Deleting temp files:
+Deleting: /tmp/ghc7080_0/ghc_2.rsp /tmp/ghc7080_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7080_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc7101_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -O2 '-DCALLCONV=ccall' -D_GNU_SOURCE -x c cbits/HsNet.c -o /tmp/ghc7101_0/ghc_1.s -fPIC -U__PIC__ -D__PIC__ -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7101_0/ghc_1.s -o dist/dist-sandbox-6afc8227/build/cbits/HsNet.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7101_0/ghc_2.rsp /tmp/ghc7101_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7101_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc7134_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -O2 '-DCALLCONV=ccall' -D_GNU_SOURCE -x c cbits/ancilData.c -o /tmp/ghc7134_0/ghc_1.s -fPIC -U__PIC__ -D__PIC__ -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7134_0/ghc_1.s -o dist/dist-sandbox-6afc8227/build/cbits/ancilData.o
+*** Deleting temp files:
+Deleting: /tmp/ghc7134_0/ghc_2.rsp /tmp/ghc7134_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7134_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc7160_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -O2 '-DCALLCONV=ccall' -D_GNU_SOURCE -x c cbits/ancilData.c -o /tmp/ghc7160_0/ghc_1.s -fPIC -U__PIC__ -D__PIC__ -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -Iinclude -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc7160_0/ghc_1.s -o dist/dist-sandbox-6afc8227/build/cbits/ancilData.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc7160_0/ghc_2.rsp /tmp/ghc7160_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7160_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0 -o dist/dist-sandbox-6afc8227/build/libHSnetwork-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSnetwork-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Network.dyn_o dist/dist-sandbox-6afc8227/build/Network/BSD.dyn_o dist/dist-sandbox-6afc8227/build/Network/Socket.dyn_o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString.dyn_o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/Lazy.dyn_o dist/dist-sandbox-6afc8227/build/Network/Socket/Internal.dyn_o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/Internal.dyn_o dist/dist-sandbox-6afc8227/build/Network/Socket/Types.dyn_o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/IOVec.dyn_o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/Lazy/Posix.dyn_o dist/dist-sandbox-6afc8227/build/Network/Socket/ByteString/MsgHdr.dyn_o dist/dist-sandbox-6afc8227/build/cbits/HsNet.dyn_o dist/dist-sandbox-6afc8227/build/cbits/ancilData.dyn_o -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSunix-2.7.2.0-ghc8.0.1 -lHStime-1.6.0.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lrt -lutil -ldl -lpthread -lgmp
+Created temporary directory: /tmp/ghc7209_0
+*** Deleting temp files:
+Deleting: /tmp/ghc7209_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc7209_0
+Creating package registration file:
+/tmp/pkgConf-network-2.6.2221558440270744729.1
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/network-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL
+Registering network-2.6.2.1...
+cabal: Leaving directory '/tmp/cabal-tmp-1036/network-2.6.2.1'

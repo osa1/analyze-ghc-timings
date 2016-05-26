@@ -1,0 +1,788 @@
+cabal: Entering directory '/tmp/cabal-tmp-1025/resourcet-1.1.7.4'
+Configuring resourcet-1.1.7.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc8251_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc8251_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc8251_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc8251_0/ghc_2.rsp /tmp/ghc8251_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8251_0
+Building resourcet-1.1.7.4...
+Preprocessing library resourcet-1.1.7.4...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Control.Monad.Trans.Resource,*Control.Monad.Trans.Resource.Internal,*Data.Acquire,*Data.Acquire.Internal
+Created temporary directory: /tmp/ghc8274_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8274_0/ghc_2.h -x assembler-with-cpp ./Control/Monad/Trans/Resource.hs -o /tmp/ghc8274_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8274_0/ghc_4.h -x assembler-with-cpp ./Control/Monad/Trans/Resource/Internal.hs -o /tmp/ghc8274_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8274_0/ghc_6.h -x assembler-with-cpp ./Data/Acquire.hs -o /tmp/ghc8274_0/ghc_5.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc8274_0/ghc_8.h -x assembler-with-cpp ./Data/Acquire/Internal.hs -o /tmp/ghc8274_0/ghc_7.hscpp
+!!! Chasing dependencies: finished in 46.00 milliseconds, allocated 26.368 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-05 05:24:53 UTC
+         ms_mod = Data.Acquire.Internal,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.IO),
+                            (Nothing, Control.Monad.Catch), (Nothing, Control.Monad),
+                            (Nothing, Data.Typeable), (Nothing, Control.Exception.Lifted),
+                            (Nothing, Control.Monad.Trans.Control),
+                            (Nothing, Control.Monad.IO.Class), (Nothing, Control.Monad.Base),
+                            (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-05 05:24:53 UTC
+         ms_mod = Control.Monad.Trans.Resource.Internal,
+         ms_textual_imps = [(Nothing, Control.Monad.Morph),
+                            (Nothing, Data.Acquire.Internal), (Nothing, Prelude),
+                            (Nothing, Data.Word), (Nothing, Data.Typeable),
+                            (Nothing, Data.Monoid), (Nothing, Data.IORef),
+                            (Nothing, Data.IntMap), (Nothing, Data.IntMap),
+                            (Nothing, Control.Monad.Catch), (Nothing, Control.Exception),
+                            (Nothing, Control.Monad.IO.Class),
+                            (Nothing, Control.Monad.Trans.Writer.Strict),
+                            (Nothing, Control.Monad.Trans.State.Strict),
+                            (Nothing, Control.Monad.Trans.RWS.Strict),
+                            (Nothing, Control.Monad.Trans.RWS),
+                            (Nothing, Control.Monad.Trans.Writer),
+                            (Nothing, Control.Monad.Trans.State),
+                            (Nothing, Control.Monad.Trans.Reader),
+                            (Nothing, Control.Monad.Trans.Except),
+                            (Nothing, Control.Monad.Trans.Error),
+                            (Nothing, Control.Monad.Trans.Maybe),
+                            (Nothing, Control.Monad.Trans.List),
+                            (Nothing, Control.Monad.Trans.Identity),
+                            (Nothing, Control.Monad.Writer.Class),
+                            (Nothing, Control.Monad.State.Class),
+                            (Nothing, Control.Monad.Reader.Class),
+                            (Nothing, Control.Monad.RWS.Class),
+                            (Nothing, Control.Monad.Error.Class),
+                            (Nothing, Control.Monad.Cont.Class),
+                            (Nothing, Control.Monad.Trans.Cont), (Nothing, Control.Monad.Base),
+                            (Nothing, Control.Monad.Trans.Control), (Nothing, Control.Monad),
+                            (Nothing, Control.Applicative), (Nothing, Control.Exception)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-05 05:24:53 UTC
+         ms_mod = Control.Monad.Trans.Resource,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.Acquire.Internal),
+                            (Nothing, Control.Monad.Catch.Pure),
+                            (Nothing, Control.Monad.Catch), (Nothing, Data.Functor.Identity),
+                            (Nothing, Control.Concurrent),
+                            (Nothing, Control.Monad.Trans.Resource.Internal),
+                            (Nothing, Control.Exception.Lifted), (Nothing, Data.Monoid),
+                            (Nothing, Control.Exception), (Nothing, Control.Monad),
+                            (Nothing, Control.Monad.IO.Class), (Nothing, Control.Applicative),
+                            (Nothing, Control.Monad.Base), (Nothing, Data.IORef),
+                            (Nothing, Control.Monad.Trans.Control),
+                            (Nothing, Control.Exception), (Nothing, Data.IntMap)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-05 05:24:53 UTC
+         ms_mod = Data.Acquire,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Control.Monad),
+                            (Nothing, Data.Typeable), (Nothing, Control.Exception.Lifted),
+                            (Nothing, Control.Monad.Trans.Control),
+                            (Nothing, Control.Monad.IO.Class), (Nothing, Control.Monad.Base),
+                            (Nothing, Control.Applicative), (Nothing, Data.Acquire.Internal),
+                            (Nothing, Control.Monad.Trans.Resource),
+                            (Nothing, Control.Monad.Trans.Resource.Internal)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc8274_0/ghc_8.h /tmp/ghc8274_0/ghc_6.h /tmp/ghc8274_0/ghc_4.h /tmp/ghc8274_0/ghc_2.h
+compile: input file /tmp/ghc8274_0/ghc_7.hscpp
+*** Checking old interface for Data.Acquire.Internal:
+[1 of 4] Compiling Data.Acquire.Internal ( Data/Acquire/Internal.hs, dist/dist-sandbox-6afc8227/build/Data/Acquire/Internal.o )
+*** Parser [Data.Acquire.Internal]:
+!!! Parser [Data.Acquire.Internal]: finished in 4.00 milliseconds, allocated 4.622 megabytes
+*** Renamer/typechecker [Data.Acquire.Internal]:
+!!! Renamer/typechecker [Data.Acquire.Internal]: finished in 541.00 milliseconds, allocated 258.851 megabytes
+*** Desugar [Data.Acquire.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 838, types: 949, coercions: 56}
+!!! Desugar [Data.Acquire.Internal]: finished in 22.00 milliseconds, allocated 9.537 megabytes
+*** Simplifier [Data.Acquire.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 900, types: 1,068, coercions: 100}
+Result size of Simplifier
+  = {terms: 900, types: 1,068, coercions: 95}
+!!! Simplifier [Data.Acquire.Internal]: finished in 14.00 milliseconds, allocated 8.487 megabytes
+*** Specialise [Data.Acquire.Internal]:
+Result size of Specialise
+  = {terms: 1,171, types: 1,627, coercions: 101}
+!!! Specialise [Data.Acquire.Internal]: finished in 10.00 milliseconds, allocated 2.819 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Acquire.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,423, types: 2,169, coercions: 101}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Acquire.Internal]: finished in 7.00 milliseconds, allocated 6.791 megabytes
+*** Simplifier [Data.Acquire.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,458, types: 3,482, coercions: 1,390}
+Result size of Simplifier iteration=2
+  = {terms: 2,166, types: 3,149, coercions: 1,746}
+Result size of Simplifier iteration=3
+  = {terms: 2,052, types: 3,066, coercions: 1,602}
+Result size of Simplifier
+  = {terms: 2,052, types: 3,066, coercions: 1,602}
+!!! Simplifier [Data.Acquire.Internal]: finished in 96.00 milliseconds, allocated 53.992 megabytes
+*** Simplifier [Data.Acquire.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 1,904, types: 2,996, coercions: 1,602}
+Result size of Simplifier iteration=2
+  = {terms: 1,879, types: 2,964, coercions: 1,602}
+Result size of Simplifier
+  = {terms: 1,879, types: 2,964, coercions: 1,602}
+!!! Simplifier [Data.Acquire.Internal]: finished in 51.00 milliseconds, allocated 28.020 megabytes
+*** Simplifier [Data.Acquire.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,343, types: 3,190, coercions: 1,602}
+Result size of Simplifier iteration=2
+  = {terms: 2,255, types: 3,087, coercions: 1,602}
+Result size of Simplifier
+  = {terms: 2,255, types: 3,087, coercions: 1,602}
+!!! Simplifier [Data.Acquire.Internal]: finished in 55.00 milliseconds, allocated 30.423 megabytes
+*** Float inwards [Data.Acquire.Internal]:
+Result size of Float inwards
+  = {terms: 2,255, types: 3,087, coercions: 1,602}
+!!! Float inwards [Data.Acquire.Internal]: finished in 3.00 milliseconds, allocated 3.234 megabytes
+*** Called arity analysis [Data.Acquire.Internal]:
+Result size of Called arity analysis
+  = {terms: 2,255, types: 3,087, coercions: 1,602}
+!!! Called arity analysis [Data.Acquire.Internal]: finished in 7.00 milliseconds, allocated 2.824 megabytes
+*** Simplifier [Data.Acquire.Internal]:
+Result size of Simplifier
+  = {terms: 2,255, types: 3,087, coercions: 1,602}
+!!! Simplifier [Data.Acquire.Internal]: finished in 16.00 milliseconds, allocated 9.715 megabytes
+*** Demand analysis [Data.Acquire.Internal]:
+Result size of Demand analysis
+  = {terms: 2,255, types: 3,087, coercions: 1,602}
+!!! Demand analysis [Data.Acquire.Internal]: finished in 14.00 milliseconds, allocated 8.945 megabytes
+*** Worker Wrapper binds [Data.Acquire.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 2,294, types: 3,112, coercions: 1,602}
+!!! Worker Wrapper binds [Data.Acquire.Internal]: finished in 2.00 milliseconds, allocated 0.868 megabytes
+*** Simplifier [Data.Acquire.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,250, types: 3,095, coercions: 1,610}
+Result size of Simplifier iteration=2
+  = {terms: 2,235, types: 3,086, coercions: 1,610}
+Result size of Simplifier
+  = {terms: 2,235, types: 3,086, coercions: 1,610}
+!!! Simplifier [Data.Acquire.Internal]: finished in 69.00 milliseconds, allocated 35.535 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Acquire.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,335, types: 3,336, coercions: 1,610}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Acquire.Internal]: finished in 14.00 milliseconds, allocated 8.946 megabytes
+*** Common sub-expression [Data.Acquire.Internal]:
+Result size of Common sub-expression
+  = {terms: 2,060, types: 2,968, coercions: 1,230}
+!!! Common sub-expression [Data.Acquire.Internal]: finished in 5.00 milliseconds, allocated 3.436 megabytes
+*** Float inwards [Data.Acquire.Internal]:
+Result size of Float inwards
+  = {terms: 2,060, types: 2,968, coercions: 1,230}
+!!! Float inwards [Data.Acquire.Internal]: finished in 3.00 milliseconds, allocated 2.569 megabytes
+*** Simplifier [Data.Acquire.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 1,969, types: 2,682, coercions: 1,365}
+Result size of Simplifier
+  = {terms: 1,964, types: 2,670, coercions: 1,365}
+!!! Simplifier [Data.Acquire.Internal]: finished in 40.00 milliseconds, allocated 20.576 megabytes
+*** CoreTidy [Data.Acquire.Internal]:
+Result size of Tidy Core
+  = {terms: 1,565, types: 2,011, coercions: 958}
+!!! CoreTidy [Data.Acquire.Internal]: finished in 6.00 milliseconds, allocated 3.724 megabytes
+writeBinIface: 178 Names
+writeBinIface: 304 dict entries
+writeBinIface: 178 Names
+writeBinIface: 304 dict entries
+*** CorePrep [Data.Acquire.Internal]:
+Result size of CorePrep
+  = {terms: 1,902, types: 2,486, coercions: 958}
+!!! CorePrep [Data.Acquire.Internal]: finished in 4.00 milliseconds, allocated 3.150 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Acquire.Internal]:
+!!! CodeGen [Data.Acquire.Internal]: finished in 111.00 milliseconds, allocated 82.144 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Acquire -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc8274_0/ghc_10.s -o dist/dist-sandbox-6afc8227/build/Data/Acquire/Internal.o
+*** CorePrep [Data.Acquire.Internal]:
+Result size of CorePrep
+  = {terms: 1,902, types: 2,486, coercions: 958}
+!!! CorePrep [Data.Acquire.Internal]: finished in 3.00 milliseconds, allocated 3.090 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Acquire.Internal]:
+!!! CodeGen [Data.Acquire.Internal]: finished in 91.00 milliseconds, allocated 85.356 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data/Acquire -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8274_0/ghc_12.s -o dist/dist-sandbox-6afc8227/build/Data/Acquire/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8274_0/ghc_13.c /tmp/ghc8274_0/ghc_12.s /tmp/ghc8274_0/ghc_11.c /tmp/ghc8274_0/ghc_10.s /tmp/ghc8274_0/ghc_9.s
+Warning: deleting non-existent /tmp/ghc8274_0/ghc_13.c
+Warning: deleting non-existent /tmp/ghc8274_0/ghc_11.c
+Warning: deleting non-existent /tmp/ghc8274_0/ghc_9.s
+compile: input file /tmp/ghc8274_0/ghc_3.hscpp
+*** Checking old interface for Control.Monad.Trans.Resource.Internal:
+[2 of 4] Compiling Control.Monad.Trans.Resource.Internal ( Control/Monad/Trans/Resource/Internal.hs, dist/dist-sandbox-6afc8227/build/Control/Monad/Trans/Resource/Internal.o )
+*** Parser [Control.Monad.Trans.Resource.Internal]:
+!!! Parser [Control.Monad.Trans.Resource.Internal]: finished in 5.00 milliseconds, allocated 11.463 megabytes
+*** Renamer/typechecker [Control.Monad.Trans.Resource.Internal]:
+!!! Renamer/typechecker [Control.Monad.Trans.Resource.Internal]: finished in 330.00 milliseconds, allocated 165.320 megabytes
+*** Desugar [Control.Monad.Trans.Resource.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 2,245, types: 6,218, coercions: 193}
+!!! Desugar [Control.Monad.Trans.Resource.Internal]: finished in 47.00 milliseconds, allocated 30.649 megabytes
+
+Control/Monad/Trans/Resource/Internal.hs:49:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+
+Control/Monad/Trans/Resource/Internal.hs:76:1: warning: [-Wdodgy-imports]
+    Module ‘Prelude’ does not export ‘catch’
+
+Control/Monad/Trans/Resource/Internal.hs:292:11: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Trans/Resource/Internal.hs:292:56: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+*** Simplifier [Control.Monad.Trans.Resource.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,237, types: 6,226, coercions: 459}
+Result size of Simplifier iteration=2
+  = {terms: 2,237, types: 6,246, coercions: 490}
+Result size of Simplifier
+  = {terms: 2,237, types: 6,246, coercions: 490}
+!!! Simplifier [Control.Monad.Trans.Resource.Internal]: finished in 52.00 milliseconds, allocated 30.117 megabytes
+*** Specialise [Control.Monad.Trans.Resource.Internal]:
+Result size of Specialise
+  = {terms: 2,304, types: 6,373, coercions: 500}
+!!! Specialise [Control.Monad.Trans.Resource.Internal]: finished in 6.00 milliseconds, allocated 4.167 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Trans.Resource.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 2,477, types: 7,007, coercions: 500}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Trans.Resource.Internal]: finished in 26.00 milliseconds, allocated 19.237 megabytes
+*** Simplifier [Control.Monad.Trans.Resource.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 3,187, types: 7,938, coercions: 1,579}
+Result size of Simplifier iteration=2
+  = {terms: 2,771, types: 6,945, coercions: 1,678}
+Result size of Simplifier iteration=3
+  = {terms: 2,750, types: 6,965, coercions: 1,778}
+Result size of Simplifier iteration=4
+  = {terms: 2,748, types: 6,963, coercions: 1,778}
+Result size of Simplifier
+  = {terms: 2,748, types: 6,963, coercions: 1,778}
+!!! Simplifier [Control.Monad.Trans.Resource.Internal]: finished in 106.00 milliseconds, allocated 72.046 megabytes
+*** Simplifier [Control.Monad.Trans.Resource.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,711, types: 6,894, coercions: 1,778}
+Result size of Simplifier iteration=2
+  = {terms: 2,709, types: 6,893, coercions: 1,778}
+Result size of Simplifier
+  = {terms: 2,709, types: 6,893, coercions: 1,778}
+!!! Simplifier [Control.Monad.Trans.Resource.Internal]: finished in 48.00 milliseconds, allocated 38.626 megabytes
+*** Simplifier [Control.Monad.Trans.Resource.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,784, types: 7,027, coercions: 1,802}
+Result size of Simplifier iteration=2
+  = {terms: 2,756, types: 6,964, coercions: 1,791}
+Result size of Simplifier iteration=3
+  = {terms: 2,754, types: 6,956, coercions: 1,781}
+Result size of Simplifier
+  = {terms: 2,754, types: 6,956, coercions: 1,781}
+!!! Simplifier [Control.Monad.Trans.Resource.Internal]: finished in 64.00 milliseconds, allocated 51.357 megabytes
+*** Float inwards [Control.Monad.Trans.Resource.Internal]:
+Result size of Float inwards
+  = {terms: 2,754, types: 6,956, coercions: 1,781}
+!!! Float inwards [Control.Monad.Trans.Resource.Internal]: finished in 4.00 milliseconds, allocated 4.715 megabytes
+*** Called arity analysis [Control.Monad.Trans.Resource.Internal]:
+Result size of Called arity analysis
+  = {terms: 2,754, types: 6,956, coercions: 1,781}
+!!! Called arity analysis [Control.Monad.Trans.Resource.Internal]: finished in 4.00 milliseconds, allocated 4.745 megabytes
+*** Simplifier [Control.Monad.Trans.Resource.Internal]:
+Result size of Simplifier
+  = {terms: 2,754, types: 6,956, coercions: 1,781}
+!!! Simplifier [Control.Monad.Trans.Resource.Internal]: finished in 19.00 milliseconds, allocated 12.700 megabytes
+*** Demand analysis [Control.Monad.Trans.Resource.Internal]:
+Result size of Demand analysis
+  = {terms: 2,754, types: 6,956, coercions: 1,781}
+!!! Demand analysis [Control.Monad.Trans.Resource.Internal]: finished in 10.00 milliseconds, allocated 11.888 megabytes
+*** Worker Wrapper binds [Control.Monad.Trans.Resource.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 3,125, types: 10,012, coercions: 1,796}
+!!! Worker Wrapper binds [Control.Monad.Trans.Resource.Internal]: finished in 3.00 milliseconds, allocated 2.123 megabytes
+*** Simplifier [Control.Monad.Trans.Resource.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 3,255, types: 9,618, coercions: 2,083}
+Result size of Simplifier iteration=2
+  = {terms: 3,135, types: 9,544, coercions: 2,132}
+Result size of Simplifier
+  = {terms: 3,135, types: 9,544, coercions: 2,132}
+!!! Simplifier [Control.Monad.Trans.Resource.Internal]: finished in 95.00 milliseconds, allocated 65.073 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Trans.Resource.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 3,189, types: 9,628, coercions: 2,132}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Trans.Resource.Internal]: finished in 23.00 milliseconds, allocated 24.150 megabytes
+*** Common sub-expression [Control.Monad.Trans.Resource.Internal]:
+Result size of Common sub-expression
+  = {terms: 3,128, types: 9,563, coercions: 2,106}
+!!! Common sub-expression [Control.Monad.Trans.Resource.Internal]: finished in 6.00 milliseconds, allocated 5.357 megabytes
+*** Float inwards [Control.Monad.Trans.Resource.Internal]:
+Result size of Float inwards
+  = {terms: 3,128, types: 9,563, coercions: 2,106}
+!!! Float inwards [Control.Monad.Trans.Resource.Internal]: finished in 5.00 milliseconds, allocated 6.684 megabytes
+*** Simplifier [Control.Monad.Trans.Resource.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 3,118, types: 9,541, coercions: 2,124}
+Result size of Simplifier
+  = {terms: 3,118, types: 9,541, coercions: 2,124}
+!!! Simplifier [Control.Monad.Trans.Resource.Internal]: finished in 47.00 milliseconds, allocated 37.715 megabytes
+*** CoreTidy [Control.Monad.Trans.Resource.Internal]:
+Result size of Tidy Core
+  = {terms: 3,117, types: 9,599, coercions: 2,088}
+!!! CoreTidy [Control.Monad.Trans.Resource.Internal]: finished in 12.00 milliseconds, allocated 8.450 megabytes
+writeBinIface: 490 Names
+writeBinIface: 660 dict entries
+writeBinIface: 490 Names
+writeBinIface: 660 dict entries
+*** CorePrep [Control.Monad.Trans.Resource.Internal]:
+Result size of CorePrep
+  = {terms: 4,758, types: 12,924, coercions: 2,176}
+!!! CorePrep [Control.Monad.Trans.Resource.Internal]: finished in 9.00 milliseconds, allocated 9.628 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Trans.Resource.Internal]:
+!!! CodeGen [Control.Monad.Trans.Resource.Internal]: finished in 260.00 milliseconds, allocated 226.100 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Monad/Trans/Resource -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc8274_0/ghc_15.s -o dist/dist-sandbox-6afc8227/build/Control/Monad/Trans/Resource/Internal.o
+*** CorePrep [Control.Monad.Trans.Resource.Internal]:
+Result size of CorePrep
+  = {terms: 4,758, types: 12,924, coercions: 2,176}
+!!! CorePrep [Control.Monad.Trans.Resource.Internal]: finished in 12.00 milliseconds, allocated 9.346 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Trans.Resource.Internal]:
+!!! CodeGen [Control.Monad.Trans.Resource.Internal]: finished in 275.00 milliseconds, allocated 237.050 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Monad/Trans/Resource -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8274_0/ghc_17.s -o dist/dist-sandbox-6afc8227/build/Control/Monad/Trans/Resource/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8274_0/ghc_18.c /tmp/ghc8274_0/ghc_17.s /tmp/ghc8274_0/ghc_16.c /tmp/ghc8274_0/ghc_15.s /tmp/ghc8274_0/ghc_14.s
+Warning: deleting non-existent /tmp/ghc8274_0/ghc_18.c
+Warning: deleting non-existent /tmp/ghc8274_0/ghc_16.c
+Warning: deleting non-existent /tmp/ghc8274_0/ghc_14.s
+compile: input file /tmp/ghc8274_0/ghc_1.hscpp
+*** Checking old interface for Control.Monad.Trans.Resource:
+[3 of 4] Compiling Control.Monad.Trans.Resource ( Control/Monad/Trans/Resource.hs, dist/dist-sandbox-6afc8227/build/Control/Monad/Trans/Resource.o )
+*** Parser [Control.Monad.Trans.Resource]:
+!!! Parser [Control.Monad.Trans.Resource]: finished in 5.00 milliseconds, allocated 9.209 megabytes
+*** Renamer/typechecker [Control.Monad.Trans.Resource]:
+!!! Renamer/typechecker [Control.Monad.Trans.Resource]: finished in 63.00 milliseconds, allocated 53.236 megabytes
+*** Desugar [Control.Monad.Trans.Resource]:
+Result size of Desugar (after optimization)
+  = {terms: 398, types: 1,118, coercions: 57}
+!!! Desugar [Control.Monad.Trans.Resource]: finished in 13.00 milliseconds, allocated 7.701 megabytes
+
+Control/Monad/Trans/Resource.hs:54:7: warning: [-Wdodgy-exports]
+    The export item ‘ExceptionT(..)’ suggests that
+    ‘ExceptionT’ has (in-scope) constructors or class methods,
+    but it has none
+
+Control/Monad/Trans/Resource.hs:64:1: warning: [-Wunused-imports]
+    The import of ‘throw’ from module ‘Control.Exception’ is redundant
+
+Control/Monad/Trans/Resource.hs:73:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+Control/Monad/Trans/Resource.hs:206:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘finally’
+*** Simplifier [Control.Monad.Trans.Resource]:
+Result size of Simplifier iteration=1
+  = {terms: 388, types: 1,077, coercions: 121}
+Result size of Simplifier
+  = {terms: 388, types: 1,077, coercions: 123}
+!!! Simplifier [Control.Monad.Trans.Resource]: finished in 4.00 milliseconds, allocated 3.203 megabytes
+*** Specialise [Control.Monad.Trans.Resource]:
+Result size of Specialise
+  = {terms: 426, types: 1,156, coercions: 123}
+!!! Specialise [Control.Monad.Trans.Resource]: finished in 1.00 milliseconds, allocated 0.698 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Trans.Resource]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 516, types: 1,371, coercions: 123}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Control.Monad.Trans.Resource]: finished in 3.00 milliseconds, allocated 3.424 megabytes
+*** Simplifier [Control.Monad.Trans.Resource]:
+Result size of Simplifier iteration=1
+  = {terms: 920, types: 1,988, coercions: 679}
+Result size of Simplifier iteration=2
+  = {terms: 724, types: 1,506, coercions: 606}
+Result size of Simplifier
+  = {terms: 715, types: 1,474, coercions: 582}
+!!! Simplifier [Control.Monad.Trans.Resource]: finished in 20.00 milliseconds, allocated 14.050 megabytes
+*** Simplifier [Control.Monad.Trans.Resource]:
+Result size of Simplifier
+  = {terms: 715, types: 1,474, coercions: 582}
+!!! Simplifier [Control.Monad.Trans.Resource]: finished in 4.00 milliseconds, allocated 3.138 megabytes
+*** Simplifier [Control.Monad.Trans.Resource]:
+Result size of Simplifier iteration=1
+  = {terms: 756, types: 1,544, coercions: 602}
+Result size of Simplifier
+  = {terms: 756, types: 1,544, coercions: 602}
+!!! Simplifier [Control.Monad.Trans.Resource]: finished in 9.00 milliseconds, allocated 6.729 megabytes
+*** Float inwards [Control.Monad.Trans.Resource]:
+Result size of Float inwards
+  = {terms: 756, types: 1,544, coercions: 602}
+!!! Float inwards [Control.Monad.Trans.Resource]: finished in 3.00 milliseconds, allocated 1.831 megabytes
+*** Called arity analysis [Control.Monad.Trans.Resource]:
+Result size of Called arity analysis
+  = {terms: 756, types: 1,544, coercions: 602}
+!!! Called arity analysis [Control.Monad.Trans.Resource]: finished in 0.00 milliseconds, allocated 0.783 megabytes
+*** Simplifier [Control.Monad.Trans.Resource]:
+Result size of Simplifier
+  = {terms: 756, types: 1,544, coercions: 602}
+!!! Simplifier [Control.Monad.Trans.Resource]: finished in 3.00 milliseconds, allocated 3.317 megabytes
+*** Demand analysis [Control.Monad.Trans.Resource]:
+Result size of Demand analysis
+  = {terms: 756, types: 1,544, coercions: 602}
+!!! Demand analysis [Control.Monad.Trans.Resource]: finished in 4.00 milliseconds, allocated 3.846 megabytes
+*** Worker Wrapper binds [Control.Monad.Trans.Resource]:
+Result size of Worker Wrapper binds
+  = {terms: 824, types: 1,676, coercions: 607}
+!!! Worker Wrapper binds [Control.Monad.Trans.Resource]: finished in 1.00 milliseconds, allocated 0.484 megabytes
+*** Simplifier [Control.Monad.Trans.Resource]:
+Result size of Simplifier iteration=1
+  = {terms: 787, types: 1,625, coercions: 596}
+Result size of Simplifier
+  = {terms: 773, types: 1,588, coercions: 594}
+!!! Simplifier [Control.Monad.Trans.Resource]: finished in 11.00 milliseconds, allocated 8.592 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Trans.Resource]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 820, types: 1,723, coercions: 594}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Control.Monad.Trans.Resource]: finished in 6.00 milliseconds, allocated 4.875 megabytes
+*** Common sub-expression [Control.Monad.Trans.Resource]:
+Result size of Common sub-expression
+  = {terms: 772, types: 1,638, coercions: 573}
+!!! Common sub-expression [Control.Monad.Trans.Resource]: finished in 2.00 milliseconds, allocated 1.184 megabytes
+*** Float inwards [Control.Monad.Trans.Resource]:
+Result size of Float inwards
+  = {terms: 772, types: 1,638, coercions: 573}
+!!! Float inwards [Control.Monad.Trans.Resource]: finished in 1.00 milliseconds, allocated 1.920 megabytes
+*** Simplifier [Control.Monad.Trans.Resource]:
+Result size of Simplifier iteration=1
+  = {terms: 754, types: 1,588, coercions: 573}
+Result size of Simplifier iteration=2
+  = {terms: 752, types: 1,585, coercions: 573}
+Result size of Simplifier
+  = {terms: 752, types: 1,585, coercions: 573}
+!!! Simplifier [Control.Monad.Trans.Resource]: finished in 14.00 milliseconds, allocated 11.603 megabytes
+*** CoreTidy [Control.Monad.Trans.Resource]:
+Result size of Tidy Core
+  = {terms: 741, types: 1,556, coercions: 552}
+!!! CoreTidy [Control.Monad.Trans.Resource]: finished in 1.00 milliseconds, allocated 1.465 megabytes
+writeBinIface: 89 Names
+writeBinIface: 201 dict entries
+writeBinIface: 89 Names
+writeBinIface: 201 dict entries
+*** CorePrep [Control.Monad.Trans.Resource]:
+Result size of CorePrep
+  = {terms: 967, types: 2,083, coercions: 552}
+!!! CorePrep [Control.Monad.Trans.Resource]: finished in 3.00 milliseconds, allocated 2.160 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Trans.Resource]:
+!!! CodeGen [Control.Monad.Trans.Resource]: finished in 53.00 milliseconds, allocated 46.971 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Monad/Trans -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc8274_0/ghc_20.s -o dist/dist-sandbox-6afc8227/build/Control/Monad/Trans/Resource.o
+*** CorePrep [Control.Monad.Trans.Resource]:
+Result size of CorePrep
+  = {terms: 967, types: 2,083, coercions: 552}
+!!! CorePrep [Control.Monad.Trans.Resource]: finished in 2.00 milliseconds, allocated 2.104 megabytes
+*** Stg2Stg:
+*** CodeGen [Control.Monad.Trans.Resource]:
+!!! CodeGen [Control.Monad.Trans.Resource]: finished in 57.00 milliseconds, allocated 49.747 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Control/Monad/Trans -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8274_0/ghc_22.s -o dist/dist-sandbox-6afc8227/build/Control/Monad/Trans/Resource.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc8274_0/ghc_23.c /tmp/ghc8274_0/ghc_22.s /tmp/ghc8274_0/ghc_21.c /tmp/ghc8274_0/ghc_20.s /tmp/ghc8274_0/ghc_19.s
+Warning: deleting non-existent /tmp/ghc8274_0/ghc_23.c
+Warning: deleting non-existent /tmp/ghc8274_0/ghc_21.c
+Warning: deleting non-existent /tmp/ghc8274_0/ghc_19.s
+compile: input file /tmp/ghc8274_0/ghc_5.hscpp
+*** Checking old interface for Data.Acquire:
+[4 of 4] Compiling Data.Acquire     ( Data/Acquire.hs, dist/dist-sandbox-6afc8227/build/Data/Acquire.o )
+*** Parser [Data.Acquire]:
+!!! Parser [Data.Acquire]: finished in 1.00 milliseconds, allocated 1.660 megabytes
+*** Renamer/typechecker [Data.Acquire]:
+!!! Renamer/typechecker [Data.Acquire]: finished in 4.00 milliseconds, allocated 3.224 megabytes
+*** Desugar [Data.Acquire]:
+Result size of Desugar (after optimization)
+  = {terms: 47, types: 136, coercions: 8}
+!!! Desugar [Data.Acquire]: finished in 1.00 milliseconds, allocated 0.742 megabytes
+
+Data/Acquire.hs:16:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad.Trans.Resource’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Trans.Resource’
+    To import instances alone, use: import Control.Monad.Trans.Resource()
+
+Data/Acquire.hs:18:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Data/Acquire.hs:19:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad.Base’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Base’
+    To import instances alone, use: import Control.Monad.Base()
+
+Data/Acquire.hs:21:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad.Trans.Control’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Trans.Control’
+    To import instances alone, use: import Control.Monad.Trans.Control()
+
+Data/Acquire.hs:23:1: warning: [-Wunused-imports]
+    The import of ‘Data.Typeable’ is redundant
+      except perhaps to import instances from ‘Data.Typeable’
+    To import instances alone, use: import Data.Typeable()
+
+Data/Acquire.hs:24:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad’ is redundant
+      except perhaps to import instances from ‘Control.Monad’
+    To import instances alone, use: import Control.Monad()
+*** Simplifier [Data.Acquire]:
+Result size of Simplifier iteration=1
+  = {terms: 53, types: 141, coercions: 33}
+Result size of Simplifier = {terms: 53, types: 141, coercions: 38}
+!!! Simplifier [Data.Acquire]: finished in 1.00 milliseconds, allocated 0.502 megabytes
+*** Specialise [Data.Acquire]:
+Result size of Specialise = {terms: 98, types: 325, coercions: 38}
+!!! Specialise [Data.Acquire]: finished in 0.00 milliseconds, allocated 0.297 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Acquire]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 119, types: 416, coercions: 38}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.Acquire]: finished in 0.00 milliseconds, allocated 0.811 megabytes
+*** Simplifier [Data.Acquire]:
+Result size of Simplifier iteration=1
+  = {terms: 325, types: 923, coercions: 384}
+Result size of Simplifier iteration=2
+  = {terms: 224, types: 585, coercions: 270}
+Result size of Simplifier
+  = {terms: 224, types: 585, coercions: 255}
+!!! Simplifier [Data.Acquire]: finished in 10.00 milliseconds, allocated 8.151 megabytes
+*** Simplifier [Data.Acquire]:
+Result size of Simplifier
+  = {terms: 224, types: 585, coercions: 255}
+!!! Simplifier [Data.Acquire]: finished in 2.00 milliseconds, allocated 1.172 megabytes
+*** Simplifier [Data.Acquire]:
+Result size of Simplifier iteration=1
+  = {terms: 233, types: 603, coercions: 261}
+Result size of Simplifier
+  = {terms: 233, types: 603, coercions: 261}
+!!! Simplifier [Data.Acquire]: finished in 4.00 milliseconds, allocated 2.431 megabytes
+*** Float inwards [Data.Acquire]:
+Result size of Float inwards
+  = {terms: 233, types: 603, coercions: 261}
+!!! Float inwards [Data.Acquire]: finished in 0.00 milliseconds, allocated 0.351 megabytes
+*** Called arity analysis [Data.Acquire]:
+Result size of Called arity analysis
+  = {terms: 233, types: 603, coercions: 261}
+!!! Called arity analysis [Data.Acquire]: finished in 0.00 milliseconds, allocated 0.219 megabytes
+*** Simplifier [Data.Acquire]:
+Result size of Simplifier
+  = {terms: 233, types: 603, coercions: 261}
+!!! Simplifier [Data.Acquire]: finished in 2.00 milliseconds, allocated 1.213 megabytes
+*** Demand analysis [Data.Acquire]:
+Result size of Demand analysis
+  = {terms: 233, types: 603, coercions: 261}
+!!! Demand analysis [Data.Acquire]: finished in 0.00 milliseconds, allocated 1.103 megabytes
+*** Worker Wrapper binds [Data.Acquire]:
+Result size of Worker Wrapper binds
+  = {terms: 233, types: 603, coercions: 261}
+!!! Worker Wrapper binds [Data.Acquire]: finished in 0.00 milliseconds, allocated 0.145 megabytes
+*** Simplifier [Data.Acquire]:
+Result size of Simplifier
+  = {terms: 233, types: 603, coercions: 261}
+!!! Simplifier [Data.Acquire]: finished in 1.00 milliseconds, allocated 1.390 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Acquire]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 247, types: 681, coercions: 261}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.Acquire]: finished in 1.00 milliseconds, allocated 1.090 megabytes
+*** Common sub-expression [Data.Acquire]:
+Result size of Common sub-expression
+  = {terms: 217, types: 600, coercions: 237}
+!!! Common sub-expression [Data.Acquire]: finished in 0.00 milliseconds, allocated 0.501 megabytes
+*** Float inwards [Data.Acquire]:
+Result size of Float inwards
+  = {terms: 217, types: 600, coercions: 237}
+!!! Float inwards [Data.Acquire]: finished in 0.00 milliseconds, allocated 0.308 megabytes
+*** Simplifier [Data.Acquire]:
+Result size of Simplifier iteration=1
+  = {terms: 212, types: 568, coercions: 237}
+Result size of Simplifier
+  = {terms: 209, types: 558, coercions: 237}
+!!! Simplifier [Data.Acquire]: finished in 3.00 milliseconds, allocated 2.451 megabytes
+*** CoreTidy [Data.Acquire]:
+Result size of Tidy Core = {terms: 138, types: 316, coercions: 106}
+!!! CoreTidy [Data.Acquire]: finished in 0.00 milliseconds, allocated 0.456 megabytes
+writeBinIface: 32 Names
+writeBinIface: 113 dict entries
+writeBinIface: 32 Names
+writeBinIface: 113 dict entries
+*** CorePrep [Data.Acquire]:
+Result size of CorePrep = {terms: 148, types: 342, coercions: 106}
+!!! CorePrep [Data.Acquire]: finished in 0.00 milliseconds, allocated 0.348 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Acquire]:
+!!! CodeGen [Data.Acquire]: finished in 5.00 milliseconds, allocated 5.552 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc8274_0/ghc_25.s -o dist/dist-sandbox-6afc8227/build/Data/Acquire.o
+*** CorePrep [Data.Acquire]:
+Result size of CorePrep = {terms: 148, types: 342, coercions: 106}
+!!! CorePrep [Data.Acquire]: finished in 0.00 milliseconds, allocated 0.348 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.Acquire]:
+!!! CodeGen [Data.Acquire]: finished in 6.00 milliseconds, allocated 5.812 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc8274_0/ghc_27.s -o dist/dist-sandbox-6afc8227/build/Data/Acquire.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc8274_0/ghc_28.c /tmp/ghc8274_0/ghc_27.s /tmp/ghc8274_0/ghc_26.c /tmp/ghc8274_0/ghc_25.s /tmp/ghc8274_0/ghc_24.s
+Warning: deleting non-existent /tmp/ghc8274_0/ghc_28.c
+Warning: deleting non-existent /tmp/ghc8274_0/ghc_26.c
+Warning: deleting non-existent /tmp/ghc8274_0/ghc_24.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc8274_0/ghc_7.hscpp /tmp/ghc8274_0/ghc_5.hscpp /tmp/ghc8274_0/ghc_3.hscpp /tmp/ghc8274_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8274_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/exceptions-0.8.2.1-JBQJzRdlubk7otWf6cOKjr -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-boot-th-8.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/lifted-base-0.2.3.6-G0aReckQITxDDhhKYmTW5H -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/mmorph-1.0.6-I6fWQohILlqH1gvA6UibXU -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/monad-control-1.0.1.0-1xoC3YihUKYHLar1SsWtYe -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/pretty-1.1.3.3 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/template-haskell-2.11.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-base-0.4.4-FMTbgPqmqMsCiOz3biyAGx -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N -o dist/dist-sandbox-6afc8227/build/libHSresourcet-1.1.7.4-EPw5Ucp5s8AERJojCCz0nc-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSresourcet-1.1.7.4-EPw5Ucp5s8AERJojCCz0nc-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Control/Monad/Trans/Resource.dyn_o dist/dist-sandbox-6afc8227/build/Control/Monad/Trans/Resource/Internal.dyn_o dist/dist-sandbox-6afc8227/build/Data/Acquire.dyn_o dist/dist-sandbox-6afc8227/build/Data/Acquire/Internal.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/mmorph-1.0.6-I6fWQohILlqH1gvA6UibXU -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/lifted-base-0.2.3.6-G0aReckQITxDDhhKYmTW5H -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/monad-control-1.0.1.0-1xoC3YihUKYHLar1SsWtYe -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-base-0.4.4-FMTbgPqmqMsCiOz3biyAGx -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/exceptions-0.8.2.1-JBQJzRdlubk7otWf6cOKjr -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/transformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/template-haskell-2.11.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/pretty-1.1.3.3 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-boot-th-8.0.1 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSmmorph-1.0.6-I6fWQohILlqH1gvA6UibXU-ghc8.0.1 -lHSlifted-base-0.2.3.6-G0aReckQITxDDhhKYmTW5H-ghc8.0.1 -lHSmonad-control-1.0.1.0-1xoC3YihUKYHLar1SsWtYe-ghc8.0.1 -lHStransformers-base-0.4.4-FMTbgPqmqMsCiOz3biyAGx-ghc8.0.1 -lHSexceptions-0.8.2.1-JBQJzRdlubk7otWf6cOKjr-ghc8.0.1 -lHStransformers-compat-0.5.1.4-G5tKvPrwhggJRvSwXNMs1N-ghc8.0.1 -lHStemplate-haskell-2.11.0.0-ghc8.0.1 -lHSpretty-1.1.3.3-ghc8.0.1 -lHSghc-boot-th-8.0.1-ghc8.0.1 -lHSstm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF-ghc8.0.1 -lHSmtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM-ghc8.0.1 -lHStransformers-0.5.2.0-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc8370_0
+*** Deleting temp files:
+Deleting: /tmp/ghc8370_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc8370_0
+Creating package registration file:
+/tmp/pkgConf-resourcet-1.1.713732263401631518149.4
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/resourcet-1.1.7.4-EPw5Ucp5s8AERJojCCz0nc
+Registering resourcet-1.1.7.4...
+cabal: Leaving directory '/tmp/cabal-tmp-1025/resourcet-1.1.7.4'

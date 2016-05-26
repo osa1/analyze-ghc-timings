@@ -1,0 +1,411 @@
+cabal: Entering directory '/tmp/cabal-tmp-1029/wai-3.2.1.1'
+Configuring wai-3.2.1.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc11226_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc11226_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc11226_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc11226_0/ghc_2.rsp /tmp/ghc11226_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc11226_0
+Building wai-3.2.1.1...
+Preprocessing library wai-3.2.1.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Network.Wai,*Network.Wai.Internal
+Created temporary directory: /tmp/ghc11283_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/network-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc11283_0/ghc_2.h -x assembler-with-cpp ./Network/Wai.hs -o /tmp/ghc11283_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/network-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc11283_0/ghc_4.h -x assembler-with-cpp ./Network/Wai/Internal.hs -o /tmp/ghc11283_0/ghc_3.hscpp
+!!! Chasing dependencies: finished in 15.00 milliseconds, allocated 11.195 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-24 02:52:48 UTC
+         ms_mod = Network.Wai.Internal,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.List),
+                            (Nothing, Network.Socket), (Nothing, Network.HTTP.Types),
+                            (Nothing, Data.Word), (Nothing, Data.Vault.Lazy),
+                            (Nothing, Data.Typeable), (Nothing, Data.Text),
+                            (Nothing, Data.ByteString), (Nothing, Blaze.ByteString.Builder)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-05-24 02:52:48 UTC
+         ms_mod = Network.Wai,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, System.IO.Unsafe),
+                            (Nothing, System.IO), (Nothing, Network.Wai.Internal),
+                            (Nothing, Network.Socket), (Nothing, Network.HTTP.Types),
+                            (Nothing, Data.Monoid), (Nothing, Data.Function),
+                            (Nothing, Data.ByteString.Lazy.Char8),
+                            (Nothing, Data.ByteString.Lazy.Internal),
+                            (Nothing, Data.ByteString.Lazy.Internal),
+                            (Nothing, Data.ByteString.Lazy), (Nothing, Data.ByteString),
+                            (Nothing, Control.Monad), (Nothing, Blaze.ByteString.Builder),
+                            (Nothing, Blaze.ByteString.Builder)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc11283_0/ghc_4.h /tmp/ghc11283_0/ghc_2.h
+compile: input file /tmp/ghc11283_0/ghc_3.hscpp
+*** Checking old interface for Network.Wai.Internal:
+[1 of 2] Compiling Network.Wai.Internal ( Network/Wai/Internal.hs, dist/dist-sandbox-6afc8227/build/Network/Wai/Internal.o )
+*** Parser [Network.Wai.Internal]:
+!!! Parser [Network.Wai.Internal]: finished in 4.00 milliseconds, allocated 4.755 megabytes
+*** Renamer/typechecker [Network.Wai.Internal]:
+!!! Renamer/typechecker [Network.Wai.Internal]: finished in 352.00 milliseconds, allocated 141.225 megabytes
+*** Desugar [Network.Wai.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 490, types: 703, coercions: 0}
+!!! Desugar [Network.Wai.Internal]: finished in 6.00 milliseconds, allocated 3.209 megabytes
+*** Simplifier [Network.Wai.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 575, types: 810, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 569, types: 805, coercions: 0}
+Result size of Simplifier = {terms: 569, types: 805, coercions: 0}
+!!! Simplifier [Network.Wai.Internal]: finished in 28.00 milliseconds, allocated 11.400 megabytes
+*** Specialise [Network.Wai.Internal]:
+Result size of Specialise
+  = {terms: 803, types: 1,113, coercions: 0}
+!!! Specialise [Network.Wai.Internal]: finished in 3.00 milliseconds, allocated 1.943 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Wai.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 987, types: 1,472, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Wai.Internal]: finished in 8.00 milliseconds, allocated 6.498 megabytes
+*** Simplifier [Network.Wai.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 1,552, types: 1,787, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,433, types: 1,665, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,429, types: 1,656, coercions: 0}
+!!! Simplifier [Network.Wai.Internal]: finished in 58.00 milliseconds, allocated 31.322 megabytes
+*** Simplifier [Network.Wai.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 1,186, types: 1,326, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,112, types: 1,242, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 1,124, types: 1,262, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,124, types: 1,262, coercions: 0}
+!!! Simplifier [Network.Wai.Internal]: finished in 46.00 milliseconds, allocated 26.838 megabytes
+*** Simplifier [Network.Wai.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 1,601, types: 1,645, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,592, types: 1,642, coercions: 0}
+!!! Simplifier [Network.Wai.Internal]: finished in 46.00 milliseconds, allocated 26.584 megabytes
+*** Float inwards [Network.Wai.Internal]:
+Result size of Float inwards
+  = {terms: 1,592, types: 1,642, coercions: 0}
+!!! Float inwards [Network.Wai.Internal]: finished in 1.00 milliseconds, allocated 1.841 megabytes
+*** Called arity analysis [Network.Wai.Internal]:
+Result size of Called arity analysis
+  = {terms: 1,592, types: 1,642, coercions: 0}
+!!! Called arity analysis [Network.Wai.Internal]: finished in 15.00 milliseconds, allocated 6.582 megabytes
+*** Simplifier [Network.Wai.Internal]:
+Result size of Simplifier
+  = {terms: 1,592, types: 1,642, coercions: 0}
+!!! Simplifier [Network.Wai.Internal]: finished in 9.00 milliseconds, allocated 6.842 megabytes
+*** Demand analysis [Network.Wai.Internal]:
+Result size of Demand analysis
+  = {terms: 1,592, types: 1,642, coercions: 0}
+!!! Demand analysis [Network.Wai.Internal]: finished in 15.00 milliseconds, allocated 6.794 megabytes
+*** Worker Wrapper binds [Network.Wai.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 1,902, types: 2,127, coercions: 0}
+!!! Worker Wrapper binds [Network.Wai.Internal]: finished in 2.00 milliseconds, allocated 0.878 megabytes
+*** Simplifier [Network.Wai.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 1,850, types: 2,050, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,821, types: 2,011, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 1,799, types: 1,982, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,799, types: 1,982, coercions: 0}
+!!! Simplifier [Network.Wai.Internal]: finished in 69.00 milliseconds, allocated 38.011 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Wai.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 1,867, types: 2,086, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Wai.Internal]: finished in 11.00 milliseconds, allocated 9.459 megabytes
+*** Common sub-expression [Network.Wai.Internal]:
+Result size of Common sub-expression
+  = {terms: 1,631, types: 1,866, coercions: 0}
+!!! Common sub-expression [Network.Wai.Internal]: finished in 9.00 milliseconds, allocated 3.097 megabytes
+*** Float inwards [Network.Wai.Internal]:
+Result size of Float inwards
+  = {terms: 1,631, types: 1,866, coercions: 0}
+!!! Float inwards [Network.Wai.Internal]: finished in 2.00 milliseconds, allocated 2.182 megabytes
+*** Simplifier [Network.Wai.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 1,651, types: 1,865, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,651, types: 1,865, coercions: 0}
+!!! Simplifier [Network.Wai.Internal]: finished in 33.00 milliseconds, allocated 17.193 megabytes
+*** CoreTidy [Network.Wai.Internal]:
+Result size of Tidy Core = {terms: 908, types: 1,006, coercions: 0}
+!!! CoreTidy [Network.Wai.Internal]: finished in 8.00 milliseconds, allocated 2.899 megabytes
+writeBinIface: 101 Names
+writeBinIface: 237 dict entries
+writeBinIface: 101 Names
+writeBinIface: 237 dict entries
+*** CorePrep [Network.Wai.Internal]:
+Result size of CorePrep
+  = {terms: 1,232, types: 1,324, coercions: 0}
+!!! CorePrep [Network.Wai.Internal]: finished in 4.00 milliseconds, allocated 2.484 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Wai.Internal]:
+!!! CodeGen [Network.Wai.Internal]: finished in 131.00 milliseconds, allocated 72.056 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/Wai -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc11283_0/ghc_6.s -o dist/dist-sandbox-6afc8227/build/Network/Wai/Internal.o
+*** CorePrep [Network.Wai.Internal]:
+Result size of CorePrep
+  = {terms: 1,232, types: 1,324, coercions: 0}
+!!! CorePrep [Network.Wai.Internal]: finished in 4.00 milliseconds, allocated 2.337 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Wai.Internal]:
+!!! CodeGen [Network.Wai.Internal]: finished in 119.00 milliseconds, allocated 75.434 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/Wai -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11283_0/ghc_8.s -o dist/dist-sandbox-6afc8227/build/Network/Wai/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc11283_0/ghc_9.c /tmp/ghc11283_0/ghc_8.s /tmp/ghc11283_0/ghc_7.c /tmp/ghc11283_0/ghc_6.s /tmp/ghc11283_0/ghc_5.s
+Warning: deleting non-existent /tmp/ghc11283_0/ghc_9.c
+Warning: deleting non-existent /tmp/ghc11283_0/ghc_7.c
+Warning: deleting non-existent /tmp/ghc11283_0/ghc_5.s
+compile: input file /tmp/ghc11283_0/ghc_1.hscpp
+*** Checking old interface for Network.Wai:
+[2 of 2] Compiling Network.Wai      ( Network/Wai.hs, dist/dist-sandbox-6afc8227/build/Network/Wai.o )
+*** Parser [Network.Wai]:
+!!! Parser [Network.Wai]: finished in 6.00 milliseconds, allocated 8.223 megabytes
+*** Renamer/typechecker [Network.Wai]:
+!!! Renamer/typechecker [Network.Wai]: finished in 95.00 milliseconds, allocated 46.080 megabytes
+*** Desugar [Network.Wai]:
+Result size of Desugar (after optimization)
+  = {terms: 352, types: 438, coercions: 0}
+!!! Desugar [Network.Wai]: finished in 4.00 milliseconds, allocated 2.503 megabytes
+*** Simplifier [Network.Wai]:
+Result size of Simplifier iteration=1
+  = {terms: 356, types: 431, coercions: 29}
+Result size of Simplifier iteration=2
+  = {terms: 365, types: 461, coercions: 48}
+Result size of Simplifier iteration=3
+  = {terms: 361, types: 454, coercions: 45}
+Result size of Simplifier = {terms: 361, types: 454, coercions: 45}
+!!! Simplifier [Network.Wai]: finished in 25.00 milliseconds, allocated 11.133 megabytes
+*** Specialise [Network.Wai]:
+Result size of Specialise = {terms: 368, types: 459, coercions: 45}
+!!! Specialise [Network.Wai]: finished in 1.00 milliseconds, allocated 0.535 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Wai]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 396, types: 492, coercions: 45}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.Wai]: finished in 5.00 milliseconds, allocated 2.366 megabytes
+*** Simplifier [Network.Wai]:
+Result size of Simplifier iteration=1
+  = {terms: 812, types: 902, coercions: 193}
+Result size of Simplifier iteration=2
+  = {terms: 701, types: 746, coercions: 162}
+Result size of Simplifier
+  = {terms: 701, types: 746, coercions: 162}
+!!! Simplifier [Network.Wai]: finished in 203.00 milliseconds, allocated 64.305 megabytes
+*** Simplifier [Network.Wai]:
+Result size of Simplifier iteration=1
+  = {terms: 711, types: 785, coercions: 175}
+Result size of Simplifier iteration=2
+  = {terms: 699, types: 763, coercions: 158}
+Result size of Simplifier iteration=3
+  = {terms: 701, types: 763, coercions: 165}
+Result size of Simplifier iteration=4
+  = {terms: 700, types: 775, coercions: 166}
+Result size of Simplifier
+  = {terms: 700, types: 775, coercions: 166}
+!!! Simplifier [Network.Wai]: finished in 17.00 milliseconds, allocated 11.804 megabytes
+*** Simplifier [Network.Wai]:
+Result size of Simplifier iteration=1
+  = {terms: 696, types: 766, coercions: 165}
+Result size of Simplifier
+  = {terms: 696, types: 766, coercions: 165}
+!!! Simplifier [Network.Wai]: finished in 22.00 milliseconds, allocated 7.975 megabytes
+*** Float inwards [Network.Wai]:
+Result size of Float inwards
+  = {terms: 696, types: 766, coercions: 165}
+!!! Float inwards [Network.Wai]: finished in 1.00 milliseconds, allocated 1.142 megabytes
+*** Called arity analysis [Network.Wai]:
+Result size of Called arity analysis
+  = {terms: 696, types: 766, coercions: 165}
+!!! Called arity analysis [Network.Wai]: finished in 1.00 milliseconds, allocated 0.738 megabytes
+*** Simplifier [Network.Wai]:
+Result size of Simplifier
+  = {terms: 696, types: 766, coercions: 165}
+!!! Simplifier [Network.Wai]: finished in 5.00 milliseconds, allocated 2.709 megabytes
+*** Demand analysis [Network.Wai]:
+Result size of Demand analysis
+  = {terms: 696, types: 766, coercions: 165}
+!!! Demand analysis [Network.Wai]: finished in 6.00 milliseconds, allocated 4.543 megabytes
+*** Worker Wrapper binds [Network.Wai]:
+Result size of Worker Wrapper binds
+  = {terms: 834, types: 988, coercions: 165}
+!!! Worker Wrapper binds [Network.Wai]: finished in 0.00 milliseconds, allocated 0.460 megabytes
+*** Simplifier [Network.Wai]:
+Result size of Simplifier iteration=1
+  = {terms: 790, types: 966, coercions: 165}
+Result size of Simplifier iteration=2
+  = {terms: 726, types: 864, coercions: 165}
+Result size of Simplifier
+  = {terms: 726, types: 864, coercions: 165}
+!!! Simplifier [Network.Wai]: finished in 16.00 milliseconds, allocated 10.200 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Wai]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 732, types: 881, coercions: 165}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.Wai]: finished in 4.00 milliseconds, allocated 2.925 megabytes
+*** Common sub-expression [Network.Wai]:
+Result size of Common sub-expression
+  = {terms: 727, types: 880, coercions: 165}
+!!! Common sub-expression [Network.Wai]: finished in 2.00 milliseconds, allocated 0.942 megabytes
+*** Float inwards [Network.Wai]:
+Result size of Float inwards
+  = {terms: 727, types: 880, coercions: 165}
+!!! Float inwards [Network.Wai]: finished in 1.00 milliseconds, allocated 1.298 megabytes
+*** Simplifier [Network.Wai]:
+Result size of Simplifier iteration=1
+  = {terms: 717, types: 875, coercions: 180}
+Result size of Simplifier iteration=2
+  = {terms: 706, types: 842, coercions: 165}
+Result size of Simplifier
+  = {terms: 706, types: 842, coercions: 165}
+!!! Simplifier [Network.Wai]: finished in 17.00 milliseconds, allocated 9.180 megabytes
+*** CoreTidy [Network.Wai]:
+Result size of Tidy Core = {terms: 704, types: 840, coercions: 165}
+!!! CoreTidy [Network.Wai]: finished in 2.00 milliseconds, allocated 1.179 megabytes
+writeBinIface: 104 Names
+writeBinIface: 247 dict entries
+writeBinIface: 104 Names
+writeBinIface: 247 dict entries
+*** CorePrep [Network.Wai]:
+Result size of CorePrep = {terms: 885, types: 964, coercions: 165}
+!!! CorePrep [Network.Wai]: finished in 2.00 milliseconds, allocated 1.875 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Wai]:
+!!! CodeGen [Network.Wai]: finished in 56.00 milliseconds, allocated 32.698 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc11283_0/ghc_11.s -o dist/dist-sandbox-6afc8227/build/Network/Wai.o
+*** CorePrep [Network.Wai]:
+Result size of CorePrep = {terms: 885, types: 964, coercions: 165}
+!!! CorePrep [Network.Wai]: finished in 2.00 milliseconds, allocated 1.800 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.Wai]:
+!!! CodeGen [Network.Wai]: finished in 55.00 milliseconds, allocated 33.886 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc11283_0/ghc_13.s -o dist/dist-sandbox-6afc8227/build/Network/Wai.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc11283_0/ghc_14.c /tmp/ghc11283_0/ghc_13.s /tmp/ghc11283_0/ghc_12.c /tmp/ghc11283_0/ghc_11.s /tmp/ghc11283_0/ghc_10.s
+Warning: deleting non-existent /tmp/ghc11283_0/ghc_14.c
+Warning: deleting non-existent /tmp/ghc11283_0/ghc_12.c
+Warning: deleting non-existent /tmp/ghc11283_0/ghc_10.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc11283_0/ghc_3.hscpp /tmp/ghc11283_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc11283_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/blaze-builder-0.4.0.2-6Lw6V3wDhf3KDMasjNOEeG -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/case-insensitive-1.2.0.6-6wXdNb03nEPFT3o9XKcio -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/http-types-0.9-JOpJsc6h1HpJqPn02W56HK -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/network-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/unordered-containers-0.2.7.0-KR6jjzMAwuYBKL2QUNYyx5 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vault-0.3.0.6-1QxxhplwtcS3BMRz2QFr4C -o dist/dist-sandbox-6afc8227/build/libHSwai-3.2.1.1-7a2aq2maLin8KSMo7MMW99-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSwai-3.2.1.1-7a2aq2maLin8KSMo7MMW99-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Network/Wai.dyn_o dist/dist-sandbox-6afc8227/build/Network/Wai/Internal.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/vault-0.3.0.6-1QxxhplwtcS3BMRz2QFr4C -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/unordered-containers-0.2.7.0-KR6jjzMAwuYBKL2QUNYyx5 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/transformers-0.5.2.0 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/network-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/unix-2.7.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/time-1.6.0.1 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/http-types-0.9-JOpJsc6h1HpJqPn02W56HK -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/case-insensitive-1.2.0.6-6wXdNb03nEPFT3o9XKcio -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/blaze-builder-0.4.0.2-6Lw6V3wDhf3KDMasjNOEeG -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHSvault-0.3.0.6-1QxxhplwtcS3BMRz2QFr4C-ghc8.0.1 -lHSunordered-containers-0.2.7.0-KR6jjzMAwuYBKL2QUNYyx5-ghc8.0.1 -lHStransformers-0.5.2.0-ghc8.0.1 -lHSnetwork-2.6.2.1-Li0aefQhyJzUSpQ0fLiXL-ghc8.0.1 -lHSunix-2.7.2.0-ghc8.0.1 -lHStime-1.6.0.1-ghc8.0.1 -lHShttp-types-0.9-JOpJsc6h1HpJqPn02W56HK-ghc8.0.1 -lHScase-insensitive-1.2.0.6-6wXdNb03nEPFT3o9XKcio-ghc8.0.1 -lHShashable-1.2.4.0-Ctl752zbguF6QanxurLOm2-ghc8.0.1 -lHSblaze-builder-0.4.0.2-6Lw6V3wDhf3KDMasjNOEeG-ghc8.0.1 -lHStext-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs-ghc8.0.1 -lHSbinary-0.8.3.0-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lrt -lutil -ldl -lpthread -lgmp
+Created temporary directory: /tmp/ghc11479_0
+*** Deleting temp files:
+Deleting: /tmp/ghc11479_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc11479_0
+Creating package registration file:
+/tmp/pkgConf-wai-3.2.14802984901398295499.1
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/wai-3.2.1.1-7a2aq2maLin8KSMo7MMW99
+Registering wai-3.2.1.1...
+cabal: Leaving directory '/tmp/cabal-tmp-1029/wai-3.2.1.1'

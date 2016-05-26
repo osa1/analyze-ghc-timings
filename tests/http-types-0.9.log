@@ -1,0 +1,1126 @@
+cabal: Entering directory '/tmp/cabal-tmp-1026/http-types-0.9'
+Configuring http-types-0.9...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc9918_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc9918_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc9918_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc9918_0/ghc_2.rsp /tmp/ghc9918_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9918_0
+Building http-types-0.9...
+Preprocessing library http-types-0.9...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Network.HTTP.Types,*Network.HTTP.Types.Header,*Network.HTTP.Types.Method,*Network.HTTP.Types.QueryLike,*Network.HTTP.Types.Status,*Network.HTTP.Types.URI,*Network.HTTP.Types.Version
+Created temporary directory: /tmp/ghc9957_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9957_0/ghc_2.h -x assembler-with-cpp ./Network/HTTP/Types/Header.hs -o /tmp/ghc9957_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9957_0/ghc_4.h -x assembler-with-cpp ./Network/HTTP/Types/URI.hs -o /tmp/ghc9957_0/ghc_3.hscpp
+!!! Chasing dependencies: finished in 37.00 milliseconds, allocated 17.403 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2015-10-05 18:03:53 UTC
+         ms_mod = Network.HTTP.Types.URI,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Data.ByteString.Char8), (Nothing, Data.ByteString),
+                            (Nothing, Blaze.ByteString.Builder), (Nothing, Data.Word),
+                            (Nothing, Data.Text.Encoding.Error), (Nothing, Data.Text.Encoding),
+                            (Nothing, Data.Text), (Nothing, Data.Maybe), (Nothing, Data.List),
+                            (Nothing, Data.Char), (Nothing, Data.Bits),
+                            (Nothing, Control.Arrow)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-10-05 18:03:53 UTC
+         ms_mod = Network.HTTP.Types.Status,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Typeable),
+                            (Nothing, Data.ByteString)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-10-05 18:03:53 UTC
+         ms_mod = Network.HTTP.Types.QueryLike,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Control.Arrow),
+                            (Nothing, Data.Text.Encoding), (Nothing, Data.Text),
+                            (Nothing, Data.ByteString.Lazy), (Nothing, Data.ByteString),
+                            (Nothing, Data.Maybe), (Nothing, Network.HTTP.Types.URI)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-10-05 18:03:53 UTC
+         ms_mod = Network.HTTP.Types.Method,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Typeable),
+                            (Nothing, Data.ByteString.Char8), (Nothing, Data.ByteString),
+                            (Nothing, Data.Array), (Nothing, Control.Arrow)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-10-05 18:03:53 UTC
+         ms_mod = Network.HTTP.Types.Header,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Data),
+                            (Nothing, Data.Typeable), (Nothing, Data.ByteString.Char8),
+                            (Nothing, Data.CaseInsensitive), (Nothing, Data.ByteString),
+                            (Nothing, Blaze.ByteString.Builder.Char8),
+                            (Nothing, Blaze.ByteString.Builder), (Nothing, Data.List)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-10-05 18:03:53 UTC
+         ms_mod = Network.HTTP.Types.Version,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Typeable)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2015-10-05 18:03:53 UTC
+         ms_mod = Network.HTTP.Types,
+         ms_textual_imps = [(Nothing, Prelude),
+                            (Nothing, Network.HTTP.Types.Version),
+                            (Nothing, Network.HTTP.Types.URI),
+                            (Nothing, Network.HTTP.Types.Status),
+                            (Nothing, Network.HTTP.Types.QueryLike),
+                            (Nothing, Network.HTTP.Types.Method),
+                            (Nothing, Network.HTTP.Types.Header)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc9957_0/ghc_4.h /tmp/ghc9957_0/ghc_2.h
+compile: input file /tmp/ghc9957_0/ghc_3.hscpp
+*** Checking old interface for Network.HTTP.Types.URI:
+[1 of 7] Compiling Network.HTTP.Types.URI ( Network/HTTP/Types/URI.hs, dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/URI.o )
+*** Parser [Network.HTTP.Types.URI]:
+!!! Parser [Network.HTTP.Types.URI]: finished in 8.00 milliseconds, allocated 8.475 megabytes
+*** Renamer/typechecker [Network.HTTP.Types.URI]:
+!!! Renamer/typechecker [Network.HTTP.Types.URI]: finished in 1176.00 milliseconds, allocated 267.304 megabytes
+*** Desugar [Network.HTTP.Types.URI]:
+Result size of Desugar (after optimization)
+  = {terms: 977, types: 938, coercions: 0}
+!!! Desugar [Network.HTTP.Types.URI]: finished in 97.00 milliseconds, allocated 48.440 megabytes
+
+Network/HTTP/Types/URI.hs:148:26: warning: [-Wdeprecations]
+    In the use of ‘breakByte’ (imported from Data.ByteString):
+    Deprecated: "It is an internal function and should never have been exported. Use 'break (== x)' instead. (There are rewrite rules that handle this special case of 'break'.)"
+
+Network/HTTP/Types/URI.hs:283:22: warning: [-Wdeprecations]
+    In the use of ‘breakByte’ (imported from Data.ByteString):
+    Deprecated: "It is an internal function and should never have been exported. Use 'break (== x)' instead. (There are rewrite rules that handle this special case of 'break'.)"
+
+Network/HTTP/Types/URI.hs:313:20: warning: [-Wdeprecations]
+    In the use of ‘breakByte’ (imported from Data.ByteString):
+    Deprecated: "It is an internal function and should never have been exported. Use 'break (== x)' instead. (There are rewrite rules that handle this special case of 'break'.)"
+
+Network/HTTP/Types/URI.hs:325:18: warning: [-Wdeprecations]
+    In the use of ‘breakByte’ (imported from Data.ByteString):
+    Deprecated: "It is an internal function and should never have been exported. Use 'break (== x)' instead. (There are rewrite rules that handle this special case of 'break'.)"
+*** Simplifier [Network.HTTP.Types.URI]:
+Result size of Simplifier iteration=1
+  = {terms: 904, types: 882, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 848, types: 821, coercions: 0}
+Result size of Simplifier = {terms: 848, types: 821, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.URI]: finished in 40.00 milliseconds, allocated 17.736 megabytes
+*** Specialise [Network.HTTP.Types.URI]:
+Result size of Specialise = {terms: 953, types: 876, coercions: 2}
+!!! Specialise [Network.HTTP.Types.URI]: finished in 3.00 milliseconds, allocated 1.158 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types.URI]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,217, types: 1,133, coercions: 2}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types.URI]: finished in 15.00 milliseconds, allocated 5.055 megabytes
+*** Simplifier [Network.HTTP.Types.URI]:
+Result size of Simplifier iteration=1
+  = {terms: 2,924, types: 2,273, coercions: 174}
+Result size of Simplifier iteration=2
+  = {terms: 2,352, types: 1,635, coercions: 109}
+Result size of Simplifier iteration=3
+  = {terms: 2,091, types: 1,469, coercions: 44}
+Result size of Simplifier
+  = {terms: 2,091, types: 1,469, coercions: 44}
+!!! Simplifier [Network.HTTP.Types.URI]: finished in 113.00 milliseconds, allocated 50.451 megabytes
+*** Simplifier [Network.HTTP.Types.URI]:
+Result size of Simplifier iteration=1
+  = {terms: 2,941, types: 2,339, coercions: 214}
+Result size of Simplifier iteration=2
+  = {terms: 2,566, types: 1,940, coercions: 201}
+Result size of Simplifier iteration=3
+  = {terms: 2,491, types: 1,881, coercions: 187}
+Result size of Simplifier
+  = {terms: 2,491, types: 1,881, coercions: 187}
+!!! Simplifier [Network.HTTP.Types.URI]: finished in 108.00 milliseconds, allocated 47.979 megabytes
+*** Simplifier [Network.HTTP.Types.URI]:
+Result size of Simplifier iteration=1
+  = {terms: 2,786, types: 2,104, coercions: 213}
+Result size of Simplifier iteration=2
+  = {terms: 2,745, types: 2,068, coercions: 206}
+Result size of Simplifier iteration=3
+  = {terms: 2,725, types: 2,044, coercions: 202}
+Result size of Simplifier
+  = {terms: 2,725, types: 2,044, coercions: 202}
+!!! Simplifier [Network.HTTP.Types.URI]: finished in 97.00 milliseconds, allocated 41.361 megabytes
+*** Float inwards [Network.HTTP.Types.URI]:
+Result size of Float inwards
+  = {terms: 2,725, types: 2,044, coercions: 202}
+!!! Float inwards [Network.HTTP.Types.URI]: finished in 6.00 milliseconds, allocated 4.686 megabytes
+*** Called arity analysis [Network.HTTP.Types.URI]:
+Result size of Called arity analysis
+  = {terms: 2,725, types: 2,044, coercions: 202}
+!!! Called arity analysis [Network.HTTP.Types.URI]: finished in 5.00 milliseconds, allocated 2.825 megabytes
+*** Simplifier [Network.HTTP.Types.URI]:
+Result size of Simplifier iteration=1
+  = {terms: 2,716, types: 2,038, coercions: 202}
+Result size of Simplifier iteration=2
+  = {terms: 2,714, types: 2,037, coercions: 202}
+Result size of Simplifier iteration=3
+  = {terms: 2,714, types: 2,037, coercions: 202}
+Result size of Simplifier
+  = {terms: 2,714, types: 2,037, coercions: 202}
+!!! Simplifier [Network.HTTP.Types.URI]: finished in 97.00 milliseconds, allocated 37.287 megabytes
+*** Demand analysis [Network.HTTP.Types.URI]:
+Result size of Demand analysis
+  = {terms: 2,714, types: 2,037, coercions: 202}
+!!! Demand analysis [Network.HTTP.Types.URI]: finished in 18.00 milliseconds, allocated 13.436 megabytes
+*** Worker Wrapper binds [Network.HTTP.Types.URI]:
+Result size of Worker Wrapper binds
+  = {terms: 3,139, types: 2,571, coercions: 202}
+!!! Worker Wrapper binds [Network.HTTP.Types.URI]: finished in 11.00 milliseconds, allocated 1.262 megabytes
+*** Simplifier [Network.HTTP.Types.URI]:
+Result size of Simplifier iteration=1
+  = {terms: 3,175, types: 2,615, coercions: 202}
+Result size of Simplifier iteration=2
+  = {terms: 3,019, types: 2,377, coercions: 202}
+Result size of Simplifier
+  = {terms: 3,019, types: 2,377, coercions: 202}
+!!! Simplifier [Network.HTTP.Types.URI]: finished in 80.00 milliseconds, allocated 37.078 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types.URI]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 3,052, types: 2,446, coercions: 202}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types.URI]: finished in 22.00 milliseconds, allocated 11.094 megabytes
+*** Common sub-expression [Network.HTTP.Types.URI]:
+Result size of Common sub-expression
+  = {terms: 2,993, types: 2,403, coercions: 202}
+!!! Common sub-expression [Network.HTTP.Types.URI]: finished in 5.00 milliseconds, allocated 3.327 megabytes
+*** Float inwards [Network.HTTP.Types.URI]:
+Result size of Float inwards
+  = {terms: 2,993, types: 2,403, coercions: 202}
+!!! Float inwards [Network.HTTP.Types.URI]: finished in 8.00 milliseconds, allocated 4.664 megabytes
+*** Simplifier [Network.HTTP.Types.URI]:
+Result size of Simplifier iteration=1
+  = {terms: 2,961, types: 2,334, coercions: 202}
+Result size of Simplifier
+  = {terms: 2,961, types: 2,334, coercions: 202}
+!!! Simplifier [Network.HTTP.Types.URI]: finished in 48.00 milliseconds, allocated 22.215 megabytes
+*** CoreTidy [Network.HTTP.Types.URI]:
+Result size of Tidy Core
+  = {terms: 2,959, types: 2,332, coercions: 202}
+!!! CoreTidy [Network.HTTP.Types.URI]: finished in 8.00 milliseconds, allocated 3.364 megabytes
+writeBinIface: 79 Names
+writeBinIface: 197 dict entries
+writeBinIface: 79 Names
+writeBinIface: 197 dict entries
+*** CorePrep [Network.HTTP.Types.URI]:
+Result size of CorePrep
+  = {terms: 3,819, types: 2,857, coercions: 223}
+!!! CorePrep [Network.HTTP.Types.URI]: finished in 9.00 milliseconds, allocated 6.495 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types.URI]:
+!!! CodeGen [Network.HTTP.Types.URI]: finished in 201.00 milliseconds, allocated 117.969 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9957_0/ghc_6.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/URI.o
+*** CorePrep [Network.HTTP.Types.URI]:
+Result size of CorePrep
+  = {terms: 3,819, types: 2,857, coercions: 223}
+!!! CorePrep [Network.HTTP.Types.URI]: finished in 8.00 milliseconds, allocated 6.199 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types.URI]:
+!!! CodeGen [Network.HTTP.Types.URI]: finished in 203.00 milliseconds, allocated 123.479 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9957_0/ghc_8.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/URI.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9957_0/ghc_9.c /tmp/ghc9957_0/ghc_8.s /tmp/ghc9957_0/ghc_7.c /tmp/ghc9957_0/ghc_6.s /tmp/ghc9957_0/ghc_5.s
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_9.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_7.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_5.s
+compile: input file ./Network/HTTP/Types/Status.hs
+*** Checking old interface for Network.HTTP.Types.Status:
+[2 of 7] Compiling Network.HTTP.Types.Status ( Network/HTTP/Types/Status.hs, dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Status.o )
+*** Parser [Network.HTTP.Types.Status]:
+!!! Parser [Network.HTTP.Types.Status]: finished in 7.00 milliseconds, allocated 9.760 megabytes
+*** Renamer/typechecker [Network.HTTP.Types.Status]:
+!!! Renamer/typechecker [Network.HTTP.Types.Status]: finished in 57.00 milliseconds, allocated 25.045 megabytes
+*** Desugar [Network.HTTP.Types.Status]:
+Result size of Desugar (after optimization)
+  = {terms: 827, types: 332, coercions: 0}
+!!! Desugar [Network.HTTP.Types.Status]: finished in 12.00 milliseconds, allocated 5.872 megabytes
+*** Simplifier [Network.HTTP.Types.Status]:
+Result size of Simplifier iteration=1
+  = {terms: 923, types: 526, coercions: 0}
+Result size of Simplifier = {terms: 923, types: 526, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Status]: finished in 13.00 milliseconds, allocated 6.935 megabytes
+*** Specialise [Network.HTTP.Types.Status]:
+Result size of Specialise
+  = {terms: 1,137, types: 691, coercions: 2}
+!!! Specialise [Network.HTTP.Types.Status]: finished in 6.00 milliseconds, allocated 2.632 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types.Status]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,573, types: 1,270, coercions: 2}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types.Status]: finished in 6.00 milliseconds, allocated 4.671 megabytes
+*** Simplifier [Network.HTTP.Types.Status]:
+Result size of Simplifier iteration=1
+  = {terms: 1,794, types: 1,104, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 1,791, types: 1,094, coercions: 0}
+Result size of Simplifier iteration=3
+  = {terms: 1,757, types: 1,084, coercions: 0}
+Result size of Simplifier
+  = {terms: 1,757, types: 1,084, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Status]: finished in 72.00 milliseconds, allocated 31.756 megabytes
+*** Simplifier [Network.HTTP.Types.Status]:
+Result size of Simplifier iteration=1
+  = {terms: 2,996, types: 2,339, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 2,319, types: 1,960, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,319, types: 1,960, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Status]: finished in 131.00 milliseconds, allocated 54.941 megabytes
+*** Simplifier [Network.HTTP.Types.Status]:
+Result size of Simplifier iteration=1
+  = {terms: 2,459, types: 2,035, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 2,428, types: 1,998, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,428, types: 1,998, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Status]: finished in 68.00 milliseconds, allocated 27.072 megabytes
+*** Float inwards [Network.HTTP.Types.Status]:
+Result size of Float inwards
+  = {terms: 2,428, types: 1,998, coercions: 0}
+!!! Float inwards [Network.HTTP.Types.Status]: finished in 5.00 milliseconds, allocated 2.851 megabytes
+*** Called arity analysis [Network.HTTP.Types.Status]:
+Result size of Called arity analysis
+  = {terms: 2,428, types: 1,998, coercions: 0}
+!!! Called arity analysis [Network.HTTP.Types.Status]: finished in 6.00 milliseconds, allocated 2.339 megabytes
+*** Simplifier [Network.HTTP.Types.Status]:
+Result size of Simplifier
+  = {terms: 2,428, types: 1,998, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Status]: finished in 169.00 milliseconds, allocated 8.882 megabytes
+*** Demand analysis [Network.HTTP.Types.Status]:
+Result size of Demand analysis
+  = {terms: 2,428, types: 1,998, coercions: 0}
+!!! Demand analysis [Network.HTTP.Types.Status]: finished in 10.00 milliseconds, allocated 8.242 megabytes
+*** Worker Wrapper binds [Network.HTTP.Types.Status]:
+Result size of Worker Wrapper binds
+  = {terms: 2,647, types: 2,154, coercions: 0}
+!!! Worker Wrapper binds [Network.HTTP.Types.Status]: finished in 2.00 milliseconds, allocated 0.864 megabytes
+*** Simplifier [Network.HTTP.Types.Status]:
+Result size of Simplifier iteration=1
+  = {terms: 4,242, types: 2,249, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 4,046, types: 2,054, coercions: 0}
+Result size of Simplifier
+  = {terms: 4,046, types: 2,054, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Status]: finished in 86.00 milliseconds, allocated 47.127 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types.Status]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,856, types: 2,459, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types.Status]: finished in 21.00 milliseconds, allocated 16.163 megabytes
+*** Common sub-expression [Network.HTTP.Types.Status]:
+Result size of Common sub-expression
+  = {terms: 3,659, types: 2,341, coercions: 0}
+!!! Common sub-expression [Network.HTTP.Types.Status]: finished in 9.00 milliseconds, allocated 5.307 megabytes
+*** Float inwards [Network.HTTP.Types.Status]:
+Result size of Float inwards
+  = {terms: 3,659, types: 2,341, coercions: 0}
+!!! Float inwards [Network.HTTP.Types.Status]: finished in 2.00 milliseconds, allocated 2.787 megabytes
+*** Simplifier [Network.HTTP.Types.Status]:
+Result size of Simplifier iteration=1
+  = {terms: 2,847, types: 1,931, coercions: 0}
+Result size of Simplifier
+  = {terms: 2,843, types: 1,927, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Status]: finished in 48.00 milliseconds, allocated 23.177 megabytes
+*** CoreTidy [Network.HTTP.Types.Status]:
+Result size of Tidy Core
+  = {terms: 2,480, types: 1,788, coercions: 0}
+!!! CoreTidy [Network.HTTP.Types.Status]: finished in 9.00 milliseconds, allocated 4.789 megabytes
+writeBinIface: 261 Names
+writeBinIface: 337 dict entries
+writeBinIface: 261 Names
+writeBinIface: 337 dict entries
+*** CorePrep [Network.HTTP.Types.Status]:
+Result size of CorePrep
+  = {terms: 2,894, types: 1,949, coercions: 0}
+!!! CorePrep [Network.HTTP.Types.Status]: finished in 6.00 milliseconds, allocated 4.216 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types.Status]:
+!!! CodeGen [Network.HTTP.Types.Status]: finished in 161.00 milliseconds, allocated 109.150 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9957_0/ghc_11.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Status.o
+*** CorePrep [Network.HTTP.Types.Status]:
+Result size of CorePrep
+  = {terms: 2,894, types: 1,949, coercions: 0}
+!!! CorePrep [Network.HTTP.Types.Status]: finished in 5.00 milliseconds, allocated 4.144 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types.Status]:
+!!! CodeGen [Network.HTTP.Types.Status]: finished in 163.00 milliseconds, allocated 115.249 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9957_0/ghc_13.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Status.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9957_0/ghc_14.c /tmp/ghc9957_0/ghc_13.s /tmp/ghc9957_0/ghc_12.c /tmp/ghc9957_0/ghc_11.s /tmp/ghc9957_0/ghc_10.s
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_14.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_12.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_10.s
+compile: input file ./Network/HTTP/Types/QueryLike.hs
+*** Checking old interface for Network.HTTP.Types.QueryLike:
+[3 of 7] Compiling Network.HTTP.Types.QueryLike ( Network/HTTP/Types/QueryLike.hs, dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/QueryLike.o )
+*** Parser [Network.HTTP.Types.QueryLike]:
+!!! Parser [Network.HTTP.Types.QueryLike]: finished in 1.00 milliseconds, allocated 1.627 megabytes
+*** Renamer/typechecker [Network.HTTP.Types.QueryLike]:
+!!! Renamer/typechecker [Network.HTTP.Types.QueryLike]: finished in 14.00 milliseconds, allocated 7.259 megabytes
+*** Desugar [Network.HTTP.Types.QueryLike]:
+Result size of Desugar (after optimization)
+  = {terms: 141, types: 226, coercions: 43}
+!!! Desugar [Network.HTTP.Types.QueryLike]: finished in 2.00 milliseconds, allocated 0.945 megabytes
+*** Simplifier [Network.HTTP.Types.QueryLike]:
+Result size of Simplifier iteration=1
+  = {terms: 149, types: 218, coercions: 73}
+Result size of Simplifier iteration=2
+  = {terms: 156, types: 239, coercions: 73}
+Result size of Simplifier = {terms: 156, types: 239, coercions: 73}
+!!! Simplifier [Network.HTTP.Types.QueryLike]: finished in 13.00 milliseconds, allocated 6.364 megabytes
+*** Specialise [Network.HTTP.Types.QueryLike]:
+Result size of Specialise = {terms: 156, types: 239, coercions: 73}
+!!! Specialise [Network.HTTP.Types.QueryLike]: finished in 1.00 milliseconds, allocated 0.232 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types.QueryLike]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 156, types: 239, coercions: 73}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types.QueryLike]: finished in 1.00 milliseconds, allocated 0.673 megabytes
+*** Simplifier [Network.HTTP.Types.QueryLike]:
+Result size of Simplifier iteration=1
+  = {terms: 170, types: 214, coercions: 79}
+Result size of Simplifier iteration=2
+  = {terms: 162, types: 208, coercions: 79}
+Result size of Simplifier = {terms: 162, types: 208, coercions: 79}
+!!! Simplifier [Network.HTTP.Types.QueryLike]: finished in 5.00 milliseconds, allocated 2.790 megabytes
+*** Simplifier [Network.HTTP.Types.QueryLike]:
+Result size of Simplifier iteration=1
+  = {terms: 171, types: 213, coercions: 83}
+Result size of Simplifier = {terms: 171, types: 213, coercions: 83}
+!!! Simplifier [Network.HTTP.Types.QueryLike]: finished in 7.00 milliseconds, allocated 3.979 megabytes
+*** Simplifier [Network.HTTP.Types.QueryLike]:
+Result size of Simplifier iteration=1
+  = {terms: 827, types: 703, coercions: 209}
+Result size of Simplifier iteration=2
+  = {terms: 757, types: 725, coercions: 165}
+Result size of Simplifier iteration=3
+  = {terms: 679, types: 593, coercions: 83}
+Result size of Simplifier iteration=4
+  = {terms: 681, types: 605, coercions: 83}
+Result size of Simplifier = {terms: 681, types: 605, coercions: 83}
+!!! Simplifier [Network.HTTP.Types.QueryLike]: finished in 23.00 milliseconds, allocated 12.809 megabytes
+*** Float inwards [Network.HTTP.Types.QueryLike]:
+Result size of Float inwards
+  = {terms: 681, types: 605, coercions: 83}
+!!! Float inwards [Network.HTTP.Types.QueryLike]: finished in 1.00 milliseconds, allocated 0.965 megabytes
+*** Called arity analysis [Network.HTTP.Types.QueryLike]:
+Result size of Called arity analysis
+  = {terms: 681, types: 605, coercions: 83}
+!!! Called arity analysis [Network.HTTP.Types.QueryLike]: finished in 1.00 milliseconds, allocated 0.653 megabytes
+*** Simplifier [Network.HTTP.Types.QueryLike]:
+Result size of Simplifier = {terms: 681, types: 605, coercions: 83}
+!!! Simplifier [Network.HTTP.Types.QueryLike]: finished in 4.00 milliseconds, allocated 2.480 megabytes
+*** Demand analysis [Network.HTTP.Types.QueryLike]:
+Result size of Demand analysis
+  = {terms: 681, types: 605, coercions: 83}
+!!! Demand analysis [Network.HTTP.Types.QueryLike]: finished in 9.00 milliseconds, allocated 6.593 megabytes
+*** Worker Wrapper binds [Network.HTTP.Types.QueryLike]:
+Result size of Worker Wrapper binds
+  = {terms: 791, types: 738, coercions: 83}
+!!! Worker Wrapper binds [Network.HTTP.Types.QueryLike]: finished in 0.00 milliseconds, allocated 0.305 megabytes
+*** Simplifier [Network.HTTP.Types.QueryLike]:
+Result size of Simplifier iteration=1
+  = {terms: 725, types: 694, coercions: 83}
+Result size of Simplifier iteration=2
+  = {terms: 665, types: 607, coercions: 83}
+Result size of Simplifier = {terms: 665, types: 607, coercions: 83}
+!!! Simplifier [Network.HTTP.Types.QueryLike]: finished in 18.00 milliseconds, allocated 9.293 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types.QueryLike]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 669, types: 609, coercions: 83}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types.QueryLike]: finished in 3.00 milliseconds, allocated 2.197 megabytes
+*** Common sub-expression [Network.HTTP.Types.QueryLike]:
+Result size of Common sub-expression
+  = {terms: 668, types: 609, coercions: 83}
+!!! Common sub-expression [Network.HTTP.Types.QueryLike]: finished in 1.00 milliseconds, allocated 0.792 megabytes
+*** Float inwards [Network.HTTP.Types.QueryLike]:
+Result size of Float inwards
+  = {terms: 668, types: 609, coercions: 83}
+!!! Float inwards [Network.HTTP.Types.QueryLike]: finished in 1.00 milliseconds, allocated 0.902 megabytes
+*** Simplifier [Network.HTTP.Types.QueryLike]:
+Result size of Simplifier iteration=1
+  = {terms: 666, types: 608, coercions: 83}
+Result size of Simplifier = {terms: 666, types: 608, coercions: 83}
+!!! Simplifier [Network.HTTP.Types.QueryLike]: finished in 16.00 milliseconds, allocated 5.432 megabytes
+*** CoreTidy [Network.HTTP.Types.QueryLike]:
+Result size of Tidy Core = {terms: 678, types: 639, coercions: 89}
+!!! CoreTidy [Network.HTTP.Types.QueryLike]: finished in 2.00 milliseconds, allocated 0.869 megabytes
+writeBinIface: 59 Names
+writeBinIface: 134 dict entries
+writeBinIface: 59 Names
+writeBinIface: 134 dict entries
+*** CorePrep [Network.HTTP.Types.QueryLike]:
+Result size of CorePrep = {terms: 920, types: 778, coercions: 89}
+!!! CorePrep [Network.HTTP.Types.QueryLike]: finished in 1.00 milliseconds, allocated 1.473 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types.QueryLike]:
+!!! CodeGen [Network.HTTP.Types.QueryLike]: finished in 38.00 milliseconds, allocated 25.427 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9957_0/ghc_16.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/QueryLike.o
+*** CorePrep [Network.HTTP.Types.QueryLike]:
+Result size of CorePrep = {terms: 920, types: 778, coercions: 89}
+!!! CorePrep [Network.HTTP.Types.QueryLike]: finished in 2.00 milliseconds, allocated 1.424 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types.QueryLike]:
+!!! CodeGen [Network.HTTP.Types.QueryLike]: finished in 45.00 milliseconds, allocated 26.199 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9957_0/ghc_18.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/QueryLike.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9957_0/ghc_19.c /tmp/ghc9957_0/ghc_18.s /tmp/ghc9957_0/ghc_17.c /tmp/ghc9957_0/ghc_16.s /tmp/ghc9957_0/ghc_15.s
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_19.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_17.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_15.s
+compile: input file ./Network/HTTP/Types/Method.hs
+*** Checking old interface for Network.HTTP.Types.Method:
+[4 of 7] Compiling Network.HTTP.Types.Method ( Network/HTTP/Types/Method.hs, dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Method.o )
+*** Parser [Network.HTTP.Types.Method]:
+!!! Parser [Network.HTTP.Types.Method]: finished in 2.00 milliseconds, allocated 1.772 megabytes
+*** Renamer/typechecker [Network.HTTP.Types.Method]:
+!!! Renamer/typechecker [Network.HTTP.Types.Method]: finished in 57.00 milliseconds, allocated 29.025 megabytes
+*** Desugar [Network.HTTP.Types.Method]:
+Result size of Desugar (after optimization)
+  = {terms: 815, types: 475, coercions: 33}
+!!! Desugar [Network.HTTP.Types.Method]: finished in 7.00 milliseconds, allocated 3.543 megabytes
+*** Simplifier [Network.HTTP.Types.Method]:
+Result size of Simplifier iteration=1
+  = {terms: 928, types: 669, coercions: 12}
+Result size of Simplifier = {terms: 928, types: 669, coercions: 12}
+!!! Simplifier [Network.HTTP.Types.Method]: finished in 13.00 milliseconds, allocated 7.669 megabytes
+*** Specialise [Network.HTTP.Types.Method]:
+Result size of Specialise
+  = {terms: 1,287, types: 1,062, coercions: 35}
+!!! Specialise [Network.HTTP.Types.Method]: finished in 4.00 milliseconds, allocated 2.407 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types.Method]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,606, types: 1,586, coercions: 35}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types.Method]: finished in 9.00 milliseconds, allocated 5.775 megabytes
+*** Simplifier [Network.HTTP.Types.Method]:
+Result size of Simplifier iteration=1
+  = {terms: 2,148, types: 1,774, coercions: 249}
+Result size of Simplifier iteration=2
+  = {terms: 1,981, types: 1,629, coercions: 197}
+Result size of Simplifier iteration=3
+  = {terms: 1,929, types: 1,557, coercions: 161}
+Result size of Simplifier
+  = {terms: 1,929, types: 1,557, coercions: 161}
+!!! Simplifier [Network.HTTP.Types.Method]: finished in 92.00 milliseconds, allocated 40.477 megabytes
+*** Simplifier [Network.HTTP.Types.Method]:
+Result size of Simplifier iteration=1
+  = {terms: 2,083, types: 1,684, coercions: 161}
+Result size of Simplifier iteration=2
+  = {terms: 1,959, types: 1,559, coercions: 161}
+Result size of Simplifier iteration=3
+  = {terms: 1,945, types: 1,554, coercions: 161}
+Result size of Simplifier
+  = {terms: 1,945, types: 1,554, coercions: 161}
+!!! Simplifier [Network.HTTP.Types.Method]: finished in 67.00 milliseconds, allocated 34.762 megabytes
+*** Simplifier [Network.HTTP.Types.Method]:
+Result size of Simplifier iteration=1
+  = {terms: 2,266, types: 1,736, coercions: 161}
+Result size of Simplifier iteration=2
+  = {terms: 2,195, types: 1,616, coercions: 161}
+Result size of Simplifier iteration=3
+  = {terms: 2,194, types: 1,615, coercions: 161}
+Result size of Simplifier
+  = {terms: 2,194, types: 1,615, coercions: 161}
+!!! Simplifier [Network.HTTP.Types.Method]: finished in 71.00 milliseconds, allocated 34.650 megabytes
+*** Float inwards [Network.HTTP.Types.Method]:
+Result size of Float inwards
+  = {terms: 2,194, types: 1,615, coercions: 161}
+!!! Float inwards [Network.HTTP.Types.Method]: finished in 4.00 milliseconds, allocated 2.966 megabytes
+*** Called arity analysis [Network.HTTP.Types.Method]:
+Result size of Called arity analysis
+  = {terms: 2,194, types: 1,615, coercions: 161}
+!!! Called arity analysis [Network.HTTP.Types.Method]: finished in 4.00 milliseconds, allocated 2.204 megabytes
+*** Simplifier [Network.HTTP.Types.Method]:
+Result size of Simplifier iteration=1
+  = {terms: 2,208, types: 1,619, coercions: 161}
+Result size of Simplifier iteration=2
+  = {terms: 2,186, types: 1,601, coercions: 161}
+Result size of Simplifier
+  = {terms: 2,186, types: 1,601, coercions: 161}
+!!! Simplifier [Network.HTTP.Types.Method]: finished in 52.00 milliseconds, allocated 25.392 megabytes
+*** Demand analysis [Network.HTTP.Types.Method]:
+Result size of Demand analysis
+  = {terms: 2,186, types: 1,601, coercions: 161}
+!!! Demand analysis [Network.HTTP.Types.Method]: finished in 9.00 milliseconds, allocated 8.146 megabytes
+*** Worker Wrapper binds [Network.HTTP.Types.Method]:
+Result size of Worker Wrapper binds
+  = {terms: 2,262, types: 1,666, coercions: 161}
+!!! Worker Wrapper binds [Network.HTTP.Types.Method]: finished in 2.00 milliseconds, allocated 0.736 megabytes
+*** Simplifier [Network.HTTP.Types.Method]:
+Result size of Simplifier iteration=1
+  = {terms: 2,055, types: 1,578, coercions: 161}
+Result size of Simplifier iteration=2
+  = {terms: 2,005, types: 1,552, coercions: 161}
+Result size of Simplifier
+  = {terms: 2,005, types: 1,552, coercions: 161}
+!!! Simplifier [Network.HTTP.Types.Method]: finished in 50.00 milliseconds, allocated 27.895 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types.Method]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 2,063, types: 1,603, coercions: 161}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types.Method]: finished in 14.00 milliseconds, allocated 6.619 megabytes
+*** Common sub-expression [Network.HTTP.Types.Method]:
+Result size of Common sub-expression
+  = {terms: 1,946, types: 1,545, coercions: 147}
+!!! Common sub-expression [Network.HTTP.Types.Method]: finished in 4.00 milliseconds, allocated 2.692 megabytes
+*** Float inwards [Network.HTTP.Types.Method]:
+Result size of Float inwards
+  = {terms: 1,946, types: 1,545, coercions: 147}
+!!! Float inwards [Network.HTTP.Types.Method]: finished in 3.00 milliseconds, allocated 2.525 megabytes
+*** Simplifier [Network.HTTP.Types.Method]:
+Result size of Simplifier iteration=1
+  = {terms: 1,851, types: 1,481, coercions: 147}
+Result size of Simplifier
+  = {terms: 1,849, types: 1,479, coercions: 147}
+!!! Simplifier [Network.HTTP.Types.Method]: finished in 35.00 milliseconds, allocated 16.972 megabytes
+*** CoreTidy [Network.HTTP.Types.Method]:
+Result size of Tidy Core
+  = {terms: 1,363, types: 1,079, coercions: 147}
+!!! CoreTidy [Network.HTTP.Types.Method]: finished in 5.00 milliseconds, allocated 3.060 megabytes
+writeBinIface: 171 Names
+writeBinIface: 267 dict entries
+writeBinIface: 171 Names
+writeBinIface: 267 dict entries
+*** CorePrep [Network.HTTP.Types.Method]:
+Result size of CorePrep
+  = {terms: 1,808, types: 1,247, coercions: 147}
+!!! CorePrep [Network.HTTP.Types.Method]: finished in 3.00 milliseconds, allocated 2.607 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types.Method]:
+!!! CodeGen [Network.HTTP.Types.Method]: finished in 120.00 milliseconds, allocated 68.602 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9957_0/ghc_21.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Method.o
+*** CorePrep [Network.HTTP.Types.Method]:
+Result size of CorePrep
+  = {terms: 1,808, types: 1,247, coercions: 147}
+!!! CorePrep [Network.HTTP.Types.Method]: finished in 3.00 milliseconds, allocated 2.572 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types.Method]:
+!!! CodeGen [Network.HTTP.Types.Method]: finished in 125.00 milliseconds, allocated 71.061 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9957_0/ghc_23.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Method.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9957_0/ghc_24.c /tmp/ghc9957_0/ghc_23.s /tmp/ghc9957_0/ghc_22.c /tmp/ghc9957_0/ghc_21.s /tmp/ghc9957_0/ghc_20.s
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_24.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_22.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_20.s
+compile: input file /tmp/ghc9957_0/ghc_1.hscpp
+*** Checking old interface for Network.HTTP.Types.Header:
+[5 of 7] Compiling Network.HTTP.Types.Header ( Network/HTTP/Types/Header.hs, dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Header.o )
+*** Parser [Network.HTTP.Types.Header]:
+!!! Parser [Network.HTTP.Types.Header]: finished in 3.00 milliseconds, allocated 4.510 megabytes
+*** Renamer/typechecker [Network.HTTP.Types.Header]:
+!!! Renamer/typechecker [Network.HTTP.Types.Header]: finished in 120.00 milliseconds, allocated 61.088 megabytes
+*** Desugar [Network.HTTP.Types.Header]:
+Result size of Desugar (after optimization)
+  = {terms: 916, types: 703, coercions: 5}
+!!! Desugar [Network.HTTP.Types.Header]: finished in 13.00 milliseconds, allocated 7.344 megabytes
+*** Simplifier [Network.HTTP.Types.Header]:
+Result size of Simplifier iteration=1
+  = {terms: 982, types: 901, coercions: 5}
+Result size of Simplifier = {terms: 982, types: 901, coercions: 5}
+!!! Simplifier [Network.HTTP.Types.Header]: finished in 13.00 milliseconds, allocated 8.133 megabytes
+*** Specialise [Network.HTTP.Types.Header]:
+Result size of Specialise
+  = {terms: 1,433, types: 1,745, coercions: 168}
+!!! Specialise [Network.HTTP.Types.Header]: finished in 5.00 milliseconds, allocated 2.845 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types.Header]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 1,741, types: 2,365, coercions: 168}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types.Header]: finished in 10.00 milliseconds, allocated 8.069 megabytes
+*** Simplifier [Network.HTTP.Types.Header]:
+Result size of Simplifier iteration=1
+  = {terms: 3,531, types: 4,244, coercions: 434}
+Result size of Simplifier iteration=2
+  = {terms: 3,086, types: 3,533, coercions: 280}
+Result size of Simplifier iteration=3
+  = {terms: 2,918, types: 3,339, coercions: 303}
+Result size of Simplifier
+  = {terms: 2,914, types: 3,316, coercions: 268}
+!!! Simplifier [Network.HTTP.Types.Header]: finished in 142.00 milliseconds, allocated 70.359 megabytes
+*** Simplifier [Network.HTTP.Types.Header]:
+Result size of Simplifier iteration=1
+  = {terms: 4,505, types: 4,812, coercions: 446}
+Result size of Simplifier iteration=2
+  = {terms: 3,868, types: 4,361, coercions: 305}
+Result size of Simplifier iteration=3
+  = {terms: 3,780, types: 4,212, coercions: 293}
+Result size of Simplifier
+  = {terms: 3,780, types: 4,212, coercions: 293}
+!!! Simplifier [Network.HTTP.Types.Header]: finished in 195.00 milliseconds, allocated 95.380 megabytes
+*** Simplifier [Network.HTTP.Types.Header]:
+Result size of Simplifier iteration=1
+  = {terms: 4,035, types: 4,407, coercions: 303}
+Result size of Simplifier iteration=2
+  = {terms: 3,925, types: 4,357, coercions: 298}
+Result size of Simplifier iteration=3
+  = {terms: 3,917, types: 4,341, coercions: 294}
+Result size of Simplifier
+  = {terms: 3,917, types: 4,341, coercions: 294}
+!!! Simplifier [Network.HTTP.Types.Header]: finished in 130.00 milliseconds, allocated 63.628 megabytes
+*** Float inwards [Network.HTTP.Types.Header]:
+Result size of Float inwards
+  = {terms: 3,917, types: 4,341, coercions: 294}
+!!! Float inwards [Network.HTTP.Types.Header]: finished in 7.00 milliseconds, allocated 7.142 megabytes
+*** Called arity analysis [Network.HTTP.Types.Header]:
+Result size of Called arity analysis
+  = {terms: 3,917, types: 4,341, coercions: 294}
+!!! Called arity analysis [Network.HTTP.Types.Header]: finished in 6.00 milliseconds, allocated 3.887 megabytes
+*** Simplifier [Network.HTTP.Types.Header]:
+Result size of Simplifier
+  = {terms: 3,917, types: 4,341, coercions: 294}
+!!! Simplifier [Network.HTTP.Types.Header]: finished in 34.00 milliseconds, allocated 15.462 megabytes
+*** Demand analysis [Network.HTTP.Types.Header]:
+Result size of Demand analysis
+  = {terms: 3,917, types: 4,341, coercions: 294}
+!!! Demand analysis [Network.HTTP.Types.Header]: finished in 32.00 milliseconds, allocated 17.949 megabytes
+*** Worker Wrapper binds [Network.HTTP.Types.Header]:
+Result size of Worker Wrapper binds
+  = {terms: 4,282, types: 4,923, coercions: 294}
+!!! Worker Wrapper binds [Network.HTTP.Types.Header]: finished in 4.00 milliseconds, allocated 1.772 megabytes
+*** Simplifier [Network.HTTP.Types.Header]:
+Result size of Simplifier iteration=1
+  = {terms: 4,104, types: 4,734, coercions: 294}
+Result size of Simplifier
+  = {terms: 3,986, types: 4,491, coercions: 294}
+!!! Simplifier [Network.HTTP.Types.Header]: finished in 65.00 milliseconds, allocated 34.613 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types.Header]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,034, types: 4,588, coercions: 294}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types.Header]: finished in 28.00 milliseconds, allocated 17.885 megabytes
+*** Common sub-expression [Network.HTTP.Types.Header]:
+Result size of Common sub-expression
+  = {terms: 3,885, types: 4,412, coercions: 294}
+!!! Common sub-expression [Network.HTTP.Types.Header]: finished in 9.00 milliseconds, allocated 5.744 megabytes
+*** Float inwards [Network.HTTP.Types.Header]:
+Result size of Float inwards
+  = {terms: 3,885, types: 4,412, coercions: 294}
+!!! Float inwards [Network.HTTP.Types.Header]: finished in 12.00 milliseconds, allocated 6.256 megabytes
+*** Simplifier [Network.HTTP.Types.Header]:
+Result size of Simplifier iteration=1
+  = {terms: 3,875, types: 4,428, coercions: 294}
+Result size of Simplifier
+  = {terms: 3,875, types: 4,428, coercions: 294}
+!!! Simplifier [Network.HTTP.Types.Header]: finished in 59.00 milliseconds, allocated 31.173 megabytes
+*** CoreTidy [Network.HTTP.Types.Header]:
+Result size of Tidy Core
+  = {terms: 3,456, types: 3,742, coercions: 212}
+!!! CoreTidy [Network.HTTP.Types.Header]: finished in 12.00 milliseconds, allocated 6.390 megabytes
+writeBinIface: 185 Names
+writeBinIface: 319 dict entries
+writeBinIface: 185 Names
+writeBinIface: 319 dict entries
+*** CorePrep [Network.HTTP.Types.Header]:
+Result size of CorePrep
+  = {terms: 4,017, types: 4,157, coercions: 212}
+!!! CorePrep [Network.HTTP.Types.Header]: finished in 9.00 milliseconds, allocated 7.157 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types.Header]:
+!!! CodeGen [Network.HTTP.Types.Header]: finished in 298.00 milliseconds, allocated 170.949 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9957_0/ghc_26.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Header.o
+*** CorePrep [Network.HTTP.Types.Header]:
+Result size of CorePrep
+  = {terms: 4,017, types: 4,157, coercions: 212}
+!!! CorePrep [Network.HTTP.Types.Header]: finished in 8.00 milliseconds, allocated 7.036 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types.Header]:
+!!! CodeGen [Network.HTTP.Types.Header]: finished in 298.00 milliseconds, allocated 181.855 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9957_0/ghc_28.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Header.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9957_0/ghc_29.c /tmp/ghc9957_0/ghc_28.s /tmp/ghc9957_0/ghc_27.c /tmp/ghc9957_0/ghc_26.s /tmp/ghc9957_0/ghc_25.s
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_29.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_27.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_25.s
+compile: input file ./Network/HTTP/Types/Version.hs
+*** Checking old interface for Network.HTTP.Types.Version:
+[6 of 7] Compiling Network.HTTP.Types.Version ( Network/HTTP/Types/Version.hs, dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Version.o )
+*** Parser [Network.HTTP.Types.Version]:
+!!! Parser [Network.HTTP.Types.Version]: finished in 0.00 milliseconds, allocated 0.640 megabytes
+*** Renamer/typechecker [Network.HTTP.Types.Version]:
+!!! Renamer/typechecker [Network.HTTP.Types.Version]: finished in 9.00 milliseconds, allocated 3.034 megabytes
+*** Desugar [Network.HTTP.Types.Version]:
+Result size of Desugar (after optimization)
+  = {terms: 268, types: 143, coercions: 0}
+!!! Desugar [Network.HTTP.Types.Version]: finished in 2.00 milliseconds, allocated 1.348 megabytes
+*** Simplifier [Network.HTTP.Types.Version]:
+Result size of Simplifier iteration=1
+  = {terms: 277, types: 154, coercions: 0}
+Result size of Simplifier = {terms: 277, types: 154, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Version]: finished in 3.00 milliseconds, allocated 2.251 megabytes
+*** Specialise [Network.HTTP.Types.Version]:
+Result size of Specialise = {terms: 328, types: 195, coercions: 0}
+!!! Specialise [Network.HTTP.Types.Version]: finished in 1.00 milliseconds, allocated 0.520 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types.Version]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 346, types: 217, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types.Version]: finished in 2.00 milliseconds, allocated 1.215 megabytes
+*** Simplifier [Network.HTTP.Types.Version]:
+Result size of Simplifier iteration=1
+  = {terms: 486, types: 283, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 516, types: 316, coercions: 0}
+Result size of Simplifier = {terms: 516, types: 316, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Version]: finished in 11.00 milliseconds, allocated 6.991 megabytes
+*** Simplifier [Network.HTTP.Types.Version]:
+Result size of Simplifier iteration=1
+  = {terms: 485, types: 285, coercions: 0}
+Result size of Simplifier = {terms: 469, types: 257, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Version]: finished in 7.00 milliseconds, allocated 4.289 megabytes
+*** Simplifier [Network.HTTP.Types.Version]:
+Result size of Simplifier iteration=1
+  = {terms: 477, types: 277, coercions: 0}
+Result size of Simplifier = {terms: 477, types: 277, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Version]: finished in 8.00 milliseconds, allocated 3.581 megabytes
+*** Float inwards [Network.HTTP.Types.Version]:
+Result size of Float inwards
+  = {terms: 477, types: 277, coercions: 0}
+!!! Float inwards [Network.HTTP.Types.Version]: finished in 0.00 milliseconds, allocated 0.463 megabytes
+*** Called arity analysis [Network.HTTP.Types.Version]:
+Result size of Called arity analysis
+  = {terms: 477, types: 277, coercions: 0}
+!!! Called arity analysis [Network.HTTP.Types.Version]: finished in 0.00 milliseconds, allocated 0.439 megabytes
+*** Simplifier [Network.HTTP.Types.Version]:
+Result size of Simplifier = {terms: 477, types: 277, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Version]: finished in 3.00 milliseconds, allocated 1.781 megabytes
+*** Demand analysis [Network.HTTP.Types.Version]:
+Result size of Demand analysis
+  = {terms: 477, types: 277, coercions: 0}
+!!! Demand analysis [Network.HTTP.Types.Version]: finished in 2.00 milliseconds, allocated 1.635 megabytes
+*** Worker Wrapper binds [Network.HTTP.Types.Version]:
+Result size of Worker Wrapper binds
+  = {terms: 520, types: 306, coercions: 0}
+!!! Worker Wrapper binds [Network.HTTP.Types.Version]: finished in 1.00 milliseconds, allocated 0.190 megabytes
+*** Simplifier [Network.HTTP.Types.Version]:
+Result size of Simplifier iteration=1
+  = {terms: 513, types: 306, coercions: 0}
+Result size of Simplifier = {terms: 513, types: 306, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Version]: finished in 9.00 milliseconds, allocated 5.798 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types.Version]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 515, types: 310, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types.Version]: finished in 2.00 milliseconds, allocated 1.628 megabytes
+*** Common sub-expression [Network.HTTP.Types.Version]:
+Result size of Common sub-expression
+  = {terms: 418, types: 259, coercions: 0}
+!!! Common sub-expression [Network.HTTP.Types.Version]: finished in 2.00 milliseconds, allocated 0.996 megabytes
+*** Float inwards [Network.HTTP.Types.Version]:
+Result size of Float inwards
+  = {terms: 418, types: 259, coercions: 0}
+!!! Float inwards [Network.HTTP.Types.Version]: finished in 0.00 milliseconds, allocated 0.399 megabytes
+*** Simplifier [Network.HTTP.Types.Version]:
+Result size of Simplifier iteration=1
+  = {terms: 416, types: 257, coercions: 0}
+Result size of Simplifier = {terms: 416, types: 257, coercions: 0}
+!!! Simplifier [Network.HTTP.Types.Version]: finished in 11.00 milliseconds, allocated 4.766 megabytes
+*** CoreTidy [Network.HTTP.Types.Version]:
+Result size of Tidy Core = {terms: 418, types: 252, coercions: 0}
+!!! CoreTidy [Network.HTTP.Types.Version]: finished in 1.00 milliseconds, allocated 0.856 megabytes
+writeBinIface: 42 Names
+writeBinIface: 93 dict entries
+writeBinIface: 42 Names
+writeBinIface: 93 dict entries
+*** CorePrep [Network.HTTP.Types.Version]:
+Result size of CorePrep = {terms: 510, types: 293, coercions: 0}
+!!! CorePrep [Network.HTTP.Types.Version]: finished in 1.00 milliseconds, allocated 0.821 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types.Version]:
+!!! CodeGen [Network.HTTP.Types.Version]: finished in 29.00 milliseconds, allocated 16.754 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9957_0/ghc_31.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Version.o
+*** CorePrep [Network.HTTP.Types.Version]:
+Result size of CorePrep = {terms: 510, types: 293, coercions: 0}
+!!! CorePrep [Network.HTTP.Types.Version]: finished in 1.00 milliseconds, allocated 0.792 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types.Version]:
+!!! CodeGen [Network.HTTP.Types.Version]: finished in 27.00 milliseconds, allocated 17.353 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP/Types -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9957_0/ghc_33.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Version.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9957_0/ghc_34.c /tmp/ghc9957_0/ghc_33.s /tmp/ghc9957_0/ghc_32.c /tmp/ghc9957_0/ghc_31.s /tmp/ghc9957_0/ghc_30.s
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_34.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_32.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_30.s
+compile: input file ./Network/HTTP/Types.hs
+*** Checking old interface for Network.HTTP.Types:
+[7 of 7] Compiling Network.HTTP.Types ( Network/HTTP/Types.hs, dist/dist-sandbox-6afc8227/build/Network/HTTP/Types.o )
+*** Parser [Network.HTTP.Types]:
+!!! Parser [Network.HTTP.Types]: finished in 2.00 milliseconds, allocated 2.517 megabytes
+*** Renamer/typechecker [Network.HTTP.Types]:
+!!! Renamer/typechecker [Network.HTTP.Types]: finished in 2.00 milliseconds, allocated 1.931 megabytes
+*** Desugar [Network.HTTP.Types]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.212 megabytes
+*** Simplifier [Network.HTTP.Types]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.132 megabytes
+*** Specialise [Network.HTTP.Types]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Network.HTTP.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.071 megabytes
+*** Simplifier [Network.HTTP.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Types]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Network.HTTP.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Float inwards [Network.HTTP.Types]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Network.HTTP.Types]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Network.HTTP.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Demand analysis [Network.HTTP.Types]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Network.HTTP.Types]: finished in 1.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Network.HTTP.Types]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Network.HTTP.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Network.HTTP.Types]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Network.HTTP.Types]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Simplifier [Network.HTTP.Types]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Network.HTTP.Types]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 184 Names
+writeBinIface: 233 dict entries
+writeBinIface: 184 Names
+writeBinIface: 233 dict entries
+*** CorePrep [Network.HTTP.Types]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types]:
+!!! CodeGen [Network.HTTP.Types]: finished in 1.00 milliseconds, allocated 0.293 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9957_0/ghc_36.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types.o
+*** CorePrep [Network.HTTP.Types]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Stg2Stg:
+*** CodeGen [Network.HTTP.Types]:
+!!! CodeGen [Network.HTTP.Types]: finished in 0.00 milliseconds, allocated 0.289 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -I./Network/HTTP -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9957_0/ghc_38.s -o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc9957_0/ghc_39.c /tmp/ghc9957_0/ghc_38.s /tmp/ghc9957_0/ghc_37.c /tmp/ghc9957_0/ghc_36.s /tmp/ghc9957_0/ghc_35.s
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_39.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_37.c
+Warning: deleting non-existent /tmp/ghc9957_0/ghc_35.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc9957_0/ghc_3.hscpp /tmp/ghc9957_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9957_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/blaze-builder-0.4.0.2-6Lw6V3wDhf3KDMasjNOEeG -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/case-insensitive-1.2.0.6-6wXdNb03nEPFT3o9XKcio -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -o dist/dist-sandbox-6afc8227/build/libHShttp-types-0.9-JOpJsc6h1HpJqPn02W56HK-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHShttp-types-0.9-JOpJsc6h1HpJqPn02W56HK-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Network/HTTP/Types.dyn_o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Header.dyn_o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Method.dyn_o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/QueryLike.dyn_o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Status.dyn_o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/URI.dyn_o dist/dist-sandbox-6afc8227/build/Network/HTTP/Types/Version.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/case-insensitive-1.2.0.6-6wXdNb03nEPFT3o9XKcio -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/blaze-builder-0.4.0.2-6Lw6V3wDhf3KDMasjNOEeG -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHScase-insensitive-1.2.0.6-6wXdNb03nEPFT3o9XKcio-ghc8.0.1 -lHShashable-1.2.4.0-Ctl752zbguF6QanxurLOm2-ghc8.0.1 -lHSblaze-builder-0.4.0.2-6Lw6V3wDhf3KDMasjNOEeG-ghc8.0.1 -lHStext-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs-ghc8.0.1 -lHSbinary-0.8.3.0-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc10282_0
+*** Deleting temp files:
+Deleting: /tmp/ghc10282_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc10282_0
+Creating package registration file:
+/tmp/pkgConf-http-types-016059082351350573793.9
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/http-types-0.9-JOpJsc6h1HpJqPn02W56HK
+Registering http-types-0.9...
+cabal: Leaving directory '/tmp/cabal-tmp-1026/http-types-0.9'

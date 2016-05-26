@@ -1,0 +1,1187 @@
+cabal: Entering directory '/tmp/cabal-tmp-1031/psqueues-0.2.2.1'
+Configuring psqueues-0.2.2.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/.ghc/x86_64-linux-8.0.1/package.conf.d
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+Created temporary directory: /tmp/ghc9466_0
+*** C Compiler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x c /tmp/1804289383846930886.c -o /tmp/ghc9466_0/ghc_1.s -Wimplicit -S '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -x assembler -c /tmp/ghc9466_0/ghc_1.s -o /tmp/16816927771714636915.o
+*** Deleting temp files:
+Deleting: /tmp/ghc9466_0/ghc_2.rsp /tmp/ghc9466_0/ghc_1.s
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9466_0
+Building psqueues-0.2.2.1...
+Preprocessing library psqueues-0.2.2.1...
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts-1.0
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+*** Chasing dependencies:
+Chasing modules from: *Data.HashPSQ,*Data.IntPSQ,*Data.OrdPSQ,*Data.BitUtil,*Data.HashPSQ.Internal,*Data.IntPSQ.Internal,*Data.OrdPSQ.Internal
+Created temporary directory: /tmp/ghc9534_0
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9534_0/ghc_2.h -x assembler-with-cpp src/Data/IntPSQ.hs -o /tmp/ghc9534_0/ghc_1.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9534_0/ghc_4.h -x assembler-with-cpp src/Data/BitUtil.hs -o /tmp/ghc9534_0/ghc_3.hscpp
+*** C pre-processor:
+/usr/bin/gcc -E -undef -traditional -include dist/dist-sandbox-6afc8227/build/autogen/cabal_macros.h -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build -I dist/dist-sandbox-6afc8227/build/autogen -I dist/dist-sandbox-6afc8227/build -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1/include -I /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include '-D__GLASGOW_HASKELL__=800' -include /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/include/ghcversion.h '-Dlinux_BUILD_OS=1' '-Dx86_64_BUILD_ARCH=1' '-Dlinux_HOST_OS=1' '-Dx86_64_HOST_ARCH=1' '-D__GLASGOW_HASKELL_TH__=1' '-D__SSE__=1' '-D__SSE2__=1' -include/tmp/ghc9534_0/ghc_6.h -x assembler-with-cpp src/Data/IntPSQ/Internal.hs -o /tmp/ghc9534_0/ghc_5.hscpp
+!!! Chasing dependencies: finished in 27.00 milliseconds, allocated 22.473 megabytes
+Stable obj: []
+Stable BCO: []
+Ready for upsweep
+  [NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-22 10:16:55 UTC
+         ms_mod = Data.BitUtil,
+         ms_textual_imps = [(Nothing, Prelude), (Nothing, GHC.Exts),
+                            (Nothing, Data.Bits)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-22 10:16:55 UTC
+         ms_mod = Data.IntPSQ.Internal,
+         ms_textual_imps = [(Nothing, Data.Traversable), (Nothing, Prelude),
+                            (Nothing, Data.List), (Nothing, Data.Word), (Nothing, Data.Maybe),
+                            (Nothing, Data.List), (Nothing, Data.Foldable),
+                            (Nothing, Data.BitUtil), (Nothing, Data.Bits),
+                            (Nothing, Control.DeepSeq), (Nothing, Control.Applicative)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-22 10:16:55 UTC
+         ms_mod = Data.IntPSQ,
+         ms_textual_imps = [(Nothing, Data.IntPSQ.Internal),
+                            (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-22 10:16:55 UTC
+         ms_mod = Data.OrdPSQ.Internal,
+         ms_textual_imps = [(Nothing, Data.Traversable), (Nothing, Prelude),
+                            (Nothing, Data.Maybe), (Nothing, Data.List),
+                            (Nothing, Data.Foldable), (Nothing, Control.DeepSeq)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-22 10:16:55 UTC
+         ms_mod = Data.OrdPSQ,
+         ms_textual_imps = [(Nothing, Data.OrdPSQ.Internal),
+                            (Nothing, Prelude)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-22 10:16:55 UTC
+         ms_mod = Data.HashPSQ.Internal,
+         ms_textual_imps = [(Nothing, Data.OrdPSQ),
+                            (Nothing, Data.IntPSQ.Internal), (Nothing, Data.Traversable),
+                            (Nothing, Prelude), (Nothing, Data.Maybe), (Nothing, Data.List),
+                            (Nothing, Data.Hashable), (Nothing, Data.Foldable),
+                            (Nothing, Control.DeepSeq)]
+         ms_srcimps = []
+      },
+   NONREC
+      ModSummary {
+         ms_hs_date = 2016-04-22 10:16:55 UTC
+         ms_mod = Data.HashPSQ,
+         ms_textual_imps = [(Nothing, Data.HashPSQ.Internal),
+                            (Nothing, Prelude)]
+         ms_srcimps = []
+      }]
+*** Deleting temp files:
+Deleting: /tmp/ghc9534_0/ghc_6.h /tmp/ghc9534_0/ghc_4.h /tmp/ghc9534_0/ghc_2.h
+compile: input file /tmp/ghc9534_0/ghc_3.hscpp
+*** Checking old interface for Data.BitUtil:
+[1 of 7] Compiling Data.BitUtil     ( src/Data/BitUtil.hs, dist/dist-sandbox-6afc8227/build/Data/BitUtil.o )
+*** Parser [Data.BitUtil]:
+!!! Parser [Data.BitUtil]: finished in 2.00 milliseconds, allocated 2.753 megabytes
+*** Renamer/typechecker [Data.BitUtil]:
+!!! Renamer/typechecker [Data.BitUtil]: finished in 225.00 milliseconds, allocated 82.955 megabytes
+*** Desugar [Data.BitUtil]:
+Result size of Desugar (after optimization)
+  = {terms: 76, types: 26, coercions: 0}
+!!! Desugar [Data.BitUtil]: finished in 1.00 milliseconds, allocated 0.672 megabytes
+*** Simplifier [Data.BitUtil]:
+Result size of Simplifier iteration=1
+  = {terms: 73, types: 21, coercions: 0}
+Result size of Simplifier = {terms: 73, types: 21, coercions: 0}
+!!! Simplifier [Data.BitUtil]: finished in 59.00 milliseconds, allocated 34.329 megabytes
+*** Specialise [Data.BitUtil]:
+Result size of Specialise = {terms: 73, types: 21, coercions: 0}
+!!! Specialise [Data.BitUtil]: finished in 1.00 milliseconds, allocated 0.116 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.BitUtil]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 87, types: 28, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.BitUtil]: finished in 1.00 milliseconds, allocated 0.340 megabytes
+*** Simplifier [Data.BitUtil]:
+Result size of Simplifier iteration=1
+  = {terms: 115, types: 42, coercions: 0}
+Result size of Simplifier iteration=2
+  = {terms: 57, types: 14, coercions: 0}
+Result size of Simplifier = {terms: 57, types: 14, coercions: 0}
+!!! Simplifier [Data.BitUtil]: finished in 4.00 milliseconds, allocated 1.659 megabytes
+*** Simplifier [Data.BitUtil]:
+Result size of Simplifier = {terms: 57, types: 14, coercions: 0}
+!!! Simplifier [Data.BitUtil]: finished in 1.00 milliseconds, allocated 0.365 megabytes
+*** Simplifier [Data.BitUtil]:
+Result size of Simplifier = {terms: 57, types: 14, coercions: 0}
+!!! Simplifier [Data.BitUtil]: finished in 1.00 milliseconds, allocated 0.365 megabytes
+*** Float inwards [Data.BitUtil]:
+Result size of Float inwards = {terms: 57, types: 14, coercions: 0}
+!!! Float inwards [Data.BitUtil]: finished in 1.00 milliseconds, allocated 0.134 megabytes
+*** Called arity analysis [Data.BitUtil]:
+Result size of Called arity analysis
+  = {terms: 57, types: 14, coercions: 0}
+!!! Called arity analysis [Data.BitUtil]: finished in 0.00 milliseconds, allocated 0.075 megabytes
+*** Simplifier [Data.BitUtil]:
+Result size of Simplifier = {terms: 57, types: 14, coercions: 0}
+!!! Simplifier [Data.BitUtil]: finished in 1.00 milliseconds, allocated 0.364 megabytes
+*** Demand analysis [Data.BitUtil]:
+Result size of Demand analysis
+  = {terms: 57, types: 14, coercions: 0}
+!!! Demand analysis [Data.BitUtil]: finished in 1.00 milliseconds, allocated 0.327 megabytes
+*** Worker Wrapper binds [Data.BitUtil]:
+Result size of Worker Wrapper binds
+  = {terms: 57, types: 14, coercions: 0}
+!!! Worker Wrapper binds [Data.BitUtil]: finished in 0.00 milliseconds, allocated 0.061 megabytes
+*** Simplifier [Data.BitUtil]:
+Result size of Simplifier = {terms: 57, types: 14, coercions: 0}
+!!! Simplifier [Data.BitUtil]: finished in 1.00 milliseconds, allocated 0.366 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.BitUtil]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 57, types: 14, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.BitUtil]: finished in 54.00 milliseconds, allocated 0.189 megabytes
+*** Common sub-expression [Data.BitUtil]:
+Result size of Common sub-expression
+  = {terms: 57, types: 14, coercions: 0}
+!!! Common sub-expression [Data.BitUtil]: finished in 1.00 milliseconds, allocated 0.132 megabytes
+*** Float inwards [Data.BitUtil]:
+Result size of Float inwards = {terms: 57, types: 14, coercions: 0}
+!!! Float inwards [Data.BitUtil]: finished in 0.00 milliseconds, allocated 0.133 megabytes
+*** Liberate case [Data.BitUtil]:
+Result size of Liberate case = {terms: 57, types: 14, coercions: 0}
+!!! Liberate case [Data.BitUtil]: finished in 0.00 milliseconds, allocated 0.051 megabytes
+*** Simplifier [Data.BitUtil]:
+Result size of Simplifier = {terms: 57, types: 14, coercions: 0}
+!!! Simplifier [Data.BitUtil]: finished in 1.00 milliseconds, allocated 0.346 megabytes
+*** SpecConstr [Data.BitUtil]:
+Result size of SpecConstr = {terms: 57, types: 14, coercions: 0}
+!!! SpecConstr [Data.BitUtil]: finished in 0.00 milliseconds, allocated 0.090 megabytes
+*** Simplifier [Data.BitUtil]:
+Result size of Simplifier = {terms: 57, types: 14, coercions: 0}
+!!! Simplifier [Data.BitUtil]: finished in 1.00 milliseconds, allocated 0.380 megabytes
+*** CoreTidy [Data.BitUtil]:
+Result size of Tidy Core = {terms: 57, types: 14, coercions: 0}
+!!! CoreTidy [Data.BitUtil]: finished in 1.00 milliseconds, allocated 0.133 megabytes
+writeBinIface: 7 Names
+writeBinIface: 44 dict entries
+writeBinIface: 7 Names
+writeBinIface: 44 dict entries
+*** CorePrep [Data.BitUtil]:
+Result size of CorePrep = {terms: 87, types: 22, coercions: 0}
+!!! CorePrep [Data.BitUtil]: finished in 0.00 milliseconds, allocated 0.154 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.BitUtil]:
+!!! CodeGen [Data.BitUtil]: finished in 3.00 milliseconds, allocated 1.488 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9534_0/ghc_8.s -o dist/dist-sandbox-6afc8227/build/Data/BitUtil.o
+*** CorePrep [Data.BitUtil]:
+Result size of CorePrep = {terms: 87, types: 22, coercions: 0}
+!!! CorePrep [Data.BitUtil]: finished in 0.00 milliseconds, allocated 0.152 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.BitUtil]:
+!!! CodeGen [Data.BitUtil]: finished in 3.00 milliseconds, allocated 1.473 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9534_0/ghc_10.s -o dist/dist-sandbox-6afc8227/build/Data/BitUtil.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9534_0/ghc_11.c /tmp/ghc9534_0/ghc_10.s /tmp/ghc9534_0/ghc_9.c /tmp/ghc9534_0/ghc_8.s /tmp/ghc9534_0/ghc_7.s
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_11.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_9.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_7.s
+compile: input file /tmp/ghc9534_0/ghc_5.hscpp
+*** Checking old interface for Data.IntPSQ.Internal:
+[2 of 7] Compiling Data.IntPSQ.Internal ( src/Data/IntPSQ/Internal.hs, dist/dist-sandbox-6afc8227/build/Data/IntPSQ/Internal.o )
+*** Parser [Data.IntPSQ.Internal]:
+!!! Parser [Data.IntPSQ.Internal]: finished in 22.00 milliseconds, allocated 24.164 megabytes
+*** Renamer/typechecker [Data.IntPSQ.Internal]:
+!!! Renamer/typechecker [Data.IntPSQ.Internal]: finished in 526.00 milliseconds, allocated 213.099 megabytes
+*** Desugar [Data.IntPSQ.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 2,939, types: 4,500, coercions: 5}
+!!! Desugar [Data.IntPSQ.Internal]: finished in 17.00 milliseconds, allocated 23.317 megabytes
+
+src/Data/IntPSQ/Internal.hs:69:1: warning: [-Wunused-imports]
+    The import of ‘foldr’ from module ‘Data.Foldable’ is redundant
+
+src/Data/IntPSQ/Internal.hs:79:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+
+src/Data/IntPSQ/Internal.hs:198:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Ord p
+    • In the type signature for:
+           findMin :: Ord p => IntPSQ p v -> Maybe (Int, p, v)
+
+src/Data/IntPSQ/Internal.hs:214:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Ord p
+    • In the type signature for:
+           singleton :: Ord p => Int -> p -> v -> IntPSQ p v
+*** Simplifier [Data.IntPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,803, types: 4,238, coercions: 17}
+Result size of Simplifier iteration=2
+  = {terms: 2,756, types: 4,165, coercions: 17}
+Result size of Simplifier iteration=3
+  = {terms: 2,748, types: 4,157, coercions: 17}
+Result size of Simplifier
+  = {terms: 2,748, types: 4,157, coercions: 17}
+!!! Simplifier [Data.IntPSQ.Internal]: finished in 147.00 milliseconds, allocated 74.844 megabytes
+*** Specialise [Data.IntPSQ.Internal]:
+Result size of Specialise
+  = {terms: 2,791, types: 4,206, coercions: 17}
+!!! Specialise [Data.IntPSQ.Internal]: finished in 6.00 milliseconds, allocated 3.560 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IntPSQ.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 2,887, types: 4,337, coercions: 17}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IntPSQ.Internal]: finished in 35.00 milliseconds, allocated 24.707 megabytes
+*** Simplifier [Data.IntPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 4,683, types: 5,355, coercions: 146}
+Result size of Simplifier iteration=2
+  = {terms: 4,710, types: 5,053, coercions: 205}
+Result size of Simplifier iteration=3
+  = {terms: 4,487, types: 4,940, coercions: 205}
+Result size of Simplifier
+  = {terms: 4,487, types: 4,940, coercions: 205}
+!!! Simplifier [Data.IntPSQ.Internal]: finished in 176.00 milliseconds, allocated 94.957 megabytes
+*** Simplifier [Data.IntPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 5,223, types: 5,537, coercions: 205}
+Result size of Simplifier iteration=2
+  = {terms: 4,556, types: 4,958, coercions: 205}
+Result size of Simplifier
+  = {terms: 4,556, types: 4,958, coercions: 205}
+!!! Simplifier [Data.IntPSQ.Internal]: finished in 109.00 milliseconds, allocated 69.222 megabytes
+*** Simplifier [Data.IntPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 4,792, types: 5,154, coercions: 199}
+Result size of Simplifier iteration=2
+  = {terms: 4,690, types: 5,074, coercions: 199}
+Result size of Simplifier
+  = {terms: 4,690, types: 5,074, coercions: 199}
+!!! Simplifier [Data.IntPSQ.Internal]: finished in 111.00 milliseconds, allocated 66.034 megabytes
+*** Float inwards [Data.IntPSQ.Internal]:
+Result size of Float inwards
+  = {terms: 4,690, types: 5,074, coercions: 199}
+!!! Float inwards [Data.IntPSQ.Internal]: finished in 15.00 milliseconds, allocated 9.999 megabytes
+*** Called arity analysis [Data.IntPSQ.Internal]:
+Result size of Called arity analysis
+  = {terms: 4,690, types: 5,074, coercions: 199}
+!!! Called arity analysis [Data.IntPSQ.Internal]: finished in 4.00 milliseconds, allocated 4.890 megabytes
+*** Simplifier [Data.IntPSQ.Internal]:
+Result size of Simplifier
+  = {terms: 4,690, types: 5,074, coercions: 199}
+!!! Simplifier [Data.IntPSQ.Internal]: finished in 32.00 milliseconds, allocated 21.661 megabytes
+*** Demand analysis [Data.IntPSQ.Internal]:
+Result size of Demand analysis
+  = {terms: 4,690, types: 5,074, coercions: 199}
+!!! Demand analysis [Data.IntPSQ.Internal]: finished in 47.00 milliseconds, allocated 27.676 megabytes
+*** Worker Wrapper binds [Data.IntPSQ.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 4,993, types: 5,762, coercions: 199}
+!!! Worker Wrapper binds [Data.IntPSQ.Internal]: finished in 2.00 milliseconds, allocated 1.924 megabytes
+*** Simplifier [Data.IntPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 4,900, types: 5,502, coercions: 199}
+Result size of Simplifier iteration=2
+  = {terms: 4,665, types: 5,298, coercions: 199}
+Result size of Simplifier iteration=3
+  = {terms: 4,620, types: 5,195, coercions: 199}
+Result size of Simplifier
+  = {terms: 4,620, types: 5,195, coercions: 199}
+!!! Simplifier [Data.IntPSQ.Internal]: finished in 133.00 milliseconds, allocated 103.567 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IntPSQ.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,655, types: 5,283, coercions: 199}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IntPSQ.Internal]: finished in 34.00 milliseconds, allocated 30.062 megabytes
+*** Common sub-expression [Data.IntPSQ.Internal]:
+Result size of Common sub-expression
+  = {terms: 4,586, types: 5,250, coercions: 199}
+!!! Common sub-expression [Data.IntPSQ.Internal]: finished in 17.00 milliseconds, allocated 7.392 megabytes
+*** Float inwards [Data.IntPSQ.Internal]:
+Result size of Float inwards
+  = {terms: 4,586, types: 5,250, coercions: 199}
+!!! Float inwards [Data.IntPSQ.Internal]: finished in 9.00 milliseconds, allocated 9.105 megabytes
+*** Liberate case [Data.IntPSQ.Internal]:
+Result size of Liberate case
+  = {terms: 6,294, types: 6,808, coercions: 199}
+!!! Liberate case [Data.IntPSQ.Internal]: finished in 3.00 milliseconds, allocated 2.733 megabytes
+*** Simplifier [Data.IntPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 6,233, types: 6,708, coercions: 199}
+Result size of Simplifier iteration=2
+  = {terms: 6,177, types: 6,592, coercions: 199}
+Result size of Simplifier
+  = {terms: 6,177, types: 6,592, coercions: 199}
+!!! Simplifier [Data.IntPSQ.Internal]: finished in 149.00 milliseconds, allocated 87.387 megabytes
+*** SpecConstr [Data.IntPSQ.Internal]:
+Result size of SpecConstr
+  = {terms: 7,195, types: 7,220, coercions: 199}
+!!! SpecConstr [Data.IntPSQ.Internal]: finished in 24.00 milliseconds, allocated 12.977 megabytes
+*** Simplifier [Data.IntPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 7,344, types: 7,335, coercions: 199}
+Result size of Simplifier iteration=2
+  = {terms: 6,666, types: 6,926, coercions: 199}
+Result size of Simplifier iteration=3
+  = {terms: 6,630, types: 6,902, coercions: 199}
+Result size of Simplifier
+  = {terms: 6,630, types: 6,902, coercions: 199}
+!!! Simplifier [Data.IntPSQ.Internal]: finished in 949.00 milliseconds, allocated 127.838 megabytes
+*** CoreTidy [Data.IntPSQ.Internal]:
+Result size of Tidy Core
+  = {terms: 6,666, types: 6,934, coercions: 199}
+!!! CoreTidy [Data.IntPSQ.Internal]: finished in 0.00 milliseconds, allocated 8.865 megabytes
+writeBinIface: 159 Names
+writeBinIface: 332 dict entries
+writeBinIface: 159 Names
+writeBinIface: 332 dict entries
+*** CorePrep [Data.IntPSQ.Internal]:
+Result size of CorePrep
+  = {terms: 8,874, types: 8,207, coercions: 199}
+!!! CorePrep [Data.IntPSQ.Internal]: finished in 0.00 milliseconds, allocated 14.822 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IntPSQ.Internal]:
+!!! CodeGen [Data.IntPSQ.Internal]: finished in 412.00 milliseconds, allocated 286.397 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/IntPSQ -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9534_0/ghc_13.s -o dist/dist-sandbox-6afc8227/build/Data/IntPSQ/Internal.o
+*** CorePrep [Data.IntPSQ.Internal]:
+Result size of CorePrep
+  = {terms: 8,874, types: 8,207, coercions: 199}
+!!! CorePrep [Data.IntPSQ.Internal]: finished in 18.00 milliseconds, allocated 14.307 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IntPSQ.Internal]:
+!!! CodeGen [Data.IntPSQ.Internal]: finished in 415.00 milliseconds, allocated 297.886 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/IntPSQ -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9534_0/ghc_15.s -o dist/dist-sandbox-6afc8227/build/Data/IntPSQ/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9534_0/ghc_16.c /tmp/ghc9534_0/ghc_15.s /tmp/ghc9534_0/ghc_14.c /tmp/ghc9534_0/ghc_13.s /tmp/ghc9534_0/ghc_12.s
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_16.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_14.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_12.s
+compile: input file /tmp/ghc9534_0/ghc_1.hscpp
+*** Checking old interface for Data.IntPSQ:
+[3 of 7] Compiling Data.IntPSQ      ( src/Data/IntPSQ.hs, dist/dist-sandbox-6afc8227/build/Data/IntPSQ.o )
+*** Parser [Data.IntPSQ]:
+!!! Parser [Data.IntPSQ]: finished in 1.00 milliseconds, allocated 1.381 megabytes
+*** Renamer/typechecker [Data.IntPSQ]:
+!!! Renamer/typechecker [Data.IntPSQ]: finished in 1.00 milliseconds, allocated 0.683 megabytes
+*** Desugar [Data.IntPSQ]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.IntPSQ]: finished in 1.00 milliseconds, allocated 0.138 megabytes
+*** Simplifier [Data.IntPSQ]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.129 megabytes
+*** Specialise [Data.IntPSQ]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IntPSQ]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.087 megabytes
+*** Simplifier [Data.IntPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Data.IntPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Data.IntPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IntPSQ]: finished in 1.00 milliseconds, allocated 0.069 megabytes
+*** Float inwards [Data.IntPSQ]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Called arity analysis [Data.IntPSQ]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Data.IntPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Demand analysis [Data.IntPSQ]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Data.IntPSQ]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.IntPSQ]: finished in 1.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [Data.IntPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IntPSQ]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Data.IntPSQ]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.IntPSQ]: finished in 1.00 milliseconds, allocated 0.047 megabytes
+*** Float inwards [Data.IntPSQ]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Liberate case [Data.IntPSQ]:
+Result size of Liberate case = {terms: 10, types: 3, coercions: 0}
+!!! Liberate case [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.039 megabytes
+*** Simplifier [Data.IntPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** SpecConstr [Data.IntPSQ]:
+Result size of SpecConstr = {terms: 10, types: 3, coercions: 0}
+!!! SpecConstr [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Simplifier [Data.IntPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.IntPSQ]: finished in 1.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Data.IntPSQ]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+writeBinIface: 26 Names
+writeBinIface: 55 dict entries
+writeBinIface: 26 Names
+writeBinIface: 55 dict entries
+*** CorePrep [Data.IntPSQ]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.051 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IntPSQ]:
+!!! CodeGen [Data.IntPSQ]: finished in 1.00 milliseconds, allocated 0.277 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9534_0/ghc_18.s -o dist/dist-sandbox-6afc8227/build/Data/IntPSQ.o
+*** CorePrep [Data.IntPSQ]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.IntPSQ]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.IntPSQ]:
+!!! CodeGen [Data.IntPSQ]: finished in 1.00 milliseconds, allocated 0.275 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9534_0/ghc_20.s -o dist/dist-sandbox-6afc8227/build/Data/IntPSQ.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9534_0/ghc_21.c /tmp/ghc9534_0/ghc_20.s /tmp/ghc9534_0/ghc_19.c /tmp/ghc9534_0/ghc_18.s /tmp/ghc9534_0/ghc_17.s
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_21.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_19.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_17.s
+compile: input file src/Data/OrdPSQ/Internal.hs
+*** Checking old interface for Data.OrdPSQ.Internal:
+[4 of 7] Compiling Data.OrdPSQ.Internal ( src/Data/OrdPSQ/Internal.hs, dist/dist-sandbox-6afc8227/build/Data/OrdPSQ/Internal.o )
+*** Parser [Data.OrdPSQ.Internal]:
+!!! Parser [Data.OrdPSQ.Internal]: finished in 12.00 milliseconds, allocated 24.778 megabytes
+*** Renamer/typechecker [Data.OrdPSQ.Internal]:
+!!! Renamer/typechecker [Data.OrdPSQ.Internal]: finished in 129.00 milliseconds, allocated 87.467 megabytes
+*** Desugar [Data.OrdPSQ.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 4,130, types: 8,967, coercions: 44}
+!!! Desugar [Data.OrdPSQ.Internal]: finished in 54.00 milliseconds, allocated 28.943 megabytes
+
+src/Data/OrdPSQ/Internal.hs:6:14: warning: [-Wtrustworthy-safe]
+    ‘Data.OrdPSQ.Internal’ is marked as Trustworthy but has been inferred as safe!
+
+src/Data/OrdPSQ/Internal.hs:75:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+*** Simplifier [Data.OrdPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 3,881, types: 8,368, coercions: 109}
+Result size of Simplifier iteration=2
+  = {terms: 3,816, types: 8,252, coercions: 109}
+Result size of Simplifier iteration=3
+  = {terms: 3,810, types: 8,246, coercions: 109}
+Result size of Simplifier
+  = {terms: 3,810, types: 8,246, coercions: 109}
+!!! Simplifier [Data.OrdPSQ.Internal]: finished in 156.00 milliseconds, allocated 77.619 megabytes
+*** Specialise [Data.OrdPSQ.Internal]:
+Result size of Specialise
+  = {terms: 3,810, types: 8,246, coercions: 109}
+!!! Specialise [Data.OrdPSQ.Internal]: finished in 8.00 milliseconds, allocated 5.355 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.OrdPSQ.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 4,111, types: 8,829, coercions: 109}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.OrdPSQ.Internal]: finished in 54.00 milliseconds, allocated 45.879 megabytes
+*** Simplifier [Data.OrdPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 8,644, types: 14,712, coercions: 600}
+Result size of Simplifier iteration=2
+  = {terms: 9,073, types: 14,589, coercions: 602}
+Result size of Simplifier iteration=3
+  = {terms: 8,597, types: 13,959, coercions: 572}
+Result size of Simplifier
+  = {terms: 8,595, types: 13,944, coercions: 552}
+!!! Simplifier [Data.OrdPSQ.Internal]: finished in 333.00 milliseconds, allocated 166.690 megabytes
+*** Simplifier [Data.OrdPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 8,805, types: 14,057, coercions: 552}
+Result size of Simplifier iteration=2
+  = {terms: 8,618, types: 13,813, coercions: 552}
+Result size of Simplifier
+  = {terms: 8,618, types: 13,813, coercions: 552}
+!!! Simplifier [Data.OrdPSQ.Internal]: finished in 269.00 milliseconds, allocated 116.879 megabytes
+*** Simplifier [Data.OrdPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 8,729, types: 13,910, coercions: 539}
+Result size of Simplifier
+  = {terms: 8,661, types: 13,872, coercions: 537}
+!!! Simplifier [Data.OrdPSQ.Internal]: finished in 179.00 milliseconds, allocated 75.878 megabytes
+*** Float inwards [Data.OrdPSQ.Internal]:
+Result size of Float inwards
+  = {terms: 8,661, types: 13,872, coercions: 537}
+!!! Float inwards [Data.OrdPSQ.Internal]: finished in 21.00 milliseconds, allocated 20.701 megabytes
+*** Called arity analysis [Data.OrdPSQ.Internal]:
+Result size of Called arity analysis
+  = {terms: 8,661, types: 13,872, coercions: 537}
+!!! Called arity analysis [Data.OrdPSQ.Internal]: finished in 14.00 milliseconds, allocated 9.275 megabytes
+*** Simplifier [Data.OrdPSQ.Internal]:
+Result size of Simplifier
+  = {terms: 8,661, types: 13,872, coercions: 537}
+!!! Simplifier [Data.OrdPSQ.Internal]: finished in 80.00 milliseconds, allocated 37.715 megabytes
+*** Demand analysis [Data.OrdPSQ.Internal]:
+Result size of Demand analysis
+  = {terms: 8,661, types: 13,872, coercions: 537}
+!!! Demand analysis [Data.OrdPSQ.Internal]: finished in 102.00 milliseconds, allocated 45.472 megabytes
+*** Worker Wrapper binds [Data.OrdPSQ.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 8,936, types: 14,463, coercions: 537}
+!!! Worker Wrapper binds [Data.OrdPSQ.Internal]: finished in 20.00 milliseconds, allocated 3.132 megabytes
+*** Simplifier [Data.OrdPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 8,598, types: 14,041, coercions: 537}
+Result size of Simplifier iteration=2
+  = {terms: 8,441, types: 13,730, coercions: 537}
+Result size of Simplifier
+  = {terms: 8,441, types: 13,730, coercions: 537}
+!!! Simplifier [Data.OrdPSQ.Internal]: finished in 335.00 milliseconds, allocated 119.101 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.OrdPSQ.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 8,558, types: 13,924, coercions: 537}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.OrdPSQ.Internal]: finished in 84.00 milliseconds, allocated 79.793 megabytes
+*** Common sub-expression [Data.OrdPSQ.Internal]:
+Result size of Common sub-expression
+  = {terms: 8,403, types: 13,730, coercions: 525}
+!!! Common sub-expression [Data.OrdPSQ.Internal]: finished in 14.00 milliseconds, allocated 12.012 megabytes
+*** Float inwards [Data.OrdPSQ.Internal]:
+Result size of Float inwards
+  = {terms: 8,403, types: 13,730, coercions: 525}
+!!! Float inwards [Data.OrdPSQ.Internal]: finished in 14.00 milliseconds, allocated 17.466 megabytes
+*** Liberate case [Data.OrdPSQ.Internal]:
+Result size of Liberate case
+  = {terms: 8,403, types: 13,730, coercions: 525}
+!!! Liberate case [Data.OrdPSQ.Internal]: finished in 7.00 milliseconds, allocated 3.955 megabytes
+*** Simplifier [Data.OrdPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 8,306, types: 13,567, coercions: 525}
+Result size of Simplifier
+  = {terms: 8,306, types: 13,567, coercions: 525}
+!!! Simplifier [Data.OrdPSQ.Internal]: finished in 149.00 milliseconds, allocated 77.184 megabytes
+*** SpecConstr [Data.OrdPSQ.Internal]:
+Result size of SpecConstr
+  = {terms: 9,308, types: 14,969, coercions: 555}
+!!! SpecConstr [Data.OrdPSQ.Internal]: finished in 40.00 milliseconds, allocated 18.793 megabytes
+*** Simplifier [Data.OrdPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 9,258, types: 14,746, coercions: 555}
+Result size of Simplifier iteration=2
+  = {terms: 9,110, types: 14,568, coercions: 535}
+Result size of Simplifier
+  = {terms: 9,110, types: 14,568, coercions: 535}
+!!! Simplifier [Data.OrdPSQ.Internal]: finished in 251.00 milliseconds, allocated 131.121 megabytes
+*** CoreTidy [Data.OrdPSQ.Internal]:
+Result size of Tidy Core
+  = {terms: 9,220, types: 14,791, coercions: 535}
+!!! CoreTidy [Data.OrdPSQ.Internal]: finished in 34.00 milliseconds, allocated 15.860 megabytes
+writeBinIface: 257 Names
+writeBinIface: 435 dict entries
+writeBinIface: 257 Names
+writeBinIface: 435 dict entries
+*** CorePrep [Data.OrdPSQ.Internal]:
+Result size of CorePrep
+  = {terms: 11,072, types: 16,965, coercions: 535}
+!!! CorePrep [Data.OrdPSQ.Internal]: finished in 28.00 milliseconds, allocated 22.319 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.OrdPSQ.Internal]:
+!!! CodeGen [Data.OrdPSQ.Internal]: finished in 555.00 milliseconds, allocated 475.892 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/OrdPSQ -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9534_0/ghc_23.s -o dist/dist-sandbox-6afc8227/build/Data/OrdPSQ/Internal.o
+*** CorePrep [Data.OrdPSQ.Internal]:
+Result size of CorePrep
+  = {terms: 11,072, types: 16,965, coercions: 535}
+!!! CorePrep [Data.OrdPSQ.Internal]: finished in 22.00 milliseconds, allocated 21.145 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.OrdPSQ.Internal]:
+!!! CodeGen [Data.OrdPSQ.Internal]: finished in 664.00 milliseconds, allocated 496.419 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/OrdPSQ -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9534_0/ghc_25.s -o dist/dist-sandbox-6afc8227/build/Data/OrdPSQ/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9534_0/ghc_26.c /tmp/ghc9534_0/ghc_25.s /tmp/ghc9534_0/ghc_24.c /tmp/ghc9534_0/ghc_23.s /tmp/ghc9534_0/ghc_22.s
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_26.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_24.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_22.s
+compile: input file src/Data/OrdPSQ.hs
+*** Checking old interface for Data.OrdPSQ:
+[5 of 7] Compiling Data.OrdPSQ      ( src/Data/OrdPSQ.hs, dist/dist-sandbox-6afc8227/build/Data/OrdPSQ.o )
+*** Parser [Data.OrdPSQ]:
+!!! Parser [Data.OrdPSQ]: finished in 1.00 milliseconds, allocated 0.943 megabytes
+*** Renamer/typechecker [Data.OrdPSQ]:
+!!! Renamer/typechecker [Data.OrdPSQ]: finished in 1.00 milliseconds, allocated 0.701 megabytes
+*** Desugar [Data.OrdPSQ]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+
+src/Data/OrdPSQ.hs:15:14: warning: [-Wtrustworthy-safe]
+    ‘Data.OrdPSQ’ is marked as Trustworthy but has been inferred as safe!
+*** Simplifier [Data.OrdPSQ]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.129 megabytes
+*** Specialise [Data.OrdPSQ]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.OrdPSQ]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.087 megabytes
+*** Simplifier [Data.OrdPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Data.OrdPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.OrdPSQ]: finished in 1.00 milliseconds, allocated 0.069 megabytes
+*** Simplifier [Data.OrdPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Data.OrdPSQ]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Data.OrdPSQ]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Data.OrdPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Demand analysis [Data.OrdPSQ]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.064 megabytes
+*** Worker Wrapper binds [Data.OrdPSQ]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [Data.OrdPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.OrdPSQ]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.OrdPSQ]: finished in 1.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Data.OrdPSQ]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Float inwards [Data.OrdPSQ]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Liberate case [Data.OrdPSQ]:
+Result size of Liberate case = {terms: 10, types: 3, coercions: 0}
+!!! Liberate case [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.039 megabytes
+*** Simplifier [Data.OrdPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** SpecConstr [Data.OrdPSQ]:
+Result size of SpecConstr = {terms: 10, types: 3, coercions: 0}
+!!! SpecConstr [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Simplifier [Data.OrdPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Data.OrdPSQ]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+writeBinIface: 27 Names
+writeBinIface: 55 dict entries
+writeBinIface: 27 Names
+writeBinIface: 55 dict entries
+*** CorePrep [Data.OrdPSQ]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.OrdPSQ]:
+!!! CodeGen [Data.OrdPSQ]: finished in 1.00 milliseconds, allocated 0.277 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9534_0/ghc_28.s -o dist/dist-sandbox-6afc8227/build/Data/OrdPSQ.o
+*** CorePrep [Data.OrdPSQ]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.OrdPSQ]: finished in 1.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.OrdPSQ]:
+!!! CodeGen [Data.OrdPSQ]: finished in 0.00 milliseconds, allocated 0.275 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9534_0/ghc_30.s -o dist/dist-sandbox-6afc8227/build/Data/OrdPSQ.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9534_0/ghc_31.c /tmp/ghc9534_0/ghc_30.s /tmp/ghc9534_0/ghc_29.c /tmp/ghc9534_0/ghc_28.s /tmp/ghc9534_0/ghc_27.s
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_31.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_29.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_27.s
+compile: input file src/Data/HashPSQ/Internal.hs
+*** Checking old interface for Data.HashPSQ.Internal:
+[6 of 7] Compiling Data.HashPSQ.Internal ( src/Data/HashPSQ/Internal.hs, dist/dist-sandbox-6afc8227/build/Data/HashPSQ/Internal.o )
+*** Parser [Data.HashPSQ.Internal]:
+!!! Parser [Data.HashPSQ.Internal]: finished in 11.00 milliseconds, allocated 16.800 megabytes
+*** Renamer/typechecker [Data.HashPSQ.Internal]:
+!!! Renamer/typechecker [Data.HashPSQ.Internal]: finished in 154.00 milliseconds, allocated 103.521 megabytes
+*** Desugar [Data.HashPSQ.Internal]:
+Result size of Desugar (after optimization)
+  = {terms: 2,317, types: 6,262, coercions: 198}
+!!! Desugar [Data.HashPSQ.Internal]: finished in 44.00 milliseconds, allocated 20.095 megabytes
+
+src/Data/HashPSQ/Internal.hs:57:1: warning: [-Wunused-imports]
+    The import of ‘foldr’ from module ‘Data.Foldable’ is redundant
+
+src/Data/HashPSQ/Internal.hs:62:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+
+src/Data/HashPSQ/Internal.hs:135:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Ord p
+    • In the type signature for:
+           lookup :: (Ord k, Hashable k, Ord p) =>
+                     k -> HashPSQ k p v -> Maybe (p, v)
+
+src/Data/HashPSQ/Internal.hs:143:1: warning: [-Wredundant-constraints]
+    • Redundant constraints: (Hashable k, Ord k)
+    • In the type signature for:
+           findMin :: (Hashable k, Ord k, Ord p) =>
+                      HashPSQ k p v -> Maybe (k, p, v)
+
+src/Data/HashPSQ/Internal.hs:275:1: warning: [-Wredundant-constraints]
+    • Redundant constraints: (Hashable k, Ord k, Ord p)
+    • In the type signature for:
+           toList :: (Hashable k, Ord k, Ord p) =>
+                     HashPSQ k p v -> [(k, p, v)]
+
+src/Data/HashPSQ/Internal.hs:329:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Hashable k
+    • In the type signature for:
+           minView :: (Hashable k, Ord k, Ord p) =>
+                      HashPSQ k p v -> Maybe (k, p, v, HashPSQ k p v)
+*** Simplifier [Data.HashPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 2,205, types: 5,931, coercions: 329}
+Result size of Simplifier iteration=2
+  = {terms: 2,124, types: 5,751, coercions: 329}
+Result size of Simplifier iteration=3
+  = {terms: 2,120, types: 5,747, coercions: 329}
+Result size of Simplifier
+  = {terms: 2,120, types: 5,747, coercions: 329}
+!!! Simplifier [Data.HashPSQ.Internal]: finished in 96.00 milliseconds, allocated 58.341 megabytes
+*** Specialise [Data.HashPSQ.Internal]:
+Result size of Specialise
+  = {terms: 2,120, types: 5,747, coercions: 329}
+!!! Specialise [Data.HashPSQ.Internal]: finished in 3.00 milliseconds, allocated 3.018 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashPSQ.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 2,253, types: 6,166, coercions: 329}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashPSQ.Internal]: finished in 24.00 milliseconds, allocated 23.716 megabytes
+*** Simplifier [Data.HashPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 4,143, types: 9,373, coercions: 964}
+Result size of Simplifier iteration=2
+  = {terms: 3,866, types: 8,597, coercions: 897}
+Result size of Simplifier iteration=3
+  = {terms: 3,769, types: 8,339, coercions: 879}
+Result size of Simplifier iteration=4
+  = {terms: 3,768, types: 8,306, coercions: 879}
+Result size of Simplifier
+  = {terms: 3,768, types: 8,306, coercions: 879}
+!!! Simplifier [Data.HashPSQ.Internal]: finished in 178.00 milliseconds, allocated 96.663 megabytes
+*** Simplifier [Data.HashPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 3,725, types: 8,243, coercions: 879}
+Result size of Simplifier iteration=2
+  = {terms: 3,716, types: 8,240, coercions: 879}
+Result size of Simplifier
+  = {terms: 3,716, types: 8,240, coercions: 879}
+!!! Simplifier [Data.HashPSQ.Internal]: finished in 107.00 milliseconds, allocated 62.942 megabytes
+*** Simplifier [Data.HashPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 3,889, types: 8,512, coercions: 878}
+Result size of Simplifier iteration=2
+  = {terms: 3,823, types: 8,438, coercions: 876}
+Result size of Simplifier
+  = {terms: 3,823, types: 8,438, coercions: 876}
+!!! Simplifier [Data.HashPSQ.Internal]: finished in 121.00 milliseconds, allocated 62.820 megabytes
+*** Float inwards [Data.HashPSQ.Internal]:
+Result size of Float inwards
+  = {terms: 3,823, types: 8,438, coercions: 876}
+!!! Float inwards [Data.HashPSQ.Internal]: finished in 11.00 milliseconds, allocated 9.085 megabytes
+*** Called arity analysis [Data.HashPSQ.Internal]:
+Result size of Called arity analysis
+  = {terms: 3,823, types: 8,438, coercions: 876}
+!!! Called arity analysis [Data.HashPSQ.Internal]: finished in 7.00 milliseconds, allocated 4.194 megabytes
+*** Simplifier [Data.HashPSQ.Internal]:
+Result size of Simplifier
+  = {terms: 3,823, types: 8,438, coercions: 876}
+!!! Simplifier [Data.HashPSQ.Internal]: finished in 49.00 milliseconds, allocated 20.728 megabytes
+*** Demand analysis [Data.HashPSQ.Internal]:
+Result size of Demand analysis
+  = {terms: 3,823, types: 8,438, coercions: 876}
+!!! Demand analysis [Data.HashPSQ.Internal]: finished in 36.00 milliseconds, allocated 17.059 megabytes
+*** Worker Wrapper binds [Data.HashPSQ.Internal]:
+Result size of Worker Wrapper binds
+  = {terms: 4,766, types: 10,861, coercions: 876}
+!!! Worker Wrapper binds [Data.HashPSQ.Internal]: finished in 9.00 milliseconds, allocated 2.409 megabytes
+*** Simplifier [Data.HashPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 4,582, types: 10,477, coercions: 893}
+Result size of Simplifier iteration=2
+  = {terms: 4,312, types: 9,784, coercions: 876}
+Result size of Simplifier iteration=3
+  = {terms: 4,175, types: 9,334, coercions: 866}
+Result size of Simplifier iteration=4
+  = {terms: 4,173, types: 9,330, coercions: 866}
+Result size of Simplifier
+  = {terms: 4,173, types: 9,330, coercions: 866}
+!!! Simplifier [Data.HashPSQ.Internal]: finished in 377.00 milliseconds, allocated 110.231 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashPSQ.Internal]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 4,255, types: 9,519, coercions: 866}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashPSQ.Internal]: finished in 62.00 milliseconds, allocated 40.089 megabytes
+*** Common sub-expression [Data.HashPSQ.Internal]:
+Result size of Common sub-expression
+  = {terms: 4,221, types: 9,487, coercions: 862}
+!!! Common sub-expression [Data.HashPSQ.Internal]: finished in 15.00 milliseconds, allocated 7.811 megabytes
+*** Float inwards [Data.HashPSQ.Internal]:
+Result size of Float inwards
+  = {terms: 4,221, types: 9,487, coercions: 862}
+!!! Float inwards [Data.HashPSQ.Internal]: finished in 10.00 milliseconds, allocated 8.784 megabytes
+*** Liberate case [Data.HashPSQ.Internal]:
+Result size of Liberate case
+  = {terms: 4,272, types: 9,533, coercions: 870}
+!!! Liberate case [Data.HashPSQ.Internal]: finished in 5.00 milliseconds, allocated 2.068 megabytes
+*** Simplifier [Data.HashPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 4,244, types: 9,486, coercions: 871}
+Result size of Simplifier
+  = {terms: 4,244, types: 9,486, coercions: 871}
+!!! Simplifier [Data.HashPSQ.Internal]: finished in 97.00 milliseconds, allocated 49.600 megabytes
+*** SpecConstr [Data.HashPSQ.Internal]:
+Result size of SpecConstr
+  = {terms: 4,628, types: 10,122, coercions: 946}
+!!! SpecConstr [Data.HashPSQ.Internal]: finished in 13.00 milliseconds, allocated 7.730 megabytes
+*** Simplifier [Data.HashPSQ.Internal]:
+Result size of Simplifier iteration=1
+  = {terms: 4,617, types: 10,074, coercions: 947}
+Result size of Simplifier iteration=2
+  = {terms: 4,126, types: 9,137, coercions: 862}
+Result size of Simplifier
+  = {terms: 4,126, types: 9,137, coercions: 862}
+!!! Simplifier [Data.HashPSQ.Internal]: finished in 161.00 milliseconds, allocated 76.816 megabytes
+*** CoreTidy [Data.HashPSQ.Internal]:
+Result size of Tidy Core
+  = {terms: 4,146, types: 9,174, coercions: 862}
+!!! CoreTidy [Data.HashPSQ.Internal]: finished in 18.00 milliseconds, allocated 9.229 megabytes
+writeBinIface: 255 Names
+writeBinIface: 440 dict entries
+writeBinIface: 255 Names
+writeBinIface: 440 dict entries
+*** CorePrep [Data.HashPSQ.Internal]:
+Result size of CorePrep
+  = {terms: 4,743, types: 10,265, coercions: 862}
+!!! CorePrep [Data.HashPSQ.Internal]: finished in 15.00 milliseconds, allocated 9.046 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashPSQ.Internal]:
+!!! CodeGen [Data.HashPSQ.Internal]: finished in 359.00 milliseconds, allocated 231.312 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/HashPSQ -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9534_0/ghc_33.s -o dist/dist-sandbox-6afc8227/build/Data/HashPSQ/Internal.o
+*** CorePrep [Data.HashPSQ.Internal]:
+Result size of CorePrep
+  = {terms: 4,743, types: 10,265, coercions: 862}
+!!! CorePrep [Data.HashPSQ.Internal]: finished in 12.00 milliseconds, allocated 8.590 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashPSQ.Internal]:
+!!! CodeGen [Data.HashPSQ.Internal]: finished in 374.00 milliseconds, allocated 243.127 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data/HashPSQ -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9534_0/ghc_35.s -o dist/dist-sandbox-6afc8227/build/Data/HashPSQ/Internal.dyn_o
+*** Deleting temp files:
+Deleting: /tmp/ghc9534_0/ghc_36.c /tmp/ghc9534_0/ghc_35.s /tmp/ghc9534_0/ghc_34.c /tmp/ghc9534_0/ghc_33.s /tmp/ghc9534_0/ghc_32.s
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_36.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_34.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_32.s
+compile: input file src/Data/HashPSQ.hs
+*** Checking old interface for Data.HashPSQ:
+[7 of 7] Compiling Data.HashPSQ     ( src/Data/HashPSQ.hs, dist/dist-sandbox-6afc8227/build/Data/HashPSQ.o )
+*** Parser [Data.HashPSQ]:
+!!! Parser [Data.HashPSQ]: finished in 1.00 milliseconds, allocated 0.619 megabytes
+*** Renamer/typechecker [Data.HashPSQ]:
+!!! Renamer/typechecker [Data.HashPSQ]: finished in 2.00 milliseconds, allocated 0.900 megabytes
+*** Desugar [Data.HashPSQ]:
+Result size of Desugar (after optimization)
+  = {terms: 6, types: 1, coercions: 0}
+!!! Desugar [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+*** Simplifier [Data.HashPSQ]:
+Result size of Simplifier iteration=1
+  = {terms: 10, types: 3, coercions: 0}
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashPSQ]: finished in 1.00 milliseconds, allocated 0.129 megabytes
+*** Specialise [Data.HashPSQ]:
+Result size of Specialise = {terms: 10, types: 3, coercions: 0}
+!!! Specialise [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.052 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashPSQ]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = False})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = False}) [Data.HashPSQ]: finished in 1.00 milliseconds, allocated 0.089 megabytes
+*** Simplifier [Data.HashPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.072 megabytes
+*** Simplifier [Data.HashPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Simplifier [Data.HashPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** Float inwards [Data.HashPSQ]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Called arity analysis [Data.HashPSQ]:
+Result size of Called arity analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Called arity analysis [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.047 megabytes
+*** Simplifier [Data.HashPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Demand analysis [Data.HashPSQ]:
+Result size of Demand analysis
+  = {terms: 10, types: 3, coercions: 0}
+!!! Demand analysis [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.065 megabytes
+*** Worker Wrapper binds [Data.HashPSQ]:
+Result size of Worker Wrapper binds
+  = {terms: 10, types: 3, coercions: 0}
+!!! Worker Wrapper binds [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.045 megabytes
+*** Simplifier [Data.HashPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.069 megabytes
+*** Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashPSQ]:
+Result size of Float out(FOS {Lam = Just 0,
+                              Consts = True,
+                              OverSatApps = True})
+  = {terms: 10, types: 3, coercions: 0}
+!!! Float out(FOS {Lam = Just 0,
+                   Consts = True,
+                   OverSatApps = True}) [Data.HashPSQ]: finished in 1.00 milliseconds, allocated 0.089 megabytes
+*** Common sub-expression [Data.HashPSQ]:
+Result size of Common sub-expression
+  = {terms: 10, types: 3, coercions: 0}
+!!! Common sub-expression [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.049 megabytes
+*** Float inwards [Data.HashPSQ]:
+Result size of Float inwards = {terms: 10, types: 3, coercions: 0}
+!!! Float inwards [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.043 megabytes
+*** Liberate case [Data.HashPSQ]:
+Result size of Liberate case = {terms: 10, types: 3, coercions: 0}
+!!! Liberate case [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.039 megabytes
+*** Simplifier [Data.HashPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** SpecConstr [Data.HashPSQ]:
+Result size of SpecConstr = {terms: 10, types: 3, coercions: 0}
+!!! SpecConstr [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.044 megabytes
+*** Simplifier [Data.HashPSQ]:
+Result size of Simplifier = {terms: 10, types: 3, coercions: 0}
+!!! Simplifier [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.070 megabytes
+*** CoreTidy [Data.HashPSQ]:
+Result size of Tidy Core = {terms: 10, types: 3, coercions: 0}
+!!! CoreTidy [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.063 megabytes
+writeBinIface: 26 Names
+writeBinIface: 74 dict entries
+writeBinIface: 26 Names
+writeBinIface: 74 dict entries
+*** CorePrep [Data.HashPSQ]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.048 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashPSQ]:
+!!! CodeGen [Data.HashPSQ]: finished in 1.00 milliseconds, allocated 0.278 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -x assembler -c /tmp/ghc9534_0/ghc_38.s -o dist/dist-sandbox-6afc8227/build/Data/HashPSQ.o
+*** CorePrep [Data.HashPSQ]:
+Result size of CorePrep = {terms: 10, types: 3, coercions: 0}
+!!! CorePrep [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.050 megabytes
+*** Stg2Stg:
+*** CodeGen [Data.HashPSQ]:
+!!! CodeGen [Data.HashPSQ]: finished in 0.00 milliseconds, allocated 0.276 megabytes
+*** Assembler:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE -Isrc/Data -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build -Idist/dist-sandbox-6afc8227/build/autogen -Idist/dist-sandbox-6afc8227/build -fPIC -U__PIC__ -D__PIC__ -x assembler -c /tmp/ghc9534_0/ghc_40.s -o dist/dist-sandbox-6afc8227/build/Data/HashPSQ.dyn_o
+Upsweep completely successful.
+*** Deleting temp files:
+Deleting: /tmp/ghc9534_0/ghc_41.c /tmp/ghc9534_0/ghc_40.s /tmp/ghc9534_0/ghc_39.c /tmp/ghc9534_0/ghc_38.s /tmp/ghc9534_0/ghc_37.s
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_41.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_39.c
+Warning: deleting non-existent /tmp/ghc9534_0/ghc_37.s
+link(batch): upsweep (partially) failed OR
+   Main.main not exported; not linking.
+*** Deleting temp files:
+Deleting: /tmp/ghc9534_0/ghc_5.hscpp /tmp/ghc9534_0/ghc_3.hscpp /tmp/ghc9534_0/ghc_1.hscpp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc9534_0
+Glasgow Haskell Compiler, Version 8.0.1, stage 2 booted by GHC version 7.8.4
+Using binary package database: /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d/package.cache
+Using binary package database: /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d/package.cache
+Using binary package database: dist/dist-sandbox-6afc8227/package.conf.inplace/package.cache
+loading package database /home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/package.conf.d
+loading package database /home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/x86_64-linux-ghc-8.0.1-packages.conf.d
+loading package database dist/dist-sandbox-6afc8227/package.conf.inplace
+wired-in package ghc-prim mapped to ghc-prim-0.5.0.0
+wired-in package integer-gmp mapped to integer-gmp-1.0.0.1
+wired-in package base mapped to base-4.9.0.0
+wired-in package rts mapped to rts
+wired-in package template-haskell mapped to template-haskell-2.11.0.0
+wired-in package ghc mapped to ghc-8.0.1
+wired-in package dph-seq not found.
+wired-in package dph-par not found.
+Hsc static flags: 
+*** Linker:
+/usr/bin/gcc -fno-stack-protector -DTABLES_NEXT_TO_CODE '-Wl,--hash-size=31' -Wl,--reduce-memory-overheads -Wl,--no-as-needed -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -Wl,-rpath,/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -Wl,-rpath,/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -o dist/dist-sandbox-6afc8227/build/libHSpsqueues-0.2.2.1-47TmnqvhLHH66ZeTYIbJps-ghc8.0.1.so -shared -Wl,-Bsymbolic -Wl,-h,libHSpsqueues-0.2.2.1-47TmnqvhLHH66ZeTYIbJps-ghc8.0.1.so dist/dist-sandbox-6afc8227/build/Data/HashPSQ.dyn_o dist/dist-sandbox-6afc8227/build/Data/IntPSQ.dyn_o dist/dist-sandbox-6afc8227/build/Data/OrdPSQ.dyn_o dist/dist-sandbox-6afc8227/build/Data/BitUtil.dyn_o dist/dist-sandbox-6afc8227/build/Data/HashPSQ/Internal.dyn_o dist/dist-sandbox-6afc8227/build/Data/IntPSQ/Internal.dyn_o dist/dist-sandbox-6afc8227/build/Data/OrdPSQ/Internal.dyn_o -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.4.0-Ctl752zbguF6QanxurLOm2 -L/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/binary-0.8.3.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/containers-0.5.7.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/bytestring-0.10.8.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/deepseq-1.4.2.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/array-0.5.1.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/base-4.9.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/integer-gmp-1.0.0.1 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/ghc-prim-0.5.0.0 -L/home/omer/ghc_bins/ghc-8.0.1/lib64/ghc-8.0.1/rts -lHShashable-1.2.4.0-Ctl752zbguF6QanxurLOm2-ghc8.0.1 -lHStext-1.2.2.1-9Yh8rJoh8fO2JMLWffT3Qs-ghc8.0.1 -lHSbinary-0.8.3.0-ghc8.0.1 -lHScontainers-0.5.7.1-ghc8.0.1 -lHSbytestring-0.10.8.1-ghc8.0.1 -lHSdeepseq-1.4.2.0-ghc8.0.1 -lHSarray-0.5.1.1-ghc8.0.1 -lHSbase-4.9.0.0-ghc8.0.1 -lHSinteger-gmp-1.0.0.1-ghc8.0.1 -lHSghc-prim-0.5.0.0-ghc8.0.1 -lgmp
+Created temporary directory: /tmp/ghc10021_0
+*** Deleting temp files:
+Deleting: /tmp/ghc10021_0/ghc_1.rsp
+*** Deleting temp dirs:
+Deleting: /tmp/ghc10021_0
+Creating package registration file:
+/tmp/pkgConf-psqueues-0.2.211399014741626276121.1
+Installing library in
+/home/omer/haskell/hoogle-4.2.43/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.1/psqueues-0.2.2.1-47TmnqvhLHH66ZeTYIbJps
+Registering psqueues-0.2.2.1...
+cabal: Leaving directory '/tmp/cabal-tmp-1031/psqueues-0.2.2.1'
