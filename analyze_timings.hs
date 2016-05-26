@@ -30,8 +30,8 @@ type StepName = String
 data ModuleTiming = ModuleTiming
   { mtName       :: !Module
   , mtSteps      :: !(M.Map StepName Step)
-  , mtTotalTime  :: Double -- ^ 0 before the post-processing step
-  , mtTotalAlloc :: Double -- ^ 0 before the post-processing step
+  , mtTotalTime  :: !Double -- ^ 0 before the post-processing step
+  , mtTotalAlloc :: !Double -- ^ 0 before the post-processing step
   } deriving (Show)
 
 initModuleTiming :: Module -> M.Map StepName Step -> ModuleTiming
