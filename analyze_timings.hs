@@ -1,5 +1,5 @@
 #!/usr/bin/env stack
--- stack --resolver lts-5.10 --install-ghc runghc --package parsec --package wl-pprint
+-- stack --resolver lts-6.0 --install-ghc runghc --package parsec --package wl-pprint
 
 --------------------------------------------------------------------------------
 
