@@ -39,6 +39,7 @@ initModuleTiming mod steps = ModuleTiming mod steps 0 0
 
 data Step = Step
   { stepModName :: !Module
+  , stepIterations :: !Int -- ^ how many times did the step run?
   , stepName    :: !StepName
   , stepTime    :: !Double -- ^ in milliseconds
   , stepAlloc   :: !Double -- ^ in megabytes
@@ -55,7 +56,7 @@ flattenSteps :: ModuleTiming -> [Step]
 flattenSteps (ModuleTiming _ steps _ _) = concatMap flattenSteps' (M.elems steps)
 
 flattenSteps' :: Step -> [Step]
-flattenSteps' s@(Step _ _ _ _ steps _) = s : concatMap flattenSteps' (M.elems steps)
+flattenSteps' s@Step{ stepSteps = steps } = s : concatMap flattenSteps' (M.elems steps)
 
 --------------------------------------------------------------------------------
 
@@ -92,7 +93,7 @@ parseStep = runParser parser () "<stdin>"
       alloc <- float (makeTokenParser haskellDef)
       string "megabytes"
       eof
-      return (Step modName stepName time alloc M.empty 0.0)
+      return (Step modName 1 stepName time alloc M.empty 0.0)
 
 --------------------------------------------------------------------------------
 
@@ -117,7 +118,7 @@ beginStep :: M.Map Module ModuleTiming -> [StepName] -> StepBeginning
 beginStep ts ss (StepBeginning _ stepName) = (ts, stepName : ss)
 
 addStep :: M.Map Module ModuleTiming -> [StepName] -> Step -> (M.Map Module ModuleTiming, [StepName])
-addStep ts stk@(s : ss) step@(Step mn sn _ _ _ _)
+addStep ts stk@(s : ss) step@Step{ stepModName = mn, stepName = sn }
   | s == sn
   = let
       moduleSteps :: M.Map StepName Step
@@ -138,15 +139,18 @@ addStep' steps [] newStep = M.alter alterStep (stepName newStep) steps
     joinSteps :: Step -> Step -> Step
     joinSteps s1 s2 =
       -- TODO: Make sure module and step names are the same
-      Step (stepModName s1) (stepName s2)
-           (stepTime s1 + stepTime s2)
-           (stepAlloc s1 + stepAlloc s2)
-           (M.unionWith joinSteps (stepSteps s1) (stepSteps s2))
-           0.0
+      Step { stepModName = stepModName s1
+           , stepIterations = stepIterations s1 + stepIterations s2
+           , stepName = stepName s2
+           , stepTime = stepTime s1 + stepTime s2
+           , stepAlloc = stepAlloc s1 + stepAlloc s2
+           , stepSteps = M.unionWith joinSteps (stepSteps s1) (stepSteps s2)
+           , stepOfTotal = 0.0
+           }
 
 addStep' steps (s : ss) newStep =
     let
-      subStep         = fromMaybe (Step (stepModName newStep) s 0 0 M.empty 0.0) (M.lookup s steps)
+      subStep         = fromMaybe (Step (stepModName newStep) 1 s 0 0 M.empty 0.0) (M.lookup s steps)
       subStepSubSteps = addStep' (stepSteps subStep) ss newStep
     in
       M.insert s subStep{ stepSteps = subStepSubSteps } steps
@@ -160,10 +164,12 @@ postProcessSteps mod@(ModuleTiming modName steps _ _) =
     total_alloc = totalAlloc mod
 
     totalTime :: ModuleTiming -> Double
-    totalTime (ModuleTiming _ steps _ _) = M.foldl (\total (Step _ _ t _ _ _) -> total + t) 0.0 steps
+    totalTime (ModuleTiming _ steps _ _) =
+      M.foldl (\total Step{ stepTime = t } -> total + t) 0.0 steps
 
     totalAlloc :: ModuleTiming -> Double
-    totalAlloc (ModuleTiming _ steps _ _) = M.foldl (\total (Step _ _ _ a _ _) -> total + a) 0.0 steps
+    totalAlloc (ModuleTiming _ steps _ _) =
+      M.foldl (\total Step{ stepAlloc = a } -> total + a) 0.0 steps
 
 postProcessSteps' :: Double -> ModuleTiming -> ModuleTiming
 postProcessSteps' total (ModuleTiming modName steps _ _) =
@@ -194,19 +200,21 @@ renderModuleTiming sorter mt@(ModuleTiming modName steps totalTime totalAlloc) =
       PP.text (centerFill modName '=' 85) PP.<$>
         PP.vcat (concatMap (renderStep sorter 0) sortedSteps) PP.<$>
       PP.text (replicate 85 '-') PP.<$>
-      renderLine 0 "Total" totalTime totalAlloc 100.0
+      renderLine 0 "Total" 0 totalTime totalAlloc 100.0
 
 renderStep :: StepSorter -> Int -> Step -> [PP.Doc]
-renderStep sorter nesting (Step _ step time alloc subSteps p) =
+renderStep sorter nesting (Step _ iters step time alloc subSteps p) =
     let
       sortedSteps = reverse (sorter (M.elems subSteps))
     in
-      renderLine nesting step time alloc p
+      renderLine nesting step iters time alloc p
         : concatMap (renderStep sorter (nesting + 1)) sortedSteps
 
-renderLine :: Int -> String -> Double -> Double -> Double -> PP.Doc
-renderLine nesting name time alloc p =
-    PP.hcat [ PP.fill 38 (PP.text (replicate nesting '-') PP.<> PP.text name)
+renderLine :: Int -> String -> Int -> Double -> Double -> Double -> PP.Doc
+renderLine nesting name iters time alloc p =
+    PP.hcat [ PP.fill 38 $ PP.text (replicate nesting '-') PP.<> PP.text name
+                             PP.<+> (if iters > 1 then PP.parens (PP.text (show iters))
+                                                  else PP.empty)
             , PP.text (rightAlignFill (showDouble 2 time) ' ' 10)
             , PP.text " ms"
             , PP.text (rightAlignFill (showDouble 2 alloc) ' ' 10)
